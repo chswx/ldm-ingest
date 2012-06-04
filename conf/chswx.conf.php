@@ -115,4 +115,4 @@ $chswx_tweet_text = array(
 // Tweet hashtag
 //
 
-define('HASHTAG','#chswx')
+define('HASHTAG','#chswx');

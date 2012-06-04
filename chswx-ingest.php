@@ -10,7 +10,7 @@
 // Initiate logging to syslog
 //
 
-openlog('chswx',LOG_ODELAY,LOG_LOCAL0);
+// openlog('chswx',LOG_ODELAY,LOG_LOCAL0);
 
 //
 // Support Files
@@ -44,8 +44,13 @@ $output = trim($output, "\x00..\x1F");
 $output = str_replace("\r\n", "", $output);
 
 // Loop over the file for multiple products within one file identified by $$
-$products = explode('$$');
+$products = explode('$$',$output);
 
 // For now, var_dump the products
 
-syslog(LOG_DEBUG,var_dump($products));
+$myFile = "/home/ldm/data/logging/chswx" . time() . ".txt";
+$fh = fopen($myFile, 'w') or die("can't open file");
+fwrite($fh,var_dump($products));
+fclose($fh);
+
+//syslog(LOG_DEBUG,var_dump($products));

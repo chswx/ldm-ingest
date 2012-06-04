@@ -1,5 +1,2 @@
 Scripts for the next revision of the Charleston Weather site, with the hope
 that they can benefit other weather site operators.
-
-Initially I am depending on npemwin to pull data.  Learn about npemwin
-at http://noaaport.net.

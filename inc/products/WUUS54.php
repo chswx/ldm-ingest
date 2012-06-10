@@ -1,8 +1,8 @@
 <?php
 /*
- * Severe Thunderstorm Warning ingestor.
+ * Ingests a new Severe Thunderstorm Warning. (Updates to the product are in WWUS54, Severe Weather Statements.)
  */
 
-class SevereThunderstormWarning extends NWSProduct {
-	
+class WUUS54 extends NWSProduct {
+
 }

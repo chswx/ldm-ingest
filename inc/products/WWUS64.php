@@ -3,7 +3,7 @@
  * Local WFO Watch County Notification ingestor.
  */
 
-class WFOWatchCountyNotification extends NWSProduct {
-	
+class WWUS64 extends NWSProduct {
+
 }
 ?>

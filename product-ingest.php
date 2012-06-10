@@ -1,16 +1,11 @@
 #!/usr/bin/php
 <?php
-/* CHSWX Ingestor
+/* 
+ * CHSWX Product Ingestor
  * Command-line tool
- * Main entry point for LDM ingest
+ * Main entry point for LDM ingest. This hands off to a factory which generates a class for specific products.
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
-
-//
-// Initiate logging to syslog
-//
-
-// openlog('chswx',LOG_ODELAY,LOG_LOCAL0);
 
 //
 // Support Files
@@ -49,13 +44,11 @@ $output = str_replace("\r\n", "", $output);
 // Loop over the file for multiple products within one file identified by $$
 $products = explode('$$',$output);
 
+//
+// Kick off the factory for each parsed product
+//
 
-
-/*$myFile = "/home/ldm/data/logging/chswx" . time() . ".txt";
-$fh = fopen($myFile, 'w') or die("can't open file");
-fwrite($fh,$products);	
-fclose($fh);*/
-
-
-
-//syslog(LOG_DEBUG,var_dump($products));
+foreach($products as $parsed_product)
+{
+	$parsed_product = NWSProductFactory::parse_product($wmo_id,$product);
+}

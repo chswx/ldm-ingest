@@ -1,12 +1,12 @@
 <?php
 /*
- * Tornado Warning ingestor.
+ * Ingests a new Tornado Warning. (Updates to a tornado warning come in via WWUS54, Severe Weather Statement)
  */
 
-class TornadoWarning extends NWSProduct {
+class WFUS84 extends NWSProduct {
 	
 	function parse() {
-		
+
 	}
 
 }

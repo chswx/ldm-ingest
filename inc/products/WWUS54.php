@@ -1,8 +1,8 @@
 <?php
 /*
- * Severe Weather Statement ingestor.
+ * Ingests a Severe Weather Statement that updates a Severe Thunderstorm or Tornado Warning.
  */
 
-class SevereWeatherStatement extends NWSProduct {
-	
+class WWUS54 extends NWSProduct {
+
 }

@@ -20,7 +20,7 @@ abstract class NWSProduct {
 	 * Abstract function for product-specific parsing.
 	 */
 
-	abstract function parse();
+	abstract function parse($product);
 
 	/*
 	 * Returns the properties of the product.

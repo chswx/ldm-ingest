@@ -13,7 +13,6 @@ abstract class NWSProduct {
 	function __construct($product) {
 		// Keep the raw product around for now
 		$this->raw_product = $product;
-		
 	}
 
 	/*

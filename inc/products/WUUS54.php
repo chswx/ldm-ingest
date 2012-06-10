@@ -6,7 +6,7 @@
 class WUUS54 extends NWSProduct {
 	function parse($product) {
 		// TODO: Write the parser here.
-		$product = "Parsed by WUUS54 class!\n\n" . $product;
+		$product = "Parsed by WUUS54 class!\n\n" . $this->raw_product;
 		return $product;
 	}
 }

@@ -48,7 +48,11 @@ $products = explode('$$',$output);
 // Kick off the factory for each parsed product
 //
 
-foreach($products as $parsed_product)
+foreach($products as $product)
 {
-	$parsed_product = NWSProductFactory::parse_product($wmo_id,$product);
+	$product_parser = NWSProductFactory::parse_product($wmo_id);
+	if(!is_null($product_parser)) {
+		echo ($product_parser->parse());
+	}
 }
+

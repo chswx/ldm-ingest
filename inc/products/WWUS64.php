@@ -4,9 +4,9 @@
  */
 
 class WWUS64 extends NWSProduct {
-	function parse($product) {
+	function parse() {
 		// TODO: Write the parser here.
-		$product = "Parsed by WWUS64 class!\n\n" . $product;
+		$product = "Parsed by WWUS64 class!\n\n" . $this->raw_product;
 		return $product;
 	}
 }

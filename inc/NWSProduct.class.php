@@ -49,7 +49,7 @@ abstract class NWSProduct {
 	 */
 
 	function get_vtec() {
-		if(!empty($this->properties['vtec']['action'])) {
+		if(!empty($this->properties['vtec']['string'])) {
 			return $this->properties['vtec'];
 		}
 
@@ -71,6 +71,14 @@ abstract class NWSProduct {
 
 	function get_vtec_action() {
 		return $this->properties['vtec']['action'];
+	}
+
+	/*
+	 * Retrieve the phenomena number
+	 */
+
+	function get_vtec_event_number() {
+		return $this->properties['vtec']['event_number'];
 	}
 
 	/*
@@ -97,6 +105,48 @@ abstract class NWSProduct {
 		return $this->properties['vtec']['significance'];
 	}
 
+	/*
+	 * Retrieve effective date
+	 */
+
+	function get_vtec_effective_date() {
+		return $this->properties['vtec']['effective_date'];
+	}
+
+	/*
+	 * Retrieve effective time 
+	 */
+
+	function get_vtec_effective_time() {
+		return $this->properties['vtec']['effective_time'];
+	}
+
+	/*
+	 * Retrieve expire date
+	 */
+
+	function get_vtec_expire_date() {
+		return $this->properties['vtec']['expire_date'];
+	}
+
+	/*
+	 * Retrieve expire time
+	 */
+
+	function get_vtec_expire_time() {
+		return $this->properties['vtec']['expire_time'];
+	}
+
+	/*
+	 * Retrieve raw VTEC string
+	 */
+
+	function get_vtec_string() {
+		return $this->properties['vtec']['string'];
+	}
+
+	
+
 	//
 	// Private functions
 	//
@@ -109,6 +159,8 @@ abstract class NWSProduct {
 	 */
 	protected function parse_zones($data)
 	{
+		$data = $this->get_product_text();
+
 		/* first, get rid of newlines */
 		$data = str_replace("\n", '', $data);
 		
@@ -136,7 +188,8 @@ abstract class NWSProduct {
 		
 		
 		$total_zones = explode('-', $total_zones);
-		return $total_zones;
+		// return $total_zones;
+		$this->properties['counties'] = $total_zones;
 	}
 
 	/**
@@ -146,6 +199,8 @@ abstract class NWSProduct {
 	 */
 	protected function expand_ranges($data)
 	{
+		//$data = $this->get_product_text();
+
 		$regex = '/(([0-9]{3})(>[0-9]{3}))/';
 		
 		$count = preg_match_all($regex, $data, $matches);
@@ -170,89 +225,42 @@ abstract class NWSProduct {
 	/* 
 	 * For VTEC-capable products, decode the VTEC string
 	 */
-	protected function parse_vtec($data) {
+	protected function parse_vtec() {
+
+		$data = $this->get_product_text();
+
+		//
+		// Regex out VTEC from the product
+		//
+
+		// Match only operational warnings
+		$regex = "/\/O\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
+
+		// Successful match, save it all
+		if(preg_match_all($regex, $data, $match)) {
+			// Save the VTEC string in its entirety
+			$this->properties['vtec']['string'] = $match[0][0];
+			// VTEC action
+			$this->properties['vtec']['action'] = $match[1][0];
+			// VTEC issuing WFO
+			$this->properties['vtec']['wfo'] = $match[2][0];
+			// VTEC phenomena
+			$this->properties['vtec']['phenomena'] = $match[3][0];
+			// VTEC significance
+			$this->properties['vtec']['significance'] = $match[4][0];
+			// VTEC event number
+			$this->properties['vtec']['event_number'] = $match[5][0];
+			// VTEC start date
+			$this->properties['vtec']['effective_date'] = $match[6][0];
+			// VTEC start time (Z)
+			$this->properties['vtec']['effective_time'] = $match[7][0];
+			// VTEC expire date
+			$this->properties['vtec']['expire_date'] = $match[8][0];
+			// VTEC expire time (Z)
+			$this->properties['vtec']['expire_time'] = $match[9][0];
+		}
 		
-		//
-		// VTEC phenomena codes.
-		//
-		$vtec_phenomena_codes = array(
-			'AF' => 'Ashfall',
-			'AS' => 'Air Stagnation',
-			'BS' => 'Blowing Snow',
-			'BW' => 'Brisk Wind',
-			'BZ' => 'Blizzard',
-			'CF' => 'Coastal Flood',
-			'DS' => 'Dust Storm',
-			'DU' => 'Blowing Dust',
-			'EC' => 'Extreme Cold',
-			'EH' => 'Excessive Heat',
-			'EW' => 'Extreme Wind',
-			'FA' => 'Areal Flood',
-			'FF' => 'Flash Flood',
-			'FG' => 'Dense Fog',
-			'FL' => 'Flood',
-			'FR' => 'Frost',
-			'FW' => 'Fire Weather',
-			'FZ' => 'Freeze',
-			'GL' => 'Gale',
-			'HF' => 'Hurricane Force Wind',
-			'HI' => 'Inland Hurricane',
-			'HS' => 'Heavy Snow',
-			'HT' => 'Heat', 
-			'HU' => 'Hurricane',
-			'HW' => 'High Wind',
-			'HY' => 'Hydrologic',
-			'HZ' => 'Hard Freeze',
-			'IP' => 'Sleet',
-			'IS' => 'Ice Storm',
-			'LB' => 'Lake Effect Snow and Blowing Snow',
-			'LE' => 'Lake Effect Snow',
-			'LO' => 'Low Water',
-			'LS' => 'Lakeshore Flood',
-			'LW' => 'Lake Wind',
-			'MA' => 'Marine',
-			'RB' => 'Small Craft for Rough Bar',
-			'RP' => 'Rip Currents', 	// NWS CHS addition
-			'SB' => 'Snow and Blowing Snow',
-			'SC' => 'Small Craft',
-			'SE' => 'Hazardous Seas',
-			'SI' => 'Small Craft for Winds',
-			'SM' => 'Dense Smoke',
-			'SN' => 'Snow',
-			'SR' => 'Storm',
-			'SU' => 'High Surf',
-			'SV' => 'Severe Thunderstorm',
-			'SW' => 'Small Craft for Hazardous Seas',
-			'TI' => 'Inland Tropical Storm',
-			'TO' => 'Tornado',
-			'TR' => 'Tropical Storm',
-			'TS' => 'Tsunami',
-			'TY' => 'Typhoon',
-			'UP' => 'Ice Accretion',
-			'WC' => 'Wind Chill',
-			'WI' => 'Wind',
-			'WS' => 'Winter Storm',
-			'WW' => 'Winter Weather',
-			'ZF' => 'Freezing Fog',
-			'ZR' => 'Freezing Rain'
-		);
 
-		//
-		// VTEC significance
-		//
-
-		$vtec_significance_codes = array(
-			'W' => 'Warning',
-			'A' => 'Watch',
-			'Y' => 'Advisory',
-			'S' => 'Statement',
-			'F' => 'Forecast',
-			'O' => 'Outlook',
-			'N' => 'Synopsis'
-		);
-
-
-		
 	}	
 
 }

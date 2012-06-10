@@ -9,6 +9,10 @@
 // TODO: Make these configurable via Mustache or some other language.
 //
 
+$product_name = "";
+$location = "";
+$exp_time = "";
+
 $chswx_tweet_text = array(
 	// New VTEC product in effect
 	'NEW' => $product_name . ' now in effect for ' . $location . ' until ' . $exp_time . '.',

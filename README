@@ -1,2 +1,1 @@
-Scripts for the next revision of the Charleston Weather site, with the hope
-that they can benefit other weather site operators.
+Ingestor for National Weather Service products for many uses: Twitter bots, XMPP bots, websites...the tropopause is the limit (outside of a few overshooting tops).  Intended to be totally pluggable -- write a parser for your favorite NWS product and it will be handled.

@@ -22,8 +22,11 @@ include('conf/chswx.conf.php');
 // Bring in the class definition for NWSProduct.
 include('inc/NWSProduct.class.php');
 
+// And its factory
+include('inc/NWSProductFactory.class.php');
+
 // Bring in the Twitter OAuth lib.
-include('lib/twitter/twitteroauth/twitteroauth.php');
+//include('lib/twitter/twitteroauth/twitteroauth.php');
 
 //
 // Execution time
@@ -46,11 +49,13 @@ $output = str_replace("\r\n", "", $output);
 // Loop over the file for multiple products within one file identified by $$
 $products = explode('$$',$output);
 
-// For now, var_dump the products
 
-$myFile = "/home/ldm/data/logging/chswx" . time() . ".txt";
+
+/*$myFile = "/home/ldm/data/logging/chswx" . time() . ".txt";
 $fh = fopen($myFile, 'w') or die("can't open file");
-fwrite($fh,var_dump($products));
-fclose($fh);
+fwrite($fh,$products);	
+fclose($fh);*/
+
+
 
 //syslog(LOG_DEBUG,var_dump($products));

@@ -5,7 +5,7 @@
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
 */
 
-class NWSProduct {
+abstract class NWSProduct {
 	
 	var $raw_product;
 	var $properties;
@@ -13,12 +13,14 @@ class NWSProduct {
 	function __construct($product) {
 		// Keep the raw product around for now
 		$this->raw_product = $product;
-
-		// What are the properties?
-
-
-
+		
 	}
+
+	/*
+	 * Abstract function for product-specific parsing.
+	 */
+
+	abstract function parse();
 
 	/*
 	 * Returns the properties of the product.
@@ -106,7 +108,7 @@ class NWSProduct {
 	 * We will also call the function to expand the ranges here.
 	 * See: http://www.weather.gov/emwin/winugc.htm
 	 */
-	private function parse_zones($data)
+	protected function parse_zones($data)
 	{
 		/* first, get rid of newlines */
 		$data = str_replace("\n", '', $data);
@@ -124,7 +126,7 @@ class NWSProduct {
 			$zones = substr($value, 3);
 			
 			/* convert ranges like 014>016 to 014-015-016 */
-			$zones = expand_ranges($zones);
+			$zones = $this->expand_ranges($zones);
 			
 			/* hack off the last dash */
 			$zones = substr($zones, 0, strlen($zones) - 1);
@@ -143,7 +145,7 @@ class NWSProduct {
 	 * All we want to do here is convert ranges like 014>016 to 014-015-016
 	 * See: http://www.weather.gov/emwin/winugc.htm
 	 */
-	private function expand_ranges($data)
+	protected function expand_ranges($data)
 	{
 		$regex = '/(([0-9]{3})(>[0-9]{3}))/';
 		
@@ -169,8 +171,89 @@ class NWSProduct {
 	/* 
 	 * For VTEC-capable products, decode the VTEC string
 	 */
-	private function parse_vtec($data) {
+	protected function parse_vtec($data) {
+		
+		//
+		// VTEC phenomena codes.
+		//
+		$vtec_phenomena_codes = array(
+			'AF' => 'Ashfall',
+			'AS' => 'Air Stagnation',
+			'BS' => 'Blowing Snow',
+			'BW' => 'Brisk Wind',
+			'BZ' => 'Blizzard',
+			'CF' => 'Coastal Flood',
+			'DS' => 'Dust Storm',
+			'DU' => 'Blowing Dust',
+			'EC' => 'Extreme Cold',
+			'EH' => 'Excessive Heat',
+			'EW' => 'Extreme Wind',
+			'FA' => 'Areal Flood',
+			'FF' => 'Flash Flood',
+			'FG' => 'Dense Fog',
+			'FL' => 'Flood',
+			'FR' => 'Frost',
+			'FW' => 'Fire Weather',
+			'FZ' => 'Freeze',
+			'GL' => 'Gale',
+			'HF' => 'Hurricane Force Wind',
+			'HI' => 'Inland Hurricane',
+			'HS' => 'Heavy Snow',
+			'HT' => 'Heat', 
+			'HU' => 'Hurricane',
+			'HW' => 'High Wind',
+			'HY' => 'Hydrologic',
+			'HZ' => 'Hard Freeze',
+			'IP' => 'Sleet',
+			'IS' => 'Ice Storm',
+			'LB' => 'Lake Effect Snow and Blowing Snow',
+			'LE' => 'Lake Effect Snow',
+			'LO' => 'Low Water',
+			'LS' => 'Lakeshore Flood',
+			'LW' => 'Lake Wind',
+			'MA' => 'Marine',
+			'RB' => 'Small Craft for Rough Bar',
+			'RP' => 'Rip Currents', 	// NWS CHS addition
+			'SB' => 'Snow and Blowing Snow',
+			'SC' => 'Small Craft',
+			'SE' => 'Hazardous Seas',
+			'SI' => 'Small Craft for Winds',
+			'SM' => 'Dense Smoke',
+			'SN' => 'Snow',
+			'SR' => 'Storm',
+			'SU' => 'High Surf',
+			'SV' => 'Severe Thunderstorm',
+			'SW' => 'Small Craft for Hazardous Seas',
+			'TI' => 'Inland Tropical Storm',
+			'TO' => 'Tornado',
+			'TR' => 'Tropical Storm',
+			'TS' => 'Tsunami',
+			'TY' => 'Typhoon',
+			'UP' => 'Ice Accretion',
+			'WC' => 'Wind Chill',
+			'WI' => 'Wind',
+			'WS' => 'Winter Storm',
+			'WW' => 'Winter Weather',
+			'ZF' => 'Freezing Fog',
+			'ZR' => 'Freezing Rain'
+		);
 
-	}
+		//
+		// VTEC significance
+		//
+
+		$vtec_significance_codes = array(
+			'W' => 'Warning',
+			'A' => 'Watch',
+			'Y' => 'Advisory',
+			'S' => 'Statement',
+			'F' => 'Forecast',
+			'O' => 'Outlook',
+			'N' => 'Synopsis'
+		);
+
+
+		
+	}	
 
 }

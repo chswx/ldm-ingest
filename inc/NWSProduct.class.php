@@ -13,6 +13,7 @@ abstract class NWSProduct {
 	function __construct($product) {
 		// Keep the raw product around for now
 		$this->raw_product = $product;
+		$this->properties = $this->parse($this->raw_product);
 	}
 
 	/*
@@ -145,7 +146,13 @@ abstract class NWSProduct {
 		return $this->properties['vtec']['string'];
 	}
 
-	
+	/*
+	 * Check if it is an operational product
+	 */
+
+	function is_operational() {
+		return $this->properties['vtec']['status'] == 'O';
+	}
 
 	//
 	// Private functions
@@ -233,31 +240,33 @@ abstract class NWSProduct {
 		// Regex out VTEC from the product
 		//
 
-		// Match only operational warnings
-		$regex = "/\/O\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
+		// Match all alerts, but we will only use operational warnings
+		$regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
 		// Successful match, save it all
 		if(preg_match_all($regex, $data, $match)) {
 			// Save the VTEC string in its entirety
 			$this->properties['vtec']['string'] = $match[0][0];
+			// VTEC product status
+			$this->properties['vtec']['status'] = $match[1][0];
 			// VTEC action
-			$this->properties['vtec']['action'] = $match[1][0];
+			$this->properties['vtec']['action'] = $match[2][0];
 			// VTEC issuing WFO
-			$this->properties['vtec']['wfo'] = $match[2][0];
+			$this->properties['vtec']['wfo'] = $match[3][0];
 			// VTEC phenomena
-			$this->properties['vtec']['phenomena'] = $match[3][0];
+			$this->properties['vtec']['phenomena'] = $match[4][0];
 			// VTEC significance
-			$this->properties['vtec']['significance'] = $match[4][0];
+			$this->properties['vtec']['significance'] = $match[5][0];
 			// VTEC event number
-			$this->properties['vtec']['event_number'] = $match[5][0];
+			$this->properties['vtec']['event_number'] = $match[6][0];
 			// VTEC start date
-			$this->properties['vtec']['effective_date'] = $match[6][0];
+			$this->properties['vtec']['effective_date'] = $match[7][0];
 			// VTEC start time (Z)
-			$this->properties['vtec']['effective_time'] = $match[7][0];
+			$this->properties['vtec']['effective_time'] = $match[8][0];
 			// VTEC expire date
-			$this->properties['vtec']['expire_date'] = $match[8][0];
+			$this->properties['vtec']['expire_date'] = $match[9][0];
 			// VTEC expire time (Z)
-			$this->properties['vtec']['expire_time'] = $match[9][0];
+			$this->properties['vtec']['expire_time'] = $match[10][0];
 		}
 		
 

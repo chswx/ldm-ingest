@@ -10,13 +10,9 @@ class WFUS50 extends NWSProduct {
 
 		// STEP 1: Pull in counties
 		$this->parse_zones($this->get_product_text());
-		//var_dump($this->properties['counties']);
 
 		// STEP 2: Parse out VTEC
 		$this->parse_vtec();
-
-		/*echo "VTEC string: ";
-		var_dump($this->get_vtec_string());*/
 
 		// FINAL: Return the properties array
 

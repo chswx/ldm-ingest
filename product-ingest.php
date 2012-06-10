@@ -53,23 +53,35 @@ $output = preg_replace('/[\r\n\s\t]+/xms', ' ', trim($output));
 
 //echo($output);
 
-// Loop over the file for multiple products within one file identified by $$
-$products = explode('$$',trim($output), -1);
-//var_dump($products);
+// Check if the product contains $$ identifiers for multiple products
+if(strpos($output, "$$")) {
+	// Loop over the file for multiple products within one file identified by $$
+	$products = explode('$$',trim($output), -1);
+}
+else {
+	// No delimiters
+	$products = array(trim($output));
+}
+
+// var_dump($products);
 //
 // Kick off the factory for each parsed product
 //
 
 foreach($products as $product)
 {
-	$product_parser = NWSProductFactory::parse_product($wmo_id,$product);
-	if(!is_null($product_parser)) {
+	$product_obj = NWSProductFactory::parse_product($wmo_id,$product);
+	if(!is_null($product_obj)) {
 		//var_dump($product_parser->parse());
-		$product_data = $product_parser->parse();
+		$product_data = $product_obj->get_properties();
+		if(!$product_obj->is_operational()) {
+			echo "Non-operational warning!\n";
+		}
 		//var_dump($product_data);
 		
 		//
 		// Let's try a "tweet" via Mustache
+		// TODO: Something more permanent
 		//
 
 		// First, set up the Mustache variables in an array
@@ -81,7 +93,7 @@ foreach($products as $product)
 			'exp_time' => $product_data['vtec']['expire_time'] . "Z"
 		);
 
-		echo $m->render($chswx_tweet_text[$product_data['vtec']['action']],$product_variables);
+		echo $m->render($chswx_tweet_text[$product_data['vtec']['action']] . " " . HASHTAG, $product_variables);
 	}
 	else {
 		echo "Product parser for $wmo_id is null\n";

@@ -123,6 +123,14 @@ abstract class NWSProduct {
 	}
 
 	/*
+	 * Retrieve a UNIX timestamp for the effective date and time
+	 */
+
+	function get_vtec_effective_timestamp() {
+		return strtotime($this->properties['vtec']['effective_timestamp']);
+	}
+
+	/*
 	 * Retrieve expire date
 	 */
 
@@ -263,13 +271,24 @@ abstract class NWSProduct {
 			$this->properties['vtec']['effective_date'] = $match[7][0];
 			// VTEC start time (Z)
 			$this->properties['vtec']['effective_time'] = $match[8][0];
+			// VTEC start time (UNIX timestamp)
+			$vtec_effective_year = substr($this->properties['vtec']['effective_date'],0,2);
+			echo "Effective year: " . $vtec_effective_year;
+			$vtec_effective_month = substr($this->properties['vtec']['effective_date'],2,2);
+			echo "Effective month: " . $vtec_effective_month;
+			$vtec_effective_day = substr($this->properties['vtec']['effective_date'],4,2);
+			echo "Effective day: " . $vtec_effective_day;
+			$vtec_effective_date_string = '20' . $vtec_effective_year . '-' . $vtec_effective_month . '-' . $vtec_effective_day;
+			$this->
+			$this->properties['vtec']['effective_timestamp']
 			// VTEC expire date
 			$this->properties['vtec']['expire_date'] = $match[9][0];
 			// VTEC expire time (Z)
 			$this->properties['vtec']['expire_time'] = $match[10][0];
 		}
 		
-
 	}	
+
+
 
 }

@@ -10,16 +10,6 @@
 date_default_timezone_set('America/New_York');
 
 //
-// Tweet text based on VTEC action identifiers
-// Non-VTEC products will be rare on this bot.
-// TODO: Make these configurable via Mustache or some other language.
-//
-
-$product_name = "";
-$location = "";
-$exp_time = "";
-
-//
 // VTEC phenomena codes.
 //
 $vtec_phenomena_codes = array(
@@ -99,7 +89,15 @@ $vtec_significance_codes = array(
 );
 
 //
-// Tweet hashtag
+// Active zones
 //
 
-define('HASHTAG','#chswx');
+$active_zones = array(
+	'SCZ050',
+	'SCZ052',
+	'SCZ045',
+	'SCZ044',
+	'SCC015',
+	'SCC019',
+	'SCC035'
+);

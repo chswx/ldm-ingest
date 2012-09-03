@@ -16,11 +16,20 @@ abstract class NWSProduct {
         $this->properties = $this->parse($this->raw_product);
     }
 
-    /*
+    /**
      * Abstract function for product-specific parsing.
      */
-
     abstract function parse();
+
+    /**
+     * Abstract function to get the name of the product.
+     */
+    abstract function get_name();
+
+    /**
+     * Abstract function requesting that each product provide an expiration.
+     */
+    abstract function get_expiry();
 
     /*
      * Returns the properties of the product.
@@ -28,6 +37,16 @@ abstract class NWSProduct {
     function get_properties()
     {
         return $this->properties;
+    }
+
+    /**
+     * Return the zones for this product.
+     * 
+     * @return array of zones
+     */
+    
+    function get_location_zones() {
+        return $this->properties['zones'];
     }
 
     /*
@@ -127,7 +146,13 @@ abstract class NWSProduct {
      */
 
     function get_vtec_effective_timestamp() {
-        return strtotime($this->properties['vtec']['effective_timestamp']);
+        if($this->properties['vtec']['effective_date'] != '000000') {
+            return strtotime($this->properties['vtec']['effective_timestamp']);
+        }
+        else
+        {
+            return 0;
+        }
     }
 
     /*
@@ -147,6 +172,19 @@ abstract class NWSProduct {
     }
 
     /*
+     * Retrieve expire timestamp
+     */
+    
+    function get_vtec_expire_timestamp() {
+        if($this->properties['vtec']['expire_time'] != '000000') {
+            return strtotime($this->properties['vtec']['expire_timestamp']);
+        }
+        else {
+            return 0;
+        }
+    }
+
+    /*
      * Retrieve raw VTEC string
      */
 
@@ -162,6 +200,27 @@ abstract class NWSProduct {
         return $this->properties['vtec']['status'] == 'O';
     }
 
+    /**
+     * Was this product issued for a particular zone?
+     * 
+     * @param array $zones Array of zone codes to check against
+     * @return boolean Array search result - true if found, false if not
+     */
+    function in_zone($zones) {
+        foreach($zones as $zone) {
+            //echo "Checking zone $zone\n";
+            if(in_array($zone,$this->properties['zones'])) {
+                return true;
+            }    
+            else
+            {
+                $array_search_result = false;
+            }
+        }
+
+        return $array_search_result;
+    }
+
     //
     // Private functions
     //
@@ -174,7 +233,6 @@ abstract class NWSProduct {
      */
     protected function parse_zones($data)
     {
-        $data = $this->get_product_text();
 
         /* first, get rid of newlines */
         $data = str_replace("\n", '', $data);
@@ -204,7 +262,7 @@ abstract class NWSProduct {
         
         $total_zones = explode('-', $total_zones);
         // return $total_zones;
-        $this->properties['counties'] = $total_zones;
+        $this->properties['zones'] = $total_zones;
     }
 
     /**
@@ -271,24 +329,61 @@ abstract class NWSProduct {
             $this->properties['vtec']['effective_date'] = $match[7][0];
             // VTEC start time (Z)
             $this->properties['vtec']['effective_time'] = $match[8][0];
-            // VTEC start time (UNIX timestamp)
+            // VTEC start time (UNIX timestamp), but only if it's not zeroes across the board
             $vtec_effective_year = substr($this->properties['vtec']['effective_date'],0,2);
-            echo "Effective year: " . $vtec_effective_year;
+            //echo "Effective year: " . $vtec_effective_year;
             $vtec_effective_month = substr($this->properties['vtec']['effective_date'],2,2);
-            echo "Effective month: " . $vtec_effective_month;
+            //echo "Effective month: " . $vtec_effective_month;
             $vtec_effective_day = substr($this->properties['vtec']['effective_date'],4,2);
-            echo "Effective day: " . $vtec_effective_day;
-            $vtec_effective_date_string = '20' . $vtec_effective_year . '-' . $vtec_effective_month . '-' . $vtec_effective_day;
-            
-            $this->properties['vtec']['effective_timestamp'];
+            //echo "Effective day: " . $vtec_effective_day;
+            $vtec_effective_date_string = '20' . $vtec_effective_year . '-' . $vtec_effective_month . '-' . $vtec_effective_day . ' ' . $this->properties['vtec']['effective_time'] . 'Z';
+            $this->properties['vtec']['effective_timestamp'] = $vtec_effective_date_string;
             // VTEC expire date
             $this->properties['vtec']['expire_date'] = $match[9][0];
             // VTEC expire time (Z)
             $this->properties['vtec']['expire_time'] = $match[10][0];
+            // VTEC expire time (timestamp)
+            $vtec_expire_year = substr($this->properties['vtec']['expire_date'],0,2);
+            //echo "Effective year: " . $vtec_effective_year;
+            $vtec_expire_month = substr($this->properties['vtec']['expire_date'],2,2);
+            //echo "Effective month: " . $vtec_effective_month;
+            $vtec_expire_day = substr($this->properties['vtec']['expire_date'],4,2);
+            //echo "Effective day: " . $vtec_effective_day;
+            $vtec_expire_date_string = '20' . $vtec_expire_year . '-' . $vtec_expire_month . '-' . $vtec_expire_day . ' ' . $this->properties['vtec']['expire_time'] . 'Z';
+            $this->properties['vtec']['expire_timestamp'] = $vtec_expire_date_string;
         }
         
-    }   
+    }
 
+    /**
+     * Protected function to retrieve name of product from VTEC
+     * Can be implemented in inheriting classes as the required get_name call
+     */
+    
+    protected function get_name_from_vtec() {
+        global $vtec_phenomena_codes, $vtec_significance_codes;
 
+        if($this->get_vtec()) {
+            return $vtec_phenomena_codes[$this->get_vtec_phenomena()] . " " . $vtec_significance_codes[$this->get_vtec_significance()];
+        }
+        else {
+            return null;
+        }
+    }
 
+    /**
+     * Protected function to retrieve expiry date from VTEC
+     * Really is the recommended way for watches and warnings
+     * 
+     * @todo Needs to account for date as well as time
+     * @return VTEC timestamp if valid, null if not
+     */
+    protected function get_expiry_from_vtec() {
+        if($this->get_vtec()) {
+            return $this->get_vtec_expire_timestamp();
+        }
+        else {
+            return null;
+        }
+    }
 }

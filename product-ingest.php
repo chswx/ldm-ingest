@@ -23,6 +23,13 @@ include('inc/NWSProductFactory.class.php');
 // Mustache library
 include('lib/mustache/Mustache.php');
 
+// Geodata library
+include('inc/geo/GeoLookup.class.php');
+
+// Tweet generation library
+
+include('inc/output/WxTweet.class.php');
+
 // Initialize Mustache
 $m = new Mustache;
 
@@ -36,14 +43,14 @@ $m = new Mustache;
 // Get the file path from the command line.
 $file_path = $argv[1];
 
-// Get the WMO ID -- TODO: Make this a bit more automatic
-$wmo_id = $argv[2];
-
 // Bring in the file
 $m_text = file_get_contents($file_path);
 
 // Sanitize the file
 $output = trim($m_text, "\x00..\x1F");
+
+// Get the WMO ID
+$wmo_id = preg_match('/[A-Z]{4}[0-9]{2}/',$output);
 
 //
 // TODO: Move this check back later in the sequence
@@ -67,30 +74,22 @@ foreach($products as $product)
 {
 	$product_obj = NWSProductFactory::parse_product($wmo_id,$product);
 	if(!is_null($product_obj)) {
-		//var_dump($product_parser->parse());
-		//$product_data = $product_obj->get_properties();
-		if(!$product_obj->is_operational()) {
-			echo "Non-operational warning!\n";
+		$product_data = $product_obj->get_properties();
+
+		//
+		// New tweet if the warning is in a particular zone
+		// 
+		if($product_obj->in_zone($active_zones)) {
+			$tweet = new WxTweet($product_obj);
+			echo $tweet->render_tweet();
+			echo "\n";
 		}
-		//var_dump($product_data);
-		
-		//
-		// Let's try a "tweet" via Mustache
-		// TODO: Something more permanent
-		//
-
-		// First, set up the Mustache variables in an array
-		//$product_variables = array(
-		//	'product_name' => $vtec_phenomena_codes[$product_data['vtec']['phenomena']] . " " . $vtec_significance_codes[$product_data['vtec']['significance']],
-			// TODO: County lookup
-		//	'location' => 'Taco County',
-			// Expiration time (TODO: convert to current timezone)
-		//	'exp_time' => $product_data['vtec']['expire_time'] . "Z"
-		//);
-
-		echo $m->render($chswx_tweet_text[$product_data['vtec']['action']] . " " . HASHTAG, $product_variables);
 	}
 	else {
 		echo "Product parser for $wmo_id is null\n";
 	}
+}
+
+if(empty($tweet)) {
+	echo "No products matched required rules.\n";
 }

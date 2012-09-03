@@ -59,7 +59,7 @@ class WxTweet
 			$tweet_vars['exp_time'] = "the future"; // TODO: Calculate this
 		}
 
-		$tweet_template = $this->$product->get_vtec_action() . $template_suffix;
+		$tweet_template = $this->product->get_vtec_action() . $template_suffix;
 
 		return $m->render($tweet_template,$tweet_vars);
 	}

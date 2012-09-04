@@ -18,7 +18,7 @@ class WxTweet
 		// Product continues (especially convective watches and warnings)
 		'CON' => "{{product_name}} for {{location}} continues until {{exp_time}}.",
 		// VTEC continuation of product in the future. Treat as a reminder.
-		'CON_FUTURE' => "Reminder: {{product_name}} for {{location}} will go into effect from {{start_time}} to {{exp_time}}.", 
+		'CON_FUTURE' => "Reminder: {{product_name}} for {{location}} will go into effect at {{start_time}} until {{exp_time}}.", 
 		// Product will be allowed to expire at scheduled time
 		'EXP' => "{{product_name}} for {{location}} will expire at {{exp_time}}.",
 		// Product has been cancelled ahead of schedule (typically convective watches and warnings)
@@ -30,7 +30,9 @@ class WxTweet
 		// Product extended both in area and time. Again, treat like a new issuance, with language superseding previous issuance
 		'EXB' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// TODO: Indicate what product was upgraded from. Don't see this in the wild often, don't tweet upgrades.
-		'UPG' => "{{old_product_name}} for {{location}} has been upgraded to a {{new_product_name}} until {{exp_time}}.", 
+		// Use later: 'UPG' => "{{old_product_name}} for {{location}} has been upgraded to a {{new_product_name}} until {{exp_time}}.", 
+		// For now...
+		'UPG' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// Not yet displaying corrections, but TODO enable this when warnings are published to the Web and tweeted.
 		'COR' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// Not sure when we would see this one, either.  Including for completeness but I don't expect to tweet it.

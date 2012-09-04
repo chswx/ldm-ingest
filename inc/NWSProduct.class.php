@@ -46,6 +46,7 @@ abstract class NWSProduct {
      */
     
     function get_location_zones() {
+        //print_r($this->properties['zones']);
         return $this->properties['zones'];
     }
 
@@ -55,7 +56,25 @@ abstract class NWSProduct {
 
     function get_product_text() 
     {
+        //echo $this->raw_product;
+        //echo str_replace("\n", "", $this->raw_product);
         return $this->raw_product;
+    }
+
+    /**
+     * Notifies the relay system that this is OK to relay.
+     * 
+     * @todo Add multiple relay permissions
+     * @return boolean
+     */
+    function can_relay() {
+        if((!empty($this->properties['vtec']) && $this->properties['vtec']['status'] == 'O') || !empty($this->properties['relay'])) {
+            return $this->properties['relay'];
+        }
+        else
+        {
+            return false;
+        }
     }
 
     //
@@ -233,9 +252,17 @@ abstract class NWSProduct {
      */
     protected function parse_zones($data)
     {
+        $data = $this->get_product_text();
 
-        /* first, get rid of newlines */
-        $data = str_replace("\n", '', $data);
+        $output = str_replace(array("\r\n", "\r"), "\n", $data);
+        $lines = explode("\n", $output);
+        $new_lines = array();
+
+        foreach ($lines as $i => $line) {
+            if(!empty($line))
+                $new_lines[] = trim($line);
+        }
+        $data = implode($new_lines);
         
         /* split up individual states - multiple states may be in the same forecast */
         $regex = '/(([A-Z]{2})(C|Z){1}([0-9]{3})((>|-)[0-9]{3})*)-/';
@@ -248,7 +275,7 @@ abstract class NWSProduct {
             /* since the NWS thought it was efficient to not repeat state codes, we have to reverse that */
             $state = substr($value, 0, 3);
             $zones = substr($value, 3);
-            
+
             /* convert ranges like 014>016 to 014-015-016 */
             $zones = $this->expand_ranges($zones);
             

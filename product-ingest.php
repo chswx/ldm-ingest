@@ -27,14 +27,14 @@ include('lib/mustache/Mustache.php');
 include('inc/geo/GeoLookup.class.php');
 
 // Tweet generation library
-
 include('inc/output/WxTweet.class.php');
 
 // Initialize Mustache
 $m = new Mustache;
 
-// Bring in the Twitter OAuth lib.
-//include('lib/twitter/twitteroauth/twitteroauth.php');
+// Bring in the Twitter OAuth lib and local config.
+include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
+include('oauth.config.php');
 
 //
 // Execution time
@@ -50,7 +50,9 @@ $m_text = file_get_contents($file_path);
 $output = trim($m_text, "\x00..\x1F");
 
 // Get the WMO ID
-$wmo_id = preg_match('/[A-Z]{4}[0-9]{2}/',$output);
+preg_match('/[A-Z][A-Z][A-Z][A-Z][0-9][0-9]/',$output,$matches);
+$wmo_id = $matches[0];
+//echo "WMO ID is $wmo_id";
 
 //
 // TODO: Move this check back later in the sequence
@@ -79,17 +81,25 @@ foreach($products as $product)
 		//
 		// New tweet if the warning is in a particular zone
 		// 
-		if($product_obj->in_zone($active_zones)) {
+		if($product_obj->in_zone($active_zones) && $product_obj->can_relay()) {
 			$tweet = new WxTweet($product_obj);
-			echo $tweet->render_tweet();
-			echo "\n";
+			$tweet_text = $tweet->render_tweet();
+			// Authenticate with Twitter
+			$twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
+			if(!$twitter->post('statuses/update',array('status' => $tweet_text))) {
+				log_message("product-ingest.php: Error sending a tweet.")
+			}
 		}
 	}
 	else {
-		echo "Product parser for $wmo_id is null\n";
+		log_message("product-ingest.php: Product parser for $wmo_id is null.");
 	}
 }
 
 if(empty($tweet)) {
-	echo "No products matched required rules.\n";
+	log_message("product-ingest.php: No products matched required rules.");
+}
+
+function log_message($message) {
+	error_log("[" . date('m-d-Y g:i:s A') . "] " . $message . "\n",3,'/home/ldm/chswx-error.log');
 }

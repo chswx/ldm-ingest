@@ -4,7 +4,7 @@
  */
 
 class WWUS60 extends NWSProduct {
-	function parse($in_product) {
+	function parse() {
 		// TODO: Write the parser here.
 		
 		// STEP 1: Pull in counties
@@ -12,6 +12,17 @@ class WWUS60 extends NWSProduct {
 
 		// STEP 2: Parse out VTEC
 		$this->parse_vtec();
+
+		// STEP 3: Relay readiness
+		// Only if continuing, extending, or canceling the watch
+		// TODO: Be really careful about handling watch upgrades, SPC is weird like this
+		if($this->get_vtec_action() != "NEW") {
+			$this->properties['relay'] = true;
+		}
+		else
+		{
+			$this->properties['relay'] = false;
+		}
 
 		// FINAL: Return the properties array
 

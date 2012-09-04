@@ -8,6 +8,9 @@ class WWUS80 extends NWSProduct {
 		// STEP 1: Pull in counties
 		$this->parse_zones($this->get_product_text());
 
+		// Do not relay for now
+		$this->properties['relay'] = false;
+
 		return $this->properties;
 	}
 

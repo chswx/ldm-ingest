@@ -14,7 +14,13 @@ class WOUS60 extends NWSProduct {
 		$this->parse_vtec();
 
 		// FINAL: Return the properties array
-
+		if($this->get_vtec_action() == 'NEW') {
+			$this->properties['relay'] = true;
+		}
+		else
+		{
+			$this->properties['relay'] = false;
+		}
 		return $this->properties;
 	}
 

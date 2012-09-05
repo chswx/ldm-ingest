@@ -240,6 +240,67 @@ abstract class NWSProduct {
         return $array_search_result;
     }
 
+    /**
+     * Retrieve tweet templates.
+     * Overridden in more specific classes. Return null here.
+     * 
+     * @return null
+     */
+    function get_tweet_templates() {
+        return null;
+    }
+
+    /**
+     * Retrieve location string for use in broadcasts.
+     * 
+     * @return string Final location string.
+     */
+    function get_location_string() {
+        $zones = GeoLookup::get_zones($this->get_location_zones());
+        $zone_count = count($zones);
+        foreach($zones as $zone) {
+            $location_string .= $zone;
+            if($zone_count > 2)
+            {
+                $location_string .= ", ";
+            }
+            else if($zone_count > 1) {
+                $location_string .= " and ";
+            }
+            --$zone_count;
+        }
+
+        /**
+         * @todo Need to flesh out some more -- in LA, these are Parishes; in VA, independent cities are named
+         */
+        if(sizeof($zones) > 1) {
+            $location_string .= " counties";
+        }
+        else {
+            $location_string .= " County";
+        }
+
+        return $location_string;
+    }
+
+    /**
+     * Render tweets needed for product.
+     * Allow child products to override.
+     * 
+     * @return array Tweet text for each tweet needed by product.
+     */
+    function get_tweets() {
+        global $active_zones;
+
+        $tweet_text = array();
+
+        if($this->in_zone($active_zones) && $this->can_relay()) {
+            $tweet = new WxTweet($this);
+            $tweet_text[] = $tweet->render_tweet($this->get_tweet_templates());
+        }
+        return $tweet_text;
+    }
+
     //
     // Private functions
     //

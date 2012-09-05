@@ -44,6 +44,9 @@ class WxTweet
 	// Local storage for the active product
 	var $product_obj;
 
+	// Current time (for time comparisons)
+	var $curr_timestamp;
+
 	// Expecting a product object...expecting too much?
 	// Return tweet text for the Twitter library
 	function __construct($product) {
@@ -62,66 +65,77 @@ class WxTweet
 
 		$m = new Mustache;
 
+		// If we have a null tweet template coming in, set to the object's
+		if(is_null($tweet_template)) {
+			$tweet_text = $this->tweet_text;
+		}
+		else {
+			$tweet_text = $tweet_template;
+		}
+
+		// Get the current timestamp
+		$this->curr_timestamp = strtotime("08/19/2012 00:00");
+		$curr_time = $this->curr_timestamp;
 		// Template suffix declaration...just in case
 		$template_suffix = '';
 
-		$location_string = '';
-
-		// Get friendly names of zones in an array
-		$zones = GeoLookup::get_zones($this->product_obj->get_location_zones());
-		//print_r($zones);
-		// Render these zones out
-		// TODO May need a refactor
-		//echo "Number of zones: " . count($zones) . "\n";
-		$zone_count = count($zones);
-		foreach($zones as $zone) {
-			$location_string .= $zone;
-			if($zone_count > 2)
-			{
-				$location_string .= ", ";
-			}
-			else if($zone_count > 1) {
-				$location_string .= " and ";
-			}
-			--$zone_count;
-		}
-
-		if(sizeof($zones) > 1) {
-			$location_string .= " counties";
-		}
-		else {
-			$location_string .= " County";
-		}
+		// Generate the location string
+		$location_string = $this->product_obj->get_location_string();
 
 		$tweet_vars['product_name'] = $this->product_obj->get_name();
 		$tweet_vars['location'] = $location_string;
+
+		//
+		// Determine format of expiration time.
+		//
 		if($this->product_obj->get_expiry() == '0') {
+			// Warning is indefinite (some flood warnings, tropical cyclone watches/warnings)
 			$tweet_vars['exp_time'] = "further notice";
 		}
 		else if(!is_null($this->product_obj->get_expiry())) {
-			$tweet_vars['exp_time'] = date('g:i A',$this->product_obj->get_expiry());
+			$expire_stamp = $this->product_obj->get_expiry();
+
+			// For alerts starting more than 24 hours out, add effective date
+			if($expire_stamp - $curr_time >= 86400) {
+				$date_format = 'M j g:i A';
+			}
+			else {
+				$date_format = 'g:i A';
+			}
+			$tweet_vars['exp_time'] = date($date_format,$expire_stamp);
 		}
 		else {
 			$template_suffix = "_NO_EXPIRE";
 		}
 
-		if(!is_null($this->product_obj->get_expiry())) {
+		if(!is_null($this->product_obj->get_vtec_effective_timestamp())) {
 			if($this->is_future()) {
+				echo "We are in the future!\n";
+
+				$effective_stamp = $this->product_obj->get_vtec_effective_timestamp();
+				// echo "Effective timestamp: " . $effective_stamp;
 				$template_suffix = "_FUTURE";
-				$tweet_vars['exp_time'] = "the future"; // TODO: Calculate this
+				
+				// For alerts starting more than 24 hours out, add effective date
+				if($effective_stamp - $curr_time >= 86400) {
+					$date_format = 'M j g:i A';
+				}
+				else {
+					$date_format = 'g:i A';
+				}
+				
+				$tweet_vars['start_time'] = date($date_format,$effective_stamp);
 			}
 		}
 
-		if(is_null($tweet_template)) {
-			if($this->product_obj->get_vtec()) {
-				$tweet_template = $this->product_obj->get_vtec_action() . $template_suffix;
-			}
-			else {
-				$tweet_template = $template_suffix;
-			}
+		if($this->product_obj->get_vtec()) {
+			$template_select = $this->product_obj->get_vtec_action() . $template_suffix;
 		}
-
-		return $m->render($this->tweet_text[$tweet_template],$tweet_vars);
+		else {
+			$template_select = $template_suffix;
+		}
+		
+		return $m->render($tweet_text[$template_select],$tweet_vars);
 	}
 
 	/**
@@ -131,7 +145,7 @@ class WxTweet
 	 */
 	
 	protected function is_future() {
-		if($this->product_obj->get_vtec_effective_timestamp() > time()) {
+		if($this->product_obj->get_vtec_effective_timestamp() > $this->curr_timestamp) {
 			// Product effective timestamp per VTEC is in the future.
 			return true;
 		}

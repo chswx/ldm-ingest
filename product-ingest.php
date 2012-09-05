@@ -54,6 +54,8 @@ preg_match('/[A-Z][A-Z][A-Z][A-Z][0-9][0-9]/',$output,$matches);
 $wmo_id = $matches[0];
 //echo "WMO ID is $wmo_id";
 
+log_message("Product ingest running - WMO ID: " . $wmo_id . " File Path: " . $file_path);
+
 //
 // TODO: Move this check back later in the sequence
 //
@@ -74,21 +76,26 @@ else {
 
 foreach($products as $product)
 {
-	$product_obj = NWSProductFactory::parse_product($wmo_id,$product);
-	if(!is_null($product_obj)) {
-		$product_data = $product_obj->get_properties();
+	$product_parsed = NWSProductFactory::parse_product($wmo_id,$product);
+	if(!is_null($product_parsed)) {
+		//$product_data = $product_parsed->get_properties();
+		
+		// Authenticate with Twitter
+		$twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
+		$tweets = $product_parsed->get_tweets();
 
-		//
-		// New tweet if the warning is in a particular zone
-		// 
-		if($product_obj->in_zone($active_zones) && $product_obj->can_relay()) {
-			$tweet = new WxTweet($product_obj);
-			$tweet_text = $tweet->render_tweet();
-			// Authenticate with Twitter
-			$twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
-			if(!$twitter->post('statuses/update',array('status' => $tweet_text))) {
-				log_message("product-ingest.php: Error sending a tweet.")
+		if(!empty($tweets)) {
+			foreach($tweets as $tweet_text) {
+				//echo "Length of tweet: " . strlen($tweet_text) . "\n";
+				//echo $tweet_text;
+				if(!$twitter->post('statuses/update',array('status' => $tweet_text))) {
+					log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
+				}
 			}
+		}
+		else
+		{
+			log_message("product-ingest.php: No tweet for $wmo_id from " . $product_parsed->get_vtec_wfo());
 		}
 	}
 	else {
@@ -96,10 +103,16 @@ foreach($products as $product)
 	}
 }
 
-if(empty($tweet)) {
-	log_message("product-ingest.php: No products matched required rules.");
-}
-
 function log_message($message) {
-	error_log("[" . date('m-d-Y g:i:s A') . "] " . $message . "\n",3,'/home/ldm/chswx-error.log');
+	$log_format = "[" . date('m-d-Y g:i:s A') . "] " . $message . "\n";
+	$log_location = '/home/ldm/chswx-error.log';
+	$log_mode = 0; 	// defaults to syslog/stderr
+
+	if(file_exists('/home/ldm/chswx-error.log')) {
+		$log_mode = 3;
+		error_log($log_format,$log_mode,$log_location);
+	}
+	else {
+		error_log($log_format,$log_mode);
+	}
 }

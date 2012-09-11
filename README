@@ -1,1 +1,3 @@
-Ingestor for National Weather Service products for many uses: Twitter bots, XMPP bots, websites...the tropopause is the limit (outside of a few overshooting tops).  Intended to be totally pluggable -- write a parser for your favorite NWS product and it will be handled.
+Scripts to ingest and handle NWS products -- in this case, for LDM, but could theoretically be ported to other systems.
+
+This particular codebase will be tested on the @chswx bot. Most development will occur on https://code.google.com/p/updraftnetworks-text-products/ 

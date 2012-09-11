@@ -5,7 +5,7 @@
  * Ultimately encapsulates the process with which a tweet is issued
  */
 
-class WxTweet
+class Twitter
 {
 	// Base array of basic tweet text
 	// Mustache variables
@@ -74,7 +74,7 @@ class WxTweet
 		}
 
 		// Get the current timestamp
-		$this->curr_timestamp = strtotime("08/19/2012 00:00");
+		$this->curr_timestamp = time();
 		$curr_time = $this->curr_timestamp;
 		// Template suffix declaration...just in case
 		$template_suffix = '';

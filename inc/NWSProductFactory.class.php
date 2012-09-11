@@ -17,10 +17,9 @@ class NWSProductFactory {
 			// Instantiate the class
 			$parser = new $wmo_header_generic($product);
 		}
-		// It's not here...return null to the ingestor.
+		// It's not here...return a generic parsing library.
 		else
 		{
-			//echo "Parser is null";
 			include_once(dirname(__FILE__) . "/products/Generic.php");
 			$parser = new GenericProduct($product);
 		}

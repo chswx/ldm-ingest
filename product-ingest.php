@@ -8,11 +8,15 @@
  */
 
 //
-// Support Files
-//
+// Configuration
+// 
 
-// Bring in configuration.
+// Base configuration
 include('conf/chswx.conf.php');
+// Authorizations with outside services
+include('conf/auth.conf.php');
+// Relay settings
+include('conf/relay.conf.php');
 
 // Bring in the abstract class definition for NWSProduct.
 include('inc/NWSProduct.class.php');
@@ -29,12 +33,14 @@ include('inc/geo/GeoLookup.class.php');
 // Tweet generation library
 include('inc/output/WxTweet.class.php');
 
+// HipChat driver
+include('lib/Hippy/Hippy.php');
+
+// Bring in the Twitter OAuth lib
+include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
+
 // Initialize Mustache
 $m = new Mustache;
-
-// Bring in the Twitter OAuth lib and local config.
-include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
-include('oauth.config.php');
 
 //
 // Execution time
@@ -57,20 +63,6 @@ $wmo_id = $matches[0];
 log_message("Product ingest running - WMO ID: " . $wmo_id . " File Path: " . $file_path);
 
 //
-// TODO: Move this check back later in the sequence
-//
-
-// Check if the product contains $$ identifiers for multiple products
-if(strpos($output, "$$")) {
-	// Loop over the file for multiple products within one file identified by $$
-	$products = explode('$$',trim($output), -1);
-}
-else {
-	// No delimiters
-	$products = array(trim($output));
-}
-
-//
 // Kick off the factory for each parsed product
 //
 
@@ -88,8 +80,14 @@ foreach($products as $product)
 			foreach($tweets as $tweet_text) {
 				//echo "Length of tweet: " . strlen($tweet_text) . "\n";
 				//echo $tweet_text;
-				if(!$twitter->post('statuses/update',array('status' => $tweet_text))) {
+				$response = $twitter->post('statuses/update',array('status' => $tweet_text));
+				//print_r($response);
+				if(!$response) {
 					log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
+				}
+				// Route to HipChat
+				if(defined('HIPCHAT_TOKEN')) {
+					Hippy::speak($tweet_text);
 				}
 			}
 		}
@@ -107,6 +105,8 @@ function log_message($message) {
 	$log_format = "[" . date('m-d-Y g:i:s A') . "] " . $message . "\n";
 	$log_location = '/home/ldm/chswx-error.log';
 	$log_mode = 0; 	// defaults to syslog/stderr
+
+	//echo $message;
 
 	if(file_exists('/home/ldm/chswx-error.log')) {
 		$log_mode = 3;

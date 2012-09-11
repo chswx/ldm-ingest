@@ -24,23 +24,8 @@ include('inc/NWSProduct.class.php');
 // And its factory
 include('inc/NWSProductFactory.class.php');
 
-// Mustache library
-include('lib/mustache/Mustache.php');
-
 // Geodata library
 include('inc/geo/GeoLookup.class.php');
-
-// Tweet generation library
-include('inc/output/WxTweet.class.php');
-
-// HipChat driver
-include('lib/Hippy/Hippy.php');
-
-// Bring in the Twitter OAuth lib
-include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
-
-// Initialize Mustache
-$m = new Mustache;
 
 //
 // Execution time

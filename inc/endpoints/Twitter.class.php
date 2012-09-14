@@ -5,7 +5,7 @@
  * Ultimately encapsulates the process with which a tweet is issued
  */
 
-class Twitter
+class TwitterListener extends Listener
 {
 	// Base array of basic tweet text
 	// Mustache variables

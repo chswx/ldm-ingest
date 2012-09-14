@@ -14,11 +14,12 @@ abstract class NWSProduct {
     var $raw_product;
 
     /**
-     * Array of specific product properties (deprecated).
-     *
-     * @var array Property strings
+     * Issuing office.
+     * 
+     * @var string WFO
      */
-    var $properties;
+    
+    var $wfo;
 
     /**
      * Array of VTEC strings sent with the product.
@@ -39,27 +40,22 @@ abstract class NWSProduct {
     /**
      * Constructor.
      */
-    function __construct( $product ) {
+    function __construct( $prod_info, $product_text ) {
+        // Extract info from the $prod_info array...
+        $this->office = $prod_info['office'];   // Issuing office
+        $this->awips = $prod_info['awips'];     // AWIPS code
         // Keep the raw product around for now
-        $this->raw_product = $product;
-        // Parse out the goodies from the raw product and store them
-        $this->properties = $this->parse( $this->raw_product );
+        $this->raw_product = $product_text;
+
+        // Parse the product out.
+        
+        $this->parse();
     }
 
     /**
      * Abstract function for product-specific parsing.
      */
     abstract function parse();
-
-    /**
-     * Abstract function to get the name of the product.
-     */
-    abstract function get_name();
-
-    /**
-     * Abstract function requesting that each product provide an expiration.
-     */
-    abstract function get_expiry();
 
     /**
      * Return the zones for this product.

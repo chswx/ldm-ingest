@@ -5,14 +5,23 @@
 
 class WFUS50 extends NWSProduct {
 	function parse() {
+		global $relay;
+
 		// STEP 1: Pull in counties
 		$this->parse_zones($this->get_product_text());
 
 		// STEP 2: Parse out VTEC
 		$this->parse_vtec();
 
-		// STEP 3: Relay readiness
-		$this->properties['relay'] = true;
+		// STEP 3: Publish events
+		// First, publish VTEC for each zone
+		foreach($this->parse_zones() as $zone) {
+			$relay->publish(new Event('ldm','TO.W.'.$zone,PRI_WARNING,$this));
+		}
+		// Publish TOR{WFO} event for listeners wanting all warnings
+		$relay->publish(new Event('ldm','TOR' . $this->wfo,PRI_WARNING,$this));
+		// Publish TOR event for listeners wanting all tornado warnings
+		$relay->publish(new Event('ldm','TOR',PRI_WARNING,$this));
 
 		// FINAL: Return the properties array
 

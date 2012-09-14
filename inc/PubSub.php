@@ -21,6 +21,12 @@ class Event {
      * @var mixed
      */
     public $data;
+
+    /**
+     * ID of the event.
+     * Private variable.
+     */
+    private $event_id;
  
     /**
      * @param string $resourceName  name of the publisher
@@ -32,6 +38,16 @@ class Event {
         $this->resourceName = $resourceName;
         $this->eventName = $eventName;
         $this->data = $data;
+        if(is_array($data) && !empty($data['stamp'])) {
+            $this->event_id = $data['stamp'];
+        }
+    }
+
+    /**
+     * @return string $event_id Event's unique ID
+     */
+    public function ID() {
+        return $this->event_id;
     }
 }
 
@@ -66,9 +82,9 @@ class Dispatcher {
      * @param Mixed $event
      * @return Dispatcher
      */
-    public function subscribe(Listener $listener, $resourceName='*', $event='*'){
-    	$this->_listeners[$resourceName][$event][spl_object_hash($listener)] = $listener;
-    	return $this;
+    public function subscribe($listener, $resourceName='*', $event='*'){
+        $this->_listeners[$resourceName][$event][spl_object_hash($listener)] = $listener;
+        return $this;
     }
  
     /**
@@ -79,9 +95,9 @@ class Dispatcher {
      * @param Mixed $event
      * @return Dispatcher
      */
-    public function unsubscribe(Listener $listener, $resourceName='*', $event='*'){
-    	unset($this->_listeners[$resourceName][$event][spl_object_hash($listener)]);
-    	return $this;
+    public function unsubscribe($listener, $resourceName='*', $event='*'){
+        unset($this->_listeners[$resourceName][$event][spl_object_hash($listener)]);
+        return $this;
     }
  
     /**
@@ -91,44 +107,72 @@ class Dispatcher {
      * @return Dispatcher
      */
     public function publish(Event $event ){
-    	$resourceName = $event->resourceName;
-    	$eventName = $event->eventName;
+        $resourceName = $event->resourceName;
+        $eventName = $event->eventName;
  
-    	//Loop through all the wildcard handlers
-    	if(isset($this->_listeners['*']['*'])){
-	    	foreach($this->_listeners['*']['*'] as $listener){
-	    		$listener->publish($event);
-	    	}
-    	}
+        //Loop through all the wildcard handlers
+        if(isset($this->_listeners['*']['*'])){
+            foreach($this->_listeners['*']['*'] as $listener){
+                $listener->publish($event);
+            }
+        }
  
-    	//Dispatch wildcard Resources
-    	//These are events that are published no matter what the resource
-    	if(isset($this->_listeners['*'])){
-	    	foreach($this->_listeners['*'] as $event =>; $listeners){
-	    		if($event == $eventName){
-	    			foreach($listeners as $listener){
-	    				$listener->publish($event);
-	    			}
-	    		}
-	    	}
-    	}
+        //Dispatch wildcard Resources
+        //These are events that are published no matter what the resource
+        if(isset($this->_listeners['*'])){
+            foreach($this->_listeners['*'] as $event => $listeners){
+                if($event == $eventName){
+                    foreach($listeners as $listener){
+                        $listener->publish($event);
+                    }
+                }
+            }
+        }
  
-    	//Dispatch wildcard Events
-    	//these are listeners that are dispatched for a certain resource, despite the event
-    	if(isset($this->_listeners[$resourceName]['*'])){
-    		foreach($this->_listeners[$resourceName]['*'] as $listener){
-   				$listener->publish($event);
-    		}
-    	}
+        //Dispatch wildcard Events
+        //these are listeners that are dispatched for a certain resource, despite the event
+        if(isset($this->_listeners[$resourceName]['*'])){
+            foreach($this->_listeners[$resourceName]['*'] as $listener){
+                $listener->publish($event);
+            }
+        }
  
-    	//Dispatch to a certain resource event
-    	if(isset($this->_listeners[$resourceName][$eventName])){
-    		foreach($this->_listeners[$resourceName][$eventName] as $listener){
-    			$listener->publish($event);
-    		}
-    	}
+        //Dispatch to a certain resource event
+        if(isset($this->_listeners[$resourceName][$eventName])){
+            foreach($this->_listeners[$resourceName][$eventName] as $listener){
+                $listener->publish($event);
+            }
+        }
  
-    	return $this;
+        return $this;
     }
 }
-?>
+
+/**
+ * Generic listener
+ * Won't be used directly, should be extended
+ */
+class Listener implements ListenerInterface
+{
+    var $event_signature;
+
+    // Let the child function take care of this
+    public function publish(Event $event) {
+        return;
+    }
+
+    /**
+     * Determine if a duplicate event
+     */
+    protected function is_duplicate() {
+        if($this->event_signature === $event->ID()) {
+            Utils::log("Duplicate event {$event->ID()} found");
+            return true;
+        }
+        else {
+            Utils::log("Event {$event->ID()} is OK");
+            $this->event_signature = $event->ID();
+            return false;
+        }
+    }
+}

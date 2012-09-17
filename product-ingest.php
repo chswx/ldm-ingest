@@ -1,11 +1,12 @@
 #!/usr/bin/php
 <?php
 /* 
- * CHSWX Product Ingestor
+ * LDM Product Ingestor
  * Command-line tool
  * Main entry point for LDM ingest. This hands off to a factory which generates a class for specific products.
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
+$time_start = microtime(true);
 
 //
 // Configuration
@@ -72,7 +73,7 @@ if(DEBUG_MODE) {
 //
 
 // Get the file path from the command line.
-// TODO: Consider piping this in, may save a small bit of I/O
+// TODO: Consider piping this in, may save a small bit of disk I/O
 $file_path = $argv[1];
 Utils::log("Ingest has begun. Filename: " . $file_path);
 
@@ -83,6 +84,9 @@ $m_text = file_get_contents($file_path);
 // Factory is responsible for publishing events
 NWSProductFactory::parse_product(Utils::sanitize($m_text));
 
+$time_end = microtime(true);
+$time = $time_end - $time_start;
+Utils::log("Ingest and relay complete. Execution time: $time seconds");
 // Deprecated!  Use Utils::log() instead.
 function log_message($message) {
 	Utils::log($message);

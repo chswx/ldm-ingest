@@ -1,6 +1,6 @@
 <?php
 /*
- * CHSWX: NWSProduct class
+ * NWSProduct class
  * Defines most of what is a National Weather Service text product and puts it out into easily reusable chunks.
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
 */
@@ -22,12 +22,12 @@ abstract class NWSProduct {
     var $wfo;
 
     /**
-     * Array of VTEC strings sent with the product.
-     * Usually no more than two.
-     *
-     * @var array VTEC strings
+     * Holds the product's segments, if any. Generate events from these later if needed.
+     * 
+     * @var mixed Segments
      */
-    var $vtec_strings;
+    
+    var $segments;
 
     /**
      * This product's list of effective zones.
@@ -47,15 +47,28 @@ abstract class NWSProduct {
         // Keep the raw product around for now
         $this->raw_product = $product_text;
 
-        // Parse the product out.
+        // Parse the product out into segments.
         
-        $this->parse();
+        $this->segments = $this->parse();
     }
 
     /**
-     * Abstract function for product-specific parsing.
+     * Generic parsing ability.
+     * STRONGLY recommend overriding in a WMO-specific file
      */
-    abstract function parse();
+    
+    function parse() {
+        return split_product();
+    }
+
+    /**
+     * Generate events from this product, if applicable.
+     */
+    function generate_events() {
+        foreach($this->segments as $segment) {
+
+        }
+    }
 
     /**
      * Return the zones for this product.
@@ -74,26 +87,6 @@ abstract class NWSProduct {
      */
     function get_product_text() {
         return $this->raw_product;
-    }
-
-    /**
-     * Notifies the relay system that this is OK to relay.
-     *
-     * @todo Phase this out in favor of a pub/sub system
-     * @return boolean
-     */
-    function can_relay() {
-        if ( ( !empty( $this->properties['vtec'] ) && $this->properties['vtec']['status'] == 'O' ) || !empty( $this->properties['relay'] ) ) {
-            return $this->properties['relay'];
-        }
-        else {
-            if ( !empty( $this->properties['vtec'] && $this->properties['vtec']['status'] == 'T' ) {
-                    log_message( 'Test message received, not tweeting.' );
-                }
-
-                return false;
-            }
-        }
     }
 
     //
@@ -119,12 +112,11 @@ abstract class NWSProduct {
     }
 
     /**
-     * Indicates this product has at least one VTEC string.
-     * If it does, save them to the product.
+     * Checks if a segment has a VTEC message.
      * 
      * @return boolean
      */
-    function has_vtec() {
+    function has_vtec($segment) {
         // Match all alerts, but we will only use operational warnings
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
@@ -261,15 +253,15 @@ abstract class NWSProduct {
      */
     function split_product() {   
         // Check if the product contains $$ identifiers for multiple products
-        if(strpos($output, "$$")) {
+        if(strpos($this->raw_product, "$$")) {
             // Loop over the file for multiple products within one file identified by $$
-            $products = explode('$$',trim($output), -1);
+            $products = explode('$$',trim($this->raw_product), -1);
         }
         else {
             // No delimiters
-            $products = array(trim($output));
+            $products = array(trim($this->raw_product));
         }
 
-        return $products;
+        return $segments;
     }
 }

@@ -82,7 +82,9 @@ foreach($products as $product)
 	$product_parsed = NWSProductFactory::parse_product($wmo_id,$product);
 	if(!is_null($product_parsed)) {
 		//$product_data = $product_parsed->get_properties();
-		
+		if($product_parsed->can_relay()) {
+			mail('jared.smith@updraftnetworks.com', $product_parsed->get_name(), $product_parsed->get_product_text(),'From: jared.smith+alerts@updraftnetworks.com');
+		}
 		// Authenticate with Twitter
 		$twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
 		$tweets = $product_parsed->get_tweets();

@@ -7,6 +7,9 @@
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
 
+// Start timing script execution.
+$time_start = microtime(true);
+
 //
 // Support Files
 //
@@ -129,3 +132,7 @@ function log_message($message) {
 		error_log($log_format,$log_mode);
 	}
 }
+
+$time_end = microtime(true);
+$time = $time_end - $time_start;
+log_message("Script execution completed in " . $time . " seconds.");

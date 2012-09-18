@@ -52,6 +52,7 @@ class WWUS40 extends NWSProduct {
 
 		$this->properties['product_name'] = $product_name . " " . ltrim($product_info[1],'0');
 		$this->properties['watch_number'] = ltrim($product_info[1],'0');
+		$this->properties['raw_watch_number'] = $product_info[1];
 
 		// Lines 11-17 -- probabilities
 		// In this order:
@@ -215,7 +216,7 @@ class WWUS40 extends NWSProduct {
 			}
 
 	    	// Generate a tweet
-	    	if(empty($tweet_vars['phenomena']) && !$use_addendum) {
+	    	/*if(empty($tweet_vars['phenomena']) && !$use_addendum) {
 	    		$tweet_text[] = $m->render($this->tweet_templates[$tweet_template]);
 	    	}
 	    	else if($use_addendum) {
@@ -223,8 +224,14 @@ class WWUS40 extends NWSProduct {
 	    	}
 	    	else {
 	    		$tweet_text[] = $m->render($this->tweet_templates[$tweet_template],$tweet_vars);
-	    	}
+	    	}*/
 	    	
+	    	/**
+	    	 * Tweet probabilities.
+	    	 */
+	    	
+	    	$tweet_text[] = "Details for " . $this->properties['product_name'] . ": http://www.spc.noaa.gov/products/watch/ww" . $this->properties['raw_watch_number'] . ".html";
+
 	    	/**
 	    	 * If this is a PDS watch, follow up with an additional tweet.
 	    	 */

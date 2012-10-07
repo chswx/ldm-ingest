@@ -4,7 +4,7 @@
  * Utilities to assist in formatting output
  */
 
-static class Format
+class Format
 {
 	/**
 	 * Generate a plain-English list of counties for use in a Mustache template.

@@ -40,18 +40,29 @@ class TwitterListener extends Listener
 		// Some random non-expiring product
 		'_NO_EXPIRE' => "{{product_name}} issued for {{location}}."
 	);
+	
+	var $account_info;
 
-	// Local storage for the active product
-	var $product_obj;
-
-	// Current time (for time comparisons)
-	var $curr_timestamp;
-
-	// Expecting a product object...expecting too much?
-	// Return tweet text for the Twitter library
-	function __construct($product) {
-		// Save the parsed product data here
-		$this->product_obj = $product;
+	/**
+	 * Constructor.
+	 * 
+	 * Send in an array with the account auth info.
+	 * 
+	 * @param mixed array $account
+	 */
+	function __construct($account) {
+		$this->$account_info = $account;
+	}
+	
+	/**
+	 * Publish a Twitter event.
+	 * 
+	 * @see Listener::publish()
+	 */
+	function publish($event) {
+		if(defined('DEBUG_MODE') && DEBUG_MODE) {
+			echo $this->render_tweet($event->data);
+		}
 	}
 
 	/**
@@ -60,7 +71,8 @@ class TwitterListener extends Listener
 	 * @return string Tweet to send via the API.
 	 * @param string $tweet_template Optionally pass in its own tweet template.
 	 */
-	function render_tweet($tweet_template = null) {
+	function render_tweet($product, $tweet_template = null) {
+		
 		// Initialize Mustache
 
 		$m = new Mustache;
@@ -74,26 +86,25 @@ class TwitterListener extends Listener
 		}
 
 		// Get the current timestamp
-		$this->curr_timestamp = time();
-		$curr_time = $this->curr_timestamp;
+		$curr_time = time();
 		// Template suffix declaration...just in case
 		$template_suffix = '';
 
 		// Generate the location string
-		$location_string = $this->product_obj->get_location_string();
+		$location_string = $product->get_location_string();
 
-		$tweet_vars['product_name'] = $this->product_obj->get_name();
+		$tweet_vars['product_name'] = $product->get_name();
 		$tweet_vars['location'] = $location_string;
 
 		//
 		// Determine format of expiration time.
 		//
-		if($this->product_obj->get_expiry() == '0') {
+		if($product->get_expiry() == '0') {
 			// Warning is indefinite (some flood warnings, tropical cyclone watches/warnings)
 			$tweet_vars['exp_time'] = "further notice";
 		}
-		else if(!is_null($this->product_obj->get_expiry())) {
-			$expire_stamp = $this->product_obj->get_expiry();
+		else if(!is_null($product->get_expiry())) {
+			$expire_stamp = $product->get_expiry();
 
 			// For alerts starting more than 24 hours out, add effective date
 			if($expire_stamp - $curr_time >= 86400) {
@@ -108,11 +119,11 @@ class TwitterListener extends Listener
 			$template_suffix = "_NO_EXPIRE";
 		}
 
-		if(!is_null($this->product_obj->get_vtec_effective_timestamp())) {
+		if(!is_null($product->get_vtec_effective_timestamp())) {
 			if($this->is_future()) {
 				echo "We are in the future!\n";
 
-				$effective_stamp = $this->product_obj->get_vtec_effective_timestamp();
+				$effective_stamp = $product->get_vtec_effective_timestamp();
 				// echo "Effective timestamp: " . $effective_stamp;
 				$template_suffix = "_FUTURE";
 				
@@ -128,8 +139,8 @@ class TwitterListener extends Listener
 			}
 		}
 
-		if($this->product_obj->get_vtec()) {
-			$template_select = $this->product_obj->get_vtec_action() . $template_suffix;
+		if($product->get_vtec()) {
+			$template_select = $product->get_vtec_action() . $template_suffix;
 		}
 		else {
 			$template_select = $template_suffix;
@@ -141,11 +152,12 @@ class TwitterListener extends Listener
 	/**
 	 * Fast function call to determine if we're in the future here.
 	 * 
+	 * @param $product
 	 * @return boolean True if the product goes into effect in the future, false otherwise.
 	 */
 	
-	protected function is_future() {
-		if($this->product_obj->get_vtec_effective_timestamp() > $this->curr_timestamp) {
+	protected function is_future($product) {
+		if($product->get_vtec_effective_timestamp() > $this->curr_timestamp) {
 			// Product effective timestamp per VTEC is in the future.
 			return true;
 		}

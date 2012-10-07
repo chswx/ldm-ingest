@@ -4,7 +4,7 @@
  * Routes output to the error log (or stderr if you so choose).
  */
 
-class LogListener extends Listener
+class LogListener extends Listener implements ListenerInterface
 {
 	public function publish(Event $event) {
 		$log_format = "[" . date('m-d-Y g:i:s A') . "] " . $event->data . "\n";
@@ -20,6 +20,8 @@ class LogListener extends Listener
 		else {
 			error_log($log_format,$log_mode);
 		}
+		
+		return;
 	}
 }
 ?>

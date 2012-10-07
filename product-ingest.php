@@ -25,7 +25,7 @@ include('inc/PubSub.php');
 include('inc/Utils.class.php');
 
 // Console listener
-if(ENABLE_DEBUG) {
+if(DEBUG_MODE) {
 	include('inc/endpoints/ConsoleListener.class.php');
 }
 
@@ -52,7 +52,7 @@ $relay = new Dispatcher();
 // 
 
 $log_endpoint = new LogListener();
-if(DEBUG_MODE)
+if(defined('DEBUG_MODE') && DEBUG_MODE)
 {
 	$log_level = "*";
 }
@@ -63,7 +63,7 @@ else
 $relay->subscribe($log_endpoint,'log',$log_level);
 
 // Console output of any and all messaging if we are in debug mode
-if(DEBUG_MODE) {
+if(defined('DEBUG_MODE') && DEBUG_MODE) {
 	$console_endpoint = new ConsoleListener();
 	$relay->subscribe($console_endpoint,'*','*');
 }
@@ -81,12 +81,21 @@ Utils::log("Ingest has begun. Filename: " . $file_path);
 $m_text = file_get_contents($file_path);
 
 // Send to the factory to parse the product.
-// Factory is responsible for publishing events
-NWSProductFactory::parse_product(Utils::sanitize($m_text));
+$product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
+//print_r($product_obj);
+// Generate events from the returned product object.
+
+$events = EventFactory::generate_events($product_obj);
+
+// Publish the events. Listeners will take care of the rest.
+foreach($events as $event) {
+	$relay->publish($event);
+}
 
 $time_end = microtime(true);
 $time = $time_end - $time_start;
 Utils::log("Ingest and relay complete. Execution time: $time seconds");
+
 // Deprecated!  Use Utils::log() instead.
 function log_message($message) {
 	Utils::log($message);

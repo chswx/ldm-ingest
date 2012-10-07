@@ -8,11 +8,11 @@ class NWSProductFactory {
 	/**
 	 * Dispatches a sanitized product to its parser.
 	 * It's up to the parser to generate and relay appropriate events.
-	 * 
-	 * @static
-	 * @param string $product Sanitized product text.
+	 *
+	 * @param string $product_text Sanitized product text.
+	 * @return Parsed Product object.
 	 */
-	public static function parse_product($product_text) {
+	public static function get_product($product_text) {
 		// Get WMO header and issuing office 
 		$prod_info = self::get_product_details($product_text);
 
@@ -22,24 +22,23 @@ class NWSProductFactory {
 		// Construct the path to the parser
 		$parser_path = dirname(__FILE__) . "/products/$wmo_header_generic.php";
 		if(file_exists($parser_path)) {
-			include_once($parser_path);
+			include($parser_path);
 			// Instantiate the class
-			$parser = new $wmo_header_generic($prod_info, $product_text);
+			$product = new $wmo_header_generic($prod_info, $product_text);
 		}
 		// It's not here...return a generic parsing library.
 		else
 		{
 			include_once(dirname(__FILE__) . "/products/Generic.php");
-			$parser = new GenericProduct($prod_info, $product_text);
+			$product = new GenericProduct($prod_info, $product_text);
 		}
 
-		$parser->generate_events();
+		return $product;
 	}
 
 	/**
 	 * Get WMO product ID and authority from the second line.
 	 * 
-	 * @static
 	 * @param string $product_text Sanitized product text.
 	 * @return array WMO header ID, issuing office, and AWIPS code
 	 */

@@ -108,6 +108,16 @@ class VTECString
     }
 
     /**
+     * Checks if an operational VTEC string.
+     * 
+     * @return boolean
+     */
+    function is_operational()
+    {
+    	return $this->product_class === 'O';
+    }
+
+    /**
      * Converts a VTEC timestamp to a UNIX timestamp (normalized to Z time)
      * 
      * @return int UNIX timestamp

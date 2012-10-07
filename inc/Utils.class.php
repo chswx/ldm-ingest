@@ -2,14 +2,15 @@
 /**
  * Static utility class for basic string manipulation, logging, etc.
  */
-static class Utils
+
+class Utils
 {
 	/**
 	 * Basic sanitation of incoming products.
 	 * 
 	 * @param string $raw_text Raw product text, fresh off the LDM
 	 */
-	static function sanitize($raw_text) {
+	public static function sanitize($raw_text) {
 		// Sanitize the file
 		$output = trim($raw_text, "\x00..\x1F");
 
@@ -25,12 +26,12 @@ static class Utils
 	 * 
 	 * @param string $text Incoming text, preferably already sanitized
 	 */
-	static function make_array($text) {
+	public static function make_array($text) {
 		if(strpos("\x00..\x1F",$text) || strpos("\r\r\n",$text)) {
 			$text = self::sanitize($text);
 		}
 		
-		return explode($text,"\n");
+		return explode("\n",$text);
 	}
 
 	/**
@@ -41,9 +42,10 @@ static class Utils
 	 * @param string $message The message to log
 	 * @param string $level The level to log at, notice by default
 	 */
-	static function log($message, $level = 'NOTICE') {
+	public static function log($message, $level = 'NOTICE') {
 		global $relay;
-		$relay->publish(new Event('log',$level,$message)
+		$log_event = new Event('log',$level,$message);
+		$relay->publish($log_event);
 	}
 }
 ?>

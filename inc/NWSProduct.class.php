@@ -5,7 +5,7 @@
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
 */
 
-abstract class NWSProduct {
+class NWSProduct {
     /**
      * Raw product text (with some light cleanup).
      *
@@ -18,24 +18,31 @@ abstract class NWSProduct {
      * 
      * @var string WFO
      */
-    
-    var $wfo;
+    var $office;
 
     /**
-     * Holds the product's segments, if any. Generate events from these later if needed.
+     * AFOS identifier.
      * 
-     * @var mixed Segments
+     * @var string AFOS ID
+     */
+    
+    var $afos;
+    
+    /**
+     * Unique stamp for this particular product.
+     * 
+     * @var string stamp
+     */
+    
+    var $stamp;
+
+    /**
+     * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
+     * 
+     * @var mixed Array of segments
      */
     
     var $segments;
-
-    /**
-     * This product's list of effective zones.
-     * Returned as zone codes for decoding later by other scripts.
-     *
-     * @var array Zones
-     */
-    var $zones;
 
     /**
      * Constructor.
@@ -43,12 +50,12 @@ abstract class NWSProduct {
     function __construct( $prod_info, $product_text ) {
         // Extract info from the $prod_info array...
         $this->office = $prod_info['office'];   // Issuing office
-        $this->awips = $prod_info['awips'];     // AWIPS code
+        $this->afos = $prod_info['awips'];     // AWIPS code
         // Keep the raw product around for now
         $this->raw_product = $product_text;
-
+        // Generate the stamp for the product at large (in case we fire an event based on the product)
+        $this->stamp = printf("%s-%s-".microtime(),$this->office,$this->afos);
         // Parse the product out into segments.
-        
         $this->segments = $this->parse();
     }
 
@@ -58,17 +65,111 @@ abstract class NWSProduct {
      */
     
     function parse() {
-        return split_product();
+        return $this->split_product();
     }
 
     /**
-     * Generate events from this product, if applicable.
+     * Return the unencumbered product text
+     *
+     * @return string Product text
      */
-    function generate_events() {
-        foreach($this->segments as $segment) {
-
-        }
+    function get_product_text() {
+        return $this->raw_product;
     }
+
+    /**
+     * Split the product by $$ if needed.
+     */
+    function split_product() {   
+        // Check if the product contains $$ identifiers for multiple products
+        if(strpos($this->raw_product, "$$")) {
+            // Loop over the file for multiple products within one file identified by $$
+            $raw_segments = explode('$$',trim($this->raw_product), -1);
+        }
+        else {
+            // No delimiters
+            $raw_segments = array(trim($this->raw_product));
+        }
+
+        foreach($raw_segments as $segment) {
+            $segments[] = new NWSProductSegment($segment,$this->afos,$this->office);
+        }
+
+        return $segments;
+    }
+}
+
+class NWSProductSegment
+{
+	/**
+	 * Segment text
+	 * 
+	 * @var string
+	 */
+	
+	var $text;
+	
+    /**
+     * Array of VTEC strings.
+     * 
+     * @var array VTECString
+     */
+    var $vtec_strings;
+
+    /**
+     * Zones for this segment.
+     * 
+     * @var array zones
+     */
+    var $zones;
+
+    /**
+     * Issuing time.
+     * 
+     * @var int Timestamp
+     */
+    var $issued_time;
+    
+    /**
+     * Unique stamp.
+     * 
+     * @var $stamp
+     */
+    var $stamp;
+    
+    /**
+     * Issuing WFO (from parent product)
+     * 
+     * @var string $office
+     */
+    var $office;
+    
+    /**
+     * AFOS code (from parent product)
+     * @var string $afos
+     */
+    var $afos;
+    
+    /**
+     * Constructor.
+     * 
+     * @param string $segment_text
+     */
+    function __construct($segment_text, $afos, $office)
+    {
+    	$this->afos = $afos;
+    	$this->office = $office;
+    	$this->text = $segment_text;
+    	$this->vtec_strings = $this->parse_vtec();
+    	$this->zones = $this->parse_zones();
+    	$this->stamp = $this->afos . '-' . microtime();
+    }
+    
+    /**
+     * Get this segment's text.
+     * 
+     * @return string Raw text of the segment
+     */
 
     /**
      * Return the zones for this product.
@@ -81,12 +182,22 @@ abstract class NWSProduct {
     }
 
     /**
-     * Return the unencumbered product text
+     * Was this product issued for a particular zone(s)?
      *
-     * @return string Product text
+     * @param array   $zones Array of zone codes to check against
+     * @return boolean Array search result - true if found, false if not
      */
-    function get_product_text() {
-        return $this->raw_product;
+    function in_zone( $zones ) {
+        foreach ( $zones as $zone ) {
+            if ( in_array( $zone, $this->zones ) ) {
+                return true;
+            }
+            else {
+                $array_search_result = false;
+            }
+        }
+
+        return $array_search_result;
     }
 
     //
@@ -95,13 +206,16 @@ abstract class NWSProduct {
     // TODO: Implement H-VTEC for hydrological hazards
     //
 
-    /*
+    /**
      * Get VTEC strings if they exist...otherwise, return false
+     * 
+     * @return array VTEC strings
+     * @return boolean false if failure
      */
     function get_vtec() {
         if(!empty($this->vtec_strings))
         {
-            foreach($vtec_strings as $vtec_string) {
+            foreach($this->vtec_strings as $vtec_string) {
                 $strings[] = $vtec_string;
             }
             // Return an array of VTEC strings
@@ -116,65 +230,29 @@ abstract class NWSProduct {
      * 
      * @return boolean
      */
-    function has_vtec($segment) {
-        // Match all alerts, but we will only use operational warnings
+    function parse_vtec() {
+        $data = $this->text;
+    	
+    	// Match all alerts, but we will only use operational warnings
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
             // If the VTEC library is not loaded, go ahead and get it
-            if(!defined(VTEC_LIB)) {
+            if(!defined('VTEC_LIB')) {
                 include('VTECString.class.php');
             }
-            foreach ( $matches as $match => $key ) {
-                $this->vtec_strings[$key] = new VTECString( $match );
+            foreach ( $matches as $key => $match ) {
+            	//print_r($match);
+                $vtec_strings[$key] = new VTECString( $match );
             }
         }
+        
+        return $vtec_strings;
     }
 
-    /**
-     * Indicates if this product has multiple VTEC strings.
-     * If so, handle accordingly upstream
-     *
-     * @return boolean
+    /*
+     * Zone generation functions
      */
-    function has_multiple_vtec() {
-        return count( $this->vtec_strings ) > 1;
-    }
-
-    /**
-     * Was this product issued for a particular zone?
-     *
-     * @param array   $zones Array of zone codes to check against
-     * @return boolean Array search result - true if found, false if not
-     */
-    function in_zone( $zones ) {
-        foreach ( $zones as $zone ) {
-            //echo "Checking zone $zone\n";
-            if ( in_array( $zone, $this->properties['zones'] ) ) {
-                return true;
-            }
-            else {
-                $array_search_result = false;
-            }
-        }
-
-        return $array_search_result;
-    }
-
-    /**
-     * Retrieve product templates.
-     * Overridden in more specific classes. Return null here.
-     * @todo revisit this in a pub/sub world
-     *
-     * @return null
-     */
-    function get_product_templates() {
-        return null;
-    }
-
-    //
-    // Private functions
-    //
 
     /**
      * The NWS combines does not repeat the state code for multiple zones...not good for our purpose
@@ -182,9 +260,9 @@ abstract class NWSProduct {
      * We will also call the function to expand the ranges here.
      * See: http://www.weather.gov/emwin/winugc.htm
      */
-    protected function parse_zones( $data ) {
-        $data = $this->get_product_text();
-
+    protected function parse_zones() {
+    	$data = $this->text;
+    	
         $output = str_replace( array( "\r\n", "\r" ), "\n", $data );
         $lines = explode( "\n", $output );
         $new_lines = array();
@@ -218,8 +296,7 @@ abstract class NWSProduct {
 
 
         $total_zones = explode( '-', $total_zones );
-        // return $total_zones;
-        $this->properties['zones'] = $total_zones;
+        return $total_zones;
     }
 
     /**
@@ -228,7 +305,7 @@ abstract class NWSProduct {
      * See: http://www.weather.gov/emwin/winugc.htm
      */
     protected function expand_ranges( $data ) {
-        //$data = $this->get_product_text();
+        
 
         $regex = '/(([0-9]{3})(>[0-9]{3}))/';
 
@@ -246,22 +323,5 @@ abstract class NWSProduct {
         }
 
         return $data;
-    }
-
-    /**
-     * Split the product by $$ if needed.
-     */
-    function split_product() {   
-        // Check if the product contains $$ identifiers for multiple products
-        if(strpos($this->raw_product, "$$")) {
-            // Loop over the file for multiple products within one file identified by $$
-            $products = explode('$$',trim($this->raw_product), -1);
-        }
-        else {
-            // No delimiters
-            $products = array(trim($this->raw_product));
-        }
-
-        return $segments;
     }
 }

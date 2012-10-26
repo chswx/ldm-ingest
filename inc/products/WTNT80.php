@@ -46,7 +46,7 @@ class WTNT80 extends NWSProduct {
 		$this->parse_vtec();
 
 		// FINAL: Return the properties array, track the watch if in our zones
-		if($this->get_vtec_action() == 'NEW') {
+		if($this->get_vtec_action() == 'NEW' || $this->get_vtec_action() == 'CAN') {
 			$this->properties['relay'] = true;
 		}
 		else

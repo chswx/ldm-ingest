@@ -1,6 +1,6 @@
 <?php
 /*
- * Tropical cyclone watch/warning breakpoints
+ * Tropical cyclone watch/warning breakpoints from NHC
  */
 
 class WTNT80 extends NWSProduct {
@@ -11,7 +11,7 @@ class WTNT80 extends NWSProduct {
 		// New VTEC product goes into effect at a specific time in the future
 		'NEW_FUTURE' => "A {{product_name}} is now in effect for {{location}} until {{exp_time}}.",
 		// Product continues (especially convective watches and warnings)
-		'CON' => "{{product_name}} for {{location}} continues until {{exp_time}}.",
+		'CON' => "{{product_name}} for {{location}} remains in effect until {{exp_time}}.",
 		// VTEC continuation of product in the future. Treat as a reminder.
 		'CON_FUTURE' => "Reminder: {{product_name}} for {{location}} will go into effect at {{start_time}} until {{exp_time}}.", 
 		// Product will be allowed to expire at scheduled time
@@ -27,7 +27,7 @@ class WTNT80 extends NWSProduct {
 		// TODO: Indicate what product was upgraded from. Don't see this in the wild often, don't tweet upgrades.
 		// Use later: 'UPG' => "{{old_product_name}} for {{location}} has been upgraded to a {{new_product_name}} until {{exp_time}}.", 
 		// For now...
-		'UPG' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
+		//'UPG' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// Not yet displaying corrections, but TODO enable this when warnings are published to the Web and tweeted.
 		'COR' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// Not sure when we would see this one, either.  Including for completeness but I don't expect to tweet it.
@@ -46,7 +46,7 @@ class WTNT80 extends NWSProduct {
 		$this->parse_vtec();
 
 		// FINAL: Return the properties array, track the watch if in our zones
-		if($this->get_vtec_action() == 'NEW' || $this->get_vtec_action() == 'CAN') {
+		if($this->get_vtec_action() == 'NEW' || $this->get_vtec_action() == 'CAN' || $this->get_vtec_action() == 'CON') {
 			$this->properties['relay'] = true;
 		}
 		else

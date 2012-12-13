@@ -14,11 +14,11 @@ class WxTweet
 		// New VTEC product in effect immediately
 		'NEW' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// New VTEC product goes into effect at a specific time in the future
-		'NEW_FUTURE' => "{{product_name}} for {{location}} will go into effect at {{start_time}} until {{exp_time}}.",
+		'NEW_FUTURE' => "NWS: {{product_name}} issued for {{location}} from {{start_time}} until {{exp_time}}.",
 		// Product continues (especially convective watches and warnings)
-		'CON' => "{{product_name}} for {{location}} continues until {{exp_time}}.",
+		'CON' => "{{product_name}} for {{location}} remains in effect until {{exp_time}}.",
 		// VTEC continuation of product in the future. Treat as a reminder.
-		'CON_FUTURE' => "Reminder: {{product_name}} for {{location}} will go into effect at {{start_time}} until {{exp_time}}.", 
+		'CON_FUTURE' => "Reminder: {{location}} will be under a {{product_name}} from {{start_time}} until {{exp_time}}.", 
 		// Product will be allowed to expire at scheduled time
 		'EXP' => "{{product_name}} for {{location}} will expire at {{exp_time}}.",
 		// Product has been cancelled ahead of schedule (typically convective watches and warnings)

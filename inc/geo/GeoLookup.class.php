@@ -32,6 +32,7 @@ class GeoLookup {
 		$zone_names = array();		
 
 		foreach($zone_codes as $key => $zone) {
+			//echo "Zone code: $zone\n";
 			if(!empty(self::$zones[$zone])) {
 				$zone_names[] = self::$zones[$zone];
 			}

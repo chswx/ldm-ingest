@@ -331,6 +331,8 @@ abstract class NWSProduct {
         $count = preg_match_all($regex, $data, $matches);
         $total_zones = '';
         
+        //print_r($matches);
+
         foreach ($matches[0] as $field => $value)
         {
             /* since the NWS thought it was efficient to not repeat state codes, we have to reverse that */
@@ -339,16 +341,23 @@ abstract class NWSProduct {
 
             /* convert ranges like 014>016 to 014-015-016 */
             $zones = $this->expand_ranges($zones);
-            
+
             /* hack off the last dash */
             $zones = substr($zones, 0, strlen($zones) - 1);
+            
             $zones = $state . str_replace('-', '-'.$state, $zones);
             
             $total_zones .= $zones;
+
+            // Need one last dash to temporarily buffer between state changes
+            $total_zones .= '-';
         }
         
-        
+        /* hack off the last dash */
+        $total_zones = substr($total_zones, 0, strlen($total_zones) - 1);
+
         $total_zones = explode('-', $total_zones);
+
         // return $total_zones;
         $this->properties['zones'] = $total_zones;
     }

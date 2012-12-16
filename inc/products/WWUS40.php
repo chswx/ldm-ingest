@@ -230,7 +230,7 @@ class WWUS40 extends NWSProduct {
 	    	 * Tweet probabilities.
 	    	 */
 	    	
-	    	$tweet_text[] = "Details for " . $this->properties['product_name'] . ": http://www.spc.noaa.gov/products/watch/ww" . $this->properties['raw_watch_number'] . ".html";
+	    	$tweet_text[] = "Details for " . $this->properties['product_name'] . " from the Storm Prediction Center: http://www.spc.noaa.gov/products/watch/ww" . $this->properties['raw_watch_number'] . ".html";
 
 	    	/**
 	    	 * If this is a PDS watch, follow up with an additional tweet.

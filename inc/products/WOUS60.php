@@ -94,7 +94,7 @@ class WOUS60 extends NWSProduct {
         $zones = GeoLookup::get_zones($this->get_location_zones());
         $zone_count = count($zones);
 		if($zone_count == 3) {
-			$location_string = "the entire #CHS Tri-County area";
+			$location_string = "the #CHS Tri-County area";
 		}
 		else {
 			foreach($zones as $zone) {

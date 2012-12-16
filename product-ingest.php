@@ -97,7 +97,7 @@ foreach($products as $product)
 				//echo "Length of tweet: " . strlen($tweet_text) . "\n";
 				//echo $tweet_text;
 				$response = $twitter->post('statuses/update',array('status' => $tweet_text));
-				print_r($response);
+				log_message("Twitter responded with: " . $response);
 				if(!$response) {
 					log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
 				}

@@ -47,7 +47,7 @@ class WTNT80 extends NWSProduct {
 
 		// FINAL: Return the properties array, track the watch if in our zones
 		if($this->get_vtec_action() == 'NEW' || $this->get_vtec_action() == 'CAN' || $this->get_vtec_action() == 'CON') {
-			$this->properties['relay'] = true;
+			$this->properties['relay'] = false;
 		}
 		else
 		{

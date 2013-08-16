@@ -195,7 +195,7 @@ abstract class NWSProduct {
      */
     
     function get_vtec_expire_timestamp() {
-        if($this->properties['vtec']['expire_time'] != '000000') {
+        if($this->properties['vtec']['expire_date'] != '000000') {
             return strtotime($this->properties['vtec']['expire_timestamp']);
         }
         else {

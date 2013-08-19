@@ -11,7 +11,7 @@ return array(
 	 * API token to access the Hipchat with. This can be found at
 	 * https://#account#.hipchat.com/admmin/api
 	 */
-	'token'  => HIPCHAT_TOKEN,
+	'token'  => '3476f8d7ee4bb8d7fd79cacc095acd',
 	
 	/**
 	 * Name of the room you want the message sent too

@@ -18,7 +18,7 @@ class NWSProductFactory {
 
 		// Break the WMO header down into the first five to allow for regional differences
 		$wmo_header_generic = substr($prod_info['wmo'],0,5) . '0';
-		
+
 		// Construct the path to the parser
 		$parser_path = dirname(__FILE__) . "/products/$wmo_header_generic.php";
 		if(file_exists($parser_path)) {
@@ -29,7 +29,8 @@ class NWSProductFactory {
 		// It's not here...return a generic parsing library.
 		else
 		{
-			include_once(dirname(__FILE__) . "/products/Generic.php");
+			Utils::log("Generic product");
+			include(dirname(__FILE__) . "/products/Generic.php");
 			$product = new GenericProduct($prod_info, $product_text);
 		}
 
@@ -47,12 +48,14 @@ class NWSProductFactory {
 		$wmo_and_office = explode(' ',$text_array[1]);
 		$wmo = $wmo_and_office[0];
 		$office = $wmo_and_office[1];
-		$awips = $text_array[2];
+		$afos = $text_array[2];
+
+		Utils::log("Product WMO: " . $wmo . '; Office: ' . $office . '; AFOS code: ' . $afos);
 
 		return array(
 			'wmo' => $wmo,
 			'office' => $office,
-			'awips' => $awips
+			'afos' => $afos
 		);
 	}
 }

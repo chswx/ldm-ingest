@@ -61,7 +61,7 @@ class TwitterListener extends Listener
 	 */
 	function publish($event) {
 		if(defined('DEBUG_MODE') && DEBUG_MODE) {
-			echo $this->render_tweet($event->data);
+			Utils::log("Tweet: " . $this->render_tweet($event->data));
 		}
 	}
 
@@ -166,5 +166,3 @@ class TwitterListener extends Listener
 		return false;
 	}	
 }
-
-?>

@@ -1,5 +1,0 @@
-Scripts to ingest and handle NWS products -- in this case, for LDM, but could theoretically be ported to other systems.
-
-This particular codebase will be tested on the @chswx bot. Most development will occur on https://code.google.com/p/updraftnetworks-text-products/ 
-
-Note: The codebase is currently in the midst of a major refactoring...things are changing rapidly. If things run properly, it's a miracle...

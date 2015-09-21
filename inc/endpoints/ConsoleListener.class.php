@@ -8,14 +8,10 @@
 class ConsoleListener extends Listener implements ListenerInterface
 {
 	public function publish(Event $event) {
-		if($this->is_duplicate($event)) {
-			echo "Duplicate {$event->eventName} received via {$event->resourceName}\n";
-		}
-		else
-		{
-			echo "{$event->resourceName}: ";
-			print_r($event->data);
-		}
+		echo "Received {$event->eventName} from {$event->resourceName}: ";
+
+		$product = $event->data;
+
+		print_r($product);
 	}
 }
-?>

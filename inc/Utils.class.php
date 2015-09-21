@@ -48,4 +48,3 @@ class Utils
 		$relay->publish($log_event);
 	}
 }
-?>

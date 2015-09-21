@@ -171,11 +171,11 @@ class Listener implements ListenerInterface
      */
     protected function is_duplicate(Event $event) {
         if($this->event_signature === $event->ID()) {
-            //Utils::log("Duplicate event {$event->ID()} found");
+            Utils::log("Duplicate event {$event->ID()} found");
             return true;
         }
         else {
-            //Utils::log("Event {$event->ID()} is OK");
+            Utils::log("Event {$event->ID()} is OK");
             $this->event_signature = $event->ID();
             return false;
         }
@@ -198,6 +198,11 @@ class EventFactory
      * @return array Event
      */
     public static function generate_events($product) {
+        // Product gets a monolith event if the product is configured for it
+        // Typical with unsegmented products
+        if(isset($product->stamp)) {
+            $events[] = new Event('ldm',substr($product->afos,0,3),$product);
+        }
         foreach($product->segments as $segment) {
             // Generic product
             $events[] = new Event('ldm',substr($product->afos, 0, 3),$segment);

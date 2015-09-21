@@ -50,13 +50,16 @@ class NWSProduct {
     function __construct( $prod_info, $product_text ) {
         // Extract info from the $prod_info array...
         $this->office = $prod_info['office'];   // Issuing office
-        $this->afos = $prod_info['awips'];     // AWIPS code
+        $this->afos = $prod_info['afos'];     // AFOS code
         // Keep the raw product around for now
         $this->raw_product = $product_text;
-        // Generate the stamp for the product at large (in case we fire an event based on the product)
-        $this->stamp = printf("%s-%s-".microtime(),$this->office,$this->afos);
         // Parse the product out into segments.
         $this->segments = $this->parse();
+        // Generate the stamp for the product at large in case there are no segments
+        // Also, if the product identifier matches a certain pattern, generate the event
+        if(empty($this->segments) || preg_match("(AFD|PFM|ZFP|HWO|TCWAT|SFT)",$this->afos)) {
+            $this->stamp = printf("%s-%s-".microtime(),$this->office,$this->afos);
+        }
     }
 
     /**
@@ -81,14 +84,17 @@ class NWSProduct {
      * Split the product by $$ if needed.
      */
     function split_product() {   
+        // Eliminate the header area of the raw product.
+        $product = preg_replace("/^(.*\n){8}/", "", $this->raw_product);
+
         // Check if the product contains $$ identifiers for multiple products
-        if(strpos($this->raw_product, "$$")) {
+        if(strpos($product, "$$")) {
             // Loop over the file for multiple products within one file identified by $$
-            $raw_segments = explode('$$',trim($this->raw_product), -1);
+            $raw_segments = explode('$$',trim($product), -1);
         }
         else {
             // No delimiters
-            $raw_segments = array(trim($this->raw_product));
+            $raw_segments = array(trim($product));
         }
 
         foreach($raw_segments as $segment) {
@@ -96,6 +102,26 @@ class NWSProduct {
         }
 
         return $segments;
+    }
+
+    /**
+     * Get segments by a particular channel (or array of channels)
+     * @param  mixed $channel  String or array of channels
+     * @return array of NWSProductSegment Segments found
+     */
+    function get_segments_by_channel($channel)
+    {
+        $seg_array = array();
+
+        foreach($this->segments as $segment)
+        {
+            if($segment->in_channel($channel))
+            {
+                array_push($seg_array,$segment);
+            }
+        }
+
+        return $seg_array;
     }
 }
 
@@ -149,6 +175,13 @@ class NWSProductSegment
      * @var string $afos
      */
     var $afos;
+
+    /**
+     * Channels it should respond on
+     * @var  array $channels
+     */
+    
+    var $channels = array();
     
     /**
      * Constructor.
@@ -170,6 +203,10 @@ class NWSProductSegment
      * 
      * @return string Raw text of the segment
      */
+    function get_text()
+    {
+        return $this->text;
+    }
 
     /**
      * Return the zones for this product.
@@ -200,6 +237,20 @@ class NWSProductSegment
         return $array_search_result;
     }
 
+    /**
+     * Check if a segment is in a channel
+     * @param  string $channel Channel to get
+     * @return mixed String or array of channels
+     */
+    function in_channel($channel)
+    {
+        if(in_array($channel,$this->channels))
+        {
+            return true;
+        }
+        return false;
+    }
+
     //
     // Valid Time Extent Code (VTEC) support
     // Lots of useful information in one string about nature of product, start and end times, etc.
@@ -226,13 +277,23 @@ class NWSProductSegment
     }
 
     /**
+     * Quick check if this segment has VTEC
+     * @return  boolean
+     */
+    function has_vtec()
+    {
+        return !empty($this->vtec_strings);
+    }
+
+    /**
      * Checks if a segment has a VTEC message.
      * 
      * @return boolean
      */
     function parse_vtec() {
         $data = $this->text;
-    	
+    	$vtec_strings = array();
+
     	// Match all alerts, but we will only use operational warnings
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
@@ -291,10 +352,14 @@ class NWSProductSegment
             $zones = substr( $zones, 0, strlen( $zones ) - 1 );
             $zones = $state . str_replace( '-', '-'.$state, $zones );
 
+            /* Fix for awkward state transition */
+            $zones = $zones . '-';
+
             $total_zones .= $zones;
         }
 
-
+        /* One last cleanup */
+        $total_zones = substr( $total_zones, 0, strlen( $total_zones ) - 1 );
         $total_zones = explode( '-', $total_zones );
         return $total_zones;
     }

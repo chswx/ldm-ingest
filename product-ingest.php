@@ -39,7 +39,7 @@ include('inc/NWSProduct.class.php');
 include('inc/NWSProductFactory.class.php');
 
 // Geodata library
-//include('inc/geo/GeoLookup.class.php');
+include('inc/geo/GeoLookup.class.php');
 
 //
 // Set up event dispatcher
@@ -65,8 +65,14 @@ $relay->subscribe($log_endpoint,'log',$log_level);
 // Console output of any and all messaging if we are in debug mode
 if(defined('DEBUG_MODE') && DEBUG_MODE) {
 	$console_endpoint = new ConsoleListener();
-	$relay->subscribe($console_endpoint,'*','*');
+	$relay->subscribe($console_endpoint,'ldm','*');
 }
+
+//
+// All parser messages are mandatory
+// 
+
+$relay->subscribe($console_endpoint,'parser','*');
 
 //
 // Execution time
@@ -82,15 +88,9 @@ $m_text = file_get_contents($file_path);
 
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
-//print_r($product_obj);
-// Generate events from the returned product object.
 
-$events = EventFactory::generate_events($product_obj);
-
-// Publish the events. Listeners will take care of the rest.
-foreach($events as $event) {
-	$relay->publish($event);
-}
+// Publish an event to signal the product is parsed.
+$relay->publish(new Event('ldm',$product_obj->afos,$product_obj));
 
 $time_end = microtime(true);
 $time = $time_end - $time_start;

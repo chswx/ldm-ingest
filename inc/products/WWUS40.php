@@ -325,4 +325,3 @@ class WWUS40 extends NWSProduct {
     	unlink($file);
     }
 }
-?>

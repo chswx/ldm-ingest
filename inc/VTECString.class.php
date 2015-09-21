@@ -118,6 +118,32 @@ class VTECString
     }
 
     /**
+     * Return the phenomena name from the global dictionary.
+     * @return string Phenomena name
+     */
+    function get_phenomena_name()
+    {
+    	global $vtec_phenomena_codes;
+		if(isset($vtec_phenomena_codes[$this->phenomena]))
+			return $vtec_phenomena_codes[$this->phenomena];
+		else
+			return null;
+    }
+
+    /**
+     * Return the significance name from the global dictionary.
+     * @return string Significance name
+     */
+    function get_significance_name()
+    {
+    	global $vtec_significance_codes;
+		if(isset($vtec_significance_codes[$this->significance]))
+			return $vtec_significance_codes[$this->significance];
+		else
+			return null;
+    }
+
+    /**
      * Converts a VTEC timestamp to a UNIX timestamp (normalized to Z time)
      * 
      * @return int UNIX timestamp
@@ -226,5 +252,3 @@ $vtec_significance_codes = array(
 	'O' => 'Outlook',
 	'N' => 'Synopsis'
 );
-
-?>

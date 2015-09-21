@@ -32,3 +32,7 @@ Follow [@chswx on Twitter](http://twitter.com/chswx) during inclement weather in
 ## Questions?
 
 File issues on GitHub against this project or contact me on Twitter: [@jaredwsmith](http://twitter.com/jaredwsmith)
+
+## Licensing, warranty, etc.
+
+Licensing TBD. Code is pretty lousy and should not be used for life and death applications. No warranty implied. Use at your own risk.

@@ -36,3 +36,7 @@ File issues on GitHub against this project or contact me on Twitter: [@jaredwsmi
 ## Licensing, warranty, etc.
 
 Licensing TBD. Code is pretty lousy and should not be used for life and death applications. No warranty implied. Use at your own risk.
+
+## Many Thanks
+
+Many thanks to @blairblends, @edarc and @UpdraftNetworks for infrastructure and seeding the initial code for this project.

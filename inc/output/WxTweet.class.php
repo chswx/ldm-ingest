@@ -14,11 +14,11 @@ class WxTweet
 		// New VTEC product in effect immediately
 		'NEW' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// New VTEC product goes into effect at a specific time in the future
-		'NEW_FUTURE' => "NWS: {{product_name}} issued for {{location}} from {{start_time}} until {{exp_time}}.",
+		'NEW_FUTURE' => "NWS: {{product_name}} for {{location}} from {{start_time}} until {{exp_time}}.",
 		// Product continues (especially convective watches and warnings)
 		'CON' => "{{product_name}} for {{location}} continues until {{exp_time}}.",
 		// VTEC continuation of product in the future. Treat as a reminder.
-		'CON_FUTURE' => "NWS continues the {{product_name}} for {{location}} from {{start_time}} until {{exp_time}}.", 
+		'CON_FUTURE' => "NWS: {{product_name}} for {{location}} from {{start_time}} until {{exp_time}}.", 
 		// Product has already expired
 		'EXP' => "{{product_name}} for {{location}} has expired.",
 		// Product will be allowed to expire
@@ -28,7 +28,7 @@ class WxTweet
 		// Product extended in time (rare, typically for convective watches)
 		'EXT' => "{{product_name}} for {{location}} has been extended until {{exp_time}}.",
 		// Product extended in area (typically flood watches, heat advisories) -- we'll treat this as a new issuance
-		'EXA' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
+		'EXA' => "{{location}} now under a {{product_name}} until {{exp_time}}.",
 		// Product extended both in area and time. Again, treat like a new issuance, with language superseding previous issuance
 		'EXB' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// TODO: Indicate what product was upgraded from. Don't see this in the wild often, don't tweet upgrades.

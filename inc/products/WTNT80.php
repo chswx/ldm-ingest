@@ -1,17 +1,17 @@
 <?php
 /*
- * SPC Watch County Notification ingestor.
+ * Tropical cyclone watch/warning breakpoints from NHC
  */
 
-class WOUS60 extends NWSProduct {
+class WTNT80 extends NWSProduct {
 
 	var $tweet_templates = array(
 		// New VTEC product in effect immediately
-		'NEW' => "NWS: {{product_name}} for {{location}} until {{exp_time}}.",
+		'NEW' => "A {{product_name}} is now in effect for {{location}} until {{exp_time}}.",
 		// New VTEC product goes into effect at a specific time in the future
-		'NEW_FUTURE' => "NWS: {{product_name}} for {{location}} until {{exp_time}}.",
+		'NEW_FUTURE' => "A {{product_name}} is now in effect for {{location}} until {{exp_time}}.",
 		// Product continues (especially convective watches and warnings)
-		'CON' => "{{product_name}} for {{location}} continues until {{exp_time}}.",
+		'CON' => "{{product_name}} for {{location}} remains in effect until {{exp_time}}.",
 		// VTEC continuation of product in the future. Treat as a reminder.
 		'CON_FUTURE' => "Reminder: {{product_name}} for {{location}} will go into effect at {{start_time}} until {{exp_time}}.", 
 		// Product will be allowed to expire at scheduled time
@@ -27,7 +27,7 @@ class WOUS60 extends NWSProduct {
 		// TODO: Indicate what product was upgraded from. Don't see this in the wild often, don't tweet upgrades.
 		// Use later: 'UPG' => "{{old_product_name}} for {{location}} has been upgraded to a {{new_product_name}} until {{exp_time}}.", 
 		// For now...
-		'UPG' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
+		//'UPG' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// Not yet displaying corrections, but TODO enable this when warnings are published to the Web and tweeted.
 		'COR' => "{{product_name}} now in effect for {{location}} until {{exp_time}}.",
 		// Not sure when we would see this one, either.  Including for completeness but I don't expect to tweet it.
@@ -46,11 +46,8 @@ class WOUS60 extends NWSProduct {
 		$this->parse_vtec();
 
 		// FINAL: Return the properties array, track the watch if in our zones
-		if($this->get_vtec_action() == 'NEW') {
+		if($this->get_vtec_action() == 'NEW' || $this->get_vtec_action() == 'CAN' || $this->get_vtec_action() == 'CON') {
 			$this->properties['relay'] = true;
-			if($this->in_zone($active_zones)) {
-				$this->track_watch_number();
-			}
 		}
 		else
 		{
@@ -93,8 +90,8 @@ class WOUS60 extends NWSProduct {
 	function get_location_string() {
         $zones = GeoLookup::get_zones($this->get_location_zones());
         $zone_count = count($zones);
-		if($zone_count == 3) {
-			$location_string = "the #CHS Tri-County area";
+		if($zone_count == 2) {
+			$location_string = "the Charleston coast";
 		}
 		else {
 			foreach($zones as $zone) {
@@ -117,21 +114,6 @@ class WOUS60 extends NWSProduct {
 			}
 		}
         return $location_string;
-    }
-
-    /**
-     * Track the watch number to get probabilities when they are issued by SPC in WWUS40.
-     * Writes a flat file to the filesystem.
-     * 
-     * @return void
-     */
-    private function track_watch_number()
-    {
-    	$file = "trackwatch";
-		$fh = fopen($file, 'w');
-		$event = $this->get_vtec_event_number();
-		fwrite($fh, $event);
-		fclose($fh);
     }
 }
 ?>

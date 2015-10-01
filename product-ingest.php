@@ -32,9 +32,6 @@ include('inc/geo/GeoLookup.class.php');
 // Tweet generation library
 include('inc/output/WxTweet.class.php');
 
-// HipChat driver
-include('lib/Hippy/Hippy.php');
-
 // Initialize Mustache
 $m = new Mustache;
 
@@ -100,10 +97,6 @@ foreach($products as $product)
 				log_message("Twitter responded with: " . $response);
 				if(!$response) {
 					log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
-				}
-				// Route to HipChat
-				if(defined('HIPCHAT_TOKEN')) {
-					Hippy::speak($tweet_text);
 				}
 			}
 		}

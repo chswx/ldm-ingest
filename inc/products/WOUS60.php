@@ -7,9 +7,9 @@ class WOUS60 extends NWSProduct {
 
 	var $tweet_templates = array(
 		// New VTEC product in effect immediately
-		'NEW' => "A {{product_name}} is now in effect for {{location}} until {{exp_time}}.",
+		'NEW' => "NWS: {{product_name}} for {{location}} until {{exp_time}}.",
 		// New VTEC product goes into effect at a specific time in the future
-		'NEW_FUTURE' => "A {{product_name}} is now in effect for {{location}} until {{exp_time}}.",
+		'NEW_FUTURE' => "NWS: {{product_name}} for {{location}} until {{exp_time}}.",
 		// Product continues (especially convective watches and warnings)
 		'CON' => "{{product_name}} for {{location}} continues until {{exp_time}}.",
 		// VTEC continuation of product in the future. Treat as a reminder.

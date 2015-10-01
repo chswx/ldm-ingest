@@ -13,7 +13,7 @@ class WWUS50 extends NWSProduct {
 		$this->parse_vtec();
 
 		// STEP 3: Relay readiness
-		$this->properties['relay'] = false;
+		$this->properties['relay'] = true;
 
 		// FINAL: Return the properties array
 		return $this->properties;

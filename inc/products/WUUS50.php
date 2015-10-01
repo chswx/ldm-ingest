@@ -13,7 +13,7 @@ class WUUS50 extends NWSProduct {
 
 		// STEP 3: Determine readiness to relay
 		// Always relay this product.
-		$this->properties['relay'] = false;
+		$this->properties['relay'] = true;
 
 		// FINAL: Return the properties array
 

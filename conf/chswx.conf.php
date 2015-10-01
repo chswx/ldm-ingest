@@ -24,7 +24,7 @@ $vtec_phenomena_codes = array(
 	'EC' => 'Extreme Cold',
 	'EH' => 'Excessive Heat',
 	'EW' => 'Extreme Wind',
-	'FA' => 'Areal Flood',
+	'FA' => 'Flood',
 	'FF' => 'Flash Flood',
 	'FG' => 'Dense Fog',
 	'FL' => 'Flood',
@@ -101,3 +101,5 @@ $active_zones = array(
 	'SCC019',
 	'SCC035'
 );
+
+define('HIPCHAT_TOKEN','3476f8d7ee4bb8d7fd79cacc095acd');

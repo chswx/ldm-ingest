@@ -7,6 +7,9 @@
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
 
+// Start timing script execution.
+$time_start = microtime(true);
+
 //
 // Support Files
 //
@@ -82,7 +85,9 @@ foreach($products as $product)
 	$product_parsed = NWSProductFactory::parse_product($wmo_id,$product);
 	if(!is_null($product_parsed)) {
 		//$product_data = $product_parsed->get_properties();
-		
+		if($product_parsed->can_relay() && $product_parsed->in_zone($active_zones)) {
+			mail('jared.smith@updraftnetworks.com', $product_parsed->get_name() . " for " . $product_parsed->get_location_string(), $product_parsed->get_product_text(),'From: jared.smith+alerts@updraftnetworks.com');
+		}
 		// Authenticate with Twitter
 		$twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
 		$tweets = $product_parsed->get_tweets();
@@ -92,7 +97,7 @@ foreach($products as $product)
 				//echo "Length of tweet: " . strlen($tweet_text) . "\n";
 				//echo $tweet_text;
 				$response = $twitter->post('statuses/update',array('status' => $tweet_text));
-				print_r($response);
+				log_message("Twitter responded with: " . $response);
 				if(!$response) {
 					log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
 				}
@@ -127,3 +132,7 @@ function log_message($message) {
 		error_log($log_format,$log_mode);
 	}
 }
+
+$time_end = microtime(true);
+$time = $time_end - $time_start;
+log_message("Script execution completed in " . $time . " seconds.");

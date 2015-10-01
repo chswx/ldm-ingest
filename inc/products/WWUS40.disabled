@@ -96,7 +96,7 @@ class WWUS40 extends NWSProduct {
 		$this->properties['attributes']['pds'] = ($watch_att[4] == "YES") ? true : false;	
 
 		if($this->is_tracked()) {
-			$this->properties['relay'] = true;
+			$this->properties['relay'] = false;
 			$this->untrack_watch_number();
 		}
 		return $this->properties;

@@ -15,12 +15,13 @@ class GenericProduct extends NWSProduct {
 
 		// STEP 3: Relay readiness
 		// Relay hydrological and tropical products
-		//echo $this->get_vtec_phenomena();
-		if($this->get_vtec_phenomena() == 'WS' || $this->get_vtec_phenomena() == 'ZR' || $this->get_vtec_phenomena() == 'IS' || $this->get_vtec_phenomena() == 'CF' || ($this->get_vtec_phenomena() == 'FA' && $this->get_vtec_significance() == 'W') || $this->get_vtec_phenomena() == 'WI' || $this->get_vtec_phenomena() == 'WC' || $this->get_vtec_phenomena() == 'FF' || $this->get_vtec_phenomena() == 'FG' || $this->get_vtec_phenomena() == 'HF' || $this->get_vtec_phenomena() == 'HI' || $this->get_vtec_phenomena() == 'HU' || $this->get_vtec_phenomena() == 'TI' || $this->get_vtec_phenomena() == 'TR') {
+		
+		$valid_products = array('WS','ZR','IS','CF','FA','WI','WC','FF','FG','HF','HI','HU','TI','TR');
+
+		if(in_array($this->get_vtec_phenomena(),$valid_products)) {
 			$this->properties['relay'] = true;
 		}
-		else
-		{
+		else {
 			$this->properties['relay'] = false;
 		}
 

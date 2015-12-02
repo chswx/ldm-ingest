@@ -36,8 +36,10 @@ include('inc/output/WxTweet.class.php');
 $m = new Mustache;
 
 // Bring in the Twitter OAuth lib and local config.
-include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
-include('oauth.config.php');
+if(!defined('LOCAL_DEBUG')) {
+    include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
+    include('oauth.config.php');
+}
 
 //
 // Execution time
@@ -65,12 +67,12 @@ log_message("Product ingest running - WMO ID: " . $wmo_id . " File Path: " . $fi
 
 // Check if the product contains $$ identifiers for multiple products
 if(strpos($output, "$$")) {
-	// Loop over the file for multiple products within one file identified by $$
-	$products = explode('$$',trim($output), -1);
+    // Loop over the file for multiple products within one file identified by $$
+    $products = explode('$$',trim($output), -1);
 }
 else {
-	// No delimiters
-	$products = array(trim($output));
+    // No delimiters
+    $products = array(trim($output));
 }
 
 //
@@ -79,51 +81,55 @@ else {
 
 foreach($products as $product)
 {
-	$product_parsed = NWSProductFactory::parse_product($wmo_id,$product);
-	if(!is_null($product_parsed)) {
-		//$product_data = $product_parsed->get_properties();
-		if($product_parsed->can_relay() && $product_parsed->in_zone($active_zones)) {
-			mail('jared.smith@updraftnetworks.com', $product_parsed->get_name() . " for " . $product_parsed->get_location_string(), $product_parsed->get_product_text(),'From: jared.smith+alerts@updraftnetworks.com');
-		}
-		// Authenticate with Twitter
-		$twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
-		$tweets = $product_parsed->get_tweets();
+    $product_parsed = NWSProductFactory::parse_product($wmo_id,$product);
+    if(!is_null($product_parsed)) {
+        //$product_data = $product_parsed->get_properties();
+        if($product_parsed->can_relay() && $product_parsed->in_zone($active_zones)) {
+            mail('jared.smith@updraftnetworks.com', $product_parsed->get_name() . " for " . $product_parsed->get_location_string(), $product_parsed->get_product_text(),'From: jared.smith+alerts@updraftnetworks.com');
+        }
+        // Authenticate with Twitter
+        if(class_exists('TwitterOAuth')) {
+            $twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
+        }
+        $tweets = $product_parsed->get_tweets();
 
-		if(!empty($tweets)) {
-			foreach($tweets as $tweet_text) {
-				//echo "Length of tweet: " . strlen($tweet_text) . "\n";
-				//echo $tweet_text;
-				$response = $twitter->post('statuses/update',array('status' => $tweet_text));
-				log_message("Twitter responded with: " . $response);
-				if(!$response) {
-					log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
-				}
-			}
-		}
-		else
-		{
-			log_message("product-ingest.php: No tweet for $wmo_id from " . $product_parsed->get_vtec_wfo());
-		}
-	}
-	else {
-		log_message("product-ingest.php: Product parser for $wmo_id is null.");
-	}
+        if(!empty($tweets)) {
+            foreach($tweets as $tweet_text) {
+                //echo "Length of tweet: " . strlen($tweet_text) . "\n";
+                log_message("Tweeting: " . $tweet_text);
+                if(isset($twitter)) {
+                    $response = $twitter->post('statuses/update',array('status' => $tweet_text));
+                    log_message("Twitter responded with: " . $response);
+                    if(!$response) {
+                        log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
+                    }
+                }
+            }
+        }
+        else
+        {
+            log_message("product-ingest.php: No tweet for $wmo_id from " . $product_parsed->get_vtec_wfo());
+        }
+    }
+    else {
+        log_message("product-ingest.php: Product parser for $wmo_id is null.");
+    }
 }
 
 function log_message($message) {
-	$log_format = "[" . date('m-d-Y g:i:s A') . "] " . $message . "\n";
-	$log_location = '/home/ldm/chswx-error.log';
-	$log_mode = 0; 	// defaults to syslog/stderr
+    $log_format = "[" . date('m-d-Y g:i:s A') . "] " . $message . "\n";
+    $log_location = '/home/ldm/chswx-error.log';
+    $log_mode = 0; 	// defaults to syslog/stderr
 
-	//echo $message;
+    //echo $message;
 
-	if(file_exists('/home/ldm/chswx-error.log')) {
-		$log_mode = 3;
-		error_log($log_format,$log_mode,$log_location);
-	}
-	else {
-		error_log($log_format,$log_mode);
-	}
+    if(file_exists('/home/ldm/chswx-error.log')) {
+        $log_mode = 3;
+        error_log($log_format,$log_mode,$log_location);
+    }
+    else {
+        error_log($log_format,$log_mode);
+    }
 }
 
 $time_end = microtime(true);

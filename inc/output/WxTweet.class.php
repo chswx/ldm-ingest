@@ -150,7 +150,7 @@ class WxTweet
      * @return string   Human-readable timestamp for tweets
      */
     protected function format_time($timestamp) {
-        if($this->is_future($timestamp) && !$this->is_tomorrow($timestamp)) {
+        if($timestamp - $this->curr_timestamp >= 86400 && !$this->is_tomorrow($timestamp)) {
             $date_format = 'M j \a\t g:i A';
         }
         else {

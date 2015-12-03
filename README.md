@@ -1,5 +1,7 @@
 # @chswx LDM Parser
 
+[![Build Status](https://travis-ci.org/jaredwsmith/ldm-ingest.svg?branch=master)](https://travis-ci.org/jaredwsmith/ldm-ingest)
+
 A series of scripts to ingest and relay NWS watch/warning/advisory products via Unidata’s LDM. Will eventually expand to forecast and METAR processing as well; baby steps for now, though.
 
 ## What’s done

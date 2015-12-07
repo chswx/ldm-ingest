@@ -41,7 +41,6 @@ class GeoLookup {
 		// Tidal Berkeley and Inland Berkeley are redundant -- it's all Berkeley if they're both there
 		// Hack to remove those two counties and add the combined one instead
 		if(in_array('Tidal Berkeley',$zone_names) && in_array('Inland Berkeley',$zone_names)) {
-			//echo "Berkeley hack\n";
 			$zone_names = array_filter($zone_names,function($var) { return !strpos($var,"Berkeley"); } );
 			$zone_names[] = "Berkeley";
 			sort($zone_names);

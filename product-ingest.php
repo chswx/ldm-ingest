@@ -1,21 +1,40 @@
 #!/usr/bin/php
 <?php
 /* 
- * CHSWX Product Ingestor
+ * LDM Product Ingestor
  * Command-line tool
  * Main entry point for LDM ingest. This hands off to a factory which generates a class for specific products.
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
-
-// Start timing script execution.
 $time_start = microtime(true);
 
 //
-// Support Files
-//
+// Configuration
+// 
 
-// Bring in configuration.
-include('conf/chswx.conf.php');
+include('conf/base.conf.php');
+
+//
+// Utilities and libraries
+// 
+
+// Base utilities
+include('inc/Utils.class.php');
+// Pub/Sub system -- backbone to the whole thing
+include('inc/PubSub.php');
+
+//
+// Set up event dispatcher
+// 
+$relay = new Dispatcher();
+
+// Include console listener in debug mode
+if(DEBUG_MODE) {
+	include('inc/endpoints/ConsoleListener.class.php');
+}
+
+// Logging listener
+include('inc/endpoints/LogListener.class.php');
 
 // Bring in the abstract class definition for NWSProduct.
 include('inc/NWSProduct.class.php');
@@ -23,115 +42,49 @@ include('inc/NWSProduct.class.php');
 // And its factory
 include('inc/NWSProductFactory.class.php');
 
-// Mustache library
-include('lib/mustache/Mustache.php');
-
 // Geodata library
 include('inc/geo/GeoLookup.class.php');
 
-// Tweet generation library
-include('inc/output/WxTweet.class.php');
+//
+// Set up logging
+// 
 
-// Initialize Mustache
-$m = new Mustache;
-
-// Bring in the Twitter OAuth lib and local config.
-if(!defined('LOCAL_DEBUG')) {
-    include('lib/twitter/twitteroauth/twitteroauth/twitteroauth.php');
-    include('oauth.config.php');
+$log_endpoint = new LogListener();
+if(defined('DEBUG_MODE') && DEBUG_MODE)
+{
+	$log_level = "*";
 }
+else
+{
+	$log_level = "ERR";
+}
+$relay->subscribe($log_endpoint,'log',$log_level);
+
 
 //
 // Execution time
 //
 
 // Get the file path from the command line.
+// TODO: Consider piping this in, may save a small bit of disk I/O
 $file_path = $argv[1];
+Utils::log("Ingest has begun. Filename: " . $file_path);
 
 // Bring in the file
 $m_text = file_get_contents($file_path);
 
-// Sanitize the file
-$output = trim($m_text, "\x00..\x1F");
+// Send to the factory to parse the product.
+$product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 
-// Get the WMO ID
-preg_match('/[A-Z][A-Z][A-Z][A-Z][0-9][0-9]/',$output,$matches);
-$wmo_id = $matches[0];
-//echo "WMO ID is $wmo_id";
+// Publish an event to signal the product is parsed.
+$relay->publish(new Event('ldm',$product_obj->afos,$product_obj));
 
-log_message("Product ingest running - WMO ID: " . $wmo_id . " File Path: " . $file_path);
-
-//
-// TODO: Move this check back later in the sequence
-//
-
-// Check if the product contains $$ identifiers for multiple products
-if(strpos($output, "$$")) {
-    // Loop over the file for multiple products within one file identified by $$
-    $products = explode('$$',trim($output), -1);
-}
-else {
-    // No delimiters
-    $products = array(trim($output));
-}
-
-//
-// Kick off the factory for each parsed product
-//
-
-foreach($products as $product)
-{
-    $product_parsed = NWSProductFactory::parse_product($wmo_id,$product);
-    if(!is_null($product_parsed)) {
-        //$product_data = $product_parsed->get_properties();
-        if($product_parsed->can_relay() && $product_parsed->in_zone($active_zones)) {
-            mail('jared.smith@updraftnetworks.com', $product_parsed->get_name() . " for " . $product_parsed->get_location_string(), $product_parsed->get_product_text(),'From: jared.smith+alerts@updraftnetworks.com');
-        }
-        // Authenticate with Twitter
-        if(class_exists('TwitterOAuth')) {
-            $twitter = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
-        }
-        $tweets = $product_parsed->get_tweets();
-
-        if(!empty($tweets)) {
-            foreach($tweets as $tweet_text) {
-                //echo "Length of tweet: " . strlen($tweet_text) . "\n";
-                log_message("Tweeting: " . $tweet_text);
-                if(isset($twitter)) {
-                    $response = $twitter->post('statuses/update',array('status' => $tweet_text));
-                    log_message("Twitter responded with: " . $response);
-                    if(!$response) {
-                        log_message("product-ingest.php: Tweet of length " . strlen($tweet_text) . " failed: " . $tweet_text);
-                    }
-                }
-            }
-        }
-        else
-        {
-            log_message("product-ingest.php: No tweet for $wmo_id from " . $product_parsed->get_vtec_wfo());
-        }
-    }
-    else {
-        log_message("product-ingest.php: Product parser for $wmo_id is null.");
-    }
-}
-
-function log_message($message) {
-    $log_format = "[" . date('m-d-Y g:i:s A') . "] " . $message . "\n";
-    $log_location = '/home/ldm/chswx-error.log';
-    $log_mode = 0; 	// defaults to syslog/stderr
-
-    //echo $message;
-
-    if(file_exists('/home/ldm/chswx-error.log')) {
-        $log_mode = 3;
-        error_log($log_format,$log_mode,$log_location);
-    }
-    else {
-        error_log($log_format,$log_mode);
-    }
-}
 
 $time_end = microtime(true);
 $time = $time_end - $time_start;
-log_message("Script execution completed in " . $time . " seconds.");
+Utils::log("Ingest and relay complete. Execution time: $time seconds");
+
+// Deprecated!  Use Utils::log() instead.
+function log_message($message) {
+	Utils::log($message);
+}

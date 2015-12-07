@@ -1,238 +1,235 @@
 <?php
-/* 
- * CHSWX: NWSProduct class 
+/*
+ * NWSProduct class
  * Defines most of what is a National Weather Service text product and puts it out into easily reusable chunks.
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
 */
 
-abstract class NWSProduct {
-    
+class NWSProduct {
+    /**
+     * Raw product text (with some light cleanup).
+     *
+     * @var string Product text.
+     */
     var $raw_product;
-    var $properties;
-
-    function __construct($product) {
-        // Keep the raw product around for now
-        $this->raw_product = $product;
-        $this->properties = $this->parse($this->raw_product);
-    }
 
     /**
-     * Abstract function for product-specific parsing.
-     */
-    abstract function parse();
-
-    /**
-     * Abstract function to get the name of the product.
-     */
-    abstract function get_name();
-
-    /**
-     * Abstract function requesting that each product provide an expiration.
-     */
-    abstract function get_expiry();
-
-    /*
-     * Returns the properties of the product.
-     */
-    function get_properties()
-    {
-        return $this->properties;
-    }
-
-    /**
-     * Return the zones for this product.
+     * Issuing office.
      * 
-     * @return array of zones
+     * @var string WFO
+     */
+    var $office;
+
+    /**
+     * AFOS identifier.
+     * 
+     * @var string AFOS ID
      */
     
-    function get_location_zones() {
-        //print_r($this->properties['zones']);
-        return $this->properties['zones'];
+    var $afos;
+    
+    /**
+     * Unique stamp for this particular product.
+     * 
+     * @var string stamp
+     */
+    
+    var $stamp;
+
+    /**
+     * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
+     * 
+     * @var mixed Array of segments
+     */
+    
+    var $segments;
+
+    /**
+     * Constructor.
+     */
+    function __construct( $prod_info, $product_text ) {
+        // Extract info from the $prod_info array...
+        $this->office = $prod_info['office'];   // Issuing office
+        $this->afos = $prod_info['afos'];     // AFOS code
+        // Keep the raw product around for now
+        $this->raw_product = $product_text;
+        // Parse the product out into segments.
+        $this->segments = $this->parse();
+        // Generate the stamp for the product at large in case there are no segments
+        // Also, if the product identifier matches a certain pattern, generate the event
+        if(empty($this->segments) || preg_match("(AFD|PFM|ZFP|HWO|TCWAT|SFT)",$this->afos)) {
+            $this->stamp = printf("%s-%s-".microtime(),$this->office,$this->afos);
+        }
     }
 
-    /*
-     * Return the raw product text
+    /**
+     * Generic parsing ability.
+     * STRONGLY recommend overriding in a WMO-specific file
      */
+    
+    function parse() {
+        return $this->split_product();
+    }
 
-    function get_product_text() 
-    {
-        //echo $this->raw_product;
-        //echo str_replace("\n", "", $this->raw_product);
+    /**
+     * Return the unencumbered product text
+     *
+     * @return string Product text
+     */
+    function get_product_text() {
         return $this->raw_product;
     }
 
     /**
-     * Notifies the relay system that this is OK to relay.
-     * 
-     * @todo Add multiple relay permissions
-     * @return boolean
+     * Split the product by $$ if needed.
      */
-    function can_relay() {
-        if((!empty($this->properties['vtec']) && $this->properties['vtec']['status'] == 'O') || !empty($this->properties['relay'])) {
-            return $this->properties['relay'];
-        }
-        else
-        {
-            return false;
-        }
-    }
+    function split_product() {   
+        // Eliminate the header area of the raw product.
+        $product = preg_replace("/^(.*\n){8}/", "", $this->raw_product);
 
-    //
-    // Valid Time Extent Code (VTEC) support
-    // Lots of useful information in one string about nature of product, start and end times, etc.
-    // TODO: Implement H-VTEC for hydrological hazards
-    //
-
-    /*
-     * Get VTEC string if it exists, otherwise return false
-     */
-
-    function get_vtec() {
-        if(!empty($this->properties['vtec']['string'])) {
-            return $this->properties['vtec'];
-        }
-
-        // No VTEC string found
-        return false;
-    }
-
-    /*
-     * Helper function for retrieving VTEC product class
-     */
-
-    function get_vtec_product_class() {
-        return $this->properties['vtec']['product_class'];
-    }
-
-    /*
-     * Helper function for retrieving VTEC action (issued, continued, extended, etc.)
-     */
-
-    function get_vtec_action() {
-        return $this->properties['vtec']['action'];
-    }
-
-    /*
-     * Retrieve the phenomena number
-     */
-
-    function get_vtec_event_number() {
-        return $this->properties['vtec']['event_number'];
-    }
-
-    /*
-     * Helper function for retrieving issuing WFO from VTEC
-     */
-
-    function get_vtec_wfo() {
-        return $this->properties['vtec']['wfo'];
-    }
-
-    /*
-     * Retrieve VTEC phenomena code.
-     */
-
-    function get_vtec_phenomena() {
-        return $this->properties['vtec']['phenomena'];
-    }
-
-    /*
-     * Retrieve VTEC significance
-     */
-
-    function get_vtec_significance() {
-        return $this->properties['vtec']['significance'];
-    }
-
-    /*
-     * Retrieve effective date
-     */
-
-    function get_vtec_effective_date() {
-        return $this->properties['vtec']['effective_date'];
-    }
-
-    /*
-     * Retrieve effective time 
-     */
-
-    function get_vtec_effective_time() {
-        return $this->properties['vtec']['effective_time'];
-    }
-
-    /*
-     * Retrieve a UNIX timestamp for the effective date and time
-     */
-
-    function get_vtec_effective_timestamp() {
-        if($this->properties['vtec']['effective_date'] != '000000') {
-            return strtotime($this->properties['vtec']['effective_timestamp']);
-        }
-        else
-        {
-            return 0;
-        }
-    }
-
-    /*
-     * Retrieve expire date
-     */
-
-    function get_vtec_expire_date() {
-        return $this->properties['vtec']['expire_date'];
-    }
-
-    /*
-     * Retrieve expire time
-     */
-
-    function get_vtec_expire_time() {
-        return $this->properties['vtec']['expire_time'];
-    }
-
-    /*
-     * Retrieve expire timestamp
-     */
-    
-    function get_vtec_expire_timestamp() {
-        if($this->properties['vtec']['expire_date'] != '000000') {
-            return strtotime($this->properties['vtec']['expire_timestamp']);
+        // Check if the product contains $$ identifiers for multiple products
+        if(strpos($product, "$$")) {
+            // Loop over the file for multiple products within one file identified by $$
+            $raw_segments = explode('$$',trim($product), -1);
         }
         else {
-            return 0;
+            // No delimiters
+            $raw_segments = array(trim($product));
         }
-    }
 
-    /*
-     * Retrieve raw VTEC string
-     */
+        foreach($raw_segments as $segment) {
+            $segments[] = new NWSProductSegment($segment,$this->afos,$this->office);
+        }
 
-    function get_vtec_string() {
-        return $this->properties['vtec']['string'];
-    }
-
-    /*
-     * Check if it is an operational product
-     */
-
-    function is_operational() {
-        return $this->properties['vtec']['status'] == 'O';
+        return $segments;
     }
 
     /**
-     * Was this product issued for a particular zone?
+     * Get segments by a particular channel (or array of channels)
+     * @param  mixed $channel  String or array of channels
+     * @return array of NWSProductSegment Segments found
+     */
+    function get_segments_by_channel($channel)
+    {
+        $seg_array = array();
+
+        foreach($this->segments as $segment)
+        {
+            if($segment->in_channel($channel))
+            {
+                array_push($seg_array,$segment);
+            }
+        }
+
+        return $seg_array;
+    }
+}
+
+class NWSProductSegment
+{
+	/**
+	 * Segment text
+	 * 
+	 * @var string
+	 */
+	
+	var $text;
+	
+    /**
+     * Array of VTEC strings.
      * 
-     * @param array $zones Array of zone codes to check against
+     * @var array VTECString
+     */
+    var $vtec_strings;
+
+    /**
+     * Zones for this segment.
+     * 
+     * @var array zones
+     */
+    var $zones;
+
+    /**
+     * Issuing time.
+     * 
+     * @var int Timestamp
+     */
+    var $issued_time;
+    
+    /**
+     * Unique stamp.
+     * 
+     * @var $stamp
+     */
+    var $stamp;
+    
+    /**
+     * Issuing WFO (from parent product)
+     * 
+     * @var string $office
+     */
+    var $office;
+    
+    /**
+     * AFOS code (from parent product)
+     * @var string $afos
+     */
+    var $afos;
+
+    /**
+     * Channels it should respond on
+     * @var  array $channels
+     */
+    
+    var $channels = array();
+    
+    /**
+     * Constructor.
+     * 
+     * @param string $segment_text
+     */
+    function __construct($segment_text, $afos, $office)
+    {
+    	$this->afos = $afos;
+    	$this->office = $office;
+    	$this->text = $segment_text;
+    	$this->vtec_strings = $this->parse_vtec();
+    	$this->zones = $this->parse_zones();
+    	$this->stamp = $this->afos . '-' . microtime();
+    }
+    
+    /**
+     * Get this segment's text.
+     * 
+     * @return string Raw text of the segment
+     */
+    function get_text()
+    {
+        return $this->text;
+    }
+
+    /**
+     * Return the zones for this product.
+     *
+     * @return array of zones
+     */
+    function get_zones() {
+        //print_r($this->properties['zones']);
+        return $this->zones;
+    }
+
+    /**
+     * Was this product issued for a particular zone(s)?
+     *
+     * @param array   $zones Array of zone codes to check against
      * @return boolean Array search result - true if found, false if not
      */
-    function in_zone($zones) {
-        foreach($zones as $zone) {
-            //echo "Checking zone $zone\n";
-            if(in_array($zone,$this->properties['zones'])) {
+    function in_zone( $zones ) {
+        foreach ( $zones as $zone ) {
+            if ( in_array( $zone, $this->zones ) ) {
                 return true;
-            }    
-            else
-            {
+            }
+            else {
                 $array_search_result = false;
             }
         }
@@ -241,69 +238,82 @@ abstract class NWSProduct {
     }
 
     /**
-     * Retrieve tweet templates.
-     * Overridden in more specific classes. Return null here.
-     * 
-     * @return null
+     * Check if a segment is in a channel
+     * @param  string $channel Channel to get
+     * @return mixed String or array of channels
      */
-    function get_tweet_templates() {
-        return null;
-    }
-
-    /**
-     * Retrieve location string for use in broadcasts.
-     * 
-     * @return string Final location string.
-     */
-    function get_location_string() {
-        $zones = GeoLookup::get_zones($this->get_location_zones());
-        $zone_count = count($zones);
-        foreach($zones as $zone) {
-            $location_string .= $zone;
-            if($zone_count > 2)
-            {
-                $location_string .= ", ";
-            }
-            else if($zone_count > 1) {
-                $location_string .= " and ";
-            }
-            --$zone_count;
+    function in_channel($channel)
+    {
+        if(in_array($channel,$this->channels))
+        {
+            return true;
         }
-
-        /**
-         * @todo Need to flesh out some more -- in LA, these are Parishes; in VA, independent cities are named
-         */
-        if(sizeof($zones) > 1) {
-            $location_string .= " counties";
-        }
-        else {
-            $location_string .= " County";
-        }
-
-        return $location_string;
-    }
-
-    /**
-     * Render tweets needed for product.
-     * Allow child products to override.
-     * 
-     * @return array Tweet text for each tweet needed by product.
-     */
-    function get_tweets() {
-        global $active_zones;
-
-        $tweet_text = array();
-
-        if($this->in_zone($active_zones) && $this->can_relay()) {
-            $tweet = new WxTweet($this);
-            $tweet_text[] = $tweet->render_tweet($this->get_tweet_templates());
-        }
-        return $tweet_text;
+        return false;
     }
 
     //
-    // Private functions
+    // Valid Time Extent Code (VTEC) support
+    // Lots of useful information in one string about nature of product, start and end times, etc.
+    // TODO: Implement H-VTEC for hydrological hazards
     //
+
+    /**
+     * Get VTEC strings if they exist...otherwise, return false
+     * 
+     * @return array VTEC strings
+     * @return boolean false if failure
+     */
+    function get_vtec() {
+        if(!empty($this->vtec_strings))
+        {
+            foreach($this->vtec_strings as $vtec_string) {
+                $strings[] = $vtec_string;
+            }
+            // Return an array of VTEC strings
+            return $strings;
+        }
+        // No VTEC string found
+        return false;
+    }
+
+    /**
+     * Quick check if this segment has VTEC
+     * @return  boolean
+     */
+    function has_vtec()
+    {
+        return !empty($this->vtec_strings);
+    }
+
+    /**
+     * Checks if a segment has a VTEC message.
+     * 
+     * @return boolean
+     */
+    function parse_vtec() {
+        $data = $this->text;
+    	$vtec_strings = array();
+
+    	// Match all alerts, but we will only use operational warnings
+        $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
+
+        if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
+            // If the VTEC library is not loaded, go ahead and get it
+            if(!defined('VTEC_LIB')) {
+                include('VTECString.class.php');
+            }
+            foreach ( $matches as $key => $match ) {
+            	//print_r($match);
+                $vtec_strings[$key] = new VTECString( $match );
+            }
+        }
+        
+        return $vtec_strings;
+    }
+
+    /*
+     * Zone generation functions
+     */
 
     /**
      * The NWS combines does not repeat the state code for multiple zones...not good for our purpose
@@ -311,33 +321,30 @@ abstract class NWSProduct {
      * We will also call the function to expand the ranges here.
      * See: http://www.weather.gov/emwin/winugc.htm
      */
-    protected function parse_zones($data)
-    {
-        $data = $this->get_product_text();
-
-        $output = str_replace(array("\r\n", "\r"), "\n", $data);
-        $lines = explode("\n", $output);
+    protected function parse_zones() {
+    	$data = $this->text;
+    	
+        $output = str_replace( array( "\r\n", "\r" ), "\n", $data );
+        $lines = explode( "\n", $output );
         $new_lines = array();
 
-        foreach ($lines as $i => $line) {
-            if(!empty($line))
-                $new_lines[] = trim($line);
+        foreach ( $lines as $i => $line ) {
+            if ( !empty( $line ) )
+            $new_lines[] = trim( $line );
         }
-        $data = implode($new_lines);
-        
+        $data = implode( $new_lines );
+
         /* split up individual states - multiple states may be in the same forecast */
         $regex = '/(([A-Z]{2})(C|Z){1}([0-9]{3})((>|-)[0-9]{3})*)-/';
-        
-        $count = preg_match_all($regex, $data, $matches);
+
+        $count = preg_match_all( $regex, $data, $matches );
         $total_zones = '';
-        
-        //print_r($matches);
 
         foreach ($matches[0] as $field => $value)
         {
             /* since the NWS thought it was efficient to not repeat state codes, we have to reverse that */
-            $state = substr($value, 0, 3);
-            $zones = substr($value, 3);
+            $state = substr( $value, 0, 3 );
+            $zones = substr( $value, 3 );
 
             /* convert ranges like 014>016 to 014-015-016 */
             $zones = $this->expand_ranges($zones);
@@ -352,14 +359,11 @@ abstract class NWSProduct {
             // Need one last dash to temporarily buffer between state changes
             $total_zones .= '-';
         }
-        
-        /* hack off the last dash */
-        $total_zones = substr($total_zones, 0, strlen($total_zones) - 1);
 
-        $total_zones = explode('-', $total_zones);
-
-        // return $total_zones;
-        $this->properties['zones'] = $total_zones;
+        /* One last cleanup */
+        $total_zones = substr( $total_zones, 0, strlen( $total_zones ) - 1 );
+        $total_zones = explode( '-', $total_zones );
+        return $total_zones;
     }
 
     /**
@@ -367,120 +371,24 @@ abstract class NWSProduct {
      * All we want to do here is convert ranges like 014>016 to 014-015-016
      * See: http://www.weather.gov/emwin/winugc.htm
      */
-    protected function expand_ranges($data)
-    {
-        //$data = $this->get_product_text();
+    protected function expand_ranges( $data ) {
+        
 
         $regex = '/(([0-9]{3})(>[0-9]{3}))/';
-        
-        $count = preg_match_all($regex, $data, $matches);
-        
-        foreach ($matches[0] as $field => $value)
-        {
-            list($start, $end) = explode('>', $value);
-            
+
+        $count = preg_match_all( $regex, $data, $matches );
+
+        foreach ( $matches[0] as $field => $value ) {
+            list( $start, $end ) = explode( '>', $value );
+
             $new_value = array();
-            for ($i = $start; $i <= $end; $i++)
-            {
-                $new_value[] = str_pad($i, 3, '0', STR_PAD_LEFT);
+            for ( $i = $start; $i <= $end; $i++ ) {
+                $new_value[] = str_pad( $i, 3, '0', STR_PAD_LEFT );
             }
-            
-            $data = str_replace($value, implode('-', $new_value), $data);
+
+            $data = str_replace( $value, implode( '-', $new_value ), $data );
         }
-        
+
         return $data;
-    }
-
-
-    /* 
-     * For VTEC-capable products, decode the VTEC string
-     */
-    protected function parse_vtec() {
-
-        $data = $this->get_product_text();
-
-        //
-        // Regex out VTEC from the product
-        //
-
-        // Match all alerts, but we will only use operational warnings
-        $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
-
-        // Successful match, save it all
-        if(preg_match_all($regex, $data, $match)) {
-            // Save the VTEC string in its entirety
-            $this->properties['vtec']['string'] = $match[0][0];
-            // VTEC product status
-            $this->properties['vtec']['status'] = $match[1][0];
-            // VTEC action
-            $this->properties['vtec']['action'] = $match[2][0];
-            // VTEC issuing WFO
-            $this->properties['vtec']['wfo'] = $match[3][0];
-            // VTEC phenomena
-            $this->properties['vtec']['phenomena'] = $match[4][0];
-            // VTEC significance
-            $this->properties['vtec']['significance'] = $match[5][0];
-            // VTEC event number
-            $this->properties['vtec']['event_number'] = $match[6][0];
-            // VTEC start date
-            $this->properties['vtec']['effective_date'] = $match[7][0];
-            // VTEC start time (Z)
-            $this->properties['vtec']['effective_time'] = $match[8][0];
-            // VTEC start time (UNIX timestamp), but only if it's not zeroes across the board
-            $vtec_effective_year = substr($this->properties['vtec']['effective_date'],0,2);
-            //echo "Effective year: " . $vtec_effective_year;
-            $vtec_effective_month = substr($this->properties['vtec']['effective_date'],2,2);
-            //echo "Effective month: " . $vtec_effective_month;
-            $vtec_effective_day = substr($this->properties['vtec']['effective_date'],4,2);
-            //echo "Effective day: " . $vtec_effective_day;
-            $vtec_effective_date_string = '20' . $vtec_effective_year . '-' . $vtec_effective_month . '-' . $vtec_effective_day . ' ' . $this->properties['vtec']['effective_time'] . 'Z';
-            $this->properties['vtec']['effective_timestamp'] = $vtec_effective_date_string;
-            // VTEC expire date
-            $this->properties['vtec']['expire_date'] = $match[9][0];
-            // VTEC expire time (Z)
-            $this->properties['vtec']['expire_time'] = $match[10][0];
-            // VTEC expire time (timestamp)
-            $vtec_expire_year = substr($this->properties['vtec']['expire_date'],0,2);
-            //echo "Effective year: " . $vtec_effective_year;
-            $vtec_expire_month = substr($this->properties['vtec']['expire_date'],2,2);
-            //echo "Effective month: " . $vtec_effective_month;
-            $vtec_expire_day = substr($this->properties['vtec']['expire_date'],4,2);
-            //echo "Effective day: " . $vtec_effective_day;
-            $vtec_expire_date_string = '20' . $vtec_expire_year . '-' . $vtec_expire_month . '-' . $vtec_expire_day . ' ' . $this->properties['vtec']['expire_time'] . 'Z';
-            $this->properties['vtec']['expire_timestamp'] = $vtec_expire_date_string;
-        }
-        
-    }
-
-    /**
-     * Protected function to retrieve name of product from VTEC
-     * Can be implemented in inheriting classes as the required get_name call
-     */
-    
-    protected function get_name_from_vtec() {
-        global $vtec_phenomena_codes, $vtec_significance_codes;
-
-        if($this->get_vtec()) {
-            return $vtec_phenomena_codes[$this->get_vtec_phenomena()] . " " . $vtec_significance_codes[$this->get_vtec_significance()];
-        }
-        else {
-            return null;
-        }
-    }
-
-    /**
-     * Protected function to retrieve expiry date from VTEC
-     * Really is the recommended way for watches and warnings
-     * 
-     * @todo Needs to account for date as well as time
-     * @return VTEC timestamp if valid, null if not
-     */
-    protected function get_expiry_from_vtec() {
-        if($this->get_vtec()) {
-            return $this->get_vtec_expire_timestamp();
-        }
-        else {
-            return null;
-        }
     }
 }

@@ -1,50 +1,47 @@
 <?php
 /* 
- * Generic product ingestor. Fallback for non-specific products.
+ * Generic product ingestor. Fallback for non-specific products. VTEC-capable.
  */
 
 class GenericProduct extends NWSProduct {
-	function parse() {
-		// TODO: Write the parser here.
-		
-		// STEP 1: Pull in counties
-		$this->parse_zones($this->get_product_text());
-
-		// STEP 2: Parse out VTEC
-		$this->parse_vtec();
-
-		// STEP 3: Relay readiness
-		// Relay hydrological and tropical products
-		
-		$valid_products = array('WS','ZR','IS','CF','FA','WI','WC','FF','FG','HF','HI','HU','TI','TR');
-
-		if(in_array($this->get_vtec_phenomena(),$valid_products)) {
-			$this->properties['relay'] = true;
-		}
-		else {
-			$this->properties['relay'] = false;
-		}
-
-		// FINAL: Return the properties array
-
-		return $this->properties;
+	function __construct($prod_info, $product_text)
+	{
+		parent::__construct($prod_info,$product_text);
+		$this->populate_channels();
 	}
 
-	/**
-     * Get the name of the product.
-     * 
-     * @return string Product name
-     */
-	function get_name() {
-		return $this->get_name_from_vtec();	
-	}
+	function populate_channels()
+    {
+        foreach($this->segments as $segment)
+        {
+	        array_push($segment->channels,$segment->afos);                    // e.g. TORCHS, SVSCHS, TCWAT1
+	        array_push($segment->channels,substr($segment->office, 1));        // e.g. CHS
+	        if($segment->has_vtec())
+	        {
+	            // Generate VTEC channel for each county. Retains NWSChat compatibility.
+	            // e.g. TO.W.SCC040
+	            foreach($segment->zones as $zone)
+	            {
+	                // One event per VTEC
+	                foreach($segment->vtec_strings as $vtec_string)
+	                {
+	                    array_push($segment->channels,$vtec_string->phenomena . '.' . $vtec_string->significance . '.' . $zone);
+	                }
+	            }
 
-	/**
-	 * Get expiration time from the product.
-	 * 
-	 * @return string Expiration time
-	 */
-	function get_expiry() {
-		return $this->get_expiry_from_vtec();
-	}
+	            // Generate VTEC channel per WFO (retains NWSChat compatibility)
+	            // e.g. TO.W.CHS
+	            foreach($segment->vtec_strings as $vtec_string)
+	            {
+	                array_push($segment->channels,$vtec_string->phenomena . '.' . $vtec_string->significance . '.' . substr($segment->office, 1) );
+	            }
+	        }
+	        
+	        // Generate channels for the current UGC
+	        foreach($segment->zones as $zone)
+	        {
+	            array_push($segment->channels,$zone);
+	        }
+    	}
+    }
 }

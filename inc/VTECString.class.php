@@ -118,6 +118,15 @@ class VTECString
     }
 
     /**
+     * Returns the action type from the VTEC dictionary.
+     *
+     * @return string action
+     */
+    function get_action() {
+        return $this->action;
+    }
+
+    /**
      * Return the phenomena name from the global dictionary.
      * @return string Phenomena name
      */

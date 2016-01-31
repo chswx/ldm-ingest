@@ -165,3 +165,5 @@ class ConsoleTwitterListener extends Listener
 		return false;
 	}	
 }
+
+$console_twitter = new ConsoleTwitterListener();

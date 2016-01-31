@@ -242,12 +242,19 @@ class VTECString
      * Return the significance name from the global dictionary.
      * @return string Significance name
      */
-    function get_significance_name()
-    {
+    function get_significance_name() {
         if(isset($this->vtec_significance_codes[$this->significance]))
             return $this->vtec_significance_codes[$this->significance];
         else
             return null;
+    }
+
+    function get_product_name() {
+        if(!empty($this->get_significance_name()) && !empty($this->get_phenomena_name())) {
+            return $this->get_phenomena_name() . " " . $this->get_phenomena_name();
+        }
+
+        return null;
     }
 
     /**

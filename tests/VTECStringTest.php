@@ -9,19 +9,21 @@ class VTECStringTest extends PHPUnit_Framework_TestCase {
     function testFullVtecString() {
         $vtec = new VTECString($this->expireOperationalTestString);
 
-        $this->assertEquals($vtec->vtec_string,$this->expireOperationalTestString);
+        var_dump($vtec);
+
+        $this->assertEquals($this->expireOperationalTestString,$vtec->vtec_string);
     }
     
     function testOperational() {
         $vtec = new VTECString($this->expireOperationalTestString);
         
-        $this->assertEquals($vtec->is_operational(),true);
+        $this->assertEquals(true,$vtec->is_operational());
     }
 
     function testExpired() {
         $vtec = new VTECString($this->expireOperationalTestString);
 
-        $this->assertEquals($vtec->get_action(),'EXP');
+        $this->assertEquals('EXP',$vtec->get_action());
     }
 
 }

@@ -6,21 +6,25 @@ class VTECStringTest extends PHPUnit_Framework_TestCase {
 
     var $expireOperationalTestString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
 
-    function testFullVtecString() {
+    function testFullVtecStringParser() {
         $vtec = new VTECString($this->expireOperationalTestString);
-
-        var_dump($vtec);
 
         $this->assertEquals($this->expireOperationalTestString,$vtec->vtec_string);
     }
     
-    function testOperational() {
+    function testIsOperational() {
         $vtec = new VTECString($this->expireOperationalTestString);
         
         $this->assertEquals(true,$vtec->is_operational());
     }
 
-    function testExpired() {
+    function testIsNotTest() {
+        $vtec = new VTECString($this->expireOperationalTestString);
+
+        $this->assertEquals(false,$vtec->is_test());
+    }
+
+    function testIsExpired() {
         $vtec = new VTECString($this->expireOperationalTestString);
 
         $this->assertEquals('EXP',$vtec->get_action());

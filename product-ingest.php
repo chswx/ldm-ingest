@@ -18,6 +18,7 @@ $time_start = microtime(true);
 // 
 
 include('conf/base.conf.php');
+include('conf/enabled-listeners.conf.php');
 
 //
 // Utilities and libraries
@@ -33,22 +34,32 @@ include('inc/PubSub.php');
 // 
 $relay = new Dispatcher();
 
-// Logging listener
-include('inc/endpoints/LogListener.class.php');
-
-// Include console listener in debug mode
-if(defined('DEBUG_MODE') && DEBUG_MODE) {
-	include('inc/endpoints/ConsoleListener.class.php');
-}
-
 // Bring in the abstract class definition for NWSProduct.
 include('inc/NWSProduct.class.php');
-
 // And its factory
 include('inc/NWSProductFactory.class.php');
-
 // Geodata library
 include('inc/geo/GeoLookup.class.php');
+
+//
+// Listeners
+// 
+
+// Always include the log listener.
+include('inc/endpoints/LogListener.class.php');
+
+// Include other listeners as well.
+if(isset($enabled_listeners)) {
+	foreach($enabled_listeners as $listener) {
+		$curr_path = "inc/endpoints/$listener.class.php";
+		if(file_exists($curr_path)) {
+			include($curr_path);
+		}
+		else {
+			Utils::log("Listener $listener not found in inc/endpoints");
+		}
+	}
+}
 
 // Get the file path from the command line.
 // TODO: Consider piping this in, may save a small bit of disk I/O
@@ -68,8 +79,3 @@ $relay->publish(new Event('ldm',$product_obj->afos,$product_obj));
 $time_end = microtime(true);
 $time = $time_end - $time_start;
 Utils::log("Ingest and relay complete. Execution time: $time seconds");
-
-// Deprecated!  Use Utils::log() instead.
-function log_message($message) {
-	Utils::log($message);
-}

@@ -195,7 +195,7 @@ class NWSProductSegment
     	$this->text = $segment_text;
     	$this->vtec_strings = $this->parse_vtec();
     	$this->zones = $this->parse_zones();
-    	$this->stamp = $this->afos . '-' . microtime();
+    	$this->stamp = trim($this->afos) . '-' . time();
     }
     
     /**

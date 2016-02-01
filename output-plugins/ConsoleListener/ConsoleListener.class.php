@@ -10,7 +10,7 @@ class ConsoleListener extends Listener implements ListenerInterface
 	function __construct() {
 		global $relay;
 
-		$relay->subscribe($this,'ldm','*');
+		// $relay->subscribe($this,'ldm','*');
 		$relay->subscribe($this,'parser','*');
 	}
 

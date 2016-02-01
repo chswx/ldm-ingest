@@ -58,7 +58,7 @@ class NWSProduct {
         // Generate the stamp for the product at large in case there are no segments
         // Also, if the product identifier matches a certain pattern, generate the event
         if(empty($this->segments) || preg_match("(AFD|PFM|ZFP|HWO|TCWAT|SFT)",$this->afos)) {
-            $this->stamp = printf("%s-%s-".microtime(),$this->office,$this->afos);
+            $this->stamp = printf("%s-".time(),$this->afos);
         }
     }
 
@@ -123,6 +123,7 @@ class NWSProduct {
 
         return $seg_array;
     }
+
 }
 
 class NWSProductSegment
@@ -280,8 +281,7 @@ class NWSProductSegment
      * Quick check if this segment has VTEC
      * @return  boolean
      */
-    function has_vtec()
-    {
+    function has_vtec() {
         return !empty($this->vtec_strings);
     }
 

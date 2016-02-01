@@ -99,6 +99,8 @@ class ConsoleTwitterListener extends Listener implements ListenerInterface
         var_dump($product);
         //$location_string = $product->get_location_string();
 
+        return;
+
         $tweet_vars['product_name'] = $product->get_name();
         //$tweet_vars['location'] = $location_string;
 

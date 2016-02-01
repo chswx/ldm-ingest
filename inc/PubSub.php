@@ -198,6 +198,8 @@ class EventFactory
      * @return array Event
      */
     public static function generate_events($product) {
+        Utils::log("Generating events...");
+        
         // Product gets a monolith event if the product is configured for it
         // Typical with unsegmented products
         if(isset($product->stamp)) {

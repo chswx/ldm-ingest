@@ -46,35 +46,64 @@ include('inc/geo/GeoLookup.class.php');
 // 
 
 // Always include the log listener.
-include('inc/endpoints/LogListener.class.php');
+include_once('output-plugins/Logger/Logger.class.php');
 
 // Include other listeners as well.
 if(isset($enabled_listeners)) {
-	foreach($enabled_listeners as $listener) {
-		$curr_path = "inc/endpoints/$listener.class.php";
-		if(file_exists($curr_path)) {
-			include($curr_path);
-		}
-		else {
-			Utils::log("Listener $listener not found in inc/endpoints");
-		}
-	}
+    foreach($enabled_listeners as $listener) {
+        $curr_path = "output-plugins/$listener/$listener.class.php";
+        if(file_exists($curr_path)) {
+            include_once($curr_path);
+        }
+        else {
+            Utils::log("Listener $listener not found in inc/endpoints");
+        }
+    }
 }
 
 // Get the file path from the command line.
-// TODO: Consider piping this in, may save a small bit of disk I/O
-$file_path = $argv[1];
-Utils::log("Ingest has begun. Filename: " . $file_path);
+// #11: Pipable stuff, arguments, etc. 
 
-// Bring in the file
-$m_text = file_get_contents($file_path);
+// First, backward compatibility for file input
+$shortopts = "f::";
+$options = getopt($shortopts);
+if(!empty($options['f'])) {
+    $file_path = $options['f'];
+    Utils::log("Ingest has begun. Filename: " . $file_path);
+    // Bring in the file
+    $m_text = file_get_contents($file_path);
+}
+// Next, if a file is not specified, require these options and pipe input
+else {
+    $shortopts = "w:o:t:a:c::";
+    $longopts = array(
+        'wmo:',
+        'office:',
+        'time:',
+        'afos:',
+        'corrections::'
+    );
+
+    $options = getopt($shortopts,$longopts);
+    if($options) {
+        $m_text = stream_get_contents(STDIN);
+    }
+    else {
+        die("Aborting parse");
+    }
+}
+var_dump($options);
+echo("Captured!" . $m_text);
 
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 
 // Publish an event to signal the product is parsed.
-$relay->publish(new Event('ldm',$product_obj->afos,$product_obj));
-
+if(!empty($product_obj)) {
+    $relay->publish(new Event('ldm',$product_obj->afos,$product_obj));
+} else {
+    Utils::log("Filename $file_path failed to ingest.");
+}
 
 $time_end = microtime(true);
 $time = $time_end - $time_start;

@@ -86,14 +86,14 @@ else {
 
     $options = getopt($shortopts,$longopts);
     if($options) {
+        Utils::log("Ingest has begun from STDIN ({$options['a']})");
+        stream_set_blocking(STDIN,0);
         $m_text = stream_get_contents(STDIN);
     }
     else {
         die("Aborting parse");
     }
 }
-var_dump($options);
-echo("Captured!" . $m_text);
 
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));

@@ -3,7 +3,7 @@
  * NWSProduct class
  * Defines most of what is a National Weather Service text product and puts it out into easily reusable chunks.
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
-*/
+ */
 
 class NWSProduct {
     /**
@@ -25,15 +25,15 @@ class NWSProduct {
      * 
      * @var string AFOS ID
      */
-    
+
     var $afos;
-    
+
     /**
      * Unique stamp for this particular product.
      * 
      * @var string stamp
      */
-    
+
     var $stamp;
 
     /**
@@ -41,7 +41,7 @@ class NWSProduct {
      * 
      * @var mixed Array of segments
      */
-    
+
     var $segments;
 
     /**
@@ -66,7 +66,7 @@ class NWSProduct {
      * Generic parsing ability.
      * STRONGLY recommend overriding in a WMO-specific file
      */
-    
+
     function parse() {
         return $this->split_product();
     }
@@ -127,14 +127,14 @@ class NWSProduct {
 
 class NWSProductSegment
 {
-	/**
-	 * Segment text
-	 * 
-	 * @var string
-	 */
-	
-	var $text;
-	
+    /**
+     * Segment text
+     * 
+     * @var string
+     */
+
+    var $text;
+
     /**
      * Array of VTEC strings.
      * 
@@ -155,21 +155,21 @@ class NWSProductSegment
      * @var int Timestamp
      */
     var $issued_time;
-    
+
     /**
      * Unique stamp.
      * 
      * @var $stamp
      */
     var $stamp;
-    
+
     /**
      * Issuing WFO (from parent product)
      * 
      * @var string $office
      */
     var $office;
-    
+
     /**
      * AFOS code (from parent product)
      * @var string $afos
@@ -180,9 +180,9 @@ class NWSProductSegment
      * Channels it should respond on
      * @var  array $channels
      */
-    
+
     var $channels = array();
-    
+
     /**
      * Constructor.
      * 
@@ -190,14 +190,14 @@ class NWSProductSegment
      */
     function __construct($segment_text, $afos, $office)
     {
-    	$this->afos = $afos;
-    	$this->office = $office;
-    	$this->text = $segment_text;
-    	$this->vtec_strings = $this->parse_vtec();
-    	$this->zones = $this->parse_zones();
-    	$this->stamp = trim($this->afos) . '-' . time();
+        $this->afos = $afos;
+        $this->office = $office;
+        $this->text = $segment_text;
+        $this->vtec_strings = $this->parse_vtec();
+        $this->zones = $this->parse_zones();
+        $this->stamp = trim($this->afos) . '-' . time();
     }
-    
+
     /**
      * Get this segment's text.
      * 
@@ -292,9 +292,9 @@ class NWSProductSegment
      */
     function parse_vtec() {
         $data = $this->text;
-    	$vtec_strings = array();
+        $vtec_strings = array();
 
-    	// Match all alerts, but we will only use operational warnings
+        // Match all alerts, but we will only use operational warnings
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
@@ -303,11 +303,11 @@ class NWSProductSegment
                 include('VTECString.class.php');
             }
             foreach ( $matches as $key => $match ) {
-            	//print_r($match);
+                //print_r($match);
                 $vtec_strings[$key] = new VTECString( $match );
             }
         }
-        
+
         return $vtec_strings;
     }
 
@@ -322,15 +322,15 @@ class NWSProductSegment
      * See: http://www.weather.gov/emwin/winugc.htm
      */
     protected function parse_zones() {
-    	$data = $this->text;
-    	
+        $data = $this->text;
+
         $output = str_replace( array( "\r\n", "\r" ), "\n", $data );
         $lines = explode( "\n", $output );
         $new_lines = array();
 
         foreach ( $lines as $i => $line ) {
             if ( !empty( $line ) )
-            $new_lines[] = trim( $line );
+                $new_lines[] = trim( $line );
         }
         $data = implode( $new_lines );
 
@@ -351,9 +351,9 @@ class NWSProductSegment
 
             /* hack off the last dash */
             $zones = substr($zones, 0, strlen($zones) - 1);
-            
+
             $zones = $state . str_replace('-', '-'.$state, $zones);
-            
+
             $total_zones .= $zones;
 
             // Need one last dash to temporarily buffer between state changes
@@ -372,7 +372,7 @@ class NWSProductSegment
      * See: http://www.weather.gov/emwin/winugc.htm
      */
     protected function expand_ranges( $data ) {
-        
+
 
         $regex = '/(([0-9]{3})(>[0-9]{3}))/';
 

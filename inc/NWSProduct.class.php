@@ -68,7 +68,7 @@ abstract class NWSProduct {
      * @return boolean
      */
     function can_relay() {
-        if((!empty($this->properties['vtec']) && $this->properties['vtec']['status'] == 'O') || !empty($this->properties['relay'])) {
+        if((!empty($this->properties['vtec']) && $this->properties['vtec']['status'] == 'O') && !empty($this->properties['relay'])) {
             return $this->properties['relay'];
         }
         else

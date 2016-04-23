@@ -17,15 +17,15 @@ class NWSProductFactory {
         $prod_info = self::get_product_details($product_text);
 
         // Get AFOS for parser
-        $afos = $prod_info['afos'];
+        $parser = self::get_parser_from_afos($prod_info['afos']);
 
         // Construct the path to the parser
-        $parser_path = "product-plugins/$afos.php";
+        $parser_path = "product-plugins/$parser.php";
 
         if(file_exists($parser_path)) {
             include($parser_path);
             // Instantiate the class
-            $product = new $afos($prod_info, $product_text);
+            $product = new $parser($prod_info, $product_text);
         }
         // It's not here...return a generic parsing library.
         else
@@ -59,4 +59,49 @@ class NWSProductFactory {
             'afos' => $afos
         );
     }
+
+    /**
+     * Retrieves the appropriate parser from the AFOS string.
+     *
+     * @param string $afos AFOS string
+     * @return string Parser to use
+     */
+    private static function get_parser_from_afos($afos) {
+        $parser = "Generic";
+
+        // VTEC parsing
+        // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
+        // (FLW|FFW|FFS|HLS|TSU)
+        if(preg_match('(MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS|FLW|FFW|FFS|HLS|TSU|WOU)',$afos)) {
+            $parser = 'VTEC';
+        }
+        // SPS parsing
+        // (SPS)
+        else if(strpos($afos, 'SPS') !== false) {
+            $parser = 'SPS';
+        }
+        // Watch Probabilities
+        // ^WWUS(40 KMKC|30 KWNS)
+        else if(strpos($afos, 'WWP') !== false) {
+            $parser = "WatchProbs";
+        }
+        // Mesoscale convective/precip discussions
+        // (SWOMCD|FFGMPD)
+        else if(preg_match('(SWOMCD|FFGMPD)',$afos)) {
+            $parser = "MesoDisc";
+        }
+        // SPC outlooks
+        // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
+        else if(preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
+            $parser = "Outlook";
+        }
+        // Local Storm Reports
+        // (LSR)
+        else if(strpos($afos, 'LSR') !== false) {
+            $parser = "LSR";
+        }
+
+        return $parser; 
+    }
+
 }

@@ -98,12 +98,14 @@ else {
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 
+var_dump($product_obj);
+
 // Publish an event to signal the product is parsed.
-if(!empty($product_obj)) {
+/*if(!empty($product_obj)) {
     $relay->publish(new Event('ldm',$product_obj->afos,$product_obj));
 } else {
     Utils::log("Filename $file_path failed to ingest.");
-}
+}*/
 
 $time_end = microtime(true);
 $time = $time_end - $time_start;

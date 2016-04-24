@@ -15,14 +15,14 @@ class NWSProduct {
 
     /**
      * Issuing office.
-     * 
+     *
      * @var string WFO
      */
     var $office;
 
     /**
      * AFOS identifier.
-     * 
+     *
      * @var string AFOS ID
      */
 
@@ -30,7 +30,7 @@ class NWSProduct {
 
     /**
      * Unique stamp for this particular product.
-     * 
+     *
      * @var string stamp
      */
 
@@ -38,7 +38,7 @@ class NWSProduct {
 
     /**
      * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
-     * 
+     *
      * @var mixed Array of segments
      */
 
@@ -83,7 +83,7 @@ class NWSProduct {
     /**
      * Split the product by $$ if needed.
      */
-    function split_product() {   
+    function split_product() {
         // Eliminate the header area of the raw product.
         $product = preg_replace("/^(.*\n){8}/", "", $this->raw_product);
 
@@ -104,33 +104,13 @@ class NWSProduct {
         return $segments;
     }
 
-    /**
-     * Get segments by a particular channel (or array of channels)
-     * @param  mixed $channel  String or array of channels
-     * @return array of NWSProductSegment Segments found
-     */
-    function get_segments_by_channel($channel)
-    {
-        $seg_array = array();
-
-        foreach($this->segments as $segment)
-        {
-            if($segment->in_channel($channel))
-            {
-                array_push($seg_array,$segment);
-            }
-        }
-
-        return $seg_array;
-    }
-
 }
 
 class NWSProductSegment
 {
     /**
      * Segment text
-     * 
+     *
      * @var string
      */
 
@@ -138,35 +118,35 @@ class NWSProductSegment
 
     /**
      * Array of VTEC strings.
-     * 
+     *
      * @var array VTECString
      */
     var $vtec_strings;
 
     /**
      * Zones for this segment.
-     * 
+     *
      * @var array zones
      */
     var $zones;
 
     /**
      * Issuing time.
-     * 
+     *
      * @var int Timestamp
      */
     var $issued_time;
 
     /**
      * Unique stamp.
-     * 
+     *
      * @var $stamp
      */
     var $stamp;
 
     /**
      * Issuing WFO (from parent product)
-     * 
+     *
      * @var string $office
      */
     var $office;
@@ -178,15 +158,8 @@ class NWSProductSegment
     var $afos;
 
     /**
-     * Channels it should respond on
-     * @var  array $channels
-     */
-
-    var $channels = array();
-
-    /**
      * Constructor.
-     * 
+     *
      * @param string $segment_text
      */
     function __construct($segment_text, $afos, $office)
@@ -201,7 +174,7 @@ class NWSProductSegment
 
     /**
      * Get this segment's text.
-     * 
+     *
      * @return string Raw text of the segment
      */
     function get_text()
@@ -215,7 +188,6 @@ class NWSProductSegment
      * @return array of zones
      */
     function get_zones() {
-        //print_r($this->properties['zones']);
         return $this->zones;
     }
 
@@ -238,20 +210,6 @@ class NWSProductSegment
         return $array_search_result;
     }
 
-    /**
-     * Check if a segment is in a channel
-     * @param  string $channel Channel to get
-     * @return mixed String or array of channels
-     */
-    function in_channel($channel)
-    {
-        if(in_array($channel,$this->channels))
-        {
-            return true;
-        }
-        return false;
-    }
-
     //
     // Valid Time Extent Code (VTEC) support
     // Lots of useful information in one string about nature of product, start and end times, etc.
@@ -260,7 +218,7 @@ class NWSProductSegment
 
     /**
      * Get VTEC strings if they exist...otherwise, return false
-     * 
+     *
      * @return array VTEC strings
      * @return boolean false if failure
      */
@@ -287,7 +245,7 @@ class NWSProductSegment
 
     /**
      * Checks if a segment has a VTEC message.
-     * 
+     *
      * @return boolean
      */
     function parse_vtec() {
@@ -372,8 +330,6 @@ class NWSProductSegment
      * See: http://www.weather.gov/emwin/winugc.htm
      */
     protected function expand_ranges( $data ) {
-
-
         $regex = '/(([0-9]{3})(>[0-9]{3}))/';
 
         $count = preg_match_all( $regex, $data, $matches );

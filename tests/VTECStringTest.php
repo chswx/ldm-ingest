@@ -1,5 +1,6 @@
 <?php
 
+date_default_timezone_set('UTC');
 include('inc/VTECString.class.php');
 
 class VTECStringTest extends PHPUnit_Framework_TestCase {

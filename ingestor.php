@@ -18,7 +18,6 @@ $time_start = microtime(true);
 // 
 
 include('conf/base.conf.php');
-include('conf/enabled-listeners.conf.php');
 
 //
 // Utilities and libraries
@@ -26,13 +25,6 @@ include('conf/enabled-listeners.conf.php');
 
 // Base utilities
 include('inc/Utils.class.php');
-// Pub/Sub system -- backbone to the whole thing
-include('inc/PubSub.php');
-
-//
-// Set up event dispatcher
-// 
-$relay = new Dispatcher();
 
 // Bring in the abstract class definition for NWSProduct.
 include('inc/NWSProduct.class.php');
@@ -44,22 +36,6 @@ include('inc/geo/GeoLookup.class.php');
 //
 // Listeners
 // 
-
-// Always include the log listener.
-include_once('output-plugins/Logger/Logger.class.php');
-
-// Include other listeners as well.
-if(isset($enabled_listeners)) {
-    foreach($enabled_listeners as $listener) {
-        $curr_path = "output-plugins/$listener/$listener.class.php";
-        if(file_exists($curr_path)) {
-            include_once($curr_path);
-        }
-        else {
-            Utils::log("Listener $listener not found in inc/endpoints");
-        }
-    }
-}
 
 // Get the file path from the command line.
 // #11: Pipable stuff, arguments, etc. 

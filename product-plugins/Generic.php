@@ -1,6 +1,6 @@
 <?php
 /* 
- * Generic product ingestor. Fallback for non-specific products. VTEC-capable.
+ * Generic product ingestor. Fallback for non-specific products.
  */
 
 class GenericProduct extends NWSProduct {

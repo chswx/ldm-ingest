@@ -55,11 +55,8 @@ class NWSProduct {
         $this->raw_product = $product_text;
         // Parse the product out into segments.
         $this->segments = $this->parse();
-        // Generate the stamp for the product at large in case there are no segments
-        // Also, if the product identifier matches a certain pattern, generate the event
-        if(empty($this->segments) || preg_match("(AFD|PFM|ZFP|HWO|TCWAT|SFT)",$this->afos)) {
-            $this->stamp = printf("%s-".time(),$this->afos);
-        }
+        // Set up the product stamp.
+        // $this->stamp = Utils::generate_stamp($afos, time());
     }
 
     /**
@@ -138,13 +135,6 @@ class NWSProductSegment
     var $issued_time;
 
     /**
-     * Unique stamp.
-     *
-     * @var $stamp
-     */
-    var $stamp;
-
-    /**
      * Issuing WFO (from parent product)
      *
      * @var string $office
@@ -169,7 +159,6 @@ class NWSProductSegment
         $this->text = $segment_text;
         $this->vtec_strings = $this->parse_vtec();
         $this->zones = $this->parse_zones();
-        $this->stamp = trim($this->afos) . '-' . time();
     }
 
     /**

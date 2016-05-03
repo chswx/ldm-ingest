@@ -27,124 +27,37 @@ class VTECString
     /**
      * @var string Issuing office ID
      */
-    
     var $office;
 
     /**
      * @var string Phenomena
      */
-    
     var $phenomena;
 
     /**
      * @var string Significance
      */
-    
     var $significance;
 
     /**
      * @var string Event Tracking Number
      */
-    
     var $event_number;
 
     /**
      * @var int Event effective time as a UNIX timestamp
      */
-    
     var $effective_timestamp;
 
     /**
      * @var int Event expiration time as a UNIX timestamp
      */
-    
     var $expire_timestamp;
-
-    /**
-     * Phenomena codes for VTEC strings
-     * @var array
-     */
-    var $vtec_phenomena_codes = array(
-        'AF' => 'Ashfall',
-        'AS' => 'Air Stagnation',
-        'BS' => 'Blowing Snow',
-        'BW' => 'Brisk Wind',
-        'BZ' => 'Blizzard',
-        'CF' => 'Coastal Flood',
-        'DS' => 'Dust Storm',
-        'DU' => 'Blowing Dust',
-        'EC' => 'Extreme Cold',
-        'EH' => 'Excessive Heat',
-        'EW' => 'Extreme Wind',
-        'FA' => 'Areal Flood',
-        'FF' => 'Flash Flood',
-        'FG' => 'Dense Fog',
-        'FL' => 'Flood',
-        'FR' => 'Frost',
-        'FW' => 'Fire Weather',
-        'FZ' => 'Freeze',
-        'GL' => 'Gale',
-        'HF' => 'Hurricane Force Wind',
-        'HI' => 'Inland Hurricane',
-        'HS' => 'Heavy Snow',
-        'HT' => 'Heat', 
-        'HU' => 'Hurricane',
-        'HW' => 'High Wind',
-        'HY' => 'Hydrologic',
-        'HZ' => 'Hard Freeze',
-        'IP' => 'Sleet',
-        'IS' => 'Ice Storm',
-        'LB' => 'Lake Effect Snow and Blowing Snow',
-        'LE' => 'Lake Effect Snow',
-        'LO' => 'Low Water',
-        'LS' => 'Lakeshore Flood',
-        'LW' => 'Lake Wind',
-        'MA' => 'Marine',
-        'RB' => 'Small Craft for Rough Bar',
-        'RP' => 'Rip Currents',     // NWS CHS addition
-        'SB' => 'Snow and Blowing Snow',
-        'SC' => 'Small Craft',
-        'SE' => 'Hazardous Seas',
-        'SI' => 'Small Craft for Winds',
-        'SM' => 'Dense Smoke',
-        'SN' => 'Snow',
-        'SR' => 'Storm',
-        'SU' => 'High Surf',
-        'SV' => 'Severe Thunderstorm',
-        'SW' => 'Small Craft for Hazardous Seas',
-        'TI' => 'Inland Tropical Storm',
-        'TO' => 'Tornado',
-        'TR' => 'Tropical Storm',
-        'TS' => 'Tsunami',
-        'TY' => 'Typhoon',
-        'UP' => 'Ice Accretion',
-        'WC' => 'Wind Chill',
-        'WI' => 'Wind',
-        'WS' => 'Winter Storm',
-        'WW' => 'Winter Weather',
-        'ZF' => 'Freezing Fog',
-        'ZR' => 'Freezing Rain'
-    );
-
-    /**
-     * Significance codes for VTEC strings
-     * @var array
-     */
-    var $vtec_significance_codes = array(
-        'W' => 'Warning',
-        'A' => 'Watch',
-        'Y' => 'Advisory',
-        'S' => 'Statement',
-        'F' => 'Forecast',
-        'O' => 'Outlook',
-        'N' => 'Synopsis'
-    );
-
 
     /**
      * Constructor.
      * Take product text and parse out VTEC string(s).
-     * 
+     *
      * @param string $product Product text.
      */
     function __construct($vtec) {
@@ -167,25 +80,25 @@ class VTECString
     private function _create_obj($vtec_string_array) {
         // Save the VTEC string in its entirety
         $this->vtec_string = $vtec_string_array[0];
-        
+
         // VTEC product class
         $this->product_class = $vtec_string_array[1];
-        
+
         // VTEC action
         $this->action = $vtec_string_array[2];
-        
+
         // VTEC issuing WFO
         $this->office = $vtec_string_array[3];
-        
+
         // VTEC phenomena
         $this->phenomena = $vtec_string_array[4];
-        
+
         // VTEC significance
         $this->significance = $vtec_string_array[5];
-        
+
         // VTEC event number
         $this->event_number = $vtec_string_array[6];
-        
+
         // Effective time (as UNIX timestamp)
         $this->effective_timestamp = $this->vtec_to_timestamp($vtec_string_array[7],$vtec_string_array[8]);
 
@@ -195,7 +108,7 @@ class VTECString
 
     private function _parse($vtec_string) {
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
-        
+
         if ( preg_match( $regex, $vtec_string, $matches ) ) {
             $this->_create_obj($matches);
         }
@@ -259,7 +172,7 @@ class VTECString
 
     /**
      * Converts a VTEC timestamp to a UNIX timestamp (normalized to Z time)
-     * 
+     *
      * @return int UNIX timestamp
      */
     private function vtec_to_timestamp($vtec_date,$vtec_time)
@@ -283,8 +196,3 @@ class VTECString
         return $stamp;
     }
 }
-
-/**
- * Global VTEC properties
- */
-

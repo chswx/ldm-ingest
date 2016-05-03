@@ -2,21 +2,22 @@
 
 [![Build Status](https://travis-ci.org/chswx/ldm-ingest.svg?branch=master)](https://travis-ci.org/chswx/ldm-ingest) (test suite in progress, don't read much into this yet!)
 
-A series of scripts to ingest and relay NWS watch/warning/advisory products via Unidata’s LDM. Will eventually expand to forecast and METAR processing as well; baby steps for now, though.
+A series of scripts to ingest and store NWS watch/warning/advisory products via Unidata’s LDM. Will eventually expand to forecast and METAR processing as well; baby steps for now, though.
+
+## New in 2.0
+
+All responsibilities for outputting the results of parsing out products from LDM will be placed on the [Alerter](http://github.com/chswx/alerter) going forward. Thus, a lot of what's new in 2.0 has been more code _deletion_ than anything else. 
+Version 2.0, instead of handling the entire lifecycle of a request from receiving it from LDM to sending it out over Twitter, will just dump everything in a pub-sub-aware database (likely RethinkDB but don't quote me on this just yet) and let other worker processes figure it out. This should improve performance, scalability, and redundancy quite nicely. We store things in JSON; this makes it easy to send the data to virtually anywhere, including directly over a socket into a Web browser. (Wink
+wink.)
 
 ## What’s done
 
 - VTEC (Valid Time Extent Code) awareness
-- Rudimentary Twitter support
-- Relays for most common hazardous weather advisories
+- JSON output
 
 ## What’s in the works
 
-- A variety of bug fixes to VTEC support
 - Support for watch probabilities (WWUS40)
-- Support for additional output endpoints
-- Storm-based warnings via PostGIS polygon queries
-- Tornado/flash flood emergency detection
 - Impact-based warnings (TORNADO…HAIL…WIND tags)
 - Moving to a totally pub/sub architecture
 - Awareness of conditions via METAR ingest

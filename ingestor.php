@@ -14,6 +14,12 @@
 $time_start = microtime(true);
 
 //
+// Include composer autoload
+//
+
+include('vendor/autoload.php');
+
+//
 // Configuration
 //
 
@@ -78,8 +84,8 @@ if(!is_null($product_obj)) {
     // TODO: Introduce debugging flag
     Utils::log(print_r($product_obj));
 
-    // JSON-encode and send into our product storage system (abstraction, baby)
-    ProductStorage::send(json_encode($product_obj));
+    // Send to our product storage system
+    ProductStorage::send($product_obj);
 
     // Have you heard the good word of our properly parsed product?
     Utils::log("Parsed product {$product_obj->afos} from {$product_obj->office} successfully");

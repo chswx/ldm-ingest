@@ -1,0 +1,42 @@
+
+415 
+WOUS64 KWNS 080717
+WOU6  
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+SEVERE THUNDERSTORM WATCH OUTLINE UPDATE FOR WS 36
+NWS STORM PREDICTION CENTER NORMAN OK
+115 AM CST TUE MAR 8 2016
+
+SEVERE THUNDERSTORM WATCH 36 IS IN EFFECT UNTIL 900 AM CST
+FOR THE FOLLOWING LOCATIONS
+
+TXC049-059-081-083-093-095-105-133-137-143-151-207-235-237-253-
+267-307-319-327-333-353-363-399-411-413-417-429-431-435-441-447-
+451-465-503-081500-
+/O.NEW.KWNS.SV.A.0036.160308T0715Z-160308T1500Z/
+
+TX 
+.    TEXAS COUNTIES INCLUDED ARE
+
+BROWN                CALLAHAN            COKE                
+COLEMAN              COMANCHE            CONCHO              
+CROCKETT             EASTLAND            EDWARDS             
+ERATH                FISHER              HASKELL             
+IRION                JACK                JONES               
+KIMBLE               MASON               MCCULLOCH           
+MENARD               MILLS               NOLAN               
+PALO PINTO           RUNNELS             SAN SABA            
+SCHLEICHER           SHACKELFORD         STEPHENS            
+STERLING             SUTTON              TAYLOR              
+THROCKMORTON         TOM GREEN           VAL VERDE           
+YOUNG                
+$$
+
+
+ATTN...WFO...SJT...FWD...EWX...
+
+
+
+
+

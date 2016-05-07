@@ -1,0 +1,40 @@
+
+009 
+WGUS42 KCHS 171409
+FLWCHS
+
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+FLOOD WARNING
+NATIONAL WEATHER SERVICE CHARLESTON SC
+1009 AM EDT THU MAR 17 2016
+
+SCC015-043-089-181409-
+/O.NEW.KCHS.FL.W.0010.160318T0600Z-000000T0000Z/
+/JAMS1.1.ER.160318T0600Z.160319T0000Z.000000T0000Z.NO/
+1009 AM EDT THU MAR 17 2016
+
+The National Weather Service in Charleston has issued a 
+
+* Flood Warning for 
+  The Santee River Near Jamestown.
+* from late tonight until further notice.
+* At 9 AM Thursday the stage was 9.5 feet.
+* Flood stage is 10.0 feet.
+* Minor flooding is forecast.
+* Forecast, rise above flood stage by early Friday morning and 
+  continue to rise to near 10.5 feet by Friday evening. Additional 
+  rises are possible thereafter.
+* At 10.0 feet, water covers numerous logging roads and inundates 
+  timber land adjacent to the river. Most access points to Wee Tee 
+  State Forest are cut off.
+
+&&
+
+LAT...LON 3347 8002 3354 7998 3325 7937 3321 7938
+          3320 7951 3329 7976         
+
+$$
+
+
+

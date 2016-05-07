@@ -1,0 +1,54 @@
+
+276 
+WGUS82 KCHS 081507
+FLSCHS
+
+
+FLOOD STATEMENT
+NATIONAL WEATHER SERVICE CHARLESTON SC
+1007 AM EST TUE MAR 8 2016
+
+SCC015-043-089-091507-
+/O.CON.KCHS.FL.W.0020.000000T0000Z-000000T0000Z/
+/JAMS1.3.ER.151103T1930Z.160107T0145Z.000000T0000Z.NO/
+1007 AM EST TUE MAR 8 2016
+
+The Flood Warning continues for
+  The Santee River Near Jamestown.
+* At 9 AM Tuesday the stage was 12.0 feet.
+* Flood stage is 10.0 feet.
+* Minor flooding is occurring.
+* Forecast, the river will remain nearly steady or slowly fall.
+* At 12.0 feet, several dirt logging roads are impassable.
+
+&&
+
+LAT...LON 3347 8002 3354 7998 3325 7937 3321 7938
+          3320 7951 3329 7976         
+
+$$
+
+SCC049-053-GAC103-251-091506-
+/O.CON.KCHS.FL.W.0009.000000T0000Z-000000T0000Z/
+/CLYG1.1.ER.160301T2130Z.160311T0000Z.000000T0000Z.NO/
+1007 AM EST TUE MAR 8 2016
+
+The Flood Warning continues for
+  The Savannah River Near Clyo.
+* At 9 AM Tuesday the stage was 11.9 feet.
+* Flood stage is 11.0 feet.
+* Minor flooding is occurring.
+* Forecast, the river will continue rising to near 12.1 feet by 
+  Thursday evening. Additional rises may be possible thereafter.
+* At 11.0 feet, the back yards of several homes on Tom Goethe Road 
+  flood.
+
+&&
+
+LAT...LON 3273 8145 3276 8137 3264 8136 3249 8117
+          3246 8125 3261 8144         
+
+$$
+
+
+

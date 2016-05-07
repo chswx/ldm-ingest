@@ -22,6 +22,8 @@ class NWSProductFactory {
         // Construct the path to the parser
         $parser_path = "product-plugins/$parser.php";
 
+        Utils::log("Trying $parser_path...");
+        
         if(file_exists($parser_path)) {
             include($parser_path);
             // Instantiate the class
@@ -30,8 +32,8 @@ class NWSProductFactory {
         // It's not here...return a generic parsing library.
         else
         {
-            Utils::log("Generic product");
-            include("product-plugins/Generic.php");
+            Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
+            include('product-plugins/GenericProduct.php');
             $product = new GenericProduct($prod_info, $product_text);
         }
 
@@ -67,7 +69,7 @@ class NWSProductFactory {
      * @return string Parser to use
      */
     private static function get_parser_from_afos($afos) {
-        $parser = "Generic";
+        $parser = 'GenericProduct';
 
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
@@ -103,5 +105,10 @@ class NWSProductFactory {
 
         return $parser; 
     }
+
+    private static function try_parser($parser_path) {
+        
+    }
+
 
 }

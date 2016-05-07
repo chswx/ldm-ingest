@@ -69,8 +69,6 @@ class NWSProductFactory {
      * @return string Parser to use
      */
     private static function get_parser_from_afos($afos) {
-        $parser = 'GenericProduct';
-
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)
@@ -92,15 +90,22 @@ class NWSProductFactory {
         else if(preg_match('(SWOMCD|FFGMPD)',$afos)) {
             $parser = "MesoDisc";
         }
-        // SPC outlooks
+        // SPC outlook points
         // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
         else if(preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
-            $parser = "Outlook";
+            $parser = "OutlookPoints";
+        }
+        // SPC outlook text
+        else if(preg_match('(SWODY)',$afos)) {
+            $parser = "OutlookText";
         }
         // Local Storm Reports
         // (LSR)
         else if(strpos($afos, 'LSR') !== false) {
             $parser = "LSR";
+        }
+        else {
+            $parser = "GenericProduct";
         }
 
         return $parser; 

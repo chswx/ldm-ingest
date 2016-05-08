@@ -10,19 +10,16 @@
 //
 // Execution time
 //
-
 $time_start = microtime(true);
 
 //
 // Include composer autoload
 //
-
 include('vendor/autoload.php');
 
 //
 // Configuration
 //
-
 include('conf/chswx.conf.php');
 
 //

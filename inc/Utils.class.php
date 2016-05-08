@@ -34,6 +34,10 @@ class Utils
         return explode("\n",$text);
     }
 
+    public static function generate_stamp($afos, $timestamp) {
+        return $afos . '-' . $timestamp;
+    }
+
     /**
      * Write a message to the log or console depending on configuration.
      * Wrapper for the built-in error_log PHP function.

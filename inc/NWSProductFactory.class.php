@@ -1,7 +1,7 @@
 <?php
 /*
  * Factory class that routes products to the most specific available parser.
- * 
+ *
  */
 
 class NWSProductFactory {
@@ -13,17 +13,17 @@ class NWSProductFactory {
      * @return Parsed Product object.
      */
     public static function get_product($product_text) {
-        // Get WMO header and issuing office 
+        // Get WMO header and issuing office
         $prod_info = self::get_product_details($product_text);
 
         // Get AFOS for parser
         $parser = self::get_parser_from_afos($prod_info['afos']);
 
         // Construct the path to the parser
-        $parser_path = "product-plugins/$parser.php";
+        $parser_path = "parsers/$parser.php";
 
         Utils::log("Trying $parser_path...");
-        
+
         if(file_exists($parser_path)) {
             include($parser_path);
             // Instantiate the class
@@ -33,7 +33,7 @@ class NWSProductFactory {
         else
         {
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
-            include('product-plugins/GenericProduct.php');
+            include('parsers/GenericProduct.php');
             $product = new GenericProduct($prod_info, $product_text);
         }
 
@@ -42,7 +42,7 @@ class NWSProductFactory {
 
     /**
      * Get WMO product ID and authority from the second line.
-     * 
+     *
      * @param string $product_text Sanitized product text.
      * @return array WMO header ID, issuing office, and AWIPS code
      */
@@ -108,12 +108,6 @@ class NWSProductFactory {
             $parser = "GenericProduct";
         }
 
-        return $parser; 
+        return $parser;
     }
-
-    private static function try_parser($parser_path) {
-        
-    }
-
-
 }

@@ -22,6 +22,8 @@ class NWSProductFactory {
         // Construct the path to the parser
         $parser_path = "product-plugins/$parser.php";
 
+        Utils::log("Trying $parser_path...");
+        
         if(file_exists($parser_path)) {
             include($parser_path);
             // Instantiate the class
@@ -30,8 +32,8 @@ class NWSProductFactory {
         // It's not here...return a generic parsing library.
         else
         {
-            Utils::log("Generic product");
-            include("product-plugins/Generic.php");
+            Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
+            include('product-plugins/GenericProduct.php');
             $product = new GenericProduct($prod_info, $product_text);
         }
 
@@ -67,8 +69,6 @@ class NWSProductFactory {
      * @return string Parser to use
      */
     private static function get_parser_from_afos($afos) {
-        $parser = "Generic";
-
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)
@@ -90,18 +90,30 @@ class NWSProductFactory {
         else if(preg_match('(SWOMCD|FFGMPD)',$afos)) {
             $parser = "MesoDisc";
         }
-        // SPC outlooks
+        // SPC outlook points
         // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
         else if(preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
-            $parser = "Outlook";
+            $parser = "OutlookPoints";
+        }
+        // SPC outlook text
+        else if(preg_match('(SWODY)',$afos)) {
+            $parser = "OutlookText";
         }
         // Local Storm Reports
         // (LSR)
         else if(strpos($afos, 'LSR') !== false) {
             $parser = "LSR";
         }
+        else {
+            $parser = "GenericProduct";
+        }
 
         return $parser; 
     }
+
+    private static function try_parser($parser_path) {
+        
+    }
+
 
 }

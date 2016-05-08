@@ -10,13 +10,16 @@
 //
 // Execution time
 //
-
 $time_start = microtime(true);
+
+//
+// Include composer autoload
+//
+include('vendor/autoload.php');
 
 //
 // Configuration
 //
-
 include('conf/chswx.conf.php');
 
 //
@@ -30,6 +33,9 @@ include('inc/Utils.class.php');
 include('inc/NWSProduct.class.php');
 // And its factory
 include('inc/NWSProductFactory.class.php');
+
+// Include the storage library and its abstractions
+include('inc/ProductStorage.class.php');
 
 // Get the file path from the command line.
 // #11: Pipable stuff, arguments, etc.
@@ -69,15 +75,21 @@ else {
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 
-// Only here as a debugging measure.
-var_dump($product_obj);
+// If we're not null, victory! Encode and send on its merry way
+if(!is_null($product_obj)) {
+    // Only here as a debugging measure.
+    // TODO: Introduce debugging flag
+    Utils::log(print_r($product_obj));
 
-// JSON-encode the product object to stuff into the DB.
-// TODO: Stuff this into the RethinkDB
-$product_json = json_encode($product_obj);
+    // Send to our product storage system
+    ProductStorage::send($product_obj);
 
-var_dump($product_json);
-
+    // Have you heard the good word of our properly parsed product?
+    Utils::log("Parsed product {$product_obj->afos} from {$product_obj->office} successfully");
+} else {
+    // Something went wrong
+    Utils::log("Error parsing.");
+}
 $time_end = microtime(true);
 $time = $time_end - $time_start;
-Utils::log("Ingest and relay complete. Execution time: $time seconds");
+Utils::log("Ingest has run. Execution time: $time seconds");

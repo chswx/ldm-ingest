@@ -3,6 +3,8 @@
  * Static utility class for basic string manipulation, logging, etc.
  */
 
+namespace UpdraftNetworks;
+
 class Utils
 {
     /**

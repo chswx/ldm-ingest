@@ -4,6 +4,10 @@
  *
  */
 
+namespace UpdraftNetworks\Ingestor;
+use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Parser as Parser;
+
 class NWSProductFactory {
     /**
      * Dispatches a sanitized product to its parser.
@@ -33,8 +37,7 @@ class NWSProductFactory {
         else
         {
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
-            include('parsers/GenericProduct.php');
-            $product = new GenericProduct($prod_info, $product_text);
+            $product = new Parser\GenericProduct($prod_info, $product_text);
         }
 
         return $product;

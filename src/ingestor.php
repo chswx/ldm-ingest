@@ -8,6 +8,8 @@
  */
 
 namespace UpdraftNetworks\Ingestor;
+use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
 
 //
 // Execution time
@@ -17,27 +19,12 @@ $time_start = microtime(true);
 //
 // Include composer autoload
 //
-include('vendor/autoload.php');
+include('../vendor/autoload.php');
 
 //
 // Configuration
 //
-include('conf/chswx.conf.php');
-
-//
-// Utilities and libraries
-//
-
-// Base utilities
-include('inc/Utils.class.php');
-
-// Bring in the abstract class definition for NWSProduct.
-include('inc/NWSProduct.class.php');
-// And its factory
-include('inc/NWSProductFactory.class.php');
-
-// Include the storage library and its abstractions
-include('inc/ProductStorage.class.php');
+include('../conf/chswx.conf.php');
 
 // Get the file path from the command line.
 // #11: Pipable stuff, arguments, etc.

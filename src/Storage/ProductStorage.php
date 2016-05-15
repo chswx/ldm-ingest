@@ -1,5 +1,8 @@
 <?php
 
+namespace UpdraftNetworks\Storage;
+use r;
+
 class ProductStorage {
     static function send($product) {
         //var_dump($product);

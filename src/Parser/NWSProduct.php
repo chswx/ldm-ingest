@@ -5,6 +5,9 @@
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
  */
 
+namespace UpdraftNetworks\Parser;
+use UpdraftNetworks\Utils as Utils;
+
 class NWSProduct {
     /**
      * Raw product text (with some light cleanup).
@@ -248,10 +251,6 @@ class NWSProductSegment
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
-            // If the VTEC library is not loaded, go ahead and get it
-            if(!defined('VTEC_LIB')) {
-                include('VTECString.class.php');
-            }
             foreach ( $matches as $key => $match ) {
                 //print_r($match);
                 $vtec_strings[$key] = new VTECString( $match );

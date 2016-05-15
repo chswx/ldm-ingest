@@ -1,6 +1,5 @@
 <?php
 namespace UpdraftNetworks\Parser;
-define('VTEC_LIB',true);
 
 /**
  * Class to assist with VTEC string operations.

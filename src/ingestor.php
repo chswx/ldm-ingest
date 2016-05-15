@@ -7,6 +7,8 @@
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
 
+namespace UpdraftNetworks\Ingestor;
+
 //
 // Execution time
 //

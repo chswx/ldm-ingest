@@ -1,5 +1,13 @@
 {
     "require": {
         "danielmewes/php-rql": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "UpdraftNetworks\\":"src/",
+            "UpdraftNetworks\\Ingestor\\Tests\\":"tests/",
+            "UpdraftNetworks\\Parser\\Tests\\":"tests/",
+            "":"src/"
+        }
     }
 }

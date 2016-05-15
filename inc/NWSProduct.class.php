@@ -25,7 +25,6 @@ class NWSProduct {
      *
      * @var string AFOS ID
      */
-
     var $afos;
 
     /**
@@ -33,7 +32,6 @@ class NWSProduct {
      *
      * @var string stamp
      */
-
     var $stamp;
 
     /**
@@ -41,7 +39,6 @@ class NWSProduct {
      *
      * @var mixed Array of segments
      */
-
     var $segments;
 
     /**

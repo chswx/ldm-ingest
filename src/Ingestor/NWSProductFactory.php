@@ -46,12 +46,12 @@ class NWSProductFactory {
      * @param string $product_text Sanitized product text.
      * @return array WMO header ID, issuing office, and AWIPS code
      */
-    private static function get_product_details($product_text) {
+    public static function get_product_details($product_text) {
         $text_array = Utils::make_array($product_text);
         $wmo_and_office = explode(' ',$text_array[1]);
         $wmo = $wmo_and_office[0];
         $office = $wmo_and_office[1];
-        $afos = $text_array[2];
+        $afos = trim($text_array[2]);
 
         Utils::log("Product WMO: " . $wmo . '; Office: ' . $office . '; AFOS code: ' . $afos);
 
@@ -68,7 +68,7 @@ class NWSProductFactory {
      * @param string $afos AFOS string
      * @return string Parser to use
      */
-    private static function get_parser_from_afos($afos) {
+    public static function get_parser_from_afos($afos) {
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)

@@ -65,7 +65,7 @@ class NWSProduct {
      */
 
     function parse() {
-        return $this->split_product();
+        return $this->split_product($this->raw_product);
     }
 
     /**
@@ -79,17 +79,15 @@ class NWSProduct {
 
     /**
      * Split the product by $$ if needed.
-     * TODO: Refactor this so it is more unit testable
      *
      * @return array of NWSProductSegments
      */
-    function split_product() {
+    function split_product($product) {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
         // TODO: Determine storage strategy. For short-fused warnings we'd essentially be storing the product twice
-        $product = $this->raw_product;
-
+        
         // Check if the product contains $$ identifiers for multiple products
         if(strpos($product, "$$")) {
             // Loop over the file for multiple products within one file identified by $$

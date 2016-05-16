@@ -20,17 +20,14 @@ class NWSProductFactory {
         // Get WMO header and issuing office
         $prod_info = self::get_product_details($product_text);
 
-        // Get AFOS for parser
+        // Select a parser based on AFOS
         $parser = self::get_parser_from_afos($prod_info['afos']);
 
-        // Construct the path to the parser
-        $parser_path = "parsers/$parser.php";
+        Utils::log("Attempting to use $parser");
 
-        Utils::log("Trying $parser_path...");
-
-        if(file_exists($parser_path)) {
-            include($parser_path);
+        if(class_exists($parser)) {
             // Instantiate the class
+            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
             $product = new $parser($prod_info, $product_text);
         }
         // It's not here...return a generic parsing library.
@@ -111,6 +108,6 @@ class NWSProductFactory {
             $parser = "GenericProduct";
         }
 
-        return $parser;
+        return 'Parser\\' . $parser;
     }
 }

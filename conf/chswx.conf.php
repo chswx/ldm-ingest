@@ -87,17 +87,3 @@ $vtec_significance_codes = array(
 	'O' => 'Outlook',
 	'N' => 'Synopsis'
 );
-
-//
-// Active zones
-//
-
-$active_zones = array(
-	'SCZ050',
-	'SCZ052',
-	'SCZ045',
-	'SCZ044',
-	'SCC015',
-	'SCC019',
-	'SCC035'
-);

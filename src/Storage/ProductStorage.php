@@ -8,6 +8,7 @@ class ProductStorage {
 
     function __construct() {
         $this->conn = r\connect('localhost');   // TODO: make configurable
+        $this->conn->useDb('updraft');
     }
 
     /**
@@ -23,6 +24,7 @@ class ProductStorage {
 
     /**
      * Updates a record with additional information.
+     * TODO: Implement
      * @param $product mixed Array of product data to attach to the record
      * @param $record 
      */

@@ -20,10 +20,13 @@ class NWSProductFactory {
         // Get WMO header and issuing office
         $prod_info = self::get_product_details($product_text);
 
-        // Select a parser based on AFOS
-        $parser = self::get_parser_from_afos($prod_info['afos']);
+        // Select a route (database and parser) based on AFOS
+        $route = self::get_route_from_afos($prod_info['afos']);
 
-        Utils::log("Attempting to use $parser");
+        Utils::log("Attempting to use {$route['parser']}");
+
+        $parser = $route['parser'];
+        $table = $route['table'];
 
         if(class_exists($parser)) {
             // Instantiate the class
@@ -36,6 +39,8 @@ class NWSProductFactory {
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
             $product = new Parser\GenericProduct($prod_info, $product_text);
         }
+
+        $product->table = $table;
 
         return $product;
     }
@@ -66,48 +71,56 @@ class NWSProductFactory {
      * Retrieves the appropriate parser from the AFOS string.
      *
      * @param string $afos AFOS string
-     * @return string Parser to use
+     * @return array Parser to use and DB table to store
      */
-    public static function get_parser_from_afos($afos) {
+    public static function get_route_from_afos($afos) {
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)
         if(preg_match('(MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS|FLW|FFW|FFS|HLS|TSU|WOU)',$afos)) {
             $parser = 'VTEC';
+            $table = 'wwa';
         }
         // SPS parsing
         // (SPS)
         else if(strpos($afos, 'SPS') !== false) {
             $parser = 'SPS';
+            $table = 'sps';
         }
         // Watch Probabilities
         // ^WWUS(40 KMKC|30 KWNS)
         else if(strpos($afos, 'WWP') !== false) {
             $parser = "WatchProbs";
+            $table = 'spc_watch';
         }
         // Mesoscale convective/precip discussions
         // (SWOMCD|FFGMPD)
         else if(preg_match('(SWOMCD|FFGMPD)',$afos)) {
             $parser = "MesoDisc";
+            $table = 'mesodisc';
         }
         // SPC outlook points
         // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
         else if(preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
             $parser = "OutlookPoints";
+            $table = 'spc_outlook';
         }
         // SPC outlook text
         else if(preg_match('(SWODY)',$afos)) {
             $parser = "OutlookText";
+            $table = 'spc_outlook';
         }
         // Local Storm Reports
         // (LSR)
         else if(strpos($afos, 'LSR') !== false) {
             $parser = "LSR";
+            $table = 'lsr';
         }
         else {
             $parser = "GenericProduct";
+            $table = 'wwa';
         }
 
-        return 'Parser\\' . $parser;
+        return array('parser' => 'Parser\\' . $parser, 'table' => $table);
     }
 }

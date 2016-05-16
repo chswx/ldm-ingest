@@ -5,6 +5,9 @@
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
  */
 
+namespace UpdraftNetworks\Parser;
+use UpdraftNetworks\Utils as Utils;
+
 class NWSProduct {
     /**
      * Raw product text (with some light cleanup).
@@ -25,7 +28,6 @@ class NWSProduct {
      *
      * @var string AFOS ID
      */
-
     var $afos;
 
     /**
@@ -33,7 +35,6 @@ class NWSProduct {
      *
      * @var string stamp
      */
-
     var $stamp;
 
     /**
@@ -41,7 +42,6 @@ class NWSProduct {
      *
      * @var mixed Array of segments
      */
-
     var $segments;
 
     /**
@@ -65,7 +65,7 @@ class NWSProduct {
      */
 
     function parse() {
-        return $this->split_product();
+        return $this->split_product($this->raw_product);
     }
 
     /**
@@ -79,17 +79,15 @@ class NWSProduct {
 
     /**
      * Split the product by $$ if needed.
-     * TODO: Refactor this so it is more unit testable
      *
      * @return array of NWSProductSegments
      */
-    function split_product() {
+    function split_product($product) {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
         // TODO: Determine storage strategy. For short-fused warnings we'd essentially be storing the product twice
-        $product = $this->raw_product;
-
+        
         // Check if the product contains $$ identifiers for multiple products
         if(strpos($product, "$$")) {
             // Loop over the file for multiple products within one file identified by $$
@@ -251,10 +249,6 @@ class NWSProductSegment
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
-            // If the VTEC library is not loaded, go ahead and get it
-            if(!defined('VTEC_LIB')) {
-                include('VTECString.class.php');
-            }
             foreach ( $matches as $key => $match ) {
                 //print_r($match);
                 $vtec_strings[$key] = new VTECString( $match );

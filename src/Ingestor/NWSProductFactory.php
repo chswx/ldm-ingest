@@ -1,8 +1,12 @@
 <?php
 /*
  * Factory class that routes products to the most specific available parser.
- * 
+ *
  */
+
+namespace UpdraftNetworks\Ingestor;
+use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Parser as Parser;
 
 class NWSProductFactory {
     /**
@@ -13,28 +17,24 @@ class NWSProductFactory {
      * @return Parsed Product object.
      */
     public static function get_product($product_text) {
-        // Get WMO header and issuing office 
+        // Get WMO header and issuing office
         $prod_info = self::get_product_details($product_text);
 
-        // Get AFOS for parser
+        // Select a parser based on AFOS
         $parser = self::get_parser_from_afos($prod_info['afos']);
 
-        // Construct the path to the parser
-        $parser_path = "product-plugins/$parser.php";
+        Utils::log("Attempting to use $parser");
 
-        Utils::log("Trying $parser_path...");
-        
-        if(file_exists($parser_path)) {
-            include($parser_path);
+        if(class_exists($parser)) {
             // Instantiate the class
+            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
             $product = new $parser($prod_info, $product_text);
         }
         // It's not here...return a generic parsing library.
         else
         {
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
-            include('product-plugins/GenericProduct.php');
-            $product = new GenericProduct($prod_info, $product_text);
+            $product = new Parser\GenericProduct($prod_info, $product_text);
         }
 
         return $product;
@@ -42,16 +42,16 @@ class NWSProductFactory {
 
     /**
      * Get WMO product ID and authority from the second line.
-     * 
+     *
      * @param string $product_text Sanitized product text.
      * @return array WMO header ID, issuing office, and AWIPS code
      */
-    private static function get_product_details($product_text) {
+    public static function get_product_details($product_text) {
         $text_array = Utils::make_array($product_text);
         $wmo_and_office = explode(' ',$text_array[1]);
         $wmo = $wmo_and_office[0];
         $office = $wmo_and_office[1];
-        $afos = $text_array[2];
+        $afos = trim($text_array[2]);
 
         Utils::log("Product WMO: " . $wmo . '; Office: ' . $office . '; AFOS code: ' . $afos);
 
@@ -68,7 +68,7 @@ class NWSProductFactory {
      * @param string $afos AFOS string
      * @return string Parser to use
      */
-    private static function get_parser_from_afos($afos) {
+    public static function get_parser_from_afos($afos) {
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)
@@ -108,12 +108,6 @@ class NWSProductFactory {
             $parser = "GenericProduct";
         }
 
-        return $parser; 
+        return 'Parser\\' . $parser;
     }
-
-    private static function try_parser($parser_path) {
-        
-    }
-
-
 }

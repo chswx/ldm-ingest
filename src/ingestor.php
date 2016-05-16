@@ -26,6 +26,12 @@ include('../vendor/autoload.php');
 //
 include('../conf/chswx.conf.php');
 
+//
+// Handle to DB
+//
+
+$db = new ProductStorage;
+
 // Get the file path from the command line.
 // #11: Pipable stuff, arguments, etc.
 
@@ -66,12 +72,11 @@ $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 
 // If we're not null, victory! Encode and send on its merry way
 if(!is_null($product_obj)) {
-    // Only here as a debugging measure.
-    // TODO: Introduce debugging flag
-    Utils::log(print_r($product_obj));
-
+    $table = $product_obj->table;
+    // Unset the table now to prevent stupid data storage issues
+    unset($product_obj->table);
     // Send to our product storage system
-    ProductStorage::send($product_obj);
+    $db->send($product_obj,$table);
 
     // Have you heard the good word of our properly parsed product?
     Utils::log("Parsed product {$product_obj->afos} from {$product_obj->office} successfully");

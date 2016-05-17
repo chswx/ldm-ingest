@@ -38,12 +38,17 @@ $db = new ProductStorage;
 // First, backward compatibility for file input
 $shortopts = "f::";
 $options = getopt($shortopts);
-var_dump($options);
 if(!empty($options['f'])) {
     $file_path = $options['f'];
     Utils::log("Ingest has begun. Filename: " . $file_path);
     // Bring in the file
-    $m_text = file_get_contents($file_path);
+    if(file_exists($file_path)) {
+        $m_text = file_get_contents($file_path);
+    } else {
+        fwrite(STDERR,"File $file_path not found. Terminating ingest.\n");
+        exit(1);
+    }
+
 }
 // Next, if a file is not specified, require these options and pipe input
 else {

@@ -11,31 +11,19 @@ namespace UpdraftNetworks\Ingestor;
 use UpdraftNetworks\Utils as Utils;
 use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
 
-//
-// Execution time
-//
+// Begin timing execution
 $time_start = microtime(true);
 
-//
 // Include composer autoload
-//
 include('../vendor/autoload.php');
 
-//
 // Configuration
-//
 include('../conf/chswx.conf.php');
 
-//
 // Handle to DB
-//
-
 $db = new ProductStorage;
 
 // Get the file path from the command line.
-// #11: Pipable stuff, arguments, etc.
-
-// First, backward compatibility for file input
 $shortopts = "f::";
 $options = getopt($shortopts);
 if(!empty($options['f'])) {
@@ -49,27 +37,6 @@ if(!empty($options['f'])) {
         exit(1);
     }
 
-}
-// Next, if a file is not specified, require these options and pipe input
-else {
-    $shortopts = "w:o:t:a:c::";
-    $longopts = array(
-        'wmo:',
-        'office:',
-        'time:',
-        'afos:',
-        'corrections::'
-    );
-
-    $options = getopt($shortopts,$longopts);
-    if($options) {
-        Utils::log("Ingest has begun from STDIN ({$options['a']})");
-        stream_set_blocking(STDIN,0);
-        $m_text = stream_get_contents(STDIN);
-    }
-    else {
-        die("Aborting parse");
-    }
 }
 
 // Send to the factory to parse the product.
@@ -89,6 +56,9 @@ if(!is_null($product_obj)) {
     // Something went wrong
     Utils::log("Error parsing.");
 }
+
+// Finish logging execution, log and get out
 $time_end = microtime(true);
 $time = $time_end - $time_start;
 Utils::log("Ingest has run. Execution time: $time seconds");
+exit(0);

@@ -36,7 +36,8 @@ $tables = array(
     'lsr',              // Local storm reports
     'nhc',              // Hurricane Center stuff (active tropical systems)
     'rvr_flood',        // River flood warnings
-    'fcst'              // Forecast data
+    'fcst',             // Forecast data
+    'areas'             // Areas of responsibility
 );
 
 echo "Setting up database tables for the Updraft LDM tools...\n";

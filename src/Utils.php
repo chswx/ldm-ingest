@@ -50,4 +50,9 @@ class Utils
     public static function log($message, $level = 'NOTICE') {
         error_log($message,0);
     }
+
+    public static function exit_with_error($message, $code = 1) {
+        fwrite(STDERR, $message);
+        exit($code);
+    }
 }

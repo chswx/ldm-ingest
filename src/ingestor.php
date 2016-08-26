@@ -33,13 +33,11 @@ if(!empty($options['f'])) {
     if(file_exists($file_path)) {
         $m_text = file_get_contents($file_path);
     } else {
-        fwrite(STDERR,"File $file_path not found. Terminating ingest.\n");
-        exit(1);
+        Utils::exit_with_error("File $file_path not found. Terminating ingest.\n");
     }
 } else {
     // Abort the mission.
-    fwrite(STDERR,"-f not given. Aborting.\n");
-    exit(1);
+    Utils::exit_with_error("-f not given. Aborting.\n");
 }
 
 // Send to the factory to parse the product.
@@ -48,7 +46,7 @@ $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 // If we're not null, victory! Encode and send on its merry way
 if(!is_null($product_obj)) {
     $table = $product_obj->table;
-    // Unset the table now to prevent stupid data storage issues
+    // Unset the table now to prevent storing the name of the table along with the product
     unset($product_obj->table);
     // Send to our product storage system
     $db->send($product_obj,$table);

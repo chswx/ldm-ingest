@@ -1,7 +1,6 @@
 <?php
 /*
  * Factory class that routes products to the most specific available parser.
- *
  */
 
 namespace UpdraftNetworks\Ingestor;
@@ -93,9 +92,9 @@ class NWSProductFactory {
             $parser = "WatchProbs";
             $table = 'spc_watch';
         }
-        // Mesoscale convective/precip discussions
-        // (SWOMCD|FFGMPD)
-        else if(preg_match('(SWOMCD|FFGMPD)',$afos)) {
+        // Mesoscale convective discussions
+        // (SWOMCD)
+        else if(preg_match('(SWOMCD)',$afos)) {
             $parser = "MesoDisc";
             $table = 'mesodisc';
         }
@@ -116,9 +115,20 @@ class NWSProductFactory {
             $parser = "LSR";
             $table = 'lsr';
         }
+        // Mesoscale precipitation discussions from WPC (FFGMPD)
+        else if (preg_match('(FFGMPD)',$afos)) {
+            $parser = "MesoDisc";
+            $table = 'wpc_mpd';
+        }
+        // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
+        // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
+        else if (preg_match('/RBG(94|98|99)E/',$afos)) {
+            $parser = "WPCOutlook";
+            $table = "wpc_outlook";
+        }
         else {
             $parser = "GenericProduct";
-            $table = 'wwa';
+            $table = 'misc';
         }
 
         return array('parser' => 'Parser\\' . $parser, 'table' => $table);

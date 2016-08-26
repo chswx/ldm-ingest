@@ -37,7 +37,10 @@ $tables = array(
     'nhc',              // Hurricane Center stuff (active tropical systems)
     'rvr_flood',        // River flood warnings
     'fcst',             // Forecast data
-    'areas'             // Areas of responsibility
+    'misc',             // Miscellaneous products (AFDs, HWOs, etc.)
+    'climate',          // Climate data
+    'wpc_outlook',      // WPC Excessive Rainfall Outlooks
+    'wpc_mpd'           // WPC Mesoscale Precipitation Discussions
 );
 
 echo "Setting up database tables for the Updraft LDM tools...\n";
@@ -51,3 +54,4 @@ foreach($tables as $table) {
     }
 }
 echo "Tables created and we're out of here!\n";
+exit(0);

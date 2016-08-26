@@ -24,7 +24,7 @@ include('../conf/chswx.conf.php');
 $db = new ProductStorage;
 
 // Get the file path from the command line.
-$shortopts = "f::";
+$shortopts = "f:";
 $options = getopt($shortopts);
 if(!empty($options['f'])) {
     $file_path = $options['f'];
@@ -36,7 +36,10 @@ if(!empty($options['f'])) {
         fwrite(STDERR,"File $file_path not found. Terminating ingest.\n");
         exit(1);
     }
-
+} else {
+    // Abort the mission.
+    fwrite(STDERR,"-f not given. Aborting.\n");
+    exit(1);
 }
 
 // Send to the factory to parse the product.

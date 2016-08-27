@@ -3,11 +3,11 @@
  * Configuration: holds various interpretations of NWS product text, sets up Tweet text, etc...
  */
 
-//
 // Set timezone
-//
-
 date_default_timezone_set('UTC');
+
+// Use error logging to syslog
+ini_set('error_log','syslog');
 
 //
 // VTEC phenomena codes.

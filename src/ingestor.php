@@ -15,10 +15,10 @@ use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
 $time_start = microtime(true);
 
 // Include composer autoload
-include('../vendor/autoload.php');
+include(dirname(dirname(__FILE__)).'/vendor/autoload.php');
 
 // Configuration
-include('../conf/chswx.conf.php');
+include(dirname(dirname(__FILE__)).'/conf/chswx.conf.php');
 
 // Handle to DB
 $db = new ProductStorage;

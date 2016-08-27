@@ -92,6 +92,12 @@ class NWSProductFactory {
             $parser = "WatchProbs";
             $table = 'spc_watch';
         }
+        // Public Watch Notification
+        // WWUS20
+        else if(strpos($afos, 'SEL') !== false) {
+            $parser = "PublicWatch";
+            $table = 'spc_watch';
+        }
         // Mesoscale convective discussions
         // (SWOMCD)
         else if(preg_match('(SWOMCD)',$afos)) {

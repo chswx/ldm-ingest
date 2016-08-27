@@ -3,3 +3,4 @@ oauth.config.php
 conf/*
 lib/*
 *.swp
+vendor/*

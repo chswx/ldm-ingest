@@ -3,11 +3,11 @@
  * Configuration: holds various interpretations of NWS product text, sets up Tweet text, etc...
  */
 
-//
 // Set timezone
-//
+date_default_timezone_set('UTC');
 
-date_default_timezone_set('America/New_York');
+// Use error logging to syslog
+ini_set('error_log','syslog');
 
 //
 // VTEC phenomena codes.
@@ -86,18 +86,4 @@ $vtec_significance_codes = array(
 	'F' => 'Forecast',
 	'O' => 'Outlook',
 	'N' => 'Synopsis'
-);
-
-//
-// Active zones
-//
-
-$active_zones = array(
-	'SCZ050',
-	'SCZ052',
-	'SCZ045',
-	'SCZ044',
-	'SCC015',
-	'SCC019',
-	'SCC035'
 );

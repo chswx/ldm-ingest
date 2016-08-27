@@ -1,6 +1,6 @@
 <phpunit>
     <testsuites>
-        <testsuite name="null">
+        <testsuite name="ldm-ingest">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

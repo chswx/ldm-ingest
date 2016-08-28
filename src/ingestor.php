@@ -23,15 +23,12 @@ include(dirname(dirname(__FILE__)).'/conf/chswx.conf.php');
 // Handle to DB
 $db = new ProductStorage;
 
-// Get the file path from the command line.
-$file_path = $argv[1];
-Utils::log("Ingest has begun. Filename: " . $file_path);
-// Bring in the file
-if(file_exists($file_path)) {
-    $m_text = file_get_contents($file_path);
-} else {
-    Utils::exit_with_error("File $file_path not found. Terminating ingest.\n");
-}
+// #10: Pipe in products from the LDM vs. reading in written files.
+// This gives us a level of concurrence that we wouldn't otherwise have...
+// ...and sets us up to do longer-running piped processes down the road (#26)
+Utils::log("Ingest has begun from STDIN.");
+// Pipe in text from STDIN
+$m_text = stream_get_contents(STDIN);
 
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));

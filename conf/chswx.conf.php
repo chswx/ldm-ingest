@@ -7,7 +7,7 @@
 date_default_timezone_set('UTC');
 
 // Use error logging to syslog
-ini_set('error_log','syslog');
+//ini_set('error_log','syslog');
 
 //
 // VTEC phenomena codes.

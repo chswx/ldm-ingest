@@ -53,8 +53,10 @@ class NWSProduct {
         $this->afos = $prod_info['afos'];     // AFOS code
         // Keep the raw product around for now
         $this->raw_product = $product_text;
-        // Parse the product out into segments.
-        $this->segments = $this->parse();
+        // Parse the product out into segments if not already done by a more specialized parser.
+        if(empty($this->segments)) {
+            $this->segments = $this->parse();
+        }
         // Set up the product stamp.
         $this->stamp = Utils::generate_stamp($this->afos, time());
     }
@@ -80,9 +82,11 @@ class NWSProduct {
     /**
      * Split the product by $$ if needed.
      *
+     * @param $product string Raw product data to get shredded
+     * @param $class string Optional definition of which class defines what a segment is
      * @return array of NWSProductSegments
      */
-    function split_product($product) {
+    function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment') {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
@@ -99,7 +103,7 @@ class NWSProduct {
         }
 
         foreach($raw_segments as $segment) {
-            $segments[] = new NWSProductSegment($segment,$this->afos,$this->office);
+            $segments[] = new $class($segment,$this->afos,$this->office);
         }
 
         return $segments;
@@ -116,13 +120,6 @@ class NWSProductSegment
      */
 
     var $text;
-
-    /**
-     * Array of VTEC strings.
-     *
-     * @var array VTECString
-     */
-    var $vtec_strings;
 
     /**
      * Zones for this segment.
@@ -161,7 +158,6 @@ class NWSProductSegment
         $this->afos = $afos;
         $this->office = $office;
         $this->text = $segment_text;
-        $this->vtec_strings = $this->parse_vtec();
         $this->zones = $this->parse_zones();
     }
 
@@ -201,61 +197,6 @@ class NWSProductSegment
         }
 
         return $array_search_result;
-    }
-
-    //
-    // Valid Time Extent Code (VTEC) support
-    // Lots of useful information in one string about nature of product, start and end times, etc.
-    // TODO: Implement H-VTEC for hydrological hazards
-    //
-
-    /**
-     * Get VTEC strings if they exist...otherwise, return false
-     *
-     * @return array VTEC strings
-     * @return boolean false if failure
-     */
-    function get_vtec() {
-        if(!empty($this->vtec_strings))
-        {
-            foreach($this->vtec_strings as $vtec_string) {
-                $strings[] = $vtec_string;
-            }
-            // Return an array of VTEC strings
-            return $strings;
-        }
-        // No VTEC string found
-        return false;
-    }
-
-    /**
-     * Quick check if this segment has VTEC
-     * @return  boolean
-     */
-    function has_vtec() {
-        return !empty($this->vtec_strings);
-    }
-
-    /**
-     * Checks if a segment has a VTEC message.
-     *
-     * @return boolean
-     */
-    function parse_vtec() {
-        $data = $this->text;
-        $vtec_strings = array();
-
-        // Match all alerts, but we will only use operational warnings
-        $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
-
-        if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
-            foreach ( $matches as $key => $match ) {
-                //print_r($match);
-                $vtec_strings[$key] = new VTECString( $match );
-            }
-        }
-
-        return $vtec_strings;
     }
 
     /*

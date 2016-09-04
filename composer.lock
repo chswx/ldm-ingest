@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "danielmewes/php-rql",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielmewes/php-rql.git",
-                "reference": "16ac6f45aade7654057d6ad409737891d83d24e4"
+                "reference": "393a49ab5c3ce2cb7f3fc5c985e612b77ce472cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielmewes/php-rql/zipball/16ac6f45aade7654057d6ad409737891d83d24e4",
-                "reference": "16ac6f45aade7654057d6ad409737891d83d24e4",
+                "url": "https://api.github.com/repos/danielmewes/php-rql/zipball/393a49ab5c3ce2cb7f3fc5c985e612b77ce472cd",
+                "reference": "393a49ab5c3ce2cb7f3fc5c985e612b77ce472cd",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,8 @@
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "dev-master",
-                "phpunit/phpunit": "~4.8"
+                "phpunit/phpunit": "~4.8",
+                "squizlabs/php_codesniffer": "~2.5"
             },
             "type": "library",
             "autoload": {
@@ -58,7 +59,7 @@
                 "reql",
                 "rethinkdb"
             ],
-            "time": "2015-12-05 04:32:52"
+            "time": "2016-05-31 01:55:32"
         }
     ],
     "packages-dev": [],

@@ -1,7 +1,7 @@
 <?php
 /**
  * VTEC parser.
- * Grabs VTEC strings and generates events.
+ * Designed specifically for parsing VTEC-enabled products.
  */
 
 namespace UpdraftNetworks\Parser;

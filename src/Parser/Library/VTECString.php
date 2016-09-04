@@ -1,5 +1,5 @@
 <?php
-namespace UpdraftNetworks\Parser;
+namespace UpdraftNetworks\Parser\Library;
 
 /**
  * Class to assist with VTEC string operations.

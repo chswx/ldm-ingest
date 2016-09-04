@@ -7,6 +7,7 @@
 namespace UpdraftNetworks\Parser;
 use UpdraftNetworks\Parser\NWSProduct as NWSProduct;
 use UpdraftNetworks\Parser\NWSProductSegment as NWSProductSegment;
+use UpdraftNetworks\Parser\Library\VTECString as VTECString;
 
 class VTEC extends NWSProduct {
     function __construct($prod_info,$prod_text) {    

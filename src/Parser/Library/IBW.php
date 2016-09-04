@@ -3,7 +3,7 @@
  * Not Irritable Bowel Weather, Impact-Based Warnings.
  */
 
-namespace UpdraftNetworks\Parser;
+namespace UpdraftNetworks\Parser\Library;
 
 class IBW {
 

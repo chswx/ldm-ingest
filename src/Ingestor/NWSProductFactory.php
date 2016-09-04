@@ -137,6 +137,6 @@ class NWSProductFactory {
             $table = 'misc';
         }
 
-        return array('parser' => 'Parser\\' . $parser, 'table' => $table);
+        return array('parser' => 'UpdraftNetworks\\Parser\\' . $parser, 'table' => $table);
     }
 }

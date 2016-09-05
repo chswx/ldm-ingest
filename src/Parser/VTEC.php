@@ -8,6 +8,7 @@ namespace UpdraftNetworks\Parser;
 use UpdraftNetworks\Parser\NWSProduct as NWSProduct;
 use UpdraftNetworks\Parser\NWSProductSegment as NWSProductSegment;
 use UpdraftNetworks\Parser\Library\VTECString as VTECString;
+use UpdraftNetworks\Parser\Library\SMVString as SMVString;
 
 class VTEC extends NWSProduct {
     function __construct($prod_info,$prod_text) {    
@@ -30,9 +31,15 @@ class VTECSegment extends NWSProductSegment {
      */
     var $vtec_strings;
 
+    /**
+     * Storm motion vector info.
+     * @var array SMVString
+     */
+
     function __construct($segment_text, $afos, $office) {
         parent::__construct($segment_text, $afos, $office);
         $this->vtec_strings = $this->parse_vtec();
+        $this->smv = new SMVString($segment_text);
     }
 
     //

@@ -31,4 +31,8 @@ class Point {
         return $this;
     }
 
+    function to_array() {
+        return array('coordinates'=>$this->coordinates,'type'=>$this->type);
+    }
+
 }

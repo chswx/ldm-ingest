@@ -26,6 +26,12 @@ class Polygon {
      */
     function __construct($coords_arr) {
         $this->type = "Polygon";
-        $this->coordinates = $coords_arr;
+        // Make sure the first coordinate is also the last
+        array_push($coords_arr,$coords_arr[0]);
+        $this->coordinates = array($coords_arr);
+    }
+
+    function to_array() {
+        return array('type'=>$this->type, 'coordinates' => $this->coordinates);
     }
 }

@@ -34,7 +34,7 @@ class SBW {
             
             // Return a GeoJSON polygon.
 
-            return new Geo\Polygon($coords_arr);
+            return (new Geo\Polygon($coords_arr));
         }
 
         // Null if we don't have one

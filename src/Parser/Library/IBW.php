@@ -28,9 +28,12 @@ class IBW {
         $this->hail = $this->find_metadata($segment_text,'hail');
         $this->tornado_damage = $this->find_metadata($segment_text,'tornado damage threat');
         $this->waterspout = $this->find_metadata($segment_text,'waterspout');
-        $this->hazard = $this->find_impacts_in_text($segment_text,"hazard");
-        $this->source = $this->find_impacts_in_text($segment_text,"source");
-        $this->impact = $this->find_impacts_in_text($segment_text,"impact");
+        $impacts = $this->find_impacts_in_text($segment_text,"hazard");
+        if(!is_null($impacts)) {
+            $this->hazard = $impacts[0];
+            $this->source = $impacts[1];
+            $this->impact = $impacts[2];
+        }
     }
 
     function find_metadata($text, $type) {
@@ -45,8 +48,21 @@ class IBW {
     }
 
     function find_impacts_in_text($text, $type) {
+        // Normalize the type to uppercase.
         $type = strtoupper($type);
         
+        // Get the product on one line and remove extra indenting spaces for maximum parsability.
+        $sanitized_text = Utils::deindent(Utils::strip_newlines($text));
+        if(preg_match('/HAZARD\.\.\.(.*)SOURCE\.\.\.(.*)IMPACT\.\.\.(.*)(?=\*)/',$sanitized_text,$matches)) {
+            $impacts = array();
+            unset($matches[0]);
+            foreach($matches as $impact) {
+                $impacts[] = trim($impact);
+            }
+            return $impacts;
+        }
+
+        return null;
     }
 
 }

@@ -52,7 +52,8 @@ class VTECSegment extends NWSProductSegment {
             $this->impacts = new IBW($segment_text);
         }
         // Respect the polygon!
-        $this->polygon = new SBW($segment_text);
+        $sbw = new SBW($segment_text);
+        $this->polygon = $sbw->polygon;
     }
 
     //

@@ -17,9 +17,12 @@ class ProductStorage {
      * @param $table string Table to write to
      */ 
     function send($product, $table) {
+        $product_class = get_class($product);
         // Today in PHP Is Terrible: Encoding and then decoding the product to get an object->array conversion
         // Seems to be the only way this will work!
-        $result = r\table($table)->insert(json_decode(json_encode($product)))->run($this->conn);
+        $encoded_product = json_decode(json_encode($product));
+        $encoded_product = $this->prepare_location_data($encoded_product, $product_class);
+        $result = r\table($table)->insert($encoded_product)->run($this->conn);
     }
 
     /**
@@ -30,6 +33,40 @@ class ProductStorage {
      */
     function update($product, $record) {
         return; 
+    }
+
+    /**
+     * Prepares location data for RethinkDB. 
+     * RethinkDB as of 2.3.x does not support GeoJSON natively.
+     * @param $product Product object of varying shapes
+     * @return Prepared object for database insertion
+     */
+    function prepare_location_data($product, $product_class) {
+        switch($product_class) {
+        case 'UpdraftNetworks\Parser\VTEC':
+            $prepped = $this->_prepare_vtec($product);
+            break;
+        }
+    
+        return $product;
+    }
+
+    private function _prepare_vtec($product) {
+        $prepped_segments = array();
+        foreach($product->segments as $segment) {
+            if(isset($segment->smv->location)) {
+                var_dump((array)$segment->smv->location);
+                $segment->smv->location = r\geojson((array)$segment->smv->location);
+            }
+            if(isset($segment->polygon)) {
+                $segment->polygon = r\geojson((array)$segment->polygon);
+            }
+            $prepped_segments[] = $segment;
+        }
+
+        $product->segments = $prepped_segments;
+
+        return $product;
     }
 
 }

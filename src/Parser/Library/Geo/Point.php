@@ -4,6 +4,7 @@
  */
 
 namespace UpdraftNetworks\Parser\Library\Geo;
+use UpdraftNetworks\Utils as Utils;
 
 class Point {
     /**
@@ -25,21 +26,13 @@ class Point {
      */
     function __construct($coords) {
         $this->type = "Point";
-        $this->coordinates = $this->_convert_coords_to_geojson($coords);
+        $this->coordinates = Utils::convert_coords_to_geojson($coords);
         
         return $this;
     }
 
-    protected function _convert_coords_to_geojson($coords) {
-        // Take the format LLLL OOOO
-        // Explode into array
-        $coords_arr = explode(" ", $coords);
-        
-        // Expand lat/long into regular coordinates
-        // Easiest way is to coerce these into ints and then divide by 100
-        // Note: In GeoJSON, it's lon then lat; not lat lon
-        $coords_prepped = array(((int)$coords_arr[1] / -100),((int)$coords_arr[0] / 100));
-
-        return $coords_prepped;
+    function to_array() {
+        return array('coordinates'=>$this->coordinates,'type'=>$this->type);
     }
+
 }

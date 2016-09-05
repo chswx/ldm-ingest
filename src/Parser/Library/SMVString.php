@@ -52,7 +52,6 @@ class SMVString {
      */
     protected function _extract_storm_motion_vector($segment_text) {
         preg_match('/TIME\.\.\.MOT\.\.\.LOC\ (\d*)Z\ (\d*)DEG\ (\d*)KT\ (.... ....)/',$segment_text,$matches);
-        Utils::log(print_r($matches));
         return array(
             'time' => (int)$matches[1], 
             'mot' => array(

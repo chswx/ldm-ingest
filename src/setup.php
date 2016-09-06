@@ -4,6 +4,8 @@
  * Setup utility for the Updraft LDM ingestor and alerter combos.
  */
 
+ini_set('memory_limit','512M');
+
 require_once('../vendor/autoload.php');
 
 echo "Opening the connection to the local RethinkDB instance...\n";
@@ -55,5 +57,31 @@ foreach($tables as $table) {
         r\tableCreate($table)->run($conn);
     }
 }
-echo "Tables created and we're out of here!\n";
+echo "Tables created\n";
+
+// Set up geospatial index
+echo "Importing geospatial data...\n";
+$file = '../data/awips_cities_geojson.geojson';
+$json = file_get_contents($file);
+$decoded = json_decode($json);
+$complete = 0;
+$total = count($decoded);
+echo "Importing $total items...\n";
+// 200 inserts at a time
+foreach($decoded as $item) {
+    $item->geometry = r\geojson((array)$item->geometry);
+    $result = r\table('geo_cities')->insert($item)->run($conn);
+    if($result) {
+        $complete++;
+        echo "$complete record of $total complete\n";
+    }
+}
+echo "Setting up indexes...\n";
+try {
+    r\table('geo_cities')->indexCreateGeo('geometry')->run($conn); 
+} 
+catch (RQLServerError $e) {
+    echo "Index may already exist.\n";
+}
+echo "Setup complete\n";
 exit(0);

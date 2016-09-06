@@ -55,7 +55,6 @@ class ProductStorage {
         $prepped_segments = array();
         foreach($product->segments as $segment) {
             if(isset($segment->smv->location)) {
-                var_dump((array)$segment->smv->location);
                 $segment->smv->location = r\geojson((array)$segment->smv->location);
             }
             if(isset($segment->polygon)) {

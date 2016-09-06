@@ -37,6 +37,17 @@ class VTECSegment extends NWSProductSegment {
      * Storm motion vector info.
      * @var array SMVString
      */
+    var $smv;
+
+    /**
+     * Impact-based warning info (if available.)
+     */
+    var $impacts;
+
+    /**
+     * Storm-based warning polygon geometry (if available)
+     */
+    var $polygon;
 
     function __construct($segment_text, $afos, $office) {
         parent::__construct($segment_text, $afos, $office);

@@ -44,7 +44,8 @@ $tables = array(
     'wpc_outlook',      // WPC Excessive Rainfall Outlooks
     'wpc_mpd',          // WPC Mesoscale Precipitation Discussions
     'geo_cities',       // Badly designed websites
-    'geo_counties'      // County outlines in GeoJSON
+    'geo_counties',     // County outlines in GeoJSON
+    'products'          // Bucket for incoming products
 );
 
 echo "Setting up database tables for the Updraft LDM tools...\n";

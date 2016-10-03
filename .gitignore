@@ -4,3 +4,4 @@ conf/*
 lib/*
 *.swp
 vendor/*
+.idea

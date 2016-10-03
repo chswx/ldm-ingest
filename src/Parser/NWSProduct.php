@@ -6,6 +6,7 @@
  */
 
 namespace UpdraftNetworks\Parser;
+
 use UpdraftNetworks\Utils as Utils;
 
 class NWSProduct {
@@ -47,14 +48,14 @@ class NWSProduct {
     /**
      * Constructor.
      */
-    function __construct( $prod_info, $product_text ) {
+    function __construct($prod_info, $product_text) {
         // Extract info from the $prod_info array...
         $this->office = $prod_info['office'];   // Issuing office
         $this->afos = $prod_info['afos'];     // AFOS code
         // Keep the raw product around for now
         $this->raw_product = $product_text;
         // Parse the product out into segments if not already done by a more specialized parser.
-        if(empty($this->segments)) {
+        if (empty($this->segments)) {
             $this->segments = $this->parse();
         }
         // Set up the product stamp.
@@ -83,7 +84,8 @@ class NWSProduct {
      * Split the product by $$ if needed.
      *
      * @param $product string Raw product data to get shredded
-     * @param $class string Optional definition of which class defines what a segment is
+     * @param $class   string Optional definition of which class defines what a segment is
+     *
      * @return array of NWSProductSegments
      */
     function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment') {
@@ -91,19 +93,18 @@ class NWSProduct {
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
         // TODO: Determine storage strategy. For short-fused warnings we'd essentially be storing the product twice
-        
+
         // Check if the product contains $$ identifiers for multiple products
-        if(strpos($product, "$$")) {
+        if (strpos($product, "$$")) {
             // Loop over the file for multiple products within one file identified by $$
-            $raw_segments = explode('$$',trim($product), -1);
-        }
-        else {
+            $raw_segments = explode('$$', trim($product), -1);
+        } else {
             // No delimiters
             $raw_segments = array(trim($product));
         }
 
-        foreach($raw_segments as $segment) {
-            $segments[] = new $class($segment,$this->afos,$this->office);
+        foreach ($raw_segments as $segment) {
+            $segments[] = new $class($segment, $this->afos, $this->office);
         }
 
         return $segments;
@@ -111,8 +112,7 @@ class NWSProduct {
 
 }
 
-class NWSProductSegment
-{
+class NWSProductSegment {
     /**
      * Segment text
      *
@@ -144,6 +144,7 @@ class NWSProductSegment
 
     /**
      * AFOS code (from parent product)
+     *
      * @var string $afos
      */
     var $afos;
@@ -153,8 +154,7 @@ class NWSProductSegment
      *
      * @param string $segment_text
      */
-    function __construct($segment_text, $afos, $office)
-    {
+    function __construct($segment_text, $afos, $office) {
         $this->afos = $afos;
         $this->office = $office;
         $this->text = $segment_text;
@@ -166,8 +166,7 @@ class NWSProductSegment
      *
      * @return string Raw text of the segment
      */
-    function get_text()
-    {
+    function get_text() {
         return $this->text;
     }
 
@@ -183,15 +182,15 @@ class NWSProductSegment
     /**
      * Was this product issued for a particular zone(s)?
      *
-     * @param array   $zones Array of zone codes to check against
+     * @param array $zones Array of zone codes to check against
+     *
      * @return boolean Array search result - true if found, false if not
      */
-    function in_zone( $zones ) {
-        foreach ( $zones as $zone ) {
-            if ( in_array( $zone, $this->zones ) ) {
+    function in_zone($zones) {
+        foreach ($zones as $zone) {
+            if (in_array($zone, $this->zones)) {
                 return true;
-            }
-            else {
+            } else {
                 $array_search_result = false;
             }
         }
@@ -212,27 +211,26 @@ class NWSProductSegment
     protected function parse_zones() {
         $data = $this->text;
 
-        $output = str_replace( array( "\r\n", "\r" ), "\n", $data );
-        $lines = explode( "\n", $output );
+        $output = str_replace(array("\r\n", "\r"), "\n", $data);
+        $lines = explode("\n", $output);
         $new_lines = array();
 
-        foreach ( $lines as $i => $line ) {
-            if ( !empty( $line ) )
-                $new_lines[] = trim( $line );
+        foreach ($lines as $i => $line) {
+            if (!empty($line))
+                $new_lines[] = trim($line);
         }
-        $data = implode( $new_lines );
+        $data = implode($new_lines);
 
         /* split up individual states - multiple states may be in the same forecast */
         $regex = '/(([A-Z]{2})(C|Z){1}([0-9]{3})((>|-)[0-9]{3})*)-/';
 
-        $count = preg_match_all( $regex, $data, $matches );
+        $count = preg_match_all($regex, $data, $matches);
         $total_zones = '';
 
-        foreach ($matches[0] as $field => $value)
-        {
+        foreach ($matches[0] as $field => $value) {
             /* since the NWS thought it was efficient to not repeat state codes, we have to reverse that */
-            $state = substr( $value, 0, 3 );
-            $zones = substr( $value, 3 );
+            $state = substr($value, 0, 3);
+            $zones = substr($value, 3);
 
             /* convert ranges like 014>016 to 014-015-016 */
             $zones = $this->expand_ranges($zones);
@@ -240,7 +238,7 @@ class NWSProductSegment
             /* hack off the last dash */
             $zones = substr($zones, 0, strlen($zones) - 1);
 
-            $zones = $state . str_replace('-', '-'.$state, $zones);
+            $zones = $state . str_replace('-', '-' . $state, $zones);
 
             $total_zones .= $zones;
 
@@ -249,8 +247,9 @@ class NWSProductSegment
         }
 
         /* One last cleanup */
-        $total_zones = substr( $total_zones, 0, strlen( $total_zones ) - 1 );
-        $total_zones = explode( '-', $total_zones );
+        $total_zones = substr($total_zones, 0, strlen($total_zones) - 1);
+        $total_zones = explode('-', $total_zones);
+
         return $total_zones;
     }
 
@@ -259,20 +258,20 @@ class NWSProductSegment
      * All we want to do here is convert ranges like 014>016 to 014-015-016
      * See: http://www.weather.gov/emwin/winugc.htm
      */
-    protected function expand_ranges( $data ) {
+    protected function expand_ranges($data) {
         $regex = '/(([0-9]{3})(>[0-9]{3}))/';
 
-        $count = preg_match_all( $regex, $data, $matches );
+        $count = preg_match_all($regex, $data, $matches);
 
-        foreach ( $matches[0] as $field => $value ) {
-            list( $start, $end ) = explode( '>', $value );
+        foreach ($matches[0] as $field => $value) {
+            list($start, $end) = explode('>', $value);
 
             $new_value = array();
-            for ( $i = $start; $i <= $end; $i++ ) {
-                $new_value[] = str_pad( $i, 3, '0', STR_PAD_LEFT );
+            for ($i = $start; $i <= $end; $i++) {
+                $new_value[] = str_pad($i, 3, '0', STR_PAD_LEFT);
             }
 
-            $data = str_replace( $value, implode( '-', $new_value ), $data );
+            $data = str_replace($value, implode('-', $new_value), $data);
         }
 
         return $data;

@@ -5,6 +5,7 @@
  */
 
 namespace UpdraftNetworks\Parser;
+
 use UpdraftNetworks\Parser\NWSProduct as NWSProduct;
 use UpdraftNetworks\Parser\NWSProductSegment as NWSProductSegment;
 use UpdraftNetworks\Parser\Library\VTECString as VTECString;
@@ -13,12 +14,12 @@ use UpdraftNetworks\Parser\Library\IBW as IBW;
 use UpdraftNetworks\Parser\Library\SBW as SBW;
 
 class VTEC extends NWSProduct {
-    function __construct($prod_info,$prod_text) {    
-        parent::__construct($prod_info,$prod_text);
+    function __construct($prod_info, $prod_text) {
+        parent::__construct($prod_info, $prod_text);
     }
 
     function parse() {
-        return $this->split_product($this->raw_product,'UpdraftNetworks\\Parser\\VTECSegment');
+        return $this->split_product($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
     }
 }
 
@@ -35,6 +36,7 @@ class VTECSegment extends NWSProductSegment {
 
     /**
      * Storm motion vector info.
+     *
      * @var array SMVString
      */
     var $smv;
@@ -58,7 +60,7 @@ class VTECSegment extends NWSProductSegment {
         // - severe weather followup statements
         // - special marine warnings
         // - marine weather statements (questionable)
-        if(preg_match('/(TOR|SVR|SVS|MWW|MWS)/',$this->afos)) {
+        if (preg_match('/(TOR|SVR|SVS|MWW|MWS)/', $this->afos)) {
             $this->smv = new SMVString($segment_text);
             $this->impacts = new IBW($segment_text);
         }
@@ -80,20 +82,22 @@ class VTECSegment extends NWSProductSegment {
      * @return boolean false if failure
      */
     function get_vtec() {
-        if(!empty($this->vtec_strings))
-        {
-            foreach($this->vtec_strings as $vtec_string) {
+        if (!empty($this->vtec_strings)) {
+            foreach ($this->vtec_strings as $vtec_string) {
                 $strings[] = $vtec_string;
             }
+
             // Return an array of VTEC strings
             return $strings;
         }
+
         // No VTEC string found
-        return false;
+        return null;
     }
 
     /**
      * Quick check if this segment has VTEC
+     *
      * @return  boolean
      */
     function has_vtec() {
@@ -102,6 +106,7 @@ class VTECSegment extends NWSProductSegment {
 
     /**
      * Checks if a segment has a VTEC message.
+     *
      * @return boolean
      */
     function parse_vtec() {
@@ -111,9 +116,9 @@ class VTECSegment extends NWSProductSegment {
         // Fun regex to find VTEC strings
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
-        if ( preg_match_all( $regex, $data, $matches, PREG_SET_ORDER ) ) {
-            foreach ( $matches as $key => $match ) {
-                $vtec_strings[$key] = new VTECString( $match );
+        if (preg_match_all($regex, $data, $matches, PREG_SET_ORDER)) {
+            foreach ($matches as $key => $match) {
+                $vtec_strings[$key] = new VTECString($match);
             }
         }
 

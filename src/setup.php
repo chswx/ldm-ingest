@@ -4,7 +4,7 @@
  * Setup utility for the Updraft LDM ingestor and alerter combos.
  */
 
-ini_set('memory_limit','512M');
+ini_set('memory_limit', '512M');
 
 require_once('../vendor/autoload.php');
 
@@ -13,12 +13,11 @@ $conn = r\connect('localhost');
 
 echo "Checking for and creating (if needed) the Updraft database...\n";
 $dblist = r\dbList()->run($conn);
-if(!in_array('updraft',$dblist)) {
+if (!in_array('updraft', $dblist)) {
     echo "Updraft database not there, making it...";
     try {
         $result = r\dbCreate('updraft')->run($conn);
-    }
-    catch (ReqlRuntimeError $e) {
+    } catch (ReqlRuntimeError $e) {
         print_r($e);
         die("Couldn't create the updraft database. Can't continue.");
     }
@@ -50,8 +49,8 @@ $tables = array(
 
 echo "Setting up database tables for the Updraft LDM tools...\n";
 $tablelist = r\db('updraft')->tableList()->run($conn);
-foreach($tables as $table) {
-    if(in_array($table,$tablelist)) {
+foreach ($tables as $table) {
+    if (in_array($table, $tablelist)) {
         echo "Skipping creation of $table, already exists\n";
     } else {
         echo "Creating table $table\n";
@@ -61,27 +60,29 @@ foreach($tables as $table) {
 echo "Tables created\n";
 
 // Set up geospatial index
-echo "Importing geospatial data...\n";
-$file = '../data/awips_cities_geojson.geojson';
-$json = file_get_contents($file);
-$decoded = json_decode($json);
-$complete = 0;
-$total = count($decoded);
-echo "Importing $total items...\n";
-// 200 inserts at a time
-foreach($decoded as $item) {
-    $item->geometry = r\geojson((array)$item->geometry);
-    $result = r\table('geo_cities')->insert($item)->run($conn);
-    if($result) {
-        $complete++;
-        echo "$complete record of $total complete\n";
+if (defined('IMPORT_GEOSPATIAL')) {
+    echo "Importing geospatial data...\n";
+    $file = '../data/awips_cities_geojson.geojson';
+    $json = file_get_contents($file);
+    $decoded = json_decode($json);
+    $complete = 0;
+    $total = count($decoded);
+    echo "Importing $total items...\n";
+    // 200 inserts at a time
+    foreach ($decoded as $item) {
+        $item->geometry = r\geojson((array)$item->geometry);
+        $result = r\table('geo_cities')->insert($item)->run($conn);
+        if ($result) {
+            $complete++;
+            echo "$complete record of $total complete\n";
+        }
     }
 }
+
 echo "Setting up indexes...\n";
 try {
-    r\table('geo_cities')->indexCreateGeo('geometry')->run($conn); 
-} 
-catch (RQLServerError $e) {
+    r\table('geo_cities')->indexCreateGeo('geometry')->run($conn);
+} catch (RQLServerError $e) {
     echo "Index may already exist.\n";
 }
 echo "Setup complete\n";

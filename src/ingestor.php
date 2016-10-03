@@ -8,6 +8,7 @@
  */
 
 namespace UpdraftNetworks\Ingestor;
+
 use UpdraftNetworks\Utils as Utils;
 use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
 
@@ -15,10 +16,10 @@ use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
 $time_start = microtime(true);
 
 // Include composer autoload
-include(dirname(dirname(__FILE__)).'/vendor/autoload.php');
+include(dirname(dirname(__FILE__)) . '/vendor/autoload.php');
 
 // Configuration
-include(dirname(dirname(__FILE__)).'/conf/chswx.conf.php');
+include(dirname(dirname(__FILE__)) . '/conf/chswx.conf.php');
 
 // Handle to DB
 $db = new ProductStorage;
@@ -34,12 +35,12 @@ $m_text = stream_get_contents(STDIN);
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 
 // If we're not null, victory! Encode and send on its merry way
-if(!is_null($product_obj)) {
+if (!is_null($product_obj)) {
     $table = $product_obj->table;
     // Unset the table now to prevent storing the name of the table along with the product
     unset($product_obj->table);
     // Send to our product storage system
-    $db->send($product_obj,$table);
+    $db->send($product_obj, $table);
 
     // Have you heard the good word of our properly parsed product?
     Utils::log("Parsed product {$product_obj->afos} from {$product_obj->office} successfully");

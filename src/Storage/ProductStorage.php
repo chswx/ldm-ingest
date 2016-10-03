@@ -1,6 +1,7 @@
 <?php
 
 namespace UpdraftNetworks\Storage;
+
 use r;
 
 class ProductStorage {
@@ -13,9 +14,10 @@ class ProductStorage {
 
     /**
      * Inserts a product into the database.
+     *
      * @param $product mixed Array of product data to be inserted into the database
-     * @param $table string Table to write to
-     */ 
+     * @param $table   string Table to write to
+     */
     function send($product, $table = 'products') {
         $product_class = get_class($product);
         // Today in PHP Is Terrible: Encoding and then decoding the product to get an object->array conversion
@@ -28,36 +30,39 @@ class ProductStorage {
     /**
      * Updates a record with additional information.
      * TODO: Implement
+     *
      * @param $product mixed Array of product data to attach to the record
-     * @param $record 
+     * @param $record
      */
     function update($product, $record) {
-        return; 
+        return;
     }
 
     /**
-     * Prepares location data for RethinkDB. 
+     * Prepares location data for RethinkDB.
      * RethinkDB as of 2.3.x does not support GeoJSON natively.
+     *
      * @param $product Product object of varying shapes
+     *
      * @return Prepared object for database insertion
      */
     function prepare_location_data($product, $product_class) {
-        switch($product_class) {
-        case 'UpdraftNetworks\Parser\VTEC':
-            $prepped = $this->_prepare_vtec($product);
-            break;
+        switch ($product_class) {
+            case 'UpdraftNetworks\Parser\VTEC':
+                $prepped = $this->_prepare_vtec($product);
+                break;
         }
-    
+
         return $product;
     }
 
     private function _prepare_vtec($product) {
         $prepped_segments = array();
-        foreach($product->segments as $segment) {
-            if(isset($segment->smv->location)) {
+        foreach ($product->segments as $segment) {
+            if (isset($segment->smv->location)) {
                 $segment->smv->location = r\geojson((array)$segment->smv->location);
             }
-            if(isset($segment->polygon)) {
+            if (isset($segment->polygon)) {
                 $segment->polygon = r\geojson((array)$segment->polygon);
             }
             $prepped_segments[] = $segment;

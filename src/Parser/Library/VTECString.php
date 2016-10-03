@@ -5,10 +5,10 @@ namespace UpdraftNetworks\Parser\Library;
  * Class to assist with VTEC string operations.
  * VTECString object properties are externally accessible
  */
-class VTECString
-{
+class VTECString {
     /**
      * Raw VTEC string.
+     *
      * @var string
      */
     var $vtec_string;
@@ -61,10 +61,9 @@ class VTECString
      */
     function __construct($vtec) {
 
-        if(is_array($vtec)) {
+        if (is_array($vtec)) {
             $this->_create_obj($vtec);
-        }
-        else {
+        } else {
             $this->_parse($vtec);
         }
     }
@@ -99,22 +98,23 @@ class VTECString
         $this->event_number = $vtec_string_array[6];
 
         // Effective time (as UNIX timestamp)
-        $this->effective_timestamp = $this->vtec_to_timestamp($vtec_string_array[7],$vtec_string_array[8]);
+        $this->effective_timestamp = $this->vtec_to_timestamp($vtec_string_array[7], $vtec_string_array[8]);
 
         // Expire time (as UNIX timestamp)
-        $this->expire_timestamp = $this->vtec_to_timestamp($vtec_string_array[9],$vtec_string_array[10]);
+        $this->expire_timestamp = $this->vtec_to_timestamp($vtec_string_array[9], $vtec_string_array[10]);
     }
 
     private function _parse($vtec_string) {
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
-        if ( preg_match( $regex, $vtec_string, $matches ) ) {
+        if (preg_match($regex, $vtec_string, $matches)) {
             $this->_create_obj($matches);
         }
     }
 
     /**
      * Checks if an operational VTEC string.
+     *
      * @return boolean
      */
     function is_operational() {
@@ -123,6 +123,7 @@ class VTECString
 
     /**
      * Checks if a test VTEC product.
+     *
      * @return boolean
      */
     function is_test() {
@@ -140,11 +141,11 @@ class VTECString
 
     /**
      * Return the phenomena name from the global dictionary.
+     *
      * @return string Phenomena name
      */
-    function get_phenomena_name()
-    {
-        if(isset($this->vtec_phenomena_codes[$this->phenomena]))
+    function get_phenomena_name() {
+        if (isset($this->vtec_phenomena_codes[$this->phenomena]))
             return $this->vtec_phenomena_codes[$this->phenomena];
         else
             return null;
@@ -152,17 +153,18 @@ class VTECString
 
     /**
      * Return the significance name from the global dictionary.
+     *
      * @return string Significance name
      */
     function get_significance_name() {
-        if(isset($this->vtec_significance_codes[$this->significance]))
+        if (isset($this->vtec_significance_codes[$this->significance]))
             return $this->vtec_significance_codes[$this->significance];
         else
             return null;
     }
 
     function get_product_name() {
-        if(!empty($this->get_significance_name()) && !empty($this->get_phenomena_name())) {
+        if (!empty($this->get_significance_name()) && !empty($this->get_phenomena_name())) {
             return $this->get_phenomena_name() . " " . $this->get_phenomena_name();
         }
 
@@ -174,19 +176,15 @@ class VTECString
      *
      * @return int UNIX timestamp
      */
-    private function vtec_to_timestamp($vtec_date,$vtec_time)
-    {
+    private function vtec_to_timestamp($vtec_date, $vtec_time) {
         // Don't bother with blank dates
-        if($vtec_date == "OOOOOO")
-        {
+        if ($vtec_date == "OOOOOO") {
             $stamp = 0;
-        }
-        else
-        {
+        } else {
             // Break out the VTEC datestamp into chunks to reassemble shortly
-            $year = substr($vtec_date,0,2);
-            $month = substr($vtec_date,2,2);
-            $day = substr($vtec_date,4,2);
+            $year = substr($vtec_date, 0, 2);
+            $month = substr($vtec_date, 2, 2);
+            $day = substr($vtec_date, 4, 2);
 
             // Y2.1K problem (read: not mine unless I live to be 130)
             $stamp = strtotime('20' . $year . '-' . $month . '-' . $day . ' ' . $vtec_time . 'Z');

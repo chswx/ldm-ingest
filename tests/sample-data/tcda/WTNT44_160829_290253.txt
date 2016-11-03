@@ -1,0 +1,75 @@
+
+062 
+WTNT44 KNHC 290253
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 PM EDT SUN AUG 28 2016
+
+Flight-level wind data from an earlier NOAA reconnaissance mission
+along with WSR-88D Doppler radar data from Key West indicate that
+the depression had been moving southwestward between 1800-0000 UTC.
+However, the most recent radar data and nearby surface observations
+suggest that the cyclone has now turned toward the west. The last
+reliable wind data from the NOAA WP-3 recon aircraft supported an
+intensity of 30 kt, and that intensity is being maintained for this
+advisory given that the radar and satellite signatures haven't
+improved. The central pressure of 1007 mb is based on a reliable
+observation from ship WMKN, located just north of the center.
+
+The initial motion estimate is 270/08 kt. Now that deep convection
+has waned, the system has turned westward and this motion is
+expected to continue for the next 24 hours or so. This short term
+motion is supported by NOAA recon dropsonde data on the return leg
+home, which indicated that 500 mb heights were 10-20 meters higher
+over the southeastern Gulf of Mexico than what the global models
+have been forecasting. After that time, the global and regional
+models are in surprisingly good agreement on the cyclone slowing
+down and turning toward the west-northwest and then northward in the
+36- to 48-hour periods as the depression moves around the western
+periphery of a narrow subtropical ridge that is expected to be
+located over the Bahamas and South Florida at that time. By 72 hours
+and beyond, the tropical cyclone is forecast to lift out and
+accelerate to the northeast as a shortwave trough over the western
+Great Lakes digs southeastward and captures the depression. The new
+NHC forecast track has been shifted to the right of the previous
+advisory track mainly due to the more southerly initial position,
+and lies a little to the left of the consensus model TVCN.
+
+Strong vertical shear that has been plaguing this system for the
+past week is expected to gradually subside to less than 10 kt in
+18-24 hours, which should allow for more organized deep convection
+to develop. However, the southerly low-level inflow will still be
+disrupted by the terrain of western Cuba until the cyclone moves
+west of 85W longitude, which will then provide a straight trajectory
+across the Yucatan Channel and into the low-level center. By 36
+hours and beyond, the depression will moving over SSTs greater
+than 30C and the light vertical wind shear is expected to back
+around from a northerly to a southwesterly direction, which usually
+favors more significant intensification. However, dry air in the
+mid-/upper-levels noted in the recent 0000 UTC soundings from Key
+West northward to the Gulf coast is expected be entrained into the
+northwestern semicircle of the cyclone's circulation by 48 hours
+and beyond, and this appears to be the main inhibiting factor to
+strengthening by the global models. Given these mixed signals, the
+NHC intensity forecast remains conservative and closely follows the
+intensity model IVCN. The confidence in the intensity forecast
+remains lower than usual for this system.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/0300Z 23.4N  82.7W   30 KT  35 MPH
+ 12H  29/1200Z 23.5N  84.0W   30 KT  35 MPH
+ 24H  30/0000Z 23.8N  85.4W   35 KT  40 MPH
+ 36H  30/1200Z 24.4N  86.8W   35 KT  40 MPH
+ 48H  31/0000Z 25.1N  87.1W   40 KT  45 MPH
+ 72H  01/0000Z 27.0N  86.3W   45 KT  50 MPH
+ 96H  02/0000Z 29.1N  82.9W   50 KT  60 MPH
+120H  03/0000Z 31.2N  78.3W   50 KT  60 MPH
+
+$$
+Forecaster Stewart
+
+
+

@@ -1,0 +1,63 @@
+
+618 
+WTNT43 KNHC 221435
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 AM AST THU SEP 22 2016
+
+An ASCAT-A pass from 1138Z showed that the center of Lisa is located
+near the southwestern edge of an area of bursting deep convection.
+The ASCAT data showed a cluster of 40-45 kt winds north of the
+center, so the initial intensity is set to 45 kt for this advisory,
+which is also in agreement with the latest Dvorak current intensity
+estimates of T3.0/45 kt from TAFB and SAB.  The restrengthening
+appears to have occurred despite the shear increasing to 30-35 kt
+based on the SHIPS model analyses and satellite analyses from
+UW-CIMSS, and the upper-level outflow has improved somewhat during
+the past few hours.  However, the separation between the convection
+and the low-level center appears to be increasing, and Lisa will be
+moving into a region of even stronger southwesterly shear in the
+next 24 hours, which should result in weakening.  The shear is
+forecast to relax late in the period, but it is unlikely that Lisa
+will be able to recover and the cyclone is forecast to become a
+remnant low in 3 to 4 days.  This is in agreement with the global
+models, which show the system decaying by that time.  The new NHC
+intensity forecast is a little higher than the previous one given
+the higher initial intensity, and is closest to the statistical-
+dynamical SHIPS and LGEM models.
+
+Based on the ASCAT data and earlier microwave fixes, my best
+estimate of the initial motion is 310/06, as the cyclone appears to
+have slowed down some during the past few hours.  The track forecast
+reasoning remains the same, however, with Lisa expected to move
+northwestward into a break in the subtropical ridge for the next 48
+hours.  After that time, Lisa or its remnants should recurve ahead
+of a large mid-latitude trough.  The new NHC track forecast is an
+update of the previous one through 72 hours and has been shifted a
+bit to the right at days 4 and 5 following the latest model guidance
+trends.  There is a fair bit of along-track spread in the guidance
+late in the period, with the ECMWF much faster than the GFS and
+UKMET.  The NHC forecast favors the slower solution, in agreement
+with the latest guidance from the Ocean Prediction Center.
+
+The initial and forecast 34-kt wind radii were adjusted based on
+the above-mentioned ASCAT data.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/1500Z 20.0N  34.0W   45 KT  50 MPH
+ 12H  23/0000Z 21.1N  35.1W   45 KT  50 MPH
+ 24H  23/1200Z 22.5N  36.4W   40 KT  45 MPH
+ 36H  24/0000Z 23.8N  37.6W   35 KT  40 MPH
+ 48H  24/1200Z 25.0N  39.0W   30 KT  35 MPH
+ 72H  25/1200Z 28.0N  41.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  26/1200Z 32.0N  39.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  27/1200Z 35.5N  37.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Brennan
+
+
+

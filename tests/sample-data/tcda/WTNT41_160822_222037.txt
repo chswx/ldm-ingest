@@ -1,0 +1,54 @@
+
+058 
+WTNT41 KNHC 222037
+TCDAT1
+
+TROPICAL DEPRESSION FIONA DISCUSSION NUMBER  24
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST MON AUG 22 2016
+
+A new burst of convection has developed near the center of Fiona
+during the past several hours.  However, this increase was not
+significant enough to affect the subjective satellite intensity
+estimates, which remain at 30 kt.  This is also in good
+agreement with earlier ASCAT data.
+
+The dynamical models forecast that the current westerly vertical
+shear will subside somewhat by 36-48 hours as Fiona moves under an
+upper-level trough into an area of easterly upper-level winds to
+the north of the trough.  By 72 hours, the models forecast the
+cyclone or its remnants to encounter a second trough, which should
+produce another round of strong southwesterly shear. The
+intensity forecast is still based on the premise that the cyclone
+will not be able to respond to the brief period of more favorable
+conditions, and it calls for Fiona to gradually decay and become a
+remnant low in about 48 hours. This should be followed by the system
+weakening to a trough after 96 hours.
+
+The initial motion is 285/15.  The guidance remains in good
+agreement on the forecast track through 72 hours, with Fiona moving
+west-northwestward to northwestward toward a weakness in the
+subtropical ridge.  Beyond that time, the guidance diverges,
+with the ECMWF turning the remnants of the system northeastward
+while the GFS and UKMET show a westward turn.  The new forecast
+track is again a compromise between these extremes in showing a slow
+north-northwestward motion.  Overall, the track guidance has
+shifted westward since the previous advisory, and as a result the
+forecast track has also shifted a little to the west.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/2100Z 25.1N  61.3W   30 KT  35 MPH
+ 12H  23/0600Z 25.6N  63.1W   30 KT  35 MPH
+ 24H  23/1800Z 26.5N  65.0W   30 KT  35 MPH
+ 36H  24/0600Z 27.4N  66.7W   30 KT  35 MPH
+ 48H  24/1800Z 28.3N  67.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  25/1800Z 30.5N  69.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  26/1800Z 31.5N  70.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  27/1800Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

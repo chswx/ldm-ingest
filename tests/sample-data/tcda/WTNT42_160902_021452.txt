@@ -1,0 +1,39 @@
+
+826 
+WTNT42 KNHC 021452
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  44
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST FRI SEP 02 2016
+
+Data from a recent ASCAT overpass indicate that the storm
+is a little stronger than previously estimated.  The advisory
+intensity is set to 60 kt based on the scatterometer winds.
+Vertical shear over the system is currently around 20 kt and is
+forecast to increase to near 30 kt within the next day or so, and
+the cyclone will be moving over progressively cooler waters.
+Weakening is forecast in agreement with the IVCN intensity model
+consensus.  Gaston should weaken to a remnant low before becoming
+absorbed by a frontal system in 48 hours or less.
+
+Based on the scatterometer data and conventional geostationary
+satellite fixes, the motion is east-northeastward or 070/16.
+Gaston should continue on an east-northeastward track, following the
+flow on the south side of the mid-latitude westerlies, until
+dissipation.  The official track forecast is close to the
+multi-model consensus TVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/1500Z 39.1N  32.0W   60 KT  70 MPH
+ 12H  03/0000Z 39.5N  29.8W   45 KT  50 MPH
+ 24H  03/1200Z 40.7N  27.0W   35 KT  40 MPH
+ 36H  04/0000Z 42.5N  24.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  04/1200Z...DISSIPATED
+
+$$
+Forecaster Pasch
+
+
+

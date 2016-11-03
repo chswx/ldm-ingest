@@ -1,0 +1,49 @@
+
+011 
+WTNT42 KNHC 241435
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  41
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 AM AST SAT SEP 24 2016
+
+Data from the last NOAA Hurricane Hunter aircraft mission into Karl
+earlier this morning found peak flight-level winds of 63 kt at 8,000
+ft and a peak SFMR wind of 47 kt.  Based on these data, the initial
+intensity is held at 55 kt for this advisory, but this could be a
+little generous.  The latest minimum central pressure based on a
+dropsonde from the aircraft is 994 mb.  Karl is still expected to
+strengthen, but it seems likely that this will be at least partly
+due to baroclinic effects, as the global models shows Karl
+intensifying while the shear increases to over 50 kt by 24 hours.
+The new NHC intensity forecast follows this trend, and keeps Karl as
+a 70-kt cyclone with a very large wind field when it becomes
+post-tropical in 36 hours.  The circulation of Karl should be
+absorbed by a large extratropical cyclone over the north Atlantic
+by 48 hours, as shown in the global model solutions.
+
+The aircraft last fixed the center on the southeastern side of the
+deep convection, and the initial motion estimate is now 050/16.
+Karl should accelerate quickly northeastward ahead of a broad
+deep-layer trough moving into the Atlantic until it is absorbed,
+with the forward speed expected to reach 50 kt by 36 hours.  The new
+NHC track forecast is an update of the previous one and remains near
+the middle of the tightly packed guidance envelope.
+
+The track, intensity, and wind radii forecast of Karl's post-
+tropical phase has been coordinated with the Ocean Prediction
+Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/1500Z 32.8N  62.7W   55 KT  65 MPH
+ 12H  25/0000Z 34.8N  58.8W   60 KT  70 MPH
+ 24H  25/1200Z 38.9N  50.6W   70 KT  80 MPH
+ 36H  26/0000Z 45.0N  39.9W   70 KT  80 MPH...POST-TROPICAL
+ 48H  26/1200Z...ABSORBED
+
+$$
+Forecaster Brennan
+
+
+

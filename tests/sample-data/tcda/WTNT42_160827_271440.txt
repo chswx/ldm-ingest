@@ -1,0 +1,66 @@
+
+652 
+WTNT42 KNHC 271440
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  20
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST SAT AUG 27 2016
+
+A 0954Z WindSAT microwave image indicated that Gaston had developed
+a 15-nmi-diameter low-level eye that was embedded in the center of
+the nearly circular central dense overcast. Subjective satellite
+intensity estimates are T4.0/65 kt and T3.5/55 kt from TAFB and
+SAB, respectively, and the latest UW-CIMSS ADT value is T3.7/59 kt.
+An average of these estimates supports increasing the initial
+intensity to 60 kt.
+
+As anticipated, Gaston has slowed down and the motion estimate is
+now 310/09 kt. The cyclone is forecast to maintain a northwestward
+motion and continue to decelerate during the next 48 hours as Gaston
+moves into a break in the subtropical ridge located to its north. A
+mid-level shortwave trough is forecast to dig southeastward from
+Canada and the northeastern United States by 72 hours, and force
+Gaston to make a sharp turn toward the north and northeast when the
+cyclone is located several hundred miles east of Bermuda. On days 4
+and 5, Gaston is expected to get caught up in the deep-layer mid-
+latitude westerlies and accelerate east-northeastward over the North
+Atlantic. The new official forecast track is a little slower than
+the previous advisory track and has been shifted a little to the
+east, but not nearly as far east as the consensus model TVCN out of
+respect for the ECWMF model, which is close to the previous
+forecast track.
+
+Gaston has maintained two pronounced upper-level outflow jets to its
+east and southwest. These jets are flowing into large upper-level
+lows that are acting as significant mass sinks, a pattern that
+favors intensification.  Although the mid-level environment is
+expected to be characterized by low humidity values of 40-45 percent
+during the next 72 hours, the cyclone will be moving over SSTs of
+29C and remain in a low vertical wind shear regime. Those latter
+conditions, along with the small eye feature and the outflow jet
+pattern should allow Gaston to overcome the dry conditions and
+result in strengthening at a typical rate of about 20 kt per day. By
+days 4 and 5, the vertical shear is forecast to increase sharply and
+become westerly at more than 30 kt, which should induce a weakening
+trend. The NHC intensity forecast is similar to the previous
+advisory, and lies close to the consensus model IVCN through 36
+hours, and a little above IVCN and close to the SHIPS/LGEM models
+after that.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  27/1500Z 28.4N  53.2W   60 KT  70 MPH
+ 12H  28/0000Z 29.3N  54.3W   65 KT  75 MPH
+ 24H  28/1200Z 30.1N  55.3W   75 KT  85 MPH
+ 36H  29/0000Z 30.7N  56.0W   85 KT 100 MPH
+ 48H  29/1200Z 31.3N  56.3W   90 KT 105 MPH
+ 72H  30/1200Z 32.6N  54.4W   90 KT 105 MPH
+ 96H  31/1200Z 34.2N  49.6W   80 KT  90 MPH
+120H  01/1200Z 36.9N  43.7W   70 KT  80 MPH
+
+$$
+Forecaster Stewart
+
+
+

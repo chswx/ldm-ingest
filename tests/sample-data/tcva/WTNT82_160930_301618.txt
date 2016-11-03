@@ -1,0 +1,60 @@
+
+591 
+WTNT82 EGRR 301618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 30.09.2016
+
+             HURRICANE MATTHEW    ANALYSED POSITION : 13.8N  70.5W
+
+     ATCF IDENTIFIER : AL142016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.09.2016    0  13.8N  70.5W      991            61
+    0000UTC 01.10.2016   12  13.2N  72.2W      993            50
+    1200UTC 01.10.2016   24  12.8N  73.9W      994            50
+    0000UTC 02.10.2016   36  12.9N  74.6W      993            45
+    1200UTC 02.10.2016   48  13.6N  75.9W      990            49
+    0000UTC 03.10.2016   60  15.0N  77.1W      983            58
+    1200UTC 03.10.2016   72  16.5N  77.0W      978            60
+    0000UTC 04.10.2016   84  18.3N  76.6W      976            62
+    1200UTC 04.10.2016   96  20.4N  76.1W      977            54
+    0000UTC 05.10.2016  108  22.2N  75.8W      970            63
+    1200UTC 05.10.2016  120  23.5N  75.5W      966            67
+    0000UTC 06.10.2016  132  24.7N  75.8W      961            69
+    1200UTC 06.10.2016  144  26.2N  76.8W      945            80
+
+   TROPICAL DEPRESSION ROSLYN     ANALYSED POSITION : 23.5N 116.5W
+
+     ATCF IDENTIFIER : EP182016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.09.2016    0  23.5N 116.5W     1014            14
+    0000UTC 01.10.2016   12              CEASED TRACKING
+
+   TROPICAL DEPRESSION ULIKA      ANALYSED POSITION : 18.4N 142.1W
+
+     ATCF IDENTIFIER : EP192016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.09.2016    0  18.4N 142.1W     1009            29
+    0000UTC 01.10.2016   12  18.8N 144.1W     1011            29
+    1200UTC 01.10.2016   24  18.5N 146.9W     1011            27
+    0000UTC 02.10.2016   36              CEASED TRACKING
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 301618
+

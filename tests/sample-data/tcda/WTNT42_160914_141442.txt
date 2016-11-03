@@ -1,0 +1,59 @@
+
+375 
+WTNT42 KNHC 141442
+TCDAT2
+
+TROPICAL DEPRESSION TWELVE DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 AM AST WED SEP 14 2016
+
+Satellite imagery, scatterometer data, and surface observations
+indicate that the low pressure area over the Cabo Verde Islands has
+developed a well-defined circulation and sufficient organized
+convection to be considered a tropical depression.  The initial
+intensity is set at 30 kt based on the scatterometer data along
+with satellite intensity estimates from TAFB and SAB.
+
+The initial motion is 300/12.  A low- to mid-level ridge should
+steer the system west-northwestward and then westward during the
+forecast period, with some decrease in forward speed after 36 hours
+as the ridge weakens slightly.  The forecast track is near the
+center of the guidance envelope and close to the various consensus
+models.
+
+Some strengthening is expected during the next 12-24 hours.  After
+that, the cyclone is likely to encounter strong westerly vertical
+wind shear while over sea surface temperatures of about 26C.  This
+combination should lead to weakening, and the intensity forecast
+shows the system weakening back to a depression by 36 hours.  Near
+the end of the forecast period, the dynamical models diverge on the
+evolution of the upper-level winds, with the ECMWF and UKMET
+forecasting a more favorable pattern than the GFS. Based on this,
+the forecast shows some re-intensification by 120 hours.  An
+alternative scenario is that the cyclone degenerates to a tropical
+wave as forecast by the GFS.  Overall, the intensity forecast is on
+the low side of the guidance in best agreement with the LGEM.
+
+Locally heavy rains and gusty winds are possible over the Cabo
+Verde Islands.  However, current indications are that the cyclone
+will not reach tropical-storm strength until it has moved west of
+the islands.  Therefore, watches and warnings are not required at
+this time.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/1500Z 17.0N  25.0W   30 KT  35 MPH
+ 12H  15/0000Z 17.5N  26.8W   35 KT  40 MPH
+ 24H  15/1200Z 17.9N  29.3W   35 KT  40 MPH
+ 36H  16/0000Z 17.9N  31.7W   30 KT  35 MPH
+ 48H  16/1200Z 17.8N  34.0W   30 KT  35 MPH
+ 72H  17/1200Z 17.5N  38.0W   30 KT  35 MPH
+ 96H  18/1200Z 17.5N  41.5W   35 KT  40 MPH
+120H  19/1200Z 18.0N  45.5W   40 KT  45 MPH
+
+$$
+Forecaster Beven
+
+
+

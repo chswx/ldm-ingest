@@ -1,0 +1,60 @@
+
+504 
+WTNT42 KNHC 162046
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 PM AST FRI SEP 16 2016
+
+Convection is quite strong in the northeastward quadrant of Karl,
+although the center has recently become exposed due to
+moderate-to-strong westerly shear.  There has been little
+change to the overall satellite presentation in the past several
+hours, and the initial wind speed is kept at 40 kt.  A continuation
+of the shear is forecast to keep Karl from strengthening much over
+the next day or two. This shear is forecast to relax by all of the
+models by early next week, and some strengthening should then take
+place while Karl moves over warmer waters.  The amount of
+intensification is a big question mark, with the GFS/ECMWF now
+showing only a weaker tropical storm, while the rest of the standard
+intensity guidance (HWRF, GFDL, SHIPS and LGEM models) have Karl as
+a hurricane by the end of the period.  Because of the uncertainty,
+the intensity forecast is kept the same as the previous one, not too
+far from the model consensus.
+
+The initial motion estimate is about the same as before, 280/12.
+Model guidance has made a large northward shift today due to the
+forecasted interaction of a mid/upper-level trough with Karl over
+the next few days.  Initially, the tropical cyclone was expected to
+be on the western side of the trough, which would have helped steer
+the cyclone more to the west-southwest over the next couple of
+days.  However, almost all of the guidance now show the trough
+staying to the west of Karl, which would impart a west or
+west-northwest motion during that time.  The lack of a
+west-southwest track has large implications down the line, with the
+cyclone gaining a lot more latitude since Karl is closer to a
+weakness in the subtropical ridge.  Continuity dictates that the
+NHC forecast not be shifted as much as the guidance suggests for
+this package, since the guidance could still shift back to the
+south.  A large northward adjustment is made to the NHC forecast at
+all times, but it remains south of the model consensus and the
+ECMWF solutions.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/2100Z 18.8N  35.6W   40 KT  45 MPH
+ 12H  17/0600Z 19.0N  37.3W   40 KT  45 MPH
+ 24H  17/1800Z 19.0N  39.7W   40 KT  45 MPH
+ 36H  18/0600Z 19.0N  42.5W   40 KT  45 MPH
+ 48H  18/1800Z 19.0N  45.3W   45 KT  50 MPH
+ 72H  19/1800Z 20.0N  50.5W   50 KT  60 MPH
+ 96H  20/1800Z 22.0N  55.5W   60 KT  70 MPH
+120H  21/1800Z 25.0N  60.5W   70 KT  80 MPH
+
+$$
+Forecaster Blake
+
+
+

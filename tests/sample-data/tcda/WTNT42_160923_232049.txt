@@ -1,0 +1,56 @@
+
+978 
+WTNT42 KNHC 232049
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  38
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+500 PM AST FRI SEP 23 2016
+
+Satellite imagery contintues to show a well-developed outflow
+pattern around Karl with the center noted on the southeastern edge
+of the colder cloud tops.  Aircraft reconnaissance data has
+indicated a gradual drop in pressure to 988 mb, based on a
+dropsonde report of 989 mb with 12 kt of wind at the surface.  A
+peak 850-mb flight-level wind of 62 kt was measured, which equates
+to an surface intensity of 50 kt.  Reliable SFMR data also showed
+maximum surface winds around 50 kt, and that will remain the
+initial intensity.  Latest aircraft fixes had also indicated that
+Karl was beginning to turn more northward as it moves around the
+western edge of the mid-Atlantic subtropical ridge.
+
+Karl is expected to remain over sea surface temperatures of between
+29-30C for the next 24 hours or so while at the same time, some
+brief relaxation in the vertical shear is forecast.  These
+conditions should favor some continued slow strenghthening, which is
+generally supported by a majority of models.  The models also
+suggest that Karl could reach hurricane strength by 24 hours as the
+system moves to the east of Bermuda.  Continued strengthening of
+Karl is likely through 36 hours, then it is expected to gradually
+transition to extratropical status by 48 hours as it becomes
+absorbed by a rapidly approaching cold front.
+
+The latest official forecast has shifted Karl slightly west of the
+previous track during the next 12 hours, but otherwise, there are
+no significant changes from the previous advisory.  Karl should make
+a sharp turn and acceleration to the northeast beyond 12 hours as it
+encounters increasing westerly flow in advance of an amplifying
+upper trough and associated cold front across the northwest
+Atlantic.  Karl should then become absorbed by another extratropical
+low over the north Atlantic in 72 hours.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/2100Z 29.9N  65.1W   50 KT  60 MPH
+ 12H  24/0600Z 31.3N  64.3W   55 KT  65 MPH
+ 24H  24/1800Z 33.7N  60.8W   65 KT  75 MPH
+ 36H  25/0600Z 37.1N  54.0W   70 KT  80 MPH
+ 48H  25/1800Z 42.0N  44.6W   65 KT  75 MPH...POST-TROP/EXTRATROP
+ 72H  26/1800Z...DISSIPATED
+
+$$
+Forecaster Sullivan/Berg
+
+
+

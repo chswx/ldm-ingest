@@ -1,0 +1,69 @@
+
+640 
+WTNT42 KNHC 222051
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  34
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+500 PM AST THU SEP 22 2016
+
+Air Force Reserve and NOAA Hurricane Hunter aircraft have been
+flying in Karl, and the data indicate that the cyclone has
+re-intensified to a 35-kt tropical storm.  The maximum 850-mb
+flight-level wind so far is 45 kt, which equates to an intensity of
+about 35 kt.  This is also supported by SFMR observations.  In
+addition, dropsonde data suggest lowering the central pressure down
+to 1005 mb. Combined with the aircraft data, scatterometer winds
+within the convective bands indicate that tropical-storm-force winds
+extend 120 nm to the north of the center of circulation.
+
+Karl has continued its northwestward progression at 305 degrees
+with a speed of 14 knots.  The synoptic pattern around this system
+features a mid-level high off to its northeast while a mid-level
+low is positioned to the north of Puerto Rico.  Karl is forecast to
+move around the western extent of the anticyclone which will make
+it turn more northward by 36 hours before accelerating
+northeastward into the mid-latitude westerlies by 48 hours.  Based
+on the adjustment of the initial position provided by the aircraft,
+the track guidance has shifted a bit left of the positions indicated
+in the previous advisory.  As a result, the updated official
+forecast has been adjusted westward during the first 48 hours, lying
+a bit closer to the GFS/GEFS mean clustering while giving some
+credit to the TVCN multi-model consensus.  Later in the period, the
+ECMWF solution was deemed too slow and was not weighted as heavily
+at that point.
+
+Karl lies right along the edge of a zone of higher shear to its
+west, and the various analyses are showing about 15 to 20 knots of
+southeasterly shear over the system.  The global models continue to
+show the shear decreasing at least some during the next couple of
+days, but there are differences.  For example, GFS fields show the
+shear decreasing to around 5 knots or less by Friday morning
+through evening, while the ECMWF only shows the shear decreasing to
+around 10 knots during the same period.  This continues to make the
+intensity forecast difficult.  At this point, the intensity
+forecast was generally left unchanged which allows Karl to become a
+Category 1 hurricane by Sunday.
+
+Based on the latest forecast, the western edge of the
+tropical-storm-force wind field could begin to affect Bermuda
+during the next 24 to 36 hours.  The Bermuda Weather Service has
+therefore issued a Tropical Storm Warning for the island.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/2100Z 25.5N  63.2W   35 KT  40 MPH
+ 12H  23/0600Z 26.8N  64.4W   40 KT  45 MPH
+ 24H  23/1800Z 28.8N  65.1W   45 KT  50 MPH
+ 36H  24/0600Z 30.8N  64.2W   50 KT  60 MPH
+ 48H  24/1800Z 32.7N  61.0W   60 KT  70 MPH
+ 72H  25/1800Z 39.7N  47.0W   70 KT  80 MPH
+ 96H  26/1800Z 49.0N  29.0W   55 KT  65 MPH...POST-TROP/EXTRATROP
+120H  27/1800Z...DISSIPATED
+
+$$
+Forecaster Campbell/Rubin-Oster/Berg
+
+
+

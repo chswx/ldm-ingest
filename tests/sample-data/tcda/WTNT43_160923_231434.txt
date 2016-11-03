@@ -1,0 +1,48 @@
+
+715 
+WTNT43 KNHC 231434
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 AM AST FRI SEP 23 2016
+
+Lisa's center remains exposed to the southwest of the deep
+convection due to around 40 kt of southwesterly shear as analyzed by
+UW-CIMSS and the SHIPS model fields.  The initial intensity remains
+35 kt based on the latest Dvorak estimate from TAFB, but this could
+be a little generous.
+
+Strong shear is expected to continue for the next 24 to 36 hours.
+This shear, in combination with a drying mid-level atmosphere and
+marginal SSTs, should result in weakening.  Lisa is forecast to
+weaken to a tropical depression tonight, and become a remnant low in
+24 to 36 hours, as organized deep convection is expected to decay in
+the harsh environment.  The remnant low of Lisa is forecast to open
+up into a trough in 3 to 4 days, in agreement with the latest GFS
+and ECMWF solutions.
+
+The initial motion estimate is 315/06.  Lisa should continue moving
+generally northwestward around the subtropical ridge for the next 36
+hours.  After that time, the decaying system should recurve ahead of
+a deep-layer trough moving across the northern Atlantic.  The new
+NHC track forecast is close to the previous one through 24 hours and
+has been nudged westward at 36 and 48 hours following the latest
+trend in the guidance.  This forecast is close to the multi-model
+consensus aid TVCN and the GEFS ensemble mean.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/1500Z 22.2N  36.3W   35 KT  40 MPH
+ 12H  24/0000Z 23.1N  37.5W   30 KT  35 MPH
+ 24H  24/1200Z 24.2N  39.5W   30 KT  35 MPH
+ 36H  25/0000Z 25.4N  41.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  25/1200Z 27.4N  42.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  26/1200Z 31.5N  40.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  27/1200Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

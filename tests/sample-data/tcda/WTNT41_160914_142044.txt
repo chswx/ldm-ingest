@@ -1,0 +1,47 @@
+
+390 
+WTNT41 KNHC 142044
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 PM EDT WED SEP 14 2016
+
+The storm continues to have an asymmetric cloud pattern, with
+little deep convection over the western and southern portions of
+the circulation.  The current intensity estimate remains at 35 kt
+based on WSR-88D Doppler velocity data.  Since the system is
+expected to be over water for the next couple of days,  some
+strengthening is now possible.  However the vertical shear, which
+is currently approaching 20 kt, is forecast by the dynamical models
+to increase to near 30 kt in 48 hours.  This strong shear should
+limit significant intensification, as indicated in the latest
+official forecast.  The NHC forecast is also very close to
+the latest intensity model consensus.
+
+Visible satellite images and surface observations indicate that the
+cyclone continues moving northeastward, or around 040/5 kt.
+Julia is likely to remain in a weak steering environment, near the
+axis of the subtropical ridge, for the next few days.  Most
+of the track guidance shows a slow and erratic motion, and the GFS
+and ECMWF global models depict the system looping back to the
+coast in several days.  This is also shown in the latest official
+track forecast, which is shifted considerably east of the previous
+NHC prediction.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/2100Z 32.1N  80.5W   35 KT  40 MPH
+ 12H  15/0600Z 32.3N  80.1W   35 KT  40 MPH
+ 24H  15/1800Z 32.4N  79.4W   40 KT  45 MPH
+ 36H  16/0600Z 32.3N  79.0W   40 KT  45 MPH
+ 48H  16/1800Z 32.2N  79.0W   40 KT  45 MPH
+ 72H  17/1800Z 32.0N  80.0W   35 KT  40 MPH
+ 96H  18/1800Z 32.2N  80.5W   30 KT  35 MPH
+120H  19/1800Z 32.5N  81.0W   25 KT  30 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

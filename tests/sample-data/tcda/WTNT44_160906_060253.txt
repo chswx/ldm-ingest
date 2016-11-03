@@ -1,0 +1,49 @@
+
+388 
+WTNT44 KNHC 060253
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  35
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 PM EDT MON SEP 05 2016
+
+Hermine is a large, occluded low that is beginning - finally - to
+spin down some.  While there is some convection associated with the
+cyclone, it is not deep and is displaced well southwest of the
+center.  Observations from the Air Force Hurricane Hunters indicate
+that the peak winds have dropped to about 55 kt.  Given the lack of
+deep convection and little baroclinic forcing, continued weakening
+and shrinking of the cyclone's wind field is anticipated.  It is
+forecast that Hermine will dissipate in about three days.  The NHC
+intensity prediction is similar to the previous advisory and is
+based upon the GFS, ECMWF, and UKMET global models.
+
+Hermine is moving toward the west-northwest at about 8 kt, primarily
+due to the steering induced by an upper- to mid-level cutoff low to
+its south. As Hermine merges with this low in the next day, the
+cyclone's motion will slow to a crawl.  In about two days, an
+upstream shortwave trough in the westerlies will cause Hermine to
+begin a northeastward motion until dissipation.  The NHC track
+forecast is shifted slightly southwestward, between that from the
+previous advisory and the global model consensus.
+
+The Air Force reconnaissance data as well as the Buzzards Bay and
+Montauk Point buoys have been crucial for determining the
+tropical-storm-force and 50-kt wind radii, which have been
+contracted slightly.  The wind radii forecast is based upon the
+RVCN wind radii consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/0300Z 39.6N  70.7W   55 KT  65 MPH...POST-TROPICAL
+ 12H  06/1200Z 39.7N  71.5W   50 KT  60 MPH...POST-TROPICAL
+ 24H  07/0000Z 39.7N  71.9W   45 KT  50 MPH...POST-TROPICAL
+ 36H  07/1200Z 39.8N  72.0W   40 KT  45 MPH...POST-TROPICAL
+ 48H  08/0000Z 40.4N  71.4W   35 KT  40 MPH...POST-TROPICAL
+ 72H  09/0000Z...DISSIPATED
+
+$$
+Forecaster Landsea/Brown
+
+
+

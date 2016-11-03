@@ -1,0 +1,58 @@
+
+848 
+WTNT42 KNHC 230852
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  36
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST FRI SEP 23 2016
+
+The cloud pattern on satellite is better organized than 24 hours
+ago and much better than 2 days ago. Although the center is still
+located on the southern edge of the convection, the cloud pattern is
+more symmetric, and the outflow is better defined.  Tonight's
+upward trend in organization was confirmed by data from an Air Force
+Hurricane Hunter plane that just left the cyclone. The estimated
+minimum central pressure was 999 mb, and there were numerous
+reports of 45- to 55-kt winds with a peak of 60 kt at 850 mb.  A
+NOAA plane just arrived to the storm and measured a flight-level
+wind of 61 kt.  These winds support an initial intensity of 50 kt.
+
+Karl has the opportunity to strengthen during the next couple of
+days while is moving over warmer water and relatively low shear.
+After that time, Karl should interact with the baroclinic
+mid-latitude flow, and in 3 days, Karl is expected to be a powerful
+extratropical cyclone. It will likely become absorbed by a
+much larger cyclone by day 5. The intensity forecast is very similar
+to the previous one, but this one reflects a little stronger cyclone
+in the short term based on the initial intensity and the current
+organization trend.
+
+Fixes from a reconnaissance plane and satellite give a motion of
+325 degrees at 13 kt. Karl is already located on the western edge of
+the subtropical ridge, and this pattern should force the cyclone to
+turn northward within the next 12 to 24 hours. Soon thereafter, Karl
+is forecast to become embedded within a fast-moving westerly flow
+ahead of an amplifying mid-latitude trough. This should result in a
+sharp turn to the northeast with an increase in forward speed. The
+new track forecast brings the core of Karl a little bit closer
+to Bermuda in about 24 hours.  The NHC forecast is in the middle of
+the tightly packed model guidance.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0900Z 27.9N  64.8W   50 KT  60 MPH
+ 12H  23/1800Z 29.5N  65.0W   55 KT  65 MPH
+ 24H  24/0600Z 31.5N  64.3W   60 KT  70 MPH
+ 36H  24/1800Z 33.5N  61.0W   70 KT  80 MPH
+ 48H  25/0600Z 37.0N  54.0W   70 KT  80 MPH
+ 72H  26/0600Z 48.0N  35.0W   70 KT  80 MPH...POST-TROP/EXTRATROP
+ 96H  27/0600Z...ABSORBED BY A LARGER EXTRATROPICAL CYCLONE
+
+
+$$
+Forecaster Avila
+
+
+

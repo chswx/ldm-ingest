@@ -1,0 +1,58 @@
+
+607 
+WTNT44 KNHC 310852
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+400 AM CDT WED AUG 31 2016
+
+Although clusters of deep convection continue to pulsate near
+and to the southeast of the center of the tropical cyclone, there
+has been little overall change in organization overnight.  A couple
+of ASCAT passes since the previous advisory revealed peak winds of
+30 kt, so the system remains a 30-kt tropical depression for this
+advisory.  The upper-level outflow has expanded to the northwest
+and north of the cyclone, which suggests that the upper-level wind
+pattern is becoming more favorable for strengthening.  The SHIPS
+model indicates that the shear should remain low during the next day
+or so, while the cyclone moves over warm water.  This should allow
+for strengthening, and the NHC forecast calls for steady
+intensification during the next day or so, which is also supported
+by the global models.  The updated intensity forecast is in good
+agreement with the multi-model consensus.
+
+The depresssion has been meandering overnight, but is expected to
+begin a northward or northeastward motion later today.  A deepening
+trough over the southeastern United States should cause the
+tropical cyclone to accelerate north-northeastward or northeastward
+by tonight.  Although the track guidance is in good agreement on
+this scenario, the model envelope has shifted slightly westward this
+cycle, and the NHC forecast track has been nudged in that
+direction.
+
+The new forecast has required the issuance of a Tropical Storm
+Warning for a portion of the Florida Gulf coast.  The Hurricane
+Watch remains in effect since there is still a possibility that
+the system could become a hurricane before landfall. It is important
+not to focus on the forecast landfall point of this system.  Among
+other reasons, dangerous storm surge flooding is likely along the
+coast well to the east and south of the path of the center.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/0900Z 24.5N  88.1W   30 KT  35 MPH
+ 12H  31/1800Z 25.4N  87.8W   40 KT  45 MPH
+ 24H  01/0600Z 26.9N  86.9W   45 KT  50 MPH
+ 36H  01/1800Z 28.4N  85.6W   55 KT  65 MPH
+ 48H  02/0600Z 30.3N  83.6W   55 KT  65 MPH...INLAND
+ 72H  03/0600Z 34.2N  76.8W   60 KT  70 MPH...OVER WATER
+ 96H  04/0600Z 37.0N  70.2W   60 KT  70 MPH
+120H  05/0600Z 39.0N  68.0W   55 KT  65 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Brown
+
+
+

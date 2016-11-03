@@ -1,0 +1,43 @@
+
+642 
+WTNT41 KNHC 160839
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 AM EDT FRI SEP 16 2016
+
+Deep convection continues to burst 60 to 70 n mi east of the center
+of Julia and is then pushed farther to the east by 25 to 30 kt of
+westerly shear affecting the cyclone.  The initial intensity is held
+at 35 kt based on the latest Dvorak estimate from TAFB, and this
+could be a little generous.  The shear will remain strong for the
+next 2-3 days, and the cyclone is expected to remain in a dry
+mid-level environment, which should result in a gradual spin down to
+remnant low status.  The new NHC forecast is similar to the previous
+one and reflects this thinking.
+
+Julia has been moving southeastward tonight, and the initial motion
+estimate is 135/04.  The cyclone is expected to meander erratically
+for the next 2-3 days in weak steering flow, while late in the
+period the remnant low should begin to move northeastward.  Not
+surprisingly, the track model guidance shows a lot of spread in the
+direction of motion and the forward speed, so the uncertainty in the
+track forecast remains large.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/0900Z 31.1N  76.4W   35 KT  40 MPH
+ 12H  16/1800Z 30.8N  76.3W   35 KT  40 MPH
+ 24H  17/0600Z 30.9N  76.3W   30 KT  35 MPH
+ 36H  17/1800Z 31.0N  76.3W   30 KT  35 MPH
+ 48H  18/0600Z 31.2N  76.8W   30 KT  35 MPH
+ 72H  19/0600Z 32.0N  76.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  20/0600Z 32.5N  75.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  21/0600Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

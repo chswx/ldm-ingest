@@ -1,0 +1,59 @@
+
+254 
+WTNT33 KNHC 232032
+TCPAT3
+
+BULLETIN
+TROPICAL DEPRESSION LISA ADVISORY NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST FRI SEP 23 2016
+
+...LISA WEAKENS TO A TROPICAL DEPRESSION...
+...EXPECTED TO BECOME A REMNANT LOW TOMORROW...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...22.5N 36.5W
+ABOUT 930 MI...1495 KM WNW OF THE CABO VERDE ISLANDS
+ABOUT 1210 MI...1945 KM SSW OF THE AZORES
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...NW OR 310 DEGREES AT 7 MPH...11 KM/H
+MINIMUM CENTRAL PRESSURE...1009 MB...29.80 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Depression Lisa was
+located near latitude 22.5 North, longitude 36.5 West. The
+depression is moving toward the northwest near 7 mph (11 km/h).  A
+slightly faster motion toward the west-northwest is are expected
+tonight and Saturday.  A turn back toward the northwest and then
+toward the north is forecast Saturday night and Sunday.
+
+Maximum sustained winds have decreased to near 35 mph (55 km/h) with
+higher gusts.  Additional weakening is expected, and Lisa is
+expected to become a remnant low on Saturday.
+
+The estimated minimum central pressure is 1009 mb (29.80 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Brennan
+
+
+

@@ -1,0 +1,65 @@
+
+918 
+WTNT44 KNHC 290905
+TCDAT4
+
+TROPICAL STORM MATTHEW DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 AM AST THU SEP 29 2016
+
+Matthew is currently experiencing 15-20 kt of southwesterly
+vertical wind shear, with the low-level center located near the
+western edge of the main convective mass.  An earlier Air Force
+Reserve Hurricane Hunter mission reported 850 mb flight-level winds
+of 65-70 kt and estimated surface winds of 50-55 kt from the SFMR
+instrument.  Based on these data, the initial intensity remains 55
+kt.  The aircraft reported a central pressure of 1002 mb on its
+last pass through the center.
+
+The initial motion is 275/14.  Matthew is currently on the south
+side of a low- to mid-level subtropical ridge.  This feature should
+steer the storm westward or even south of west during the next 48
+hours.  After that time, Matthew is expected to approach the
+western end of the ridge as a mid- to upper-level trough develops
+over the Gulf of Mexico.  While this combination is expected to
+cause the cyclone to turn generally northward, there is significant
+disagreement between the dynamical models on where the turn will
+occur and how fast Matthew will move northward.  The forecast track
+is in best agreement with the GFS and GFS ensemble mean in bringing
+the center to eastern Cuba by 120 hours, although it is slower than
+those models. The Canadian model is a little west of the forecast
+track. The ECMWF and UKMET are to the east of the forecast track and
+much slower, bringing the center to the island of Hispaniola.
+Overall, the new forecast track is nudged a little south of the
+previous track for the first 72 hours, then is similar to the
+previous track.  Users are reminded that the average NHC track
+errors at days 4 and 5 are on the order of 180 and 240 miles,
+respectively.
+
+The current shear is likely to gradually diminish during the next
+72 hours, and this should allow continued gradual development.
+After that time, there is also disagreement in the models regarding
+the forecast shear, with the GFS showing a more favorable pattern
+than the ECMWF.  If the GFS upper-level winds are correct, Matthew
+could strengthen more than currently forecast as show by the HWRF.
+However, given the uncertainty, the new intensity forecast is the
+same as the previous forecast and is in best agreement with the
+intensity consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/0900Z 14.0N  64.7W   55 KT  65 MPH
+ 12H  29/1800Z 14.1N  66.7W   60 KT  70 MPH
+ 24H  30/0600Z 14.1N  69.2W   65 KT  75 MPH
+ 36H  30/1800Z 13.9N  70.8W   70 KT  80 MPH
+ 48H  01/0600Z 13.8N  72.2W   75 KT  85 MPH
+ 72H  02/0600Z 14.5N  74.0W   75 KT  85 MPH
+ 96H  03/0600Z 17.5N  75.0W   85 KT 100 MPH
+120H  04/0600Z 20.5N  75.5W   80 KT  90 MPH...INLAND
+
+$$
+Forecaster Beven
+
+
+

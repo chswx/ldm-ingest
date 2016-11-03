@@ -1,0 +1,58 @@
+
+541 
+WTNT42 KNHC 142040
+TCDAT2
+
+TROPICAL DEPRESSION TWELVE DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 PM AST WED SEP 14 2016
+
+The depression has not become better organized since the last
+advisory, with the most concentrated convection now in a cluster
+just west of the estimated center position.  The initial intensity
+remains 30 kt in best agreement with a satellite intensity estimate
+from SAB.
+
+The initial motion is a somewhat uncertain 295/13 kt.  A low- to
+mid-level ridge should steer the system west-northwestward and then
+westward during the forecast period, with some decrease in forward
+speed after 36-48 hours as the ridge weakens slightly.  The new
+forecast track is similar to, but a little north of, the previous
+track based on a slight northward shift in the track guidance.
+
+Some strengthening is expected during the next 12 hours or so. After
+that, the cyclone will encounter strong westerly vertical wind shear
+caused by a developing upper-level trough near and north of the
+cyclone.  This, combined with passage over sea-surface temperatures
+of about 26C-27C, should lead to weakening, and the intensity
+forecast shows the system weakening back to a depression by 36
+hours.  Near the end of the forecast period, the dynamical models
+continue to diverge on the evolution of the upper-level winds, with
+the ECMWF and UKMET forecasting a more favorable ridge pattern near
+the cyclone, whereas the GFS has an upper-level trough close by.
+Based on these conflicting models, the forecast leans toward the
+ECMWF/UKMET scenario and shows some re-intensification by 120 hours.
+An alternative scenario is that the cyclone degenerates into a broad
+low pressure area or tropical wave as forecast by the GFS.  Overall,
+the intensity forecast remains on the low side of the guidance in
+best agreement with the LGEM.
+
+Gusty winds remain possible over the Cabo Verde Islands tonight,
+whereas locally heavy rains will remain possible through Thursday.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/2100Z 17.4N  26.5W   30 KT  35 MPH
+ 12H  15/0600Z 17.9N  28.4W   35 KT  40 MPH
+ 24H  15/1800Z 18.0N  30.8W   35 KT  40 MPH
+ 36H  16/0600Z 18.1N  33.2W   30 KT  35 MPH
+ 48H  16/1800Z 18.1N  35.6W   30 KT  35 MPH
+ 72H  17/1800Z 18.0N  39.5W   30 KT  35 MPH
+ 96H  18/1800Z 17.5N  43.5W   35 KT  40 MPH
+120H  19/1800Z 18.0N  47.5W   40 KT  45 MPH
+
+$$
+Forecaster Beven
+
+
+

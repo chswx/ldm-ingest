@@ -1,0 +1,90 @@
+
+704 
+WTNT31 KNHC 140846
+TCPAT1
+
+BULLETIN
+TROPICAL STORM JULIA ADVISORY NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 AM EDT WED SEP 14 2016
+
+...RAINBANDS SPREADING NORTHWARD ALONG THE GEORGIA COASTLINE...
+
+
+SUMMARY OF 500 AM EDT...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...30.9N 81.8W
+ABOUT 40 MI...65 KM N OF JACKSONVILLE FLORIDA
+ABOUT 25 MI...45 KM SW OF BRUNSWICK GEORGIA
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...N OR 350 DEGREES AT 7 MPH...11 KM/H
+MINIMUM CENTRAL PRESSURE...1012 MB...29.89 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+The Tropical Storm Warning south of Fernandina Beach has been
+discontinued.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Warning is in effect for...
+* Fernandina Beach to Altamaha Sound
+
+For storm information specific to your area, including possible
+inland watches and warnings, please monitor products issued by your
+local National Weather Service forecast office.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM EDT (0900 UTC), the center of Tropical Storm Julia was
+located near latitude 30.9 North, longitude 81.8 West. Julia is
+moving toward the north near 7 mph (11 km/h). A reduction in
+forward speed is expected today, and Julia is forecast to drift
+northward over eastern Georgia during the next couple of days.
+
+Maximum sustained winds are near 40 mph (65 km/h) with higher gusts.
+Gradual weakening is forecast during the next day or so, and Julia
+is expected to weaken to a tropical depression later today.
+
+Tropical-storm-force winds extend outward up to 80 miles (130 km)
+primarily over water to the northeast of the center.  A wind gust
+of 39 mph (63 km/h) was recently reported at St. Simons Island,
+Georgia.
+
+The estimated minimum central pressure is 1012 mb (29.89 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND: Tropical-storm-force winds are already occuring within
+portions of the tropical storm warning area.  Wind gusts to
+tropical storm force are possible elsewhere along the coast of
+Georgia and southern South Carolina this morning.
+
+RAINFALL: Julia is expected to produce 3 to 6 inches of rain near
+the Georgia and South Carolina coastlines through Friday afternoon.
+Isolated totals of 10 inches are possible.  This rainfall could lead
+to flash flooding. Flooding may be further compounded with
+persistent strong onshore flow reducing river and stream discharges.
+Additional rainfall amounts of 1 to 2 inches are possible across
+northeast Florida today.
+
+TORNADOES: An isolated tornado is possible across coastal Georgia
+and southern South Carolina today.
+
+
+
+NEXT ADVISORY
+-------------
+Next intermediate advisory at 800 AM EDT.
+Next complete advisory at 1100 AM EDT.
+
+$$
+Forecaster Brown
+
+
+

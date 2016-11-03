@@ -1,0 +1,48 @@
+
+216 
+WTNT42 KNHC 240234
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST TUE AUG 23 2016
+
+Gaston's cloud pattern has a figure-nine appearance, with an
+apparent dry slot over the southwest quadrant, and lacks a
+well-defined CDO at this time.  The intensity is held at 55 kt in
+agreement with subjective and objective Dvorak estimates.  The
+system has fairly well-defined upper-level outflow and is expected
+to remain in a low-shear environment for the next day or so.
+Therefore, the cyclone is likely to intensify into a hurricane in 12
+to 24 hours.  In about 36 hours, however, Gaston should encounter
+increasing southwesterly shear associated with an upper-tropospheric
+trough near 50-55W.  This should at least temporarily halt the
+intensification process, and probably cause a little weakening.
+The global models indicate that Gaston will pass by the trough in 72
+hours, and reintensification should commence around that time.  The
+official intensity forecast is near the high end of the guidance
+models through 72 hours, and close to the model consensus
+thereafter.
+
+The motion continues toward the west-northwest, or 290/15 kt.
+Gaston should gradually turn toward the northwest in response to a
+break in the subtropical ridge near 60W.  The official track
+forecast, which is very similar to the previous one, follows the
+latest dynamical model consensus, TVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/0300Z 14.7N  37.1W   55 KT  65 MPH
+ 12H  24/1200Z 15.8N  39.2W   65 KT  75 MPH
+ 24H  25/0000Z 17.5N  41.7W   70 KT  80 MPH
+ 36H  25/1200Z 19.5N  44.1W   75 KT  85 MPH
+ 48H  26/0000Z 22.0N  46.2W   75 KT  85 MPH
+ 72H  27/0000Z 26.5N  51.0W   70 KT  80 MPH
+ 96H  28/0000Z 29.5N  54.5W   75 KT  85 MPH
+120H  29/0000Z 31.5N  55.0W   85 KT 100 MPH
+
+$$
+Forecaster Pasch
+
+
+

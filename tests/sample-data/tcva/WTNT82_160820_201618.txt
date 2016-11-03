@@ -1,0 +1,86 @@
+
+198 
+WTNT82 EGRR 201618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 20.08.2016
+
+        TROPICAL STORM FIONA      ANALYSED POSITION : 20.0N  46.8W
+
+     ATCF IDENTIFIER : AL062016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 20.08.2016    0  20.0N  46.8W     1009            30
+    0000UTC 21.08.2016   12  21.2N  49.2W     1012            27
+    1200UTC 21.08.2016   24  22.7N  51.8W     1014            27
+    0000UTC 22.08.2016   36  23.8N  54.6W     1015            24
+    1200UTC 22.08.2016   48  25.0N  57.1W     1015            24
+    0000UTC 23.08.2016   60  26.2N  59.4W     1016            23
+    1200UTC 23.08.2016   72  27.0N  61.7W     1015            22
+    0000UTC 24.08.2016   84  27.9N  63.4W     1015            21
+    1200UTC 24.08.2016   96  29.4N  65.4W     1015            20
+    0000UTC 25.08.2016  108  30.7N  66.6W     1015            20
+    1200UTC 25.08.2016  120  31.8N  67.4W     1015            18
+    0000UTC 26.08.2016  132  32.1N  67.6W     1014            18
+    1200UTC 26.08.2016  144  31.6N  66.6W     1014            16
+
+        TROPICAL STORM KAY        ANALYSED POSITION : 19.7N 113.0W
+
+     ATCF IDENTIFIER : EP122016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 20.08.2016    0  19.7N 113.0W      997            44
+    0000UTC 21.08.2016   12  20.6N 113.7W      996            41
+    1200UTC 21.08.2016   24  21.0N 114.7W      997            39
+    0000UTC 22.08.2016   36  21.6N 116.0W      997            34
+    1200UTC 22.08.2016   48  22.0N 117.4W      999            34
+    0000UTC 23.08.2016   60  22.4N 119.1W     1002            33
+    1200UTC 23.08.2016   72  23.2N 121.1W     1006            29
+    0000UTC 24.08.2016   84  23.8N 122.8W     1011            26
+    1200UTC 24.08.2016   96              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  72 HOURS
+              FORECAST POSITION AT T+ 72 : 15.1N  34.3W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 23.08.2016   72  15.1N  34.3W     1011            25
+    0000UTC 24.08.2016   84  16.4N  37.5W     1011            26
+    1200UTC 24.08.2016   96  18.7N  41.0W     1010            32
+    0000UTC 25.08.2016  108  21.1N  43.9W     1008            39
+    1200UTC 25.08.2016  120  23.3N  46.1W     1007            42
+    0000UTC 26.08.2016  132  25.3N  47.6W     1006            43
+    1200UTC 26.08.2016  144  27.0N  48.9W     1005            43
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 132 HOURS
+              FORECAST POSITION AT T+132 : 15.8N 132.9W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 26.08.2016  132  15.8N 132.9W     1006            24
+    1200UTC 26.08.2016  144  17.1N 135.2W     1006            25
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 138 HOURS
+              FORECAST POSITION AT T+138 : 23.1N  74.8W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 26.08.2016  144  23.5N  76.3W     1009            25
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 201617
+

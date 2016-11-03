@@ -1,0 +1,50 @@
+
+271 
+WTNT82 EGRR 081618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 08.08.2016
+
+   TROPICAL DEPRESSION IVETTE     ANALYSED POSITION : 17.3N 140.7W
+
+     ATCF IDENTIFIER : EP102016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 08.08.2016    0  17.3N 140.7W     1007            27
+    0000UTC 09.08.2016   12  17.5N 142.3W     1009            26
+    1200UTC 09.08.2016   24              CEASED TRACKING
+
+        TROPICAL STORM JAVIER     ANALYSED POSITION : 23.2N 109.3W
+
+     ATCF IDENTIFIER : EP112016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 08.08.2016    0  23.2N 109.3W     1006            27
+    0000UTC 09.08.2016   12              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  84 HOURS
+              FORECAST POSITION AT T+ 84 : 12.0N 135.1W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 12.08.2016   84  12.0N 135.1W     1008            22
+    1200UTC 12.08.2016   96  13.0N 135.7W     1008            20
+    0000UTC 13.08.2016  108  13.8N 136.4W     1008            21
+    1200UTC 13.08.2016  120  13.8N 137.3W     1009            22
+    0000UTC 14.08.2016  132              CEASED TRACKING
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 081618
+

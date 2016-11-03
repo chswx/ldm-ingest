@@ -1,0 +1,63 @@
+
+863 
+WTNT41 KNHC 190243
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST THU AUG 18 2016
+
+A sizable burst of deep convection has been ongoing since late this
+afternoon, and recent microwave imagery suggests that the low-level
+center may be a little closer to the thunderstorm activity than it
+was for most of the day.  Still, Dvorak estimates are unchanged at
+T3.0/45 kt from TAFB and T2.5/35 kt from SAB, and the initial
+intensity remains 40 kt.
+
+Fiona's window for any strengthening is narrowing.  SHIPS guidance
+is currently analyzing 10-15 kt of south-southwesterly shear, while
+the UW-CIMSS analysis has the shear as high as 20-25 kt.  Despite
+the discrepancy, these values suggest the shear is already
+increasing, and it is expected to increase further and become more
+westerly during the next three days.  Therefore, if the current
+burst of convection continues, Fiona has a chance to strengthen
+slightly during the next 12 hours and then gradually weaken through
+days 3 and 4.  The forecast trends in the intensity models suggest
+that Fiona could weaken to a tropical depression, which is now
+shown in the official forecast.  Environmental conditions appear to
+be a little less hostile by the end of the forecast period, and the
+NHC forecast allows for the possibility that Fiona could
+restrengthen after the shear lightens up.  The GFDL continues to
+be an outlier by intensifying Fiona more than the other models, and
+the official intensity forecast is therefore near or just below the
+intensity consensus for most of the forecast period.
+
+Microwave fixes indicate that Fiona has been moving more slowly
+toward the northwest, or 305/7 kt.  The cyclone is moving toward a
+break in the subtropical ridge located between 40W-55W, and an
+amplifying deep-layer trough over the north Atlantic is expected to
+maintain this break for the next several days.  By continuing on a
+northwestward heading, Fiona is expected to reach the axis of the
+subtropical ridge and turn northward by day 5.  The GFDL is still
+well to the northeast of the rest of the track guidance since it
+carries a much stronger system, but the other models are otherwise
+in very good agreement.  Therefore, no significant changes were
+made to the NHC track forecast, which remains close to the TVCN
+multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/0300Z 17.1N  41.8W   40 KT  45 MPH
+ 12H  19/1200Z 17.8N  43.1W   45 KT  50 MPH
+ 24H  20/0000Z 18.7N  44.9W   40 KT  45 MPH
+ 36H  20/1200Z 19.8N  46.9W   35 KT  40 MPH
+ 48H  21/0000Z 20.9N  48.9W   35 KT  40 MPH
+ 72H  22/0000Z 23.0N  53.2W   30 KT  35 MPH
+ 96H  23/0000Z 25.0N  56.5W   30 KT  35 MPH
+120H  24/0000Z 27.5N  57.0W   35 KT  40 MPH
+
+$$
+Forecaster Berg
+
+
+

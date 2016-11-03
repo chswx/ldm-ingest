@@ -1,0 +1,33 @@
+
+174 
+WTNT45 KNHC 161454
+TCDAT5
+
+POST-TROPICAL CYCLONE IAN DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 AM AST FRI SEP 16 2016
+
+Ian has transitioned into an extratropical low this morning.  Any of
+the remaining weak-to-moderate convection is the northern side of
+the circulation, with cold air wrapping into the center of the
+cyclone as it is overtaken by a cold front.  The initial intensity
+of 55 kt is based on ASCAT data.  Ian should move quickly
+northeastward and gradually weaken before a larger extratropical low
+absorbs it in about 2 days.  The track, intensity, and wind radii
+forecasts are based largely on guidance from the Ocean Prediction
+Center.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/1500Z 48.8N  36.2W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 12H  17/0000Z 54.0N  30.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 24H  17/1200Z 59.5N  22.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+ 36H  18/0000Z 64.5N  14.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+ 48H  18/1200Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

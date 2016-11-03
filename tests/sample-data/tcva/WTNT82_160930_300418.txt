@@ -1,0 +1,51 @@
+
+074 
+WTNT82 EGRR 300418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 30.09.2016
+
+             HURRICANE MATTHEW    ANALYSED POSITION : 14.3N  68.2W
+
+     ATCF IDENTIFIER : AL142016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 30.09.2016    0  14.3N  68.2W      990            63
+    1200UTC 30.09.2016   12  13.2N  70.3W      993            54
+    0000UTC 01.10.2016   24  12.7N  71.3W      992            53
+    1200UTC 01.10.2016   36  12.5N  71.7W      994            50
+    0000UTC 02.10.2016   48  13.1N  72.5W      991            52
+    1200UTC 02.10.2016   60  13.7N  73.6W      989            50
+    0000UTC 03.10.2016   72  15.3N  74.2W      981            62
+    1200UTC 03.10.2016   84  16.6N  74.5W      978            64
+    0000UTC 04.10.2016   96  18.0N  73.7W      978            53
+    1200UTC 04.10.2016  108  19.6N  73.1W      985            58
+    0000UTC 05.10.2016  120  20.8N  73.1W      985            54
+    1200UTC 05.10.2016  132  21.5N  73.8W      989            54
+    0000UTC 06.10.2016  144  22.4N  74.7W      984            56
+
+        TROPICAL STORM ULIKA      ANALYSED POSITION : 17.7N 140.6W
+
+     ATCF IDENTIFIER : EP192016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 30.09.2016    0  17.7N 140.6W     1005            38
+    1200UTC 30.09.2016   12  18.4N 142.0W     1009            29
+    0000UTC 01.10.2016   24  18.7N 143.7W     1011            29
+    1200UTC 01.10.2016   36  18.5N 146.5W     1011            27
+    0000UTC 02.10.2016   48              CEASED TRACKING
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 300418
+

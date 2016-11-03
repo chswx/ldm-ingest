@@ -1,0 +1,48 @@
+
+627 
+WTNT41 KNHC 202033
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST SAT AUG 20 2016
+
+Fiona's center has again become partially exposed this afternoon in
+response to strong southwesterly shear of about 30 kt. A blend of
+the latest Dvorak estimates from TAFB and SAB, and ADT values from
+CIMSS at the University of Wisconsin, support holding the initial
+intensity at 35 kt for this advisory.  Continued hostile upper-level
+winds along with dry air along the path of the storm should induce a
+weakening trend, and Fiona is still expected to weaken to a tropical
+depression tonight or Sunday. The ECMWF model opens this system
+into a trough during the next few days, while some of the other
+models hold onto a closed low through the period. If Fiona survives
+the strong shear during the next 48 hours, there is a possibility
+that the system could continue as a weak tropical cyclone for the
+next several days. The official intensity forecast is similar to the
+previous one, and leans toward the ECMWF model solution.
+
+Fiona has jogged a bit to the right, and it is now moving
+northwestward at about 13 kt. The forecast reasoning remains
+unchanged from the earlier forecasts, as the low- to mid-level
+subtropical ridge over the central Atlantic should keep Fiona moving
+west-northwestward for the next several days.  The NHC track
+forecast is similar to the previous one and is in best agreement
+with the multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/2100Z 21.2N  49.1W   35 KT  40 MPH
+ 12H  21/0600Z 22.1N  51.0W   35 KT  40 MPH
+ 24H  21/1800Z 23.1N  53.6W   30 KT  35 MPH
+ 36H  22/0600Z 24.1N  56.2W   30 KT  35 MPH
+ 48H  22/1800Z 25.0N  58.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  23/1800Z 27.0N  62.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  24/1800Z 29.5N  65.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  25/1800Z...DISSIPATED
+
+$$
+Forecaster Cangialosi/Latto
+
+
+

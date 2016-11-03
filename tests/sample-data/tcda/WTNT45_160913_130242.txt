@@ -1,0 +1,58 @@
+
+608 
+WTNT45 KNHC 130242
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 PM AST MON SEP 12 2016
+
+Ian remains a sheared tropical cyclone, with the strongest
+convection displaced to the northeast and east of the center.
+However, moderate convection has recently developed over and just
+north of the center due to the vertical wind shear's backing
+from a southwesterly to southerly direction. Data from a recent
+partial ASCAT-B overpass indicate that the 34-kt wind field has
+expanded to at least 200 nmi in the northeastern quadrant, and that
+peak winds have also increased to more than 35 kt. Dvorak satellite
+intensity estimates are T3.0/45 kt from TAFB and T2.5/35 kt from
+SAB, and an average of these values yields an advisory intensity of
+40 kt.
+
+Ian has maintained a steady motion of 330/11 kt. The latest NHC
+model guidance is in excellent agreement on the storm continuing to
+move north-northwestward through a break in the Bermuda-Azores High
+for the next 24 hours, followed by a turn to the north at 36-48
+hours. After that, Ian is expected to gradually accelerate as the
+cyclone gets captured by a strong mid-latitude shortwave trough. The
+new official forecast track is essentially just an update of the
+previous advisory track and lies close to the GFS-ECMWF model
+consensus, and the multi-model consensus TVCN.
+
+The vertical shear is forecast to decrease to 15-20 kt in 36 to 48
+hours when an upper-level low, currently located about 400 nmi
+northwest of the cyclone, is forecast by the GFS, UKMET, and ECMWF
+models to move over and become colocated with Ian's low-level
+center. The combination of decreasing vertical wind shear and some
+infusion of baroclinic energy associated with this complex
+interaction is expected to produce at least some slight
+strengthening by days 2-3. Around 120 hours, Ian is forecast to
+interact with a frontal zone over the north Atlantic and be
+transformed into an extratropical cyclone.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  13/0300Z 23.5N  51.5W   40 KT  45 MPH
+ 12H  13/1200Z 24.9N  52.4W   40 KT  45 MPH
+ 24H  14/0000Z 26.9N  53.4W   40 KT  45 MPH
+ 36H  14/1200Z 29.4N  54.1W   45 KT  50 MPH
+ 48H  15/0000Z 31.8N  54.0W   50 KT  60 MPH
+ 72H  16/0000Z 38.0N  49.7W   50 KT  60 MPH
+ 96H  17/0000Z 48.0N  38.0W   50 KT  60 MPH
+120H  18/0000Z 56.5N  25.2W   50 KT  60 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Stewart
+
+
+

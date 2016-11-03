@@ -1,0 +1,49 @@
+
+929 
+WTNT45 KNHC 041436
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 AM CDT THU AUG 04 2016
+
+Earl is already well inland over northern Guatemala, and although
+visible satellite images still show a vigorous circulation, the
+convection is rapidly decreasing. There are no wind observations
+near the center, but the best estimate of the initial intensity is
+45 kt. Since most of the circulation of Earl is forecast to move
+over the high terrain of Guatemala and southeastern Mexico, rapid
+weakening is anticipated. Earl is expected to degenerate into a
+tropical depression tonight and into a remnant low in a day or
+so.
+
+Earl has been moving south of due west or 265 degrees at 10 kt. The
+cyclone is trapped south of a ridge, and given that the steering
+flow is not expected to change, a continued westward track is
+anticipated for the next day or two.  This forecast motion over land
+reduces the chances of reintensification in the extreme southern
+portion of the Bay of Campeche.
+
+Despite the current weakening, Earl is capable of producing very
+heavy rains over a large portion of Central America and southeastern
+Mexico. In addition, global models continue to show a much
+larger-scale cyclonic gyre over southern Mexico during the next few
+days. This weather pattern will likely lead to torrential rains,
+with isolated precipitation totals of 18 inches possible.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  04/1500Z 17.2N  89.9W   45 KT  50 MPH
+ 12H  05/0000Z 17.5N  91.5W   30 KT  35 MPH...INLAND
+ 24H  05/1200Z 18.0N  93.5W   30 KT  35 MPH...POST-TROP/INLAND
+ 36H  06/0000Z 18.5N  95.5W   30 KT  35 MPH...POST-TROP/INLAND
+ 48H  06/1200Z 19.0N  97.5W   25 KT  30 MPH...POST-TROP/INLAND
+ 72H  07/1200Z 19.5N 100.5W   20 KT  25 MPH...POST-TROP/INLAND
+ 96H  08/1200Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

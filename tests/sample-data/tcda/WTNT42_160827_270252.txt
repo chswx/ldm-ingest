@@ -1,0 +1,59 @@
+
+261 
+WTNT42 KNHC 270252
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  18
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST FRI AUG 26 2016
+
+The structure of Gaston appears to be slowly improving, with less
+evidence of vertical shear than earlier today.  Deep convection has
+been forming fairly close to the center in a more symmetric fashion,
+but still hasn't been able to persist for very long.  Subjective
+estimates are a little higher than earlier, but still support an
+initial wind speed of 55 kt for this advisory.
+
+Gaston should move into a low-shear, warm-water environment during
+the next 2 or 3 days, which would usually support a great deal of
+strengthening.  However, a key hindering factor remains the nearby
+low-level moisture, which is forecast to substantially decrease
+during the next few days.  This should temper the expected
+intensification and reduce the chances for rapid strengthening.
+Gaston is likely to encounter increasing upper-level flow beyond 3
+days, which probably will start a weakening trend in combination
+with gradually cooling SSTs.  Model guidance is generally in good
+agreement on this scenario, with less spread in the intensity
+models than is typically seen.  The new prediction is a blend of
+the previous forecast and the intensity consensus.
+
+Microwave data suggest that Gaston continues to move northwestward,
+now at about 13 kt, a bit slower than before.  The cyclone is
+moving between a strong upper low to the southwest and a subtropical
+ridge to its northeast.  The ridge is forecast to gradually weaken,
+resulting in Gaston decelerating over the next couple of days.
+Steering currents get quite light in about 3 days, and the cyclone
+is expected to turn northeastward or east-northeastward it moves
+around the northwest side of a distant ridge over the eastern
+Atlantic.   Computer models are coming into better agreement on a
+sharper, slower recurvature, first suggested by the ECMWF yesterday.
+The latest NHC forecast is close to the previous one for the first
+few days, then is trended eastward to follow the model trend.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  27/0300Z 27.0N  50.8W   55 KT  65 MPH
+ 12H  27/1200Z 28.0N  52.5W   60 KT  70 MPH
+ 24H  28/0000Z 29.2N  54.1W   70 KT  80 MPH
+ 36H  28/1200Z 30.2N  55.2W   80 KT  90 MPH
+ 48H  29/0000Z 30.8N  55.7W   90 KT 105 MPH
+ 72H  30/0000Z 31.8N  55.4W   95 KT 110 MPH
+ 96H  31/0000Z 33.0N  52.0W   90 KT 105 MPH
+120H  01/0000Z 35.0N  47.5W   80 KT  90 MPH
+
+$$
+Forecaster Blake
+
+
+

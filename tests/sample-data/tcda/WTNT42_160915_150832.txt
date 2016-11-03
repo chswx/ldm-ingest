@@ -1,0 +1,55 @@
+
+945 
+WTNT42 KNHC 150832
+TCDAT2
+
+TROPICAL DEPRESSION TWELVE DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST THU SEP 15 2016
+
+AMSR2 microwave data from a few hours ago indicated that the
+depression's center was about a degree west of the deep convection
+due to 20 kt of westerly shear.  Since the cyclone's structure has
+not improved, and subjective Dvorak estimates have not changed from
+six hours ago, the initial intensity remains 30 kt.  The westerly
+shear is expected to increase during the next 24 hours, and with a
+relatively drier air mass surrounding the cyclone, any strengthening
+during the next couple of days now appears less likely.  After 48
+hours, the shear is forecast to relax to some degree, but the global
+models disagree on exactly how much.  Nonetheless, if the depression
+can survive the next couple of days, the environment should improve
+enough to allow for some strengthening by the end of the forecast
+period.  The new NHC intensity forecast now holds the cyclone as a
+30-kt depression for the next 3 days, followed by slight
+strengthening on days 4 and 5.  This forecast is in best agreement
+with the statistical-dynamical SHIPS and LGEM models.
+
+The microwave data indicate that the depression has been moving a
+little faster toward the west at 275/14 kt.  The Bermuda-Azores
+high is expected to steer the depression generally westward across
+the tropical Atlantic during the entire 5-day forecast period.  A
+south-of-due-west motion is even possible on days 2 and 3,
+especially if the cyclone remains weak.  With the exception of the
+GFDL, which shows more strengthening and is an outlier way to the
+north of the other models, the guidance envelope is relatively
+tight.  To account for the apparent north bias of the GFDL, the
+updated NHC track forecast is a bit south of the TVCN multi-model
+consensus.  The new forecast is also a little faster than and south
+of the previous forecast, especially on days 4 and 5.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/0900Z 17.6N  29.3W   30 KT  35 MPH
+ 12H  15/1800Z 17.8N  31.2W   30 KT  35 MPH
+ 24H  16/0600Z 18.0N  33.7W   30 KT  35 MPH
+ 36H  16/1800Z 17.9N  36.4W   30 KT  35 MPH
+ 48H  17/0600Z 17.6N  39.0W   30 KT  35 MPH
+ 72H  18/0600Z 16.7N  43.8W   30 KT  35 MPH
+ 96H  19/0600Z 16.5N  49.0W   35 KT  40 MPH
+120H  20/0600Z 17.0N  53.5W   40 KT  45 MPH
+
+$$
+Forecaster Berg
+
+
+

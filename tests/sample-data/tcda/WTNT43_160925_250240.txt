@@ -1,0 +1,45 @@
+
+835 
+WTNT43 KNHC 250240
+TCDAT3
+
+POST-TROPICAL CYCLONE LISA DISCUSSION NUMBER  22
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST SAT SEP 24 2016
+
+No deep convection was observed near the center of Lisa between
+1200 UTC yesterday and 0200 UTC today. Although one small areas of
+convection has tried to develop since then, it is insufficient to
+meet the organized deep convection requirement for a tropical
+cyclone.  Yesterday's overnight burst of convection seems to have
+been supported in part by an upper level low, however Lisa has now
+moved farther to the west of that feature.  In the absence of any
+other synoptic-scale forcing, the redevelopment of widespread deep
+convection is unlikely. No new scatterometer data is available
+tonight, so the initial intensity has been held at 30 kt.  Without
+any convection to maintain the circulation, Lisa should gradually
+spin down over the next day or so before dissipating ahead of a
+deep-layer trough approaching from the west.
+
+The low-level remnants of Lisa are moving around a high pressure
+system centered near the Azores.  The global models are in good
+agreement that this high will move retreat eastward over the next
+day or so, which should cause Lisa to turn toward the north in
+12-24 hours.  A turn toward the north-northeast ahead of the
+approaching front is possible before the circulation dissipates
+entirely.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/0300Z 25.8N  40.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 12H  25/1200Z 27.2N  42.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  26/0000Z 29.3N  42.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  26/1200Z 31.4N  42.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  27/0000Z...DISSIPATED
+
+$$
+Forecaster Beven/Zelinsky
+
+
+

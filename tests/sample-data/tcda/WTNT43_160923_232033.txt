@@ -1,0 +1,43 @@
+
+665 
+WTNT43 KNHC 232033
+TCDAT3
+
+TROPICAL DEPRESSION LISA DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST FRI SEP 23 2016
+
+All of the deep convection has been removed far from the center of
+Lisa by continued strong southwesterly shear of around 40 kt.  The
+initial intensity has been lowered to 30 kt based on the latest
+Dvorak estimate from TAFB.  At this point, with a combination of
+strong shear, marginal SSTs and a drying mid-level atmosphere, it
+seems unlikely that Lisa will regain organized deep convection, so
+remnant low status is now indicated by 24 hours.  The weak cyclone
+should dissipate by 72 hours in fast southwesterly flow ahead of an
+approaching deep-layer trough.
+
+The initial motion has been rather slow today, and is currently
+estimated as 310/06.  The increasingly shallow cyclone is expected
+to turn west-northwestward tonight and then recurve between 36 and
+48 hours as the deep-layer trough approaches from the west.  The new
+NHC track forecast is a little to the left of the previous one after
+12 hours, reflecting a westward shift in the guidance that is
+probably responding to Lisa's weakening.  This forecast is close to
+the middle of the guidance envelope and near the latest guidance
+from the Ocean Prediction Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/2100Z 22.5N  36.5W   30 KT  35 MPH
+ 12H  24/0600Z 23.4N  38.0W   30 KT  35 MPH
+ 24H  24/1800Z 24.4N  40.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  25/0600Z 26.0N  42.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  25/1800Z 27.9N  42.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  26/1800Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

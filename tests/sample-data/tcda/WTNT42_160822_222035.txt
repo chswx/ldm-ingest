@@ -1,0 +1,52 @@
+
+655 
+WTNT42 KNHC 222035
+TCDAT2
+
+TROPICAL DEPRESSION SEVEN DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST MON AUG 22 2016
+
+The low pressure area located west-southwest of the Cabo Verde
+Islands has developed a well-defined circulation and sufficient
+organized convection to be considered a tropical depression.
+Microwave imagery suggests that the system is likely still
+consolidating, with two or more vorticity centers rotating around
+a mean center.  The initial intensity is set to 30 kt in agreement
+with a satellite intensity estimate from TAFB.
+
+The initial motion is 275/16.  The cyclone is on the south side of
+a deep-layer ridge over the eastern Atlantic, and as a result it
+should move generally west-northwestward for the next 36-48 hours.
+Beyond that time, the cyclone is forecast to turn northwestward
+toward a weakness in the ridge over the central Atlantic.  The
+track guidance is in good agreement with this scenario, and the
+forecast track lies near the consensus models.
+
+The depression is currently in an environment of light to moderate
+easterly vertical shear.  This, combined with warm sea surface
+temperatures, should allow strengthening. One possible negative
+factor, however, is a tongue of African dust/dry air wrapping
+around the west side of the circulation.  On that basis that the
+dry air will not stop development, the intensity forecast calls for
+steady strengthening through 72 hours.  After that time, arrested
+development is likely due to the cyclone encountering moderate to
+strong westerly vertical shear.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/2100Z 12.1N  29.0W   30 KT  35 MPH
+ 12H  23/0600Z 12.4N  31.4W   40 KT  45 MPH
+ 24H  23/1800Z 13.2N  34.4W   50 KT  60 MPH
+ 36H  24/0600Z 14.5N  37.2W   60 KT  70 MPH
+ 48H  24/1800Z 16.2N  39.9W   70 KT  80 MPH
+ 72H  25/1800Z 19.7N  44.8W   80 KT  90 MPH
+ 96H  26/1800Z 23.8N  50.1W   75 KT  85 MPH
+120H  27/1800Z 26.8N  54.0W   75 KT  85 MPH
+
+$$
+Forecaster Beven/Roberts
+
+
+

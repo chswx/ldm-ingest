@@ -1,0 +1,58 @@
+
+805 
+WTNT33 KNHC 202041
+TCPAT3
+
+BULLETIN
+TROPICAL STORM LISA ADVISORY NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST TUE SEP 20 2016
+
+...LISA STRENGTHENS A LITTLE MORE OVER THE OPEN TROPICAL ATLANTIC...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...16.4N 31.0W
+ABOUT 465 MI...750 KM W OF THE CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...45 MPH...75 KM/H
+PRESENT MOVEMENT...NW OR 315 DEGREES AT 12 MPH...19 KM/H
+MINIMUM CENTRAL PRESSURE...1004 MB...29.65 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Storm Lisa was
+located near latitude 16.4 North, longitude 31.0 West. Lisa is
+moving toward the northwest near 12 mph (19 km/h) and this general
+motion is expected to continue through Thursday.
+
+Maximum sustained winds have increased near 45 mph (75 km/h) with
+higher gusts.  Some additional strengthening is forecast through
+Wednesday, with steady weakening expected to begin on Thursday.
+
+Tropical-storm-force winds extend outward up to 70 miles (110 km)
+from the center.
+
+The estimated minimum central pressure is 1004 mb (29.65 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Stewart
+
+
+

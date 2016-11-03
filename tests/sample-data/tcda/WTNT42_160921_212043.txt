@@ -1,0 +1,64 @@
+
+905 
+WTNT42 KNHC 212043
+TCDAT2
+
+TROPICAL DEPRESSION KARL DISCUSSION NUMBER  30
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+500 PM AST WED SEP 21 2016
+
+The low-level center of Karl appears to have turned toward the
+northwest with a motion of 305/10 kt based on GOES-East visible
+imagery, recently tucking underneath the cirrus canopy of developing
+convection.  Though strong at the moment, the deep convection
+continues to be inconsistent, making the intensity determination a
+bit muddled.  Proximity to NOAA buoy 41044 indicates the circulation
+appears closed with winds backing from east-northeast to northwest
+during the past few hours, but there have been no significant
+pressure falls.  ASCAT passes from this morning indicated a broad
+area of 30-kt winds about 150 n mi to the northeast and east of the
+center.  As such, the initial intensity remains 30 kts at this
+time.
+
+Karl has turned toward northwest as it is being funneled between the
+southwestern periphery of subtropical ridge and the upper- to
+mid-level low located north of Puerto Rico and the Virgin Islands.
+This northwest track should continue through Friday until Karl turns
+north and rapidly accelerates northeastward, becoming embedded in
+mid-latitude westerlies.  There has been little change in the
+track guidance, which remains in fairly good agreement through 48
+hours.   However, differences begin to appear toward the end of the
+forecast period as the ECMWF continues to be a bit slower. The
+official forecast remains close to a blend of the GFS and ECMWF but
+hedges toward the faster GFS solution.  This is also in close
+proximity to the HWRF.
+
+Karl's environment continues to gradually improve as the upper low
+moves westward, reducing vertical wind shear as well supporting a
+more diffluent upper-level pattern for increased thunderstorm
+development.  However, mid-level moisture values are marginal and
+may remain as a limiting factor for intensification during the
+next day or so.  Based on the latest intensity guidance, the
+official forecast now brings Karl back to tropical storm strength
+over the next day, with intensification continuing through day 4
+after the cyclone recurves into the mid-latitude westerlies.  Some
+weakening is possible by the end of the forecast period after Karl's
+transition to an extratropical cyclone.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/2100Z 21.9N  58.7W   30 KT  35 MPH
+ 12H  22/0600Z 23.3N  60.7W   35 KT  40 MPH
+ 24H  22/1800Z 24.9N  63.0W   40 KT  45 MPH
+ 36H  23/0600Z 26.5N  64.4W   45 KT  50 MPH
+ 48H  23/1800Z 28.2N  65.0W   50 KT  60 MPH
+ 72H  24/1800Z 31.5N  61.8W   65 KT  75 MPH
+ 96H  25/1800Z 36.6N  51.5W   70 KT  80 MPH
+120H  26/1800Z 44.5N  38.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Gallina/Berg
+
+
+

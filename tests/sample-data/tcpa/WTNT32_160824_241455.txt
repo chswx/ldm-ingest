@@ -1,0 +1,61 @@
+
+088 
+WTNT32 KNHC 241455
+TCPAT2
+
+BULLETIN
+TROPICAL STORM GASTON ADVISORY NUMBER   8...CORRECTED
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST WED AUG 24 2016
+
+CORRECTED INITIAL INTENSITY
+
+...GASTON HAS CHANGED LITTLE IN STRENGTH...
+...EXPECTED TO ENCOUNTER STRONG SHEAR IN A DAY OR TWO...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...16.1N 39.4W
+ABOUT 1020 MI...1645 KM W OF THE CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...70 MPH...110 KM/H
+PRESENT MOVEMENT...NW OR 305 DEGREES AT 16 MPH...26 KM/H
+MINIMUM CENTRAL PRESSURE...999 MB...29.50 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Tropical Storm Gaston was
+located near latitude 16.1 North, longitude 39.4 West. Gaston is
+moving toward the northwest near 16 mph (26 km/h), and this general
+motion is expected to continue for the next couple of days.
+
+Maximum sustained winds remain near 70 mph (110 km/h) with higher
+gusts.  Although Gaston could become a hurricane today, some
+weakening is forecast on Thursday.
+
+Tropical-storm-force winds extend outward up to 90 miles (150 km)
+from the center.
+
+The estimated minimum central pressure is 999 mb (29.50 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM AST.
+
+$$
+Forecaster Kimberlain
+
+
+

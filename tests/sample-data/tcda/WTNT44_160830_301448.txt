@@ -1,0 +1,59 @@
+
+040 
+WTNT44 KNHC 301448
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1000 AM CDT TUE AUG 30 2016
+
+Deep convection once again increased in association with the
+cyclone this morning, and satellite images show that very heavy
+rains continue over portions of western Cuba, where significant
+flooding is likely occurring.  However, the overall organization of
+the system has not changed much since last night.  Dvorak T-numbers
+from TAFB and SAB have not increased, so the intensity is kept at 30
+kt for this advisory.  Another NOAA Hurricane Hunter Aircraft is
+scheduled to investigate the cyclone this afternoon to see if the
+depression has become a tropical storm.  The dynamical guidance
+indicates that the vertical shear over the system will decrease
+slightly during the next day or so but, starting around 48 hours,
+westerly shear is forecast to begin increasing.  This should limit
+strengthening while the system approaches northern Florida.  The
+official intensity forecast was lowered slightly around 48 hours, in
+agreement with the latest intensity model consensus.  At the
+moment, there is no intensity guidance that makes this system a
+hurricane prior to landfall.
+
+Visible and microwave imagery, in particular a 1222 UTC SSMIS
+overpass, suggest that the center is located near the northern edge
+of the dense overcast, and the motion is estimated to be
+west-northwestward or 290/6 kt.  There is little change to the
+track forecast philosophy.  A mid-tropospheric trough that is
+expected to develop over the southeastern United States should
+induce a turn toward the north, and then northeast, with a gradual
+increase in forward speed over the next few days. This would bring
+the center of the cyclone across the northern Florida peninsula
+within 60-72 hours.  The official track forecast is about the same
+as the previous one, and is mainly a blend of the GFS and ECMWF
+predictions.
+
+Given the current forecast, a tropical storm watch may be required
+for a portion of the Florida Gulf coast later today.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/1500Z 24.0N  87.2W   30 KT  35 MPH
+ 12H  31/0000Z 24.5N  87.3W   35 KT  40 MPH
+ 24H  31/1200Z 25.4N  87.4W   40 KT  45 MPH
+ 36H  01/0000Z 26.9N  86.2W   45 KT  50 MPH
+ 48H  01/1200Z 28.5N  84.5W   50 KT  60 MPH
+ 72H  02/1200Z 31.6N  79.0W   50 KT  60 MPH
+ 96H  03/1200Z 34.0N  72.0W   50 KT  60 MPH
+120H  04/1200Z 36.5N  66.0W   60 KT  70 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

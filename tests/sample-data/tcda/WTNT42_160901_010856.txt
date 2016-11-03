@@ -1,0 +1,47 @@
+
+101 
+WTNT42 KNHC 010856
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  39
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST THU SEP 01 2016
+
+Gaston has weakened a little overnight.  The cloud pattern has lost
+some organization with the convection more asymmetric and not quite
+as deep as it was several hours ago. The Dvorak CI-numbers have
+decreased to 4.5/77 kt from both TAFB and SAB, and the initial wind
+speed is lowered to 80 kt based on that data. Gaston is expected to
+cross the 26 deg C isotherm later today while it remains in an
+environment of moderate southwesterly shear.  These conditions
+should cause steady weakening, and Gaston will likely fall below
+hurricane strength by tonight. Continued weakening is forecast
+when the cyclone moves near the Azores on Friday.  The NHC intensity
+forecast is in best agreement with the intensity model consensus.
+
+The hurricane is moving quickly east-northeastward about 17 kt. This
+general motion is expected to continue during the next day while
+Gaston remains embedded in the mid-latitude westerlies.  A decrease
+in forward speed is predicted after that time due to the approach of
+a large extratropical low.  Gaston will likely be absorbed by the
+extratropical low in about 3 days. The NHC track forecast lies near
+the middle of the tightly-packed models.
+
+Based on the current forecast, the Azores Meteorological Service has
+issued a Tropical Storm Warning for the western-most islands of
+Flores and Corvo.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0900Z 36.8N  43.3W   80 KT  90 MPH
+ 12H  01/1800Z 37.9N  39.9W   70 KT  80 MPH
+ 24H  02/0600Z 38.7N  35.4W   60 KT  70 MPH
+ 36H  02/1800Z 39.2N  31.8W   50 KT  60 MPH
+ 48H  03/0600Z 40.0N  29.0W   40 KT  45 MPH
+ 72H  04/0600Z...DISSIPATED
+
+$$
+Forecaster Cangialosi
+
+
+

@@ -1,0 +1,52 @@
+
+262 
+WTNT45 KNHC 050837
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 AM CDT FRI AUG 05 2016
+
+Satellite imagery, along with Mexican surface and radar data, shows
+that the center of Earl is now near the southern coast of the Bay
+of Campeche west-southwest of Ciudad del Carmen.  The associated
+convection is poorly organized, although radar data shows bands of
+low-topped showers that are not currently apparent in infrared
+imagery.  There are no recent observations near the area of maximum
+winds over the Bay of Campeche, so the initial intensity is held at
+35 kt based on continuity from the previous advisory.
+
+The initial motion is 285/10.  A large mid-level ridge near the
+northern Gulf of Mexico coast should lead to a continued
+west-northwestward to westward motion for the next 48 hours or so,
+with this motion taking the center of Earl along the coast of the
+Bay of Campeche into mainland Mexico.  The new forecast track is
+similar to the previous track and lies just north of the various
+consensus models.
+
+The center of Earl should emerge over the Bay of Campeche later
+today before final landfall in mainland Mexico.  However,
+significant strengthening is not expected due to the proximity to
+land and the current level of disorganization.  After landfall,
+Earl should weaken and dissipate over the mountains of central and
+eastern Mexico.
+
+The main threat from Earl continues to be heavy rains over a
+large portion of Central America and southeastern Mexico, and the
+combination of Earl with a broader-scale low-level cyclonic gyre
+over the area enhances the rainfall potential.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  05/0900Z 18.4N  92.8W   35 KT  40 MPH
+ 12H  05/1800Z 18.5N  94.3W   35 KT  40 MPH...OVER WATER
+ 24H  06/0600Z 18.7N  95.8W   35 KT  40 MPH...INLAND
+ 36H  06/1800Z 18.9N  97.2W   25 KT  30 MPH...INLAND
+ 48H  07/0600Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

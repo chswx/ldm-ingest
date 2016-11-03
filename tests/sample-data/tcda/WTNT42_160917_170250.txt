@@ -1,0 +1,62 @@
+
+709 
+WTNT42 KNHC 170250
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST FRI SEP 16 2016
+
+The deep convection with Karl is limited to the northeastern
+quadrant because of the 20 kt westerly vertical shear currently
+afflicting the tropical storm.  Despite this, a 0007 UTC ASCAT
+scatterometer pass indicated maximum winds of about 40 kt, which is
+the initial intensity.
+
+Karl should continue to struggle for the next day or so due to the
+hostile vertical shear.  The shear should relax as Karl reaches the
+west side of an upper-level trough in about 36 to 48 hours.  From
+that point in time onward, Karl should be experiencing more
+conducive conditions: gradually warming SSTs, a moist low to middle
+troposphere, and low vertical shear.  The NHC intensity forecast is
+for Karl to weaken slightly within the next day and then steadily
+strengthen starting in about two days onward.  This is quite
+similar to the previous advisory and is based upon the IVCN
+multi-model consensus.  However, confidence in Karl actually
+becoming a hurricane in five days is low because of the spread in
+the guidance.
+
+Karl is moving toward the west at 13 kt.  The Bermuda-Azores
+high will be building in north of the tropical storm, helping to
+propel Karl on a general westward track for the next couple of
+days.  Beginning in about three days, Karl will reach the western
+periphery of the Bermuda-Azores high and bend toward the
+west-northwest.  The reliable track models have substantial spread
+- especially during days one to three - with some solutions
+showing a west-southwesterly track, which is rarely seen in
+this part of the Atlantic basin.  The NHC track forecast is
+slightly south of the previous advisory, and is based upon
+the TVCN multi-model consensus.
+
+The initial size of Karl is determined by the recent scatterometer
+pass, which showed a large area of tropical-storm-force winds in the
+northern semicircle, but none to the south.  The NHC wind radii
+forecast is based upon the RVCN consensus technique.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/0300Z 18.5N  37.0W   40 KT  45 MPH
+ 12H  17/1200Z 18.5N  38.8W   35 KT  40 MPH
+ 24H  18/0000Z 18.5N  41.5W   35 KT  40 MPH
+ 36H  18/1200Z 18.5N  44.1W   35 KT  40 MPH
+ 48H  19/0000Z 18.5N  46.8W   40 KT  45 MPH
+ 72H  20/0000Z 20.0N  52.0W   50 KT  60 MPH
+ 96H  21/0000Z 22.0N  57.0W   60 KT  70 MPH
+120H  22/0000Z 25.0N  61.5W   70 KT  80 MPH
+
+$$
+Forecaster Landsea
+
+
+

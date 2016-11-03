@@ -1,0 +1,67 @@
+
+013 
+WTNT41 KNHC 172042
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST WED AUG 17 2016
+
+During the past 6 hours, the tropical cyclone has made a transition
+from a large outer banding pattern to more of a CDO-type feature.
+Also, a 1635Z SSMI overpass confirmed the tight inner-core structure
+noted in the two earlier ASCAT passes. Dvorak satellite intensity
+estimates are T2.5/35 kt from TAFB and SAB, and a 1225Z ASCAT-A
+overpass indicated winds of near 35 kt at that time. Based on these
+data, the initial intensity is increased to 35 kt and the cyclone is
+upgraded to Tropical Storm Fiona.
+
+The initial motion estimate is 305/14 kt. The latest model guidance
+has come into much better agreement with the previous track
+forecast, with the GFS model shifting a little farther south and the
+ECMWF making a significant shift to the north due to that model not
+weakening Fiona as much now as compared to previous forecast cycles.
+These model changes have resulted in a northward shift in the
+consensus models TVCN and GFEX. Given the much better agreement in
+the NHC model guidance, the new track forecast was only shifted
+slightly southward of the previous advisory track after 72 hours in
+order to move closer to the consensus models.
+
+There are no significant changes to the previous intensity forecast.
+Fiona is a compact tropical cyclone with a radius of maximum winds
+of 15 nmi or less, which makes the storm susceptible to sharp
+fluctuations in intensity. The aforementioned SSMI satellite pass
+also indicated that the small inner-core region of Fiona now appears
+to be insulated from the very dry mid-level air that had earlier
+eroded the cyclone's convection. That, along with low shear
+conditions and marginal SSTs near 27C, should allow for some gradual
+strengthening for the next 36-48 hours, assuming that the cyclone
+can mix out any occasional intrusions of dry air. By 72 hours, the
+vertical shear is forecast to increase to around 20 kt from the
+southwest, which should act to arrest the intensification process
+and perhaps even induce some slight weakening. However, by 96 hours
+and beyond, the shear is forecast to steadily decrease when the
+cyclone will be moving over SSTs greater than 28C. These conditions
+could allow for the compact cyclone to maintain a steady intensity
+despite being embedded in mid-level humidity values of near 50
+percent. The official intensity forecast is similar to the previous
+advisory and closely follows the intensity consensus model IVCN
+through 48 hours, and then lies just below the Decay-SHIPS model at
+72-120 hours.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/2100Z 15.1N  37.8W   35 KT  40 MPH
+ 12H  18/0600Z 16.0N  39.0W   40 KT  45 MPH
+ 24H  18/1800Z 17.0N  40.6W   45 KT  50 MPH
+ 36H  19/0600Z 17.8N  42.1W   50 KT  60 MPH
+ 48H  19/1800Z 18.7N  43.8W   50 KT  60 MPH
+ 72H  20/1800Z 20.3N  47.4W   45 KT  50 MPH
+ 96H  21/1800Z 22.6N  51.3W   45 KT  50 MPH
+120H  22/1800Z 24.6N  55.0W   45 KT  50 MPH
+
+$$
+Forecaster Stewart
+
+
+

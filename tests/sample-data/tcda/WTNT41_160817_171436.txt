@@ -1,0 +1,70 @@
+
+143 
+WTNT41 KNHC 171436
+TCDAT1
+
+TROPICAL DEPRESSION SIX DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 AM AST WED AUG 17 2016
+
+The depression's overall cloud pattern and low-level wind field have
+continued to improve, although cloud tops have warmed considerably
+near the center since the previous advisory. An 1139Z ASCAT-B
+overpass showed a well-defined low-level circulation center with a
+tight radius of maximum winds of only 10-15 nmi. Although there were
+a few vectors near tropical storm force, and satellite estimates at
+1200Z were T2.5/35 kt from TAFB and SAB, the intensity is being
+maintained at 30 kt for this advisory due to the sharp decrease in
+deep convection near the center during the past few hours.
+
+The modest northeasterly vertical wind shear across the cyclone is
+forecast to weaken and veer to the southeast during the next 12
+hours, and remain less than 10 kt for the next 36-48 hours, which
+typically favors strengthening. Sea-surface temperatures just below
+27C are marginal for intensification and the small cyclone will be
+moving through dry mid-level air with humidity values dropping below
+50 percent by 48 hours and beyond, conditions that are generally not
+conducive for significant strengthening. But given the tight
+inner-core wind field noted in recent ASCAT data, the cyclone is
+expected to be able to mix out any dry air intrusions and slowly
+strengthen for about the next 48 hours. By 72 hours and beyond,
+however, increasing southwesterly to westerly wind shear is expected
+to induce gradual weakening. The official intensity forecast is
+similar to the previous advisory and closely follows the intensity
+consensus model IVCN.
+
+The initial motion estimate is 300 /13 kt, based primarily on
+microwave and scatterometer fixes. The NHC model guidance is in
+good agreement on the cyclone moving west-northwestward to
+northwestward toward a weakness in the Bermuda-Azores ridge for the
+next 48 hours or so. After that, however, there is significant
+divergence in the models with the GFDL, GFS, and GFS-ensemble mean
+models taking a stronger and more vertically deep cyclone more
+toward the northwest, whereas the HWRF, UKMET, NAVGEM, and ECMWF
+models show a weaker and shallower cyclone turning more westward
+and moving along the southern periphery of the low-level ridge. As
+a result, the forecast track depends heavily on the strength and
+vertical structure of the cyclone. The new NHC forecast track is a
+little to the south or left of the previous advisory, but not nearly
+as far south as the ECMWF model due to expectations that the cyclone
+will not weaken nearly as much as that model is indicating.
+
+The forecast wind radii were decreased somewhat based on the smaller
+wind field depicted in recent ASCAT data.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/1500Z 14.0N  36.4W   30 KT  35 MPH
+ 12H  18/0000Z 14.9N  37.7W   35 KT  40 MPH
+ 24H  18/1200Z 16.0N  39.3W   40 KT  45 MPH
+ 36H  19/0000Z 17.0N  40.7W   45 KT  50 MPH
+ 48H  19/1200Z 17.9N  42.3W   50 KT  60 MPH
+ 72H  20/1200Z 19.6N  45.9W   45 KT  50 MPH
+ 96H  21/1200Z 21.8N  49.8W   40 KT  45 MPH
+120H  22/1200Z 23.9N  53.4W   35 KT  40 MPH
+
+$$
+Forecaster Stewart
+
+
+

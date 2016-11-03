@@ -1,0 +1,46 @@
+
+778 
+WTNT82 EGRR 020418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 02.10.2016
+
+             HURRICANE MATTHEW    ANALYSED POSITION : 13.2N  73.6W
+
+     ATCF IDENTIFIER : AL142016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 02.10.2016    0  13.2N  73.6W      993            43
+    1200UTC 02.10.2016   12  14.1N  74.3W      993            47
+    0000UTC 03.10.2016   24  14.5N  75.2W      990            42
+    1200UTC 03.10.2016   36  15.6N  75.0W      982            55
+    0000UTC 04.10.2016   48  17.0N  74.3W      975            60
+    1200UTC 04.10.2016   60  18.9N  73.9W      974            59
+    0000UTC 05.10.2016   72  20.7N  73.9W      975            62
+    1200UTC 05.10.2016   84  22.2N  74.4W      975            62
+    0000UTC 06.10.2016   96  23.6N  75.0W      972            63
+    1200UTC 06.10.2016  108  24.9N  75.7W      965            71
+    0000UTC 07.10.2016  120  26.4N  75.9W      956            71
+    1200UTC 07.10.2016  132  27.7N  76.1W      949            72
+    0000UTC 08.10.2016  144  28.9N  75.9W      944            73
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 144 HOURS
+              FORECAST POSITION AT T+144 : 14.0N 143.4W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 08.10.2016  144  14.0N 143.4W     1005            25
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 020418
+

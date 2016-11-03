@@ -1,0 +1,154 @@
+
+865 
+WTNT82 EGRR 301618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 30.08.2016
+
+   TROPICAL DEPRESSION 08L        ANALYSED POSITION : 34.0N  75.2W
+
+     ATCF IDENTIFIER : AL082016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.08.2016    0  34.0N  75.2W     1014            23
+    0000UTC 31.08.2016   12  34.5N  75.7W     1013            20
+    1200UTC 31.08.2016   24  35.4N  74.7W     1011            23
+    0000UTC 01.09.2016   36  36.7N  72.4W     1008            30
+    1200UTC 01.09.2016   48  38.4N  67.5W     1004            40
+    0000UTC 02.09.2016   60  41.1N  60.5W     1002            38
+    1200UTC 02.09.2016   72  43.9N  52.9W      998            36
+    0000UTC 03.09.2016   84  45.8N  47.8W      995            32
+    1200UTC 03.09.2016   96  48.9N  41.9W      984            38
+    0000UTC 04.09.2016  108  51.4N  39.1W      970            49
+    1200UTC 04.09.2016  120  52.8N  37.5W      957            52
+    0000UTC 05.09.2016  132  53.7N  34.7W      967            40
+    1200UTC 05.09.2016  144  54.7N  32.6W      976            35
+
+             HURRICANE GASTON     ANALYSED POSITION : 32.2N  53.4W
+
+     ATCF IDENTIFIER : AL072016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.08.2016    0  32.2N  53.4W      988            59
+    0000UTC 31.08.2016   12  32.7N  51.8W      984            58
+    1200UTC 31.08.2016   24  33.9N  49.9W      975            65
+    0000UTC 01.09.2016   36  35.8N  46.6W      968            70
+    1200UTC 01.09.2016   48  37.5N  41.8W      968            68
+    0000UTC 02.09.2016   60  38.4N  36.6W      980            60
+    1200UTC 02.09.2016   72  38.3N  32.8W      991            52
+    0000UTC 03.09.2016   84  38.3N  30.1W     1002            36
+    1200UTC 03.09.2016   96  39.1N  28.1W     1006            32
+    0000UTC 04.09.2016  108              CEASED TRACKING
+
+             HURRICANE LESTER     ANALYSED POSITION : 18.0N 133.6W
+
+     ATCF IDENTIFIER : EP132016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.08.2016    0  18.0N 133.6W      994            44
+    0000UTC 31.08.2016   12  18.0N 136.1W      993            49
+    1200UTC 31.08.2016   24  17.8N 138.7W      992            49
+    0000UTC 01.09.2016   36  17.8N 141.0W      993            48
+    1200UTC 01.09.2016   48  18.0N 143.4W      993            52
+    0000UTC 02.09.2016   60  18.5N 145.4W      994            48
+    1200UTC 02.09.2016   72  18.8N 147.7W      999            44
+    0000UTC 03.09.2016   84  19.1N 150.0W     1002            42
+    1200UTC 03.09.2016   96  19.4N 152.9W     1006            37
+    0000UTC 04.09.2016  108  20.1N 155.6W     1007            37
+    1200UTC 04.09.2016  120  20.7N 158.1W     1009            32
+    0000UTC 05.09.2016  132  21.7N 160.8W     1009            30
+    1200UTC 05.09.2016  144  22.1N 163.1W     1010            28
+
+             HURRICANE MADELINE   ANALYSED POSITION : 19.3N 147.7W
+
+     ATCF IDENTIFIER : EP142016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.08.2016    0  19.3N 147.7W      984            61
+    0000UTC 31.08.2016   12  19.2N 150.2W      994            53
+    1200UTC 31.08.2016   24  18.8N 152.8W     1000            44
+    0000UTC 01.09.2016   36  18.1N 154.7W     1000            41
+    1200UTC 01.09.2016   48  17.6N 157.0W     1000            48
+    0000UTC 02.09.2016   60  17.5N 160.1W     1004            38
+    1200UTC 02.09.2016   72  17.2N 163.1W     1008            32
+    0000UTC 03.09.2016   84  17.0N 166.1W     1008            28
+    1200UTC 03.09.2016   96  16.8N 168.9W     1009            27
+    0000UTC 04.09.2016  108  16.8N 171.7W     1008            26
+    1200UTC 04.09.2016  120  16.3N 173.9W     1007            25
+    0000UTC 05.09.2016  132  16.7N 175.5W     1007            26
+    1200UTC 05.09.2016  144  17.1N 177.3W     1006            26
+
+   TROPICAL DEPRESSION 09L        ANALYSED POSITION : 23.5N  87.1W
+
+     ATCF IDENTIFIER : AL092016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.08.2016    0  23.5N  87.1W     1004            28
+    0000UTC 31.08.2016   12  24.0N  87.5W     1002            28
+    1200UTC 31.08.2016   24  25.0N  88.1W     1000            34
+    0000UTC 01.09.2016   36  25.8N  87.5W      996            41
+    1200UTC 01.09.2016   48  27.0N  87.0W      988            52
+    0000UTC 02.09.2016   60  28.9N  86.0W      977            60
+    1200UTC 02.09.2016   72  31.2N  83.9W      972            45
+    0000UTC 03.09.2016   84  33.6N  80.4W      987            53
+    1200UTC 03.09.2016   96  36.4N  77.1W      993            55
+    0000UTC 04.09.2016  108  38.1N  74.5W      992            54
+    1200UTC 04.09.2016  120  39.5N  74.3W      992            41
+    0000UTC 05.09.2016  132  39.1N  73.8W      998            40
+    1200UTC 05.09.2016  144  39.5N  71.0W     1002            35
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  48 HOURS
+              FORECAST POSITION AT T+ 48 : 33.6N  76.1W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 01.09.2016   48  33.6N  76.1W     1009            29
+    0000UTC 02.09.2016   60  34.9N  71.7W     1005            37
+    1200UTC 02.09.2016   72  35.6N  66.0W     1005            36
+    0000UTC 03.09.2016   84  36.2N  59.8W     1005            35
+    1200UTC 03.09.2016   96  36.8N  52.7W     1003            36
+    0000UTC 04.09.2016  108  37.7N  45.0W     1000            40
+    1200UTC 04.09.2016  120  38.6N  37.9W     1002            40
+    0000UTC 05.09.2016  132              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  96 HOURS
+              FORECAST POSITION AT T+ 96 : 16.7N 104.9W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 03.09.2016   96  16.7N 104.9W     1005            31
+    0000UTC 04.09.2016  108  18.0N 105.7W     1004            28
+    1200UTC 04.09.2016  120  19.1N 107.9W     1003            24
+    0000UTC 05.09.2016  132  19.7N 109.0W     1003            22
+    1200UTC 05.09.2016  144  20.1N 110.2W     1004            18
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 138 HOURS
+              FORECAST POSITION AT T+138 : 17.7N  64.6W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 05.09.2016  144  17.9N  66.7W     1009            34
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 301618
+

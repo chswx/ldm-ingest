@@ -1,0 +1,57 @@
+
+279 
+WTNT42 KNHC 240859
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  40
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST SAT SEP 24 2016
+
+Data from an Air Force Reserve reconnaissance aircraft this morning
+indicate that Karl has made the much anticipated turn toward the
+northeast, and that the center has also reached its closest point of
+approach to Bermuda. The strongest 825-mb flight-level wind measured
+thus far has been 66 kt and the highest SFMR surface wind measured
+has been 49 kt. The central pressure of 994 mb is based on a
+recent dropsonde report. An earlier dropsonde report indicated that
+the flight-level center was tilted to the northeast of the surface
+center. Based on these data, the initial intensity is being
+maintained at 55 kt.
+
+The initial motion estimate is 035/15 kt. Karl is now coming under
+the influence of deep southwesterly steering flow in advance of an
+approaching strong mid-latitude trough and surface cold front. This
+flow pattern should keep Karl moving northeastward away from Bermuda
+and steadily increase its forward speed to 40-45 kt by 36-48 hours.
+The new forecast track is similar to but slightly to the left of the
+of the previous advisory track, and lies down the middle of the
+tightly clustered track guidance.
+
+Karl appears to have entrained some dry air in the mid- and low-
+levels of the atmosphere based on reconnaissance data. However, the
+cyclone is forecast to remain over SSTs of at least 27 deg C for the
+next 24 hours or so within an environment of moderate vertical wind
+shear.  This should allow Karl to strengthen to a hurricane in about
+24-36 hours. After that, the cyclone is forecast to undergo
+extratropical transition as it merges with the cold front, and this
+should be complete by 48 hours, if not sooner.  The cyclone is
+expected to be absorbed by a larger extratropical low between 48-72
+hours.  The new intensity forecast is similar to the previous
+advisory and lies close to the consensus model IVCN.
+
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/0900Z 31.7N  64.3W   55 KT  65 MPH
+ 12H  24/1800Z 33.5N  61.2W   60 KT  70 MPH
+ 24H  25/0600Z 36.7N  54.9W   65 KT  75 MPH
+ 36H  25/1800Z 41.6N  45.6W   70 KT  80 MPH
+ 48H  26/0600Z 47.6N  36.4W   65 KT  75 MPH...POST-TROP/EXTRATROP
+ 72H  27/0600Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

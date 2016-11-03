@@ -1,0 +1,58 @@
+
+240 
+WTNT44 KNHC 302103
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+400 PM CDT TUE AUG 30 2016
+
+The system has still not become better organized on satellite
+imagery, with limited evidence of banding features.  There is an
+apparent mid-level center of circulation located south of the
+low-level center.  The highest flight-level wind reported by a
+NOAA Hurricane Hunter aircraft was 34 kt and the highest
+SFMR-observed surface winds were 30 kt, which continues to be used
+for the advisory intensity.  There is some evidence of increasing
+upper-level outflow to the north.  The latest intensity
+guidance is a little more aggressive than before, with a little less
+shear forecast over the northern Gulf coast region.  The official
+intensity forecast has been increased slightly in comparison to the
+previous one, and is a little below the latest model consensus.
+Given that a couple of the models show the system becoming a
+hurricane, and the 48-hour forecast point implies
+tropical-storm-force winds near the coast, it is prudent to issue a
+hurricane watch for a portion of the northeast Gulf of Mexico coast
+at this time.
+
+Fixes from the NOAA aircraft show that the initial motion is
+northwestward, or 320/4 kt.  The global models continue to show a
+mid-tropospheric trough developing over the southeastern United
+States during the next couple of days.  This should cause the
+tropical cyclone to turn toward the north and north-northeast in
+24-48 hours.  The dynamical track guidance models have shifted a
+bit to the west compared to their earlier runs, as has the
+multi-model consensus.  Therefore the official track forecast is
+also west of the previous one.
+
+It is important not to focus on the forecast landfall point of this
+system.  Among other reasons, dangerous storm surge flooding is
+likely along the coast well to the east and south of the path of the
+center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/2100Z 24.4N  87.3W   30 KT  35 MPH
+ 12H  31/0600Z 24.9N  87.5W   35 KT  40 MPH
+ 24H  31/1800Z 26.0N  87.0W   40 KT  45 MPH
+ 36H  01/0600Z 27.5N  86.0W   45 KT  50 MPH
+ 48H  01/1800Z 29.0N  84.8W   55 KT  65 MPH
+ 72H  02/1800Z 32.9N  79.2W   60 KT  70 MPH
+ 96H  03/1800Z 36.5N  71.0W   60 KT  70 MPH
+120H  04/1800Z 39.0N  68.0W   60 KT  70 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

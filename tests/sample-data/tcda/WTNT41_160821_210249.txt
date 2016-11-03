@@ -1,0 +1,53 @@
+
+621 
+WTNT41 KNHC 210249
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST SAT AUG 20 2016
+
+Somewhat surprisingly, two recent ASCAT passes showed that Fiona is
+producing 45-kt winds in its northeastern quadrant.  This intensity
+is also supported by the latest ADT estimate.  Despite the increase
+in maximum winds, the next 36 hours will be critical for Fiona's
+survival as a tropical cyclone.  During this period, westerly shear
+of 30 kt will be at its strongest, and mid-level relative humidities
+will be at their lowest.  Therefore, gradual weakening is
+anticipated, and it's entirely possible that Fiona could soon
+struggle to maintain organized deep convection.  For now, the NHC
+official forecast shows Fiona becoming a remnant low by 72 hours.
+However, there is a lot of uncertainty in this forecast.  If Fiona
+can survive the next 36 hours, it might persist as a weak tropical
+cyclone through the end of the forecast period since environmental
+conditions do become a little more favorable in a couple of days. It
+should be noted that most of the global models hang onto a weak low
+for at least the next 5 days, with the exception of the ECMWF which
+shows the low opening up into a trough by 48 hours.  For now, the
+NHC forecast continues to show dissipation by day 5 as a compromise.
+
+Fiona's motion has been wavering between west-northwest and
+northwest, and the latest estimate is 305/13 kt.  Low-level ridging
+should keep Fiona on this general trajectory for the next 72 hours
+or so, followed by a northwestward turn with a decrease in speed by
+day 4 when the cyclone approaches a stalled frontal boundary off
+the east coast of the United States.  The NHC official forecast has
+been nudged south and west to be closer to the TVCN multi-model
+consensus, especially toward the end of the forecast period.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/0300Z 21.7N  50.1W   45 KT  50 MPH
+ 12H  21/1200Z 22.4N  52.0W   45 KT  50 MPH
+ 24H  22/0000Z 23.3N  54.6W   40 KT  45 MPH
+ 36H  22/1200Z 24.2N  57.3W   40 KT  45 MPH
+ 48H  23/0000Z 24.9N  59.5W   35 KT  40 MPH
+ 72H  24/0000Z 26.6N  63.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  25/0000Z 29.0N  66.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  26/0000Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

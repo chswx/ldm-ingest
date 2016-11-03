@@ -1,0 +1,44 @@
+
+791 
+WTNT42 KNHC 011459
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  40
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST THU SEP 01 2016
+
+Despite a degraded satellite presentation, a 1302 UTC ASCAT-B pass
+over Gaston showed a large area of hurricane force winds southeast
+of the center and peak winds of 75 kt, and that will serve as the
+initial intensity for this advisory.  Weakening is forecast as
+Gaston moves across the 26C SST isotherm later today and the
+vertical shear is expected to increase to 20-30 kt by 48 hours.
+Gaston should fall below hurricane strength tonight and gradually
+lose tropical characteristics by 48 hours.  The low is forecast to
+dissipate by 72 hours, as shown in the global models.  The NHC
+intensity forecast is close to the new IVCN intensity consensus aid.
+
+The hurricane is moving quickly east-northeastward, 070/21.  Gaston
+will continue moving generally east-northeastward within the mid-
+latitude westerlies through dissipation.  The new NHC forecast is
+near the middle of the guidance envelope and the multi-model
+consensus TVCN.
+
+Based on the current forecast, the Azores Meteorological Service has
+issued a Tropical Storm Warning for the islands of Faial, Pico,
+Graciosa, Sao Jorge, and Terceira in the central Azores.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/1500Z 37.6N  40.6W   75 KT  85 MPH
+ 12H  02/0000Z 38.4N  37.1W   65 KT  75 MPH
+ 24H  02/1200Z 39.1N  32.8W   55 KT  65 MPH
+ 36H  03/0000Z 39.7N  29.8W   45 KT  50 MPH
+ 48H  03/1200Z 41.0N  26.5W   35 KT  40 MPH...POST-TROPICAL
+ 72H  04/1200Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

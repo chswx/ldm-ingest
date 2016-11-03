@@ -1,0 +1,58 @@
+
+144 
+WTNT33 KNHC 240858
+TCPAT3
+
+BULLETIN
+TROPICAL DEPRESSION LISA ADVISORY NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 AM AST SAT SEP 24 2016
+
+...LISA SHOULD BECOME A POST-TROPICAL CYCLONE BY TONIGHT...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...23.8N 37.9W
+ABOUT 1050 MI...1690 KM WNW OF THE CABO VERDE ISLANDS
+ABOUT 1170 MI...1885 KM SW OF THE AZORES
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...NW OR 315 DEGREES AT 9 MPH...15 KM/H
+MINIMUM CENTRAL PRESSURE...1010 MB...29.83 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Depression Lisa was
+located near latitude 23.8 North, longitude 37.9 West. The
+depression is moving toward the northwest near 9 mph (15 km/h).  A
+turn toward the west-northwest and an increase in forward speed is
+expected later today, before a turn back toward the northwest and
+then north on Sunday.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Some weakening is forecast during the next 48 hours, and Lisa is
+expected to become a post-tropical cyclone by this evening.
+
+The estimated minimum central pressure is 1010 mb (29.83 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Blake
+
+
+

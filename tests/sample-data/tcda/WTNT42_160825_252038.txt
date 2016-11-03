@@ -1,0 +1,61 @@
+
+369 
+WTNT42 KNHC 252038
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST THU AUG 25 2016
+
+Strong southwesterly shear continues to take a toll on Gaston.  The
+cloud pattern has become more assymetric with all of the deep
+core convection located north and east of the center.  This was
+confirmed by a recent SSMIS microwave overpass that showed
+significant southwest to northeast tilt between the low- and
+mid-level centers.  Objective Dvorak T-numbers have decreased and
+subjective intensity estimates from TAFB and SAB support an initial
+wind speed of 55 kt.  A large upper-level low near 23N 54W that is
+moving southwestward is expected to continue to produce an
+unfavorable upper-level environment over Gaston for another 12 to
+18 hours.  Some additional weakening is possible tonight, but the
+official NHC forecast shows little change in strength through
+Friday.  After that time, Gaston should be moving around the
+northern portion of the upper-low and into a more favarable
+upper-level wind pattern.  This combined with warm SSTs and a moist
+atmosphere should allow Gaston to re-strengthen over the weekend
+and once again become a hurricane.  The updated NHC intensity
+forecast is slightly above the previous advisory after 36 hours, and
+is in good agreement with the latest SHIPS guidance.
+
+The initial motion remains northwestward at 15 kt.  Gaston should
+move northwestward during the next day or so around a mid-level
+ridge over the east-central Atlantic.  In 36 to 48 hours, a ridge is
+forecast to build to the north of Gaston, which should cause the
+cyclone to turn west-northwestward.  Early next week, the ridge
+is forecast to weaken and Gaston is expected to turn northward,
+then recurve into the mid-latitude westerlies in 4 to 5 days.  The
+track guidance is in good agreement during the first 48 hours, but
+there is some spread as to what longitude recurvature begins.  The
+ECMWF shows a slower motion near the end of the forecast period and
+a track along the eastern side of the guidance envelope, while the
+GFS and GFS ensemble mean are along the western edge.  The NHC track
+foreast remains near the middle of the guidance envelope and is in
+closest agreement with UKMET, FSSE, and multi-model consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/2100Z 21.6N  45.5W   55 KT  65 MPH
+ 12H  26/0600Z 23.4N  47.1W   55 KT  65 MPH
+ 24H  26/1800Z 25.5N  49.6W   55 KT  65 MPH
+ 36H  27/0600Z 27.0N  52.3W   60 KT  70 MPH
+ 48H  27/1800Z 28.1N  54.7W   70 KT  80 MPH
+ 72H  28/1800Z 30.2N  57.0W   85 KT 100 MPH
+ 96H  29/1800Z 31.8N  57.7W   95 KT 110 MPH
+120H  30/1800Z 34.0N  55.0W   95 KT 110 MPH
+
+$$
+Forecaster Brown
+
+
+

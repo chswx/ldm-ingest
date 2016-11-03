@@ -1,0 +1,60 @@
+
+954 
+WTNT41 KNHC 181436
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 AM AST THU AUG 18 2016
+
+Deep convection has decreased since the previous advisory due to
+Fiona moving into the daytime convective minimum period, plus likely
+entrainment of dry mid-level air. Satellite classifications remain
+T3.0/45 kt and T2.0/30 kt from TAFB and SAB, respectively, but
+UW-CIMSS ADT values have increased to T3.2/49 kt. However, the
+recent erosion of the inner-core convection argues for maintaining
+the initial intensity at 40 kt despite the higher ADT value.
+
+The forward speed has decreased sharply since the previous advisory,
+and Fiona is now moving at 300/07 kt. The recent decrease in forward
+speed has been well advertised by the NHC track guidance for the
+past couple of days. The latest model guidance is in much better
+agreement on Fiona moving west-northwestward to northwestward toward
+a break in the subtropical ridge between 50W-55W throughout the
+forecast period, and is now converging tightly around the previous
+forecast track. Therefore, the new official forecast track is just
+an update of the previous advisory track, and lies a little to the
+left of consensus track model, TVCN, due to a strong right bias
+caused by the much stronger and vertically deeper GFDL model.
+
+The intensity forecast is a little less straightforward than the
+track forecast due to mixed dynamic and thermodynamic signals. On
+one hand, shear conditions are expected to increase to more than 20
+kt in 48-72 hours while the cyclone is moving into a much drier air
+airmass consisting of near 40 percent mid-level humidity values.
+This combination of negative parameters generally supports
+significant weakening. However, Fiona will also be moving over
+warmer SSTs of 28-29C and into a region of much cooler upper-level
+temperatures, which will act to generate greater instability and
+likely more vigorous and persistent convection despite the drier
+mid-level environment. Given these mixed signals, the new NHC
+forecast is an average of the various intensity models, which at 96
+hours ranges from hurricane strength in the GFDL model to a 25-kt
+remnant low in the Navy-CTCI and ECMWF models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/1500Z 16.4N  40.5W   40 KT  45 MPH
+ 12H  19/0000Z 17.2N  41.7W   45 KT  50 MPH
+ 24H  19/1200Z 18.1N  43.3W   45 KT  50 MPH
+ 36H  20/0000Z 19.1N  45.1W   40 KT  45 MPH
+ 48H  20/1200Z 20.3N  47.0W   35 KT  40 MPH
+ 72H  21/1200Z 22.6N  50.6W   35 KT  40 MPH
+ 96H  22/1200Z 24.4N  53.7W   35 KT  40 MPH
+120H  23/1200Z 26.4N  56.0W   35 KT  40 MPH
+
+$$
+Forecaster Stewart
+
+
+

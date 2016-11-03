@@ -1,0 +1,45 @@
+
+308 
+WTNT45 KNHC 060243
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 PM CDT FRI AUG 05 2016
+
+The convective pattern of Earl has changed little in both
+conventional and microwave satellite imagery since the last
+reconnaissance flight a few hours ago. Therefore, the initial
+intensity is being maintained at 50 kt for this advisory. Earl
+should begin to weaken shortly after the center moves inland, and
+continue to weaken over the next 24 hours. The cyclone could
+degenerate into a remnant low by 24 hours if it moves a little
+faster than currently forecast, which would cause greater
+interaction with the mountainous terrain of eastern Mexico.
+
+Earl continues to move westward at about 275/07 kt. This general
+motion is forecast to continue for the next 24 hours, and Earl is
+expected to make landfall about midway between Veracruz and
+Alvarado, Mexico within the next hour. The official forecast track
+is similar to the previous advisory track and lies slightly north of
+the consensus model, TVCN.
+
+The main threat from Earl will continue to be heavy rainfall that
+could cause flash floods and mudslides across a large portion of
+Central America and southeastern Mexico.  The Mexican Weather
+Service (SMN) recently relayed reports of additional rainfall totals
+of 2-4 inches (50-100 mm) since 8 am EDT/1200 UTC this morning
+across portions of south-central Mexico.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/0300Z 19.0N  95.9W   50 KT  60 MPH...NEAR VERACRUZ
+ 12H  06/1200Z 19.0N  96.7W   40 KT  45 MPH...INLAND
+ 24H  07/0000Z 19.0N  97.5W   30 KT  35 MPH...INLAND
+ 36H  07/1200Z...DISSIPATED INLAND
+
+$$
+Forecaster Stewart
+
+
+

@@ -1,0 +1,59 @@
+
+007 
+WTNT41 KNHC 162041
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 PM EDT FRI SEP 16 2016
+
+Satellite data and reports from an Air Force Reserve Hurricane
+Hunter aircraft indicate that Julia has lost organization since
+this time yesterday.  The winds have decreased in most parts of the
+circulation, and the center is now well exposed to the west of the
+main area of convection.  The aircraft reported a central pressure
+near 1008 mb and SFMR surface wind estimates of 35 kt within 30 n
+mi of the center over the northern semicircle.  These data are the
+basis for keeping the initial intensity 35 kt.
+
+The intensity forecast remains low confidence.  Currently, Julia is
+in an environment of 25-35 kt of westerly vertical shear, and this
+hostile environment should continue for the next 48 hours.  After
+that time, the guidance remains in good agreement that the shear
+should decrease.  However, it is in poor agreement as to what that
+means for the cyclone.  The Canadian and UKMET continue to forecast
+a stronger system, while the GFS, ECMWF, and HWRF forecast Julia to
+dissipate or remain weak.  Given the current trends, there is no
+change to the dissipation scenario used in the intensity forecast.
+However, this forecast again is on the low edge of the intensity
+guidance, and there remains a chance that Julia will survive and
+re-intensify.
+
+Julia appears to finally have stopped its eastward motion, and the
+initial motion is now a somewhat uncertain 190/3.  In the next day
+or so, the cyclone should be steered toward the southwest and west
+by the low-level ridge to the north.  After 36 hours, a baroclinic
+trough moving into the northeastern United States should weaken the
+ridge and allow Julia, or its remnants, to turn northward and
+eventually northeastward.  There remains a significant spread
+between the much faster Canadian and ECMWF models and the slower GFS
+and UKMET models.  The new forecast track favors a lower solution
+and keeps Julia moving at less than 5 kt before dissipation.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/2100Z 30.8N  75.7W   35 KT  40 MPH
+ 12H  17/0600Z 30.7N  75.8W   30 KT  35 MPH
+ 24H  17/1800Z 30.8N  76.1W   30 KT  35 MPH
+ 36H  18/0600Z 31.1N  76.6W   30 KT  35 MPH
+ 48H  18/1800Z 31.5N  77.0W   30 KT  35 MPH
+ 72H  19/1800Z 33.0N  76.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  20/1800Z 33.5N  75.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  21/1800Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

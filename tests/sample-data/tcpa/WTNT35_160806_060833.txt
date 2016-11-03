@@ -1,0 +1,78 @@
+
+700 
+WTNT35 KNHC 060833
+TCPAT5
+
+BULLETIN
+TROPICAL STORM EARL ADVISORY NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 AM CDT SAT AUG 06 2016
+
+...EARL WEAKENING OVER MEXICO...
+...TORRENTIAL RAINS COULD PRODUCE FLASH FLOODS AND MUDSLIDES...
+
+
+SUMMARY OF 400 AM CDT...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...19.0N 97.0W
+ABOUT 55 MI...85 KM WSW OF VERACRUZ MEXICO
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...W OR 270 DEGREES AT 10 MPH...17 KM/H
+MINIMUM CENTRAL PRESSURE...1003 MB...29.62 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+None.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Warning is in effect for...
+* Roca Partido northward to Tecolutla, Mexico.
+
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 400 AM CDT (0900 UTC), the center of Tropical Storm Earl was
+located near latitude 19.0 North, longitude 97.0 West. Earl is
+moving toward the west near 10 mph (17 km/h) and this motion is
+expected to continue today.
+
+Maximum sustained winds have decreased to near 40 mph (65 km/h) with
+higher gusts.  Continued weakening is forecast as Earl moves into
+the mountains of Mexico, and the cyclone is forecast to dissipate
+by Saturday night.
+
+Tropical-storm-force winds extend outward up to 125 miles (205 km)
+mainly over water to the northeast of the center.
+
+The estimated minimum central pressure is 1003 mb (29.62 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Tropical storm conditions over the warning area should end
+later this morning.
+
+RAINFALL:  Earl is expected to produce storm total rainfall of 8 to
+12 inches with isolated maximum amounts 18 inches over portions of
+the Mexican states of Guerrero, Hidalgo, Oaxaca, Puebla, Tlaxcala
+and Veracruz through Saturday night. These rains could result in
+life-threatening flash floods and mudslides.
+
+
+NEXT ADVISORY
+-------------
+Next intermediate advisory at 700 AM CDT.
+Next complete advisory at 1000 AM CDT.
+
+$$
+Forecaster Beven
+
+
+

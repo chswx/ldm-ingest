@@ -1,0 +1,40 @@
+
+607 
+WTNT43 KNHC 242037
+TCDAT3
+
+TROPICAL DEPRESSION LISA DISCUSSION NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST SAT SEP 24 2016
+
+Lisa has been devoid of thunderstorm activity since the convective
+burst dissipated shortly after 1200 UTC.  Assuming some additional
+spin down since the ASCAT pass this morning, the initial wind speed
+is lowered to 30 kt, making Lisa a tropical depression again.
+Meteosat dust product images from the GOES-R Proving Ground indicate
+that a plume of Saharan dust is approaching Lisa from the east. This
+dry air combined with westerly shear should cause the depression to
+degenerate to a remnant low by tonight and continue weakening during
+the next day or two.  The global models are in fair agreement in
+showing the low opening into a trough in 36 to 48 hours before it
+gets absorbed by a cold front.
+
+Lisa is moving northwestward at 10 kt.  A gradual turn to the north
+is expected during the next day or two while the high pressure
+system to the north of Lisa shifts eastward.  The NHC track forecast
+is slightly to the left of the previous one, and is in best
+agreement with the various consensus aids.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/2100Z 25.3N  39.7W   30 KT  35 MPH
+ 12H  25/0600Z 26.4N  41.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  25/1800Z 28.4N  42.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  26/0600Z 30.5N  42.4W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  26/1800Z...DISSIPATED
+
+$$
+Forecaster Cangialosi
+
+
+

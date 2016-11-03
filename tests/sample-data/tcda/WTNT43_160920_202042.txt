@@ -1,0 +1,57 @@
+
+563 
+WTNT43 KNHC 202042
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST TUE SEP 20 2016
+
+During the past six hours, a central dense overcast (CDO) feature
+has developed over and to the east of Lisa's low-level center. The
+upper-level outflow has also improved, albeit elongated northeast-
+to-southwest.  The initial intensity has been increased to 40 kt,
+which is a blend of a Dvorak satellite intensity estimate of T2.5/35
+kt from TAFB, a UW-CIMSS ADT values of T2.9/43 kt, and a 1611Z AMSU
+estimate of 44 kt.
+
+The initial motion estimate is 315/10 kt. Lisa has made a jog to the
+right of the previous forecast track and model guidance, which is
+most likely due to the center reforming closer to the strongest
+convection. Other than shifting the forecast track to the right of
+the previous advisory track to account for the more eastward initial
+position, the forecast rationale remains unchanged. The latest NHC
+model guidance continues to indicate a steady northwestward motion
+for the next four days toward a break in the subtropical ridge
+between 30W-40W longitude.  On day 5, Lisa is expected to move
+northward as the ridge erodes eastward. The new NHC forecast track
+lies down the middle of the tightly packed guidance envelope through
+day 4, and then follows a blend of the ECMWF and HWRF models on day
+5 since those models maintain the cyclone longer.
+
+Lisa has another 36 hours or so to strengthen some more before the
+large-scale environment becomes very unfavorable, which will be
+characterized by southwesterly vertical wind shear of 25-30 kt,
+drier and more stable air, and SSTs less than 27 deg C. It is
+possible that Lisa could end up being a little stronger between the
+24- and 36-hour forecast periods. By 48 hours, however, steady
+weakening is expected to ensue, with Lisa becoming a remnant low
+pressure system by 120 hours. The intensity forecast closely follows
+the intensity consensus model IVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/2100Z 16.4N  31.0W   40 KT  45 MPH
+ 12H  21/0600Z 17.2N  32.1W   45 KT  50 MPH
+ 24H  21/1800Z 18.1N  33.6W   50 KT  60 MPH
+ 36H  22/0600Z 19.0N  35.0W   50 KT  60 MPH
+ 48H  22/1800Z 20.0N  36.5W   45 KT  50 MPH
+ 72H  23/1800Z 22.7N  39.2W   35 KT  40 MPH
+ 96H  24/1800Z 25.2N  42.0W   30 KT  35 MPH
+120H  25/1800Z 29.2N  44.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Stewart
+
+
+

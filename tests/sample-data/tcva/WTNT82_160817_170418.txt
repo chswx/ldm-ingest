@@ -1,0 +1,47 @@
+
+596 
+WTNT82 EGRR 170418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 17.08.2016
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER   6 HOURS
+              FORECAST POSITION AT T+  6 : 12.8N  34.7W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 17.08.2016   12  13.6N  35.9W     1009            29
+    0000UTC 18.08.2016   24  15.0N  38.2W     1011            28
+    1200UTC 18.08.2016   36  16.1N  39.9W     1010            30
+    0000UTC 19.08.2016   48  16.9N  41.5W     1010            29
+    1200UTC 19.08.2016   60  17.2N  43.1W     1010            27
+    0000UTC 20.08.2016   72  17.3N  45.0W     1011            24
+    1200UTC 20.08.2016   84  18.2N  47.4W     1011            26
+    0000UTC 21.08.2016   96  18.8N  49.3W     1013            24
+    1200UTC 21.08.2016  108  20.0N  51.8W     1014            26
+    0000UTC 22.08.2016  120  21.5N  54.5W     1015            22
+    1200UTC 22.08.2016  132  22.6N  56.5W     1014            24
+    0000UTC 23.08.2016  144  24.1N  58.6W     1015            23
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 102 HOURS
+              FORECAST POSITION AT T+102 : 18.4N 173.6W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 21.08.2016  108  19.1N 174.7W     1008            28
+    0000UTC 22.08.2016  120  19.8N 176.5W     1007            27
+    1200UTC 22.08.2016  132  20.2N 177.2W     1005            29
+    0000UTC 23.08.2016  144  20.0N 177.2W     1005            29
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 170418
+

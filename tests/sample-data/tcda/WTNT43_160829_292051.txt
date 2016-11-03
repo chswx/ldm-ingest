@@ -1,0 +1,52 @@
+
+464 
+WTNT43 KNHC 292051
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 PM EDT MON AUG 29 2016
+
+Satellite and radar images suggest that the depression is becoming
+better organized.  Convection has formed in the northwestern
+quadrant, with some banding features in the northern semicircle of
+the cyclone.  Aircraft data, however, show that the pressure has
+stayed the same as 6 hours ago and the winds have not increased.
+Thus the initial wind speed remains 30 kt.  This burst of convection
+should eventually lead to some intensification as environmental
+factors (less shear and more moisture) are forecast to become a
+little more favorable. Most of the guidance are in good agreement on
+this scenario on gradual intensification, and the latest forecast is
+close to the previous one and the model consensus.
+
+The depression is still moving northwestward at about 6 kt.
+There has been no change to the synoptic reasoning from the last
+advisory cycle. The cyclone should slow down and turn northward
+tomorrow as it reaches a weakness in the subtropical ridge near the
+North Carolina coast.  In about 36 hours, a mid-latitude shortwave
+trough moving through the northeastern United States is forecast to
+erode the ridge and cause the cyclone to recurve northeastward into
+the westerlies.  The latest NHC prediction is very close to the
+previous one, between the model consensus and the GFS model.  The
+cyclone should dissipate or be absorbed within a large extratropical
+cyclone in about 4 days.
+
+Due to the close pass of the cyclone to the Outer Banks, a Tropical
+Storm Warning has been issued for the coast of North Carolina from
+Cape Lookout to Oregon Inlet, including Pamlico Sound.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/2100Z 33.6N  74.0W   30 KT  35 MPH
+ 12H  30/0600Z 34.0N  74.7W   30 KT  35 MPH
+ 24H  30/1800Z 34.6N  75.0W   35 KT  40 MPH
+ 36H  31/0600Z 35.4N  74.5W   35 KT  40 MPH
+ 48H  31/1800Z 36.7N  72.4W   40 KT  45 MPH
+ 72H  01/1800Z 40.5N  64.5W   45 KT  50 MPH
+ 96H  02/1800Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

@@ -1,0 +1,68 @@
+
+757 
+WTNT44 KNHC 300854
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+400 AM CDT TUE AUG 30 2016
+
+Although there has been an increase in convection over the
+southeastern portion of the depression's circulation, the system is
+still being affected by westerly shear, with the low-level center
+exposed to the west of the deep convection.  Recent observations
+from a NOAA Hurricane Hunter aircraft and the unmanned NASA Global
+Hawk indicate that the tropical cyclone remains just below tropical
+storm strength.  The NOAA aircraft has reported peak flight level
+winds in the southeastern quadrant of 32 kt, and believable SFMR
+winds of around 30 kt.  A dropsonde from the Global Hawk reported
+33 kt surface winds, but the mean-layer wind over the lowest 150 m
+support winds closer to 30 kt.  A very recent center drop from the
+unmanned aircraft indicate that the minimum pressure is 1003 mb.
+
+The westerly shear over the depression is forecast to decrease
+somewhat during the next day or so, however dry mid-level air is
+expected to remain near and to the west of the system.  As a
+result of the marginal environment, only gradual strengthening
+is predicted during the next couple of days.  This is supported
+by the global models which do not significantly deepen the system
+until is moves over the western Atlantic and interacts with an
+upper-level trough.  The NHC intensity forecast is unchanged from
+the previous advisory and remains near the intensity consensus
+model IVCN.
+
+The aircraft fixes show that the depression has moved westward
+since the previous advisory, and the initial motion estimate is
+275/6 kt.  The cyclone is forecast to turn west-northwestward, then
+northwestward tonight around a low- to mid-level ridge over
+the western Atlantic and Florida.  After that time, a deepening
+mid-latitude trough over the southeastern United States should
+cause the system to turn northeastward toward the Florida Big
+Bend region.  The dynamical models continue to agree on this
+scenario, but there are some differences in the forward speed of
+the system after 36 hours, and the NHC track is near the consensus
+of the GFS and ECMWF models.  The more westward initial position has
+required a westward adjustment to the track through 24 hours, but
+otherwise, the new NHC track forecast is similar to the previous
+advisory.
+
+Given the current forecast, a tropical storm or hurricane watch may
+be required for a portion of the Florida Gulf coast later today.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0900Z 23.8N  86.6W   30 KT  35 MPH
+ 12H  30/1800Z 24.2N  87.3W   35 KT  40 MPH
+ 24H  31/0600Z 24.9N  87.6W   40 KT  45 MPH
+ 36H  31/1800Z 26.2N  86.9W   45 KT  50 MPH
+ 48H  01/0600Z 27.7N  85.5W   55 KT  65 MPH
+ 72H  02/0600Z 30.7N  81.1W   50 KT  60 MPH
+ 96H  03/0600Z 33.2N  74.0W   50 KT  60 MPH
+120H  04/0600Z 35.5N  67.5W   50 KT  60 MPH
+
+$$
+Forecaster Brown
+
+
+

@@ -1,0 +1,64 @@
+
+070 
+WTNT44 KNHC 022038
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 PM EDT SUN OCT 02 2016
+
+After temporarily losing some of its organization this morning,
+Matthew has become a little more impressive in its appearance.  The
+eye, while not quite cleared out on visible imagery, has become more
+distinct during the day and the overall cloud pattern has become a
+bit more symmetric.  Consistent with these changes, observations
+from the Air Force Hurricane Hunters indicated that some
+strengthening has taken place.  The advisory intensity is set
+to 125 kt based on a blend of flight-level winds, SFMR-observed
+surface winds, and eyewall dropsonde data from the aircraft.
+
+Dynamical guidance indicates that the vertical shear over Matthew
+should remain low or at most moderate at least until the cyclone
+moves near the Bahamas, which would imply little decrease in
+intensity.  However, interactions with land should cause some
+weakening during the next couple of days.  Aside from that, some
+fluctuations in strength could occur due to eyewall replacements.
+The official intensity forecast is near or above the latest model
+consensus.
+
+Earlier today, the hurricane meandered westward for several hours,
+but recent aircraft and satellite fixes indicate that the motion is
+northwestward, albeit slowly, at around 4 kt.  The track forecast
+reasoning is about the same as in the previous advisory package.
+Matthew is expected to turn northward and move along the western
+side of a mid-level high pressure area for the next several days.
+Later in the forecast period, a ridge building slightly to the north
+of the tropical cyclone could induce a turn to the left.  In
+general, the track models have not shifted closer to the coast with
+the exception of the U.K. Met. Office global model, which is an
+outlier.  The official track forecast is along essentially the same
+trajectory as the previous one, but is a little slower than before.
+This is slightly west of the latest multi-model consensus.
+
+Although the official forecast continues to show a track east of
+Florida, it is still too soon to rule out possible possible
+hurricane impacts there.  It is also too soon to know whether, or
+how, Matthew might affect the remainder of the United States east
+coast.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/2100Z 14.6N  74.8W  125 KT 145 MPH
+ 12H  03/0600Z 15.4N  74.9W  125 KT 145 MPH
+ 24H  03/1800Z 16.7N  74.9W  125 KT 145 MPH
+ 36H  04/0600Z 18.3N  74.7W  115 KT 130 MPH
+ 48H  04/1800Z 20.1N  74.5W  110 KT 125 MPH...INLAND
+ 72H  05/1800Z 23.6N  75.1W  100 KT 115 MPH
+ 96H  06/1800Z 26.8N  76.1W   95 KT 110 MPH
+120H  07/1800Z 30.0N  76.5W   90 KT 105 MPH
+
+$$
+Forecaster Pasch
+
+
+

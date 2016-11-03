@@ -1,0 +1,55 @@
+
+401 
+WTNT41 KNHC 201451
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 AM AST SAT AUG 20 2016
+
+Fiona is fighting off southwesterly shear this morning as the center
+has become embedded under the southwestern side of an area of deep
+convection.  The Dvorak estimates from TAFB and SAB have held
+steady, so the initial intensity is held at 35 kt.  Although a
+recent ASCAT overpass missed the center of Fiona, the pass did show
+30-kt winds more than 50 n mi east of the center, suggesting that
+tropical-storm-force winds could be occurring closer to the center
+of circulation. Strong southwesterly shear of 25 to 30 kt is
+forecast to persist during the next few days. These unfavorable
+conditions combined with dry air along the path of the cyclone
+should induce a gradual weakening trend, and Fiona is expected to
+weaken to a tropical depression by tonight or early Sunday morning.
+The ECMWF and UKMET models continue to open this system into a
+trough within 3 days, whereas, the other model guidance lessens the
+shear slightly toward the end of the 5-day period and allows Fiona
+to survive for the next several days. The official forecast is
+similar to the previous one, and leans toward the ECMWF and UKMET
+model solutions.
+
+The initial position of Fiona is located slightly to the north of
+the previous forecast track, based on recent microwave data. The
+track forecast reasoning remains unchanged, as the low- to mid-level
+subtropical ridge over the central Atlantic should keep Fiona moving
+west-northwestward for the next several days.  There remains a fair
+amount of spread in the guidance, which appears largely dependent
+on the future strength and status of the cyclone.  The NHC track
+forecast lies on the western side of guidance, except for the short
+term forecast positions where a slight adjustment to the north was
+made due to the initial position and motion.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/1500Z 20.3N  47.8W   35 KT  40 MPH
+ 12H  21/0000Z 21.2N  49.5W   35 KT  40 MPH
+ 24H  21/1200Z 22.3N  52.1W   30 KT  35 MPH
+ 36H  22/0000Z 23.3N  54.8W   30 KT  35 MPH
+ 48H  22/1200Z 24.2N  57.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  23/1200Z 26.2N  61.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  24/1200Z 28.2N  63.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  25/1200Z...DISSIPATED
+
+$$
+Forecaster Cangialosi/Latto
+
+
+

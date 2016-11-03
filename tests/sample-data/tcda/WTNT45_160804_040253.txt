@@ -1,0 +1,55 @@
+
+560 
+WTNT45 KNHC 040253
+TCDAT5
+
+HURRICANE EARL DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 PM CDT WED AUG 03 2016
+
+Earl has been under close surveillance by Air Force and NOAA
+Hurricane Hunter planes and the Belize Meteorological Service radar
+this evening.  The Air Force Hurricane Hunters found peak 700 mb
+flight-level winds of 72 kt which converts to a surface wind of 65
+kt, and this is used for the advisory intensity.  Belize radar
+imagery shows that the eyewall has been fluctuating between an open
+and closed structure over the past several hours.  There is little
+time left for Earl to strengthen before the center reaches the
+coast, and no significant intensification is anticipated before
+landfall.  A steady weakening trend will commence after the
+tropical cyclone moves inland.  Based on the latest track
+guidance, the center is forecast to only barely emerge into the
+extreme southern Bay of Campeche on Thursday, and this should limit
+reintensification at that time.  Earl is expected to become a
+remnant low and dissipate over the high mountains of south-central
+Mexico by the weekend or sooner.
+
+Earl continues to move slightly north of due west or 280/13 kt.
+The cyclone remains embedded in a well-defined steering flow to the
+south of a large and slow-moving mid-tropospheric high pressure
+system.  Little change has been made to the previous official
+forecast track and the current NHC forecast remains close to the
+multi-model consensus.
+
+After landfall, the biggest concern with Earl is rainfall.  Global
+models depict the system becoming enveloped within a much
+larger-scale cyclonic gyre that will cover much of southern Mexico
+in a couple of days.  This weather pattern will likely lead to
+copious rains, with isolated precipitation totals of 18 inches
+possible.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  04/0300Z 17.4N  87.6W   65 KT  75 MPH
+ 12H  04/1200Z 17.7N  89.3W   50 KT  60 MPH...INLAND
+ 24H  05/0000Z 18.2N  91.4W   30 KT  35 MPH...INLAND
+ 36H  05/1200Z 18.5N  93.5W   25 KT  30 MPH...INLAND
+ 48H  06/0000Z 18.8N  95.1W   30 KT  35 MPH...OVER WATER
+ 72H  07/0000Z 20.0N  98.3W   20 KT  25 MPH...INLAND
+ 96H  08/0000Z...DISSIPATED
+
+$$
+Forecaster Pasch
+
+
+

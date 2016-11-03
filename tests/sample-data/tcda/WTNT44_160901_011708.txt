@@ -1,0 +1,45 @@
+
+216 
+WTNT44 KNHC 011708
+TCDAT4
+
+TROPICAL STORM HERMINE SPECIAL DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1200 PM CDT THU SEP 01 2016
+
+Reports from a hurricane hunter aircraft indicate that
+the extent of tropical-storm-force winds has increased
+significantly in the eastern semicircle.  This requires an
+extension of the tropical storm warning southward along both
+Florida coasts.  This Special Advisory is being issued to modify
+the warnings, and to update the analyzed and forecast wind radii.
+
+KEY MESSAGES:
+
+1. It is important to not focus on the exact forecast track.
+Hermine is an extremely asymmetric storm, with a large extent of
+dangerous winds, life-threatening storm surge, and flooding rains
+well to the east and southeast of the path of the center.
+
+2. Hermine is expected to undergo a complex interaction with a
+frontal system when it reaches the Carolinas over the weekend.  It
+is a little early to say what the specific impacts will be for the
+mid-Atlantic and northeastern states.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/1700Z 27.8N  85.6W   60 KT  70 MPH
+ 12H  02/0000Z 29.0N  84.8W   65 KT  75 MPH
+ 24H  02/1200Z 31.1N  82.9W   50 KT  60 MPH...INLAND
+ 36H  03/0000Z 33.1N  80.0W   45 KT  50 MPH...INLAND
+ 48H  03/1200Z 35.2N  76.7W   40 KT  45 MPH...POST-TROP/EXTRATROP
+ 72H  04/1200Z 38.0N  72.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+ 96H  05/1200Z 38.5N  71.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+120H  06/1200Z 39.5N  70.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch/Franklin
+
+
+

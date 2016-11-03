@@ -1,0 +1,58 @@
+
+625 
+WTNT41 KNHC 220232
+TCDAT1
+
+TROPICAL DEPRESSION FIONA DISCUSSION NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST SUN AUG 21 2016
+
+Deep convection continues to sputter near the center of Fiona, with
+each successive burst a little smaller and less organized than the
+previous ones that sheared off in the strong westerly upper-level
+winds.  Given that earlier ASCAT data only showed a few 35-kt winds
+and the decrease in convective organization since that time, the
+initial intensity is set to 30 kt, which is also in agreement with
+the latest TAFB Dvorak estimate.
+
+The intensity forecast remains tricky.  Fiona has been slowly
+weakening due to about 30 kt of westerly wind shear and mid-level
+dry air, and the NHC forecast shows the cyclone becoming a remnant
+low in the next 24 to 36 hours.  However, the shear is forecast to
+decrease to 10 kt or less by 48 hours and the mid-levels begin to
+moisten according to the SHIPS model forecast.  Therefore, if Fiona
+can survive the next 24 to 36 hours, the environment will become
+more conducive for restrengthening or maintaining the system as a
+tropical cyclone.  The global models still disagree on the fate of
+Fiona, with the ECMWF showing dissipation in 2-3 days while the GFS
+and UKMET keep Fiona as a weak low through 5 days.  The NHC forecast
+maintains continuity and indicates dissipation in 5 days as a
+compromise between these possibilities.
+
+The initial motion estimate is 290/16, as Fiona continues to move
+quickly west-northwestward under the influence of a low- to mid-
+level ridge over the central Atlantic.  Fiona, or its remnants, will
+move around the western side of the ridge during the next several
+days, which should result is a poleward turn and a decrease in
+forward speed.  The new NHC forecast is largely an update of the
+previous one through dissipation.  There continues to be a fair
+amount of cross-track spread late in the period, and the NHC track
+still favors the GFS solution and lies to the right of the multi-
+model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/0300Z 23.8N  56.6W   30 KT  35 MPH
+ 12H  22/1200Z 24.5N  58.6W   30 KT  35 MPH
+ 24H  23/0000Z 25.3N  60.9W   30 KT  35 MPH
+ 36H  23/1200Z 26.2N  62.8W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  24/0000Z 27.0N  64.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  25/0000Z 29.0N  67.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  26/0000Z 30.5N  68.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  27/0000Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

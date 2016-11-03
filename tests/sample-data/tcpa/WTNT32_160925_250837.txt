@@ -1,0 +1,63 @@
+
+310 
+WTNT32 KNHC 250837
+TCPAT2
+
+BULLETIN
+TROPICAL STORM KARL ADVISORY NUMBER  44
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST SUN SEP 25 2016
+
+...KARL RACING NORTHEASTWARD OVER THE NORTH ATLANTIC...
+...EXPECTED TO BECOME A POWERFUL POST-TROPICAL CYCLONE LATER
+TODAY...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...37.5N 53.5W
+ABOUT 635 MI...1025 KM S OF CAPE RACE NEWFOUNDLAND
+MAXIMUM SUSTAINED WINDS...70 MPH...110 KM/H
+PRESENT MOVEMENT...NE OR 55 DEGREES AT 46 MPH...74 KM/H
+MINIMUM CENTRAL PRESSURE...990 MB...29.24 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Storm Karl was
+located near latitude 37.5 North, longitude 53.5 West.  Karl is
+moving toward the northeast near 46 mph (74 km/h) and this general
+motion is expected to continue through today.
+
+Maximum sustained winds have increased to near 70 mph (110 km/h)
+with higher gusts.  Some additional strengthening is forecast during
+the next 24 hours, and Karl is expected to be at hurricane intensity
+when it becomes a post-tropical cyclone later today.  The
+post-tropical cyclone will be absorbed by a large extratropical low
+tonight or early Monday.
+
+Tropical-storm-force winds extend outward up to 185 miles (295 km)
+from the center.
+
+The estimated minimum central pressure is 990 mb (29.24 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Stewart
+
+
+

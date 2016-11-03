@@ -1,0 +1,57 @@
+
+279 
+WTNT43 KNHC 290254
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 PM EDT SUN AUG 28 2016
+
+Satellite imagery shows that Tropical Depression Eight is currently
+comprised of a swirl of low-level clouds accompanied by minimal
+shower activity.  This structure is due to the impacts of 20-25 kt
+of southeasterly vertical wind shear and abundant mid- to
+upper-level dry air seen in water vapor imagery.  Satellite
+intensity estimates from TAFB and SAB remain 30 kt, so that is the
+initial intensity for this advisory.
+
+The initial motion is 285/9.  For the next 48 hours, the depression
+is expected to move west-northwestward to northwestward toward a
+weakness in the subtropical ridge near the North Carolina coast.
+After that time, a mid-latitude shortwave trough moving through
+the northeastern United States is forecast to erode the ridge and
+cause the cyclone to recurve northeastward into the westerlies.  The
+track guidance is in good agreement with this scenario, and the new
+track forecast lies near the consensus models through 48 hours.
+
+The dynamical models forecast the shear to decrease during the
+next 48 hours and for the depression to move into a more moist
+environment.  Based on this, the intensity guidance is showing
+strengthening as the system approaches the coast of North Carolina.
+The intensity forecast also shows some strengthening, but it is on
+the low side of the guidance envelope due to uncertainty about
+whether the environment will become as favorable as the models are
+suggesting.  After recurvature, the cyclone is forecast to merge
+with a cold front and dissipate after 72 hours.
+
+The 48 hour position is about 35 n mi from Cape Hatteras.  This,
+combined with the various uncertainties in the forecast, requires a
+tropical storm watch for portions of the North Carolina coast at
+this time.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/0300Z 32.2N  72.1W   30 KT  35 MPH
+ 12H  29/1200Z 32.8N  73.4W   30 KT  35 MPH
+ 24H  30/0000Z 33.5N  74.6W   35 KT  40 MPH
+ 36H  30/1200Z 34.1N  75.3W   35 KT  40 MPH
+ 48H  31/0000Z 34.9N  75.1W   40 KT  45 MPH
+ 72H  01/0000Z 37.6N  71.5W   40 KT  45 MPH
+ 96H  02/0000Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

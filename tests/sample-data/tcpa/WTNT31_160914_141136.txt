@@ -1,0 +1,83 @@
+
+011 
+WTNT31 KNHC 141136
+TCPAT1
+
+BULLETIN
+TROPICAL STORM JULIA INTERMEDIATE ADVISORY NUMBER   2A
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+800 AM EDT WED SEP 14 2016
+
+...JULIA LIKELY TO WEAKEN TO A DEPRESSION LATER TODAY...
+
+
+SUMMARY OF 800 AM EDT...1200 UTC...INFORMATION
+----------------------------------------------
+LOCATION...31.2N 81.7W
+ABOUT 10 MI...20 KM W OF BRUNSWICK GEORGIA
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...N OR 010 DEGREES AT 7 MPH...11 KM/H
+MINIMUM CENTRAL PRESSURE...1011 MB...29.85 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+The Tropical Storm Warning from Fernandina Beach to Altamaha Sound
+has been discontinued.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+None.
+
+For storm information specific to your area, including possible
+inland watches and warnings, please monitor products issued by your
+local National Weather Service forecast office.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 800 AM EDT (1200 UTC), the center of Tropical Storm Julia was
+located near latitude 31.2 North, longitude 81.7 West.  Julia is
+moving toward the north near 7 mph (11 km/h).  A reduction in
+forward speed is expected today, and Julia is forecast to drift
+northward over eastern Georgia during the next couple of days.
+
+Maximum sustained winds are near 40 mph (65 km/h) with higher
+gusts.  Gradual weakening is forecast during the next day or so, and
+Julia is expected to weaken to a tropical depression later today.
+
+Tropical-storm-force winds extend outward up to 80 miles (130 km)
+primarily over water to the northeast of the center.
+
+The estimated minimum central pressure is 1011 mb (29.85 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND: Wind gusts to tropical storm force are possible along
+portions of the coasts of Georgia and southern South Carolina this
+morning.
+
+RAINFALL: Julia is expected to produce 3 to 6 inches of rain near
+the Georgia and South Carolina coastlines through Friday afternoon.
+Isolated totals of 10 inches are possible.  This rainfall could lead
+to flash flooding.  Flooding may be further compounded with
+persistent strong onshore flow reducing river and stream discharges.
+Additional rainfall amounts of 1 to 2 inches are possible across
+northeast Florida today.
+
+TORNADOES: An isolated tornado is possible across coastal Georgia
+and southern South Carolina today.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM EDT.
+
+$$
+Forecaster Pasch
+
+
+

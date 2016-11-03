@@ -1,0 +1,66 @@
+
+190 
+WTNT44 KNHC 290251
+TCDAT4
+
+TROPICAL STORM MATTHEW DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+1100 PM AST WED SEP 28 2016
+
+Matthew crossed a portion of the Lesser Antilles today, and
+tropical-storm-force winds were experienced in various islands for
+several hours.  The strongest winds appeared to have occurred in
+Martinique which was located in the northeastern quadrant of the
+storm.  An Air Force plane currently investigating Matthew measured
+a peak wind at 850-mb of 73 kt, while the SFMR instrument measured
+54 kt. The minimum central pressure was 1004 mb. There are no signs
+of an inner core yet, but the cloud pattern has increased in
+organization, and the initial intensity was adjusted upward to 55
+kt.
+
+Matthew is forecast to move over warm waters and relatively low
+shear during the next few days, and these conditions should lead to
+gradual strengthening.  There is a possibility, however, that
+Matthew encounters some westerly shear in the central Caribbean well
+south of Haiti in a day or two. This is an area climatologically
+unfavorable for storms to intensify, and Matthew could reduce its
+rate of strengthening there.  After that, most of the models show a
+more conducive upper-level environment, and Matthew could intensify
+at a faster rate. The NHC forecast is not very different from its
+predecessor and follows closely the intensity consensus.
+
+Fixes from an Air Force plane indicate that Matthew is moving
+toward the west or 270 degrees at 13 kt.  A strong subtropical
+ridge over the Atlantic is steering Matthew westward, and some
+models even move the cyclone south of due west. Most of the guidance
+is very consistent with this track during the next 48 hours. After
+that time, guidance becomes more divergent, but in general, all
+models turn the cyclone toward the northwest and north. Of the
+historically reliable models, the westernmost track is the ECMWF
+ensemble mean while the easternmost is the HWRF. The NHC track
+forecast is in the middle of the TVCX and TVCN multi-model
+consensus, and does not depart very much from the previous official
+forecast.
+
+There will be very interesting days ahead as Matthew moves toward
+the central and western Caribbean Sea, and users are reminded that
+the average NHC track errors at days 4 and 5 are on the order of 180
+and 240 miles, respectively.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/0300Z 13.9N  63.1W   55 KT  65 MPH
+ 12H  29/1200Z 14.3N  65.3W   60 KT  70 MPH
+ 24H  30/0000Z 14.4N  67.9W   65 KT  75 MPH
+ 36H  30/1200Z 14.3N  70.0W   70 KT  80 MPH
+ 48H  01/0000Z 14.1N  71.5W   75 KT  85 MPH
+ 72H  02/0000Z 14.5N  73.5W   75 KT  85 MPH
+ 96H  03/0000Z 16.8N  75.0W   90 KT 105 MPH
+120H  04/0000Z 20.0N  75.5W   90 KT 105 MPH
+
+$$
+Forecaster Avila
+
+
+

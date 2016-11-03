@@ -1,0 +1,50 @@
+
+018 
+WTNT45 KNHC 042032
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 PM CDT THU AUG 04 2016
+
+Earl has continued to spin down as it moves farther inland over
+Guatemala.  The coverage of cold convective tops has decreased and
+is limited to an area southeast of the center and a rain band about
+140 n mi northeast of the center.  Assuming a steady weakening, the
+initial intensity has been lowered to 35 kt.  Earl is forecast to
+weaken to a tropical depression tonight and then could become a
+remnant low at any time in the next couple of days if the deep
+convection dissipates.  The low-level circulation of Earl or its
+remnants should dissipate by 72 hours over the high terrain of
+central Mexico.
+
+The initial motion estimate is now a bit north of due west, 280/09.
+The weakening tropical cyclone should continue moving westward to
+west-northwestward for the next couple of days to the south of a
+mid-level ridge centered over the Gulf of Mexico and southern United
+States.  The new NHC track forecast is similar to the previous one,
+and shows the center moving near the coast of the extreme southern
+Bay of Campeche in about 24 hours before moving back inland.  This
+track is close to the latest multi-model consensus.
+
+Earl is expected to produce very heavy rains over a large portion of
+Central America and southeastern Mexico.  In addition, global models
+continue to show a much larger-scale cyclonic gyre over southern
+Mexico during the next few days.  This weather pattern will likely
+lead to torrential rains, with isolated precipitation totals of 18
+inches possible.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  04/2100Z 17.6N  90.8W   35 KT  40 MPH...INLAND
+ 12H  05/0600Z 17.8N  92.3W   30 KT  35 MPH...INLAND
+ 24H  05/1800Z 18.3N  94.2W   30 KT  35 MPH...NEAR THE COAST
+ 36H  06/0600Z 18.6N  95.8W   30 KT  35 MPH...POST-TROP/INLAND
+ 48H  06/1800Z 19.0N  97.3W   25 KT  30 MPH...POST-TROP/INLAND
+ 72H  07/1800Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

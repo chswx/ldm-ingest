@@ -1,0 +1,61 @@
+
+233 
+WTNT41 KNHC 180244
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST WED AUG 17 2016
+
+For a time late this afternoon, it seemed that Fiona might lose all
+its deep convection.  However, a new burst developed around 2300 UTC
+and has persisted since that time.  An 0026 UTC ASCAT-B pass
+revealed that the cyclone is still producing a small area of
+tropical-storm-force winds, and the intensity remains 35 kt.
+
+Fiona has a tough road ahead.  Vertical shear right now is
+relatively low, but it is expected to begin increasing within the
+next 24 hours and then become belligerent out of the southwest by
+days 3 and 4.  In addition, the cyclone is surrounded by dry air,
+and any negative impacts that the dry air is already having on the
+convection is likely to be compounded once the shear increases in a
+few days.  With the exception of the GFDL, which makes Fiona a
+hurricane by the end of the forecast period, the rest of the
+intensity models respond to the unfavorable environment by showing
+relatively little strengthening.  The NHC forecast follows this same
+thinking, and it shows Fiona only modestly strengthening during the
+next 36 hours, with some weakening probable by day 3.  Based on the
+latest intensity guidance, the new NHC forecast has been adjusted
+downward from the previous forecast, but it still lies above the
+consensus at most forecast times.
+
+The recent ASCAT data helped to fix the center, and the initial
+motion estimate is now west-northwestward, or 300/14 kt.  A break
+in the mid-tropospheric ridge to the north of Fiona is expected to
+to migrate westward during the next few days, but the cyclone's
+shallow nature is expected to help maintain a west-northwestward
+motion for much of the forecast period.  The bulk of the track
+models are tightly clustered on such a heading.  However, the GFDL
+(which makes Fiona hurricane) shows a sharp northward turn, while
+the HWRF (which essentially shows no intensification) takes a much
+more southern track.  Since these two scenarios appear to cancel
+each other out, the NHC official forecast closely follows the
+consensus models, requiring a westward adjustment to the previous
+forecast.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/0300Z 15.5N  39.0W   35 KT  40 MPH
+ 12H  18/1200Z 16.3N  40.4W   35 KT  40 MPH
+ 24H  19/0000Z 17.1N  41.9W   40 KT  45 MPH
+ 36H  19/1200Z 17.8N  43.5W   45 KT  50 MPH
+ 48H  20/0000Z 18.6N  45.2W   45 KT  50 MPH
+ 72H  21/0000Z 20.6N  49.1W   40 KT  45 MPH
+ 96H  22/0000Z 22.5N  53.0W   40 KT  45 MPH
+120H  23/0000Z 24.5N  57.0W   40 KT  45 MPH
+
+$$
+Forecaster Berg
+
+
+

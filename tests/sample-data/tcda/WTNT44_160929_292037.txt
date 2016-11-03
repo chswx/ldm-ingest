@@ -1,0 +1,58 @@
+
+783 
+WTNT44 KNHC 292037
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 PM AST THU SEP 29 2016
+
+After the low-level center became nearly exposed this morning, deep
+convection has redeveloped over the center.  The overall cloud
+pattern of Matthew has become better organized during the day, with
+some banding features over the eastern and northern portions of the
+circulation.  Thanks to some timely observations from the Air Force
+Hurricane Hunters, Matthew was upgraded to a hurricane at 18Z.  This
+was based on several believable SFMR-observed surface wind
+measurements from the aircraft.  Matthew is forecast to remain in an
+environment of 15 to 20 kt of shear into Friday, with some
+relaxation of the shear expected by late Friday.  The official
+intensity forecast is a little higher than the previous one, and is
+a little above the model consensus but close to the latest HWRF
+model prediction.
+
+Matthew has not slowed down yet, with the initial motion remaining
+westward at 15 kt.  A mid-tropospheric ridge to the north of the
+hurricane should maintain a westward to slightly south of westward
+motion for the next 48 hours or so.  Then, Matthew is likely to
+turn to the right as it nears the western periphery of the ridge,
+and head generally northward to the southwest and west of the high
+and east of a trough over the Gulf of Mexico late in the forecast
+period.  One should not focus on the details of the track at 72 to
+120 hours due to the inherent forecast uncertainties.  It should be
+noted that the NOAA G-IV aircraft is currently doing a synoptic
+surveillance mission to provide data in the environment of Matthew
+for initializing the numerical models.  It is hoped that these
+additional data will improve the accuracy of tonight's model
+runs.
+
+The unusually far south track of Matthew has necessitated the
+issuance of a tropical storm watch for a portion of the coast of
+Colombia.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/2100Z 14.1N  67.8W   65 KT  75 MPH
+ 12H  30/0600Z 14.0N  69.6W   70 KT  80 MPH
+ 24H  30/1800Z 13.8N  71.5W   75 KT  85 MPH
+ 36H  01/0600Z 13.7N  72.7W   80 KT  90 MPH
+ 48H  01/1800Z 13.7N  73.7W   85 KT 100 MPH
+ 72H  02/1800Z 15.7N  75.1W   90 KT 105 MPH
+ 96H  03/1800Z 18.6N  75.5W   90 KT 105 MPH
+120H  04/1800Z 22.5N  75.5W   85 KT 100 MPH
+
+$$
+Forecaster Pasch/Brown
+
+
+

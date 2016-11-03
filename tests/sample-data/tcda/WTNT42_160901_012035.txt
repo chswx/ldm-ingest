@@ -1,0 +1,43 @@
+
+706 
+WTNT42 KNHC 012035
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  41
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST THU SEP 01 2016
+
+The eye of Gaston is no longer visible in geostationary imagery,
+which shows the coldest convective tops are located west and north
+of the center.  Dvorak classifications have decreased to T3.5/4.5
+from TAFB and T3.0/4.0 from SAB.  Based on the winds seen in the
+earlier ASCAT data, the initial intensity is lowered conservatively
+to 70 kt for this advisory.  Steady weakening is forecast as Gaston
+is moving over waters below 26C and in an environment of 20-30 kt of
+southwesterly shear.  The NHC forecast is a little lower than the
+previous one following the trend of all the guidance.  Gaston should
+become post-tropical in about 48 hours and dissipate shortly
+thereafter.
+
+The hurricane has accelerated east-northeastward this afternoon,
+with an initial motion estimate of 075/25.  The track model guidance
+is in good agreement showing Gaston continuing east-northeastward
+with a decrease in forward speed as the system weakens and decouples
+from the mid-level flow.  The new NHC track forecast is basically an
+update of the previous one and is very close to the latest multi-
+model consensus aid TVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/2100Z 38.3N  37.5W   70 KT  80 MPH
+ 12H  02/0600Z 38.9N  34.5W   60 KT  70 MPH
+ 24H  02/1800Z 39.5N  30.9W   50 KT  60 MPH
+ 36H  03/0600Z 40.3N  27.9W   40 KT  45 MPH
+ 48H  03/1800Z 41.6N  25.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  04/1800Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

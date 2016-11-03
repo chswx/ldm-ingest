@@ -1,0 +1,61 @@
+
+864 
+WTNT32 KNHC 290857
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  27
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST MON AUG 29 2016
+
+...GASTON DRIFTS NORTHWARD AND WEAKENS A LITTLE...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...30.8N 55.2W
+ABOUT 575 MI...925 KM E OF BERMUDA
+MAXIMUM SUSTAINED WINDS...115 MPH...185 KM/H
+PRESENT MOVEMENT...N OR 360 DEGREES AT 1 MPH...2 KM/H
+MINIMUM CENTRAL PRESSURE...960 MB...28.35 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Hurricane Gaston was located
+near latitude 30.8 North, longitude 55.2 West. Gaston is currently
+drifting northward.  A turn toward the northeast and a faster
+forward speed are expected later today or tonight, and an
+east-northeastward motion is expected on Tuesday.
+
+Maximum sustained winds have decreased to near 115 mph (185 km/h)
+with higher gusts.  Gaston is a category 3 hurricane on the
+Saffir-Simpson Hurricane Wind Scale.  Additional slow weakening is
+forecast during the next 48 hours.
+
+Hurricane-force winds extend outward up to 35 miles (55 km) from the
+center and tropical-storm-force winds extend outward up to 140 miles
+(220 km).
+
+The estimated minimum central pressure is 960 mb (28.35 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Beven
+
+
+

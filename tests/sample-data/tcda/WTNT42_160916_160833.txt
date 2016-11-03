@@ -1,0 +1,60 @@
+
+549 
+WTNT42 KNHC 160833
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST FRI SEP 16 2016
+
+Water vapor satellite imagery indicates that Karl is moving directly
+toward the base of a mid-/upper-level trough while being affected by
+at least 20 kt of westerly shear.  A recent SSMIS microwave pass
+showed that the deep convection remains displaced to the northeast
+of the center.  Since the structure of the cyclone has not changed
+since the last advisory, the initial intensity is held at 40 kt.
+
+The SSMIS data indicated that the center has moved a little north of
+previous position estimates, and the initial motion is now 280/11
+kt.  Karl may gain a little more latitude during the next 12-24
+hours, but after that time a strong subtropical ridge is expected to
+force the cyclone to move south of due west or possibly west-
+southwestward between 36-48 hours.  Once it reaches the western
+portion of the ridge and intensifies, Karl is likely to again gain
+some latitude, turning west-northwestward by days 4 and 5.  The
+track models all agree on this scenario and keep Karl well to the
+east and northeast of the Leeward Islands during the five-day
+forecast period.  Mainly because of the adjustment in the initial
+position, the new NHC track forecast is a little north of the
+previous forecast, and it lies closest to an average of the GFS and
+ECMWF solutions.
+
+Strong to moderate vertical shear is expected to persist for the
+next 24-36 hours, and little to no change in strength is anticipated
+during that time.  Even after 36 hours, Karl will be moving through
+a dry environment over the central tropical Atlantic, but lower
+shear and warming sea surface temperatures could allow for at least
+gradual strengthening.  The intensity models have trended a little
+bit higher at the end of the forecast period, and the new NHC
+forecast shows Karl potentially reaching hurricane intensity by day
+5.  This forecast is very close to the SHIPS and LGEM models.
+
+The initial 12-ft sea radii have been expanded considerably on this
+advisory based on recent altimeter wave height data.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/0900Z 18.3N  33.4W   40 KT  45 MPH
+ 12H  16/1800Z 18.7N  35.3W   40 KT  45 MPH
+ 24H  17/0600Z 18.7N  38.0W   40 KT  45 MPH
+ 36H  17/1800Z 18.3N  40.7W   40 KT  45 MPH
+ 48H  18/0600Z 17.7N  43.3W   45 KT  50 MPH
+ 72H  19/0600Z 17.6N  48.1W   50 KT  60 MPH
+ 96H  20/0600Z 19.0N  53.0W   55 KT  65 MPH
+120H  21/0600Z 21.5N  57.5W   65 KT  75 MPH
+
+$$
+Forecaster Berg
+
+
+

@@ -1,0 +1,65 @@
+
+112 
+WTNT45 KNHC 040854
+TCDAT5
+
+HURRICANE EARL DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 AM CDT THU AUG 04 2016
+
+The center of Earl made landfall just southwest of Belize City,
+Belize near 0600 UTC.  The last reports from an Air Force Reserve
+Hurricane Hunter aircraft included a 700-mb flight-level wind of 85
+kt, SFMR and dropsonde winds near 65 kt, and a minimum central
+pressure near 979 mb.  Based on these data, the landfall intensity
+is estimated to have been 70 kt.  The initial intensity for this
+advisory is reduced to 65 kt as Earl is now weakening over land.
+
+The initial motion is 275/13.  A high pressure ridge to the north
+of the tropical cyclone should steer it generally westward to
+west-northwestward for the next three days or so.  There is some
+spread in the track guidance that is significant for the chances of
+the system emerging over the Bay of Campeche.  The ECMWF and the
+GFS show a more northward motion, which would bring the center over
+water.  The UKMET shows a more westward motion, which would keep the
+center over southeastern Mexico south of the Bay of Campeche.  The
+new forecast track is closer to the GFS and ECMWF in having the
+center traverse the southern Bay of Campeche between 36-48 hours.
+Overall, the new track is an update of the previous track that lies
+near the various consensus models.
+
+Earl should weaken as it crosses Central America and Mexico, and it
+is expected to be a tropical depression by the time the center
+reaches the Bay of Campeche.  The cyclone is forecast to spend less
+than 12 hours over water, so the intensity forecast shows no
+re-intensification during that time.  After 48 hours, Earl or its
+remnants should move over the mountains of central Mexico, which
+should cause the low-level center to dissipate after 72 hours.  It
+should be noted that several global models forecast the development
+of a tropical cyclone off the Pacific coast of Mexico during the
+next five days.  If this occurs, it is likely to be associated with
+the remnants of the hurricane, but not a direct continuation of
+Earl.
+
+The biggest concern with Earl is rainfall.  Global models depict the
+system becoming enveloped within a much larger-scale cyclonic gyre
+that will cover much of southern Mexico during the next few days.
+This weather pattern will likely lead to copious rains, with
+isolated precipitation totals of 18 inches possible.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  04/0900Z 17.3N  88.9W   65 KT  75 MPH...INLAND
+ 12H  04/1800Z 17.8N  90.6W   45 KT  50 MPH...INLAND
+ 24H  05/0600Z 18.3N  92.7W   30 KT  35 MPH...INLAND
+ 36H  05/1800Z 18.6N  94.7W   30 KT  35 MPH...OVER WATER
+ 48H  06/0600Z 19.0N  96.1W   30 KT  35 MPH...INLAND
+ 72H  07/0600Z 19.5N  99.5W   20 KT  25 MPH...INLAND/REMNANT LOW
+ 96H  08/0600Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

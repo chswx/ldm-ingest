@@ -1,0 +1,72 @@
+
+015 
+WTNT41 KNHC 182032
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  20
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 PM EDT SUN SEP 18 2016
+
+Julia's low-level circulation has continued to improve despite the
+lack of organized deep convection near the well-defined center.
+However, some tight curved banding features consisting of shallow to
+moderate convection have developed within 100 nmi of the center
+during the past few hours, a hint that the mid-level moisture is
+beginning to increase. The initial intensity remains 25 kt based on
+on a TAFB intensity estimate of T1.5/25 kt, and a 1535Z ASCAT pass
+that showed some surface winds near 25 kt just north of the center.
+
+Julia is moving northwestward or 330/06 kt. The cyclone is forecast
+to slow down and gradually turn toward the north-northwest and north
+later tonight. A northward motion is then expected to persist, ahead
+of a strong shortwave trough that is forecast to move toward the
+western Carolinas, until Julia moves near or just onshore the the
+southeastern coast of North Carolina on Tuesday. After that time,
+it is uncertain whether or not a weakening Julia will lift out to
+the northeast and merge with a frontal boundary, or drift
+southwestward as a remnant low. Regardless of the status of Julia by
+72 hours, the models are in good agreement that the system will not
+be a tropical cyclone at that time or thereafter due to strong
+vertical wind shear and land interaction. The official track
+forecast is similar to the previous advisory, which is a compromise
+of the various global and regional model solutions.
+
+Julia has a narrow window of opportunity to strengthen tonight and
+Monday morning when the vertical wind shear is forecast to weaken
+significantly and the upper-level flow is expected to become more
+anticyclonic. These more conducive dynamics are forecast to coincide
+with the nighttime convective maximum period and also during the
+time when Julia will be over the Gulf Stream where SSTs are 29-30C.
+Buoy reports offshore the South Carolina coast indicate that surface
+dew points have increased to near 80F, a further indication that the
+atmosphere surrounding Julia is becoming more conducive for
+regeneration of convection near the center later tonight. By Monday
+afternoon and evening, increasing southwesterly shear ahead of the
+aforementioned shortwave trough should induce steady weakening,
+which is expected to continue as the cyclone approaches the coast
+of North Carolina. The intensity forecast remains unchanged is a
+little below the consensus model IVCN. However, due to the
+possibility that Julia could be a little stronger than currently
+expected, an Air Force Reserve Hurricane Hunter aircraft has
+tentatively been tasked to investigate the cyclone Monday afternoon.
+
+The primary threat from Julia will be locally heavy rainfall from
+eastern North Carolina northward to the Mid-Atlantic states and
+the northeastern U.S. when moisture from the cyclone, or its
+remnants, will interact with an approaching frontal system.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/2100Z 32.3N  78.0W   25 KT  30 MPH
+ 12H  19/0600Z 33.0N  78.0W   25 KT  30 MPH
+ 24H  19/1800Z 34.0N  77.7W   30 KT  35 MPH
+ 36H  20/0600Z 34.6N  77.5W   30 KT  35 MPH...INLAND
+ 48H  20/1800Z 34.9N  77.5W   25 KT  30 MPH...INLAND
+ 72H  21/1800Z 34.2N  78.2W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  22/1800Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

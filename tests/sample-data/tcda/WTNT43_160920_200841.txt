@@ -1,0 +1,56 @@
+
+774 
+WTNT43 KNHC 200841
+TCDAT3
+
+TROPICAL DEPRESSION THIRTEEN DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 AM AST TUE SEP 20 2016
+
+The cloud pattern of the depression is only slightly better
+organized than yesterday, with some broken convective banding over
+the northeastern portion of the circulation.  Overall, however, the
+system is elongated from southwest to northeast.  The initial
+intensity is held at 30 kt, in agreement with Dvorak estimates from
+both TAFB and SAB.  The tropical cyclone is expected to remain in a
+low shear environment for the next 48 hours or so, and therefore
+some strengthening is forecast during that time frame.  Later in
+the period, the dynamical environment is likely to become hostile
+for strengthening since shear associated with an upper-level trough
+is forecast to increase to around 30 kt in 3-4 days.  Given this
+expected change in the large-scale environment, weakening should
+begin in 2-3 days and the system is predicted to revert to tropical
+depression status by the end of the forecast period. Although the
+dynamical guidance shows some relaxation of the shear at the end of
+the period, the current thinking is that by that time the system
+will be too disrupted to be able to recover.  The official intensity
+forecast is close to the LGEM guidance through 72 hours and a little
+below it at days 4 and 5.
+
+There is considerable spread in center fixes and the initial motion
+is an uncertain 295/8 kt.  A weakness in the subtropical ridge
+along 30W-40W is likely to induce a more northwestward track
+during the next day or so, followed by a return to a west-
+northwestward motion as the ridge rebuilds a bit to the north
+of the cyclone.  Late in the forecast period, the system is
+forecast to turn back toward the northwest due to another weakness
+in the ridge.  The official track forecast is somewhat slower and
+to the right of the previous one but close to the new dynamical
+model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/0900Z 14.4N  29.6W   30 KT  35 MPH
+ 12H  20/1800Z 15.4N  30.7W   35 KT  40 MPH
+ 24H  21/0600Z 16.6N  32.2W   40 KT  45 MPH
+ 36H  21/1800Z 17.5N  34.0W   45 KT  50 MPH
+ 48H  22/0600Z 18.4N  35.8W   50 KT  60 MPH
+ 72H  23/0600Z 20.8N  38.3W   45 KT  50 MPH
+ 96H  24/0600Z 23.4N  40.6W   35 KT  40 MPH
+120H  25/0600Z 26.5N  43.5W   30 KT  35 MPH
+
+$$
+Forecaster Pasch
+
+
+

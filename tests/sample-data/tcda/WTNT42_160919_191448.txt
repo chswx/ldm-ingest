@@ -1,0 +1,63 @@
+
+711 
+WTNT42 KNHC 191448
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+1100 AM AST MON SEP 19 2016
+
+Visible satellite imagery shows Karl consists of a swirl of low
+clouds with nearly all of the associated deep convection located to
+the northeast of the exposed low-level center.  The structure has
+changed relatively little from six hours ago, and the initial wind
+speed remains 35 kt based on the Dvorak Current Intensity estimate
+from TAFB.
+
+Karl is still being affected by 10-15 kt of southwesterly vertical
+shear, and with the mid-level relative humidity in the surrounding
+environment only 40-50 percent, the cyclone continues to struggle
+to produce deep convection near its center and over the western
+part of the circulation.  However, the SHIPS guidance indicates
+that the shear should continue to decrease during the next few
+days, and mid-level moisture is likely to increase over 60 percent
+by day 3.  Therefore, only slight strengthening is anticipated
+during the next 48 hours, but that should be followed by quicker
+intensification on days 3-5, with Karl still expected to reach
+hurricane intensity by the end of the forecast period.  The updated
+official intensity forecast is very close to the SHIPS guidance for
+the entire forecast period, and it is just slightly below the
+previous forecast after 24 hours.
+
+The initial motion is just a little slower at 275/11 kt.  Karl's
+westward motion is the result of it being positioned south of the
+Bermuda-Azores high.  However, the cyclone is expected to reach a
+break in the ridge located over the western Atlantic in a few days,
+which will cause it to turn northwestward by day 3 and then
+northward by day 5.  The track models are tightly clustered through
+day 3 before Karl makes its turn, but there is more spread on days
+4 and 5 regarding where the turn will occur.  The GFS and GFS
+ensemble mean both take Karl farther west before it turns toward
+the north, while the bulk of the other models make the turn east of
+the previous forecast track.  For the sake of continuity, the
+updated official track forecast is very similar to the previous
+forecast, and it lies relatively close to a consensus of the GFS
+and ECMWF models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/1500Z 18.6N  48.3W   35 KT  40 MPH
+ 12H  20/0000Z 18.9N  50.3W   35 KT  40 MPH
+ 24H  20/1200Z 19.5N  52.8W   40 KT  45 MPH
+ 36H  21/0000Z 20.4N  55.2W   40 KT  45 MPH
+ 48H  21/1200Z 21.6N  57.7W   45 KT  50 MPH
+ 72H  22/1200Z 24.5N  62.3W   55 KT  65 MPH
+ 96H  23/1200Z 27.5N  65.5W   70 KT  80 MPH
+120H  24/1200Z 29.5N  65.0W   80 KT  90 MPH
+
+$$
+Forecaster Berg
+
+
+

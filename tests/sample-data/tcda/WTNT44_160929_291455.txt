@@ -1,0 +1,61 @@
+
+006 
+WTNT44 KNHC 291455
+TCDAT4
+
+TROPICAL STORM MATTHEW DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+1100 AM AST THU SEP 29 2016
+
+The center of Matthew is exposed to the southwest of the deep
+convection due to moderate southwesterly shear.  Despite the shear,
+data from an Air Force Reserve reconnaissance aircraft show that
+Matthew is a little stronger this morning.  The aircraft has
+measured peak 850 mb flight-level winds of 80 kt, and believable
+SFMR winds of around 60 kt, which is the basis for the initial
+intensity.  The minimum central pressure reported by the aircraft
+is down to 996 mb.
+
+Given the current shear and structure of Matthew, only slight
+strengthening is predicted during the next 24 hours.  The shear is
+forecast to slowly decrease over the next few days, although there
+are some differences in the upper-level wind forecasts between the
+ECMWF and GFS models.  The ECMWF keeps a band of southwesterly
+upper-level winds near Matthew, while the GFS generally shows lower
+shear.  The NHC forecast assumes that there will be a reduction in
+shear and calls for intensification similar to the previous
+advisory. The official wind speed forecast is between the lower
+statistical guidance and the more aggressive HWRF and GFDL models.
+
+Matthew is moving at 275/14 kt.  The tropical storm is expected to
+move westward to the south of a mid- to upper-level ridge over the
+western Atlantic during the next couple of days. In about 48 hours,
+Matthew should turn northwestward when it approaches the western
+periphery of the ridge.  After that time, the tropical cyclone is
+forecast to turn northward while a mid- to upper-level trough
+develops over the Gulf of Mexico.  The GFS is still much faster than
+the ECMWF at taking Matthew northward. Although the east/west spread
+among the higher quality track models is somewhat smaller this
+morning, there is still significant spread among the ECMWF ensembles
+beyond 3 days, and the overall confidence in the track forecast is
+still low.  The new NHC track forecast is essentially an update of
+the previous forecast and is very close to the multi-model
+consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/1500Z 14.2N  66.3W   60 KT  70 MPH
+ 12H  30/0000Z 14.3N  68.0W   60 KT  70 MPH
+ 24H  30/1200Z 14.1N  70.2W   65 KT  75 MPH
+ 36H  01/0000Z 13.9N  71.8W   70 KT  80 MPH
+ 48H  01/1200Z 13.9N  72.8W   75 KT  85 MPH
+ 72H  02/1200Z 15.3N  74.4W   80 KT  90 MPH
+ 96H  03/1200Z 18.0N  75.2W   85 KT 100 MPH
+120H  04/1200Z 21.5N  75.5W   80 KT  90 MPH
+
+$$
+Forecaster Brown
+
+
+

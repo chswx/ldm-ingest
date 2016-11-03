@@ -1,0 +1,51 @@
+
+649 
+WTNT44 KNHC 291443
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 AM EDT MON AUG 29 2016
+
+Deep convection associated with the tropical cyclone increased this
+morning, especially around western Cuba where rainfall totals of up
+to 12 inches may have occurred.  A NOAA Hurricane Hunter aircraft
+investigated the system earlier this morning and did not find winds
+of tropical storm force.  Based on those observations, and Dvorak
+satellite estimates, the current intensity is held at 30 kt.  An Air
+Force Hurricane Hunter aircraft is scheduled to investigate the
+depression this afternoon, which should give a better estimate of
+the strength of the system.  Vertical shear should remain modest
+for the next couple of days, but begin to increase around 72 hours
+as the environment becomes more baroclinic with strong upper-level
+westerlies prevailing over northern Florida.  This is likely to
+discourage significant strengthening as the cyclone nears landfall.
+The official intensity forecast is close to the latest
+statistical/dynamical LGEM guidance.
+
+The center is not easy to locate but is believed to be situated
+near the northwestern edge of the cloud mass, and the motion is
+estimated to be 280/6 kt.  A mid-tropospheric shortwave trough
+developing over the southeastern United States is expected to
+induce a turn toward the north and northeast in 2 to 3 days,
+followed by acceleration toward the east-northeast late in the
+forecast period.  The official forecast is similar to that from the
+previous advisory, and is mainly a blend of the latest GFS and
+ECMWF solutions but leans toward the latter model.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/1500Z 23.6N  84.3W   30 KT  35 MPH
+ 12H  30/0000Z 23.9N  85.3W   35 KT  40 MPH
+ 24H  30/1200Z 24.4N  86.4W   40 KT  45 MPH
+ 36H  31/0000Z 25.0N  87.0W   45 KT  50 MPH
+ 48H  31/1200Z 26.1N  86.7W   50 KT  60 MPH
+ 72H  01/1200Z 28.6N  83.8W   55 KT  65 MPH
+ 96H  02/1200Z 31.5N  79.0W   50 KT  60 MPH
+120H  03/1200Z 34.0N  71.5W   50 KT  60 MPH
+
+$$
+Forecaster Pasch
+
+
+

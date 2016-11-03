@@ -1,0 +1,56 @@
+
+305 
+WTNT44 KNHC 050257
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  31
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 PM AST SUN SEP 04 2016
+
+Hermine remains a post-tropical cyclone with all of the deep
+convection located well north of the center.  Deep convection
+associated with the system has increased over the northern and
+northwestern portions of the circulation this evening, but it does
+not appear that there has been an increase in wind speed.  The
+initial intensity is set at 60 kt, which is in agreement with
+recent SFMR wind observations from an Air Force Reserve
+reconnaissance aircraft.  The aircraft has also recently reported a
+minimum pressure of 997 mb.  Little change in strength is expected
+overnight, but the global models indicate that weakening should
+begin by late Monday.  Continued weakening is expected during the
+remainder of the forecast period, and both the ECMWF and GFS
+dissipate the cyclone by day 5, and this is now reflected in the
+official forecast.
+
+Hermine has continued to move eastward since the previous advisory,
+but the most recent fix from the aircraft suggests that the eastward
+motion may be ending.  A shortwave trough moving off the coast
+of North Carolina should cause Hermine to turn northwestward later
+tonight, then a slow north-northwestward or northward motion should
+continue into Tuesday.  After that time, the cyclone should turn
+northeastward around the western portion of the mid- to upper-level
+ridge over the west-central Atlantic.  The NHC forecast track is
+once again a blend of the latest GFS and ECMWF models, but has been
+adjusted slightly eastward based on the more eastward initial
+position.
+
+The initial wind radii have been adjusted based on data from the
+reconnaissance aircraft and a recent ASCAT overpass.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  05/0300Z 37.2N  68.5W   60 KT  70 MPH...POST-TROPICAL
+ 12H  05/1200Z 37.9N  68.8W   60 KT  70 MPH...POST-TROPICAL
+ 24H  06/0000Z 38.7N  69.7W   55 KT  65 MPH...POST-TROPICAL
+ 36H  06/1200Z 39.2N  70.0W   45 KT  50 MPH...POST-TROPICAL
+ 48H  07/0000Z 39.8N  69.2W   40 KT  45 MPH...POST-TROPICAL
+ 72H  08/0000Z 40.6N  67.2W   35 KT  40 MPH...POST-TROPICAL
+ 96H  09/0000Z 42.5N  63.0W   30 KT  35 MPH...POST-TROPICAL
+120H  10/0000Z...DISSIPATED
+
+$$
+Forecaster Brown
+
+
+

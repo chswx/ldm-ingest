@@ -1,0 +1,64 @@
+
+069 
+WTNT32 KNHC 310850
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  35
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST WED AUG 31 2016
+
+...GASTON OVER THE NORTH-CENTRAL ATLANTIC WITH 120 MPH WINDS...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...33.4N 50.2W
+ABOUT 850 MI...1365 KM E OF BERMUDA
+ABOUT 1335 MI...2150 KM W OF THE AZORES
+MAXIMUM SUSTAINED WINDS...120 MPH...195 KM/H
+PRESENT MOVEMENT...NE OR 50 DEGREES AT 9 MPH...15 KM/H
+MINIMUM CENTRAL PRESSURE...956 MB...28.23 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+Interests in the Azores should monitor the progress of Gaston.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the well-defined eye of Hurricane
+Gaston was located near latitude 33.4 North, longitude 50.2 West.
+Gaston is moving toward the northeast near 9 mph (15 km/h).  An
+east-northeastward or northeastward motion with an increase in
+forward speed is expected during the next couple of days.
+
+Maximum sustained winds remain near 120 mph (195 km/h) with higher
+gusts.  Gaston is a category 3 hurricane on the Saffir-Simpson
+Hurricane Wind Scale.  Little change in strength is expected today,
+but weakening should begin tonight or early Thursday.
+
+Hurricane-force winds extend outward up to 45 miles (75 km) from the
+center and tropical-storm-force winds extend outward up to 160 miles
+(260 km).
+
+The estimated minimum central pressure is 956 mb (28.23 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Avila
+
+
+

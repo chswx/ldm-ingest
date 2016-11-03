@@ -1,0 +1,61 @@
+
+387 
+WTNT45 KNHC 130842
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 AM AST TUE SEP 13 2016
+
+Ian is a strongly sheared tropical storm.  The low-level center of
+the cyclone is completely exposed with the main area of deep
+convection located about 120 n mi northeast of the center.  This
+asymmetric cloud pattern is the result of about 30 kt of
+southwesterly vertical wind shear.  The initial intensity is held
+at 40 kt for this advisory, in agreement with the earlier ASCAT
+data.  This estimate is a little higher than the latest Dvorak
+classifications.
+
+Satellite fixes indicate that Ian has slowed down during the last
+several hours.  The initial motion estimate, using a 12-h average,
+is 335/8 kt.  The tropical cyclone is situated between a mid- to
+upper-level low to its west and a mid-level high to its east.  This
+pattern is expected to persist for the next couple of days, and
+should cause Ian to move north-northwestward to northward with a
+slight increase in forward speed.  After that time, a shortwave
+trough is expected to approach the tropical storm, and it will
+likely cause Ian to turn northeastward and accelerate as it becomes
+embedded in the mid-latitude flow.  The models are in fair agreement
+in this overall scenario, and only small changes were made to the
+previous NHC track forecast.  This prediction is in best agreement
+with the various consensus aids.
+
+The strong shear currently affecting Ian is expected to persist for
+another 24 hours, so little change in strength is predicted during
+that time.  The shear is forecast to lessen some in a couple of days
+while Ian is still over warm water.  These environmental conditions,
+combined with some baroclinic forcing, could allow for slight
+strengthening in the 36- to 72-h time period.  After that time, Ian
+is expected to move back into a strong shear environment and over
+progressively colder water, which should lead to extratropical
+transition in about 4 days.  The NHC intensity forecast is largely
+the same as the previous one, and is in best agreement with the
+SHIPS guidance during its tropical phase and the global models
+during the extratropical portion.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  13/0900Z 24.0N  51.7W   40 KT  45 MPH
+ 12H  13/1800Z 25.4N  52.5W   40 KT  45 MPH
+ 24H  14/0600Z 27.8N  53.4W   40 KT  45 MPH
+ 36H  14/1800Z 30.4N  53.8W   45 KT  50 MPH
+ 48H  15/0600Z 33.2N  53.1W   50 KT  60 MPH
+ 72H  16/0600Z 40.7N  46.1W   50 KT  60 MPH
+ 96H  17/0600Z 50.7N  32.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+120H  18/0600Z 58.5N  18.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Cangialosi
+
+
+

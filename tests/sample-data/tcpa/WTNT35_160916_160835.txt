@@ -1,0 +1,62 @@
+
+810 
+WTNT35 KNHC 160835
+TCPAT5
+
+BULLETIN
+TROPICAL STORM IAN ADVISORY NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 AM AST FRI SEP 16 2016
+
+...IAN RACING NORTHEASTWARD OVER THE NORTH ATLANTIC...
+...EXPECTED TO BECOME POST-TROPICAL LATER TODAY...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...45.2N 40.8W
+ABOUT 600 MI...965 KM E OF CAPE RACE NEWFOUNDLAND
+ABOUT 1500 MI...2410 KM SW OF REYKJAVIK ICELAND
+MAXIMUM SUSTAINED WINDS...60 MPH...95 KM/H
+PRESENT MOVEMENT...NE OR 40 DEGREES AT 48 MPH...78 KM/H
+MINIMUM CENTRAL PRESSURE...994 MB...29.36 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Storm Ian was
+located near latitude 45.2 North, longitude 40.8 West.  Ian is
+moving very quickly toward the northeast near 48 mph (78 km/h), and
+this motion is expected to continue through tonight, with a decrease
+in forward speed expected on Saturday.
+
+Maximum sustained winds are near 60 mph (95 km/h) with higher gusts.
+Little change in strength is forecast during the next 36 hours, but
+Ian is expected to become a post-tropical cyclone later today, and
+be absorbed by a frontal boundary on Saturday.
+
+Tropical-storm-force winds extend outward up to 205 miles (335 km)
+from the center.
+
+The estimated minimum central pressure is 994 mb (29.36 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Brennan
+
+
+

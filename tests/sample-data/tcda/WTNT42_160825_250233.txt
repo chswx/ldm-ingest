@@ -1,0 +1,51 @@
+
+813 
+WTNT42 KNHC 250233
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST WED AUG 24 2016
+
+Satellite intensity estimates from all agencies, recent ASCAT
+measurements, and numerous dropsondes from the unmanned NASA
+Global Hawk aircraft indicate that the initial intensity of Gaston
+remains at 60 kt. Strong upper-level westerlies blowing around the
+base of an upper low to the northwest of Gaston are already
+affecting the symmetry of the cyclone, and the low-level center is
+on the western edge of the convection. This strong westerly shear is
+expected to last for about 36 hours, resulting in some weakening.
+Most of the global models move the upper low toward the southwest,
+and in about 2 days, Gaston will again be in a favorable environment
+for intensification.  On this basin, the NHC forecast weakens the
+cyclone during the next 24 to 36 hours, and then calls for Gaston to
+intensify and reach hurricane strength over the warm waters of the
+central Atlantic. The forecast follows closely the SHIPS model and
+the intensity consensus.
+
+Gaston is moving toward the northwest or 310 degrees at 15 kt
+steered by the flow between the subtropical high and the same
+low that is causing the shear. As the low moves southwestward and
+the ridge to the north of the cyclone amplifies, Gaston should turn
+a little more toward the west-northwest with a decrease in forward
+speed. The NHC forecast is the middle of the guidance envelope and
+is basically on top of the latest multi-model consensus. No
+significant changes were made to the previous track forecast.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/0300Z 18.6N  42.1W   60 KT  70 MPH
+ 12H  25/1200Z 20.1N  44.0W   60 KT  70 MPH
+ 24H  26/0000Z 22.3N  46.0W   50 KT  60 MPH
+ 36H  26/1200Z 24.5N  48.3W   45 KT  50 MPH
+ 48H  27/0000Z 26.3N  51.0W   55 KT  65 MPH
+ 72H  28/0000Z 28.5N  55.5W   70 KT  80 MPH
+ 96H  29/0000Z 30.5N  58.5W   80 KT  90 MPH
+120H  30/0000Z 32.0N  59.5W   85 KT 100 MPH
+
+$$
+Forecaster Avila
+
+
+

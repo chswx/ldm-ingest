@@ -1,0 +1,47 @@
+
+033 
+WTNT42 KNHC 291447
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  28
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST MON AUG 29 2016
+
+Over the past few hours, the satellite presentation of Gaston has
+become slightly less organized, with decreasing convection noted in
+the eyewall.  Satellite estimates are a bit lower, so the initial
+wind speed is reduced to 95 kt.  Little change in intensity is
+expected for the next couple of days while Gaston remains over warm
+waters with light-to-moderate shear.  Thereafter, a gradual
+increase in shear, along with a decrease in SSTs, should cause a
+more significant weakening.  The latest NHC intensity forecast is
+simply an update of the previous one since the guidance continues
+to be in fairly good agreement.
+
+Gaston is still drifting northward. The steering currents should
+become better defined tomorrow as a ridge becomes established to
+the south of the cyclone.  The ridge should cause Gaston to
+accelerate to the east-northeast over the next few days, although
+the cyclone stays south of the main belt of mid-latitude
+westerlies.  Guidance is coming into better agreement on the system
+approaching the Azores in about 5 days, although there are some
+speed differences.  No significant changes were made to the
+previous forecast, which lies near or just south of the model
+consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/1500Z 31.0N  55.4W   95 KT 110 MPH
+ 12H  30/0000Z 31.3N  55.1W   95 KT 110 MPH
+ 24H  30/1200Z 31.9N  53.7W   95 KT 110 MPH
+ 36H  31/0000Z 32.6N  51.7W   90 KT 105 MPH
+ 48H  31/1200Z 33.7N  49.2W   90 KT 105 MPH
+ 72H  01/1200Z 36.7N  42.5W   80 KT  90 MPH
+ 96H  02/1200Z 38.0N  35.0W   65 KT  75 MPH
+120H  03/1200Z 39.0N  30.5W   50 KT  60 MPH
+
+$$
+Forecaster Blake
+
+
+

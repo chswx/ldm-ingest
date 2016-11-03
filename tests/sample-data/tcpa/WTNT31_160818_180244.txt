@@ -1,0 +1,58 @@
+
+056 
+WTNT31 KNHC 180244
+TCPAT1
+
+BULLETIN
+TROPICAL STORM FIONA ADVISORY NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST WED AUG 17 2016
+
+...FIONA TURNS WEST-NORTHWESTWARD WITH NO CHANGE IN STRENGTH...
+
+
+SUMMARY OF 1100 PM AST...0300 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...15.5N 39.0W
+ABOUT 995 MI...1605 KM W OF THE CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...WNW OR 300 DEGREES AT 16 MPH...26 KM/H
+MINIMUM CENTRAL PRESSURE...1006 MB...29.71 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 PM AST (0300 UTC), the center of Tropical Storm Fiona was
+located near latitude 15.5 North, longitude 39.0 West.  Fiona is
+moving toward the west-northwest near 16 mph (26 km/h), and this
+heading with a decrease in forward speed is expected during the
+next couple of days.
+
+Maximum sustained winds remain near 40 mph (65 km/h) with higher
+gusts.  Some strengthening is forecast during the next 48 hours.
+
+Tropical-storm-force winds extend outward up to 35 miles (55 km)
+to the north of the center.
+
+The estimated minimum central pressure is 1006 mb (29.71 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 AM AST.
+
+$$
+Forecaster Berg
+
+
+

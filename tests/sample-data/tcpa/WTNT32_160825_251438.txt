@@ -1,0 +1,61 @@
+
+633 
+WTNT32 KNHC 251438
+TCPAT2
+
+BULLETIN
+TROPICAL STORM GASTON ADVISORY NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST THU AUG 25 2016
+
+...GASTON WEAKENS TO A TROPICAL STORM OVER THE CENTRAL ATLANTIC...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...20.4N 44.4W
+ABOUT 1160 MI...1865 KM ENE OF THE LEEWARD ISLANDS
+MAXIMUM SUSTAINED WINDS...70 MPH...110 KM/H
+PRESENT MOVEMENT...NW OR 315 DEGREES AT 17 MPH...28 KM/H
+MINIMUM CENTRAL PRESSURE...992 MB...29.30 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Tropical Storm Gaston was
+located near latitude 20.4 North, longitude 44.4 West.  Gaston is
+moving toward the northwest near 17 mph (28 km/h), and this general
+motion is expected to continue through Friday.  A turn toward the
+west-northwest and a decrease in forward speed are expected on
+Saturday.
+
+Maximum sustained winds have decreased to near 70 mph (110 km/h)
+with higher gusts, and some additional weakening is possible today.
+However, some re-strengthening is expected to begin Friday night,
+and Gaston could become a hurricane again on Saturday.
+
+Tropical-storm-force winds extend outward up to 115 miles (185 km)
+from the center.
+
+The estimated minimum central pressure is 992 mb (29.30 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM AST.
+
+$$
+Forecaster Brennan
+
+
+

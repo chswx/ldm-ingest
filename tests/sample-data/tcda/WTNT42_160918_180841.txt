@@ -1,0 +1,49 @@
+
+691 
+WTNT42 KNHC 180841
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST SUN SEP 18 2016
+
+The structure of Karl has kept a similar appearance for some time
+now with a small area of convection flaring up and down near the
+center, with a larger mass of thunderstorms following the center in
+the northeastern quadrant.  The initial wind speed is held at 35 kt
+using the last TAFB satellite estimate.
+
+Karl's disorganized low-level structure will likely prevent much
+intensification in the short term.  However the environment
+near the tropical cyclone is likely to become conducive for
+strengthening within a couple of days due to lower shear, slightly
+more moisture, and warmer sea surface temperatures.  The intensity
+guidance is very similar to the previous model cycle, and only
+small changes were made to the previous NHC wind speed forecast.
+
+The initial motion estimate is 255/10.  A large subtropical high
+over the central Atlantic should provide a fairly well-defined
+steering current for the tropical storm over the next several days.
+This ridge will likely turn Karl to the west later today and to the
+west-northwest by early Tuesday through the end of the period.
+Other than a small westward adjustment through 72 hours, the new
+NHC track is similar to the previous one, near a model consensus
+favoring the faster GFS/ECMWF solutions.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/0900Z 17.7N  42.3W   35 KT  40 MPH
+ 12H  18/1800Z 17.7N  44.3W   35 KT  40 MPH
+ 24H  19/0600Z 18.0N  47.0W   40 KT  45 MPH
+ 36H  19/1800Z 18.6N  49.6W   40 KT  45 MPH
+ 48H  20/0600Z 19.3N  52.2W   45 KT  50 MPH
+ 72H  21/0600Z 21.5N  57.2W   55 KT  65 MPH
+ 96H  22/0600Z 23.9N  62.1W   65 KT  75 MPH
+120H  23/0600Z 26.5N  66.5W   75 KT  85 MPH
+
+$$
+Forecaster Blake
+
+
+

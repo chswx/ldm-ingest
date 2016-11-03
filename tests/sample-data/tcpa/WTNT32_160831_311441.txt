@@ -1,0 +1,66 @@
+
+704 
+WTNT32 KNHC 311441
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  36
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST WED AUG 31 2016
+
+...MAJOR HURRICANE GASTON MOVING FASTER TO THE EAST-NORTHEAST...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...34.0N 48.6W
+ABOUT 1150 MI...1850 KM W OF FAIAL ISLAND IN THE CENTRAL AZORES
+ABOUT 1235 MI...1990 KM W OF LAJES AIR BASE IN THE AZORES
+MAXIMUM SUSTAINED WINDS...115 MPH...185 KM/H
+PRESENT MOVEMENT...ENE OR 60 DEGREES AT 15 MPH...24 KM/H
+MINIMUM CENTRAL PRESSURE...961 MB...28.38 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+Interests in the Azores should monitor the progress of Gaston.  A
+hurricane or tropical storm watch could be issued later today.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Hurricane Gaston was
+located near latitude 34.0 North, longitude 48.6 West. Gaston is
+moving toward the east-northeast near 15 mph (24 km/h), and this
+general motion with an increase in forward speed is expected during
+the next couple of days.  On this track Gaston will be approaching
+the Azores on Friday.
+
+Maximum sustained winds are near 115 mph (185 km/h) with higher
+gusts.  Gaston is a category 3 hurricane on the Saffir-Simpson
+Hurricane Wind Scale.  Some gradual weakening is forecast during the
+next 48 hours.
+
+Hurricane-force winds extend outward up to 45 miles (75 km) from the
+center and tropical-storm-force winds extend outward up to 175 miles
+(280 km).
+
+The estimated minimum central pressure is 961 mb (28.38 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM AST.
+
+$$
+Forecaster Blake
+
+
+

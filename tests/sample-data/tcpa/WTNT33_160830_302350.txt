@@ -1,0 +1,75 @@
+
+901 
+WTNT33 KNHC 302350
+TCPAT3
+
+BULLETIN
+TROPICAL DEPRESSION EIGHT INTERMEDIATE ADVISORY NUMBER  10A
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+800 PM EDT TUE AUG 30 2016
+
+...DEPRESSION MOVING FARTHER AWAY FROM THE OUTER BANKS...
+...TROPICAL STORM WARNING FOR NORTH CAROLINA DISCONTINUED...
+
+
+SUMMARY OF 800 PM EDT...0000 UTC...INFORMATION
+----------------------------------------------
+LOCATION...34.4N 74.6W
+ABOUT 80 MI...130 KM SE OF CAPE HATTERAS NORTH CAROLINA
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...NE OR 45 DEGREES AT 5 MPH...7 KM/H
+MINIMUM CENTRAL PRESSURE...1011 MB...29.86 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+The Tropical Storm Warning for the coast of North Carolina has been
+discontinued.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+There are no coastal watches or warnings in effect.
+
+For storm information specific to your area, including possible
+inland watches and warnings, please monitor products issued by your
+local National Weather Service forecast office.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 800 PM EDT (0000 UTC), the center of Tropical Depression Eight
+was located near latitude 34.4 North, longitude 74.6 West. The
+depression is moving toward the northeast near 5 mph (7 km/h).
+This general motion is expected to continue through Wednesday.  On
+the forecast track, the center of the depression will continue to
+move away from the Outer Banks of North Carolina this evening and
+overnight.
+
+Maximum sustained winds remain near 35 mph (55 km/h) with higher
+gusts.  Some strengthening is forecast during the next 48 hours, and
+the depression could become a tropical storm overnight.
+
+The estimated minimum central pressure is 1011 mb (29.86 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Gusty winds, especially in showers, are still possible
+tonight along the coast of North Carolina.
+
+RAINFALL:  The depression is expected to produce total rain
+accumulations of 1 to 3 inches with isolated maximum amounts of 5
+inches over far eastern North Carolina, including the Outer Banks.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM EDT.
+
+$$
+Forecaster Berg
+
+
+

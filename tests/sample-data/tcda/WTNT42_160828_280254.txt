@@ -1,0 +1,53 @@
+
+326 
+WTNT42 KNHC 280254
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  22
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST SAT AUG 27 2016
+
+Gaston has become a hurricane again with a well-defined eye on
+microwave images that has been occasionally showing up on
+conventional satellite pictures.  Dvorak estimates are T4.5/77 kt
+from both TAFB and SAB, so the initial wind speed is increased to 75
+kt. The environment near Gaston, other than some dry mid-level air,
+looks conducive for strengthening for the next day or so.  While
+the environment doesn't change much in the next couple of days
+overall, Gaston is expected to move very slowly, which could upwell
+some cooler water.  Thus the wind speed forecast will be leveled
+off after 24 hours.  A more consistent weakening trend is expected
+beyond 72 hours when the cyclone moves over colder waters and
+experiences stronger shear.  The latest NHC prediction is higher
+than the previous one, mostly owing to the initial conditions, and
+is close to a blend of the FSU Superensemble and the intensity
+consensus.
+
+Satellite fixes show that Gaston is moving slower to the northwest,
+at about 7 kt.  The storm should continue to decelerate over the
+next day or so as it reaches a break in the subtropical ridge, and
+have a slow motion to the north or northeast from 24 to 48 hours.
+The next shortwave trough in the mid-latitude is forecast to reach
+Gaston in about 3 days, which will likely cause the hurricane to
+recurve to the east-northeast, albeit at a slower rate of speed than
+you normally see over the North Atlantic.  Guidance has not changed
+much since the last cycle, and the official forecast is basically an
+update of the previous one, a bit slower than the model consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/0300Z 29.6N  54.2W   75 KT  85 MPH
+ 12H  28/1200Z 30.1N  54.7W   85 KT 100 MPH
+ 24H  29/0000Z 30.7N  55.1W   95 KT 110 MPH
+ 36H  29/1200Z 31.0N  55.2W   95 KT 110 MPH
+ 48H  30/0000Z 31.4N  54.8W   90 KT 105 MPH
+ 72H  31/0000Z 32.6N  52.2W   90 KT 105 MPH
+ 96H  01/0000Z 34.6N  48.1W   85 KT 100 MPH
+120H  02/0000Z 37.5N  42.0W   70 KT  80 MPH
+
+$$
+Forecaster Blake
+
+
+

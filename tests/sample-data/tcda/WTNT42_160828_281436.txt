@@ -1,0 +1,47 @@
+
+756 
+WTNT42 KNHC 281436
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  24
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST SUN AUG 28 2016
+
+The eye was fairly distinct a few hours ago, but recently it has
+become slightly cloud-filled and the inner-core convection has
+become less symmetrical.  The current intensity is set at 90 kt,
+in agreement with a Dvorak estimate from TAFB and objective ADT
+values from UW-CIMSS.  Assuming the slight degradation of the inner
+core structure to be temporary, a little more strengthening is
+expected within the next 12 to 24 hours.  Gaston should remain in a
+low to moderate vertical wind shear environment for the next
+couple of days, which would allow the hurricane to more or less
+maintain its intensity through 36-48 hours.  By 72 hours and beyond,
+increasing westerly shear should induce weakening.  The official
+intensity forecast is close to the multi-model consensus IVCN.
+
+Steering currents are weak, and the initial motion is a
+northwestward drift or 320/4 kt.  Gaston's motion is being
+partially blocked by a narrow subtropical ridge, and this scenario
+should continue for the next day or so.  The hurricane is expected
+to gradually work its way through the ridge and, in 24 to 48 hours,
+begin to move northeastward and east-northeastward as it enters the
+mid-latitude westerlies.  The official forecast is close to a
+consensus of the ECMWF and GFS solutions.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/1500Z 30.5N  54.8W   90 KT 105 MPH
+ 12H  29/0000Z 30.8N  55.3W   95 KT 110 MPH
+ 24H  29/1200Z 31.2N  55.6W   95 KT 110 MPH
+ 36H  30/0000Z 31.6N  55.1W   90 KT 105 MPH
+ 48H  30/1200Z 32.4N  53.7W   90 KT 105 MPH
+ 72H  31/1200Z 34.3N  49.4W   80 KT  90 MPH
+ 96H  01/1200Z 36.5N  44.0W   75 KT  85 MPH
+120H  02/1200Z 38.5N  36.5W   70 KT  80 MPH
+
+$$
+Forecaster Pasch
+
+
+

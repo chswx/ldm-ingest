@@ -1,0 +1,51 @@
+
+358 
+WTNT43 KNHC 210241
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST TUE SEP 20 2016
+
+Deep convection has increased in coverage near and to the northeast
+of the center of Lisa this evening.  Although the exact center has
+been difficult to pinpoint in infrared satellite images, it appears
+that it is located near the southwestern edge of the convection due
+to some southwesterly shear.  Satellite intensity estimates still
+support a wind speed of around 40 kt, so the initial intensity is
+unchanged for this advisory.  Lisa has about 24 hours over warm
+water and in a marginally conducive upper-level wind environment in
+which to strengthen.  After that time, an upper-level low to Lisa's
+northwest is expected to produce strong southwesterly shear over
+the cyclone, which should cause weakening.  As a result, the NHC
+intensity forecast calls for peak intensity in about 24 hours,
+followed by steady weakening thereafter.  The official forecast is
+near the upper-end of the guidance at 24 hours, but is slightly
+lower than the consensus after that time.
+
+The somewhat uncertain initial motion estimate is 315/9 kt.  The
+track forecast appears to be fairly straight forward as Lisa
+should continue moving northwestward during the next several
+days toward a break in the subtropical ridge.  Late in the forecast
+period, the cyclone should turn northward ahead of a deepening mid-
+to upper-level trough over the west-central Atlantic.  The dynamical
+models are in good agreement on this scenario, and the NHC forecast
+is near a blend of the typically better performing ECMWF and GFS
+models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/0300Z 17.1N  31.7W   40 KT  45 MPH
+ 12H  21/1200Z 17.8N  32.7W   45 KT  50 MPH
+ 24H  22/0000Z 18.6N  34.0W   50 KT  60 MPH
+ 36H  22/1200Z 19.4N  35.2W   45 KT  50 MPH
+ 48H  23/0000Z 20.6N  36.7W   40 KT  45 MPH
+ 72H  24/0000Z 23.6N  39.8W   30 KT  35 MPH
+ 96H  25/0000Z 26.5N  42.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  26/0000Z 31.0N  43.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Brown
+
+
+

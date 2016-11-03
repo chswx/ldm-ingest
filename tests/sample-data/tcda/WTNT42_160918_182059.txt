@@ -1,0 +1,65 @@
+
+395 
+WTNT42 KNHC 182059
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  18
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 PM AST SUN SEP 18 2016
+
+Deep convection has gradually been increasing and becoming a little
+better organized since the previous advisory now that light
+upper-level southeasterly flow has replaced the previous hostile
+vertical wind shear conditions. Visible satellite imagery and ASCAT
+surface wind data from 1200Z-1300Z indicate that Karl's circulation
+remains well-defined, especially the inner-core wind field. The
+ASCAT data also revealed a large patch of 35-kt winds 60-100 nmi
+north and northeast of the center, and that is the intensity used
+for this advisory. The ASCAT data supports trimming back the 34-kt
+wind radius in the northeastern quadrant.
+
+Karl continues to move westward or 275/13 kt. Karl is expected to
+move westward along the southern periphery of the Bermuda-Azores
+ridge for the next couple of days, followed by a west-northwestward
+motion on days 3-5 as the cyclone approaches a weakness in the ridge
+located between Bermuda and the Bahamas. The global and regional
+models are in general agreement on this track scenario through 72
+hours, After that time, the models diverge significantly with the
+GFS, Navy COAMPS, and GFDL models taking Karl farther west as a
+weaker and more shallow cyclone, whereas the ECMWF, UKMET, and HWRF
+models move Karl more northwestward as a stronger and deeper system.
+For now, the official forecast track remains a compromise between
+these extremes, close to the consensus model solutions, due to the
+lack of a stable, consistent run-to-run forecast by the models.
+
+The GFS and ECMWF models continue to forecast the vertical wind
+shear to decrease to less than 10 kt from now through the end of the
+forecast period, with near-zero shear values occuring at times
+between 72-120 hours. Such low shear values continue to favor a
+strengthening trend, especially since Karl will be moving over 30C
+SSTs by days 4 and 5.  However, a somewhat dry mid-level environment
+is expected to temper the intensification process a little due to
+occasional intrusions of dry air into the inner-core region of
+Karl's circulation. Once the cyclone develops an eye feature, then
+strengthening will become more robust due to the low wind shear
+conditions and high sea-surface temperatures. Since these
+parameters can not be forecast very far in advance, the official
+intensity forecast continues to show slow strengthening throughout
+the period and remains close to the intensity consensus model IVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/2100Z 18.3N  45.0W   35 KT  40 MPH
+ 12H  19/0600Z 18.5N  47.0W   40 KT  45 MPH
+ 24H  19/1800Z 19.0N  49.7W   40 KT  45 MPH
+ 36H  20/0600Z 19.7N  52.2W   45 KT  50 MPH
+ 48H  20/1800Z 20.5N  54.7W   50 KT  60 MPH
+ 72H  21/1800Z 22.9N  59.7W   60 KT  70 MPH
+ 96H  22/1800Z 25.4N  64.2W   70 KT  80 MPH
+120H  23/1800Z 28.0N  67.0W   80 KT  90 MPH
+
+$$
+Forecaster Stewart
+
+
+

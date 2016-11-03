@@ -1,0 +1,58 @@
+
+967 
+WTNT42 KNHC 171452
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 AM AST SAT SEP 17 2016
+
+Karl has been in a fairly steady state during the past day or more
+with convection periodically firing near the center and a larger
+area of more continuous thunderstorms far from the center.  Ship
+BATFR18 reported sustained winds of about 40 kt at 1100 UTC, which
+support keeping that wind speed for this advisory.  The shear that
+has been affecting Karl should gradually diminish over the next
+couple of days as it moves away from a nearby upper-level low.  A
+small amount of weakening is possible in the short term since the
+system is still struggling against the shear. Thereafter,
+strengthening is anticipated due to Karl likely moving over
+very warm waters concurrent with rather light shear. One question
+mark is the amount of available moisture in the mid-levels, with
+both the ECMWF and the GFS showing a somewhat dry environment. While
+a lot of the tropical-cyclone-specific intensity guidance shows a
+hurricane at long range, the marginal moisture environment forecast
+by those two global models makes me think twice about going too
+high.  The new forecast is very similar to the previous one and is
+similar to a blend of the SHIPS/LGEM models.
+
+Karl has been wobbling a little south of due west during the day,
+depending on how much convection is near the center. A strengthening
+low- to mid-level ridge over the central Atlantic is expected to
+continue pushing Karl south of due west during the next 24 hours.
+After that time, Karl should move more to the west-northwest around
+the weakening ridge through day 4, well to the northeast of the
+Leeward Islands, and possibly turn northwestward by 120 hours while
+the cyclone approaches a weakness in the ridge.  The spread in the
+models have increased since the last advisory, perhaps due to Karl's
+interaction with the upper-low. The new model consensus and the
+previous official forecast were very close to one another, so no
+significant changes are made in the new NHC forecast.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/1500Z 18.3N  39.0W   40 KT  45 MPH
+ 12H  18/0000Z 18.1N  40.9W   35 KT  40 MPH
+ 24H  18/1200Z 17.8N  43.6W   35 KT  40 MPH
+ 36H  19/0000Z 17.8N  46.2W   40 KT  45 MPH
+ 48H  19/1200Z 18.3N  48.7W   45 KT  50 MPH
+ 72H  20/1200Z 20.2N  54.0W   50 KT  60 MPH
+ 96H  21/1200Z 22.5N  59.0W   60 KT  70 MPH
+120H  22/1200Z 25.0N  63.0W   70 KT  80 MPH
+
+$$
+Forecaster Blake
+
+
+

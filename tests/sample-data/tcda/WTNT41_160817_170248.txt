@@ -1,0 +1,59 @@
+
+696 
+WTNT41 KNHC 170248
+TCDAT1
+
+TROPICAL DEPRESSION SIX DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST TUE AUG 16 2016
+
+Convective activity associated with the tropical wave and associated
+low pressure area over the tropical Atlantic has become more
+concentrated and better organized this evening, and a recent ASCAT
+overpass indicates that the circulation has become better defined.
+Based on these data, this system has been designated a tropical
+depression, and advisories are being initiated at this time. The
+initial wind speed of 30 kt is supported by the scatterometer data.
+Some northeasterly shear is affecting the depression, with the
+center located near the northeastern edge of the primary convective
+mass.  The shear is forecast to decrease tonight and remain low
+during the next couple of days which favors strengthening. However,
+dry mid-level air is lurking just to the north of the depression,
+and intrusions of this unfavorable airmass could arrest development.
+The NHC forecast shows gradual strengthening during the next couple
+of days, but it is on the lower side of the guidance, closest to the
+LGEM and intensity consensus.  Later in the forecast period,
+increasing southwesterly shear being produced by a mid- to
+upper-level trough over the central Atlantic is likely to weaken the
+tropical cyclone.
+
+The initial motion estimate is a somewhat uncertain 310/12 kt.  The
+depression is forecast to move generally northwestward into a
+weakness in the subtropical ridge over the central Atlantic. The
+track guidance is in relatively good agreement through 48 hours, but
+there is a large spread between the GFS-based guidance and the ECMWF
+later in the period. The ECMWF and the majority of its ensemble
+members depict a much weaker and shallower cyclone that turns
+west-northwestward in the low-level flow after 48 hours.  On the
+other hand, the GFS, GFS ensemble mean, GFDL, and HWRF take a
+stronger cyclone more poleward.  For now, the NHC track is between
+these two distinct solutions, and is located just south of the
+multi-model consensus at days 4 and 5.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/0300Z 12.6N  34.1W   30 KT  35 MPH
+ 12H  17/1200Z 13.7N  35.6W   35 KT  40 MPH
+ 24H  18/0000Z 15.2N  37.2W   40 KT  45 MPH
+ 36H  18/1200Z 16.8N  38.8W   45 KT  50 MPH
+ 48H  19/0000Z 18.1N  40.2W   50 KT  60 MPH
+ 72H  20/0000Z 20.0N  43.2W   50 KT  60 MPH
+ 96H  21/0000Z 22.5N  46.5W   45 KT  50 MPH
+120H  22/0000Z 25.0N  50.0W   40 KT  45 MPH
+
+$$
+Forecaster Brown
+
+
+

@@ -1,0 +1,64 @@
+
+943 
+WTNT41 KNHC 181457
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 AM EDT SUN SEP 18 2016
+
+After an early morning burst of deep convection, strong northerly
+shear and dry mid-level air have significantly weakened the
+convection, leaving behind only shallow convection about 50-60 nmi
+east through southwest of the now fully exposed low-level
+circulation center. The initial intensity is being held at 25 kt,
+which could be a little conservative, based on a TAFB satellite
+classification of T1.5/25 kt.
+
+Julia has been drifting westward the past several hours, but a slow
+north-northwestward or northward motion is expected begin later
+today. This general motion is forecast to continue into Tuesday as a
+strong shortwave trough currently over the central United States
+moves quickly eastward, creating increasing southerly to
+southwesterly flow over the Carolinas. There are some notable
+differences between the models with the ECMWF forecasting Julia to
+weaken into a shallow remnant low and drift southwestward by 72
+hours, whereas the remainder of the global and regional models
+maintain a somewhat deeper cyclone and lift it out poleward in the
+deeper steering flow ahead of the aforementioned shortwave trough.
+The NHC forecast track leans toward the model consensus and keeps
+Julia a little stronger and deeper, taking the cyclone northward and
+near the coast of North Carolina by 48 hours. However, rapid
+weakening is likely by 72 hours due to strong southwesterly shear,
+leaving Julia as a remnant low near or over the coastal regions of
+eastern North Carolina.
+
+The intensity forecast is a little tricky due to the rapidly
+decreasing shear conditions that the models are forecasting to occur
+during the next 24 hours or so. The current 25-30 kt of northerly
+vertical wind shear is expected to decrease to 10-15 kt from the
+southwest by Monday morning, which would support a repeat of strong
+convective development and spinup of the vortex, similar to what
+occurred overnight, especially since Julia will be moving over the
+warmer waters of the Gulf Stream at that time. The intensity
+forecast is identical to the previous advisory and remains on the
+low side of the guidance near the LGEM model. However, due to the
+possibility of the cyclone being a little stronger than forecast,
+the Air Force Reserve Hurricane Hunters have been tentatively tasked
+to investigate Julia tomorrow afternoon.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/1500Z 31.8N  77.1W   25 KT  30 MPH
+ 12H  19/0000Z 32.5N  77.3W   25 KT  30 MPH
+ 24H  19/1200Z 33.4N  77.2W   30 KT  35 MPH
+ 36H  20/0000Z 33.8N  77.2W   30 KT  35 MPH
+ 48H  20/1200Z 34.2N  77.2W   30 KT  35 MPH
+ 72H  21/1200Z 34.5N  77.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  22/1200Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

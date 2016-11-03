@@ -1,0 +1,64 @@
+
+185 
+WTNT44 KNHC 050857
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  32
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 AM AST MON SEP 05 2016
+
+Hermine remains a post-tropical cyclone with a cloud pattern more
+reminiscent of an extratropical low. However, moderate convection
+has been developing just north of the surface center in the northern
+semicircle during the past few hours within a region of increasing
+upper-level diffluence. Data from an earlier reconnaissance mission
+along with recent scatterometer data suggest that the intensity
+remains unchanged at 60 kt.
+
+The initial motion is a slow northward drift 010/03 kt. Water vapor
+imagery indicates that an upper-level low has developed east of the
+DelMarVa peninsula and is dropping to the south of Hermine's surface
+center. The latest model guidance is forecasting the surface and
+mid- to upper-level lows to rotate counterclockwise around each
+other for the next 24-36 hours before becoming vertically stacked by
+36-48 hours. This cyclonic interaction has resulted in a significant
+westward shift in the global model tracks, especially by the UKMET
+and ECMWF models. As a result, the official forecast has been
+shifted a little to the west of the previous advisory track, but
+lies along the extreme eastern side of the guidance envelope in the
+event that the models shift back to the east since such complex
+interactions are difficult to forecast from cycle to cycle.
+
+The upper-level flow across Hermine is forecast by all of the global
+models to continue to become more difluent during the next 24 hours,
+which should aid in the development of deep convection near the
+low-level center. By 36-48 hours, the deep-layer vertical is
+expected to decrease from the current 45 kt to less than 10 kt, a
+pattern that is usually conducive for intensification. However,
+those favorable upper-level conditions will be negated by much
+cooler sea-surface temperatures of 23-25 deg C when Hermine will be
+north of the Gulf Stream at that time. The global models are in very
+agreement on both Hermine weakening and the 34-kt wind field
+steadily shrinking by 24 hours and beyond. Further weakening is
+expected through day 4, and both the ECMWF and GFS show Hermine
+dissipating by day 5 over the cold waters of the North Atlantic.
+
+The initial 50-kt wind radii have been adjusted based on data from
+the reconnaissance aircraft and an earlier ASCAT overpass.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  05/0900Z 37.7N  68.3W   60 KT  70 MPH...POST-TROPICAL
+ 12H  05/1800Z 38.0N  69.1W   60 KT  70 MPH...POST-TROPICAL
+ 24H  06/0600Z 38.6N  70.2W   55 KT  65 MPH...POST-TROPICAL
+ 36H  06/1800Z 39.0N  70.4W   45 KT  50 MPH...POST-TROPICAL
+ 48H  07/0600Z 39.7N  70.1W   40 KT  45 MPH...POST-TROPICAL
+ 72H  08/0600Z 40.7N  67.7W   35 KT  40 MPH...POST-TROPICAL
+ 96H  09/0600Z 43.0N  62.7W   30 KT  35 MPH...POST-TROPICAL
+120H  10/0600Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

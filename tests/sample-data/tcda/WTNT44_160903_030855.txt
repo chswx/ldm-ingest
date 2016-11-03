@@ -1,0 +1,78 @@
+
+312 
+WTNT44 KNHC 030855
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  24
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 AM EDT SAT SEP 03 2016
+
+Satellite, radar and surface observations continue to show that the
+circulation of Hermine is elongated with most of the convection well
+removed from the area of lowest pressure. It appears that Hermine
+has already begun the process of extratropical transition. Based on
+earlier satellite-derived winds, the initial intensity remains 50
+kt. These winds are occurring over water well removed from the
+center in the southeast quadrant.
+
+As indicated in the previous NHC discussion, during the next day or
+two, Hermine is expected to undergo a complex interaction with a
+mid- to upper-level baroclinic trough that is developing over the
+eastern United States. After that time, the dynamical models
+forecast the upper trough to cut off directly over the surface
+cyclone, and the surface cyclone could regain some tropical cyclone
+characteristics, even though it would be under the upper-level low.
+By then, the strongest winds are expected to be closer to the
+center. Nevertheless, the dynamical guidance forecasts Hermine to
+strengthen during this evolution regardless of its final structure,
+and the NHC forecast is basically an update of the previous one.
+Given the uncertainty in the structure and evolution, the forecast
+keeps the cyclone as post-tropical after 24 hours.
+
+The initial motion is difficult to estimate given that Hermine's
+circulation is elongated, but cyclone appears to be moving toward
+the east-northeast or 060 degrees at 18 kt. The cyclone is forecast
+to turn more toward the northeast in about 24 hours, and then turn
+northward with a significant decrease in forward speed as
+interacts with the upper-level trough, and the steering currents
+weaken. After day 4, the cyclone should then move eastward with the
+mid-latitude flow. The track forecast is a blend between the
+previous NHC one and the multi-model consensus TVCN.
+
+
+KEY MESSAGES:
+
+1. Hermine is expected to become a post-tropical cyclone while still
+producing hazardous winds and storm surge over land.  NWS policy
+allows NHC to write advisories on and issue tropical storm watches
+and warnings for post-tropical cyclones, when the system continues
+to pose a significant threat to life and property. NHC and the NWS
+Eastern Region have decided that this option will be invoked for
+Hermine.  After Hermine becomes a post-tropical cyclone, NHC will
+continue to issue its full suite of advisory and warning products
+for as long as the system remains a significant threat to land.
+
+2. There is still considerable uncertainty as to how many of the
+characteristics of a tropical cyclone Hermine will have while it is
+off of the coast of the Mid-Atlantic and New England States.
+Regardless of its structure, Hermine is expected to be a vigorous
+storm with a large wind field that will cause wind, storm surge and
+surf hazards along the coast.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  03/0900Z 35.4N  76.5W   50 KT  60 MPH...ON THE COAST
+ 12H  03/1800Z 36.5N  74.2W   50 KT  60 MPH...OVER WATER
+ 24H  04/0600Z 37.3N  72.8W   50 KT  60 MPH...POST-TROPICAL
+ 36H  04/1800Z 38.0N  72.5W   55 KT  65 MPH...POST-TROPICAL
+ 48H  05/0600Z 38.5N  72.3W   60 KT  70 MPH...POST-TROPICAL
+ 72H  06/0600Z 39.0N  72.0W   65 KT  75 MPH...POST-TROPICAL
+ 96H  07/0600Z 39.5N  71.5W   55 KT  65 MPH...POST-TROPICAL
+120H  08/0600Z 40.5N  70.0W   45 KT  50 MPH...POST-TROPICAL
+
+$$
+Forecaster Avila
+
+
+

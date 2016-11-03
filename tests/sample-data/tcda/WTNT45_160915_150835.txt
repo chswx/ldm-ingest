@@ -1,0 +1,49 @@
+
+491 
+WTNT45 KNHC 150835
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 AM AST THU SEP 15 2016
+
+Ian continues to have a structure somewhat resembling a subtropical
+cyclone, with the low-level center situated beneath an upper-level
+low and a cloud pattern featuring a broken band of convection.
+However, there is still some moderate to deep convection not too far
+from the center, and the most recent AMSU pass still showed a deep
+warm core structure.  The initial intensity remains 45 kt in
+agreement with the latest satellite classification of ST3.5 from
+TAFB.  Ian is running out of time to strengthen via diabatic
+processes, and most of the strengthening shown here is expected to
+be due to baroclinic effects, especially given the current
+convective structure.  By 24 hours, strong shear and cool SSTs
+should result in Ian being post-tropical, and the cyclone should be
+fully extratropical by 36 hours.  The intensity forecast is based
+mainly on the global models and guidance from the Ocean Prediction
+Center, and shows the post-tropical cyclone intensifying to near
+hurricane strength before it's absorbed by a larger extratropical
+low in 48 hours.
+
+The initial motion estimate is 025/17.  Ian should accelerate
+northeastward ahead of a large upper-level trough moving eastward
+across the northwestern Atlantic during the next 36 hours before
+being absorbed.  The new NHC track forecast is similar to the
+previous one and near the middle of the guidance envelope.
+
+The initial 34-kt wind radii were adjusted based on a partial ASCAT
+pass from around 0100 UTC.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/0900Z 35.5N  52.4W   45 KT  50 MPH
+ 12H  15/1800Z 38.3N  49.8W   50 KT  60 MPH
+ 24H  16/0600Z 43.0N  43.7W   55 KT  65 MPH...POST-TROPICAL
+ 36H  16/1800Z 49.1N  35.5W   60 KT  70 MPH...POST-TROP/EXTRATROP
+ 48H  17/0600Z...ABSORBED BY ANOTHER EXTRATROPICAL LOW
+
+$$
+Forecaster Brennan
+
+
+

@@ -1,0 +1,55 @@
+
+705 
+WTNT43 KNHC 230238
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST THU SEP 22 2016
+
+Lisa continues to struggle in the face of strong deep-layer shear.
+Although the cyclone continues to pulsate convection, several
+microwave passes between 1900 and 2100 UTC indicate that the center
+has become somewhat more removed from the deepest convection since
+this afternoon.  The initial intensity has been lowered to 40 kt, in
+line with decreased Dvorak estimates from TAFB and SAB.  A 2344 UTC
+ASCAT-B pass missed the center of Lisa, but showed that 35 kt winds
+are present 100-150 nm NE of the presumed center.
+
+Lisa is forecast to remain in a high shear and increasingly dry
+environment, so further weakening seems inevitable.  The main
+question is how quickly will the deep convection cease to exist.
+The GFS and HWRF both show mid- to upper-level dry air cutting over
+the circulation in about 36 to 48 hours, suggesting a complete lack
+of deep convection in those models at that time. The official
+forecast now calls for Lisa to become post tropical within 48 hours,
+before being absorbed by an approaching front after 96 hours.
+
+There is little change to the track forecast reasoning overall.
+Lisa continues to move toward the northwest, or 320 degrees, at a
+rather uncertain 8 kt.  A lack of microwave or scatterometer data
+over the center since 2100 UTC has made the center difficult to
+locate and introduces some uncertainty to the forecast. Regardless,
+Lisa should continue moving northwestward around a low- to mid-level
+ridge, located east of the Azores, before recurving ahead of an
+approaching front.  The first 48 hours of the forecast are near a
+consensus of the GFS and ECMWF models.  The 72 and 96 hour points
+incorporate guidance from the Ocean Prediction Center.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0300Z 21.3N  35.2W   40 KT  45 MPH
+ 12H  23/1200Z 22.4N  36.3W   35 KT  40 MPH
+ 24H  24/0000Z 23.6N  37.8W   30 KT  35 MPH
+ 36H  24/1200Z 24.7N  39.3W   30 KT  35 MPH
+ 48H  25/0000Z 26.2N  40.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  26/0000Z 30.5N  41.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  27/0000Z 35.5N  37.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  28/0000Z...ABSORBED
+
+$$
+Forecaster Beven/Zelinsky
+
+
+

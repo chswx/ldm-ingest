@@ -1,0 +1,56 @@
+
+732 
+WTNT42 KNHC 190839
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  20
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST MON SEP 19 2016
+
+Karl continues to have a rather disorganized appearance in satellite
+imagery.  The cloud pattern consists of a relatively small mass of
+convection northeast of the center, with a separate shapeless
+cluster of convection farther to the northeast.  The initial
+intensity estimate is held at 35 kt in accordance with the Dvorak CI
+number from TAFB.
+
+Karl's current poor structure, proximity to an upper tropospheric
+low near the Lesser Antilles, and large-scale subsidence/convergence
+over the tropical Atlantic suggest that the storm should only slowly
+strengthen during the next couple of days.  The intensity forecast
+has been modified downward a bit further to reflect the likelihood
+of a slower intensification.  After 72 hours, a notable increase in
+moisture, waters of around 30 deg C, and low shear should promote
+strengthening, perhaps more than indicated in this forecast.  The
+intensity forecast during this time has been increased over the
+previous one, and is closest to the LGEM model.
+
+The initial motion estimate is 270/13. Karl should remain on the
+south and southwest side of a subtropical ridge the next couple of
+days, with the flow around this feature steering the cyclone
+westward and then west-northwestward.  From days 3-5, Karl will
+encounter a weakness in the ridge over the west-central Atlantic,
+which should cause the cyclone to turn northwestward and northward
+with a substantial decrease in forward speed.  The new track
+forecast is nudged to the south of the previous one through 48
+hours, with more emphasis put on the weaker GFS solution.  The track
+forecast from days 3-5 has been adjusted to the east of the previous
+one, and is consistent with the expectation of stronger cyclone as
+depicted in the ECWMF solution.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/0900Z 18.2N  47.7W   35 KT  40 MPH
+ 12H  19/1800Z 18.6N  49.7W   35 KT  40 MPH
+ 24H  20/0600Z 19.1N  52.1W   40 KT  45 MPH
+ 36H  20/1800Z 19.9N  54.6W   45 KT  50 MPH
+ 48H  21/0600Z 21.0N  57.1W   50 KT  60 MPH
+ 72H  22/0600Z 24.0N  62.2W   60 KT  70 MPH
+ 96H  23/0600Z 27.0N  65.2W   75 KT  85 MPH
+120H  24/0600Z 29.5N  65.7W   85 KT 100 MPH
+
+$$
+Forecaster Kimberlain
+
+
+

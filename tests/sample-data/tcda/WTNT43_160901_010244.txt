@@ -1,0 +1,47 @@
+
+035 
+WTNT43 KNHC 010244
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 PM EDT WED AUG 31 2016
+
+Deep convection is becoming increasingly dislocated from the center
+of the tropical depression because of the strong westerly vertical
+shear.  Dvorak classifications from SAB and TAFB continue to drop
+as the convection becomes less organized.  The initial intensity
+remains 25 kt.
+
+The tropical depression should not be long for this world.  Last-
+light visible imagery suggests that the center may be becoming
+diffuse. The deep convection may soon either dissipate or be located
+far from the center.  The system may shortly become entangled in a
+frontal boundary.  If the center is no longer well defined, if there
+is no associated organized deep convection, or if the cyclone
+becomes frontal, then the system will no longer be a tropical
+cyclone.  One or more of these options should occur within about a
+day, if not sooner.  In about two days, the post-tropical cyclone is
+likely to be absorbed in a separate extratropical low.
+
+The depression is moving toward the east-northeast at about 14 kt,
+as it is being swept up by the southwesterlies ahead of a
+mid-latitude shortwave trough.  The system should accelerate in the
+same direction until dissipation.  The track is based upon the
+consensus of the reliable global models and is nearly the same as
+that from the previous advisory.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0300Z 36.7N  70.1W   25 KT  30 MPH
+ 12H  01/1200Z 38.2N  66.9W   30 KT  35 MPH
+ 24H  02/0000Z 40.5N  60.5W   35 KT  40 MPH...POST-TROP/EXTRATROP
+ 36H  02/1200Z 43.0N  54.0W   35 KT  40 MPH...POST-TROP/EXTRATROP
+ 48H  03/0000Z...DISSIPATED
+
+$$
+Forecaster Landsea
+
+
+

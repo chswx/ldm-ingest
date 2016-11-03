@@ -1,0 +1,54 @@
+
+145 
+WTNT42 KNHC 180231
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST SAT SEP 17 2016
+
+Karl continues to struggle.  The tropical storm is producing a few
+patches of deep convection to the north and east of the exposed
+center, but the cyclone lacks banding features.  An ASCAT-B pass
+just prior to 0000Z captured a portion of the circulation and showed
+that the winds were lower there than they were in the previous pass.
+Based on that data and the Dvorak classifications, the initial wind
+speed is lowered a little to 35 kt.
+
+The poor structure of Karl is likely due to the combined effects of
+southwesterly shear and dry mid-level air.  These unfavorable
+atmospheric conditions and marginally warm sea surface temperatures
+should keep Karl relatively steady state for the next day or so.
+After that time, lower shear, slightly more moisture, and warmer sea
+surface temperatures should allow the cyclone to strengthen.  The
+intensity models are a bit higher this cycle at the longer range,
+and the NHC forecast has been nudged upward.  This prediction lies
+near the lower end of the guidance, in best agreement with the SHIPS
+model.
+
+The center of Karl is moving south of due west at about 10 kt.  A
+general westward motion at a slightly faster pace is expected
+during the next day or two while Karl is steered by the flow on the
+south side of a subtropical ridge.  A turn to the west-northwest is
+predicted beyond a couple of days as Karl moves on the southwestern
+periphery of the ridge and toward a weakness.  There is not a
+significant amount of spread in the models, or the ensemble members
+of the GFS and ECMWF, and the official forecast is largely an
+update of the previous one.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/0300Z 17.8N  41.3W   35 KT  40 MPH
+ 12H  18/1200Z 17.9N  43.3W   35 KT  40 MPH
+ 24H  19/0000Z 18.1N  46.0W   40 KT  45 MPH
+ 36H  19/1200Z 18.6N  48.6W   45 KT  50 MPH
+ 48H  20/0000Z 19.4N  51.1W   50 KT  60 MPH
+ 72H  21/0000Z 21.2N  56.1W   55 KT  65 MPH
+ 96H  22/0000Z 23.7N  61.4W   65 KT  75 MPH
+120H  23/0000Z 25.8N  65.2W   75 KT  85 MPH
+
+$$
+Forecaster Cangialosi
+
+
+

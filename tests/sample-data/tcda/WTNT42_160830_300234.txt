@@ -1,0 +1,49 @@
+
+789 
+WTNT42 KNHC 300234
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  30
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST MON AUG 29 2016
+
+The satellite presentation of Gaston has not changed much during
+the last several hours.  The eye is ragged-looking in infrared
+satellite images and recent microwave data indicate that there are
+some signs of a double eyewall structure.  The initial intensity is
+held at 90 kt for this advisory, in agreement with the Dvorak
+CI-numbers from TAFB and SAB.  Gaston will likely change little in
+strength during the next couple of days while it remains in
+generally conducive environmental conditions.  However, fluctuations
+in strength are possible if the cyclone continues to undergo an
+eyewall replacement. Beyond a couple of days, steady weakening is
+anticipated when the hurricane moves over cooler waters and into an
+environment of increasing shear and drier air. The NHC intensity
+forecast is largely unchanged from the previous one.
+
+Gaston has turned northeastward and is moving a bit faster, with the
+initial motion estimated to be 045/5 kt.  A trough currently
+seen in water vapor images near Atlantic Canada is expected to
+approach Gaston during the next 12 to 24 hours, and that should
+cause the hurricane to become embedded in the mid-latitude
+westerlies. This should result in Gaston turning east-northeastward
+on Tuesday with a steady increase in forward speed during the next
+few days.  The model guidance has shifted a little to the north this
+cycle, and the NHC track forecast has been nudged in that direction.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0300Z 31.6N  54.6W   90 KT 105 MPH
+ 12H  30/1200Z 32.1N  53.6W   85 KT 100 MPH
+ 24H  31/0000Z 32.8N  51.7W   85 KT 100 MPH
+ 36H  31/1200Z 34.0N  49.4W   85 KT 100 MPH
+ 48H  01/0000Z 35.7N  45.9W   85 KT 100 MPH
+ 72H  02/0000Z 39.0N  36.3W   70 KT  80 MPH
+ 96H  03/0000Z 40.0N  29.2W   50 KT  60 MPH
+120H  04/0000Z 41.0N  24.8W   40 KT  45 MPH
+
+$$
+Forecaster Cangialosi
+
+
+

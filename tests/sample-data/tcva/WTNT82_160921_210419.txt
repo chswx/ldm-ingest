@@ -1,0 +1,107 @@
+
+459 
+WTNT82 EGRR 210419
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 21.09.2016
+
+        TROPICAL STORM KARL       ANALYSED POSITION : 19.7N  55.8W
+
+     ATCF IDENTIFIER : AL122016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 21.09.2016    0  19.7N  55.8W     1008            26
+    1200UTC 21.09.2016   12  20.2N  56.5W     1008            30
+    0000UTC 22.09.2016   24  22.5N  58.3W     1008            33
+    1200UTC 22.09.2016   36  24.3N  60.7W     1006            37
+    0000UTC 23.09.2016   48  26.0N  62.8W     1002            35
+    1200UTC 23.09.2016   60  27.8N  64.3W      999            38
+    0000UTC 24.09.2016   72  30.0N  64.2W      994            45
+    1200UTC 24.09.2016   84  32.1N  62.6W      987            51
+    0000UTC 25.09.2016   96  34.5N  58.2W      973            63
+    1200UTC 25.09.2016  108  38.4N  50.6W      960            73
+    0000UTC 26.09.2016  120  44.1N  39.6W      980            60
+    1200UTC 26.09.2016  132              CEASED TRACKING
+
+        TROPICAL STORM LISA       ANALYSED POSITION : 16.8N  31.4W
+
+     ATCF IDENTIFIER : AL132016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 21.09.2016    0  16.8N  31.4W     1005            35
+    1200UTC 21.09.2016   12  17.6N  32.8W     1004            35
+    0000UTC 22.09.2016   24  18.6N  34.2W     1006            36
+    1200UTC 22.09.2016   36  19.4N  35.4W     1008            33
+    0000UTC 23.09.2016   48  20.5N  36.8W     1010            33
+    1200UTC 23.09.2016   60  21.7N  38.2W     1012            31
+    0000UTC 24.09.2016   72  22.5N  39.8W     1013            32
+    1200UTC 24.09.2016   84  23.2N  41.9W     1015            28
+    0000UTC 25.09.2016   96  24.7N  44.0W     1015            26
+    1200UTC 25.09.2016  108  27.1N  45.2W     1014            26
+    0000UTC 26.09.2016  120              CEASED TRACKING
+
+   TROPICAL DEPRESSION PAINE      ANALYSED POSITION : 27.8N 116.2W
+
+     ATCF IDENTIFIER : EP172016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 21.09.2016    0  27.8N 116.2W     1005            24
+    1200UTC 21.09.2016   12              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  24 HOURS
+              FORECAST POSITION AT T+ 24 : 12.4N 136.5W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 22.09.2016   24  12.4N 136.5W     1008            20
+    1200UTC 22.09.2016   36  12.8N 138.0W     1008            23
+    0000UTC 23.09.2016   48  12.5N 139.5W     1008            24
+    1200UTC 23.09.2016   60  12.4N 140.6W     1007            25
+    0000UTC 24.09.2016   72  12.2N 142.0W     1007            25
+    1200UTC 24.09.2016   84  12.1N 143.3W     1008            22
+    0000UTC 25.09.2016   96  12.2N 144.4W     1007            25
+    1200UTC 25.09.2016  108  12.3N 145.5W     1008            25
+    0000UTC 26.09.2016  120  12.5N 147.2W     1006            27
+    1200UTC 26.09.2016  132  12.6N 149.3W     1005            28
+    0000UTC 27.09.2016  144  13.3N 150.7W     1004            29
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  84 HOURS
+              FORECAST POSITION AT T+ 84 : 14.4N 121.3W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 24.09.2016   84  14.4N 121.3W     1006            28
+    0000UTC 25.09.2016   96  15.2N 121.6W     1005            28
+    1200UTC 25.09.2016  108  16.3N 122.5W     1004            29
+    0000UTC 26.09.2016  120  16.5N 122.8W     1001            36
+    1200UTC 26.09.2016  132  17.3N 122.6W     1001            30
+    0000UTC 27.09.2016  144  17.9N 122.3W     1001            33
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 120 HOURS
+              FORECAST POSITION AT T+120 : 12.9N 130.9W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 26.09.2016  120  12.9N 130.9W     1008            27
+    1200UTC 26.09.2016  132  13.7N 130.1W     1006            27
+    0000UTC 27.09.2016  144  14.4N 129.2W     1005            28
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 210418
+

@@ -1,0 +1,50 @@
+
+448 
+WTNT44 KNHC 300601
+TCDAT4
+
+HURRICANE MATTHEW SPECIAL DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+200 AM AST FRI SEP 30 2016
+
+This special advisory is being issued in lieu of the scheduled
+intermediate advisory due to the rapid strengthening of Matthew
+during the past few hours.  An Air Force Reserve Hurricane Hunter
+aircraft reported flight-level winds of 99 kt in the northern
+eyewall at 700 mb, along with surface wind estimates of 80-85 kt
+from the SFMR instrument.  In addition, the central pressure has
+fallen to 979 mb.  Based on these data, the initial intensity is
+increased to 85 kt.  This also requires significant changes to the
+intensity forecast, which now calls for Matthew to reach major
+hurricane status in 24 hours and maintain it through 96 hours.  It
+is unclear how long the rapid strengthening will continue, and the
+revised forecast could be conservative.
+
+There are no changes to the forecast track from the previous
+regular advisory.
+
+It should be noted that despite the rapid intensification, the
+aircraft data, along with recent scatterometer data, show that the
+tropical-storm-force winds still extend only a short distance
+over the southern semicircle.  Based on this, no warnings are
+required for Aruba, Curacao, or Colombia at this time.  A warning
+might be necessary if the southern radii expand or if the center
+moves to the south of the forecast track.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0600Z 14.1N  69.3W   85 KT 100 MPH
+ 12H  30/1200Z 14.0N  70.4W   95 KT 110 MPH
+ 24H  01/0000Z 13.9N  72.0W  100 KT 115 MPH
+ 36H  01/1200Z 13.8N  73.0W  105 KT 120 MPH
+ 48H  02/0000Z 14.1N  74.0W  105 KT 120 MPH
+ 72H  03/0000Z 16.4N  75.3W  105 KT 120 MPH
+ 96H  04/0000Z 19.7N  75.6W   90 KT 105 MPH
+120H  05/0000Z 23.5N  75.5W   85 KT 100 MPH
+
+$$
+Forecaster Beven
+
+
+

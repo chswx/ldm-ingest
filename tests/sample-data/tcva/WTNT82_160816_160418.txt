@@ -1,0 +1,54 @@
+
+089 
+WTNT82 EGRR 160418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 16.08.2016
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  12 HOURS
+              FORECAST POSITION AT T+ 12 : 13.4N 142.8W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 16.08.2016   12  13.4N 142.8W     1006            25
+    0000UTC 17.08.2016   24  14.0N 144.9W     1007            25
+    1200UTC 17.08.2016   36  14.7N 146.1W     1006            26
+    0000UTC 18.08.2016   48  14.7N 148.5W     1007            27
+    1200UTC 18.08.2016   60  14.8N 151.0W     1007            27
+    0000UTC 19.08.2016   72  15.2N 153.1W     1007            28
+    1200UTC 19.08.2016   84  15.6N 156.5W     1008            28
+    0000UTC 20.08.2016   96  15.7N 159.1W     1008            27
+    1200UTC 20.08.2016  108  16.1N 161.0W     1008            23
+    0000UTC 21.08.2016  120  16.1N 162.2W     1009            21
+    1200UTC 21.08.2016  132  16.4N 163.1W     1009            19
+    0000UTC 22.08.2016  144  16.6N 163.2W     1008            17
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  24 HOURS
+              FORECAST POSITION AT T+ 24 : 12.5N  32.1W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 17.08.2016   24  12.5N  32.1W     1011            23
+    1200UTC 17.08.2016   36  14.3N  34.7W     1010            30
+    0000UTC 18.08.2016   48  15.8N  37.1W     1011            29
+    1200UTC 18.08.2016   60  16.8N  38.9W     1011            26
+    0000UTC 19.08.2016   72  17.3N  40.5W     1012            24
+    1200UTC 19.08.2016   84  17.5N  42.1W     1011            23
+    0000UTC 20.08.2016   96  17.6N  44.1W     1012            22
+    1200UTC 20.08.2016  108  18.4N  46.1W     1012            22
+    0000UTC 21.08.2016  120  19.2N  48.3W     1013            22
+    1200UTC 21.08.2016  132  20.5N  50.5W     1014            23
+    0000UTC 22.08.2016  144  21.8N  53.1W     1014            22
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 160418
+

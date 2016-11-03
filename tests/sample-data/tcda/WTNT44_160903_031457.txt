@@ -1,0 +1,79 @@
+
+190 
+WTNT44 KNHC 031457
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  25
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 AM EDT SAT SEP 03 2016
+
+Satellite imagery indicates that Hermine has become a post-tropical
+cyclone, with the coldest convective tops now located more than 200
+n mi northeast of the exposed center.  Despite this change in
+structure, surface data from the Outer Banks indicate that some
+strong winds persist near the center, and the initial intensity is
+set to 55 kt for this advisory.  During the next 48 to 72 hours,
+Hermine will interact with a strong mid-latitude shortwave trough
+and all of the global models show the system re-intensifying during
+that time and a redevelopment of a stronger inner core, albeit one
+situated underneath an upper-level low. Regardless of its final
+structure, Hermine is expected to remain a dangerous cyclone through
+the 5 day period.
+
+The initial motion estimate is a somewhat uncertain 060/14.  Hermine
+should continue moving northeastward in deep-layer southwesterly
+flow through 24 hours and then meander generally northward from 36
+to 72 hours while the cyclone deepens beneath the upper-level low.
+Late in the period, the guidance is in generally good agreement
+showing a steadier motion toward the northeast, although there is
+significant spread.  The new NHC forecast is generally close to the
+previous one and is near a consensus of the GFS and ECMWF through 3
+days, and then favors the guidance that is a bit faster and farther
+north at days 4 and 5.
+
+
+KEY MESSAGES:
+
+1. The slow motion and large wind field associated with Hermine will
+result in a long duration of hazardous conditions along much of the
+mid-Atlantic coast extending into southern New England through the
+holiday weekend.
+
+2. Although Hermine has become a post-tropical cyclone, NHC will
+continue to issue its full suite of advisory and warning products as
+long as the system remains a significant threat to land areas.
+
+3. P-surge, the model that drives the Potential Storm Surge Flooding
+Graphic, is designed for a wind field typical of a tropical
+cyclone.  The wind field of Hermine is very poorly represented by
+the P-surge model and as a result, recent Flooding Graphics have
+understated the inundation risk from the Carolinas northward.  NHC
+will be discontinuing runs of the P-surge model for Hermine with
+this advisory.  The NWS is attempting to substitute the GFS ensemble
+system for P-surge for the next issuance of the Potential Storm
+Surge Flooding Graphic, to provide a more realistic depiction of the
+threat.  If this effort is unsuccessful, issuance of the Potential
+Storm Surge Flooding Graphic for Hermine will also be discontinued.
+
+4. The Prototype Storm Surge Watch/Warning Graphic does account for
+the current wind structure of Hermine, and therefore accurately
+identifies those areas at risk for life-threatening storm surge.
+This graphic will continue to be produced for Hermine.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  03/1500Z 36.1N  75.2W   55 KT  65 MPH...POST-TROPICAL
+ 12H  04/0000Z 37.1N  73.0W   60 KT  70 MPH...POST-TROPICAL
+ 24H  04/1200Z 37.9N  71.6W   60 KT  70 MPH...POST-TROPICAL
+ 36H  05/0000Z 38.4N  71.6W   65 KT  75 MPH...POST-TROPICAL
+ 48H  05/1200Z 38.7N  71.9W   65 KT  75 MPH...POST-TROPICAL
+ 72H  06/1200Z 39.5N  71.5W   65 KT  75 MPH...POST-TROPICAL
+ 96H  07/1200Z 40.4N  70.2W   60 KT  70 MPH...POST-TROPICAL
+120H  08/1200Z 41.0N  67.5W   50 KT  60 MPH...POST-TROPICAL
+
+$$
+Forecaster Brennan
+
+
+

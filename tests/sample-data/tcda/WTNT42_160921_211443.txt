@@ -1,0 +1,67 @@
+
+321 
+WTNT42 KNHC 211443
+TCDAT2
+
+TROPICAL DEPRESSION KARL DISCUSSION NUMBER  29
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+1100 AM AST WED SEP 21 2016
+
+A research flight by the NOAA P3 aircraft earlier this morning had
+a difficult time closing off a well-defined center of circulation.
+However, we are able to track what looks like a reasonable center
+on early-morning visible satellite imagery.  Based on the latest
+satellite images and the P3 data, it does appear that the center
+has wobbled toward the northwest and slowed down a bit.  However,
+the longer-term 12-hour motion estimate is still west-northwestward,
+or 295/8 kt.  Most of the deep convection remains displaced well to
+the east of the center, but new convection has recently been
+developing just to the north and northwest.  The initial intensity
+is held at 30 kt based on earlier reports from the NOAA P3 and a
+1254 UTC ASCAT-B scatterometer pass.
+
+Karl remains located to the south and southwest of a mid-level
+high.  However, the depression is expected to turn northwestward
+later today when it begins to move between the high and a mid- to
+upper-level low located near the Carolina coast.  Karl should then
+turn northward and then accelerate toward the northeast from 48
+hours and beyond once it becomes embedded in the mid-latitude
+westerlies.  The track guidance remains in generally good agreement
+on this scenario, and the main differences appear toward the end of
+the forecast period when the ECMWF remains much slower than the
+other models.  The new official forecast remains very close to a
+consensus of the GFS and ECMWF models, which did not require any
+significant changes from the previous advisory.
+
+The distance between Karl and the upper-level low that has been
+adversely affecting it during the past couple of days appears to be
+increasing a bit, and the shear vector over the cyclone has become
+south-southeasterly.  Although the global models continue to
+indicate that the shear will decrease over the next few days, they
+do not agree on the direction of that shear.  In addition, the
+models do not agree on how much moisture there will be in the
+mid-level environment around the cyclone.  As a result, the
+intensity forecast is complicated, and confidence is not very high.
+For continuity's sake, the updated intensity forecast is very
+similar to the previous forecast during the first 3 days, and then
+it is a little lower at days 4 and 5 based on the latest guidance.
+Karl is expected to become extratropical by day 5, which agrees with
+the latest guidance from the Ocean Prediction Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/1500Z 20.8N  57.8W   30 KT  35 MPH
+ 12H  22/0000Z 22.1N  59.6W   30 KT  35 MPH
+ 24H  22/1200Z 24.0N  62.0W   30 KT  35 MPH
+ 36H  23/0000Z 25.7N  63.6W   35 KT  40 MPH
+ 48H  23/1200Z 27.2N  64.8W   45 KT  50 MPH
+ 72H  24/1200Z 31.0N  62.2W   60 KT  70 MPH
+ 96H  25/1200Z 36.0N  52.5W   70 KT  80 MPH
+120H  26/1200Z 44.0N  38.5W   60 KT  70 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Berg/Gallina/Veenhuis
+
+
+

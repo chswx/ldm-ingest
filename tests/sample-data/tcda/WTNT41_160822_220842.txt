@@ -1,0 +1,58 @@
+
+676 
+WTNT41 KNHC 220842
+TCDAT1
+
+TROPICAL DEPRESSION FIONA DISCUSSION NUMBER  22
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST MON AUG 22 2016
+
+Although deep convection has continued to pulse near the center of
+Fiona, recent scatterometer wind data and various satellite
+classifications support maintaining the small but remarkably
+resilient cyclone as a 30-kt tropical depression. The intensity
+forecast still remains something of an enigma. Strong westerly wind
+shear is forecast to persist for the next 12-18 hours, after which
+the upper-level winds relax somewhat and become a little more
+conducive for strengthening to occur. However, dry mid-level
+air of 40-50 percent humidity is also forecast to surround the
+cyclone, which could act to hinder the development of persistent
+deep convection for the next 24-36 hours. Therefore, if Fiona
+can survive the aforementioned hostile conditions during the next 24
+hours or so, then some restrengthening or maintaining the status as
+a tropical cyclone is possible.  The global models still disagree on
+the future of Fiona and have flipped-flopped, with the ECMWF no
+longer showing dissipation in 5 days, which is similar to the UKMET
+solution, whereas the GFS now shows Fiona degenerating into an open
+trough between 96-120 hours. The NHC forecast maintains continuity
+and indicates dissipation in 5 days as a compromise between these
+possibilities.
+
+The initial motion estimate remains 290/16 kt. Although there is
+uncertainty in the future status of Fiona, the NHC model guidance
+is in pretty good agreement on the track of the cyclone for the
+next 72 hours. The small cyclone is forecast to move quickly
+west-northwestward around the southwestern periphery of a
+deep-layer ridge for the next 3 days, and then slow down
+considerably on day 4 and turn northward into a weakness in the
+ridge. The new official forecast track is basically just an update
+of the previous track through 72 hours, and then is a little to
+the right of the previous forecast on day 4, which leans closer to
+the solutions of the various consensus models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/0900Z 24.4N  58.4W   30 KT  35 MPH
+ 12H  22/1800Z 25.0N  60.2W   30 KT  35 MPH
+ 24H  23/0600Z 25.8N  62.3W   30 KT  35 MPH
+ 36H  23/1800Z 26.6N  64.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  24/0600Z 27.6N  65.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  25/0600Z 29.8N  67.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  26/0600Z 31.3N  67.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  27/0600Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

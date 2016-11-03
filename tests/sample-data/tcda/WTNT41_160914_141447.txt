@@ -1,0 +1,45 @@
+
+982 
+WTNT41 KNHC 141447
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 AM EDT WED SEP 14 2016
+
+Julia is estimated to be maintaining 35-kt winds, based on WSR 88-D
+Doppler velocity data, well offshore of the coast.  Since the
+system will continue to interact with land, weakening is forecast
+and the cyclone is expected to become a remnant low in a couple of
+days.  The official intensity forecast is close to the latest
+D-SHIPS and LGEM guidance.  There is a possibility, however, that
+the system could strengthen if it moves far enough out over water.
+
+The center of Julia may be reforming closer to the Georgia coast,
+although the surface observations are not yet definitive, and the
+initial motion is a highly uncertain 030/5 kt.  The tropical
+cyclone is likely to remain in weak steering currents near the axis
+of the subtropical ridge, and the track guidance models indicate
+that some erratic motion is likely over the next couple of days.
+The official forecast shows a very slow motion after 12 hours, and
+is east of the previous NHC track.
+
+The slow forward speed of Julia is expected to result in locally
+heavy rainfall of 3 to 6 inches, with isolated maximum amounts near
+10 inches along portions of the South Carolina coastline.  These
+rains could result in flash flooding.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/1500Z 31.4N  81.3W   35 KT  40 MPH...INLAND
+ 12H  15/0000Z 32.0N  81.0W   35 KT  40 MPH...INLAND
+ 24H  15/1200Z 32.2N  80.8W   30 KT  35 MPH...INLAND
+ 36H  16/0000Z 32.3N  80.7W   25 KT  30 MPH...INLAND
+ 48H  16/1200Z 32.3N  80.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  17/1200Z...DISSIPATED
+
+$$
+Forecaster Pasch
+
+
+

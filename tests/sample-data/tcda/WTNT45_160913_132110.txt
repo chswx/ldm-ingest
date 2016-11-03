@@ -1,0 +1,49 @@
+
+032 
+WTNT45 KNHC 132110
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 PM AST TUE SEP 13 2016
+
+Ian continues to be sheared, and the low-level center is estimated
+to be near the southern edge of a ragged-looking area of deep
+convection.  Since there has been no appreciable increase in the
+organization of the tropical cyclone, the advisory intensity is held
+at 40 kt, which is the mean of Dvorak intensity estimates from TAFB
+and SAB.  Given that the shear is forecast to remain strong enough
+to inhibit strengthening for the next 24 hours or so, with some
+relaxation thereafter, the official intensity forecast shows some
+slow strengthening beginning tomorrow night.  The official forecast
+is in good agreement with the latest LGEM guidance.  In 72 hours,
+the global models predict the cyclone to have a frontal structure
+over the north Atlantic, so the official forecast shows Ian as
+extratropical by that time.
+
+The storm has sped up a bit, and the initial motion is now near
+340/14 kt.  Over the next day or so, Ian will continue to move
+through a weakness in the mid-level subtropical ridge.  Later, when
+the cyclone moves into the mid-latitude westerlies, a shortwave
+trough approaching from the west should cause Ian to accelerate
+north-northeastward to northeastward.  The official track forecast
+is faster than the previous one, but not quite as fast as the
+latest ECMWF and GFS solutions.  This is close to the multi-model
+consensus and the FSU Superensemble.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  13/2100Z 27.0N  52.7W   40 KT  45 MPH
+ 12H  14/0600Z 29.1N  53.3W   40 KT  45 MPH
+ 24H  14/1800Z 31.8N  53.6W   40 KT  45 MPH
+ 36H  15/0600Z 34.5N  53.0W   45 KT  50 MPH
+ 48H  15/1800Z 37.5N  50.5W   50 KT  60 MPH
+ 72H  16/1800Z 48.5N  37.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 96H  17/1800Z 58.0N  22.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+120H  18/1800Z 64.5N   8.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

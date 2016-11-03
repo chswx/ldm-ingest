@@ -1,0 +1,62 @@
+
+755 
+WTNT32 KNHC 291446
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  28
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST MON AUG 29 2016
+
+...GASTON EXPECTED TO REMAIN A POWERFUL HURRICANE FOR SEVERAL
+DAYS...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...31.0N 55.4W
+ABOUT 560 MI...900 KM E OF BERMUDA
+ABOUT 1680 MI...2705 KM W OF THE AZORES
+MAXIMUM SUSTAINED WINDS...110 MPH...175 KM/H
+PRESENT MOVEMENT...N OR 360 DEGREES AT 2 MPH...4 KM/H
+MINIMUM CENTRAL PRESSURE...963 MB...28.44 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Hurricane Gaston was
+located near latitude 31.0 North, longitude 55.4 West.  Gaston is
+moving toward the north near 2 mph (4 km/h).  A turn toward the
+northeast and a faster forward speed are expected by tonight, and an
+east-northeastward motion is expected on Tuesday.
+
+Maximum sustained winds have decreased to near 110 mph (175 km/h)
+with higher gusts.  Little significant change in strength is
+forecast during the next 48 hours.
+
+Hurricane-force winds extend outward up to 35 miles (55 km) from the
+center and tropical-storm-force winds extend outward up to 140 miles
+(220 km).
+
+The estimated minimum central pressure is 963 mb (28.44 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM AST.
+
+$$
+Forecaster Blake
+
+
+

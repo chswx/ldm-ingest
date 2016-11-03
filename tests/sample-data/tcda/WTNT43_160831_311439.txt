@@ -1,0 +1,44 @@
+
+126 
+WTNT43 KNHC 311439
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 AM EDT WED AUG 31 2016
+
+The depression looks a little better organized this morning, with a
+large band on the eastern side of the circulation.  However,
+satellite classifications still support keeping the system as a
+30-kt tropical depression for now.  The cyclone has about 36 hours
+to intensify over warm water with moderate shear before the
+environment becomes less conducive.  The latest NHC intensity
+forecast blends the previous one with the new consensus guidance,
+which results in a slightly higher forecast.  The global models
+suggest the system will become extratropical in about 48 hours, and
+be absorbed within a larger frontal zone in 3 or 4 days.
+
+The latest satellite fixes indicate that the depression has finally
+started to move faster toward the northeast.  The cyclone should
+continue to accelerate to the northeast within the southwesterly
+flow ahead of an amplifying mid-latitude trough.  This pattern
+favors a continuation of the northeast track away from the U.S coast
+with a significant increase in forward speed.  The guidance is well
+clustered, and the new NHC track prediction is basically an update
+of the previous one.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/1500Z 35.5N  73.1W   30 KT  35 MPH
+ 12H  01/0000Z 36.6N  71.1W   35 KT  40 MPH
+ 24H  01/1200Z 38.8N  66.5W   40 KT  45 MPH
+ 36H  02/0000Z 41.0N  60.7W   45 KT  50 MPH
+ 48H  02/1200Z 43.0N  53.5W   40 KT  45 MPH...POST-TROP/EXTRATROP
+ 72H  03/1200Z 46.0N  40.0W   40 KT  45 MPH...POST-TROP/EXTRATROP
+ 96H  04/1200Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

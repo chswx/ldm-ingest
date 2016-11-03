@@ -1,0 +1,55 @@
+
+608 
+WTNT42 KNHC 010317
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  38
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST WED AUG 31 2016
+
+Gaston's infrared satellite pattern has changed little since the
+previous advisory.  The eye remains ragged but clear, and cold
+convective tops continue in all quadrants.  Recent microwave
+imagery, however, does show that the southwestern eyewall is now
+open, and there are some indications that the circulation is
+becoming tilted due to west-southwesterly shear.  Still, the
+initial intensity remains 90 kt based on a blend of final-T and CI
+numbers from TAFB and SAB, which is also supported by the latest CI
+estimate from the objective ADT.
+
+The hurricane is expected to be over sea surface temperatures
+warmer than 26C for another 12-18 hours while vertical shear is
+forecast to be at or above 20 kt for the next few days.  Therefore,
+a gradual weakening trend is anticipated, and Gaston is forecast to
+lose hurricane intensity in about 36 hours while it approaches the
+western Azores.  After that time, continued weakening is expected,
+and Gaston is likely to become a remnant low in about 72 hours
+after it has passed the Azores and loses its deep convection over
+very cold water.  Dissipation is still expected by day 4.  The
+intensity models are in very good agreement on the weakening trend,
+and the updated NHC forecast is close to the intensity consensus.
+
+The initial motion remains northeastward but a little faster at
+055/17 kt.  Gaston is embedded in the mid-latitude westerlies, and
+it is expected to turn east-northeastward and accelerate during the
+next 24 hours.  After that time, Gaston could slow down a bit while
+it moves across the Azores, and then turn back toward the northeast
+when it becomes a remnant low.  Like the intensity guidance, the
+track models are in very good agreement, and no significant changes
+were needed from the previous forecast.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0300Z 36.0N  45.4W   90 KT 105 MPH
+ 12H  01/1200Z 37.2N  42.1W   80 KT  90 MPH
+ 24H  02/0000Z 38.2N  37.5W   70 KT  80 MPH
+ 36H  02/1200Z 38.7N  33.3W   60 KT  70 MPH
+ 48H  03/0000Z 39.2N  30.3W   45 KT  50 MPH
+ 72H  04/0000Z 42.1N  24.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  05/0000Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

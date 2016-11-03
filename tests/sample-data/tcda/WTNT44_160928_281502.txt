@@ -1,0 +1,53 @@
+
+773 
+WTNT44 KNHC 281502
+TCDAT4
+
+TROPICAL STORM MATTHEW DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+1100 AM AST WED SEP 28 2016
+
+Surface observations and data from an Air Force Reserve
+reconnaissance aircraft indicate that the tropical wave passing
+through the Windward Islands has acquired a closed circulation.  The
+aircraft found peak flight-level winds of 64 kt, and SFMR surface
+winds of around 50 kt over the northern portion of the circulation.
+As a result, advisories are being initiated on a 50-kt tropical
+storm. The current lack of inner core structure suggests that
+further strengthening should be limited today, but environmental
+conditions consisting of warm water and low shear ahead of Matthew
+favor intensification throughout the remainder of the forecast
+period. The NHC intensity forecast is more conservative than the
+statistical guidance, but follows the trends of the global models
+in deepening the system.
+
+Since the center has very recently formed, the initial motion
+estimate is a highly uncertain 275/18 kt.  A strong deep-layer ridge
+over the western Atlantic should steer Matthew westward across the
+eastern Caribbean during the next few days, and the track guidance
+is tightly clustered through 72 hours.  After that time, the
+tropical cyclone will be approaching the western portion of the
+ridge and a northwestward turn is expected, although there are
+significant differences among the track models as to when the turn
+takes place and how sharp it will be.  The GFS takes the cyclone
+northwestward much faster than the ECMWF with more troughing
+developing over the eastern Gulf of Mexico.  For now, the NHC track
+lies near a consensus of the faster GFS and slower ECMWF.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/1500Z 13.4N  60.7W   50 KT  60 MPH
+ 12H  29/0000Z 13.6N  63.2W   50 KT  60 MPH
+ 24H  29/1200Z 13.9N  66.4W   55 KT  65 MPH
+ 36H  30/0000Z 13.9N  69.0W   60 KT  70 MPH
+ 48H  30/1200Z 13.8N  71.2W   65 KT  75 MPH
+ 72H  01/1200Z 13.5N  74.2W   70 KT  80 MPH
+ 96H  02/1200Z 14.8N  75.6W   80 KT  90 MPH
+120H  03/1200Z 17.5N  76.5W   90 KT 105 MPH
+
+$$
+Forecaster Brown
+
+
+

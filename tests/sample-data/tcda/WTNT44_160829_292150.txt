@@ -1,0 +1,53 @@
+
+505 
+WTNT44 KNHC 292150
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   5...CORRECTED
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 PM EDT MON AUG 29 2016
+
+CORRECTED FIRST PARAGRAPH OCEAN AND ENVIRONMENTAL CONDITIONS
+
+The tropical cyclone's cloud pattern has not become better organized
+this afternoon, with the low-level center partially exposed just to
+the north of a ragged-looking area of deep convection.  Observations
+from a NOAA Hurricane Hunter aircraft support keeping the intensity
+at 30 kt at this time.  Given the system's currently disorganized
+appearance, it does not seem likely that there will be much
+strengthening in the short term.  Since the cyclone will be moving
+over very warm waters and in an environment of moderate westerly
+shear, however, gradual intensification is expected during the next
+couple of days.  When the system nears the Florida Gulf coast,
+increasing upper-level winds should limit strengthening.  The
+official intensity forecast is close to the model consensus.
+
+Based on fixes from the NOAA aircraft, the motion is a slow 290/4
+kt.  There is little change to the expected steering flow evolution.
+In 2-3 days, a mid-tropospheric trough is forecast to begin digging
+over the southeastern United States.  This feature should cause the
+tropical cyclone to turn toward the right while it moves over the
+eastern Gulf, and to accelerate northeastward across northern
+Florida.  The official track forecast is essentially a blend of the
+latest ECMWF and GFS predictions.
+
+Given the current forecast, a tropical storm or hurricane watch may
+be required for a portion of the Florida Gulf coast as early as
+tomorrow morning.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/2100Z 24.0N  84.8W   30 KT  35 MPH
+ 12H  30/0600Z 24.2N  85.6W   35 KT  40 MPH
+ 24H  30/1800Z 24.6N  86.6W   40 KT  45 MPH
+ 36H  31/0600Z 25.5N  87.0W   45 KT  50 MPH
+ 48H  31/1800Z 26.8N  86.2W   50 KT  60 MPH
+ 72H  01/1800Z 29.3N  83.5W   55 KT  65 MPH
+ 96H  02/1800Z 32.5N  77.0W   50 KT  60 MPH
+120H  03/1800Z 35.0N  70.0W   50 KT  60 MPH
+
+$$
+Forecaster Pasch
+
+
+

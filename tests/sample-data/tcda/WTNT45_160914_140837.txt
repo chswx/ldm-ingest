@@ -1,0 +1,54 @@
+
+681 
+WTNT45 KNHC 140837
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 AM AST WED SEP 14 2016
+
+The cloud pattern of Ian has changed little during the past several
+hours.  The low-level center of the tropical storm is completely
+exposed and located more than 100 n mi south of the main area of
+deep convection.  This poor structure is the result of about 30 kt
+of south-southwesterly vertical wind shear.  The initial intensity
+is held at 45 kt, in agreement with the earlier scatterometer data
+and a Dvorak CI-number from TAFB.
+
+Ian is moving northward at about 13 kt, and is being steered
+by the southerly flow between a mid- to upper-level low to its west
+and a ridge to its east.  A northward to north-northeastward motion
+at about the same forward speed is forecast during the next 24 hours
+as the steering pattern more or less persists.  After that time, a
+shortwave trough is expected to move east of Atlantic Canada, and
+that should cause Ian to turn northeastward and sharply accelerate
+until the cyclone becomes absorbed by a large extratropical low in 3
+to 4 days. The models are in good agreement, and the official
+forecast lies closest to a consensus of the GFS and ECMWF models.
+
+The strong shear that has been affecting Ian since genesis is
+expected to let up some during the next 24 to 36 hours.  The
+predicted lower shear, fairly warm water, and baroclinic forcing
+should allow Ian to strengthen a little during the next day or two.
+Beyond a couple of days, Ian is forecast to move over sharply
+cooler sea surface temperatures and into an environment of strong
+shear.  These conditions should cause the cyclone to lose
+its tropical characteristics in 2 to 3 days.  The NHC intensity
+forecast is an update of the previous one, and lies near the middle
+of the guidance envelope.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/0900Z 29.3N  53.0W   45 KT  50 MPH
+ 12H  14/1800Z 31.3N  53.2W   50 KT  60 MPH
+ 24H  15/0600Z 34.0N  52.3W   50 KT  60 MPH
+ 36H  15/1800Z 37.2N  49.2W   55 KT  65 MPH
+ 48H  16/0600Z 41.6N  43.6W   55 KT  65 MPH
+ 72H  17/0600Z 53.4N  28.0W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 96H  18/0600Z...DISSIPATED
+
+$$
+Forecaster Cangialosi
+
+
+

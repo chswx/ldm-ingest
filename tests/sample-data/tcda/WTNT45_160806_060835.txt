@@ -1,0 +1,40 @@
+
+011 
+WTNT45 KNHC 060835
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 AM CDT SAT AUG 06 2016
+
+The center of Earl made landfall near 0200 UTC just south of
+Veracruz, Mexico.  Since then, the center has moved farther inland
+and the cloud pattern has decayed.  There is little data near the
+center at this time, so it is estimated that the intensity has
+decreased to 35 kt.  Continued rapid weakening is expected, and the
+low-level circulation of Earl should dissipate over the mountains of
+Mexico after 12 hours.  The remnants of Earl are expected to move
+westward and interact with an area of disturbed weather along the
+Pacific coast of Mexico, which could lead to the formation of a
+tropical cyclone in that area in 2-3 days time.
+
+The initial motion is 275/9, and a general westward motion is
+forecast until the cyclone dissipates.
+
+The main threat from Earl and its remnants will continue to be heavy
+rainfall that could cause flash floods and mudslides across a large
+portion of Central America and southeastern Mexico.  The rain
+threat will continue after the cyclone dissipates.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/0900Z 19.0N  97.0W   35 KT  40 MPH
+ 12H  06/1800Z 19.0N  98.0W   25 KT  30 MPH...INLAND
+ 24H  07/0600Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

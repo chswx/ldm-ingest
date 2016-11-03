@@ -1,0 +1,53 @@
+
+977 
+WTNT42 KNHC 220842
+TCDAT2
+
+TROPICAL DEPRESSION KARL DISCUSSION NUMBER  32
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST THU SEP 22 2016
+
+Although Karl's cloud pattern is better organized than 24 hours ago,
+the cyclone lacks an inner core, and there is no new data or
+intensity estimates suggesting that the winds have increased. Thus,
+the initial intensity remains 30 kt. Karl is heading toward even
+warmer waters, and the shear is expected to be light for the next
+day or two. These conditions should favor some slight strengthening
+during that period. Model guidance suggests that additional
+intensification will likely occur after Karl's recurvature in a
+couple of days. This is reflected in the NHC forecast which
+bring Karl to hurricane status as it moves northeastward over the
+open Atlantic, and before it becomes extratropical.
+
+Karl continues to move toward the northwest or 315 degrees at 14
+kt.  The cyclone is about to reach the southwestern edge of the
+subtropical ridge, and this pattern should force Karl to turn
+northward in about a day or so. Thereafter, the cyclone is expected
+to turn sharply toward the northeast while it becomes embedded
+within the southwesterly flow associated with an amplifying
+mid-latitude trough. The NHC track forecast follows very closely
+the multimodel consensus, and is in the middle of the guidance
+envelope, which in fact is tightly packed at least for the next 3
+days.
+
+Although Karl is expected to recurve over the open Atlantic
+southeast of Bermuda, interests in that island should monitor
+the progress of Karl.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/0900Z 24.0N  60.7W   30 KT  35 MPH
+ 12H  22/1800Z 25.3N  62.2W   35 KT  40 MPH
+ 24H  23/0600Z 27.0N  63.8W   40 KT  45 MPH
+ 36H  23/1800Z 29.3N  64.1W   45 KT  50 MPH
+ 48H  24/0600Z 31.5N  63.0W   55 KT  65 MPH
+ 72H  25/0600Z 36.5N  54.0W   70 KT  80 MPH
+ 96H  26/0600Z 47.0N  34.0W   65 KT  75 MPH...POST-TROP/EXTRATROP
+120H  27/0600Z...ABSORBED BY A LARGE EXTRATROPICAL LOW
+
+$$
+Forecaster Avila
+
+
+

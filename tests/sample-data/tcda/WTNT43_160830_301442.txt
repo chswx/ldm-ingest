@@ -1,0 +1,48 @@
+
+201 
+WTNT43 KNHC 301442
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 AM EDT TUE AUG 30 2016
+
+The center of the depression has been difficult to pinpoint even
+with radar and aircraft data concurrently this morning, probably
+due to the nearby thunderstorm activity.  Overall, the depression
+remains disorganized, with no significant wind or pressure changes
+noted since the last advisory.  The initial wind speed remains 30
+kt. The environment seems conducive for some strengthening over the
+next couple of days while the depression moves near the Gulf Stream
+in light-to-moderate shear.  Thus, the latest NHC intensity forecast
+shows gradual intensification, and is near, or slightly below the
+intensity consensus.  Global models indicate the system will become
+an extratropical low in 2 or 3 days before the cyclone dissipates
+within the frontal zone.
+
+The initial motion is a very uncertain 335/4.  The depression
+should start a slow northward motion toward a break in the
+subtropical ridge later today.  After that, it should recurve
+northeastward into the westerlies in advance of an approaching
+mid- to upper-level trough and an associated surface cold front.
+The new forecast track is moved a little to the west of the
+previous track during the first 24 hours based primarily on the
+initial position, on the western side of the guidance envelope.
+After that time, it is similar to the previous track and is blended
+back toward the model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/1500Z 34.2N  75.3W   30 KT  35 MPH
+ 12H  31/0000Z 34.8N  75.2W   35 KT  40 MPH
+ 24H  31/1200Z 35.7N  74.1W   35 KT  40 MPH
+ 36H  01/0000Z 37.2N  71.6W   40 KT  45 MPH
+ 48H  01/1200Z 39.4N  67.3W   45 KT  50 MPH
+ 72H  02/1200Z 45.0N  53.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+ 96H  03/1200Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

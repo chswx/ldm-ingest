@@ -1,0 +1,51 @@
+
+082 
+WTNT41 KNHC 160232
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 PM EDT THU SEP 15 2016
+
+Just like it occurred last night, a surge of strong upper-level
+westerly winds removed the convection from the center of Julia again
+tonight. Satellite images show that the circulation is still
+vigorous, and it is generously assumed that tropical-storm-force
+winds are occuring well to the east of the center. On this basis,
+the initial intensity is kept at 35 kt. The strong shear is forecast
+to persist, and the most likely solution is for Julia to maintain
+the same intensity for another 12 hours or so, and then gradually
+decay as indicated in the previous NHC forecast. It is worth noting
+that the SHIPS and LGEM models maintain Julia as tropical storm for
+the next 3 days, but the given the strong shear predicted by these
+models, their solution does not appear to be realistic.
+
+The tight swirl of low clouds defining the center of Julia has been
+moving slowly toward the east-southeast or 120 degrees at 4 kt.
+However, the steering currents are expected to be weak, and the NHC
+forecast calls for Julia to meander during the next 2 to 3 days. By
+then, Julia is expected to be a remnant low, and probably will
+begin to drift northeastward, embedded within the mid-latitude flow.
+Since the steering currents are likely to be weak and poorly
+defined, the track models are showing divergent solutions, varying
+from northeast to southwest tracks, and some show no motion at all.
+The discrepancy in the models increases the uncertainty of the NHC
+track forecast.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/0300Z 31.5N  77.1W   35 KT  40 MPH
+ 12H  16/1200Z 31.2N  76.7W   35 KT  40 MPH
+ 24H  17/0000Z 31.0N  76.5W   30 KT  35 MPH
+ 36H  17/1200Z 31.5N  76.5W   30 KT  35 MPH
+ 48H  18/0000Z 31.5N  76.5W   30 KT  35 MPH
+ 72H  19/0000Z 31.5N  76.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  20/0000Z 32.5N  75.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  21/0000Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

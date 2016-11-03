@@ -1,0 +1,66 @@
+
+239 
+WTNT41 KNHC 182037
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST THU AUG 18 2016
+
+After a brief convective hiatus, deep convection with cloud tops of
+-70C to -75C has redeveloped into a small CDO feature directly
+over the previously exposed low-level circulation center. Satellite
+classifications are T3.0/45 kt and T2.5/35 kt from TAFB and SAB,
+respectively, and UW-CIMSS ADT values have decreased to T3.0/45 kt.
+A blend of these values support an initial intensity of 40 kt.
+
+Fiona is moving a little faster toward the northwest, or 300/09 kt.
+Other than minor fluctuations in the forward speed of the cyclone
+due to intermittent periods of convective re-organization like the
+most recent episode, the latest model guidance continues to be in
+strong agreement on Fiona moving west-northwestward to northwestward
+toward a break in the Bermuda-Azores High for the next 120 hours.
+Given the tightly packed model guidance about the previous few
+forecast tracks, the new NHC track forecast is just an extension of
+the previous advisory, and lies close to but a little slower than
+the consensus model, TVCN.
+
+There is no significant change to the previous intensity forecast or
+rationale. Despite the earlier sharp decrease in deep convection,
+the inner-core wind field of the compact cyclone has remained quite
+robust based on the lack of no arc cloud lines or outflow boundaries
+seen emanating outward from the center in visible satellite today.
+As result, Fiona should be able to generate additional convection in
+the short term and strengthen some during the next 12-24 hours.
+After that time, the global and regional models remain in good
+agreement on the cyclone moving through a band of strong
+southwesterly vertical wind shear of 20-25 kt from 36-72 hours,
+which is expected to induce weakening. However, the amount of
+weakening remains uncertain due to continued mixed dynamic and
+thermodynamic conditions. Although Fiona will be propagating through
+significant shear and into a drier airmass, the small cyclone will
+also be moving over warmer SSTs of 28C-29C and into a region of much
+cooler upper-tropospheric temperatures, which will produce greater
+instability and generate fairly strong convection that could help
+offset the unfavorable shear conditions. Given these mixed signals,
+the official intensity forecast remains an average of the various
+intensity models, which at 72 hours still ranges from hurricane
+strength in the GFDL model to a 25-kt remnant low in the ECMWF and
+Navy-CTCI models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/2100Z 17.0N  41.3W   40 KT  45 MPH
+ 12H  19/0600Z 17.7N  42.5W   45 KT  50 MPH
+ 24H  19/1800Z 18.5N  44.3W   45 KT  50 MPH
+ 36H  20/0600Z 19.6N  46.1W   35 KT  40 MPH
+ 48H  20/1800Z 20.8N  48.0W   35 KT  40 MPH
+ 72H  21/1800Z 23.0N  51.7W   35 KT  40 MPH
+ 96H  22/1800Z 25.0N  55.0W   35 KT  40 MPH
+120H  23/1800Z 27.2N  56.6W   35 KT  40 MPH
+
+$$
+Forecaster Stewart
+
+
+

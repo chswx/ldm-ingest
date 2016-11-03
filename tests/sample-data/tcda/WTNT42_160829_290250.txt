@@ -1,0 +1,56 @@
+
+172 
+WTNT42 KNHC 290250
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  26
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST SUN AUG 28 2016
+
+Gaston remains a well organized hurricane. Satellite images indicate
+that the eye remains quite distinct with a symmetric ring of deep
+convection around it.  The upper-level outflow is well established
+both to the west and the east of the system.  The latest Dvorak
+classifications from TAFB and SAB are 5.5/102 kt, and automated
+values from CIMSS at the University of Wisconsin are 5.9/112 kt.
+Based on these data, the initial wind speed is nudged upward to 105
+kt.
+
+Gaston has not moved very little during the last several hours. A
+continued slow and likely erratic northward motion is forecast
+overnight and Monday while Gaston remains in weak steering currents
+caused by a blocking mid-level ridge to its northwest.  A trough
+that is currently over eastern Canada is expected to dampen by the
+time it nears Gaston, but it should be strong enough to erode the
+ridge and allow the hurricane to become embedded in the mid-latitude
+westerlies. This pattern change should result in Gaston's turning
+east-northeastward in about 24 hours, with the cyclone continuing in
+that direction through the remainder of the forecast period.  The
+model guidance remains tightly packed, and little change was made to
+the previous NHC track prediction.
+
+The atmospheric conditions suggest that Gaston could maintain its
+strength for the next day or so, however, given the expected slow
+motion of the cyclone there is some chance that cold water upwelling
+would counteract that.  Beyond that time, the hurricane is
+likely to encounter an environment of increasing shear, drier air,
+and cooler water. Given these expected conditions, the NHC intensity
+forecast shows a gradual weakening trend beginning on Monday.  This
+prediction is in best agreement with the SHIPS guidance.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/0300Z 30.6N  55.2W  105 KT 120 MPH
+ 12H  29/1200Z 30.9N  55.4W  105 KT 120 MPH
+ 24H  30/0000Z 31.4N  54.9W  100 KT 115 MPH
+ 36H  30/1200Z 32.1N  53.5W   95 KT 110 MPH
+ 48H  31/0000Z 33.0N  51.5W   95 KT 110 MPH
+ 72H  01/0000Z 35.5N  46.0W   90 KT 105 MPH
+ 96H  02/0000Z 37.4N  38.7W   75 KT  85 MPH
+120H  03/0000Z 37.7N  33.0W   60 KT  70 MPH
+
+$$
+Forecaster Cangialosi
+
+
+

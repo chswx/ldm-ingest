@@ -1,0 +1,62 @@
+
+947 
+WTNT41 KNHC 161440
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 AM EDT FRI SEP 16 2016
+
+Julia continues to feel the impact of 25 to 35 kt of westerly
+vertical wind shear, as the main deep convection remains about
+40 to 60 n mi east of the low-level center.  Various subjective and
+objective satellite intensity estimates are near 35 kt, and that
+remains the initial intensity.  It is noted that buoy 41002 located
+about 55 n mi northeast of the center is reporting winds of less
+than 30 kt, so it is possible that initial intensity is a little
+generous.
+
+There is decreasing confidence in the intensity forecast.  While
+Julia is expected to stay in a strong shear environment for the
+next 60 hours or so, the dynamical models suggest that the
+upper-level winds over the cyclone may be less than forecast
+yesterday.  After 60 hours, all guidance suggests that the shear
+should decrease, and at that time the Canadian and UKMET models show
+re-intensification.  On the other hand, the GFS and ECMWF forecast
+Julia to continue to weaken even in the more favorable upper-level
+winds.  The new intensity forecast stays with the scenario of the
+previous forecast in calling for the shear to cause the cyclone's
+demise.  However, this forecast is on the low edge of the intensity
+guidance, and the chances that Julia will survive and re-intensify
+are higher than they were 24 hours ago.
+
+Julia continues to move erratically east-southeastward with an
+initial motion of 105/6.  The cyclone is expected to meander
+for the next 2 days or so in weak steering flow.  In 3-4 days, a
+mid- to upper-level trough moving into the northeastern United
+States should steer the cyclone or its remnants northeastward.
+There remains a considerable amount of uncertainty in the track
+forecast due somewhat to the uncertainties in the intensity.
+A weaker Julia should be slower to move northeastward as shown by
+the GFS and ECMWF, while a stronger Julia will move somewhat more
+quickly toward the northeast as shown by the Canadian.  Overall, the
+new forecast track goes with the slower scenario and and is an
+update of the previous track.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/1500Z 31.1N  75.6W   35 KT  40 MPH
+ 12H  17/0000Z 30.9N  75.4W   35 KT  40 MPH
+ 24H  17/1200Z 30.8N  75.5W   30 KT  35 MPH
+ 36H  18/0000Z 30.9N  75.9W   30 KT  35 MPH
+ 48H  18/1200Z 31.2N  76.1W   30 KT  35 MPH
+ 72H  19/1200Z 32.5N  76.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  20/1200Z 33.0N  74.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  21/1200Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

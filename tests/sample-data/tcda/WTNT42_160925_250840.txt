@@ -1,0 +1,55 @@
+
+319 
+WTNT42 KNHC 250840
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  44
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST SUN SEP 25 2016
+
+Karl continues to produce a large mass of cold-topped convection
+sheared to the northeast of the low-level center. Some of the cloud
+tops are as cold as -83 deg C, which is unusual for that far north.
+Earlier NASA/NOAA Global Hawk aircraft dropsondes measured surface
+winds as high as 54 kt, and recent satellite intensity estimates
+from TAFB and UW-CIMSS ADT are 60 kt and 57 kt, respectively. Based
+on these data, and given that Karl is now moving at a forward speed
+of at least 40 kt, the initial intensity has been conservatively
+increased to 60 kt.
+
+The initial motion estimate is now 055/40 kt.  Karl should continue
+to move northeastward at 45-50 kt ahead of a broad deep-layer trough
+until the cyclone is absorbed by a larger extratropical low in about
+36 hours. The new official forecast track is just an update of the
+previous advisory and remains near the middle of the tightly packed
+guidance envelope, close to the consensus model TVCN and the
+consensus of the GFS and ECMWF global models.
+
+Karl is currently located over a ridge of anomalously warm water
+with SSTs of 27C to 27.5C, which likely explains the unusually deep
+and cold-topped convection associated with the cyclone. Karl has
+about another 6 hours or so over SSTs greater than 26C, which could
+allow the cyclone to strengthen into a tropical hurricane before it
+reaches much colder waters. By 12 hours and beyond, Karl will be
+moving over sea-surface temperatures colder than 20C north of 40N
+latitude, which will result in the cyclone losing its deep
+convection and tropical characteristics. However, interaction with
+the aforementioned deep-layer trough and associated baroclinic
+energy should help Karl to strengthen into a powerful post-tropical
+low pressure system possessing hurricane-force winds. By 36 hours,
+the system should be absorbed into a larger extratropical low to its
+northwest. The new NHC intensity forecast and wind radii are based
+on input from the NOAA Ocean Prediction Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/0900Z 37.5N  53.5W   60 KT  70 MPH
+ 12H  25/1800Z 41.3N  46.3W   70 KT  80 MPH...POST-TROPICAL
+ 24H  26/0600Z 48.3N  35.5W   60 KT  70 MPH...POST-TROPICAL
+ 36H  26/1800Z...ABSORBED BY LARGER EXTRATROPICAL LOW
+
+$$
+Forecaster Stewart
+
+
+

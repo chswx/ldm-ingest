@@ -1,0 +1,57 @@
+
+599 
+WTNT42 KNHC 260851
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST FRI AUG 26 2016
+
+Gaston is right in the thick of 20-25 kt of southwesterly shear,
+and the low-level center appears to be near or just inside the
+southern edge of a ragged central dense overcast.  Because Dvorak
+Current Intensity estimates from TAFB and SAB remain 3.5, the
+initial intensity is held at 55 kt.  With Gaston now moving around
+the northeastern side of a mid- to upper-level low, the vertical
+shear is expected to quickly decrease to below 10 kt within the next
+12-24 hours.  In addition, sea surface temperatures are forecast to
+increase by another degree or two.  Therefore, Gaston is likely to
+begin strengthening later today, and it should reintensify to a
+hurricane by tonight or on Saturday.  Strengthening is anticipated
+to continue through days 3 and 4, with Gaston nearing or possibly
+reaching major hurricane intensity, followed by some weakening on
+day 5 due to an increase in westerly shear.  The reliable intensity
+models are all within 10-15 kt of each other for the entire
+forecast period, and the NHC forecast is therefore very close to
+the ICON intensity consensus.
+
+Gaston continues to move northwestward, or 320 degrees at 15 kt.
+The cyclone is expected to maintain a generally northwestward track
+but slow down considerably during the next few days after it moves
+north of the aforementioned mid- to upper-level low and enters a
+break in the subtropical ridge.  After 72 hours, Gaston is expected
+to reach the mid-latitude westerlies, and a sharp recurvature with
+acceleration is forecast at the end of the forecast period.  While
+all the track models agree on this scenario, there continue to be
+differences in the sharpness of Gaston's turn and its forward speed,
+especially after the turn.  Still, the updated NHC track forecast
+is not too different from the previous one, and it is closest to a
+clustering of models that includes the GFS, the Florida State
+Superensemble, and the TVCN multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  26/0900Z 23.9N  47.6W   55 KT  65 MPH
+ 12H  26/1800Z 25.5N  49.5W   60 KT  70 MPH
+ 24H  27/0600Z 27.0N  52.1W   65 KT  75 MPH
+ 36H  27/1800Z 28.2N  54.2W   70 KT  80 MPH
+ 48H  28/0600Z 29.2N  55.7W   85 KT 100 MPH
+ 72H  29/0600Z 30.8N  57.1W   95 KT 110 MPH
+ 96H  30/0600Z 32.2N  55.8W   95 KT 110 MPH
+120H  31/0600Z 34.0N  51.5W   90 KT 105 MPH
+
+$$
+Forecaster Berg
+
+
+

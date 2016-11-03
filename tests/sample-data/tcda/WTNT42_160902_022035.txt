@@ -1,0 +1,38 @@
+
+094 
+WTNT42 KNHC 022035
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  45
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST FRI SEP 02 2016
+
+Gaston is practically devoid of deep convection, and it is assumed
+that a significant spindown has occurred today.  Under this
+assumption, the advisory intensity is set at 45 kt which is
+in agreement with a Dvorak Current Intensity number from TAFB.
+Since the cyclone will be moving over the colder waters to the
+north of the Azores and through an environment of strong shear, the
+forecast calls for the system to degenerate into a remnant low in
+24 hours, and this event may occur even sooner than that.
+
+Microwave and geostationary satellite fixes, along with
+observations from Flores in the Azores, indicate that the motion is
+around 070/15 kt.  Gaston should curve gradually toward the
+northeast, ahead of a broad trough in the mid-latitude westerlies,
+until dissipation.  The official track forecast is very close to the
+dynamical model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/2100Z 39.6N  30.4W   45 KT  50 MPH
+ 12H  03/0600Z 40.3N  28.1W   35 KT  40 MPH
+ 24H  03/1800Z 42.1N  25.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 36H  04/0600Z 44.3N  21.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  04/1800Z...DISSIPATED
+
+$$
+Forecaster Pasch
+
+
+

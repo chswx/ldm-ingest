@@ -1,0 +1,81 @@
+
+453 
+WTNT32 KNHC 010253
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  38
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST WED AUG 31 2016
+
+...TROPICAL STORM CONDITIONS POSSIBLE OVER THE WESTERN AND
+CENTRAL AZORES ON FRIDAY...
+
+
+SUMMARY OF 1100 PM AST...0300 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...36.0N 45.4W
+ABOUT 935 MI...1500 KM W OF FAIAL ISLAND IN THE CENTRAL AZORES
+ABOUT 1020 MI...1640 KM W OF LAJES AIR BASE IN THE AZORES
+MAXIMUM SUSTAINED WINDS...105 MPH...165 KM/H
+PRESENT MOVEMENT...NE OR 55 DEGREES AT 20 MPH...31 KM/H
+MINIMUM CENTRAL PRESSURE...970 MB...28.65 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+None.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Watch is in effect for...
+* Flores and Corvo in the western Azores
+* Faial, Pico, Graciosa, Sao Jorge, and Terceira in the central
+Azores
+
+A Tropical Storm Watch means that tropical storm conditions are
+possible within the watch area, generally within 48 hours.
+
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 PM AST (0300 UTC), the center of Hurricane Gaston was
+located near latitude 36.0 North, longitude 45.4 West.  Gaston is
+moving toward the northeast near 20 mph (31 km/h).  A turn toward
+the east-northeast with an increase in forward speed is expected
+during the next day or so.  On the forecast track, the center of
+Gaston will move near the western and central Azores on Friday.
+
+Maximum sustained winds remain near 105 mph (165 km/h) with higher
+gusts.  Weakening is forecast during the next 48 hours, and Gaston
+is expected to lose hurricane intensity by early Friday before it
+reaches the western Azores.
+
+Hurricane-force winds extend outward up to 45 miles (75 km) from the
+center, and tropical-storm-force winds extend outward up to 175
+miles (280 km).
+
+The estimated minimum central pressure is 970 mb (28.65 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Tropical storm conditions are possible in the western and
+central Azores on Friday.
+
+
+NEXT ADVISORY
+-------------
+Next intermediate advisory at 200 AM AST.
+Next complete advisory at 500 AM AST.
+
+$$
+Forecaster Berg
+
+
+

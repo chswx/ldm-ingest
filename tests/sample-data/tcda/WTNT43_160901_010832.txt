@@ -1,0 +1,32 @@
+
+459 
+WTNT43 KNHC 010832
+TCDAT3
+
+REMNANTS OF EIGHT DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 AM AST THU SEP 01 2016
+
+Deep convection is now displaced more than 100 nm east of the
+location suspected to be the center of the tropical depression.
+However, the 0224Z ASCAT scatterometer overpass showed that the
+system has opened up into a trough.  Thus the system is no longer
+considered to be a tropical cyclone.  Maximum winds continue to be
+around 25 kt, associated with the remnants of the tropical cyclone.
+
+Additional information on this system can be found in High Seas
+Forecasts issued by the National Weather Service, under AWIPS
+header NFDHSFAT1, WMO header FZNT01 KWBC, and available on the Web
+at http://www.opc.ncep.noaa.gov/shtml/NFDHSFAT1.shtml.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0900Z 38.2N  69.2W   25 KT  30 MPH...REMNANTS
+ 12H  01/1800Z...DISSIPATED
+
+$$
+Forecaster Landsea
+
+
+

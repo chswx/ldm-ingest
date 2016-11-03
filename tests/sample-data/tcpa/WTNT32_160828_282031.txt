@@ -1,0 +1,63 @@
+
+634 
+WTNT32 KNHC 282031
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  25
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST SUN AUG 28 2016
+
+...GASTON STRENGTHENS INTO THE FIRST MAJOR HURRICANE OF THE
+SEASON...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...30.8N 55.1W
+ABOUT 580 MI...935 KM E OF BERMUDA
+MAXIMUM SUSTAINED WINDS...115 MPH...185 KM/H
+PRESENT MOVEMENT...NW OR 320 DEGREES AT 5 MPH...7 KM/H
+MINIMUM CENTRAL PRESSURE...962 MB...28.41 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the eye of Hurricane Gaston was located
+near latitude 30.8 North, longitude 55.1 West. Gaston is moving
+toward the northwest near 5 mph (7 km/h), and a turn toward the
+north is expected on Monday, followed by a turn toward the northeast
+and then east-northeast with some increase in forward speed on
+Tuesday.
+
+Satellite images indicate that the maximum sustained winds have
+increased to near 115 mph (185 km/h) with higher gusts.  Gaston is a
+category 3 hurricane on the Saffir-Simpson Hurricane Wind Scale.
+Little change in strength is forecast during the next 48 hours.
+
+Hurricane-force winds extend outward up to 25 miles (35 km) from the
+center and tropical-storm-force winds extend outward up to 140 miles
+(220 km).
+
+The estimated minimum central pressure is 962 mb (28.41 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Pasch
+
+
+

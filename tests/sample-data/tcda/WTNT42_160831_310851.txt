@@ -1,0 +1,50 @@
+
+974 
+WTNT42 KNHC 310851
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  35
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST WED AUG 31 2016
+
+Gaston's satellite presentation continues to be outstanding. It
+consists of a large and clear eye surrounded by rings of very deep
+convection. Dvorak intensity estimates have remained steady and
+still support and initial intensity of 105 kt.
+
+Gaston is over warm waters and the shear is expected to increase
+just a little during the next day or two. Consequently, only a
+slight weakening is anticipated during the the day or so. After
+that time, Gaston should encounter cooler waters resulting in a
+faster weakening. By the end of the forecast period, Gaston should
+become absorbed by another extratropical cyclone.  The NHC intensity
+forecast is very similar to the previous one.
+
+The initial motion is 050/8 kt.  Gaston is already embedded in the
+mid-latitude westerlies, and this pattern should steer the hurricane
+toward the northeast and east-northeast with a gradual increase in
+forward speed. By day 3, the cyclone should reduce its forward
+speed once it begins to interact with a separate extratropical
+cyclone. No significant adjustments were made to the previous NHC
+track forecast and it continues to be close to the multi-model
+consensus TVCN. Gaston continues to move in the direction of the
+Azores, and all interests in these islands should monitor the
+progress of this cyclone.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/0900Z 33.4N  50.2W  105 KT 120 MPH
+ 12H  31/1800Z 34.5N  48.2W  105 KT 120 MPH
+ 24H  01/0600Z 36.3N  44.5W   95 KT 110 MPH
+ 36H  01/1800Z 37.5N  40.0W   85 KT 100 MPH
+ 48H  02/0600Z 38.5N  35.0W   70 KT  80 MPH
+ 72H  03/0600Z 39.5N  28.0W   45 KT  50 MPH
+ 96H  04/0600Z 41.5N  22.0W   30 KT  35 MPH...POST-TROPICAL
+120H  05/0600Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

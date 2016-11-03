@@ -1,0 +1,65 @@
+
+865 
+WTNT42 KNHC 241444
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST WED AUG 24 2016
+
+Gaston's overall cloud pattern has not changed much in organization
+since the last advisory.  The low-level center is located underneath
+a small central dense overcast (CDO), with hints of a prototype eye
+within the convective mass.  A solid band, attached to the CDO,
+wraps around the eastern half of the circulation.  A 1234 UTC ASCAT
+pass supports keeping the initial wind estimate at 60 kt.
+
+Gaston could still reach hurricane strength today.  However, the
+shear associated with a potent mid- to upper-level trough along 52W
+is forecast to greatly increase over Gaston and peak in 36 to 48
+hours.  Even though the cyclone will gradually be moving over warmer
+waters at that time, the shear should be enough to arrest its
+development or perhaps even result in weakening.  By 72 hours,
+Gaston's involvement with the trough should lessen and the shear
+should decrease.  Much lower westerly shear is forecast toward the
+end of the forecast period, which should give Gaston an opportunity
+to re-strengthen, and perhaps significantly, as it moves over waters
+of around 29 deg C.  The new NHC intensity forecast is reduced some
+compared to the previous one through 48 hours, but shows slightly
+greater intensification by 120 hours.  The official forecast is in
+generally in good agreement with the multi-model consensus.
+
+The latest fixes indicate that Gaston's heading has a much greater
+northerly component, and the long-term initial motion estimate is
+305/14.  Gaston is expected to move northwestward between a
+subtropical ridge over the eastern Atlantic and the aforementioned
+trough to the west during the next 3 days.  After 72 hours, Gaston
+should gradually turn north-northwestward and northward with a
+considerable decrease in forward speed, when it encounters a more
+substantial break in the Atlantic subtropical ridge along 60W.  The
+ECMWF shows less ridging and makes Gaston vulnerable to the mid-
+latitude westerlies earlier, with the model showing recurvature
+before 120 hours.  The bulk of the guidance, however, lies farther
+west, with these models showing more ridging north of Gaston through
+day 5.  The new track forecast is a little right of the previous
+one through 72 hours in response to the cyclone's abrupt change in
+heading since the last advisory and is close to a blend of the
+ECMWF and GFS solutions.  The track beyond 72 hours was adjusted
+westward and remains close to a ECMWF/GFS model blend.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/1500Z 16.1N  39.4W   55 KT  65 MPH
+ 12H  25/0000Z 17.5N  41.2W   65 KT  75 MPH
+ 24H  25/1200Z 19.6N  43.5W   60 KT  70 MPH
+ 36H  26/0000Z 21.9N  45.6W   55 KT  65 MPH
+ 48H  26/1200Z 24.3N  47.9W   55 KT  65 MPH
+ 72H  27/1200Z 27.8N  53.1W   65 KT  75 MPH
+ 96H  28/1200Z 30.5N  55.9W   80 KT  90 MPH
+120H  29/1200Z 32.2N  56.5W   90 KT 105 MPH
+
+$$
+Forecaster Kimberlain
+
+
+

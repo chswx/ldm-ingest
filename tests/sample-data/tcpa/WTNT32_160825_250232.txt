@@ -1,0 +1,58 @@
+
+427 
+WTNT32 KNHC 250232
+TCPAT2
+
+BULLETIN
+TROPICAL STORM GASTON ADVISORY NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST WED AUG 24 2016
+
+...GASTON STILL WITH 70-MPH WINDS...
+
+
+SUMMARY OF 1100 PM AST...0300 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...18.6N 42.1W
+ABOUT 1205 MI...1940 KM W OF THE CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...70 MPH...110 KM/H
+PRESENT MOVEMENT...NW OR 310 DEGREES AT 17 MPH...28 KM/H
+MINIMUM CENTRAL PRESSURE...990 MB...29.24 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 PM AST (0300 UTC), the center of Tropical Storm Gaston was
+located near latitude 18.6 North, longitude 42.1 West. Gaston is
+moving toward the northwest near 17 mph (28 km/h), and this
+general motion is expected to continue during the next couple of
+days.
+
+Maximum sustained winds remain near 70 mph (110 km/h) with higher
+gusts.  Some weakening is possible during the next 48 hours.
+
+Tropical-storm-force winds extend outward up to 90 miles (150 km)
+from the center.
+
+The estimated minimum central pressure is 990 mb (29.24 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 AM AST.
+
+$$
+Forecaster Avila
+
+
+

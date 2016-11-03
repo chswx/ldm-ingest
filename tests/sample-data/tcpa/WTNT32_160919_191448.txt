@@ -1,0 +1,59 @@
+
+610 
+WTNT32 KNHC 191448
+TCPAT2
+
+BULLETIN
+TROPICAL STORM KARL ADVISORY NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+1100 AM AST MON SEP 19 2016
+
+...KARL MOVING WESTWARD WITH NO CHANGE IN STRENGTH...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...18.6N 48.3W
+ABOUT 895 MI...1435 KM E OF THE LEEWARD ISLANDS
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...W OR 275 DEGREES AT 13 MPH...20 KM/H
+MINIMUM CENTRAL PRESSURE...1006 MB...29.71 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Tropical Storm Karl was
+located near latitude 18.6 North, longitude 48.3 West.  Karl is
+moving toward the west near 13 mph (20 km/h), and this motion is
+expected to continue through tonight.  A west-northwestward motion
+at a similar forward speed is expected on Tuesday.
+
+Maximum sustained winds are near 40 mph (65 km/h) with higher gusts.
+Some slight strengthening is forecast during the next 48 hours.
+
+Tropical-storm-force winds extend outward up to 115 miles (185 km)
+to the north of the center.
+
+The estimated minimum central pressure is 1006 mb (29.71 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM AST.
+
+$$
+Forecaster Berg
+
+
+

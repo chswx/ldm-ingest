@@ -1,0 +1,68 @@
+
+818 
+WTNT43 KNHC 281451
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 AM EDT SUN AUG 28 2016
+
+The area of low pressure located west of Bermuda has been producing
+intermittent organized deep convection for the last 24 hours or so,
+and the convection has increased markedly since 06Z.  Given this,
+and the well-defined center shown by an overnight ASCAT pass,
+advisories are now being initiated on this system as a tropical
+cyclone.  The initial intensity is estimated to be 30 kt based on
+the latest Dvorak estimates of T2.0/30 kt from TAFB and SAB.  An Air
+Force Reserve Hurricane Hunter aircraft is scheduled to investigate
+the depression this afternoon.
+
+The environment is only expected to be marginally conducive for
+intensification, with moderate southeasterly to easterly shear
+expected to become southwesterly and increase further in 36 to 48
+hours.  As a result, only modest strengthening is shown in the
+official forecast, with the depression expected to become a tropical
+storm in the next day or two.  After that time, the global models
+show the cyclone opening up along a frontal zone well offshore of
+the northeastern United States.  However, there is some disagreement
+in when this will occur, with the GFS showing the cyclone
+dissipating in about 3 days, and the ECMWF hanging onto it until
+around day 5.  As a compromise, the NHC forecast shows dissipation
+after day 4, but this timing is quite uncertain.
+
+The depression is currently situated south of a mid-level ridge that
+extends from the Mid-Atlantic states into the western Atlantic, and
+the initial motion estimate is 280/08.  The ridge is forecast to
+break down and shift eastward during the next 2-3 days, which should
+result in the cyclone gradually turning poleward and then recurving
+during the next 72 hours.  The NHC track forecast is close to a
+blend of the GFS and ECMWF models through dissipation.  This
+forecast keeps the center of the cyclone east of the Outer Banks of
+North Carolina, but a tropical storm watch may be needed for that
+area later today.
+
+Based on an evaluation of satellite imagery and data during the past
+few days, it appears that the remnants of Tropical Storm Fiona are
+not directly responsible for the genesis of this depression.  The
+Fiona remnants were absorbed into a separate area of pre-existing
+vorticity, with the current depression developing out of the
+combined system.  As a result, this is considered to be a new
+tropical cyclone, not a regeneration of a previous tropical
+cyclone.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/1500Z 31.5N  70.0W   30 KT  35 MPH
+ 12H  29/0000Z 32.1N  71.6W   30 KT  35 MPH
+ 24H  29/1200Z 32.9N  73.3W   30 KT  35 MPH
+ 36H  30/0000Z 33.6N  74.4W   35 KT  40 MPH
+ 48H  30/1200Z 34.2N  75.0W   35 KT  40 MPH
+ 72H  31/1200Z 36.5N  73.0W   35 KT  40 MPH
+ 96H  01/1200Z 39.0N  66.5W   35 KT  40 MPH...POST-TROP/EXTRATROP
+120H  02/1200Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

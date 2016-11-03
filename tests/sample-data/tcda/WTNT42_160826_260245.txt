@@ -1,0 +1,59 @@
+
+398 
+WTNT42 KNHC 260245
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST THU AUG 25 2016
+
+Gaston continues to have an asymmetric satellite appearance due to
+strong southwesterly shear.  Still, the cyclone is producing
+persistent deep convection near the center, and Dvorak estimates
+suggest the initial wind speed remains near 55 kt.  The shear
+should decrease tomorrow due to Gaston moving into a favorable
+position to the north of an upper-level low.  In addition, the
+water temperatures are forecast to be warming up during the next
+few days, which should also promote strengthening.  Due to recent
+microwave data showing that the inner core has been disrupted, only
+a slow intensification is shown in this forecast.  In the longer
+term, models are not in great agreement on the upper-level wind
+pattern, and I have elected to level off the intensification.  The
+new NHC prediction is a blend of the previous one and the model
+consensus. It should be noted that, while not explicitly shown
+below, a majority of the guidance show Gaston becoming a major
+hurricane at some time in the day 3 to 5 period.
+
+The initial motion remains northwestward at 15 kt.  Gaston should
+move northwestward during the next day or so around a mid-level
+ridge over the east-central Atlantic.  In about 36 hours, the
+ridge is forecast to build to the north of Gaston, which will likely
+cause the cyclone to turn west-northwestward.  Early next week,
+Gaston should turn northward as the ridge weakens, then recurve into
+the mid-latitude westerlies in 4 days or so.  Model guidance,
+however, is not in good agreement on the exact details, with timing
+and speed differences in both the tropical cyclone's position and
+the potential mid-latitude shortwave that causes recurvature.  Since
+there have been no substantive changes to the model guidance in this
+cycle, the new NHC prediction is basically just an update of the
+previous one.  It is fair to say that the end of this forecast is
+of pretty low confidence.
+
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  26/0300Z 22.8N  46.4W   55 KT  65 MPH
+ 12H  26/1200Z 24.5N  48.1W   55 KT  65 MPH
+ 24H  27/0000Z 26.2N  50.7W   60 KT  70 MPH
+ 36H  27/1200Z 27.5N  53.1W   65 KT  75 MPH
+ 48H  28/0000Z 28.6N  54.9W   75 KT  85 MPH
+ 72H  29/0000Z 30.5N  57.0W   90 KT 105 MPH
+ 96H  30/0000Z 32.5N  57.0W   95 KT 110 MPH
+120H  31/0000Z 34.5N  53.0W   95 KT 110 MPH
+
+$$
+Forecaster Blake
+
+
+

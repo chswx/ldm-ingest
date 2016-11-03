@@ -1,0 +1,56 @@
+
+367 
+WTNT45 KNHC 141450
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 AM AST WED SEP 14 2016
+
+Ian's center has lost some definition and appears to have re-formed
+north of the feature we had been tracking.  The center remains
+exposed to the south and southeast of the deep convection due to
+almost 30 kt of vertical shear.  Based on the Dvorak Current
+Intensity number from TAFB, the estimated maximum winds remain 45
+kt.
+
+Due to the center's re-formation, the initial motion is a faster
+355/17 kt.  However, unless the center jumps again, this motion is
+expected to stabilize back to around 14 kt in the next 12 hours.  A
+mid-/upper-level low to the west of Ian and a mid-tropospheric high
+to the east should steer the cyclone northward and north-
+northeastward during the next day or so.  After that time, Ian is
+expected to accelerate toward the northeast as it gets picked up by
+a progressive mid-latitude trough moving eastward from Atlantic
+Canada.  The new track guidance agrees on this scenario, although a
+slight westward shift in the official track forecast was required,
+probably due to the updated initial position.  The new NHC forecast
+is very close to the TVCN multi-model consensus.
+
+Although the vertical shear is expected to decrease only slightly,
+marginally warm waters and Ian's baroclinic interaction with the
+mid-/upper-level low to its west are expected to foster some
+strengthening during the next 36 hours.  Ian is then expected to
+lose the last of its tropical characteristics and become
+extratropical by 48 hours and then be absorbed by another
+extratropical low by 72 hours.  This forecast follows guidance
+provided by the Ocean Prediction Center and is closest to the
+scenario shown by the ECMWF model.  There is still some uncertainty
+in this thinking, however, since the GFS, UKMET, and Canadian models
+make Ian the dominant extratropical low over the far northern
+Atlantic.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/1500Z 31.4N  53.0W   45 KT  50 MPH
+ 12H  15/0000Z 33.7N  52.8W   50 KT  60 MPH
+ 24H  15/1200Z 36.7N  51.1W   50 KT  60 MPH
+ 36H  16/0000Z 40.2N  46.9W   55 KT  65 MPH
+ 48H  16/1200Z 45.4N  39.8W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 72H  17/1200Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

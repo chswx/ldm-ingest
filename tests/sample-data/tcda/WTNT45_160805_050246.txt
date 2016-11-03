@@ -1,0 +1,47 @@
+
+793 
+WTNT45 KNHC 050246
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 PM CDT THU AUG 04 2016
+
+Somewhat surprisingly, Earl has maintained tropical storm intensity
+this evening.  Observations from Ciudad del Carmen indicated a wind
+gust to 46 kt at 2348 UTC during heavy squalls, and the initial
+intensity is held at 35 kt.  Since the forecast track takes the
+center along the Bay of Campeche coast or just offshore during the
+next 24 hours, this could allow the cyclone to at least maintain
+its strength on Friday.  Based on the new official intensity
+forecast, a tropical storm warning has been issued for the southern
+Bay of Campeche coast of Mexico.  In 36 hours or so, the center of
+Earl should move inland for good over south-central Mexico, and the
+system is forecast to dissipate in about 48 hours.
+
+Earl jogged to the west-northwest over the past several hours and
+the initial motion is estimated to be 285/9 kt.  A large mid-level
+ridge near the northern Gulf of Mexico coast should induce a
+continued west-northwestward to westward motion through the
+forecast period.  The official track forecast is close to the most
+recent multi-model consensus.
+
+The main threat from Earl continues to be heavy rains over a
+large portion of Central America and southeastern Mexico, and the
+combination of Earl with a broader-scale low-level cyclonic gyre
+over the area enhances the rainfall potential.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  05/0300Z 18.1N  91.7W   35 KT  40 MPH
+ 12H  05/1200Z 18.4N  93.3W   35 KT  40 MPH...INLAND
+ 24H  06/0000Z 18.7N  95.2W   35 KT  40 MPH...INLAND
+ 36H  06/1200Z 18.9N  96.7W   30 KT  35 MPH...INLAND
+ 48H  07/0000Z 19.5N  98.0W   20 KT  25 MPH...POST-TROP/INLAND
+ 72H  08/0000Z...DISSIPATED
+
+$$
+Forecaster Pasch
+
+
+

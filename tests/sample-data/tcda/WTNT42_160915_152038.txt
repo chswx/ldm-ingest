@@ -1,0 +1,54 @@
+
+092 
+WTNT42 KNHC 152038
+TCDAT2
+
+TROPICAL DEPRESSION TWELVE DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 PM AST THU SEP 15 2016
+
+Deep convection has redeveloped in the northeastern quadrant of the
+depression, although it is still a good distance away from the
+center.  Consequently, Dvorak classifications are just about the
+same as earlier, and the initial wind speed estimate is kept at 30
+kt.  Southwesterly wind shear is expected to continue for a day or
+two while the cyclone remains under the influence of an upper-level
+trough.  This trough is then expected to be replaced by a ridge in a
+couple of days, with generally lighter shear by early next week.
+While some weakening is still forecast, model guidance is in better
+agreement on the depression eventually reaching a more conducive
+environment for restrengthening, and the official intensity forecast
+is raised a bit in the long term.  This forecast could be
+conservative for next week if the rather conducive environments
+forecast by the ECMWF and UKMET models materialize.
+
+The cyclone continues moving westward at 11 kt, and a west or
+west-southwest motion is expected for the next few days while the
+depression moves around a strengthening Atlantic subtropical ridge.
+Thereafter, a turn to the west-northwest is forecast due to the
+system reaching the southwestern periphery of the ridge.  The model
+guidance has spread out some on this cycle, with the UKMET having
+shifted a fair distance north of its previous run.  A stronger
+system would probably turn a bit more to the west-northwest given
+the forecast upper-level southeasterly winds.  Since the intensity
+prediction is higher than the last one, it makes sense to show the
+cyclone gaining some latitude by the end of the forecast period. The
+new NHC forecast is adjusted to the north of the previous one, but
+still lies on the southern side of the guidance envelope.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/2100Z 17.8N  31.4W   30 KT  35 MPH
+ 12H  16/0600Z 17.9N  33.3W   30 KT  35 MPH
+ 24H  16/1800Z 18.0N  36.0W   30 KT  35 MPH
+ 36H  17/0600Z 17.8N  38.6W   25 KT  30 MPH
+ 48H  17/1800Z 17.5N  41.2W   30 KT  35 MPH
+ 72H  18/1800Z 17.0N  46.5W   35 KT  40 MPH
+ 96H  19/1800Z 17.5N  51.5W   40 KT  45 MPH
+120H  20/1800Z 18.5N  56.0W   45 KT  50 MPH
+
+$$
+Forecaster Blake
+
+
+

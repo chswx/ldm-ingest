@@ -1,0 +1,58 @@
+
+732 
+WTNT42 KNHC 240835
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST WED AUG 24 2016
+
+A 0414 UTC AMSR2 microwave image revealed that Gaston's structure
+has improved with the development of a well-defined low-level cloud
+ring and a mid-level microwave eye.  However, the mid-level center
+is displaced about 25 n mi to the northeast of the low-level
+center.  Dvorak intensity estimates from TAFB and SAB are both
+T4.0/65 kt, but objective numbers are still between 55-60 kt.  Given
+the tilted structure of the cyclone, the initial intensity is only
+raised to 60 kt on this advisory.
+
+University of Wisconsin CIMSS shear analyses indicate that 10 kt
+of southwesterly shear is affecting Gaston, which could explain
+the cyclone's tilted structure.  The shear is expected to remain low
+enough during the next 24 hours to allow Gaston to strengthen to a
+hurricane later today.  However, the intensification trend should be
+interrupted after 24 hours, continuing through day 3, when Gaston
+moves into a higher shear zone to the east of a mid-/upper-level
+low.  Some strengthening is then probable on days 4 and 5 when
+Gaston moves north of the upper low into a lower-shear environment.
+The intensity models are in very good agreement on this general
+scenario, and the official NHC forecast was only lowered a bit at
+36 and 48 hours to be more in line with the IVCN consensus.
+
+Tracking the low-level center observed in microwave data yields a
+motion of 290/15 kt.  Gaston is approaching a break in the
+subtropical ridge caused by the aforementioned mid-/upper-level
+low, and the steering currents should cause the motion to become
+northwestward later today and continue along that heading for the
+next four days.  By day 5, Gaston is expected to slow down and turn
+northward to the west of a mid-level high.  There is lower-than-
+normal spread among the track guidance for the entire five-day
+forecast period, and the NHC forecast continues to closely follow
+the TVCN multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/0900Z 14.9N  38.6W   60 KT  70 MPH
+ 12H  24/1800Z 16.2N  40.6W   65 KT  75 MPH
+ 24H  25/0600Z 18.2N  42.9W   70 KT  80 MPH
+ 36H  25/1800Z 20.4N  45.1W   70 KT  80 MPH
+ 48H  26/0600Z 22.9N  47.2W   70 KT  80 MPH
+ 72H  27/0600Z 26.9N  52.3W   70 KT  80 MPH
+ 96H  28/0600Z 29.5N  55.5W   80 KT  90 MPH
+120H  29/0600Z 31.5N  55.5W   85 KT 100 MPH
+
+$$
+Forecaster Berg
+
+
+

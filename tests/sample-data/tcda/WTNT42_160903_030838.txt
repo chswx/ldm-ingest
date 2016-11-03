@@ -1,0 +1,42 @@
+
+425 
+WTNT42 KNHC 030838
+TCDAT2
+
+POST-TROPICAL CYCLONE GASTON DISCUSSION NUMBER  47
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST SAT SEP 03 2016
+
+Gaston has been devoid of deep convection for more than 12 hours,
+and is now a swirl of stratocumulus clouds. Since the cyclone is
+moving over 22-23 deg C waters and embedded in northwesterly shear
+of about 35 kt, the likelihood that any new convection would reform
+is slim.  Given this, Gaston is being declared a post-tropical
+remnant low on this advisory. Without any new convection
+redeveloping the vortex is expected to spin down rather quickly, and
+global models show Gaston opening up into a trough in about 18
+hours.
+
+The initial motion estimate is 065/15.  The post-tropical cyclone
+should accelerate east-northeastward at the base of the mid-
+latitude westerlies today, and then turn northeastward ahead of a
+trough digging over Atlantic Canada prior to dissipation on Sunday.
+
+This is the last advisory issued on Gaston by the National
+Hurricane Center.  Additional information on this system can be
+found in High Seas Forecasts issued by Meteo France under WMO header
+FQNT50 LFPW and available on the web at
+http://www.meteofrance.com/previsions-meteo-marine/bulletin.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  03/0900Z 40.5N  26.9W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 12H  03/1800Z 42.4N  24.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  04/0600Z...DISSIPATED
+
+$$
+Forecaster Kimberlain
+
+
+

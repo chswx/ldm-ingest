@@ -1,0 +1,47 @@
+
+999 
+WTNT43 KNHC 230855
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 AM AST FRI SEP 23 2016
+
+The center of Lisa has become fully exposed due to strong shear,
+like so many Atlantic tropical cyclones in 2016.  Some convection
+remains, although well away from the center, in the northern
+semicircle.  The initial wind speed is reduced to 35 kt, which is on
+the high side of the latest Dvorak estimates.  Very strong shear
+should cause further weakening, along with marginal SSTS and
+increasingly dry air aloft.  Deep convection will likely be
+struggling in that environment within 24 hours, and the new forecast
+has Lisa becoming a remnant low in 36 hours.  Most of the global
+models now show Lisa decaying to a trough in 3 to 4 days before it
+gets absorbed by a cold front, but either way it should be a weak
+system by then.
+
+Lisa continues moving northwestward at about 8 kt.  A track toward
+the west-northwest or northwest is expected for the next couple of
+days while the system moves around the subtropical ridge. Afterward
+the post-tropical cyclone should turn northward as it gets caught up
+in southerly flow ahead of Karl.  The guidance has shifted westward
+on this cycle, possibly due to a weaker Lisa being steered more by
+the low-level subtropical ridge.  Thus, the official forecast
+is moved westward as well, near or just west of the model consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0900Z 21.8N  35.7W   35 KT  40 MPH
+ 12H  23/1800Z 22.7N  36.8W   30 KT  35 MPH
+ 24H  24/0600Z 23.6N  38.3W   30 KT  35 MPH
+ 36H  24/1800Z 24.6N  40.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  25/0600Z 26.1N  41.7W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  26/0600Z 30.5N  42.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  27/0600Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

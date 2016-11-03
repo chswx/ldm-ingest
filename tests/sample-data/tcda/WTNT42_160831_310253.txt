@@ -1,0 +1,55 @@
+
+821 
+WTNT42 KNHC 310253
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  34
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST TUE AUG 30 2016
+
+Gaston's satellite presentation has continued to improve, with a
+large clear eye and cloud tops colder than -60C completely
+surrounding the center.  Dvorak intensity estimates have risen to
+T5.5 from TAFB and SAB and are a little higher from the objective
+ADT.  The initial intensity is therefore raised to 105 kt, making
+Gaston a major hurricane again.
+
+Gaston is expected to remain over waters warmer than 26C for at
+least the next 36 hours.  In addition, vertical shear is not
+expected to increase any further than what is already affecting the
+system.  Therefore, Gaston should be able to at least maintain its
+intensity in the short term, but weakening is likely to commence by
+24 hours.  Due to cooler waters, a rather fast weakening trend
+is expected after 36 hours, with Gaston likely to weaken to a
+tropical storm between 48 and 72 hours.  The cyclone is now
+expected to become post-tropical by day 4 since it will be
+difficult for it to maintain organized, deep convection over cold
+water, and it should become absorbed by another extratropical
+cyclone by day 5.  The NHC intensity forecast closely follows the
+ICON intensity consensus for the entire forecast period.
+
+The initial motion is 070/9 kt.  Gaston is becoming embedded in the
+mid-latitude westerlies, which should cause it to accelerate
+toward the east-northeast during the next couple of days.  Some
+reduction in speed is then forecast to start by day 3 once Gaston
+begins to interact with the separate extratropical cyclone.  The
+track guidance is tightly clustered, and no significant changes
+were needed from the previous NHC track forecast.  The updated NHC
+forecast continues to show a threat to the Azores in about 3 days.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/0300Z 32.9N  50.9W  105 KT 120 MPH
+ 12H  31/1200Z 33.7N  49.2W  105 KT 120 MPH
+ 24H  01/0000Z 35.4N  46.0W   95 KT 110 MPH
+ 36H  01/1200Z 36.9N  41.7W   85 KT 100 MPH
+ 48H  02/0000Z 37.9N  36.9W   75 KT  85 MPH
+ 72H  03/0000Z 38.7N  29.5W   50 KT  60 MPH
+ 96H  04/0000Z 40.5N  23.5W   35 KT  40 MPH...POST-TROPICAL
+120H  05/0000Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

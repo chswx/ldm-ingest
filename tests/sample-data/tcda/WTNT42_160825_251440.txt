@@ -1,0 +1,61 @@
+
+544 
+WTNT42 KNHC 251440
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST THU AUG 25 2016
+
+The satellite presentation of Gaston has degraded some since the
+previous advisory, with deep convection bursting northeast of the
+center due to about 25 kt of southwesterly shear as analyzed by
+UW-CIMSS.  An ASCAT-B pass from 1212 UTC was helpful in locating the
+center and showed peak winds of around 55 kt, which support an
+intensity of 60 kt for this advisory, a little above the latest
+Dvorak estimates of T3.5/55 kt.  The strong shear is forecast to
+continue for the next 24 hours until Gaston moves poleward of an
+upper-level low currently located to its west.  Given the shear and
+SSTs around 27-28C, little change in intensity, or perhaps some
+slight weakening, is expected in the first 24 hours.  After that
+time, the shear decreases and Gaston moves over SSTs of 29-30C,
+which should allow for strengthening through the rest of the
+forecast period.  The NHC intensity forecast is a little higher than
+the previous one later in the period and is close to the SHIPS model
+and the IVCN intensity consensus.
+
+The initial motion estimate is 315/15.  Gaston should continue
+moving quickly northwestward for the next 24 to 36 hours around a
+mid-level ridge centered to its northeast.  Ridging then builds
+westward to the north of the tropical cyclone, leading to a decrease
+in forward speed and a turn toward the west-northwest in 48 hours.
+Late in the period, Gaston will turn poleward into a weakness along
+60W and then begin to recurve into the mid-latitude westerlies.  The
+track model guidance agrees on this general scenario, however, there
+are some differences in the timing and sharpness of recurvature.
+The GFS, GFS ensemble mean, and UKMET are on the left side of the
+guidance envelope with a broader turn, while the ECMWF, HWRF, and
+GFDL show a sharper turn on the right side of the guidance.  Given
+the uncertainty, the NHC forecast remains near the previous one in
+the middle of the guidance envelope, and is close to the TVCN
+multi-model consensus.
+
+The initial and forecast 34-kt and 50-kt wind radii were adjusted
+based on data from the ASCAT pass.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/1500Z 20.4N  44.4W   60 KT  70 MPH
+ 12H  26/0000Z 22.1N  45.9W   55 KT  65 MPH
+ 24H  26/1200Z 24.4N  48.2W   55 KT  65 MPH
+ 36H  27/0000Z 26.0N  50.9W   60 KT  70 MPH
+ 48H  27/1200Z 27.1N  53.1W   65 KT  75 MPH
+ 72H  28/1200Z 29.4N  56.6W   80 KT  90 MPH
+ 96H  29/1200Z 31.0N  58.0W   90 KT 105 MPH
+120H  30/1200Z 33.0N  57.0W   90 KT 105 MPH
+
+$$
+Forecaster Brennan
+
+
+

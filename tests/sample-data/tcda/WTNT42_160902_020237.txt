@@ -1,0 +1,46 @@
+
+871 
+WTNT42 KNHC 020237
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  42
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST THU SEP 01 2016
+
+The low-level center of Gaston is becoming exposed in infrared
+satellite imagery, with about 25 kt of westerly shear pushing the
+deep convection out ahead of the cyclone.  Dvorak CI numbers remain
+4.5/77 kt from TAFB and 4.0/65 kt from SAB, while the objective ADT
+has dropped well into tropical storm territory.  The initial winds
+are only lowered to 65 kt to allow for a gradual spin down of the
+circulation, but this estimate could be generous.  Due to
+progressively colder sea surface temperatures and persistent shear,
+continued weakening is forecast.  Gaston could lose its deep
+convection in about 36 hours after it has passed the Azores, and
+that's when it is expected to become post-tropical.  Dissipation is
+still forecast by day 3. The NHC intensity forecast is an update of
+the previous one and most closely follows the LGEM.
+
+Now that Gaston's center is exposed, there is more confidence in
+the initial motion (075/20 kt).  Gaston is expected to move
+eastward or east-northeastward at a slower forward speed near the
+western and central Azores during the next 36 hours.  After that
+time, the shallow remnant low should turn northeastward ahead of an
+approaching cold front.  The track guidance remains in good
+agreement, and the NHC forecast is close to the TVCN multi-model
+consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/0300Z 38.3N  36.0W   65 KT  75 MPH
+ 12H  02/1200Z 38.8N  33.0W   55 KT  65 MPH
+ 24H  03/0000Z 39.4N  29.8W   45 KT  50 MPH
+ 36H  03/1200Z 40.6N  27.0W   35 KT  40 MPH...POST-TROPICAL
+ 48H  04/0000Z 42.7N  23.6W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  05/0000Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

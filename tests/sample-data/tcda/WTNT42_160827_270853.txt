@@ -1,0 +1,61 @@
+
+825 
+WTNT42 KNHC 270853
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST SAT AUG 27 2016
+
+Recent microwave data indicate that Gaston's center is now well
+embedded near the middle of the central dense overcast.  The
+microwave images also show that a partial mid-level ring has formed,
+but it remains open to the north-northeast.  Even though Gaston's
+structure appears to be improving, the maximum winds remain 55 kt
+based on Dvorak Current Intensity numbers from TAFB and SAB.
+
+Two outflow jets are emanating away to the east and southwest of
+Gaston, but the outflow remains restricted to the south and
+northwest.  Still, the shear has decreased substantially from what
+it was a day or two ago, and it should remain generally low for the
+next 48 hours.  In addition, sea surface temperatures ahead of
+Gaston are expected to be at least 28C for several more days.
+Therefore, strengthening is anticipated through day 3, followed by
+gradual weakening on days 4 and 5 due to increasing westerly shear.
+Although the intensity models all agree on this general scenario,
+there is a little more spread in the peak intensities than has been
+noted in previous advisories.  On the high end, the Florida State
+Superensemble still shows Gaston approaching major hurricane
+intensity, while the LGEM model is at the other extreme being about
+20 kt lower.  The updated NHC intensity forecast is near the middle
+of the guidance and ends up just a little lower than the previous
+forecast.
+
+Gaston is moving northwestward, or 310 degrees at 13 kt, between a
+mid-tropospheric high to its northeast and a mid-/upper-level low
+to its southwest.  The cyclone is expected to maintain a
+northwestward heading but steadily decelerate during the next 48
+hours.  After that time, Gaston should recurve sharply
+east-northeastward and accelerate through the end of the forecast
+period as it gets picked up by the mid-latitude westerlies.  The
+track guidance has trended westward through 48 hours, delaying
+Gaston's recurvature just a bit, and it is then a little faster by
+days 4 and 5.  The NHC track forecast has been adjusted accordingly
+and is close to the TVCN multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  27/0900Z 27.9N  52.0W   55 KT  65 MPH
+ 12H  27/1800Z 28.8N  53.6W   60 KT  70 MPH
+ 24H  28/0600Z 29.9N  55.0W   70 KT  80 MPH
+ 36H  28/1800Z 30.6N  56.0W   80 KT  90 MPH
+ 48H  29/0600Z 31.2N  56.8W   85 KT 100 MPH
+ 72H  30/0600Z 32.5N  55.6W   90 KT 105 MPH
+ 96H  31/0600Z 34.5N  50.5W   85 KT 100 MPH
+120H  01/0600Z 37.0N  43.5W   75 KT  85 MPH
+
+$$
+Forecaster Berg
+
+
+

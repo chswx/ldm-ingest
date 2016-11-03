@@ -1,0 +1,79 @@
+
+761 
+WTNT44 KNHC 010847
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 AM EDT SAT OCT 01 2016
+
+Matthew has changed little in organization since the past advisory,
+with a small eye surrounded by a central dense overcast featuring
+cloud tops colder than -80C.  The eye has become a little less
+distinct, suggesting at least that the hurricane is no longer
+intensifying.  In addition, the raw intensity estimates from the
+CIMSS ADT technique are slightly lower than they were six hours
+ago.  Based on these trends, the initial intensity is reduced to
+135 kt. An Air Force Reserve Hurricane Hunter aircraft is scheduled
+to reach Matthew near 1200 UTC.
+
+The initial motion is now 270/6.  Matthew remains south of a low-
+to mid-level ridge over the western Atlantic.  The dynamical models
+forecast this ridge to weaken over the next 72 hours as a mid- to
+upper-level trough develops over the Gulf of Mexico.  This
+evolution should cause Matthew to turn northwestward after 24 hours
+and northward by 48-72 hours.  The guidance generally agrees with
+this scenario.  However, there is a spread between the GFS forecast
+of landfall in Jamaica and eastern Cuba and the ECMWF forecast
+landfall in southwestern Haiti.  The guidance becomes more divergent
+after 72 hours.  The GFS shows a turn toward the north-northwest,
+which brings the center closer to the northwestern Bahamas and
+Florida. This model is near the western edge of the guidance
+envelope.  The ECMWF is near the eastern edge of the guidance
+envelope and shows the center east of the Bahamas by 120 hours.
+Adding to the uncertainty is the eastward shift of the Canadian
+model since its previous run.  Given the uncertainty, the 96 and 120
+hour forecast points are changed only slightly from the previous
+forecast.  This part of the forecast track lies to the east of the
+GFS, but to the west of the Canadian, ECMWF, and NAVGEM models.  It
+is also a little to the west of the various consensus models.
+
+Matthew should experience significant shear for the next 24 hours or
+so, as water vapor imagery shows westerly flow blowing into the
+hurricane underneath the impressive outflow pattern.  This should
+cause some weakening.  After that time, the dynamical models suggest
+the shear should decrease, which should allow Matthew to at least
+maintain its intensity.  The new intensity forecast shows a
+slightly weaker intensity than the previous advisory through 72
+hours based mainly on current trends.  Subsequently, the hurricane
+is likely to interact with the land masses of Jamaica, Cuba, and
+Hispaniola, leading to some weakening and disruption of the
+structure.  Between this and uncertainty about how much shear
+Matthew will encounter north of Cuba, the new forecast shows only
+modest strengthening after Matthew reaches the Atlantic north of
+Cuba.  There is also the possibility of fluctuations in intensity
+caused by eyewall replacement cycles at any time during the forecast
+period.
+
+It is important to remind users that average NHC track forecast
+errors are around 175 miles at day 4 and 230 miles at day 5.
+Therefore, it is too soon to rule out possible hurricane impacts
+from Matthew in Florida.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0900Z 13.3N  72.8W  135 KT 155 MPH
+ 12H  01/1800Z 13.3N  73.6W  130 KT 150 MPH
+ 24H  02/0600Z 13.8N  74.5W  120 KT 140 MPH
+ 36H  02/1800Z 14.9N  75.1W  110 KT 125 MPH
+ 48H  03/0600Z 16.2N  75.7W  110 KT 125 MPH
+ 72H  04/0600Z 19.5N  76.0W  110 KT 125 MPH
+ 96H  05/0600Z 23.0N  76.0W   90 KT 105 MPH
+120H  06/0600Z 26.0N  76.5W   95 KT 110 MPH
+
+$$
+Forecaster Beven
+
+
+

@@ -1,0 +1,69 @@
+
+143 
+WTNT44 KNHC 290856
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 AM EDT MON AUG 29 2016
+
+The satellite presentation of the depression is quite ragged this
+morning, with little deep convection over the southeastern Gulf
+of Mexico or Straits of Florida.  The thunderstorm activity that was
+located to the east and southeast of the center yesterday afternoon
+and evening, has propagated southwestward and is now located over
+Cuba and the extreme northern Caribbean Sea, well south of the
+center due to moderate to strong northerly shear.  Data from a NOAA
+Hurricane Hunter aircraft have been very helpful in locating the
+low-level center overnight, and wind reports from the aircraft
+indicate that the depression still has winds of 25 to 30 kt.
+
+The intensity forecast for the depression remains of lower
+confidence than normal.  The strong northerly upper-level winds
+currently over the system are forecast to decrease today, and the
+depression should be in a more conducive upper-level environment
+for a day or two.  However, the global models indicate that dry
+mid-level air will remain near and to the northwest of the system,
+and that, combined with the current poor organization of the
+depression, suggests that any intensification should be slow to
+occur during the next day or so.  After 48 hours, the upper-level
+winds should turn southwestward and become more diffluent over the
+system due to a mid- to upper-level trough that will be digging
+southward over the eastern United States.  This could result in a
+little more favorable environment, and the NHC forecast calls for
+gradual intensification between 72 and 120 hours.  The NHC forecast
+remains on the conservative side, and is between the more aggressive
+statistical guidance and the global models, which do not
+significantly deepen the system until it moves into the western
+Atlantic.
+
+The aircraft fixes indicate that the depression is moving generally
+westward at about 8 kt.  The tropical cyclone should move westward
+to west-northwestward today to the south of a low- to mid-level
+ridge.  The depression should turn northwestward and then northward
+around the western portion of the ridge on Tuesday.  After that
+time, the aforementioned digging trough should begin to steer
+the cyclone northeastward at a faster forward speed.  Most of the
+track guidance is in agreement with this scenario, although there
+are some differences on how fast the system will move northeastward
+toward the Florida peninsula.  The update NHC track is close to a
+consensus of the global models, and is not very different than the
+previous NHC advisory.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/0900Z 23.5N  83.9W   30 KT  35 MPH
+ 12H  29/1800Z 23.7N  85.0W   30 KT  35 MPH
+ 24H  30/0600Z 24.1N  86.3W   35 KT  40 MPH
+ 36H  30/1800Z 24.7N  87.1W   35 KT  40 MPH
+ 48H  31/0600Z 25.4N  87.3W   40 KT  45 MPH
+ 72H  01/0600Z 27.8N  85.3W   45 KT  50 MPH
+ 96H  02/0600Z 30.5N  81.0W   50 KT  60 MPH
+120H  03/0600Z 33.0N  74.0W   55 KT  65 MPH
+
+$$
+Forecaster Brown
+
+
+

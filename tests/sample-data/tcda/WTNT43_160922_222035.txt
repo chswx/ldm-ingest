@@ -1,0 +1,51 @@
+
+941 
+WTNT43 KNHC 222035
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST THU SEP 22 2016
+
+Strong vertical shear from an upper-level low near 24N 40W continues
+to plague Lisa, with the low-level center located to the southwest
+of the deep convection as seen in a 1749Z SSMIS overpass.  The
+initial intensity remains 45 kt based on the earlier ASCAT data and
+the latest Dvorak estimate from SAB.  UW-CIMSS analysis shows that
+the shear is already over 40 kt and the SHIPS model shows it near or
+above this value for the next 36 hours, which should result in
+weakening.  The official forecast follows that trend and is close to
+the latest SHIPS guidance through 48 hours.  After that time, Lisa
+is expected to remain a 30-kt post-tropical cyclone through 5 days.
+Even though the shear diminishes in about 72 hours, the mid-level
+relative humidity remains below 50 percent, and it is assumed that
+Lisa will be too weak to take advantage of the lower shear.
+
+The initial motion estimate is 320/07.  Lisa is expected to continue
+moving northwestward into a break in the subtropical ridge for the
+next 48 hours.  Beyond that time, Lisa or its remnants should
+recurve ahead of a large mid-latitude trough.  The new NHC track
+forecast is basically an update of the previous one and is along the
+eastern edge of the latest guidance envelope.  There continues to be
+a fair bit of along-track spread in the guidance late in the period,
+with the GFS now faster than the other guidance.  The NHC forecast
+has been adjusted a little faster this cycle but is slower than the
+GFS and close to the latest guidance from the Ocean Prediction
+Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/2100Z 20.7N  34.5W   45 KT  50 MPH
+ 12H  23/0600Z 21.8N  35.6W   40 KT  45 MPH
+ 24H  23/1800Z 23.2N  37.0W   35 KT  40 MPH
+ 36H  24/0600Z 24.4N  38.5W   30 KT  35 MPH
+ 48H  24/1800Z 25.6N  40.1W   30 KT  35 MPH
+ 72H  25/1800Z 29.5N  41.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  26/1800Z 34.0N  38.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  27/1800Z 42.5N  30.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Brennan
+
+
+

@@ -1,0 +1,43 @@
+
+133 
+WTNT45 KNHC 160837
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 AM AST FRI SEP 16 2016
+
+Cloud tops have warmed near the center of Ian overnight, but the
+cloud pattern in geostationary imagery still resembles that of a
+tropical cyclone.  A small mid-level eye and a banding convective
+structure are also seen in a 0417 UTC AMSR-2 overpass from GCOM-W1.
+The initial intensity is set to 50 kt based on the latest ST3.0
+classification from TAFB and the fast forward speed of the cyclone,
+which now exceeds 40 kt.  Ian should become extratropical within 12
+hours and then be absorbed by another front near or northeast of
+Iceland in about 48 hours, as indicated by the latest ECMWF and
+UKMET model solutions.
+
+The AMSR-2 pass mentioned above and a 0544 UTC SSM/I pass were
+helpful in locating the low-level center of Ian, and the initial
+motion estimate is a somewhat uncertain 040/42.  The cyclone should
+continue moving quickly northeastward ahead of a large upper-level
+trough until it is absorbed.  The new NHC track forecast is based on
+a blend of the tightly clustered global model guidance.
+
+The track, intensity, and wind radii forecasts are based largely on
+guidance from the Ocean Prediction Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/0900Z 45.2N  40.8W   50 KT  60 MPH
+ 12H  16/1800Z 50.1N  34.4W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 24H  17/0600Z 57.2N  25.4W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 36H  17/1800Z 61.8N  18.7W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 48H  18/0600Z...ABSORBED
+
+$$
+Forecaster Brennan
+
+
+

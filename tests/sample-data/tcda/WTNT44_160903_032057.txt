@@ -1,0 +1,92 @@
+
+831 
+WTNT44 KNHC 032057
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  26
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 PM EDT SAT SEP 03 2016
+
+Hermine has the look of an extratropical cyclone this afternoon,
+with most of the deep convection situated well northeast of the
+center and dry, subsiding air wrapping around the southern
+semicircle.  This descending air resulted in a band of very strong
+winds over portions of the Outer Banks of North Carolina today, and
+those winds along with SFMR data from the aircraft support an
+initial intensity of 60 kt for this advisory.  Hermine has an
+expansive wind field, with 34-kt winds extending about 200 miles
+from the center.  Hermine is still expected to interact with a
+shortwave trough in the next couple of days over warm SSTs, which
+should result in some intensification, although the global models
+are a little less bullish this cycle.  The NHC forecast continues to
+show Hermine at or near hurricane intensity for the next 72 hours,
+with slow weakening expected thereafter.
+
+After moving due eastward earlier today, the initial motion is now
+back toward the east-northeast at around 10 kt.  Hermine should turn
+northward and slow to a crawl as it merges with the upper-level
+trough, and the NHC track shows only 2-3 kt of forward speed from 24
+through 96 hours.  The spread in the track model guidance has
+increased this cycle, with the UKMET and GFS now showing more of a
+westward motion and are slower to begin moving Hermine
+northeastward.  The ECMWF has trended eastward and is much faster,
+taking Hermine south of Cape Cod in about 4 days, while the GFS and
+UKMET are still centered offshore of New Jersey at that time. Given
+the spread, and the possibility of looping motions during the
+interaction with the upper trough, confidence in the details of the
+track forecast remains quite low.  The new NHC track tries to
+maintain some continuity with the last one, but lies to the right of
+the previous one in the first 12-24 hours due to the more easterly
+motion of Hermine today.  The NHC forecast is close to the
+multi-model consensus through 72 hours.  After that time, the NHC
+track is faster than the new consensus but slower than the previous
+forecast, reflecting the increasing spread at those times and low
+confidence in any particular solution.
+
+KEY MESSAGES:
+
+1. The slow motion and large wind field associated with Hermine will
+result in a long duration of hazardous conditions along much of the
+mid-Atlantic coast extending into southern New England through the
+holiday weekend and into midweek.
+
+2. Small changes in the meandering track of Hermine could result in
+large differences in the impacts along the mid-Atlantic coast during
+the next several days.  In addition, there could be multiple
+occurrences of tropical storm conditions in some locations within
+the warning area during this time.
+
+3. Although Hermine has become a post-tropical cyclone, NHC will
+continue to issue its full suite of advisory and warning products as
+long as the system remains a significant threat to land areas.
+
+4. P-surge, the model that drives the Potential Storm Surge Flooding
+Graphic, is designed for a wind field typical of a tropical cyclone.
+The wind field of Hermine is very poorly represented by the P-surge
+model and as a result, Flooding Graphics prior to today's 11 am
+EDT advisory understated the inundation risk from the Carolinas
+northward.  The NWS is using the GFS ensemble system instead of
+P-surge for ongoing issuances of the Potential Storm Surge Flooding
+Graphic to provide a more realistic depiction of the threat.
+
+5. The Prototype Storm Surge Watch/Warning Graphic accounts for
+the current wind structure of Hermine, and therefore accurately
+identifies those areas at risk for life-threatening storm surge.
+This graphic will also continue to be produced for Hermine.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  03/2100Z 36.2N  73.3W   60 KT  70 MPH...POST-TROPICAL
+ 12H  04/0600Z 36.8N  72.0W   60 KT  70 MPH...POST-TROPICAL
+ 24H  04/1800Z 37.2N  71.3W   65 KT  75 MPH...POST-TROPICAL
+ 36H  05/0600Z 37.7N  71.6W   65 KT  75 MPH...POST-TROPICAL
+ 48H  05/1800Z 38.0N  72.0W   65 KT  75 MPH...POST-TROPICAL
+ 72H  06/1800Z 38.8N  71.9W   60 KT  70 MPH...POST-TROPICAL
+ 96H  07/1800Z 40.0N  71.0W   55 KT  65 MPH...POST-TROPICAL
+120H  08/1800Z 41.0N  68.5W   50 KT  60 MPH...POST-TROPICAL
+
+$$
+Forecaster Brennan
+
+
+

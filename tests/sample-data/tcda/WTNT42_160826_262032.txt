@@ -1,0 +1,66 @@
+
+468 
+WTNT42 KNHC 262032
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST FRI AUG 26 2016
+
+The hostile vertical shear from an upper low to Gaston's southwest
+appears to be dropping with the SHIPS and CIMSS shear analyses down
+to about 15 kt.  The deep convection, however, is still mainly north
+of the center and lacks significant banding features.  SAB and TAFB
+Dvorak current intensity estimates range from 45 to 55 kt, down
+slightly from earlier today.  In deference to the 1330Z ASCAT
+scatterometer pass and the very robust low-level circulation evident
+in the visible imagery during the day, the maximum winds are kept at
+55 kt.
+
+As Gaston moves away from the upper-level low, the shear should
+continue to drop to values between 5 and 10 kt by tomorrow.  The
+shear should then stay low through about 72 h while the cyclone
+traverses over quite warm waters.  A key uncertainty in the
+intensity forecast is from the environmental low-level moisture,
+which may decrease substantially during the next few days.  This
+could reduce the otherwise quite conducive conditions that Gaston
+should soon experience. After about three days, Gaston is likely to
+encounter strong mid-latitude upper-level westerlies and a return of
+hostile shear while SSTs steadily drop. The official NHC forecast is
+for steady intensification between days one and three, with gradual
+weakening thereafter.  This forecast is based upon a blend of the
+tightly packed HWRF/COAMPS/SHIPS/LGEM models and is the same as in
+the previous advisory.
+
+Gaston's center is just tucked in on the southern edge of the deep
+convection, allowing for a confident assessment of the initial
+position. The tropical storm is moving toward the northwest at a
+15-kt clip, as it is being steered between the strong upper low and
+a subtropical ridge to its northeast.  Around 72 h, Gaston should
+slow to a crawl as it reaches a weak steering pattern.  But by the
+end of the forecast period, the system should be accelerating
+northeastward as it enters the mid-latitude westerlies.  The track
+forecast is based upon a blend of the GFS and ECMWF global models
+and is nearly the same from that in the previous advisory.
+
+The initial 34- and 50-kt wind radii were only slightly tweaked
+based upon the ASCAT scatterometer pass and the wind radii forecast
+is similar to the RVCN consensus technique.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  26/2100Z 26.2N  49.7W   55 KT  65 MPH
+ 12H  27/0600Z 27.4N  51.5W   55 KT  65 MPH
+ 24H  27/1800Z 28.6N  53.5W   65 KT  75 MPH
+ 36H  28/0600Z 29.7N  54.8W   75 KT  85 MPH
+ 48H  28/1800Z 30.4N  55.8W   85 KT 100 MPH
+ 72H  29/1800Z 31.5N  56.0W   95 KT 110 MPH
+ 96H  30/1800Z 32.5N  53.5W   90 KT 105 MPH
+120H  31/1800Z 34.5N  49.0W   80 KT  90 MPH
+
+$$
+Forecaster Landsea
+
+
+

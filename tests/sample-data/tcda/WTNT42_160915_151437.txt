@@ -1,0 +1,59 @@
+
+359 
+WTNT42 KNHC 151437
+TCDAT2
+
+TROPICAL DEPRESSION TWELVE DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 AM AST THU SEP 15 2016
+
+Visible satellite images indicate that the depression has a rather
+impressive low-level circulation, although all the deep convection
+is far removed from the center due to southwesterly shear.  Given
+such a well-defined circulation, the depression could have become a
+tropical storm overnight.  The initial wind speed, however, remains
+30 kt using a blend of the TAFB/SAB estimates with any of the more
+reliable ASCAT passes unfortunately missing the center during the
+past 18 hours.
+
+An upper-level trough to the northwest of the cyclone is expected to
+cause an increase in shear during the next day or so, which will
+likely cause the cyclone to weaken.  Beyond 48 hours, most of the
+models show the shear relaxing, with an upper-level high taking the
+place of the trough, and the cyclone is forecast to move over warmer
+waters.  This will probably promote a restrengthening trend,
+although guidance is in poor agreement on how much the winds could
+increase.  Thus, the official forecast is reduced a little bit for
+Friday/Saturday due to the shear, then is the same as the previous
+one, showing a slow restrengthening early next week. It is also
+possible the cyclone will degenerate into a remnant low for a while
+due to the shear, although this isn't the likeliest scenario.
+
+The depression is moving westward at about 11 kt, and this general
+motion should continue for a day or so while it moves around the
+Atlantic subtropical ridge.  This ridge is forecast by much of the
+guidance to strengthen and build westward, which would force the
+depression to the west-southwest over the weekend.  Early next
+week, the cyclone could begin to gain some latitude as it reaches
+the southwestern periphery of the ridge.  Guidance is in good
+agreement on this scenario, except for the GFDL which appears to be
+a northward outlier.  The official forecast track is very close to a
+blend of the other models in the TVCN consensus minus the GFDL, and
+is basically an update of the previous forecast.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/1500Z 17.7N  30.4W   30 KT  35 MPH
+ 12H  16/0000Z 17.8N  32.2W   30 KT  35 MPH
+ 24H  16/1200Z 17.9N  34.8W   30 KT  35 MPH
+ 36H  17/0000Z 17.7N  37.4W   25 KT  30 MPH
+ 48H  17/1200Z 17.4N  40.1W   25 KT  30 MPH
+ 72H  18/1200Z 16.5N  45.2W   30 KT  35 MPH
+ 96H  19/1200Z 16.7N  50.3W   35 KT  40 MPH
+120H  20/1200Z 17.5N  55.0W   40 KT  45 MPH
+
+$$
+Forecaster Blake
+
+
+

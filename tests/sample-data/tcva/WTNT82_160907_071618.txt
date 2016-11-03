@@ -1,0 +1,81 @@
+
+028 
+WTNT82 EGRR 071618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 07.09.2016
+
+        TROPICAL STORM LESTER     ANALYSED POSITION : 36.9N 165.7W
+
+     ATCF IDENTIFIER : EP132016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 07.09.2016    0  36.9N 165.7W      999            50
+    0000UTC 08.09.2016   12  40.3N 163.8W     1001            47
+    1200UTC 08.09.2016   24  45.3N 158.5W     1006            43
+    0000UTC 09.09.2016   36              CEASED TRACKING
+
+        TROPICAL STORM NEWTON     ANALYSED POSITION : 29.6N 111.6W
+
+     ATCF IDENTIFIER : EP152016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 07.09.2016    0  29.6N 111.6W      996            31
+    0000UTC 08.09.2016   12  32.7N 109.5W     1009            16
+    1200UTC 08.09.2016   24              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  30 HOURS
+              FORECAST POSITION AT T+ 30 : 12.0N 147.9W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 09.09.2016   36  11.7N 148.9W     1007            24
+    1200UTC 09.09.2016   48  12.2N 149.6W     1007            23
+    0000UTC 10.09.2016   60  13.4N 150.7W     1006            24
+    1200UTC 10.09.2016   72  15.0N 151.3W     1006            27
+    0000UTC 11.09.2016   84  17.2N 152.5W     1005            33
+    1200UTC 11.09.2016   96  18.6N 153.7W     1009            30
+    0000UTC 12.09.2016  108  19.1N 155.3W     1011            28
+    1200UTC 12.09.2016  120  21.6N 156.1W     1013            22
+    0000UTC 13.09.2016  132  22.4N 157.5W     1013            20
+    1200UTC 13.09.2016  144  22.0N 158.6W     1013            16
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  84 HOURS
+              FORECAST POSITION AT T+ 84 : 16.0N  42.7W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 11.09.2016   84  16.0N  42.7W     1011            31
+    1200UTC 11.09.2016   96  18.6N  44.9W     1009            35
+    0000UTC 12.09.2016  108  20.0N  46.4W     1007            39
+    1200UTC 12.09.2016  120  21.4N  48.0W     1007            38
+    0000UTC 13.09.2016  132  23.6N  49.9W     1008            37
+    1200UTC 13.09.2016  144  25.6N  51.3W     1007            39
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 102 HOURS
+              FORECAST POSITION AT T+102 : 15.5N 120.5W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 12.09.2016  108  15.5N 121.1W     1008            29
+    1200UTC 12.09.2016  120  15.8N 123.0W     1004            37
+    0000UTC 13.09.2016  132  16.7N 123.3W     1002            33
+    1200UTC 13.09.2016  144  17.8N 123.5W      999            37
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 071618
+

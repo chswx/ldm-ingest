@@ -1,0 +1,51 @@
+
+825 
+WTNT42 KNHC 150255
+TCDAT2
+
+TROPICAL DEPRESSION TWELVE DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST WED SEP 14 2016
+
+The convective pattern of the depression has improved some since the
+previous advisory with short curved bands having developed in all
+quadrants. In addition, the upper-level outflow has also improved
+and become more symmetrical. Satellite intensity estimates range
+from 30 kt from TAFB and SAB, 37-41 kt in recent AMSU estimates, and
+an ADT value of T2.8/41 kt. Due to the lack of persistent inner-core
+convection, the intensity is being maintained at 30 kt.
+
+The initial motion is 280/12 kt.  A deep-layer ridge to the north
+of the cyclone is expected steer the system west-northwestward and
+then westward during the next 48 hours, accompanied by some
+decrease in forward speed as the ridge weakens slightly. By 72
+hours and beyond, the ridge is forecast to build southward slightly,
+forcing the cyclone on a west-southwestward track over warmer
+waters. The new forecast track is basically just an update of the
+previous advisory track, and lies close to the consensus models.
+
+Some strengthening is expected during the next 24 hours or so. After
+that, the cyclone will encounter moderate to strong westerly
+vertical wind shear caused by a developing upper-level trough to the
+north of the cyclone.  The new intensity forecast continues to show
+the system weakening back to a depression by 36 hours. On days 4
+and 5, some slight re-strengthening is expected when the cyclone
+moves over SSTs near 28 deg C and into more favorable mid- and
+upper-level environments as shown by the ECMWF and UKMET models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/0300Z 17.6N  27.5W   30 KT  35 MPH
+ 12H  15/1200Z 17.8N  29.4W   35 KT  40 MPH
+ 24H  16/0000Z 18.0N  31.9W   35 KT  40 MPH
+ 36H  16/1200Z 18.1N  34.3W   30 KT  35 MPH
+ 48H  17/0000Z 17.9N  36.6W   30 KT  35 MPH
+ 72H  18/0000Z 17.5N  40.7W   30 KT  35 MPH
+ 96H  19/0000Z 17.4N  44.6W   35 KT  40 MPH
+120H  20/0000Z 17.9N  49.0W   40 KT  45 MPH
+
+$$
+Forecaster Stewart
+
+
+

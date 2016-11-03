@@ -1,0 +1,88 @@
+
+796 
+WTNT32 KNHC 010855
+TCPAT2
+
+BULLETIN
+HURRICANE GASTON ADVISORY NUMBER  39
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST THU SEP 01 2016
+
+...GASTON WEAKENS A LITTLE...TROPICAL STORM WARNING ISSUED FOR THE
+WESTERN AZORES...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...36.8N 43.3W
+ABOUT 805 MI...1300 KM W OF FAIAL ISLAND IN THE CENTRAL AZORES
+ABOUT 895 MI...1440 KM W OF LAJES AIR BASE IN THE AZORES
+MAXIMUM SUSTAINED WINDS...90 MPH...150 KM/H
+PRESENT MOVEMENT...ENE OR 60 DEGREES AT 20 MPH...31 KM/H
+MINIMUM CENTRAL PRESSURE...977 MB...28.85 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+The Azores Meteorological Service has issued a Tropical Storm
+Warning for Flores and Corvo in the western Azores.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Warning is in effect for...
+* Flores and Corvo in the western Azores
+
+A Tropical Storm Watch is in effect for...
+* Faial, Pico, Graciosa, Sao Jorge, and Terceira in the central
+Azores
+
+A Tropical Storm Warning means that tropical storm conditions are
+expected somewhere within the warning area within 36 hours.
+
+A Tropical Storm Watch means that tropical storm conditions are
+possible within the watch area, generally within 48 hours.
+
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Hurricane Gaston was located
+near latitude 36.8 North, longitude 43.3 West. Gaston is moving
+toward the east-northeast near 20 mph (31 km/h), and this
+general motion is expected to continue during the next day or two.
+On the forecast track, the center of Gaston will move near the
+western Azores on Friday and the central Azores by Friday night.
+
+Maximum sustained winds have decreased to near 90 mph (150 km/h)
+with higher gusts.  Weakening is forecast during the next 48 hours,
+and Gaston is expected to lose hurricane intensity by early Friday
+before it reaches the western Azores.
+
+Hurricane-force winds extend outward up to 45 miles (75 km) from the
+center and tropical-storm-force winds extend outward up to 175 miles
+(280 km).
+
+The estimated minimum central pressure is 977 mb (28.85 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Tropical storm conditions are expected in the western Azores
+on Friday.  Tropical storm conditions are possible in the central
+Azores late Friday and Friday night.
+
+
+NEXT ADVISORY
+-------------
+Next intermediate advisory at 800 AM AST.
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Cangialosi
+
+
+

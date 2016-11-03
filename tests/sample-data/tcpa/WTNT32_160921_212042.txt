@@ -1,0 +1,59 @@
+
+594 
+WTNT32 KNHC 212042
+TCPAT2
+
+BULLETIN
+TROPICAL DEPRESSION KARL ADVISORY NUMBER  30
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+500 PM AST WED SEP 21 2016
+
+...KARL BECOMING BETTER ORGANIZED BUT MAXIMUM WINDS REMAIN 35 MPH...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...21.9N 58.7W
+ABOUT 810 MI...1305 KM SSE OF BERMUDA
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...NW OR 305 DEGREES AT 12 MPH...19 KM/H
+MINIMUM CENTRAL PRESSURE...1007 MB...29.74 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+Interests in Bermuda should monitor the progress of Karl.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Depression Karl was
+located near latitude 21.9 North, longitude 58.7 West. The
+depression is moving toward the northwest near 12 mph (19 km/h), and
+this motion is expected to continue through Thursday but shift
+toward the north-northwest by Friday.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Some strengthening is forecast during the next 48 hours.
+
+Based on data from NOAA Buoy 41044, the minimum central pressure is
+1007 mb (29.74 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Gallina/Berg
+
+
+

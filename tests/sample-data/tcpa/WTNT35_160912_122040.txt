@@ -1,0 +1,59 @@
+
+009 
+WTNT35 KNHC 122040
+TCPAT5
+
+BULLETIN
+TROPICAL STORM IAN ADVISORY NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 PM AST MON SEP 12 2016
+
+...IAN MOVING OVER THE OPEN WATERS OF THE ATLANTIC WITH NO CHANGE
+IN STRENGTH...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...22.9N 50.7W
+ABOUT 1080 MI...1735 KM ESE OF BERMUDA
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...NNW OR 330 DEGREES AT 13 MPH...20 KM/H
+MINIMUM CENTRAL PRESSURE...1007 MB...29.74 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Storm Ian was
+located near latitude 22.9 North, longitude 50.7 West.  Ian is
+moving toward the north-northwest near 13 mph (20 km/h), and this
+general motion is expected to continue for the next couple of days.
+
+Maximum sustained winds are near 40 mph (65 km/h) with higher gusts.
+Little change in strength is expected for the next day or so.  Some
+slow strengthening could begin by Tuesday night or early Wednesday.
+
+Tropical-storm-force winds extend outward up to 175 miles (280 km)
+from the center.
+
+The estimated minimum central pressure is 1007 mb (29.74 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Pasch
+
+
+

@@ -1,0 +1,67 @@
+
+342 
+WTNT44 KNHC 020859
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 AM EDT SUN OCT 02 2016
+
+The overall organization of the hurricane has changed little
+overnight, with the small eye remaining distinct in infrared
+satellite pictures.  A very recent AMSR2 microwave overpass showed
+no indication of an eyewall replacement, but there was a notable dry
+slot between the inner core and the outer bands over the southern
+portion of the circulation.  Although Dvorak data T-numbers
+decreased slightly at 0600 UTC, the objective and subjective CI
+numbers are about the same as before, so the initial intensity will
+remain 130 kt for this advisory.  Another Air Force Reserve
+Hurricane Hunter aircraft is scheduled to investigate Matthew this
+morning, which should provide a better assessment of the hurricane's
+current strength and structure. Although some weakening is predicted
+during the next couple of days, Matthew is expected to remain a
+powerful hurricane when it approaches the islands of the Greater
+Antilles in a couple of days. The upper-level wind environment is
+expected to remain favorable over the Bahamas, and warm waters in
+that area should allow Matthew to maintain much of its intensity
+while it moves over that area later in the forecast period.
+
+Matthew has been moving slowly west-northwestward during the past
+few hours, but the longer-term motion estimate is northwest or 320
+degrees at 4 kt.  The forecast track reasoning remains unchanged
+from before.  Matthew should move slowly northwestward today,
+and then turn northward tonight as a mid- to upper-level trough
+develops over the eastern Gulf of Mexico.  This motion will take
+Matthew towards Jamaica, western Haiti, and eastern Cuba over the
+next couple of days.  After that time, the global models bend
+Matthew back toward the north-northwest between the aforementioned
+trough and a developing ridge off the northeast United States coast.
+The dynamical models are in good agreement on this scenario through
+72 hours, with increasing spread thereafter.  The GFS, ECMWF, and
+UKMET are along the western side of the guidance at days 4 and 5,
+while the HWRF is along the eastern side.  The latest NHC track is
+close to the model consensus through day 3, but is west of the
+consensus at 96 and 120 h, to be closer to the typically better
+performing global models.
+
+It is important to remind users that average NHC track forecast
+errors are around 175 miles at day 4 and 230 miles at day 5.
+Therefore, it is too soon to rule out possible hurricane impacts
+from Matthew in Florida.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/0900Z 13.9N  74.1W  130 KT 150 MPH
+ 12H  02/1800Z 14.6N  74.5W  125 KT 145 MPH
+ 24H  03/0600Z 15.6N  74.7W  120 KT 140 MPH
+ 36H  03/1800Z 17.1N  74.7W  115 KT 130 MPH
+ 48H  04/0600Z 18.8N  74.5W  110 KT 125 MPH
+ 72H  05/0600Z 22.6N  74.8W  105 KT 120 MPH
+ 96H  06/0600Z 25.5N  75.5W  100 KT 115 MPH
+120H  07/0600Z 28.0N  76.2W   95 KT 110 MPH
+
+$$
+Forecaster Brown
+
+
+

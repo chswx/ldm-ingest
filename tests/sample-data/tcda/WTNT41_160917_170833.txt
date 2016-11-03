@@ -1,0 +1,46 @@
+
+751 
+WTNT41 KNHC 170833
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 AM EDT SAT SEP 17 2016
+
+Julia continues to consist of a swirl of low clouds, and although
+there have been a few intermittent showers, the cyclone has been
+without organized deep convection since around 2100 UTC yesterday.
+A pair of ASCAT passes around 0200 UTC showed maximum winds of 26-27
+kt on the north side of the circulation, so the initial intensity is
+set to 25 kt for this advisory.  If organized deep convection does
+not return, Julia will likely become a remnant low later today.
+Given that shear of 20-30 kt is forecast to continue over Julia for
+the next 36-48 hours, it seems unlikely that the cyclone will
+recover, although occasional bursts of convection are possible.  The
+latest ECMWF fields show Julia dissipating in a couple of days, with
+the GFS holding onto a weak low into day 4.  As a compromise, the
+NHC forecast shows the remnant low dissipating in 72 hours, but this
+could occur sooner.
+
+After drifting southwestward earlier, Julia has been stationary
+recently.  Steering currents will remain weak, but the shallow
+cyclone should gradually turn northwestward and northward as a
+low-level ridge currently north of Julia weakens during the next 48
+hours.  The new NHC track forecast is largely an update of the
+previous one and lies between the GFS and ECMWF solutions near the
+middle of the guidance envelope.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/0900Z 30.1N  76.4W   25 KT  30 MPH
+ 12H  17/1800Z 30.3N  76.7W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  18/0600Z 30.6N  77.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  18/1800Z 31.1N  77.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  19/0600Z 31.6N  77.3W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  20/0600Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

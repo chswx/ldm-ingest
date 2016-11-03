@@ -1,0 +1,74 @@
+
+775 
+WTNT42 KNHC 200858
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  24
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST TUE SEP 20 2016
+
+Karl's satellite appearance late yesterday gave the impression that
+it had increased some in organization, with the low-level center
+partially underneath a large mass of deep convection.  Since that
+time, the low-level center appears to have outrun the convection,
+becoming exposed well to the west of the remnant convective mass
+whose cloud top temperatures have warmed significantly.  The cloud
+pattern is typical of a tropical cyclone undergoing significant
+westerly shear.  Dvorak classifications have decreased to T2.5 from
+TAFB and SAB, and on this basis, the initial intensity estimate is
+lowered to 35 kt.
+
+The initial motion is a faster and a more westerly 290/15.  Karl
+should continue to be steered generally west-northwestward around
+the southwestern periphery of well-defined low- to mid-level
+subtropical ridge over the central Atlantic during the next couple
+of days.  The cyclone should move into weakness in the ridge along
+65W in 48 to 72 hours, which should result in a gradual turn toward
+the north with a considerable decrease in forward speed by day 4.
+Around 96 hours, Karl should become susceptible to the mid-latitude
+westerly flow after it crosses 30N as it begins to undergo a sharp
+recurvature.  The models vary tremendously on how quickly Karl will
+recurve by day 5, with the GFS-based guidance whisking the cyclone
+rapidly northeastward in response to a deep-layer trough moving
+through the northeastern United States and Atlantic Canada. The
+ECMWF and the majority of its ensemble members show Karl lagging way
+behind before being ejected northeastward by a slowly amplifying
+trough.  The new track forecast is shifted to the left and
+is slightly faster through day 3, largely because of the initial
+re-positioning of the cyclone.  After that time, a compromise
+between the much faster GFS-based guidance and the ECMWF results in
+a slower and somewhat more eastward forecast track.
+
+Karl can be seen approaching an upper-tropospheric cold low in water
+vapor imagery.  The unfavorable juxtaposition of Karl and this
+feature should not result in much intensification for about the next
+36 hours, since the flow over Karl is convergent and there is some
+deep-layer westerly shear.  This is the rationale for keeping the
+short-term intensity forecast low.  By 48 hours and beyond, the
+shear is forecast to have finally decreased while the cyclone
+reaches near 30 deg C waters, and intensification is likely.  With
+the flow becoming increasingly divergent over Karl around the time
+it recurves in 3 to 4 days, the intensification could occur more
+rapidly than this forecast indicates, and there is some chance that
+Karl could become a major hurricane.  Late in the period, increasing
+southwesterly shear could become a mitigating factor and the
+intensity is shown to be leveling off by day 5.  The new NHC
+intensity forecast is a little lower than the multi-model consensus
+initially and about the same or a little lower at days 3-5.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/0900Z 20.2N  52.8W   35 KT  40 MPH
+ 12H  20/1800Z 20.9N  54.6W   35 KT  40 MPH
+ 24H  21/0600Z 21.7N  57.0W   35 KT  40 MPH
+ 36H  21/1800Z 23.0N  59.2W   45 KT  50 MPH
+ 48H  22/0600Z 24.7N  61.5W   55 KT  65 MPH
+ 72H  23/0600Z 27.4N  64.7W   70 KT  80 MPH
+ 96H  24/0600Z 30.3N  64.5W   90 KT 105 MPH
+120H  25/0600Z 34.0N  57.9W   90 KT 105 MPH
+
+$$
+Forecaster Kimberlain
+
+
+

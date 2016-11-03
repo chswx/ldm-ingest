@@ -1,0 +1,71 @@
+
+567 
+WTNT44 KNHC 300249
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1000 PM CDT MON AUG 29 2016
+
+Since the previous advisory, the depression's convective pattern has
+improved somewhat with the development of a cluster of deep
+convection with tops to -80C having developed near and also east
+through south of the center. Reports from nearby ships WAHV, J8NY,
+and C6CL6, along with reconnaissance data indicate that the
+low-level circulation is slowly improving. The central pressure of
+1003 mb is based on a recent NOAA dropsonde report of 1005 mb with
+20 kt of wind just north of the center. Since no winds of tropical
+storm force were sampled, the initial intensity remains at 30 kt.
+
+Similar to this time last night, the cyclone has made a jog to the
+west during the earlier convective hiatus period. However, the past
+couple of dropsonde reports suggest that the depression has resumed
+a longer term motion of 280/06 kt. There is little change to the
+previous forecast track reasoning. Other than having to adjust the
+forecast track southward slightly through 48 hours due to the more
+southerly initial position, the previous advisory track remains
+unchanged. The cyclone is forecast to move slowly around the western
+periphery of a deep-layer subtropical ridge located over southern
+Florida for the next 36 hours or so. By 48 hours, the depression is
+expected to accelerate northeastward across northern Florida ahead
+of a shortwave trough that is forecast to dig southeastward into the
+southeastern United States and northern Gulf Mexico. The new NHC
+track forecast lies between a blend of the GFS-ECMWF solutions and
+the consensus model TVCN.
+
+Data from the NOAA aircraft on its final outbound leg, along with
+the latest 00Z upper-air observations indicate that mid-level
+moisture north and northeast of the cyclone has increased since
+yesterday. However, water vapor imagery and upper-air data still
+indicate that very dry air lies just west of the cyclone across the
+central and western Gulf of Mexico. The global and regional models
+continue to indicate that some of that drier air will be entrained
+into the western part of the cyclone's circulation by 24-36 hours,
+offsetting the otherwise favorable upper-level outflow pattern and
+very warm SSTs of more than 30 deg C. Therefore, only gradual
+intensification is expected during the next 48 hours or so.  When
+the cyclone nears the Florida Gulf coast, increasing upper-level
+winds are expected to limit strengthening.  The official intensity
+forecast lies close to the previous advisory and consensus model
+IVCN.
+
+Given the current forecast, a tropical storm or hurricane watch may
+be required for a portion of the Florida Gulf coast by tomorrow
+morning.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0300Z 23.9N  85.5W   30 KT  35 MPH
+ 12H  30/1200Z 24.2N  86.4W   35 KT  40 MPH
+ 24H  31/0000Z 24.9N  87.1W   40 KT  45 MPH
+ 36H  31/1200Z 25.8N  87.0W   45 KT  50 MPH
+ 48H  01/0000Z 27.2N  85.8W   55 KT  65 MPH
+ 72H  02/0000Z 30.1N  82.2W   50 KT  60 MPH...INLAND
+ 96H  03/0000Z 33.1N  75.5W   50 KT  60 MPH...OVER WATER
+120H  04/0000Z 35.8N  68.7W   50 KT  60 MPH
+
+$$
+Forecaster Stewart
+
+
+

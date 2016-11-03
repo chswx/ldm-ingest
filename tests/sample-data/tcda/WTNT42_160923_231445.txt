@@ -1,0 +1,68 @@
+
+591 
+WTNT42 KNHC 231445
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  37
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+1100 AM AST FRI SEP 23 2016
+
+A NOAA P3 flight continued to fly through Karl for a few hours
+after the release of the last advisory, and while it didn't find
+winds higher than 50 kt, dropsonde data did indicate that the
+minimum pressure had fallen to 992 mb.  Microwave data indicate
+that Karl is still under the influence of 15-20 kt of south-
+southeasterly shear.  The convective pattern has continued to
+improve, however, with an elongated curved band extending to the
+northeast and east of the central convection.
+
+With sea surface temperatures running between 29-30C for the next
+24 hours and vertical shear expected to decrease slightly, it seems
+likely that Karl will continue to strengthen during the next couple
+of days.  The intensity guidance is in fairly good agreement on the
+intensification trend, and in fact most of the models are showing
+Karl reaching a strength between 60 and 65 kt in about 24 hours.
+Therefore, the updated official forecast now shows Karl reaching
+hurricane intensity at that time.  Continued strengthening is
+likely after that time, and the peak intensity shown in the
+official forecast is slightly higher than the previous forecast at
+48 hours, which is in line with the latest guidance.  Karl will be
+in the process of extratropical transition at that time, but the
+global models fields only agree that the transition will be
+complete by 72 hours.  Karl should then be absorbed by a larger
+extratropical low by day 4.
+
+The last fix from the NOAA P3 was a little east of the previous Air
+Force fixes, so it's possible that Karl's center has begun to move
+east of due north.  Until we know for sure, the initial motion is
+set to be northward, or 360/10 kt.  Karl is located near the
+western edge of the subtropical ridge axis, and it should become
+increasingly embedded in the mid-latitude westerlies during the next
+couple of days. Therefore, the cyclone is forecast to turn
+northeastward and begin accelerating within the next 24 hours, with
+the motion becoming even faster by 72 hours. The spread among the
+track models is extremely tight on this forecast cycle, and very
+little change was required from the previous advisory.  The new
+official forecast lies very close to the TVCN multi-model consensus.
+
+Since Karl is now forecast to become a hurricane by 24 hours while
+the center is passing just to the east of Bermuda, the Bermuda
+Weather Service has elected to issue a Hurricane Watch for the
+island.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/1500Z 28.6N  64.8W   50 KT  60 MPH
+ 12H  24/0000Z 30.2N  64.8W   55 KT  65 MPH
+ 24H  24/1200Z 32.3N  62.7W   65 KT  75 MPH
+ 36H  25/0000Z 34.9N  57.8W   70 KT  80 MPH
+ 48H  25/1200Z 38.9N  49.8W   75 KT  85 MPH
+ 72H  26/1200Z 50.7N  29.0W   60 KT  70 MPH...POST-TROP/EXTRATROP
+ 96H  27/1200Z...ABSORBED BY A LARGER EXTRATROPICAL LOW
+
+$$
+Forecaster Berg/Sullivan/Gerhardt/Schichtel
+
+
+

@@ -131,6 +131,9 @@ class NWSProductFactory {
         else if (preg_match('/RBG(94|98|99)E/', $afos)) {
             $parser = "WPCOutlook";
             $table = "wpc_outlook";
+        } elseif (preg_match('/(TCU|TCP|TCD|TCE)/', $afos)) {
+            $parser = "NHC";
+            $table = "nhc";
         } else {
             $parser = "GenericProduct";
             $table = 'misc';

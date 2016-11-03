@@ -1,0 +1,48 @@
+
+700 
+WTNT41 KNHC 140847
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 AM EDT WED SEP 14 2016
+
+Julia continues to produce bands of showers and thunderstorms
+primarily over water to the northeast of its center, but this
+activity has become a little more separated from the center
+overnight.  The strong winds that occurred during the evening along
+the northeast Florida coast have spread northward along the coast
+of southern Georgia with recent surface observations reporting
+wind gusts to tropical storm force.  Julia should gradually weaken
+during the next day or so due to continued land interaction and
+westerly shear.  The updated intensity forecast calls for Julia to
+weaken to a tropical depression later today and become a remnant low
+on Thursday.  This is supported by the global models, which show the
+low filling and wind field gradually diminishing over the next 36
+hours.
+
+Julia is moving northward at about 6 kt.  The tropical cyclone is
+forecast to slow down later today, and drift northward over eastern
+Georgia during the next couple of days.  The track guidance has
+shifted eastward this cycle, and the official forecast has been
+adjusted accordingly.
+
+The slow forward speed of Julia is expected to result in locally
+heavy rainfall of 3 to 6 inches with isolated maximum amounts near
+10 inches along the Georgia and South Carolina coastlines. These
+rains could result in flash flooding.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/0900Z 30.9N  81.8W   35 KT  40 MPH...INLAND
+ 12H  14/1800Z 31.6N  81.8W   30 KT  35 MPH...INLAND
+ 24H  15/0600Z 31.9N  81.8W   25 KT  30 MPH...INLAND
+ 36H  15/1800Z 32.1N  81.8W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  16/0600Z 32.2N  81.8W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  17/0600Z...DISSIPATED
+
+$$
+Forecaster Brown
+
+
+

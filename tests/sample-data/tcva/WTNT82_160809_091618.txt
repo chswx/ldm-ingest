@@ -1,0 +1,46 @@
+
+921 
+WTNT82 EGRR 091618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 09.08.2016
+
+   TROPICAL DEPRESSION IVETTE     ANALYSED POSITION : 16.6N 144.4W
+
+     ATCF IDENTIFIER : EP102016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 09.08.2016    0  16.6N 144.4W     1010            23
+    0000UTC 10.08.2016   12              CEASED TRACKING
+
+   TROPICAL DEPRESSION JAVIER     ANALYSED POSITION : 24.5N 111.0W
+
+     ATCF IDENTIFIER : EP112016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 09.08.2016    0  24.5N 111.0W     1005            29
+    0000UTC 10.08.2016   12              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 132 HOURS
+              FORECAST POSITION AT T+132 : 12.0N 130.1W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 15.08.2016  132  12.0N 130.1W     1004            28
+    1200UTC 15.08.2016  144  13.7N 131.8W     1003            28
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 091617
+

@@ -1,0 +1,59 @@
+
+024 
+WTNT43 KNHC 192053
+TCDAT3
+
+TROPICAL DEPRESSION THIRTEEN DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 PM AST MON SEP 19 2016
+
+Satellite imagery, scatterometer data, and ship observations
+indicate that the large low pressure system located southwest of the
+Cabo Verde Islands has maintained a well-defined circulation and has
+developed sufficient organized convection to be considered a
+tropical depression. The initial intensity is set at 30 kt based on
+scatterometer wind data of near 30 kt along with Dvorak satellite
+intensity estimates T2.5/35 kt and T2.0/30 kt from TAFB and SAB,
+respectively. The central pressure is based on reports from ship
+D5ET2 during is traversal through the center of the cyclone over the
+past 12 hours. The depression is a large tropical cyclone with a
+wind field that is more than 400 n mi in diameter.
+
+The initial motion estimate is an uncertain 280/10 kt, based
+primarily on scatterometer and microwave satellite data.  The
+depression is located along the southern periphery of a large
+deep-layer ridge that is foreast to steer the cyclone westward for
+the next 24 hours or so, followed by west-northwestward motion
+through 120 hours. The official forecast track lies close to the
+consensus model TVCN through 96 hours, and then leans toward a blend
+of the ECMWF, UKMET, and CMC models since the GFS dissipates
+the cyclone by 120 hours, a scenario that seems premature given the
+current large size of the cyclone.
+
+Vertical wind shear is forecast to remain low at less than 10 kt
+over the cyclone for the next 48 hours, which favors steady
+intensification. However, the mid-level moisture is only expected to
+be marginal during that time, with humidity values around 60 percent
+or less. The drier air along with the large size of the cyclone are
+expected to temper the development process, and this is reflected by
+the slower-than-average intensification rate. The NHC intensity
+forecast closely follows the intensity model IVCN. This forecast is
+lower than the SHIPS, LGEM, and ECMWF models, which brings the
+cyclone to near hurricane strength by 72 hours.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/2100Z 13.6N  28.6W   30 KT  35 MPH
+ 12H  20/0600Z 14.3N  29.8W   35 KT  40 MPH
+ 24H  20/1800Z 15.6N  31.8W   40 KT  45 MPH
+ 36H  21/0600Z 16.7N  33.5W   45 KT  50 MPH
+ 48H  21/1800Z 17.6N  35.4W   50 KT  60 MPH
+ 72H  22/1800Z 19.5N  38.9W   45 KT  50 MPH
+ 96H  23/1800Z 21.5N  42.5W   35 KT  40 MPH
+120H  24/1800Z 23.5N  44.7W   30 KT  35 MPH
+
+$$
+Forecaster Stewart
+
+
+

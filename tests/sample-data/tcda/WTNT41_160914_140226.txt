@@ -1,0 +1,56 @@
+
+350 
+WTNT41 KNHC 140226
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 PM EDT TUE SEP 13 2016
+
+The area of low pressure that has been moving along the Florida
+east coast has managed to maintain persistent deep convection,
+accompanied by a small area of tropical-storm-force winds, close to
+the area of lowest pressure for well over 12 hours now. And while
+the winds to the west and south of the center are not more than
+about 10 kt, they have defined a closed center for much of the
+afternoon and evening. Given this persistent organization, the
+system is classifiable as a tropical cyclone and advisories are
+being initiated on Tropical Storm Julia, the tenth named storm of
+the 2016 Atlantic hurricane season.
+
+The motion of the system has been north-northwestward today, with
+the convective asymmetry likely contributing to a track to the right
+of much of the objective track guidance.  That trend is forecast to
+continue for the next day or so, and the official forecast lies to
+the right of the model consensus - leaning in the direction of the
+HWRF.  With the center expected to remain over land, and westerly
+shear of about 20 kt expected over the next day or so, little change
+in strength is expected until the system pushes farther inland and
+begins to weaken.  Nevertheless, a small area of
+tropical-storm-force winds should continue to push northward along
+the coast within the warning area tonight and early Wednesday.
+
+The slow forward speed of Julia is expected to result in locally
+heavy rainfall of 3 to 6 inches with isolated maximum amounts near
+10 inches along and east of where the center moves. These rains
+could result in flash flooding. Also, Doppler weather radar data
+during the past few hours indicate a significant improvement in the
+curved banding features to the north and east of the center. As a
+result, an isolated tornado or two will be possible overnight and on
+Wednesday when some of the stronger rainbands move onshore across
+northeastern Florida and southeastern Georgia.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/0300Z 30.3N  81.6W   35 KT  40 MPH...INLAND
+ 12H  14/1200Z 31.2N  81.9W   35 KT  40 MPH...INLAND
+ 24H  15/0000Z 31.8N  82.2W   30 KT  35 MPH...INLAND
+ 36H  15/1200Z 32.1N  82.3W   25 KT  30 MPH...INLAND
+ 48H  16/0000Z 32.3N  82.3W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  17/0000Z...DISSIPATED INLAND
+
+$$
+Forecaster Stewart/Franklin
+
+
+

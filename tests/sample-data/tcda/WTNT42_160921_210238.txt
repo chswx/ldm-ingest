@@ -1,0 +1,57 @@
+
+354 
+WTNT42 KNHC 210238
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  27
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST TUE SEP 20 2016
+
+Karl continues to struggle this evening.  Satellite images indicate
+that the low-level center of the storm is completely exposed to the
+southwest of the main area of deep convection.  The NOAA Hurricane
+Hunters investigated Karl earlier this evening and found that the
+maximum winds were still around 35 kt, though a very recent ASCAT
+pass suggests that this estimate could be a bit generous.
+
+Dropsonde data and model vertical cross sections indicate that Karl
+is being affected by mid-level southwesterly flow and dry air
+induced by a cut-off low pressure system located a few hundred
+miles to the west.  These unfavorable atmospheric conditions have
+been affecting the cyclone during the past several days and until
+these conditions abate, little change in the structure or strength
+of Karl is anticipated.  The models insist that environment should
+become less hostile in about 24 h, and Karl should have its best
+opportunity to intensify late this week and this weekend when it
+moves into an area of baroclinic forcing.  The NHC intensity
+forecast is identical to the previous one, and lies near the middle
+of the guidance envelope.
+
+The tropical storm has moved basically due west during the past 24
+hours.  A turn toward the northwest should occur on Wednesday
+when the cyclone nears the southwestern periphery of a deep-layer
+ridge, followed by a northward motion in about 3 days when Karl
+rounds the ridge and moves into a pronounced weakness.  By the end
+of the forecast period, a sharp increase in speed and turn to the
+northeast are expected as a large-scale mid-latitude trough
+picks up the tropical cyclone. There are significant forward speed
+differences in the models associated with how Karl interacts with
+the large-scale trough in the 3 to 5 day time frame, and the
+NHC forecast is of low confidence during that period.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/0300Z 19.9N  56.7W   35 KT  40 MPH
+ 12H  21/1200Z 20.9N  58.2W   35 KT  40 MPH
+ 24H  22/0000Z 22.9N  60.7W   40 KT  45 MPH
+ 36H  22/1200Z 24.5N  62.9W   45 KT  50 MPH
+ 48H  23/0000Z 25.9N  64.8W   55 KT  65 MPH
+ 72H  24/0000Z 29.0N  65.0W   70 KT  80 MPH
+ 96H  25/0000Z 32.9N  59.6W   85 KT 100 MPH
+120H  26/0000Z 39.2N  48.2W   80 KT  90 MPH
+
+$$
+Forecaster Cangialosi
+
+
+

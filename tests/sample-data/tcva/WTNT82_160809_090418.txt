@@ -1,0 +1,59 @@
+
+515 
+WTNT82 EGRR 090418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 09.08.2016
+
+   TROPICAL DEPRESSION IVETTE     ANALYSED POSITION : 17.0N 142.3W
+
+     ATCF IDENTIFIER : EP102016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 09.08.2016    0  17.0N 142.3W     1009            26
+    1200UTC 09.08.2016   12              CEASED TRACKING
+
+        TROPICAL STORM JAVIER     ANALYSED POSITION : 22.5N 109.5W
+
+     ATCF IDENTIFIER : EP112016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 09.08.2016    0  22.5N 109.5W     1005            23
+    1200UTC 09.08.2016   12  23.9N 111.1W     1007            22
+    0000UTC 10.08.2016   24              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  84 HOURS
+              FORECAST POSITION AT T+ 84 : 12.8N 137.1W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 12.08.2016   84  12.8N 137.1W     1008            23
+    0000UTC 13.08.2016   96  13.7N 137.3W     1008            22
+    1200UTC 13.08.2016  108  14.7N 137.7W     1008            24
+    0000UTC 14.08.2016  120  15.2N 138.7W     1008            25
+    1200UTC 14.08.2016  132  14.5N 140.3W     1008            25
+    0000UTC 15.08.2016  144  13.5N 142.1W     1007            24
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 144 HOURS
+              FORECAST POSITION AT T+144 : 12.1N 130.2W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 15.08.2016  144  12.1N 130.2W     1004            25
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 090417
+

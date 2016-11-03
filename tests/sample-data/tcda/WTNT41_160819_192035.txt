@@ -1,0 +1,57 @@
+
+819 
+WTNT41 KNHC 192035
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST FRI AUG 19 2016
+
+Fiona continues to produce bursts of convection north of the
+center, although the center is now mostly exposed to the south of
+the latest burst.  An earlier RapidScat overpass suggested that
+tropical-storm-force winds were at best only occurring in the
+northwest quadrant, and based on these data and the loss of
+organization since this morning the initial intensity is decreased
+to 35 kt.
+
+The initial motion is 295/9.  A low- to mid-level ridge north of the
+cyclone is steering Fiona west-northwestward, and this motion
+should continue with some increase in forward speed during the next
+48-72 hours.  After that time, a developing weakness in the ridge
+caused by a frontal system moving eastward from the United States
+should cause Fiona to turn northwestward and north-northwestward.
+The guidance has again shifted westward between 72-120 hours.  Thus,
+as in the previous advisory that portion of the track is also nudged
+westward, but it remains to the east of the various consensus
+models.
+
+A combination of a dry air mass, increasing vertical wind shear, and
+convergent upper-level flow should cause Fiona to continue to
+weaken. The intensity guidance has mostly trended toward lower
+intensities since the last advisory, with the ECMWF model now
+forecasting Fiona to weaken to a trough before 120 hours.  Based on
+this, the intensity forecast now calls for Fiona to become a
+remnant low after 72 hours.  That being said, the environmental
+conditions might get less hostile by 120 hours, and the UKMET/
+Canadian models suggest the possibility of re-intensification at
+that time.  In deference to those models, the official forecast does
+not call for dissipation during this forecast period.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/2100Z 18.1N  44.4W   35 KT  40 MPH
+ 12H  20/0600Z 18.9N  46.0W   35 KT  40 MPH
+ 24H  20/1800Z 19.9N  48.2W   35 KT  40 MPH
+ 36H  21/0600Z 21.1N  50.7W   30 KT  35 MPH
+ 48H  21/1800Z 22.1N  53.1W   30 KT  35 MPH
+ 72H  22/1800Z 24.5N  57.5W   25 KT  30 MPH
+ 96H  23/1800Z 26.5N  60.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  24/1800Z 28.5N  61.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Beven
+
+
+

@@ -1,0 +1,63 @@
+
+325 
+WTNT33 KNHC 250238
+TCPAT3
+
+BULLETIN
+POST-TROPICAL CYCLONE LISA ADVISORY NUMBER  22
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST SAT SEP 24 2016
+
+...POST-TROPICAL LISA LACKS DEEP CONVECTION...
+...THIS IS THE LAST ADVISORY...
+
+
+SUMMARY OF 1100 PM AST...0300 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...25.8N 40.8W
+ABOUT 1275 MI...2055 KM NW OF THE CABO VERDE ISLANDS
+ABOUT 1165 MI...1875 KM SW OF THE AZORES
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...NW OR 305 DEGREES AT 13 MPH...20 KM/H
+MINIMUM CENTRAL PRESSURE...1011 MB...29.86 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 PM AST (0300 UTC), the center of Post-Tropical Cyclone Lisa
+was located near latitude 25.8 North, longitude 40.8 West. The
+post-tropical cyclone is moving toward the northwest near 13 mph (20
+km/h).  A turn toward the north with little change in forward speed
+is expected on Sunday.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Gradual weakening is forecast for the next 48 hours and the
+low-level remnants of Lisa are expected to dissipate within the
+next couple of days.
+
+The estimated minimum central pressure is 1011 mb (29.86 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+This is the last public advisory issued by the National Hurricane
+Center on this system.  Additional information on this system can be
+found in High Seas Forecasts issued by the National Weather Service,
+under AWIPS header NFDHSFAT2, WMO header FZNT02 KNHC, and available
+on the Web at http://www.nhc.noaa.gov/text/MIAHSFAT2.shtml.
+
+$$
+Forecaster Beven/Zelinsky
+
+
+

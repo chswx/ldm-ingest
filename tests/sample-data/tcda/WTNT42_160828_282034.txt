@@ -1,0 +1,46 @@
+
+082 
+WTNT42 KNHC 282034
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  25
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST SUN AUG 28 2016
+
+The 15 n mi diameter eye has become more distinct on visible
+satellite images today, and enhanced IR images show a cooling of the
+cloud tops surrounding the eye.  These features indicate
+strengthening, and the current intensity is increased to 100 kt in
+agreement with the subjective Dvorak estimates from TAFB and SAB, as
+well as objective ADT numbers from UW-CIMSS.  Upper-level outflow is
+well-established both to the west and the east of the hurricane.
+Based on a consensus of the intensity models, not much additional
+strengthening is anticipated.  When Gaston moves to a little higher
+latitude, westerly shear on the system should increase, and steady
+weakening is expected to commence in about 48 hours.
+
+Gaston continues to crawl northwestward while being partially
+blocked by a narrow mid-level subtropical ridge.  The hurricane is
+forecast to work its way through the ridge over the next day or so.
+By Tuesday, an east-northeastward motion with gradual acceleration
+is likely as the system begins to feel the effect of the
+mid-latitude westerlies.  The official forecast track is shifted a
+little southward late in the forecast period, in line with the
+latest global model guidance.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/2100Z 30.8N  55.1W  100 KT 115 MPH
+ 12H  29/0600Z 31.0N  55.5W  100 KT 115 MPH
+ 24H  29/1800Z 31.4N  55.5W  100 KT 115 MPH
+ 36H  30/0600Z 32.0N  54.4W   95 KT 110 MPH
+ 48H  30/1800Z 32.8N  52.6W   95 KT 110 MPH
+ 72H  31/1800Z 34.9N  47.7W   85 KT 100 MPH
+ 96H  01/1800Z 37.5N  40.5W   75 KT  85 MPH
+120H  02/1800Z 37.5N  33.5W   60 KT  70 MPH
+
+$$
+Forecaster Pasch
+
+
+

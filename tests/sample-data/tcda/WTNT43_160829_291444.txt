@@ -1,0 +1,50 @@
+
+549 
+WTNT43 KNHC 291444
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 AM EDT MON AUG 29 2016
+
+The Air Force Reserve Hurricane Hunter aircraft did not find many
+changes to the depression this morning, with maximum believable SFMR
+winds of about 30 kt.  This value will remain the initial wind
+speed.  Satellite images indicate the cyclone continues to struggle
+to produce convection, likely due to moderate shear and plentiful
+dry air aloft.  The environment is forecast to become more conducive
+over the next 24 hours, with a slight decrease in shear and
+an increase in moisture.  Thus, the latest forecast still shows the
+depression becoming a tropical storm by Tuesday.  Most of the
+guidance suggests the cyclone will strengthen in a couple of days
+while it moves northeastward away from the Carolinas as it moves
+right along the Gulf Stream.  Since the previous forecast is almost
+identical to the new model consensus, no significant changes are
+made to the final NHC intensity forecast.
+
+The depression is moving northwestward, now at about 6 kt.  The
+cyclone should slow down and begin to turn to the north as it
+reaches a weakness in the subtropical ridge near the North Carolina
+coast.  In 36 to 48 hours, a mid-latitude shortwave trough moving
+through the northeastern United States is forecast to erode the
+ridge and cause the cyclone to recurve northeastward into the
+westerlies.  The guidance is in fairly good agreement, and
+the latest NHC track forecast is close to the previous one.  The
+cyclone should be absorbed within a large extratropical cyclone in
+about 4 days.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/1500Z 33.2N  73.5W   30 KT  35 MPH
+ 12H  30/0000Z 33.8N  74.3W   30 KT  35 MPH
+ 24H  30/1200Z 34.4N  75.0W   35 KT  40 MPH
+ 36H  31/0000Z 35.1N  75.0W   35 KT  40 MPH
+ 48H  31/1200Z 36.2N  73.5W   40 KT  45 MPH
+ 72H  01/1200Z 39.0N  68.0W   45 KT  50 MPH
+ 96H  02/1200Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

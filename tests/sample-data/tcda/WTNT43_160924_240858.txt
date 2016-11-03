@@ -1,0 +1,40 @@
+
+688 
+WTNT43 KNHC 240858
+TCDAT3
+
+TROPICAL DEPRESSION LISA DISCUSSION NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 AM AST SAT SEP 24 2016
+
+A strong burst of convection has recently formed in the northeastern
+quadrant of Lisa. Overall, however, the system looks less organized
+than it did yesterday, with the low-level circulation becoming
+elongated from north to south.  The initial wind speed is held at 30
+kt in agreement with the TAFB satellite classification. Although
+there is only limited skill in forecasting deep convection, this
+burst is expected to be ephemeral due to strong shear and dry air
+aloft.  Thus, Lisa is still forecast to be a remnant low by this
+evening.  The global models show Lisa weakening and opening up into
+a trough within 2 days, and so will the NHC prediction.
+
+The initial motion is a bit faster than earlier, now 315/08.  Lisa,
+or its remnants, are still forecast to move west-northwestward,
+with a gradual turn toward the north in a day or two while it moves
+around the periphery of the subtropical high centered near the
+Azores.  The official forecast is close to the previous one and the
+model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/0900Z 23.8N  37.9W   30 KT  35 MPH
+ 12H  24/1800Z 24.6N  39.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  25/0600Z 26.0N  41.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  25/1800Z 28.0N  42.2W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  26/0600Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

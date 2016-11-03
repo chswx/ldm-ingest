@@ -1,0 +1,47 @@
+
+913 
+WTNT41 KNHC 150840
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER   6
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 AM EDT THU SEP 15 2016
+
+Westerly shear of about 25 knots has advected dry air over Julia
+and removed all of the deep convection from the cyclone center, with
+the coldest cloud tops now more than 100 n mi to the east.  Coastal
+observations have shown the winds decreasing overnight, with most
+locations now reporting sustained winds of 20 to 25 kt.  Based on
+these data, Julia is downgraded to a depression with an initial
+intensity of 30 kt, which is in agreement with a blend of the latest
+Dvorak Final-T and CI numbers from TAFB and SAB.  Despite the
+cyclone being situated over warm SSTs, persistent shear and dry air
+should result in little change in intensity during the next few
+days.  Remnant low status is forecast at 72 hours, but this could
+occur much sooner if organized deep convection does not return.  The
+remnant low is forecast to dissipate in 4-5 days, consistent with
+the latest GFS and ECMWF solutions.
+
+Julia has moved little overnight, and the initial motion estimate is
+a slow eastward drift at 2 kt.  The shallow cyclone is expected to
+continue drifting eastward today and then meander in weak steering
+currents until dissipation.  This forecast is based on the latest
+GFS and ECMWF tracks and is similar to the previous official
+forecast.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/0900Z 32.0N  79.6W   30 KT  35 MPH
+ 12H  15/1800Z 32.0N  79.3W   30 KT  35 MPH
+ 24H  16/0600Z 32.0N  78.9W   30 KT  35 MPH
+ 36H  16/1800Z 32.0N  78.9W   30 KT  35 MPH
+ 48H  17/0600Z 31.9N  79.0W   30 KT  35 MPH
+ 72H  18/0600Z 31.9N  79.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  19/0600Z 32.0N  79.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  20/0600Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

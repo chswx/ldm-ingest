@@ -1,0 +1,42 @@
+
+429 
+WTNT42 KNHC 250242
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  43
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST SAT SEP 24 2016
+
+Karl continues to produce a large area of cold-topped convection
+to the northeast of the center.  However, data from the NOAA P-3,
+NOAA G-IV, and the NASA/NOAA Global Hawk aircraft indicate that the
+circulation is losing definition as the cyclone accelerates toward
+the northeast.  The initial intensity of 55 kt is based on a
+combination of dropsonde, flight level, and SFMR winds from the
+three planes, and the central pressure of 992 mb is based on data
+from a Global Hawk dropsonde.  While Karl is expected to become
+post tropical by 24 hours, it should intensify to a hurricane-force
+system as it does so, and this is shown in the intensity forecast.
+By 36 hours, the system should be absorbed into a larger
+extratropical low to its northwest.
+
+The initial motion estimate is now 055/25.  Karl should continue to
+accelerate on a general northeastward heading ahead of a broad
+deep-layer trough until the cyclone is absorbed, and the forward
+speed is expected to be near 50 kt by 24 hours.  The new NHC track
+forecast is an update of the previous one and remains near the
+middle of the tightly packed guidance envelope.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/0300Z 35.0N  58.0W   55 KT  65 MPH
+ 12H  25/1200Z 38.2N  51.3W   60 KT  70 MPH
+ 24H  26/0000Z 44.6N  41.5W   70 KT  80 MPH...POST-TROPICAL
+ 36H  26/1200Z...ABSORBED BY LARGER EXTRATROPICAL LOW
+
+$$
+Forecaster Beven
+
+
+

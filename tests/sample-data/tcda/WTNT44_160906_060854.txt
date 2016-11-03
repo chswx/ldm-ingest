@@ -1,0 +1,46 @@
+
+913 
+WTNT44 KNHC 060854
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  36
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 AM EDT TUE SEP 06 2016
+
+Hermine remains a post-tropical low pressure system with a few
+small patches of convection located to the south and west of the
+center. The initial intensity is held at 55 kt for this advisory,
+based on data collected by the Air Force Reserve hurricane hunters
+earlier this morning. The post-tropical cyclone is expected to
+gradually weaken during the next couple of days due to the lack of
+baroclinic forcing and cool sea-surface temperatures. The NHC
+intensity forecast is largely based on guidance from the global
+models, and shows dissipation by 72 hours.
+
+The cyclone is now moving westward, closer to the coastline, at
+about 7 kt.  The system is primarily being steered by a mid- to
+upper-level low to its south.  Hermine is expected to slow down
+later today, and it will likely stall tonight as it merges with the
+upper low. By Wednesday, a turn to the north and then northeast is
+predicted as a shortwave trough approaches the system. The NHC track
+forecast has been adjusted a little to the west this cycle to come
+into better agreement with the latest guidance.
+
+The 34- and 50-kt wind radii have been adjusted inward based on
+data from the Air Force reconnaissance plane, an ASCAT overpass, and
+surface observations.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/0900Z 39.6N  71.6W   55 KT  65 MPH...POST-TROPICAL
+ 12H  06/1800Z 39.5N  72.2W   50 KT  60 MPH...POST-TROPICAL
+ 24H  07/0600Z 39.6N  72.6W   45 KT  50 MPH...POST-TROPICAL
+ 36H  07/1800Z 39.8N  72.6W   40 KT  45 MPH...POST-TROPICAL
+ 48H  08/0600Z 40.3N  72.0W   35 KT  40 MPH...POST-TROPICAL
+ 72H  09/0600Z...DISSIPATED
+
+$$
+Forecaster Cangialosi
+
+
+

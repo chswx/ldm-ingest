@@ -1,0 +1,43 @@
+
+073 
+WTNT41 KNHC 150234
+TCDAT1
+
+TROPICAL STORM JULIA DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 PM EDT WED SEP 14 2016
+
+The low-level circulation has become a little bit elongated, and
+due to southwesterly shear most of the convection has shifted to the
+northeast of the center. A convective band is still wrapping around
+the eastern portion of the cyclone. Based on surface observations,
+WSR-88D Doppler velocity data, and satellite estimates, the initial
+intensity is kept at 35 kt.  Since the cyclone is over water, some
+slight intensification is possible during the next day or so before
+the shear increases as forecast by global models. A gradual
+weakening should then begin in about 36 hours.
+
+Julia appears to be moving toward the east-northeast at about 4 kt.
+The steering currents are forecast to collapse, and most of the
+models keep a weakening cyclone meandering during the next few days.
+The NHC track forecast follows such a trend and predicts a very slow
+eastward drift during the next 48 hours. Little motion is
+anticipated thereafter.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/0300Z 32.1N  79.8W   35 KT  40 MPH
+ 12H  15/1200Z 32.2N  79.2W   35 KT  40 MPH
+ 24H  16/0000Z 32.2N  78.8W   40 KT  45 MPH
+ 36H  16/1200Z 32.1N  78.6W   35 KT  40 MPH
+ 48H  17/0000Z 32.0N  78.5W   35 KT  40 MPH
+ 72H  18/0000Z 32.0N  79.0W   30 KT  35 MPH
+ 96H  19/0000Z 32.0N  79.0W   30 KT  35 MPH
+120H  20/0000Z 32.0N  79.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Avila
+
+
+

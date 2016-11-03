@@ -1,0 +1,66 @@
+
+728 
+WTNT44 KNHC 011500
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1000 AM CDT THU SEP 01 2016
+
+Hermine is gradually becoming better organized, with convective
+banding developing over the eastern semicircle of the circulation.
+Upper-level outflow continues to be restricted to the northwest of
+the storm by a cyclonic shear axis depicted by water vapor
+imagery.  The current intensity is set at 55 kt in agreement with
+SFMR-observed surface winds from an Air Force Hurricane Hunter
+aircraft.  The intensity forecast continues to show Hermine becoming
+a hurricane before landfall which is in general agreement with the
+numerical guidance.  The global models show Hermine embedded within
+a frontal zone by 48 hours, so the forecast shows the system
+becoming extratropical at that time.  There is some concern about
+the evolution of the post-tropical cyclone later in the forecast
+period, since the shear starts decreasing after 72 hours.  This
+could allow the system to reacquire some tropical characteristics in
+4-5 days, although it is not certain how close to the coast the
+cyclone will be by that time.
+
+Based on Hurricane Hunter aircraft fixes and a dropsonde from the
+NASA Global Hawk aircraft, the initial motion is estimated to be
+030/12 kt.  A mid-tropospheric trough should steer the system
+north-northeastward to northeastward for the next couple of days.
+Later in the forecast period, a developing mid-level cutoff low near
+the northeast United States coast will cause a slowing of the
+forward speed as the cyclone interacts with the low.  The official
+forecast track is essentially a blend of the latest GFS and ECMWF
+solutions, with the former model showing a track closer to the
+northeast coast and the latter taking the system farther offshore.
+
+KEY MESSAGES:
+
+1. It is important to not focus on the exact forecast track.
+Hermine is a rather asymmetric storm, with a large extent of
+dangerous winds, life-threatening storm surge, and flooding rains
+well to the east and southeast of the path of the center.
+
+2. Hermine is expected to undergo a complex interaction with a
+frontal system when it reaches the Carolinas over the weekend.  It
+is a little early to say what the specific impacts will be for the
+mid-Atlantic and northeastern states.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/1500Z 27.4N  86.0W   55 KT  65 MPH
+ 12H  02/0000Z 29.0N  84.8W   65 KT  75 MPH
+ 24H  02/1200Z 31.1N  82.9W   50 KT  60 MPH...INLAND
+ 36H  03/0000Z 33.1N  80.0W   45 KT  50 MPH...INLAND
+ 48H  03/1200Z 35.2N  76.7W   40 KT  45 MPH...POST-TROP/EXTRATROP
+ 72H  04/1200Z 38.0N  72.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+ 96H  05/1200Z 38.5N  71.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+120H  06/1200Z 39.5N  70.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

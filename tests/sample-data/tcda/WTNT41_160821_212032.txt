@@ -1,0 +1,56 @@
+
+210 
+WTNT41 KNHC 212032
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  20
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST SUN AUG 21 2016
+
+Deep convection continues to pulsate over the northern and eastern
+portions of Fiona's circulation.  However, there is very little
+banding evident and the cloud tops are being advected quickly
+eastward due to strong upper-level westerly winds over the cyclone.
+This morning's ASCAT data that arrived just after the release of the
+previous advisory indicated peak winds of 35 kt, which was in line
+with the the earlier intensity estimate.  Since there has been
+little change in organization today, the initial wind speed will
+remain 35 kt for this advisory.  Strong westerly shear is forecast
+to persist during the next day or so.  This, combined with dry
+mid-level air, should result in weakening, and Fiona is expected to
+weaken to a tropical depression during the next 24 hours, and become
+a remnant low in a couple of days.  If Fiona or its remnants survive
+the next few days, conditions could become somewhat conducive for
+regeneration or restrengthening later in the forecast period.  The
+latest runs of GFS and UKMET models continue to maintain a weak low
+through the 5-day forecast period, whereas the ECMWF shows
+dissipation in 2 to 3 days.  The NHC forecast continues to maintain
+continuity, and indicates dissipation by day 5.
+
+Fiona continues to move quickly west-northwestward to the south of a
+low- to mid-level ridge over the central Atlantic.  The cyclone will
+be nearing the western portion of the ridge in a couple of days,
+which is expected to cause Fiona to slow down.  After 72 hours,
+Fiona, or its remnants, should turn northwestward around the western
+portion of the ridge.  Due to model differences in the strength and
+depth of Fiona after 48 hours, the spread in the track guidance is
+quite large beyond 3 days.  The updated NHC track is near the multi-
+model consensus, which is closer to the GFS and GFS ensemble mean
+solutions.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/2100Z 23.4N  54.9W   35 KT  40 MPH
+ 12H  22/0600Z 23.9N  57.0W   35 KT  40 MPH
+ 24H  22/1800Z 24.7N  59.5W   30 KT  35 MPH
+ 36H  23/0600Z 25.4N  61.5W   30 KT  35 MPH
+ 48H  23/1800Z 26.3N  63.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  24/1800Z 28.4N  66.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  25/1800Z 30.5N  67.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  26/1800Z...DISSIPATED
+
+$$
+Forecaster Brown
+
+
+

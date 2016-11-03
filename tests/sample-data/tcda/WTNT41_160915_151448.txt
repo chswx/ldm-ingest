@@ -1,0 +1,57 @@
+
+849 
+WTNT41 KNHC 151448
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 AM EDT THU SEP 15 2016
+
+New convection has formed near and east of the center of Julia
+during the past few hours, although the low-level center remains
+partially exposed due to westerly vertical wind shear.  Subjective
+satellite intensity estimates from SAB and TAFB are 30 and 35 kt
+respectively, while various objective estimates are 35-45 kt.  The
+initial intensity is kept at 30 kt pending the arrival of an Air
+Force Reserve Hurricane Hunter aircraft, but there is a possibility
+that this is conservative.
+
+After not moving much overnight, the center of Julia has jumped
+eastward this morning.  The overall long-term motion is 095/7, but
+the short-term motion is significantly faster than that.  The
+forecast guidance is in good agreement that Julia should move little
+after 12 hours, and the new track forecast is based on the premise
+that the current forward speed will decrease by the 12 hours
+point. The new forecast track has the same general idea as the
+previous track, but the area where Julia will meander is now
+forecast to be about 90 n mi farther east than in the previous
+forecast.
+
+Julia is forecast to experience very strong westerly to
+northwesterly shear for the next four days or so, and this is
+expected to cause a gradual weakening during this time.  The NHC
+intensity forecast follows the previous one, as well as the GFS and
+ECMWF models, in calling for the cyclone to degenerate to a remnant
+low by 72 hours and dissipate completely by 120 hours.  It should be
+noted that the shear could decrease after 96 hours, and the UKMET
+and Canadian models forecast re-intensification at that time.
+However, at this time it appears unlikely that the cyclone will
+survive long enough to take advantage of the possibly more
+favorable environment.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/1500Z 31.8N  78.2W   30 KT  35 MPH
+ 12H  16/0000Z 31.8N  78.0W   30 KT  35 MPH
+ 24H  16/1200Z 31.7N  77.7W   30 KT  35 MPH
+ 36H  17/0000Z 31.6N  77.5W   30 KT  35 MPH
+ 48H  17/1200Z 31.4N  77.5W   30 KT  35 MPH
+ 72H  18/1200Z 31.5N  77.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  19/1200Z 32.0N  77.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  20/1200Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

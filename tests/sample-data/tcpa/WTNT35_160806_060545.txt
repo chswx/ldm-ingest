@@ -1,0 +1,80 @@
+
+850 
+WTNT35 KNHC 060545
+TCPAT5
+
+BULLETIN
+TROPICAL STORM EARL INTERMEDIATE ADVISORY NUMBER  15A
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+100 AM CDT SAT AUG 06 2016
+
+...EARL MOVING INLAND OVER SOUTHEASTERN MAINLAND MEXICO...
+...TORRENTIAL RAINS COULD PRODUCE FLASH FLOODS AND MUDSLIDES...
+
+
+SUMMARY OF 100 AM CDT...0600 UTC...INFORMATION
+----------------------------------------------
+LOCATION...19.0N 96.5W
+ABOUT 30 MI...50 KM SW OF VERACRUZ MEXICO
+MAXIMUM SUSTAINED WINDS...50 MPH...80 KM/H
+PRESENT MOVEMENT...W OR 275 DEGREES AT 9 MPH...14 KM/H
+MINIMUM CENTRAL PRESSURE...1000 MB...29.53 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+None.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Warning is in effect for...
+* Roca Partido northward to Tecolutla, Mexico.
+
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 100 AM CDT (0600 UTC), the center of Tropical Storm Earl was
+located near latitude 19.0 North, longitude 96.5 West. Earl is
+moving toward the west near 9 mph (14 km/h), and this general motion
+is expected to continue for the next day or so. On the forecast
+track, Earl will continue to move inland throughout the day on
+Saturday.
+
+Maximum sustained winds have decreased to near 50 mph (80 km/h) with
+higher gusts. Continued weakening is expected as the center of Earl
+moves farther inland.
+
+Tropical-storm-force winds extend outward up to 115 miles (185 km),
+mainly to the northeast of the center.  An automated station at
+Sacrifice Island, Mexico recently reported a gust of 40 mph
+(64 km/h).
+
+The estimated minimum central pressure is 1000 mb (29.53 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Tropical storm conditions will continue across the warning
+area tonight and early Saturday morning.
+
+RAINFALL:  Earl is expected to produce storm total rainfall of
+8 to 12 inches with isolated maximum amounts 18 inches over portions
+of the Mexican states of Veracruz, Hidalgo, Oaxaca, Guerrero,
+Puebla, Tabasco, and Campeche through Saturday night. These rains
+could result in life-threatening flash floods and mudslides.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 400 AM CDT.
+
+$$
+Forecaster Beven
+
+
+

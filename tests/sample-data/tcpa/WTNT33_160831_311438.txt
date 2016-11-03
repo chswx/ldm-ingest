@@ -1,0 +1,56 @@
+
+533 
+WTNT33 KNHC 311438
+TCPAT3
+
+BULLETIN
+TROPICAL DEPRESSION EIGHT ADVISORY NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 AM EDT WED AUG 31 2016
+
+...DEPRESSION MOVING AWAY FROM THE NORTH CAROLINA COAST...
+
+
+SUMMARY OF 1100 AM EDT...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...35.5N 73.1W
+ABOUT 135 MI...220 KM E OF CAPE HATTERAS NORTH CAROLINA
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...NE OR 55 DEGREES AT 15 MPH...24 KM/H
+MINIMUM CENTRAL PRESSURE...1010 MB...29.83 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM EDT (1500 UTC), the center of Tropical Depression Eight
+was located near latitude 35.5 North, longitude 73.1 West.  The
+depression is moving toward the northeast near 15 mph (24 km/h).
+This general motion with an increase in forward speed is forecast
+during the next day or so.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Some strengthening is still possible, and the depression could
+become a tropical storm later today.
+
+The estimated minimum central pressure is 1010 mb (29.83 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM EDT.
+
+$$
+Forecaster Blake
+
+
+

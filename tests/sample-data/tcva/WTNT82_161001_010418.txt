@@ -1,0 +1,48 @@
+
+981 
+WTNT82 EGRR 010418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 01.10.2016
+
+             HURRICANE MATTHEW    ANALYSED POSITION : 13.2N  72.0W
+
+     ATCF IDENTIFIER : AL142016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 01.10.2016    0  13.2N  72.0W      990            59
+    1200UTC 01.10.2016   12  12.5N  73.1W      991            49
+    0000UTC 02.10.2016   24  13.0N  73.9W      993            47
+    1200UTC 02.10.2016   36  13.7N  74.8W      990            47
+    0000UTC 03.10.2016   48  14.8N  75.9W      987            50
+    1200UTC 03.10.2016   60  16.3N  76.0W      977            59
+    0000UTC 04.10.2016   72  18.1N  75.4W      968            64
+    1200UTC 04.10.2016   84  20.2N  75.0W      976            60
+    0000UTC 05.10.2016   96  21.9N  74.7W      972            64
+    1200UTC 05.10.2016  108  23.4N  74.6W      970            65
+    0000UTC 06.10.2016  120  24.6N  75.2W      967            65
+    1200UTC 06.10.2016  132  26.2N  76.4W      960            69
+    0000UTC 07.10.2016  144  28.2N  77.4W      949            75
+
+   TROPICAL DEPRESSION ULIKA      ANALYSED POSITION : 18.6N 143.9W
+
+     ATCF IDENTIFIER : EP192016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 01.10.2016    0  18.6N 143.9W     1012            27
+    1200UTC 01.10.2016   12              CEASED TRACKING
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 010418
+

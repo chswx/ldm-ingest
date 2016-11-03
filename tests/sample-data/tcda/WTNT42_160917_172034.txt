@@ -1,0 +1,54 @@
+
+489 
+WTNT42 KNHC 172034
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 PM AST SAT SEP 17 2016
+
+Convection continues to flare up and down near the center of Karl,
+with a larger mass well to the northeast of the center.  In
+addition, the circulation looks more elongated than earlier today,
+perhaps due to the convective asymmetry.  The initial wind speed is
+held at 40 kt since the system does not look all that different,
+although the satellite classifications are a bit lower.
+
+Karl could still weaken a little bit in the short term while the
+cyclone is in a recovery stage from its interaction with an
+upper-level low. Gradual strengthening is then forecast by early
+next week as the storm encounters very warm water, low shear, and a
+marginal moisture environment.  Model guidance is very similar to
+the previous cycle, except for the ECMWF which shows a more powerful
+cyclone by day 5.  Very little change was made to the official
+forecast, which continues to be most similar to a blend of the
+SHIPS/LGEM models.
+
+The initial motion estimate is unchanged from the previous one,
+265/11.  Karl should begin to gain some latitude by Monday as it
+moves around the southern side of the subtropical ridge.  A
+west-northwestward motion is forecast to begin on Tuesday due to
+the orientation of the ridge, and this motion could continue for
+the rest of the 5-day period.  The biggest change since the last
+cycle is that model guidance is showing a stronger ridge in the
+central Atlantic, which would prolong the west-northwestward
+motion.  The track models have shifted westward at long range, and
+the official forecast is moved in that direction, but not as far
+west as the 12Z ECMWF/GFS solutions.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/2100Z 18.1N  40.4W   40 KT  45 MPH
+ 12H  18/0600Z 17.9N  42.3W   35 KT  40 MPH
+ 24H  18/1800Z 17.8N  45.0W   40 KT  45 MPH
+ 36H  19/0600Z 18.1N  47.6W   40 KT  45 MPH
+ 48H  19/1800Z 18.8N  50.3W   45 KT  50 MPH
+ 72H  20/1800Z 20.6N  55.4W   50 KT  60 MPH
+ 96H  21/1800Z 23.0N  60.5W   60 KT  70 MPH
+120H  22/1800Z 25.0N  64.5W   70 KT  80 MPH
+
+$$
+Forecaster Blake
+
+
+

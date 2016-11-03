@@ -1,0 +1,62 @@
+
+328 
+WTNT44 KNHC 311442
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1000 AM CDT WED AUG 31 2016
+
+The system is producing vigorous deep convection, but there is
+little organization to the overall cloud pattern.  Using the Dvorak
+rules, a bursting but disorganized convective pattern would indicate
+little change in strength.  The intensity is held at 30 kt pending
+new observations from a NOAA Hurricane Hunter aircraft in a few
+hours.  The tropical cyclone should be in a moderate shear
+environment, and over very warm water, for the next 36 hours or so.
+Therefore, strengthening is forecast and the official forecast
+remains close to the intensity model consensus.  Given the
+reasonably favorable environment, it is appropriate to maintain the
+hurricane watch for the northeast Gulf coast at this time.  The
+intensity forecast after 48 hours is problematic since the system
+will be in a decidedly baroclinic environment and under strong
+upper-level southwesterly flow.  This means that any intensification
+that occurs in 2-3 days will likely have a contribution from
+baroclinic processes.  By 96 hours, the global models depict the
+system as embedded in a frontal zone, so extratropical transition is
+forecast to occur by that time.
+
+The center is very difficult to locate, but observations from a ship
+suggest that there has been little motion since earlier this
+morning, so the initial motion estimate is stationary.  There has
+been little change to the track forecast guidance.  A 500-mb trough
+over the southeastern United States should cause the cyclone to move
+north-northeastward to northeastward across northern Florida and
+southeastern Georgia during the next couple of days.  Later in the
+forecast period there is uncertainty as to how far offshore the
+center will move, with some of the global models such as the GFS
+and the U.K. Met being close to the northeastern states, and the
+ECMWF somewhat farther east.  The official track forecast lies
+between these two possibilities.
+
+It is important not to focus on the forecast landfall point of this
+system.  Among other reasons, dangerous storm surge flooding is
+likely to extend along the Gulf coast well to the east and south of
+the path of the center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/1500Z 24.6N  88.0W   30 KT  35 MPH
+ 12H  01/0000Z 25.9N  87.4W   40 KT  45 MPH
+ 24H  01/1200Z 27.3N  86.5W   45 KT  50 MPH
+ 36H  02/0000Z 29.0N  85.0W   55 KT  65 MPH
+ 48H  02/1200Z 30.9N  82.4W   50 KT  60 MPH...INLAND
+ 72H  03/1200Z 35.0N  75.0W   55 KT  65 MPH...OVER WATER
+ 96H  04/1200Z 38.0N  70.0W   55 KT  65 MPH...POST-TROP/EXTRATROP
+120H  05/1200Z 40.0N  69.0W   55 KT  65 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

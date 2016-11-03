@@ -1,0 +1,57 @@
+
+291 
+WTNT31 KNHC 222036
+TCPAT1
+
+BULLETIN
+TROPICAL DEPRESSION FIONA ADVISORY NUMBER  24
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 PM AST MON AUG 22 2016
+
+...FIONA STILL A TROPICAL DEPRESSION...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...25.1N 61.3W
+ABOUT 490 MI...790 KM NNE OF THE NORTHERN LEEWARD ISLANDS
+ABOUT 540 MI...870 KM SSE OF BERMUDA
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...WNW OR 285 DEGREES AT 17 MPH...28 KM/H
+MINIMUM CENTRAL PRESSURE...1009 MB...29.80 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Depression Fiona
+was located near latitude 25.1 North, longitude 61.3 West.  The
+depression is moving toward the west-northwest near 17 mph (28 km/h)
+and this motion is expected to continue with some decrease in
+forward speed for the next day or two.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Fiona is expected to become a remnant low within the next couple of
+days.
+
+The estimated minimum central pressure is 1009 mb (29.80 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Beven
+
+
+

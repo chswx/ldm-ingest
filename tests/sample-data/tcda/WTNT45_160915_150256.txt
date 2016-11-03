@@ -1,0 +1,59 @@
+
+486 
+WTNT45 KNHC 150256
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 PM AST WED SEP 14 2016
+
+Water vapor imagery indicates that an upper-level low has moved
+over and has become superimposed with Ian's low-level center. Broken
+convective banding features, along with an abundance of lightning,
+have developed northwest through northeast of the center. Drifting
+buoy 41506, located about 20 nmi north of the center reported
+1001.5 mb pressure at 0100Z. Another drifting buoy located about
+150 nmi east of the center reported a pressure of around 1015 mb,
+and the pressure difference between Ian and that buoy supports a
+gradient wind of 50-52 kt. For now, the initial intensity of Ian
+will remain at 45 kt since another scatterometer pass over the
+cyclone is due shortly. Ship BATFR13 has been reporting winds of 30
+kt about 250 nmi north-northeast of the center, which supports the
+previous and current 34-kt wind radius of 200 nmi in that quadrant.
+
+Ian has made the much anticipated turn toward the north-northeast,
+and the cyclone is now moving 015/12 kt. Ian should gradually turn
+more toward the northeast during the next 24 hours and accelerate
+as the storm moves around the western portion of Bermuda-Azores
+High, and ahead of an advancing strong shortwave trough. The new
+forecast track is essentially just an extension of the previous
+advisory track and lies down the middle of the tightly packed NHC
+track model guidance.
+
+Ian is looking more like a subtropical cyclone on conventional
+satellite.  However, the recent increase in deep convection near and
+within 75 nmi of the center, along with recent AMSU data indicating
+that the system still has a mid- to upper-level warm-core structure,
+support maintaining Ian as a tropical cyclone. Ian has about 24
+hours or so remaining to intensify as a tropical cyclone while it is
+located south of the Gulf Stream and over warm waters. By 36 hours,
+Ian will lose its tropical characteristics over cooler water, but
+some baroclinic forcing is expected to help strengthen the cyclone.
+By 72 hours, Ian is expected to be absorbed by a larger
+extratropical low. The intensity forecast remains unchanged from the
+previous advisory and follows the trend of global models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  15/0300Z 33.9N  53.4W   45 KT  50 MPH
+ 12H  15/1200Z 36.3N  51.6W   50 KT  60 MPH
+ 24H  16/0000Z 40.3N  47.0W   50 KT  60 MPH
+ 36H  16/1200Z 45.8N  39.7W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 48H  17/0000Z 51.7N  32.0W   60 KT  70 MPH...POST-TROP/EXTRATROP
+ 72H  18/0000Z...ABSORBED
+
+$$
+Forecaster Stewart
+
+
+

@@ -1,0 +1,46 @@
+
+134 
+WTNT42 KNHC 312043
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  37
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST WED AUG 31 2016
+
+The satellite presentation of Gaston has gradually decayed today,
+with the eye becoming more ragged in infrared imagery.  The initial
+intensity estimate is 90 kt based on a blend of the latest Dvorak
+Final-T and CI numbers from TAFB and SAB.  Steady weakening is
+expected during the next few days while SSTs decrease steadily along
+the forecast track and the shear increases above 20 kt by 48 hours.
+The new NHC intensity forecast has been adjusted downward and is
+close to the latest intensity model consensus, and now shows Gaston
+weakening to a tropical storm as it approaches the Azores on Friday.
+Gaston should lose tropical characteristics by 72 hours and
+dissipate by 96 hours as shown by the global models.
+
+The initial motion estimate is 055/16, and Gaston is expected to
+move east-northeastward to eastward in the mid-latitude westerlies
+through dissipation.  The NHC track forecast is a little north of
+the previous one and is along the middle of the guidance envelope
+but faster than the TVCN consensus, trending toward the faster FSU
+Superensemble.
+
+Based on the new forecast, a tropical storm watch has been issued
+for portions of the western and central Azores.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/2100Z 35.0N  46.9W   90 KT 105 MPH
+ 12H  01/0600Z 36.3N  44.0W   85 KT 100 MPH
+ 24H  01/1800Z 37.7N  39.5W   75 KT  85 MPH
+ 36H  02/0600Z 38.5N  34.8W   65 KT  75 MPH
+ 48H  02/1800Z 39.0N  30.8W   55 KT  65 MPH
+ 72H  03/1800Z 41.0N  25.0W   35 KT  40 MPH...POST-TROPICAL
+ 96H  04/1800Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

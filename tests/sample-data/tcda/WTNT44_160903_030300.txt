@@ -1,0 +1,88 @@
+
+535 
+WTNT44 KNHC 030300
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  23
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 PM EDT FRI SEP 02 2016
+
+Radar imagery and surface observations indicate that the
+circulation of Hermine has become elongated from east-northeast to
+west-southwest over the past few hours.  This is likely in response
+to the tropical cyclone encroaching on a developing frontal
+boundary that extends from eastern North Carolina eastward into the
+Atlantic.  However, buoy reports from the Atlantic southeast of the
+center remain in the 40-45 kt range, so the initial intensity
+remains 45 kt.
+
+During the forecast period, Hermine is expected to undergo a complex
+interaction with a mid- to upper-level baroclinic trough that is
+developing over the eastern United States.  During the first 36-48
+hours, the cyclone is likely to start extratropical transition as it
+tries to merge with the frontal boundary.  From 48-96 hours, the
+dynamical models forecast the upper trough to cut off directly over
+the surface cyclone, and as this happens they forecast the surface
+cyclone to acquire a structure that resembles a tropical cyclone
+with the strongest winds close to the center.  This suggests the
+possibility that Hermine could regain some tropical cyclone
+characteristics even though it would be under the upper-level low.
+For all of this complexity, the dynamical guidance forecast Hermine
+to strengthen during this evolution regardless of its final
+structure, so the new intensity forecast is an update of the
+previous forecast.  Given the uncertainty in the structure and
+evolution, the forecast keeps the cyclone as post-tropical after 24
+hours.
+
+The initial motion is 055/19 as Hermine is now embedded in
+deep-layer southwesterly flow ahead of the above mentioned
+baroclinic trough.  During the next 24-36 hours, the cyclone should
+decelerate and gradually turn more toward the north.  The dynamical
+models agree that the surface center should make at least a partial
+cyclonic loop from 48-96 hours as it moves under the upper-level
+low.  After 96 hours, there is spread in the guidance, as the GFS
+shows a very slow motion while the ECMWF/CMC/UKMET move the system
+somewhat faster toward the east-northeast.  The new forecast track
+shows a little more bend back toward the west than the previous
+track, then it is a little slower to move the system to the
+east-northeast later in the period.  It should be noted that the
+GFS and ECMWF both bring the center of Hermine closer to the coast
+than the current forecast, and if this trend continues it may
+require some adjustment to the track in later advisories.
+
+KEY MESSAGES:
+
+1. Hermine is expected to become a post-tropical cyclone while still
+producing hazardous winds and storm surge over land.  NWS policy
+allows NHC to write advisories on and issue tropical storm watches
+and warnings for post-tropical cyclones, when the system continues
+to pose a significant threat to life and property. NHC and the NWS
+Eastern Region have decided that this option will be invoked for
+Hermine.  After Hermine becomes a post-tropical cyclone, NHC will
+continue to issue its full suite of advisory and warning products
+for as long as the system remains a significant threat to land.
+
+2. There is considerable uncertainty as to how many of the
+characteristics of a tropical cyclone Hermine will have while it is
+off of the coast of the Mid-Atlantic and New England States.
+Regardless of its structure, Hermine is expected to be a vigorous
+storm with a large wind field that will cause wind, storm surge and
+surf hazards along the coast.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  03/0300Z 34.1N  78.4W   45 KT  50 MPH...INLAND
+ 12H  03/1200Z 35.5N  76.0W   45 KT  50 MPH...INLAND
+ 24H  04/0000Z 36.8N  73.7W   50 KT  60 MPH...OVER WATER
+ 36H  04/1200Z 37.8N  72.6W   55 KT  65 MPH...POST-TROPICAL
+ 48H  05/0000Z 38.4N  72.8W   60 KT  70 MPH...POST-TROPICAL
+ 72H  06/0000Z 38.5N  73.0W   65 KT  75 MPH...POST-TROPICAL
+ 96H  07/0000Z 39.5N  71.5W   60 KT  70 MPH...POST-TROPICAL
+120H  08/0000Z 40.5N  70.0W   50 KT  60 MPH...POST-TROPICAL
+
+$$
+Forecaster Beven
+
+
+

@@ -1,0 +1,53 @@
+
+524 
+WTNT43 KNHC 210833
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 AM AST WED SEP 21 2016
+
+Lisa's cloud pattern has gradually become better organized into a
+comma-like shape, although the system still appears to be somewhat
+elongated from southwest to northeast.  Upper-level outflow
+remains weak over the southeastern quadrant of the circulation.
+Dvorak classifications from both TAFB and SAB yield an intensity
+estimate of 45 kt, and that value is used for the advisory.  The
+storm has less than 24 hours before west-southwesterly shear
+associated with an upper-level trough near 40W-50W longitude becomes
+prohibitively large for strengthening.  Therefore, some slight
+additional intensification could occur today, but beyond 24 hours
+Lisa is forecast to steadily weaken.  By days 4-5, although the
+shear is predicted to weaken when Lisa moves under the trough axis,
+the cyclone should have been disrupted too much by the earlier
+hostile environment to make a recovery.  The official forecast is
+close to the LGEM guidance through 48 hours and a little below that
+model thereafter.
+
+The center is not easy to locate and the initial motion is a rather
+uncertain 315/8 kt, which is partially based on continuity from
+earlier estimates.  A weak mid-tropospheric ridge to the north and
+northeast of Lisa should maintain a generally northwestward motion
+through 72 hours or so.  Later in the forecast period, an
+approaching trough in the westerlies, which is also expected to
+accelerate Karl to the northeast, should cause Lisa to turn
+northward over the eastern Atlantic.  The official track forecast
+is similar to the previous one and is close to a consensus of the
+ECMWF, GFS, and UKMET global models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/0900Z 17.5N  32.2W   45 KT  50 MPH
+ 12H  21/1800Z 18.2N  33.2W   50 KT  60 MPH
+ 24H  22/0600Z 19.1N  34.5W   50 KT  60 MPH
+ 36H  22/1800Z 20.1N  35.9W   45 KT  50 MPH
+ 48H  23/0600Z 21.3N  37.4W   40 KT  45 MPH
+ 72H  24/0600Z 24.1N  40.4W   30 KT  35 MPH
+ 96H  25/0600Z 27.5N  43.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  26/0600Z 32.5N  43.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Pasch
+
+
+

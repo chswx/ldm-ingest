@@ -1,0 +1,41 @@
+
+280 
+WTNT45 KNHC 160305
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 PM AST THU SEP 15 2016
+
+Ian has continued to accelerate northeastward within deep-layer
+southwesterly flow ahead of an approaching cold front and strong
+shortwave trough, and this general motion is expected for the next
+2 days until the system becomes absorbed by a larger extratropical
+low. The new track forecast is essentially just an update of the
+previous advisory track and remains near the center of the tightly
+clustered NHC model guidance, close to the GFS and ECMWF consensus.
+
+The initial intensity remains at 45 kt based a 16/0034Z ASCAT-B
+overpass that contained few 43-kt wind vectors southeast of the
+well-defined low-level center. Ian is forecast to merge with
+a baroclinic zone and undergo extratropical transition during the
+next 12-36 hours, and in the process it is expected to strengthen to
+at least storm-force before it is absorbed by another extratropical
+low. The new intensity forecast is the same as the previous
+advisory based on the global models and guidance from the Ocean
+Prediction Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/0300Z 42.9N  44.9W   45 KT  50 MPH
+ 12H  16/1200Z 46.9N  39.5W   55 KT  65 MPH...POST-TROPICAL
+ 24H  17/0000Z 53.3N  31.4W   60 KT  70 MPH...POST-TROP/EXTRATROP
+ 36H  17/1200Z 58.9N  23.4W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 48H  18/0000Z 63.3N  15.6W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 72H  19/0000Z...ABSORBED
+
+$$
+Forecaster Stewart
+
+
+

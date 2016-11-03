@@ -1,0 +1,63 @@
+
+840 
+WTNT42 KNHC 202044
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  26
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+500 PM AST TUE SEP 20 2016
+
+Karl's center had lost some definition throughout the day, but deep
+convection has redeveloped near the center late in the afternoon.
+Dvorak Current Intensity estimates were lowered to 2.5 from TAFB and
+2.0 from SAB, and the latest UW-CIMSS ADT estimate is T3.2. A NOAA
+P-3 flight currently conducting a research mission into Karl has
+not yet found tropical-storm-force winds, but it has not sampled
+the entire circulation yet. The initial intensity is therefore held
+at 35 kt pending additional data from the P-3. The minimum pressure
+is lowered to 1005 mb based on dropsonde data from the NOAA G-IV
+jet, which is also flying near Karl.
+
+Little to no change is expected in the strength of Karl over the
+next 24 hours as the influence of an upper low continues to shear
+out the western side of the storm. The global models indicate that
+the shear should relax in the next 24 to 36 hours allowing a slight
+strengthening in that period. As Karl rounds the mid-level ridge
+it will find itself in a more favorable environment with warm
+SSTs and lower shear. An increased rate of intensification should
+take place in the 48 to 72 hour time frame, and Karl is expected to
+reach hurricane strength by the end of that period. The official
+intensity forecast has been nudged slightly downward based on the
+latest guidance, however it is still on the upper end of the
+guidance spread.
+
+The center of Karl continues pushing west near the 20th parallel
+with an initial motion of 275 at 12 kt.  Karl is expected to make a
+turn toward the west-northwest shortly and should reach the western
+edge of the subtropical high during the next 48 hours, turning to
+the northwest by day 2 and to the north by day 4. Karl will then
+accelerate to the northeast as it gets picked up by the westerlies
+ahead of an upper level trough. Global model guidance continues to
+show considerable spread into the day 5 period. The ECMWF is
+significantly slower than the other models because the upper level
+trough does not pick up Karl. The official track forecast follows
+close to the previous forecast and remains near a consensus of the
+GFS and ECMWF.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/2100Z 20.1N  55.2W   35 KT  40 MPH
+ 12H  21/0600Z 20.8N  57.0W   35 KT  40 MPH
+ 24H  21/1800Z 22.3N  59.2W   40 KT  45 MPH
+ 36H  22/0600Z 24.1N  61.4W   45 KT  50 MPH
+ 48H  22/1800Z 25.6N  63.5W   55 KT  65 MPH
+ 72H  23/1800Z 28.5N  65.5W   70 KT  80 MPH
+ 96H  24/1800Z 32.5N  61.5W   85 KT 100 MPH
+120H  25/1800Z 38.5N  51.0W   80 KT  90 MPH
+
+$$
+Forecaster Krekeler/Berg
+
+
+

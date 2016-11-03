@@ -1,0 +1,45 @@
+
+853 
+WTNT42 KNHC 242041
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  42
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 PM AST SAT SEP 24 2016
+
+The convective pattern of Karl has become less organized today and
+currently resembles a shear pattern, which isn't surprising given
+the 35 kt of southwesterly shear analyzed over Karl by UW-CIMSS.  A
+GPM overpass from earlier today showed that the inner-core structure
+of the cyclone had degraded, and this was also noted by the last
+aircraft flight this morning.  The initial intensity remains 55 kt
+based on the latest Dvorak Data-T numbers of T3.5/55 kt from TAFB
+and SAB.  A NOAA Hurricane Hunter aircraft is en route to sample
+Karl and provide more data on its current intensity and structure.
+Karl is expected to strengthen during the next 12 to 24 hours, but
+much of this will be due to baroclinic effects as the cyclone will
+be under very high shear and moving over cooler SSTs. The NHC
+forecast shows Karl reaching 70 kt at 24 h as a post-tropical
+cyclone based on the GFS and ECMWF guidance.  Karl should be
+absorbed by a larger extratropical low over the north Atlantic by 36
+h, as indicated by global model fields.
+
+The initial motion estimate is 055/20.  Karl should continue to
+accelerate on an east-northeastward to northeastward heading ahead
+of a broad deep-layer trough until the cyclone is absorbed, and the
+forward speed is expected to be near 50 kt by 24 hours.  The new
+NHC track forecast is an update of the previous one and remains near
+the middle of the tightly packed guidance envelope.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/2100Z 33.6N  61.1W   55 KT  65 MPH
+ 12H  25/0600Z 36.4N  55.3W   60 KT  70 MPH
+ 24H  25/1800Z 41.9N  45.1W   70 KT  80 MPH...POST-TROPICAL
+ 36H  26/0600Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

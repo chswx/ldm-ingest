@@ -1,0 +1,54 @@
+
+663 
+WTNT43 KNHC 300901
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 AM EDT TUE AUG 30 2016
+
+Convection has again increased in association with Tropical
+Depression Eight, with the data from the Morehead City, North
+Carolina, WSR-88D radar showing weak convective banding in the
+northern semicircle. However, reports from an Air Force Reserve
+Hurricane Hunter aircraft up to this writing show flight-level winds
+of less than 30 kt and a central pressure near 1010 mb.  The initial
+intensity remains 30 kt, and this might be generous.
+
+The depression should be in a moderate westerly vertical shear
+environment for the next 24 hours or so, but some modest
+strengthening is possible if the current convection can persist near
+the center.  After 24 hours, some strengthening is also possible due
+to baroclinic influences as the cyclone begins to interact with a
+frontal zone.  The new intensity forecast is the same as the
+previous forecast, and it is in best overall agreement with the
+LGEM model.  One change to the intensity forecast is to indicate
+that the system will become an extratropical low at about 72 hours
+before the cyclone dissipates within the frontal zone.
+
+The initial motion is a somewhat uncertain 305/5.  The depression
+should start a slow northward motion toward a break in the
+subtropical ridge later today.  After that, it should recurve
+northeastward into the westerlies in advance of an approaching
+mid- to upper-level trough and an associated surface cold front.
+The new forecast track is nudged a little to the west of the
+previous track during the first 24 hours based on the initial
+position. After that time, it is similar to the previous track and
+lies near the center of the track guidance envelope.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0900Z 33.9N  75.0W   30 KT  35 MPH
+ 12H  30/1800Z 34.4N  75.0W   30 KT  35 MPH
+ 24H  31/0600Z 35.3N  74.6W   35 KT  40 MPH
+ 36H  31/1800Z 36.5N  72.8W   35 KT  40 MPH
+ 48H  01/0600Z 38.4N  69.7W   40 KT  45 MPH
+ 72H  02/0600Z 43.0N  58.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+ 96H  03/0600Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

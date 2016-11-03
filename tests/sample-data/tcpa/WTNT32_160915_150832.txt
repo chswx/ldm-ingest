@@ -1,0 +1,59 @@
+
+179 
+WTNT32 KNHC 150832
+TCPAT2
+
+BULLETIN
+TROPICAL DEPRESSION TWELVE ADVISORY NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST THU SEP 15 2016
+
+...DEPRESSION FORECAST TO MOVE WESTWARD ACROSS THE TROPICAL
+ATLANTIC WITH LITTLE TO NO STRENGTHENING...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...17.6N 29.3W
+ABOUT 365 MI...590 KM WNW OF THE CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...W OR 275 DEGREES AT 16 MPH...26 KM/H
+MINIMUM CENTRAL PRESSURE...1009 MB...29.80 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Depression Twelve
+was located near latitude 17.6 North, longitude 29.3 West.  The
+depression is moving toward the west near 16 mph (26 km/h).  A
+westward motion at a slightly slower forward speed is expected
+during the next couple of days.  On the forecast track, the center
+of the depression will continue to move away from the Cabo Verde
+Islands.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Little change in strength is forecast during the next 48 hours.
+
+The estimated minimum central pressure is 1009 mb (29.80 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+RAINFALL:  Locally heavy rains are possible over the western Cabo
+Verde Islands today.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Berg
+
+
+

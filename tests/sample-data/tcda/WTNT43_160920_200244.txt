@@ -1,0 +1,53 @@
+
+070 
+WTNT43 KNHC 200244
+TCDAT3
+
+TROPICAL DEPRESSION THIRTEEN DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST MON SEP 19 2016
+
+The coverage of deep convection associated with the depression has
+decreased somewhat during the past several hours, but the
+circulation remains well established with several fragmented
+curved bands. Satellite intensity estimates from TAFB and SAB
+support maintaining the initial wind speed of 30 kt.
+
+The cyclone is moving west-northwestward at 8 kt.  A weakness in
+the subtropical ridge over the east-central Atlantic is expected to
+persist for the next several days due to a series of shortwave
+troughs moving through the area.  As a result, a continued
+west-northwestward to northwestward motion at about the same forward
+speed is expected throughout the forecast period. The models are in
+fair agreement, and the NHC track prediction lies on the left side
+of the guidance envelope, in best agreement with the ECMWF model.
+
+The environmental conditions for strengthening during the next
+several days are mixed.  Although the shear is expected to be light
+and waters warm during the next couple of days, the atmosphere is
+not overly moist in the vicinity of the depression.  These
+conditions should allow for slow strengthening during the next 48
+hours.  Beyond that time, however, the system is expected to move
+in less favorable conditions of stronger shear, even drier air, and
+more marginal SSTs.  These conditions should halt strengthening
+and induce gradual weakening.  The NHC intensity forecast lies
+close to the intensity model consensus for the first few days, but
+is lower than the consensus at days 4 and 5 given the expected
+hostile conditions.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/0300Z 14.2N  29.0W   30 KT  35 MPH
+ 12H  20/1200Z 15.0N  30.4W   35 KT  40 MPH
+ 24H  21/0000Z 16.1N  32.2W   40 KT  45 MPH
+ 36H  21/1200Z 17.2N  34.0W   45 KT  50 MPH
+ 48H  22/0000Z 18.1N  35.7W   50 KT  60 MPH
+ 72H  23/0000Z 20.0N  38.9W   45 KT  50 MPH
+ 96H  24/0000Z 22.0N  42.0W   35 KT  40 MPH
+120H  25/0000Z 25.0N  44.5W   30 KT  35 MPH
+
+$$
+Forecaster Cangialosi/Brown
+
+
+

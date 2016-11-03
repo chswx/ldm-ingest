@@ -1,0 +1,66 @@
+
+777 
+WTNT42 KNHC 221449
+TCDAT2
+
+TROPICAL DEPRESSION KARL DISCUSSION NUMBER  33
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+1100 AM AST THU SEP 22 2016
+
+Even with visible satellite imagery this morning, Karl's center has
+still been difficult to locate, and it's unclear exactly how well
+defined it is.  Deep convection has increased markedly since
+yesterday, but the overall cloud pattern is rather elongated from
+the east-southeast to the west-northwest.  In the absence of any in
+situ data, the initial intensity remains 30 kt based on Dvorak
+estimates from TAFB and SAB.
+
+Karl is moving northwestward and appears to have sped up
+temporarily with an initial motion of 305/15 kt.  The cyclone is
+moving between a mid-level high centered to its northeast and a
+mid-level low located north of Puerto Rico.  Karl is expected to
+move around the western periphery of the high during the next few
+days, turning northward by 36 hours and then accelerating
+northeastward into the mid-latitude westerlies by 48 hours.  Based
+on the adjustment of the initial position, the track guidance has
+shifted a bit left of the positions indicated in the previous
+advisory.  As a result, the updated official forecast has been
+adjusted westward during the first 48 hours, lying close to the
+ECMWF solution as well as the TVCN multi-model consensus.  Even
+with this shift, the official forecast lies close to the eastern
+edge of the guidance envelope.
+
+Karl lies right along the edge of a zone of higher shear to its
+west, and the various analyses are showing about 15 kt of
+southeasterly shear over the system.  The global models continue to
+show the shear decreasing at least some during the next couple of
+days, but there are differences.  For example, GFS fields show the
+shear decreasing below 10 kt for a day or two, while the ECMWF only
+shows the shear decreasing below 10 kt for about 12 hours.  This
+continues to make the intensity forecast difficult.  For now, the
+official intensity forecast remains close to the ICON intensity
+consensus, and no significant changes were made to the previous
+forecast.
+
+Based on the latest forecast, the western edge of the
+tropical-storm-force wind field could begin to affect Bermuda
+during the next 36 to 48 hours.  The Bermuda Weather Service has
+therefore issued a Tropical Storm Watch for the island.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/1500Z 25.0N  62.3W   30 KT  35 MPH
+ 12H  23/0000Z 26.3N  63.7W   35 KT  40 MPH
+ 24H  23/1200Z 28.3N  64.8W   40 KT  45 MPH
+ 36H  24/0000Z 30.2N  64.7W   45 KT  50 MPH
+ 48H  24/1200Z 32.3N  62.5W   55 KT  65 MPH
+ 72H  25/1200Z 38.0N  50.8W   70 KT  80 MPH
+ 96H  26/1200Z 48.0N  32.0W   60 KT  70 MPH...POST-TROP/EXTRATROP
+120H  27/1200Z...DISSIPATED
+
+$$
+Forecaster Berg/Campbell/Rubin-Oster
+
+
+

@@ -1,0 +1,59 @@
+
+622 
+WTNT44 KNHC 061753
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE SPECIAL DISCUSSION NUMBER  38
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+200 PM EDT TUE SEP 06 2016
+
+Based on satellite imagery and surface observations, the risk of
+tropical-storm-force winds reaching the coastline appears now to be
+minimal.  This special advisory is being issued to discontinue the
+remaining coastal tropical storm warnings and to terminate National
+Hurricane Center advisories on Post-Tropical Cyclone Hermine.
+
+There has again been little change in the structure of Hermine since
+the last advisory, as it remains a post-tropical low pressure system
+with a few small patches of convection located to the south and west
+of the center.  Buoy data suggests the circulation is still slowly
+decaying, so the initial intensity is now a somewhat uncertain 45
+kt.  The post-tropical cyclone is expected to continue to weaken
+during the next couple of days due to the lack of baroclinic forcing
+and cool sea-surface temperatures along the forecast track, and the
+new intensity forecast has the winds decreasing below tropical storm
+force by 48 hours in agreement with the global models.  After that
+time, the system is expected to be absorbed by a new frontal system
+moving eastward across the New England States.
+
+After a brief slowing this morning, the center has moved a little
+faster and the initial motion is now 265/6.  Other than that, the
+track forecast reasoning is unchanged since the last advisory.  A
+slow and erratic motion, possibly including a cusp or a loop, is
+likely during the next 24 hours.  After that, the cyclone should
+move northeastward in advance of the above-mentioned frontal system.
+The new forecast track is a little faster than the previous track
+after 24 hours, and it is in best agreement with a blend of the GFS
+and ECMWF models.
+
+For future information on Hermine, please see products issued by
+your local NWS Forecast Office.  Additional information can be found
+in High Seas Forecasts issued by the National Weather Service, under
+AWIPS header NFDHSFAT1, WMO header FZNT01 KWBC, and available on the
+Web at http://www.opc.ncep.noaa.gov/shtml/NFDHSFAT1.shtml.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/1800Z 39.4N  72.3W   45 KT  50 MPH...POST-TROPICAL
+ 12H  07/0000Z 39.3N  72.5W   45 KT  50 MPH...POST-TROPICAL
+ 24H  07/1200Z 39.4N  72.7W   40 KT  45 MPH...POST-TROPICAL
+ 36H  08/0000Z 39.9N  72.4W   35 KT  40 MPH...POST-TROPICAL
+ 48H  08/1200Z 40.5N  71.5W   30 KT  35 MPH...POST-TROPICAL
+ 72H  09/1200Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

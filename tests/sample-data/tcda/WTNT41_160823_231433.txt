@@ -1,0 +1,37 @@
+
+021 
+WTNT41 KNHC 231433
+TCDAT1
+
+POST-TROPICAL CYCLONE FIONA DISCUSSION NUMBER  27
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 AM AST TUE AUG 23 2016
+
+Satellite images indicate that Fiona has lost even more
+organization this morning with only a weak, elongated circulation
+and no organized deep convection.  Thus, Fiona no longer meets the
+requirements of a tropical cyclone and this is the last advisory.
+The initial wind speed is reduced to 25 kt in accordance with the
+latest Dvorak estimates.  While wind shear is forecast to decrease,
+the low's structure has lost so much organization that it is not
+likely to take advantage of the more conducive conditions.  In
+addition, dry mid-level air near the circulation is likely to limit
+any organized convection. Thus regeneration is not expected at this
+time.  The low should move northwestward into a break in the
+subtropical ridge, then westward as the ridge restrengthens.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/1500Z 26.1N  64.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 12H  24/0000Z 26.6N  66.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  24/1200Z 27.5N  67.8W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 36H  25/0000Z 28.4N  69.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  25/1200Z 29.0N  69.9W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  26/1200Z 29.5N  71.5W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  27/1200Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

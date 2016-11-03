@@ -1,0 +1,51 @@
+
+322 
+WTNT41 KNHC 230849
+TCDAT1
+
+TROPICAL DEPRESSION FIONA DISCUSSION NUMBER  26
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST TUE AUG 23 2016
+
+Fiona is barely holding on as a tropical cyclone with a small burst
+of deep convection confined mainly to the southeastern quadrant due
+to moderate to strong northwesterly vertical wind shear. The
+initial intensity is being maintained at 30 kt based on a Dvorak
+intensity estimate of 2.0/30 kt from TAFB, and an ADT estimate of
+T2.2/32 kt from UW-CIMSS.
+
+The initial motion is a little slower at 290/11 kt. Fiona is
+forecast to gradually turn northwestward and decelerate as the
+small cyclone moves toward and into a break in the Bermuda-Azores
+ridge. The NHC forecast track is down the middle of the tightly
+packed model guidance, and lies close to consensus track model TVCN.
+
+Strong westerly to northwesterly vertical wind shear that has been
+plaguing Fiona for the past several days is forecast to weaken
+considerably during the next 36 hours, which would normally support
+some strengthening. However, the small cyclone is expected to remain
+embedded in a region of dry mid-level air with humidity values
+less than 60 percent during that time, decreasing to less than 50
+percent by 72 hours, which should inhibit the development of
+persistent deep convection near the center. The result is that Fiona
+is forecast to degenerate into a remnant low in 48 hours, if not
+sooner.  The official intensity forecast remains below the consensus
+model IVCN and the SHIPS/LGEM models, and instead follows the
+weakening trend depicted in the global models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0900Z 25.8N  63.4W   30 KT  35 MPH
+ 12H  23/1800Z 26.2N  65.0W   30 KT  35 MPH
+ 24H  24/0600Z 27.1N  67.0W   25 KT  30 MPH
+ 36H  24/1800Z 28.1N  68.6W   25 KT  30 MPH
+ 48H  25/0600Z 28.9N  69.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  26/0600Z 30.0N  70.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  27/0600Z 30.6N  71.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  28/0600Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

@@ -1,0 +1,55 @@
+
+870 
+WTNT31 KNHC 171448
+TCPAT1
+
+BULLETIN
+TROPICAL DEPRESSION JULIA ADVISORY NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 AM EDT SAT SEP 17 2016
+
+...JULIA HANGING ON AS A TROPICAL DEPRESSION...
+
+
+SUMMARY OF 1100 AM EDT...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...30.2N 76.2W
+ABOUT 285 MI...460 KM SE OF CHARLESTON SOUTH CAROLINA
+MAXIMUM SUSTAINED WINDS...30 MPH...45 KM/H
+PRESENT MOVEMENT...STATIONARY
+MINIMUM CENTRAL PRESSURE...1010 MB...29.83 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM EDT (1500 UTC), the center of Tropical Depression Julia
+was located near latitude 30.2 North, longitude 76.2 West. The
+depression is currently stationary.  A northwestward drift is
+expected later today, followed by a slow northward motion on Sunday.
+
+Maximum sustained winds are near 30 mph (45 km/h) with higher gusts.
+Little change in strength is forecast during the next 48 hours, but
+Julia is expected to become a remnant low later today or tonight.
+
+The estimated minimum central pressure is 1010 mb (29.83 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM EDT.
+
+$$
+Forecaster Beven
+
+
+

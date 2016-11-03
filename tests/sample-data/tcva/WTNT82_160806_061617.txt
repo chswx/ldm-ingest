@@ -1,0 +1,79 @@
+
+088 
+WTNT82 EGRR 061617
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 06.08.2016
+
+   TROPICAL DEPRESSION EARL       ANALYSED POSITION : 16.7N  98.6W
+
+     ATCF IDENTIFIER : AL052016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 06.08.2016    0  16.7N  98.6W     1006            20
+    0000UTC 07.08.2016   12              CEASED TRACKING
+
+   TROPICAL DEPRESSION HOWARD     ANALYSED POSITION : 21.9N 150.4W
+
+     ATCF IDENTIFIER : EP092016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 06.08.2016    0  21.9N 150.4W     1009            33
+    0000UTC 07.08.2016   12  21.7N 153.2W     1011            29
+    1200UTC 07.08.2016   24  21.5N 155.7W     1012            28
+    0000UTC 08.08.2016   36              CEASED TRACKING
+
+        TROPICAL STORM IVETTE     ANALYSED POSITION : 15.7N 134.1W
+
+     ATCF IDENTIFIER : EP102016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 06.08.2016    0  15.7N 134.1W     1000            43
+    0000UTC 07.08.2016   12  16.4N 135.7W     1001            39
+    1200UTC 07.08.2016   24  16.9N 137.6W     1004            33
+    0000UTC 08.08.2016   36  17.3N 139.2W     1005            31
+    1200UTC 08.08.2016   48  17.6N 141.1W     1008            27
+    0000UTC 09.08.2016   60  17.5N 142.5W     1010            24
+    1200UTC 09.08.2016   72              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  30 HOURS
+              FORECAST POSITION AT T+ 30 : 19.7N 106.1W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 08.08.2016   36  20.2N 107.3W     1000            37
+    1200UTC 08.08.2016   48  21.3N 108.7W     1003            32
+    0000UTC 09.08.2016   60  21.8N 109.9W     1003            26
+    1200UTC 09.08.2016   72  22.0N 110.7W     1004            25
+    0000UTC 10.08.2016   84  23.1N 110.9W     1006            25
+    1200UTC 10.08.2016   96              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  96 HOURS
+              FORECAST POSITION AT T+ 96 : 30.2N  74.2W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 10.08.2016   96  30.2N  74.2W     1015            26
+    0000UTC 11.08.2016  108  30.7N  74.8W     1012            28
+    1200UTC 11.08.2016  120  31.7N  76.0W     1010            30
+    0000UTC 12.08.2016  132  32.3N  76.8W     1005            36
+    1200UTC 12.08.2016  144  33.3N  76.7W      999            42
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 061617
+

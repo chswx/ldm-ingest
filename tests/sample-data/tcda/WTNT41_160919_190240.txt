@@ -1,0 +1,47 @@
+
+436 
+WTNT41 KNHC 190240
+TCDAT1
+
+POST-TROPICAL CYCLONE JULIA DISCUSSION NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 PM EDT SUN SEP 18 2016
+
+Strong shear and dry mid-level air have continued to take a toll on
+Julia today.  The cyclone has become an exposed swirl of low clouds
+devoid of significant deep convection for more than 12 hours. Based
+on this, Julia is being designated a post-tropical remnant low, and
+this will be the final NHC advisory on this system.  The initial
+wind speed is set to 25 kt, which is based on the earlier ASCAT
+data, but this could be generous.  The cyclone may produce some
+disorganized thunderstorms during the overnight convective maximum
+period, but increasing southwesterly shear on Monday should limit
+any organization or persistence of the activity.  The low should
+gradually spin down and dissipate in a couple of days.
+
+Julia is moving northwestward at about 6 kt.  A turn toward the
+north is expected overnight ahead of a shortwave trough moving into
+the southeastern United States.  After that time, the remnant low
+is forecast to meander over eastern North Carolina until
+dissipation occurs.
+
+Moisture from the remnants of Julia are expected to interact
+with a frontal boundary moving into the Mid-Atlantic and Northeast
+United States.  This is likely to produce local heavy rainfall from
+eastern North Carolina northward to the northeastern U.S. during
+the next couple of days.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/0300Z 32.2N  78.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 12H  19/1200Z 33.2N  78.2W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  20/0000Z 34.4N  77.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  20/1200Z 34.9N  77.8W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  21/0000Z 35.1N  77.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  22/0000Z...DISSIPATED
+
+$$
+Forecaster Brown
+
+
+

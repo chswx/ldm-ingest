@@ -1,0 +1,59 @@
+
+620 
+WTNT32 KNHC 272039
+TCPAT2
+
+BULLETIN
+TROPICAL STORM GASTON ADVISORY NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST SAT AUG 27 2016
+
+...GASTON SHOULD BECOME A HURRICANE AGAIN LATER TONIGHT...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...29.2N 54.0W
+ABOUT 675 MI...1085 KM ESE OF BERMUDA
+MAXIMUM SUSTAINED WINDS...70 MPH...110 KM/H
+PRESENT MOVEMENT...NW OR 320 DEGREES AT 9 MPH...15 KM/H
+MINIMUM CENTRAL PRESSURE...993 MB...29.33 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Storm Gaston was
+located near latitude 29.2 North, longitude 54.0 West. Gaston is
+moving toward the northwest near 9 mph (15 km/h), and this motion
+accompanied by a gradual decrease in forward speed is expected
+during the next couple of days.
+
+Maximum sustained winds are near 70 mph (110 km/h) with higher
+gusts.  Strengthening is forecast during the next 48 hours, and
+Gaston is expected to become a hurricane later tonight.
+
+Tropical-storm-force winds extend outward up to 150 miles (240 km)
+from the center.
+
+The estimated minimum central pressure is 993 mb (29.33 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Stewart
+
+
+

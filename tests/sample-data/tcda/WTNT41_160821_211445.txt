@@ -1,0 +1,53 @@
+
+564 
+WTNT41 KNHC 211445
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 AM AST SUN AUG 21 2016
+
+Strong westerly shear continues to take a toll on Fiona.  After
+becoming devoid of convection overnight, new convective cells have
+developed around the small circulation, but there is not much
+organization to the thunderstorm activity.  Besides, the clouds tops
+are already being sheared eastward by strong upper-level westerly
+flow.  Satellite intensity estimates are gradually decreasing, so
+the initial wind speed has been lowered to 35 kt.  Fiona will be
+moving through a hostile environment consisting of strong westerly
+shear and dry mid-level air during the next day or two.  This
+should result in some additional weakening, and Fiona is forecast
+to become a tropical depression during the next 24 hours, and a
+remnant low in a couple of days.  If the small circulation can
+survive the next 72 hours or so, environmental conditions could be
+conducive for regeneration late in the forecast period.  The GFS and
+UKMET models maintain a weak low over the western Atlantic through
+day 5, while the ECMWF depicts an open trough of low pressure by 72
+hours.  The NHC forecast maintains continuity with the previous
+forecast, and shows dissipation around day 5.
+
+Fiona is moving west-northwestward or 295/14 kt.  A low- to
+mid-level ridge over the central Atlantic should continue steering
+the cyclone west-northwestward during the next couple of days.
+Fiona will be nearing a break in the ridge over the western Atlantic
+by mid-week which should cause a northwestward turn and reduction in
+forward speed.  The new NHC track forecast has been adjusted
+slightly southward and is located between the latest multi-model
+consensus and the previous NHC track prediction.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/1500Z 22.9N  53.3W   35 KT  40 MPH
+ 12H  22/0000Z 23.6N  55.5W   35 KT  40 MPH
+ 24H  22/1200Z 24.3N  58.1W   30 KT  35 MPH
+ 36H  23/0000Z 25.0N  60.3W   30 KT  35 MPH
+ 48H  23/1200Z 25.8N  62.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 72H  24/1200Z 27.7N  65.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  25/1200Z 30.5N  67.0W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  26/1200Z...DISSIPATED
+
+$$
+Forecaster Brown
+
+
+

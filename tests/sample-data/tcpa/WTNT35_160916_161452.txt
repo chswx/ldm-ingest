@@ -1,0 +1,66 @@
+
+379 
+WTNT35 KNHC 161452
+TCPAT5
+
+BULLETIN
+POST-TROPICAL CYCLONE IAN ADVISORY NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 AM AST FRI SEP 16 2016
+
+...IAN ROCKETING NORTHEASTWARD OUT TO SEA AS AN EXTRATROPICAL
+CYCLONE...
+...THIS IS THE LAST ADVISORY...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...48.8N 36.2W
+ABOUT 795 MI...1280 KM ENE OF CAPE RACE NEWFOUNDLAND
+ABOUT 1185 MI...1910 KM SSW OF REYKJAVIK ICELAND
+MAXIMUM SUSTAINED WINDS...65 MPH...100 KM/H
+PRESENT MOVEMENT...NE OR 35 DEGREES AT 53 MPH...85 KM/H
+MINIMUM CENTRAL PRESSURE...988 MB...29.18 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Post-Tropical Cyclone Ian
+was located near latitude 48.8 North, longitude 36.2 West. The
+post-tropical cyclone is moving toward the northeast near 53 mph (85
+km/h), and this motion is expected to continue through tonight, with
+a decrease in forward speed expected on Saturday.
+
+Maximum sustained winds are near 65 mph (100 km/h) with higher
+gusts.  The post-tropical cyclone should gradually weaken over the
+next 36 hours before becoming absorbed by an extratropical low.
+
+Tropical-storm-force winds extend outward up to 240 miles (390 km)
+from the center.
+
+The estimated minimum central pressure is 988 mb (29.18 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+This is the last public advisory issued by the National Hurricane
+Center on this system. Additional information on this system can be
+found in High Seas Forecasts issued by the National Weather Service,
+under AWIPS header NFDHSFAT1, WMO header FZNT01 KWBC, and available
+on the Web at http://www.opc.ncep.noaa.gov/shtml/NFDHSFAT1.shtml.
+
+$$
+Forecaster Blake
+
+
+

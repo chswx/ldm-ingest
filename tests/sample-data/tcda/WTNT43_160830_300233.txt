@@ -1,0 +1,49 @@
+
+123 
+WTNT43 KNHC 300233
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 PM EDT MON AUG 29 2016
+
+The increase in convective organization that occurred earlier today
+has not persisted, and the convection associated with Tropical
+Depression Eight is currently minimal and disorganized.  The
+initial intensity will remain 30 kt, pending the arrival of the next
+Air Force Reserve Hurricane Hunter aircraft near 0900 UTC.
+
+The depression should be in a moderate westerly vertical shear
+environment for the next 24 hours or so, but some modest
+strengthening is possible if convection can persist near the
+center.  After 24 hours, some strengthening is also possible due to
+baroclinic influences as the cyclone begin to interact with a
+frontal zone.  The new intensity forecast is the same as the
+previous forecast, and it is in best overall agreement with the
+LGEM model.  It should be noted that the system could dissipate
+before 72 hours as forecast by the GFS and ECMWF models.
+
+The initial motion is a somewhat uncertain 315/4.  The depression
+should continue a slow northwestward to northward motion toward a
+break in the subtropical ridge for the next 24 hours or so.  After
+that, it should recurve northeastward into the westerlies in
+advance of an approaching baroclinic trough.  The new forecast
+track is an update of the previous track and lies near the center
+of the track guidance envelope.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0300Z 33.8N  74.1W   30 KT  35 MPH
+ 12H  30/1200Z 34.2N  74.6W   30 KT  35 MPH
+ 24H  31/0000Z 34.9N  74.7W   35 KT  40 MPH
+ 36H  31/1200Z 36.0N  73.5W   35 KT  40 MPH
+ 48H  01/0000Z 37.5N  71.0W   40 KT  45 MPH
+ 72H  02/0000Z 41.5N  61.5W   45 KT  50 MPH
+ 96H  03/0000Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

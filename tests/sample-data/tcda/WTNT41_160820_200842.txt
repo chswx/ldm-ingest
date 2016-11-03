@@ -1,0 +1,52 @@
+
+158 
+WTNT41 KNHC 200842
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST SAT AUG 20 2016
+
+Fiona is looking ragged this morning with only a small area of deep
+convection on the northern side of the apparent center of the
+cyclone. Dvorak estimates are a bit lower than earlier, but I've
+elected to keep Fiona a tropical storm for this advisory given the
+earlier ASCAT data, perhaps generously. The cyclone is likely to
+gradually weaken for the next few days with strong shear, upper-
+level convergence, and dry mid-level air in its path. After
+considering the unfavorable environment ahead, the NHC intensity
+forecast is reduced from the previous one, and now shows Fiona as a
+remnant low in 48 hours and dissipating by day 5. This forecast
+could be conservative since the ECMWF and UKMET now open up this
+system into a trough within 3 days.
+
+The initial motion estimate is about the same as before, 295/11,
+mostly based on extrapolation.  A subtropical ridge over the
+central Atlantic should keep Fiona moving west-northwestward for
+the next few days.  The long-range track forecast remains highly
+contingent on Fiona's status as a tropical cyclone, a remnant low,
+or a trough.  A deeper cyclone would likely take a more northern
+turn at the end of the period due to a mid-level trough, while a
+weaker cyclone would probably just continue moving to the
+west-northwest (and not feel the trough).  Since the cyclone is now
+expected to be a more shallow system in a few days, it makes sense
+to be on the western side of the guidance envelope, which requires
+the new NHC track forecast to be shifted leftward beyond day 2.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/0900Z 19.2N  46.7W   35 KT  40 MPH
+ 12H  20/1800Z 20.0N  48.4W   30 KT  35 MPH
+ 24H  21/0600Z 21.1N  50.8W   30 KT  35 MPH
+ 36H  21/1800Z 22.1N  53.4W   30 KT  35 MPH
+ 48H  22/0600Z 23.1N  56.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  23/0600Z 25.0N  61.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  24/0600Z 27.0N  63.5W   20 KT  25 MPH...POST-TROP/REMNT LOW
+120H  25/0600Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

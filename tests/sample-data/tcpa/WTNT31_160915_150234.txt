@@ -1,0 +1,68 @@
+
+537 
+WTNT31 KNHC 150234
+TCPAT1
+
+BULLETIN
+TROPICAL STORM JULIA ADVISORY NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 PM EDT WED SEP 14 2016
+
+...JULIA FORECAST TO MEANDER JUST OFF THE SOUTHEAST UNITED STATES
+COAST...
+
+
+SUMMARY OF 1100 PM EDT...0300 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...32.1N 79.8W
+ABOUT 50 MI...80 KM SSE OF CHARLESTON SOUTH CAROLINA
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...ENE OR 60 DEGREES AT 5 MPH...7 KM/H
+MINIMUM CENTRAL PRESSURE...1009 MB...29.80 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 PM EDT (0300 UTC), the center of Tropical Storm Julia was
+located near latitude 32.1 North, longitude 79.8 West. Julia is
+moving toward the east-northeast near 5 mph (7 km/h), and a slow
+erratic motion is expected over the next couple of days. The
+forecast keeps Julia meandering just off the northern Georgia and
+southern South Carolina coastlines into Friday.
+
+Maximum sustained winds remain near 40 mph (65 km/h) with higher
+gusts. Some slight strengthening is possible on Thursday, but
+gradual weakening should begin thereafter.
+
+Tropical-storm-force winds extend outward up to 115 miles (185 km)
+to the east of the center.
+
+The estimated minimum central pressure is 1009 mb (29.80 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Winds to tropical storm force in a few brief squalls are
+possible along portions of the South Carolina coast tonight and
+Thursday.
+
+RAINFALL: Julia is expected to produce total rain accumulations of
+2 to 4 inches, with local amounts of up to 6 inches along the
+immediate coastline of South Carolina and southeast North Carolina
+through Friday.  This rainfall could lead to flooding and
+flash flooding.
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 AM EDT.
+
+$$
+Forecaster Avila
+
+
+

@@ -1,0 +1,44 @@
+
+899 
+WTNT42 KNHC 020846
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  43
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST FRI SEP 02 2016
+
+Conventional satellite imagery and two earlier microwave images
+show the center of circulation decoupled well to the west of the
+remaining deep convection.  The initial intensity is decreased to
+55 kt for this advisory and is based on a blend of the subjective
+and objective satellite intensity estimates.  Continued weakening is
+expected as the cyclone traverses cooler oceanic sea surface
+temperatures and remains in a strong vertical shear environment.
+Gaston is forecast to degenerate into a remnant low in 36 hours,
+with dissipation in about 48 hours.  The NHC intensity forecast is
+similar to the previous one, and is close to the IVCN intensity
+consensus model.
+
+Because Gaston's low-level circulation has decoupled from the
+mid-level flow due to the persistent strong shear, the cyclone's
+forward speed has decreased while moving eastward, or 080/13 kt.
+This general motion is expected to continue during the next couple
+of days.  At the 36-hour period, Gaston should turn northeastward in
+response to a frontal system approaching from the northwest and
+open up into a trough of low pressure in a couple of days.  The NHC
+track foreast remains near the middle of the tightly clustered model
+guidance and is similar to the previous advisory.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/0900Z 38.5N  34.5W   55 KT  65 MPH
+ 12H  02/1800Z 38.9N  31.8W   50 KT  60 MPH
+ 24H  03/0600Z 39.7N  29.0W   40 KT  45 MPH
+ 36H  03/1800Z 41.3N  26.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 48H  04/0600Z...DISSIPATED
+
+$$
+Forecaster Roberts/Stewart
+
+
+

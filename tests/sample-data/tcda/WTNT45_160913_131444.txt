@@ -1,0 +1,48 @@
+
+845 
+WTNT45 KNHC 131444
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 AM AST TUE SEP 13 2016
+
+Ian remains a sheared tropical storm, with the low-cloud center
+exposed to the south of the main area of deep convection.  The
+current intensity estimate remains 40 kt, since the system has not
+become better organized since the time of the last scatterometer
+pass.  The strong shear over Ian is being produced by an upper-level
+low a couple of hundred miles to the west-northwest.  The global
+models predict this low to open up into a negatively-tilted trough,
+with some slight relaxation of the shear over the storm, in 24-36
+hours.  Therefore slight strengthening is shown by the official
+forecast after 24 hours, in line with the latest model consensus.
+The global model guidance depicts the cyclone to become frontal over
+the north Atlantic by 96 hours, and this is also reflected in the
+official forecast.
+
+The tropical cyclone is moving north-northwestward at a slightly
+faster forward speed, or around 330/11 kt.  Ian is expected to
+continue to move through a weakness in the mid-level subtropical
+ridge over the next day or so.  Then, an approaching trough in the
+westerlies should cause the cyclone to turn north-northeastward and
+accelerate.  The official track forecast is a little faster than
+the previous one, but not as fast as the latest GFS and ECMWF
+model predictions.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  13/1500Z 25.4N  52.3W   40 KT  45 MPH
+ 12H  14/0000Z 27.3N  53.0W   40 KT  45 MPH
+ 24H  14/1200Z 29.9N  53.7W   40 KT  45 MPH
+ 36H  15/0000Z 32.6N  53.8W   45 KT  50 MPH
+ 48H  15/1200Z 35.5N  52.5W   50 KT  60 MPH
+ 72H  16/1200Z 44.0N  42.4W   50 KT  60 MPH
+ 96H  17/1200Z 54.0N  28.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+120H  18/1200Z 62.0N  13.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

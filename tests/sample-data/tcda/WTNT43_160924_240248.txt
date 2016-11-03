@@ -1,0 +1,48 @@
+
+081 
+WTNT43 KNHC 240248
+TCDAT3
+
+TROPICAL DEPRESSION LISA DISCUSSION NUMBER  18
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST FRI SEP 23 2016
+
+Lisa continues to suffer from strong vertical wind shear. There has
+been no deep convection within 120 nm of the center for nearly 12
+hours now, though occasional bursts of convection have been noted a
+little farther than that to the north.  A 2324 ASCAT-B pass showed
+several 35-kt wind vectors between the center and the convection
+farther to the north.  Based on this new information, it is believed
+that Lisa was still a tropical storm at the time of the previous
+advisory and at 0000 UTC.  Given the lack of deep convection since
+that time, the initial intensity has been held at 30 kt. Regardless
+of the maximum winds, the dynamical guidance all suggest that the
+strong shear and dry mid- and upper-level air will continue to
+suppress convection near the center, and Lisa is forecast to be
+declared post-tropical within 12 hours. The remnant circulation
+should last a day or two after that, before dissipating ahead of a
+deep-layer trough approaching from the west.
+
+The depression may finally be beginning to speed up, and the initial
+motion estimate is 315/07.  The low-level remnants of Lisa are
+still forecast to move west-northwestward, with a gradual turn
+toward the north in a day or two while it moves around the periphery
+of the subtropical high centered near the Azores.  The official
+forecast has again been nudged westward, but lies a little to the
+right of the model consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/0300Z 23.2N  37.3W   30 KT  35 MPH
+ 12H  24/1200Z 23.9N  38.7W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  25/0000Z 25.0N  40.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  25/1200Z 26.4N  42.3W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 48H  26/0000Z 28.8N  42.7W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  27/0000Z...DISSIPATED
+
+$$
+Forecaster Beven/Zelinsky
+
+
+

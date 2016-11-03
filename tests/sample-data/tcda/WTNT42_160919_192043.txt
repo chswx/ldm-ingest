@@ -1,0 +1,60 @@
+
+747 
+WTNT42 KNHC 192043
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  22
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+ISSUED BY THE NWS WEATHER PREDICTION CENTER COLLEGE PARK MD
+500 PM AST MON SEP 19 2016
+
+Deep convection associated with Karl has increased during the day,
+and the low-level center is now embedded beneath the convective
+canopy.  Dvorak intensity estimates from TAFB and SAB increased to
+T2.5/35 kt and T2.0/30 kt, respectively, but these numbers do not
+yet support an increase in the initial intensity of 35 kt that has
+been carried in the previous few advisories.  SHIPS and UW-CIMSS
+shear analyses indicate that the southwesterly shear over Karl
+remains 10-15 kt.  However, the guidance shows the shear decreasing,
+and the improving structure of Karl suggests that this may be
+already occurring.  In addition, moisture in the middle levels of
+the atmosphere is expected to gradually increase, and SSTs will be
+between 28-30C for the next five days.  All these ingredients
+suggest that strengthening is likely, and the official forecast
+continues to show intensification starting slowly at first and then
+becoming faster after 48 hours.  This forecast is very close to a
+consensus of the SHIPS and LGEM models, and the new official
+forecast is essentially an update of the previous forecast.
+
+The center of Karl jogged northwestward during the day, and the
+long-term motion estimate is now west-northwestward, or 290/10 kt.
+A west-northwestward motion is expected to continue for the next
+couple of days while Karl moves along the southern edge of the
+subtropical ridge.  After that time, Karl is forecast to reach the
+western edge of the ridge and should turn northward and then
+northeastward on days 4 and 5.  There is still some spread among
+the track models when this turn is forecast to occur, and as a
+result there is a lot of uncertainty on how much Karl will affect
+Bermuda toward the end of the forecast period.  Still, the overall
+guidance envelope has not shifted much, and the updated official
+forecast is very close to the previous one.  This forecast is close
+to the various consensus models, but it should be noted that the
+GFS, GFS ensemble mean, and Florida Superensemble all show Karl
+moving farther west before making the northward turn.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/2100Z 19.3N  49.2W   35 KT  40 MPH
+ 12H  20/0600Z 19.8N  51.1W   40 KT  45 MPH
+ 24H  20/1800Z 20.6N  53.6W   40 KT  45 MPH
+ 36H  21/0600Z 21.6N  56.0W   45 KT  50 MPH
+ 48H  21/1800Z 22.9N  58.4W   50 KT  60 MPH
+ 72H  22/1800Z 25.9N  62.6W   60 KT  70 MPH
+ 96H  23/1800Z 29.0N  65.0W   75 KT  85 MPH
+120H  24/1800Z 31.0N  63.0W   85 KT 100 MPH
+
+$$
+Forecaster Berg/Petersen/Chenard
+
+
+

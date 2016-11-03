@@ -1,0 +1,51 @@
+
+686 
+WTNT45 KNHC 052059
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 PM CDT FRI AUG 05 2016
+
+An Air Force Reserve reconnaissance aircraft investigating Earl this
+afternoon found a maximum 850-mb-flight-level wind of 59 kt and a
+peak SFMR wind of 49 kt in the eastern semicircle. Based on these
+data, the initial intensity has been increased to 50 kt. Additional
+aircraft SFMR wind data and recent ASCAT surface wind data also
+indicate that the 34-kt wind radii have increased outward
+considerably in the northern semicircle, which has required a
+northward expansion of the tropical storm warning area along the
+east coast of Mexico.
+
+Earl is moving westward or 275/07 kt. A general westward motion is
+forecast to continue until landfall occurs in about 12 hours or so.
+After that time, a motion toward the west or west-southwest is
+expected as Earl's center interacts with the high terrain of the
+Sierra Madre Oriental mountains. There has not been any significant
+change in the track guidance, so the new official forecast track is
+close to the previous one and the TVCN consensus model.
+
+Little change in intensity is anticipated before landfall occurs
+later tonight. However, the intensity forecasts at 12 and 24 hours
+had to be increased based on Earl's stronger initial intensity. Due
+to the large 34-kt wind radii, it is possible that Earl could still
+be a tropical storm when it is located inland at 24 hours.
+
+The main threat from Earl continues to be heavy rains that could
+cause flash floods and mudslides across a large portion of Central
+America and southeastern Mexico.  The Mexican Weather Service (SMN)
+has relayed several reports of rainfall totals already exceeding 5-7
+inches (125-180 mm) as of 8 am EDT/1200 UTC this morning.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  05/2100Z 18.8N  95.0W   50 KT  60 MPH
+ 12H  06/0600Z 18.8N  96.1W   45 KT  50 MPH...INLAND
+ 24H  06/1800Z 18.8N  96.9W   30 KT  35 MPH...INLAND
+ 36H  07/0600Z...DISSIPATED INLAND
+
+$$
+Forecaster Stewart
+
+
+

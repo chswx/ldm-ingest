@@ -1,0 +1,53 @@
+
+112 
+WTNT42 KNHC 302033
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  33
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST TUE AUG 30 2016
+
+Gaston appears to have strengthened some more.  The hurricane has
+been maintaining a large and well-defined eye with mesovorticies
+within it.  In addition, a ring of deep convection surrounds the eye
+with little evidence of dry slots.  The Dvorak intensity estimates
+have increased from both TAFB and SAB, and they support raising the
+initial wind speed a little more to 95 kt. Gaston is likely to
+maintain this intensity, or perhaps strengthen a little more, in the
+short term while it remains in generally favorable environmental
+conditions.  The global models indicate that westerly shear should
+increase over Gaston on Wednesday, and that should promote a gradual
+weakening trend.  More pronounced weakening is expected when Gaston
+moves over cool waters in a couple of days. The NHC intensity
+forecast is slightly higher than the previous one at 12 h, based on
+the higher initial wind speed, but is otherwise largely unchanged.
+
+The initial motion is now 065/9 kt.  A faster east-northeastward
+motion is expected during the next couple of days as the cyclone
+becomes more embedded in the mid-latitude westerlies.  A slower
+forward speed is forecast beyond a few days when a large
+extratropical low nears Gaston and eventually absorbs it in about
+5 days. The NHC track forecast is a little slower than the previous
+one, and brings a weaker Gaston near the Azores Islands in about
+3 days. Interests in that area should monitor the progress of this
+system.
+
+The wind radii were modified based on ASCAT and AMSU data from
+earlier today.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/2100Z 32.6N  51.9W   95 KT 110 MPH
+ 12H  31/0600Z 33.4N  50.5W   95 KT 110 MPH
+ 24H  31/1800Z 34.9N  47.6W   90 KT 105 MPH
+ 36H  01/0600Z 36.6N  43.7W   85 KT 100 MPH
+ 48H  01/1800Z 37.9N  39.3W   80 KT  90 MPH
+ 72H  02/1800Z 38.8N  31.5W   60 KT  70 MPH
+ 96H  03/1800Z 40.0N  26.5W   40 KT  45 MPH
+120H  04/1800Z...DISSIPATED
+
+$$
+Forecaster Cangialosi
+
+
+

@@ -1,0 +1,52 @@
+
+788 
+WTNT43 KNHC 282036
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 PM EDT SUN AUG 28 2016
+
+The low-level center of the depression is now exposed, with the deep
+convection diminishing and displaced to the northwest of the center
+due to about 15 to 20 kt of southeasterly shear.  Data from an Air
+Force Reserve Hurricane Hunter aircraft suggest that the intensity
+remains 30 kt based on the highest believable SFMR winds and peak
+flight-level winds of 32 kt.
+
+Given the current satellite presentation and an environment that is
+only expected to be marginally conducive for intensification, only
+modest strengthening is shown in the official forecast, with the
+depression expected to become a tropical storm in the next day or
+two.  After that time the shear should increase as the system
+accelerates northeastward, and the global models show the cyclone
+being absorbed by a front in about 4 days.  The NHC intensity
+forecast is close to the intensity consensus through 48 hours and a
+little below it at 72 hours.
+
+The initial motion estimate is 280/08.  While the synoptic reasoning
+has not changed, the sheared state of the cyclone could lead to some
+erratic motion if it remains a shallow system. Assuming deep
+convection returns, the cyclone is expected to gradually recurve
+during the next 48 to 72 hours, with a slow northwestward motion
+expected in 24 to 48 hours, bringing the center just offshore of the
+Outer Banks of North Carolina.  Given the uncertainty in the
+intensity forecast and the timing of the approach to the coast, a
+tropical storm watch is not being issued at this time, but one may
+be required later tonight.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/2100Z 31.8N  70.9W   30 KT  35 MPH
+ 12H  29/0600Z 32.2N  72.5W   30 KT  35 MPH
+ 24H  29/1800Z 33.0N  73.9W   35 KT  40 MPH
+ 36H  30/0600Z 33.7N  74.9W   35 KT  40 MPH
+ 48H  30/1800Z 34.3N  75.4W   35 KT  40 MPH
+ 72H  31/1800Z 36.8N  72.4W   40 KT  45 MPH
+ 96H  01/1800Z...DISSIPATED
+
+$$
+Forecaster Brennan
+
+
+

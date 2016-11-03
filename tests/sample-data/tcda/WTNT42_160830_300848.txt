@@ -1,0 +1,54 @@
+
+715 
+WTNT42 KNHC 300848
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  31
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST TUE AUG 30 2016
+
+Gaston is completing an eyewall replacement cycle and currently
+features a well-defined 35 n mi wide eye.  The convective clouds
+have eroded somewhat west of the eye since the last advisory, and
+the various subjective and objective intensity estimates have also
+decreased.  The initial intensity is thus lowered to 85 kt.
+
+The initial motion is now 055/5.  A mid- to upper-level trough
+currently seen in water vapor images near Atlantic Canada is
+expected to approach Gaston during the next 12 to 24 hours, and that
+should cause the hurricane to become embedded in the mid-latitude
+westerlies.  As a result, Gaston should accelerate generally
+east-northeastward through 72 hours.  At 96 hours, a building ridge
+southwest of Gaston may cause a more easterly motion as the cyclone
+approaches the Azores Islands.  This should be followed by a
+northeastward turn by 120 hours as a second mid-latitude trough
+approaches the tropical cyclone.  The track guidance generally
+agrees with this scenario, although the model spread increases
+after 72 hours.  The new forecast track is changed little from the
+previous track and lies near the center of the guidance envelope.
+
+The intensity guidance suggests that little change in strength is
+likely for the next 36-48 hours as Gaston moves over relatively
+warm water in a light or moderate westerly shear environment.
+After that time, increasing shear and decreasing sea surface
+temperatures should cause a steady decay.  The new intensity
+forecast is an update of the previous forecast in best agreement
+with the SHIPS and LGEM models.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0900Z 32.0N  54.0W   85 KT 100 MPH
+ 12H  30/1800Z 32.4N  52.7W   85 KT 100 MPH
+ 24H  31/0600Z 33.4N  50.6W   85 KT 100 MPH
+ 36H  31/1800Z 35.0N  47.7W   85 KT 100 MPH
+ 48H  01/0600Z 36.8N  43.5W   85 KT 100 MPH
+ 72H  02/0600Z 39.5N  34.0W   70 KT  80 MPH
+ 96H  03/0600Z 39.5N  28.5W   50 KT  60 MPH
+120H  04/0600Z 42.5N  23.5W   35 KT  40 MPH
+
+$$
+Forecaster Beven
+
+
+

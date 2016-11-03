@@ -1,0 +1,56 @@
+
+243 
+WTNT41 KNHC 180850
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  18
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 AM EDT SUN SEP 18 2016
+
+Surprisingly, Julia is attempting a comeback. Thunderstorm activity
+has fired near and southeast of the center, with the cyclone looking
+considerably better organized than any time in the last day or so.
+The initial wind speed is kept at 25 kt in line with the TAFB
+satellite classification.
+
+The future of Julia looks less clear than it did yesterday.  While
+there is currently strong shear affecting the cyclone, this shear
+is forecast to relax in about 24 hours as a mid- to upper-level
+trough moves over the southeastern United States.  Considering the
+current appearance of Julia and the more favorable environment
+ahead of it, Julia is no longer forecast to become a remnant low.
+Instead, a more likely scenario is that Julia holds its own or
+strengthens some while it moves slowly northward near the Gulf
+Stream. It is best to be conservative with the intensity forecast at
+this stage, since this overnight convective trend could be
+misleading. Nonetheless, the intensity forecast is raised from the
+previous one, on the low side of the guidance near the LGEM model.
+
+Julia has started moving north-northwestward overnight at about 4
+kt. A slow motion toward the north is expected for the next couple
+of days while the cyclone moves between a weak west Atlantic
+subtropical ridge and the southeastern United States trough.  The
+model guidance has shifted northward near the North Carolina
+coast, although the GFDL and ECMWF remain offshore.  Given the
+uncertainty and continuity constraints, it would be preferable to
+wait another model cycle before making a larger northward change,
+and hence the current forecast is on the southern side of the
+guidance envelope. It would not be surprising if further northward
+changes have to be made later today.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/0900Z 31.3N  76.7W   25 KT  30 MPH
+ 12H  18/1800Z 31.8N  77.0W   25 KT  30 MPH
+ 24H  19/0600Z 32.4N  77.1W   25 KT  30 MPH
+ 36H  19/1800Z 33.3N  76.9W   30 KT  35 MPH
+ 48H  20/0600Z 33.7N  77.0W   30 KT  35 MPH
+ 72H  21/0600Z 33.5N  77.5W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  22/0600Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

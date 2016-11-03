@@ -1,0 +1,62 @@
+
+840 
+WTNT44 KNHC 282055
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 PM EDT SUN AUG 28 2016
+
+Data from a NOAA Hurricane Hunter aircraft indicate that the area of
+low pressure located in the Florida Straits now has a well-defined
+center.  Satellite imagery shows a significant increase in the
+convective organization today, and as a result the system is now
+classified as a tropical cyclone.  The initial intensity is set to
+30 kt based on the highest believable wind data from the aircraft,
+which reported a central pressure of 1009 mb.
+
+The depression will be moving through a marginal environment for
+intensification during the next day or so, with vertical shear of
+15 to 20 kt.  As a result only slow strengthening is expected in
+the short term.  Later on, the environment may improve a little as
+the shear is forecast to decrease somewhat and become
+southwesterly, which should allow for a little more strengthening.
+However, there are mixed signals in the model guidance, with the
+ECMWF now showing the cyclone dissipating in the Gulf, while the
+GFS delays development until 4-5 days.  Much of the tropical
+cyclone guidance is more aggressive.  Given this uncertainty, the
+NHC intensity forecast is quite conservative and shows the system
+peaking at 45 kt, below all the explicit intensity guidance in
+consideration of the negative signal from the ECMWF.  Needless to
+say, the confidence in the intensity forecast is even lower than
+usual for this system.
+
+The initial motion estimate is an uncertain 270/09 given the recent
+formation of the center.  The cyclone will be steered in the short
+range by a mid-level ridge centered over the southeastern United
+States.  This ridge will weaken in 2-3 days, which will cause the
+cyclone to slow down and turn northward during this time.  Late in
+the period a northeastward acceleration is expected ahead of an
+approaching mid-latitude trough.  There is reasonable agreement in
+the track of the cyclone in the global model guidance, although
+there is a fair bit of along-track spread late in the period.  The
+NHC forecast is close to a consensus of the GFS and ECMWF through
+day 4 and is a little faster than the GFS and GEFS ensemble mean at
+day 5.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/2100Z 23.7N  81.7W   30 KT  35 MPH
+ 12H  29/0600Z 23.9N  83.6W   30 KT  35 MPH
+ 24H  29/1800Z 24.3N  85.4W   35 KT  40 MPH
+ 36H  30/0600Z 24.6N  86.8W   35 KT  40 MPH
+ 48H  30/1800Z 25.1N  87.6W   40 KT  45 MPH
+ 72H  31/1800Z 26.8N  87.4W   45 KT  50 MPH
+ 96H  01/1800Z 29.0N  84.5W   45 KT  50 MPH
+120H  02/1800Z 31.0N  80.0W   45 KT  50 MPH
+
+$$
+Forecaster Brennan
+
+
+

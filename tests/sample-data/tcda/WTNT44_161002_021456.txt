@@ -1,0 +1,61 @@
+
+837 
+WTNT44 KNHC 021456
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER  18
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+1100 AM EDT SUN OCT 02 2016
+
+The eye of Matthew has become obscured on visible satellite images,
+which is often an indication of weakening.  Microwave images showed
+a distinct dry slot over the southwestern and western portions of
+the circulation.  Also there has been a persistent, but
+inexplicable, cluster of deep convection located a couple of degrees
+to the east of the hurricane and the effect of this feature on
+Matthew's intensity evolution is unknown.  An Air Force Hurricane
+Hunter aircraft investigated the northeastern eyewall, the strongest
+part of the circulation, and found that the winds had decreased
+somewhat from earlier this morning.  The intensity is set to 120 kt
+for this advisory.  The vertical shear is not forecast to become
+much stronger while Matthew is in the Caribbean, so the hurricane
+should remain near category 4 status for the next 36-48 hours.  Once
+Matthew moves into the Atlantic, some increase in shear along with
+a decrease in oceanic heat content should result in a little
+weakening.  However, there is significant uncertainty in the 3-5 day
+forecast intensities.
+
+After a northwestward motion, the center has meandered westward
+over the past few hours.  Matthew is expected to turn northward and
+move between a mid-level ridge to the east and a weak trough over
+the Gulf of Mexico for the next few days.  Later in the forecast
+period, the global models show a slight building of a ridge to the
+northeast of Matthew which would induce a turn toward the left in
+3-5 days.  The timing and magnitude of this turn is still uncertain
+however.  Looking at the better-performing models, the track
+guidance suite is bracketed by the GFS model on the left and the
+HWRF model on the right.  The official forecast is slightly west of
+the multi-model consensus and very similar to the previous NHC
+track.
+
+It is important to remind users that average NHC track forecast
+errors are around 175 miles at day 4 and 230 miles at day 5.
+Therefore, it is too soon to rule out possible hurricane impacts
+from Matthew in Florida.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/1500Z 14.0N  74.6W  120 KT 140 MPH
+ 12H  03/0000Z 14.9N  74.8W  120 KT 140 MPH
+ 24H  03/1200Z 16.1N  75.0W  115 KT 130 MPH
+ 36H  04/0000Z 17.7N  74.7W  115 KT 130 MPH
+ 48H  04/1200Z 19.5N  74.5W  110 KT 125 MPH
+ 72H  05/1200Z 23.2N  75.0W  100 KT 115 MPH
+ 96H  06/1200Z 26.5N  76.0W   95 KT 110 MPH
+120H  07/1200Z 29.5N  76.5W   90 KT 105 MPH
+
+$$
+Forecaster Pasch
+
+
+

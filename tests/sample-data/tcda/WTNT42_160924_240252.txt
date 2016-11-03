@@ -1,0 +1,59 @@
+
+261 
+WTNT42 KNHC 240252
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  39
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST FRI SEP 23 2016
+
+A few hours ago, a NOAA Hurricane Hunter aircraft reported
+flight-level winds of 71 kt at 7800 ft about 30 n mi to the
+southwest of the center, along with SFMR surface wind estimates of
+near 55 kt.  The minimum central pressure at the time was near 990
+mb.  Since then, the cyclone has gotten better organized, with
+radar data from Bermuda showing a strong convective band west and
+northwest of the center.  One caveat to the increased organization
+is that the center apparent in both radar and microwave imagery may
+be a little to the northwest of the surface center.  Based on the
+earlier aircraft data, the initial intensity is set to 55 kt, and
+this could be a little conservative.
+
+Karl is expected to remain over sea surface temperatures of between
+29-30C for the next 12-24 hours or so in an environment of moderate
+vertical wind shear.  This should allow the cyclone to strengthen
+to a hurricane in about 24 hours. After that, the cyclone should
+undergo extratropical transition as it merges with the cold front,
+and this should be complete by 48 hours.  The cyclone is likely to
+be absorbed by a larger extratropical low between 48-72 hours.  The
+new intensity forecast is similar to the previous forecast, but it
+lies a little below the forecasts of the SHIPS and LGEM models.
+
+The initial motion is 020/11.  Karl is about to enter strong
+southwesterly flow in advance of a deep-layer trough and associated
+surface cold front moving eastward from the northeastern United
+States.  This should result in a turn toward the northeast during
+the next several hours and an increase in forward speed.  The new
+track forecast has changed little from the previous forecast, and
+calls for Karl to make its closest approach to Bermuda during the
+next 12 hours and then move rapidly away from the island.  Overall,
+the forecast track is near the center of the tightly clustered
+guidance.
+
+The wind radii have been revised based on a recent scatterometer
+overpass and input from the Ocean Prediction Center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/0300Z 30.8N  65.1W   55 KT  65 MPH
+ 12H  24/1200Z 32.5N  63.0W   60 KT  70 MPH
+ 24H  25/0000Z 35.5N  57.8W   70 KT  80 MPH
+ 36H  25/1200Z 39.5N  49.9W   70 KT  80 MPH
+ 48H  26/0000Z 45.0N  40.0W   65 KT  75 MPH...POST-TROP/EXTRATROP
+ 72H  27/0000Z...ABSORBED BY LARGER EXTRATROPICAL LOW
+
+$$
+Forecaster Beven
+
+
+

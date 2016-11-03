@@ -1,0 +1,60 @@
+
+347 
+WTNT42 KNHC 200242
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  23
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST MON SEP 19 2016
+
+Karl is a little better organized tonight.  An area of deep
+convection has been persisting during the past several hours, and
+microwave images indicate that the center is located near the
+southwestern edge of the convective area.  The initial wind speed
+is nudged upward to 40 kt, following a blend of the latest Dvorak
+classifications from TAFB and SAB.
+
+Karl is moving west-northwestward at 11 kt, and it is being steered
+by the flow on the south side of a high pressure system over the
+subtropical Atlantic.  The tropical cyclone is expected to move near
+the southwestern periphery of the high in a couple of days and then
+head toward a pronounced weakness in the ridge over the western
+Atlantic. This change in the steering pattern should result in Karl
+turning northwestward in about 48 hours, with a gradual turn to the
+north and northeast expected in 4 to 5 days.  Although the models
+agree on the overall theme, there is a fair amount of spread in the
+guidance associated with where and when Karl begins to recurve. The
+NHC official track forecast is near the middle of the guidance
+envelope, and is in best agreement with the various consensus aids.
+
+The vertical wind shear that has been affecting Karl for the past
+several days appears to be letting up some, and the SHIPS model
+suggests that shear should be generally light during the next 5
+days. In addition, Karl is currently over SSTs of around 28 deg C,
+and it is expected to move over even warmer waters throughout the
+forecast period.  The one unfavorable parameter for intensification
+is the dry mid-level environment surrounding the tropical storm,
+but some of the guidance suggests that the air mass could moisten
+ahead of the system later this week. Based on these large scale
+conditions, slow strengthening seems likely during the next day or
+so, followed by a faster rate of intensification thereafter.  The
+NHC intensity forecast is higher than the previous one, but is on
+the conservative side of the guidance at the longer range forecast
+points.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/0300Z 19.7N  50.5W   40 KT  45 MPH
+ 12H  20/1200Z 20.4N  52.4W   45 KT  50 MPH
+ 24H  21/0000Z 21.3N  54.9W   45 KT  50 MPH
+ 36H  21/1200Z 22.4N  57.3W   50 KT  60 MPH
+ 48H  22/0000Z 23.9N  59.7W   55 KT  65 MPH
+ 72H  23/0000Z 26.7N  63.5W   70 KT  80 MPH
+ 96H  24/0000Z 29.5N  64.5W   85 KT 100 MPH
+120H  25/0000Z 32.3N  60.3W   95 KT 110 MPH
+
+$$
+Forecaster Cangialosi
+
+
+

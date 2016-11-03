@@ -1,0 +1,63 @@
+
+808 
+WTNT42 KNHC 230841
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST TUE AUG 23 2016
+
+Thunderstorm activity has continued to become better organized since
+the previous advisory, especially in the inner-core region. In
+addition, a 0556Z GPM microwave overpass indicated that a
+15-20-nmi-diameter, closed low-level eye feature had developed. The
+initial intensity as been increased to 45 kt based on a consensus
+Dvorak satellite intensity estimate of T3.0/45 kt from TAFB and SAB,
+which is supported by a UW-CIMSS ADT value of T2.9/43 kt.
+
+The initial motion estimate is 290/17 kt. Gaston is expected to
+move west-northwestward for the next 72 hours along the southern
+periphery of a deep-layer ridge located to the north and northeast
+of the cyclone. After that time, a gradual turn toward the
+northwest is forecast as Gaston moves into a break in the
+subtropical ridge. The models are in excellent agreement on this
+track scenario and are closely packed through day 3, with a large
+spread in the model tracks occurring after that time due to
+differences in the timing of when Gaston will make the poleward turn
+through the break in the ridge. The official forecast is similar
+to the previous advisory track, and lies a little to the left of the
+consensus model TVCN.
+
+The aforementioned eye feature, in conjunction with low shear
+conditions, well-defined upper-level anticyclonic outflow, SSTs
+near 28 deg C, and mid-level humidity values near 70 percent,
+generally would support a period of rapid intensification for the
+next 24 hours or so. However, the current forecast follows the trend
+of the previous advisory and shows strengthening at a more typical
+rate of 20 kt/24h for the next 36 hours due to a narrow band of dry
+air that appears to have penetrated into the inner core, which will
+take some time to mix out. After that time, the intensity is
+leveled off due to the cyclone moving through a band of strong
+southwesterly vertical wind shear, which should disrupt both the
+convective and upper-level outflow patterns. The initial intensity
+is near the IVCN intensity consensus model through 24 hours, and
+then a little above that and near the SHIPS model. However, the
+new intensity forecast lies well below the GFS model output, which
+is forecasting Gaston to become a major hurricane around 120 hours.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0900Z 13.2N  32.4W   45 KT  50 MPH
+ 12H  23/1800Z 13.9N  34.8W   55 KT  65 MPH
+ 24H  24/0600Z 15.2N  37.9W   65 KT  75 MPH
+ 36H  24/1800Z 16.8N  40.6W   75 KT  85 MPH
+ 48H  25/0600Z 18.5N  43.0W   80 KT  90 MPH
+ 72H  26/0600Z 22.6N  47.4W   80 KT  90 MPH
+ 96H  27/0600Z 26.5N  51.5W   80 KT  90 MPH
+120H  28/0600Z 29.4N  53.6W   80 KT  90 MPH
+
+$$
+Forecaster Stewart
+
+
+

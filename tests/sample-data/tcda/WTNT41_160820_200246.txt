@@ -1,0 +1,60 @@
+
+707 
+WTNT41 KNHC 200246
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST FRI AUG 19 2016
+
+A 2346 UTC ASCAT-B overpass helped to locate the center, which is
+beneath the cirrus canopy but along the southern edge of the deep
+convection.  The scatterometer pass suggested that the maximum
+winds could be as high as 40 kt, but the highest vectors had
+questionable directions and were on the edge of the pass.
+Therefore, the intensity remains 35 kt, which is supported by
+subjective and objective satellite intensity estimates.
+
+Southwesterly vertical shear has increased to about 20 kt and is
+forecast to go up further during the next 48 hours or so.  Given the
+increasing shear, a relatively dry middle troposphere, and Fiona's
+small size, the cyclone is expected to gradually degrade during the
+next few days.  The intensity and global models either maintain
+Fiona's intensity or show weakening through the forecast period, and
+the ECMWF even opens the system up into a trough by day 3 or 4.
+Given that Fiona will likely struggle to maintain deep convection
+as environmental conditions worsen, the NHC forecast now shows the
+cyclone degenerating into a remnant low by day 3.  Although a
+remnant low is carried through day 5, dissipation is possible before
+the end of the forecast period.
+
+The initial motion remains west-northwestward but a little faster
+at 295/10 kt.  The track models are in good agreement on Fiona
+accelerating a bit along this heading during the next 48 hours, and
+no significant changes to the NHC forecast was required during that
+time.  After 48 hours, however, the track forecast is highly
+contingent on Fiona's status as a tropical cyclone, a remnant low,
+or a trough.  The ECMWF, which dissipates the cyclone, has a track
+well to the south and west of the other models, while the GFS, GFS
+ensemble mean, and Florida State Superensemble still show a
+northward turn by day 5.  Regardless, the entire guidance envelope
+has shifted westward significantly after 48 hours.  The NHC
+official forecast has been moved in that direction, but it still
+lies east of the various consensus models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/0300Z 18.7N  45.5W   35 KT  40 MPH
+ 12H  20/1200Z 19.4N  47.2W   35 KT  40 MPH
+ 24H  21/0000Z 20.5N  49.5W   35 KT  40 MPH
+ 36H  21/1200Z 21.6N  52.0W   30 KT  35 MPH
+ 48H  22/0000Z 22.6N  54.7W   30 KT  35 MPH
+ 72H  23/0000Z 24.6N  59.1W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  24/0000Z 26.5N  62.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  25/0000Z 29.0N  63.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Berg
+
+
+

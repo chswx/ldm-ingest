@@ -1,0 +1,44 @@
+
+011 
+WTNT41 KNHC 180232
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 PM EDT SAT SEP 17 2016
+
+I have two options this evening. The first one, which is very
+attractive, is to classify Julia as a remnant low and terminate
+advisories. The second one is to keep Julia as a tropical depression
+in this advisory given that there was deep convection associated
+with the center only a few hours ago. Although it lacks thunderstorm
+activity, the convection has returned over and over again for the
+past day or so when we think it will not. I will then adopt the
+second option.
+
+Strong upper-level northerly winds are expected to continue
+affecting the circulation, and if the convection returns it will
+quickly be removed from the center. Therefore, Julia is forecast
+once again to become a remnant low soon and gradually decay.
+
+Julia is drifting northwestward at about 3 kt embedded within very
+light steering flow. Most of the global models keep a low meandering
+over water off the southeast U.S. coast, and so does the NHC
+forecast. Some global models actually regenerate the low, but given
+the strong shear, this solution does not seem realistic.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/0300Z 30.6N  76.5W   25 KT  30 MPH
+ 12H  18/1200Z 30.9N  76.8W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  19/0000Z 31.5N  77.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 36H  19/1200Z 32.0N  77.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  20/0000Z 32.5N  77.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  21/0000Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

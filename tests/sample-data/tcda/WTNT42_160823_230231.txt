@@ -1,0 +1,53 @@
+
+977 
+WTNT42 KNHC 230231
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST MON AUG 22 2016
+
+The convective organization of the tropical cyclone has continued
+to increase this evening.  A couple of well-defined curved bands of
+convection now wrap more than halfway around the center and some
+cold cloud tops have recently developed near the center.  As a
+result, subjective Dvorak T-numbers have increased to T2.5 and
+support upgrading the system to a 35-kt tropical storm.  Gaston
+becomes the seventh tropical storm of the 2016 Atlantic hurricane
+season.
+
+Gaston is forecast to move over warm water and remain in a low wind
+shear environment during the next couple of days.  These favorable
+conditions should allow for steady strengthening, and Gaston is
+forecast to become a hurricane in about 36 hours, which agrees with
+the majority of the intensity guidance.  In about 3 days, the
+global models suggest that Gaston will be nearing an upper-level
+low over the central Atlantic that could cause an increase in
+southwesterly shear over the system.  This should halt
+intensification, and the NHC forecast calls for little change in
+strength after 72 hours.
+
+The tropical storm is being steered west-northwestward to the south
+of deep-layer ridge over the eastern Atlantic.  A west-northwestward
+motion with some decrease in forward speed is expected during the
+next day or so.  After that time, a weakness in the subtropical
+ridge over the central Atlantic should cause Gaston to turn
+northwestward.  The track guidance remains in very good agreement,
+and the NHC forecast is close to the various consensus models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0300Z 12.6N  30.7W   35 KT  40 MPH
+ 12H  23/1200Z 13.0N  33.1W   45 KT  50 MPH
+ 24H  24/0000Z 14.0N  36.0W   55 KT  65 MPH
+ 36H  24/1200Z 15.3N  38.6W   65 KT  75 MPH
+ 48H  25/0000Z 17.1N  41.1W   75 KT  85 MPH
+ 72H  26/0000Z 21.0N  46.0W   80 KT  90 MPH
+ 96H  27/0000Z 25.0N  50.5W   75 KT  85 MPH
+120H  28/0000Z 28.0N  53.5W   75 KT  85 MPH
+
+$$
+Forecaster Brown
+
+
+

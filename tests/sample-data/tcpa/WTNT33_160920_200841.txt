@@ -1,0 +1,56 @@
+
+699 
+WTNT33 KNHC 200841
+TCPAT3
+
+BULLETIN
+TROPICAL DEPRESSION THIRTEEN ADVISORY NUMBER   3
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+500 AM AST TUE SEP 20 2016
+
+...DEPRESSION EXPECTED TO BECOME A TROPICAL STORM TODAY...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...14.4N 29.6W
+ABOUT 390 MI...625 KM WSW OF THE CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...WNW OR 295 DEGREES AT 9 MPH...15 KM/H
+MINIMUM CENTRAL PRESSURE...1007 MB...29.74 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Depression Thirteen
+was located near latitude 14.4 North, longitude 29.6 West.  The
+depression is moving toward the west-northwest near 9 mph (15 km/h,
+and a northwestward to west-northwestward motion is expected over
+the next 48 hours.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Some strengthening is forecast during the next 48 hours, and the
+depression is expected to become a tropical storm later today.
+
+The estimated minimum central pressure is 1007 mb (29.74 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Pasch
+
+
+

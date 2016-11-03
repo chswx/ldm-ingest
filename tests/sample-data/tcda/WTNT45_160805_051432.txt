@@ -1,0 +1,46 @@
+
+476 
+WTNT45 KNHC 051432
+TCDAT5
+
+TROPICAL STORM EARL DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 AM CDT FRI AUG 05 2016
+
+Satellite images and surface observations indicate that a large
+portion of the circulation is over the southern Bay of Campeche. It
+appears that the cloud pattern was beaten hard by the terrain,
+but, one can still see a vigorous cyclonic rotation. This was also
+confirmed by this morning's radiosondes from the area.  I prefer
+to keep the initial intensity generously at 35 kt at this time, and
+then adjust it, if necessary, when an Air Force reconnaissance plane
+checks the system later today.  Little change in intensity is
+expected before Earl moves inland again later today or tonight.
+The cyclone is forecast to dissipate on Saturday over the high
+terrain of southern Mexico.
+
+The circulation is moving toward the west or 280 degrees at 9 kt.
+A westward or south-of-due-west track is anticipated until
+landfall and beyond. There has not been a change in the guidance,
+and the NHC forecast is similiar to the previous one.
+
+The main threat from Earl continues to be heavy rains over a
+large portion of Central America and southeastern Mexico, and the
+combination of Earl with a broader-scale low-level cyclonic gyre
+over the area enhances the rainfall potential.  The Mexican Weather
+Service (SMN) relayed to NHC that about 7 inches (180 mm) of rain
+were measured in Chiapas during the last 24 hours.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  05/1500Z 18.6N  94.2W   35 KT  40 MPH
+ 12H  06/0000Z 18.7N  95.4W   35 KT  40 MPH...NEAR THE COAST
+ 24H  06/1200Z 18.5N  97.0W   25 KT  30 MPH...POST-TROP/INLAND
+ 36H  07/0000Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

@@ -1,0 +1,44 @@
+
+524 
+WTNT43 KNHC 241437
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  20
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 AM AST SAT SEP 24 2016
+
+The convective burst that occurred overnight has separated from the
+low-level center of Lisa and is now nearly dissipated.  This leaves
+Lisa as a tight swirl of low-level clouds once again.  An ASCAT-B
+pass around 1200 UTC indicated that maximum winds were close to 40
+kt, but given the degradation of the cloud pattern since the pass
+the initial wind speed is set at 35 kt.  This makes Lisa a tropical
+storm again.  Even though Lisa is a little stronger than estimated
+earlier, the intensity forecast is unchanged from the previous
+one.  Continued strong shear and dry air should cause a gradual
+decay of the cyclone, and Lisa will likely become a remnant low by
+tonight.  The models are in good agreement in showing the remnant
+low opening into a trough in 36 to 48 hours before it becomes
+absorbed by a cold front.
+
+Lisa is moving northwestward at 9 kt.  A west-northwestward to
+northwestward motion at about the same speed is expected during the
+next 24 hours as Lisa remains steered by a high pressure system to
+its north.  A motion more toward the north is forecast to occur on
+Sunday as the high shifts eastward to near the Azores.  Only small
+adjustments were made to the previous NHC track prediction, and it
+lies close to a consensus of the GFS and ECMWF models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/1500Z 24.7N  38.8W   35 KT  40 MPH
+ 12H  25/0000Z 25.7N  40.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  25/1200Z 27.4N  41.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  26/0000Z 29.3N  42.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  26/1200Z...DISSIPATED
+
+$$
+Forecaster Cangialosi
+
+
+

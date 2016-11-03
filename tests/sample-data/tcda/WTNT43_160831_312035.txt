@@ -1,0 +1,49 @@
+
+395 
+WTNT43 KNHC 312035
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 PM EDT WED AUG 31 2016
+
+This depression has been a challenging cyclone.  After the earlier
+apparent improvement in the cloud pattern, recent satellite images
+indicate the system has actually become less organized.  While there
+is a broken band in the eastern semicircle, the depression looks
+elongated, with a less well-defined center.  The initial wind speed
+is reduced to 25 kt on this advisory, which is backed up by ASCAT
+data of 20 to 25 kt.
+
+I'm beginning to think that the long-forecast intensification is not
+going to occur with this depression.  Other than persistence, this
+idea is supported by the higher shear values in the recent SHIPS and
+global model guidance.  While I'm not ready to totally abandon any
+strengthening, the new NHC forecast is reduced 5 to 10 kt from
+the previous one and is below the model consensus.  The cyclone
+should become extratropical within 2 days, and be absorbed within a
+larger frontal zone in 3 days.  An alternative, but realistic,
+scenario, is that the cyclone becomes a remnant low tomorrow due to
+marginal environmental conditions causing a lack of organized deep
+convection.
+
+The cyclone is moving northeastward at about 14 kt. It should
+continue to accelerate to the northeast within the southwesterly
+flow ahead of an amplifying mid-latitude trough.  No significant
+change to the previous forecast was made.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/2100Z 36.3N  71.9W   25 KT  30 MPH
+ 12H  01/0600Z 37.7N  69.3W   30 KT  35 MPH
+ 24H  01/1800Z 39.9N  64.0W   35 KT  40 MPH
+ 36H  02/0600Z 42.0N  57.5W   35 KT  40 MPH...POST-TROPICAL
+ 48H  02/1800Z 44.0N  51.0W   35 KT  40 MPH...POST-TROP/EXTRATROP
+ 72H  03/1800Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

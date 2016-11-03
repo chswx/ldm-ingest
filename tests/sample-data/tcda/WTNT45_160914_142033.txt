@@ -1,0 +1,50 @@
+
+810 
+WTNT45 KNHC 142033
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 PM AST WED SEP 14 2016
+
+Ian does not look much like a tropical storm this afternoon with all
+of its convection well removed from a rather broad and disorganized
+low-level circulation.  In fact, Ian has some subtropical
+characteristics, including its collocation with an upper-level low
+and a large radius of maximum wind.  However, these features could
+be temporary. The initial wind speed remains 45 kt based on
+continuity.
+
+An uncertain estimate of the initial motion is 350/15.  Ian should
+be steered northward and northeastward during the next day or so as
+it moves around the subtropical ridge.  The cyclone is expected to
+accelerate quickly toward the northeast as it gets picked up by a
+mid-latitude trough moving eastward from Atlantic Canada. Similar to
+the previous advisory, a slight westward shift in the official track
+forecast was required mostly due to the updated initial position.
+Otherwise, the forecast is a bit faster than the model consensus.
+
+Ian does not have much time left to intensify as a tropical cyclone
+since it should move over colder waters by tomorrow evening. It does
+have a narrow window of lower shear during the next day, although
+given its current poor organization and structure, no significant
+intensification is forecast during that time.  Ian is then expected
+to lose its tropical characteristics by 36 hours and be absorbed by
+another extratropical low by 72 hours.  The only significant change
+to the intensity forecast is for a stronger extratropical phase, but
+not quite as strong as the 12 UTC GFS solution.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/2100Z 32.9N  53.6W   45 KT  50 MPH
+ 12H  15/0600Z 34.8N  53.0W   50 KT  60 MPH
+ 24H  15/1800Z 38.0N  50.0W   50 KT  60 MPH
+ 36H  16/0600Z 42.7N  44.0W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 48H  16/1800Z 49.0N  35.0W   60 KT  70 MPH...POST-TROP/EXTRATROP
+ 72H  17/1800Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

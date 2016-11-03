@@ -1,0 +1,56 @@
+
+647 
+WTNT43 KNHC 211434
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER   8
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 AM AST WED SEP 21 2016
+
+The cloud pattern of Lisa has not changed much since the previous
+advisory.  A 0911 UTC SSMIS image suggested that the low-level
+center was located on the western edge of the central convection.
+The 12Z Dvorak Data-T numbers from SAB and TAFB decreased and a
+partial ASCAT-B pass from 1115 UTC only showed 30-35 kt winds in the
+northeastern quadrant.  However, the initial intensity is held at 45
+kt given the lack of clear evidence of weakening and in agreement
+with the the latest Dvorak CI numbers of T3.0/45 kt.  There is only
+a small opportunity for the cyclone to strengthen before the shear
+increases even further in 24 to 36 hours.  Weakening is expected
+after that time, and later in the period, as the mid-level
+environment becomes quite dry, the cyclone should weaken to a
+remnant low.  The new NHC intensity forecast is similar to the
+previous one and is near the middle of the guidance in the first 36
+hours and then is near or below the weaker LGEM solution after that
+time.
+
+The initial motion estimate is a somewhat uncertain 320/07, given
+the lack of confidence in the location of the center.  Lisa will
+move northwestward during the next 72 hours into a weakness in the
+subtropical ridge over the eastern Atlantic, and then recurve into
+the mid-latitude westerlies on days 4 and 5.  The global models are
+in generally good agreement on this scenario, with the ECMWF lying
+on the left side of the guidance cluster and the GFS shifting to the
+right this cycle.  The new NHC track forecast is an update of the
+previous one but has been adjusted for the initial position and
+motion.  This forecast is near a blend of the latest GFS and ECMWF
+tracks and is well to the left of the GFDL and HWRF models, which
+lie nearly 200 n mi east of the rest of the guidance at days 3 and
+4.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/1500Z 18.0N  32.5W   45 KT  50 MPH
+ 12H  22/0000Z 18.6N  33.4W   50 KT  60 MPH
+ 24H  22/1200Z 19.7N  34.9W   45 KT  50 MPH
+ 36H  23/0000Z 20.9N  36.5W   45 KT  50 MPH
+ 48H  23/1200Z 22.3N  38.0W   40 KT  45 MPH
+ 72H  24/1200Z 25.0N  41.0W   30 KT  35 MPH
+ 96H  25/1200Z 28.5N  43.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  26/1200Z 34.0N  41.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Brennan
+
+
+

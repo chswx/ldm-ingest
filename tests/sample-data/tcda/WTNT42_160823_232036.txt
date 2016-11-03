@@ -1,0 +1,50 @@
+
+206 
+WTNT42 KNHC 232036
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   5
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST TUE AUG 23 2016
+
+The cloud pattern of Gaston has not changed much during the past
+several hours, although perhaps the convection has become more
+symmetric.  Satellite classifications are about the same as before,
+so the initial wind speed remains 55 kt.  Gaston has about 24-36
+hours to intensify before southwesterly vertical wind shear
+associated with a mid-tropospheric trough is forecast to increase.
+This shear should result in some weakening of the cyclone in the
+2 or 3 day time frame. Thereafter, Gaston moves away from the
+trough, and since the cyclone should be over warm waters near 29C,
+some restrengthing is likely.  Considering the complexity of the
+scenario, the guidance is in relatively good agreement on this
+pattern.  The official forecast follows the trend of the previous
+forecast and the intensity consensus.
+
+The initial motion estimate is 290/16.  Gaston should gradually turn
+northwestward during the next couple of days as it moves around the
+subtropical ridge.  Guidance is in very good agreement on the
+forecast during that time, and little change is made to the
+previous NHC track in the shorter term.  Beyond 3 days, a break in
+the subtropical ridge is forecast, although the models are not in
+great agreement on exactly what longitude Gaston reaches before its
+likely recurvature.  Overall, the model guidance has shifted a bit
+westward, and the latest NHC track forecast is shifted in that
+direction.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/2100Z 14.2N  35.8W   55 KT  65 MPH
+ 12H  24/0600Z 15.2N  38.1W   65 KT  75 MPH
+ 24H  24/1800Z 16.8N  40.7W   75 KT  85 MPH
+ 36H  25/0600Z 18.7N  43.2W   80 KT  90 MPH
+ 48H  25/1800Z 20.8N  45.4W   80 KT  90 MPH
+ 72H  26/1800Z 25.5N  49.6W   70 KT  80 MPH
+ 96H  27/1800Z 28.5N  53.5W   75 KT  85 MPH
+120H  28/1800Z 31.0N  54.5W   85 KT 100 MPH
+
+$$
+Forecaster Blake
+
+
+

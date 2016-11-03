@@ -1,0 +1,43 @@
+
+835 
+WTNT41 KNHC 171449
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+1100 AM EDT SAT SEP 17 2016
+
+Convection has increased somewhat over the eastern quadrant of
+Julia, both in a cluster about 150 n mi east of the center and in
+thin bands closer to the center.  This is just enough to keep the
+cyclone a tropical depression for this advisory.  In the short term,
+the vertical wind shear is not favorable to sustain convection, and
+the cyclone should decay to a remnant low in 12 hours or less.  The
+dynamical models forecast the shear to decrease after 36 hours, but
+it is likely that the remnant low will not be strong enough to take
+advantage of the more favorable environment.  Thus, the intensity
+forecast continues to call for dissipation by 72 hours.
+
+The depression is currently nearly stationary.  A low- to mid-level
+ridge north of Julia should move eastward into the Atlantic during
+the forecast period as a mid- to upper-level trough moves into the
+eastern United States.  The flow between these features should steer
+the cyclone or its remnants slowly northwestward and northward for
+the remainder of the system's life. The new forecast track is
+similar to, but a little east of, the previous forecast.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/1500Z 30.2N  76.2W   25 KT  30 MPH
+ 12H  18/0000Z 30.4N  76.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  18/1200Z 31.0N  77.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  19/0000Z 31.5N  77.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  19/1200Z 32.2N  77.1W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  20/1200Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

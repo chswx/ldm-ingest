@@ -1,0 +1,68 @@
+
+524 
+WTNT82 EGRR 181618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 18.08.2016
+
+        TROPICAL STORM FIONA      ANALYSED POSITION : 16.4N  40.0W
+
+     ATCF IDENTIFIER : AL062016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 18.08.2016    0  16.4N  40.0W     1005            36
+    0000UTC 19.08.2016   12  17.2N  41.2W     1007            35
+    1200UTC 19.08.2016   24  18.0N  42.9W     1008            32
+    0000UTC 20.08.2016   36  18.7N  45.2W     1009            30
+    1200UTC 20.08.2016   48  19.7N  47.4W     1009            31
+    0000UTC 21.08.2016   60  20.8N  49.9W     1011            29
+    1200UTC 21.08.2016   72  22.2N  52.1W     1012            29
+    0000UTC 22.08.2016   84  23.7N  54.4W     1014            26
+    1200UTC 22.08.2016   96  25.2N  56.4W     1013            29
+    0000UTC 23.08.2016  108  26.8N  58.2W     1013            28
+    1200UTC 23.08.2016  120  28.7N  59.3W     1011            36
+    0000UTC 24.08.2016  132  30.4N  60.0W     1010            31
+    1200UTC 24.08.2016  144  32.1N  60.0W     1009            30
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  12 HOURS
+              FORECAST POSITION AT T+ 12 : 17.8N 110.5W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 19.08.2016   12  17.8N 110.5W     1005            19
+    1200UTC 19.08.2016   24  18.8N 111.7W     1006            23
+    0000UTC 20.08.2016   36  19.3N 112.3W     1004            24
+    1200UTC 20.08.2016   48  20.2N 112.7W     1005            30
+    0000UTC 21.08.2016   60  21.0N 113.5W     1004            25
+    1200UTC 21.08.2016   72  21.2N 113.8W     1004            24
+    0000UTC 22.08.2016   84  22.0N 114.4W     1004            23
+    1200UTC 22.08.2016   96  22.5N 115.1W     1005            24
+    0000UTC 23.08.2016  108  23.1N 116.0W     1007            24
+    1200UTC 23.08.2016  120  23.5N 116.7W     1009            20
+    0000UTC 24.08.2016  132  23.7N 116.7W     1011            21
+    1200UTC 24.08.2016  144              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER 102 HOURS
+              FORECAST POSITION AT T+102 : 12.9N  49.6W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 23.08.2016  108  12.9N  51.0W     1010            26
+    1200UTC 23.08.2016  120  12.9N  54.0W     1008            29
+    0000UTC 24.08.2016  132  13.5N  56.7W     1005            33
+    1200UTC 24.08.2016  144  14.2N  59.4W     1001            42
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 181618
+

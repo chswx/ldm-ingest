@@ -1,0 +1,67 @@
+
+512 
+WTNT42 KNHC 242034
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST WED AUG 24 2016
+
+Gaston is being affected by southwesterly vertical shear associated
+with a strong mid- to upper-level trough and cut-off low seen in
+water vapor imagery near 26n 51w.  The shear has caused the
+low-level center to become partially exposed while much of the
+deep convection has been shunted to eastern half of the circulation.
+In spite of the degraded satellite presentation, dropsonde data
+from the unmanned NASA Global Hawk aircraft investigating Gaston
+support keeping the intensity at 60 kt.  In fact, additional
+observations from the ongoing mission might reveal that the system
+is even a little stronger than this estimate.
+
+Gaston is in for a prolonged period of strong southwesterly shear
+for the next 36 to 48 hours, with the shear possibly peaking around
+30 kt during that time.  The considerable shear is expected to
+induce weakening, and it is possible that more weakening could occur
+than indicated in the forecast despite the cyclone's moving over
+warmer waters.  Once Gaston's interaction with the trough lessens in
+about 2 days, the cyclone should reach 29 deg C water when the
+shear diminishes.  This should give Gaston an opportunity to
+re-intensify for at least a couple of days before the models
+indicate an increase in shear at the end of the forecast period.
+The intensity forecast is reduced relative to the previous one and
+is a little below the multi-model consensus through 48 hours, but
+then reverses and is above the consensus aids from 72-120 hours.
+
+Gaston's heading is now definitively northwestward, and the initial
+motion estimate is 315/14.  A continued northwestward motion is
+likely for the next few days as Gaston moves between one cell of the
+subtropical ridge centered over the eastern Atlantic and the cut-off
+low to the northwest.  After 72 hours, Gaston should approach a more
+significant weakness in the Atlantic subtropical ridge around 60w
+and slow while turning north-northwestward to northward.  There are
+substantial model differences again this cycle, with the ECMWF
+indicating a weaker subtropical ridge.  The weaker ridge makes
+Gaston more vulnerable to the mid-latitude westerly flow over
+the North Atlantic, which results in an earlier recurvature.
+However, the bulk of the guidance has a stronger ridge, and thus
+have solutions that go much farther west.  No major changes have
+been made to the previous forecast in the short term but the track
+has been adjusted much farther to the left after 72 hours, in the
+direction of but not as far left as the multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  24/2100Z 17.4N  40.6W   60 KT  70 MPH
+ 12H  25/0600Z 18.8N  42.3W   55 KT  65 MPH
+ 24H  25/1800Z 21.0N  44.5W   45 KT  50 MPH
+ 36H  26/0600Z 23.5N  46.6W   45 KT  50 MPH
+ 48H  26/1800Z 25.7N  49.2W   50 KT  60 MPH
+ 72H  27/1800Z 28.3N  54.6W   65 KT  75 MPH
+ 96H  28/1800Z 30.1N  57.4W   80 KT  90 MPH
+120H  29/1800Z 31.6N  58.2W   85 KT 100 MPH
+
+$$
+Forecaster Kimberlain/Franklin
+
+
+

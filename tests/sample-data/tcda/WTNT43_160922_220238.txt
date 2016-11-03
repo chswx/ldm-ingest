@@ -1,0 +1,56 @@
+
+014 
+WTNT43 KNHC 220238
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 PM AST WED SEP 21 2016
+
+Lisa remains a sheared tropical cyclone.  Deep convection has
+expanded in coverage this evening, but recent microwave imagery and
+ASCAT data indicate that the low-level center is located near
+the far western edge of the sharp gradient of cold cloud tops.  The
+ASCAT pass did not cover much of the northeastern portion of the
+circulation, but it did detected a large area of 35 kt winds to the
+north and north-northeast of the center.  Based on these data and
+satellite estimates of 35 and 45 kt, from SAB and TAFB respectively,
+the initial intensity remains 40 kt.  Lisa is already located
+within an area of strong upper-level southwesterly winds to the
+southeast of a large upper-level low.  During the next day or two
+the tropical storm is forecast to approach the cut-off low, which
+according to the SHIPS model will produce 30-40 kt of shear over
+Lisa.  As a result, the tropical cyclone is expected to weaken
+and become a remnant low in about 3 days, and it could dissipate
+before the end of the foreast period.  The new NHC intensity
+forecast essentially an update of the previous forecast and is in
+best agreement with the SHIPS and LGEM guidance.
+
+The microwave and ASCAT fixes suggest that Lisa is moving
+north-northwestward at about 6 kt, which is a little right of the
+previous forecasts.  The cyclone is expected to move northwestward
+toward a weakness in the subtropical ridge currently between 30
+and 40W.  Later in the period, an amplifying mid- to upper-level
+trough over the western Atlantic should cause Lisa or its remnants
+to turn northward and recurve into the mid-latitude westerlies by
+day 5.  The track guidance is in fairly good agreement, and only
+a small eastward adjustment was required during the first 72 hours.
+The updated track prediction is very close to the latest multi-model
+consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/0300Z 19.2N  32.8W   40 KT  45 MPH
+ 12H  22/1200Z 20.2N  33.8W   40 KT  45 MPH
+ 24H  23/0000Z 21.6N  35.2W   35 KT  40 MPH
+ 36H  23/1200Z 23.0N  36.5W   30 KT  35 MPH
+ 48H  24/0000Z 24.3N  37.8W   30 KT  35 MPH
+ 72H  25/0000Z 26.7N  40.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  26/0000Z 31.0N  41.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  27/0000Z 36.5N  37.5W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Brown
+
+
+

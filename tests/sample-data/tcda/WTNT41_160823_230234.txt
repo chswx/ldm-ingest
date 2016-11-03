@@ -1,0 +1,46 @@
+
+045 
+WTNT41 KNHC 230234
+TCDAT1
+
+TROPICAL DEPRESSION FIONA DISCUSSION NUMBER  25
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+1100 PM AST MON AUG 22 2016
+
+Fiona is a very disorganized tropical cyclone.  The associated deep
+convection has been sputtering and lacking in organization.  The
+current intensity is held at 30 kt in accordance with a Dvorak
+estimate from TAFB.  Strong westerly shear has been affecting the
+tropical cyclone, but this shear is forecast to abate in 12 to 24
+hours as the system moves away from an upper-level trough and into
+a region of upper-level easterlies.  By 48 hours or so, however,
+the shear over the cyclone should be increasing due to another
+trough just off the U.S. east coast.  Given its current state,
+Fiona is not expected to take much advantage from the reduced shear
+and instead will likely degenerate into a remnant low in 48 hours,
+or sooner.  The official intensity forecast is below the consensus
+guidance, and follows the trend shown in the global models.
+
+The center is not easy to locate on night time imagery, but the
+best guess at the initial motion is a slightly slower 290/13 kt.
+Fiona is expected to turn northwestward with some deceleration as it
+heads for a break in the subtropical ridge.  The official track
+forecast is very close to the latest dynamical model consensus,
+TVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0300Z 25.5N  62.3W   30 KT  35 MPH
+ 12H  23/1200Z 25.9N  63.8W   30 KT  35 MPH
+ 24H  24/0000Z 26.7N  65.8W   25 KT  30 MPH
+ 36H  24/1200Z 27.7N  67.6W   25 KT  30 MPH
+ 48H  25/0000Z 28.7N  68.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 72H  26/0000Z 30.0N  70.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 96H  27/0000Z 30.5N  71.0W   25 KT  30 MPH...POST-TROP/REMNT LOW
+120H  28/0000Z...DISSIPATED
+
+$$
+Forecaster Pasch
+
+
+

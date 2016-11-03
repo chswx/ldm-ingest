@@ -1,0 +1,32 @@
+
+313 
+WTNT45 KNHC 061432
+TCDAT5
+
+REMNANTS OF EARL DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 AM CDT SAT AUG 06 2016
+
+The circulation of Earl has become disrupted by the high terrain of
+Mexico, and since the cyclone no longer has a well-defined surface
+circulation, it is declared dissipated.
+
+The remnants, however, should continue to move westward and interact
+with an area of disturbed weather along the Pacific coast of Mexico,
+which could lead to the formation of a tropical cyclone in that area
+in about 2 to 3 days.
+
+This is the last advisory issued by the National Hurricane Center
+on Earl.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/1500Z 19.0N  98.0W   25 KT  30 MPH...REMNANTS
+ 12H  07/0000Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

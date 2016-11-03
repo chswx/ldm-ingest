@@ -1,0 +1,51 @@
+
+797 
+WTNT42 KNHC 161451
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 AM AST FRI SEP 16 2016
+
+Karl remains a sheared tropical cyclone this morning with all
+of its deep convection in the northeastern quadrant due to shear
+related to its interaction with a mid- to upper-level trough.  The
+initial wind speed is kept at 40 kt for this advisory, a compromise
+between lower Dvorak estimates and higher, but noisy, scatterometer
+values.   Vertical shear is expected to decrease in about 36 hours,
+and, despite a somewhat dry environment, warming sea surface
+temperatures should allow for at least gradual strengthening.  The
+intensity models continue to trend higher at the end of the
+forecast period, and the official forecast follows this trend.  This
+forecast is remains close to the SHIPS and LGEM models.
+
+The center of Karl has become a little distorted due to the shear
+and convection, but it still seems to be moving about 280/11.
+Karl is forecast to turn more to the west and south-of-west this
+weekend as the subtropical ridge strengthens to the north of the
+cyclone. However, the current interaction of Karl with the mid- to
+upper-level trough has not been well forecast, and Karl probably
+will not get as far to the south as expected yesterday. In a few
+days, the storm should move to the west-northwest and eventually
+more to northwest around day 5 as it reaches the edge of the ridge.
+The new forecast is close to a blend of the ECMWF and GFS, plus
+their respective ensemble means, ending up a little north of the
+previous NHC prediction at long range.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  16/1500Z 18.4N  34.3W   40 KT  45 MPH
+ 12H  17/0000Z 18.5N  36.2W   40 KT  45 MPH
+ 24H  17/1200Z 18.4N  38.8W   40 KT  45 MPH
+ 36H  18/0000Z 17.9N  41.5W   40 KT  45 MPH
+ 48H  18/1200Z 17.7N  44.0W   45 KT  50 MPH
+ 72H  19/1200Z 18.3N  49.0W   50 KT  60 MPH
+ 96H  20/1200Z 20.0N  54.0W   60 KT  70 MPH
+120H  21/1200Z 22.5N  58.5W   70 KT  80 MPH
+
+$$
+Forecaster Blake
+
+
+

@@ -1,0 +1,55 @@
+
+186 
+WTNT42 KNHC 280857
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  23
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST SUN AUG 28 2016
+
+For much of the night, there was little overall change in the
+organization of Gaston.  A ragged eye had occasionally been seen
+in infrared satellite imagery, and an 0529 UTC AMSR microwave
+overpass detected an eye that was open over the southwestern
+quadrant. However, within the past hour or so, the eye has become a
+little more apparent, with some cooling to the surrounding cloud
+tops. As a result, the initial intensity has been increased to 80
+kt, which is slightly above the latest subjective Dvorak estimates
+because of the recent increase in organization.
+
+Gaston is forecast to remain in a low-shear environment and
+over warm water during the next 24 hours, which should allow for
+additional intensification.  After that time, the NHC forecast shows
+a leveling-off of Gaston's intensity due to the possibility of
+upwelling of cooler water resulting from the expected slow motion
+of the hurricane. Later in the period, increasing in southwesterly
+shear is likely to cause some weakening, but Gaston is predicted to
+remain a hurricane during the entire 5-day forecast period.
+
+The forward motion of the hurricane appears to be slowing down
+as anticipated, with recent satellite fixes indicating an initial
+motion of 325/5 kt.  Gaston should continue to decelerate during
+the next day or so as it remains within an area of weak steering
+flow.  In a 2 to 3 days, a mid-latitude trough is forecast to dig
+southward off the northeastern United States coast, which should
+begin to steer Gaston northeastward, but a a slower speed than that
+of typical recurving hurricanes over the North Atlantic.  The track
+guidance is in good agreement on this scenario, and the NHC track is
+near the consensus of the dynamical models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/0900Z 30.1N  54.6W   80 KT  90 MPH
+ 12H  28/1800Z 30.6N  55.0W   90 KT 105 MPH
+ 24H  29/0600Z 31.0N  55.3W   95 KT 110 MPH
+ 36H  29/1800Z 31.3N  55.2W   90 KT 105 MPH
+ 48H  30/0600Z 31.9N  54.3W   90 KT 105 MPH
+ 72H  31/0600Z 33.3N  51.2W   90 KT 105 MPH
+ 96H  01/0600Z 35.8N  46.2W   80 KT  90 MPH
+120H  02/0600Z 38.5N  39.5W   70 KT  80 MPH
+
+$$
+Forecaster Brown
+
+
+

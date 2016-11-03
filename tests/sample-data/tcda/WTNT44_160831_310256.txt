@@ -1,0 +1,75 @@
+
+903 
+WTNT44 KNHC 310256
+TCDAT4
+
+TROPICAL DEPRESSION NINE DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1000 PM CDT TUE AUG 30 2016
+
+The convective organization of the cyclone has improved markedly
+since this time yesterday, and especially since the previous
+advisory, with a large convective cloud mass having developed around
+the well-defined low-level center. Ship C6FN5 located about 80 nmi
+south of the center at 00Z reported a 35-kt wind, but at an elevated
+height of 43 meters, which adjusts down to a 10-meter wind of 30-31
+kt. The recent NOAA recon flight also confirmed that winds of about
+30 kt existed, so the intensity will remain unchanged at 30 kt for
+this advisory.
+
+Fixes from the NOAA aircraft indicated a west-southwestward motion
+over the previous 6 hours. However, this is believed to be a
+temporary motion that was likely just the result of the center
+redeveloping closer to strongest convection in the southern
+quadrant. Since that time, little motion or just a slight drift
+toward the north-northwest at 2 kt is indicated by satellite
+imagery. The latest 00Z upper-air data showed the depression is now
+located along or just north of the subtropical ridge axis that is
+oriented east-west across the Florida Straits, a steering pattern
+that favors a northward motion during the next 12 hours or so. After
+that time, the NHC model guidance is in excellent agreement on a
+shortwave trough currently over the central U.S. digging
+southeastward to the northeast Gulf coast and lifting out and
+accelerating the cyclone toward the northeast by 36 hours. Due to
+the uncertainty in the short term motion, the new official forecast
+was not shifted as far west as the latest model consensus and
+instead lies very close to the previous advisory track.
+
+Unlike the previous several days, deep convection has finally
+developed north of the low-level center during the past 6 hours,
+and more recent satellite trends suggest that some inner-core
+curved banding features may be developing. The upper-level outflow
+has been improving and expanding in all quadrants now that the
+vertical wind shear has decreased to less than 10 kt and has shifted
+from a northerly to a westerly component. Some additional decrease
+in the shear is forecast to occur for the next 36 to 48 hours while
+the cyclone remains in a modestly moist environment. The NHC
+intensity guidance has increased as a result of the improving
+environmental conditions, so the official intensity forecast has
+also been increased, which now shows the cyclone near hurricane
+strength just prior to landfall at 48 hours. No changes to the
+existing hurricane and tropical storm watches are required at this
+time. However, by Wednesday morning, a tropical storm watch may be
+needed for the coasts of northeast Florida and Georgia.
+
+It is important not to focus on the forecast landfall point of this
+system.  Among other reasons, dangerous storm surge flooding is
+likely along the coast well to the east and south of the path of the
+center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/0300Z 24.3N  87.8W   30 KT  35 MPH
+ 12H  31/1200Z 25.1N  87.7W   40 KT  45 MPH
+ 24H  01/0000Z 26.3N  87.0W   45 KT  50 MPH
+ 36H  01/1200Z 27.8N  85.9W   50 KT  60 MPH
+ 48H  02/0000Z 29.6N  83.9W   60 KT  70 MPH
+ 72H  03/0000Z 33.4N  77.5W   60 KT  70 MPH
+ 96H  04/0000Z 37.1N  70.0W   60 KT  70 MPH
+120H  05/0000Z 39.0N  68.2W   60 KT  70 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Stewart
+
+
+

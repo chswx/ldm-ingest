@@ -1,0 +1,94 @@
+
+249 
+WTNT44 KNHC 040859
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  28
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 AM EDT SUN SEP 04 2016
+
+The overall structure of Hermine has changed little during the past
+6 hours. A ring of shallow convection has developed within 60-100
+n mi northwest through northeast of the center, possibly due to that
+portion of the circulation passing over the Gulf Stream, where water
+temperatures are 29-30C. An earlier ASCAT-B pass indicated that
+winds had decreased to 50-55 kt, and recent data from an Air Force
+Reserve reconnaissance aircraft confirms that Hermine has peak
+winds of 55 kt.
+
+The initial motion estimate is 065/10 kt. Hermine is expected to
+move slowly northward and perhaps erratically during the next 36
+hours as the post-tropical cyclone begins to interact with an
+approaching strong mid-/upper-level shortwave trough that is
+gradually becoming more negatively tilted based on water vapor
+imagery. By 36-48 hours, Hermine is expected to become vertically
+stacked beneath a cut-off low, which could result in the cyclone
+briefly stalling south of southern New England before lifting out to
+the northeast by 72 hours. The models are in fairly good agreement
+on this developing track scenario through about 36 hours, but then
+diverge significantly after that with the UKMET model turning
+Hermine farther west closer to the New Jersey coast while the ECMWF
+lifts out Hermine more quickly. The GFS solution lies between these
+two extremes, and the new forecast track closely follows that model.
+However, there remains low confidence in any particular model.
+
+Little change in strength is likely today. However, by late tonight
+and on Monday, the models indicate that at least 6 deg C of cooling
+in the mid-/upper-levels will occur when Hermine's low-level
+circulation moves underneath the cut-off low. The combination of the
+much cooler air aloft over SSTs of at least 27-28C should generate
+strong instability and some inner-core convection, possibly
+resulting in a Hermine making the transition to a subtropical
+cyclone and strengthening back to hurricane force. The guidance is
+in good agreement that the system should slowly weaken after 48
+hours when the system will be moving over much cooler water north
+of the Gulf Stream. The intensity forecast closely follows a blend
+of the GFS-ECMWF model solutions.
+
+KEY MESSAGES:
+
+1. The slow motion and large wind field associated with Hermine will
+result in a long duration of hazardous conditions along much of the
+mid-Atlantic coast extending into southern New England through the
+holiday weekend and into midweek.
+
+2. Small changes in the meandering track of Hermine could result in
+large differences in the impacts along the mid-Atlantic coast during
+the next several days.  In addition, there could be multiple
+occurrences of tropical storm conditions in some locations within
+the warning area during this time.
+
+3. Although Hermine has become a post-tropical cyclone, NHC will
+continue to issue its full suite of advisory and warning products as
+long as the system remains a significant threat to land areas.
+
+4. P-surge, the model that drives the Potential Storm Surge Flooding
+Graphic, is designed for a wind field typical of a tropical cyclone.
+The wind field of Hermine is very poorly represented by the P-surge
+model and as a result, Flooding Graphics prior to today's 11 am
+EDT advisory understated the inundation risk from the Carolinas
+northward.  The NWS is using the GFS ensemble system instead of
+P-surge for ongoing issuances of the Potential Storm Surge Flooding
+Graphic to provide a more realistic depiction of the threat.
+
+5. The Prototype Storm Surge Watch/Warning Graphic accounts for
+the current wind structure of Hermine, and therefore accurately
+identifies those areas at risk for life-threatening storm surge.
+This graphic will also continue to be produced for Hermine.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  04/0900Z 36.8N  70.8W   55 KT  65 MPH
+ 12H  04/1800Z 37.2N  70.3W   55 KT  65 MPH...POST-TROPICAL
+ 24H  05/0600Z 37.7N  70.6W   60 KT  70 MPH...POST-TROPICAL
+ 36H  05/1800Z 38.0N  71.0W   65 KT  75 MPH...POST-TROPICAL
+ 48H  06/0600Z 38.5N  70.8W   65 KT  75 MPH...POST-TROPICAL
+ 72H  07/0600Z 39.2N  70.0W   60 KT  70 MPH...POST-TROPICAL
+ 96H  08/0600Z 40.3N  68.0W   55 KT  65 MPH...POST-TROPICAL
+120H  09/0600Z 41.5N  63.5W   50 KT  60 MPH...POST-TROPICAL
+
+$$
+Forecaster Stewart
+
+
+

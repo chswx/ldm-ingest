@@ -1,0 +1,58 @@
+
+314 
+WTNT42 KNHC 181454
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  17
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 AM AST SUN SEP 18 2016
+
+The overall appearance of Karl has changed little in satellite
+imagery since the previous advisory.  However, recent water vapor
+imagery suggest that the strong southwesterly shear that has been
+plaguing the cyclone for the past few days is beginning to relax.
+The initial wind speed is held at 35 kt based on a TAFB satellite
+estimate of T2.5/35 kt.  Ship BATFR18, which has been skirting the
+eastern portion of Karl's circulation the past 12 hours, has
+reported winds as high as 32 kt.  That data has been helpful in
+determining the extent of the 34-kt wind radius in the northeastern
+quadrant.
+
+Karl has trended westward and the initial motion estimate is now
+270/11 kt.  A deep-layer subtropical ridge over the central Atlantic
+to the north of Karl is expected to keep the cyclone moving in a
+general westward direction for the next 48 hours or so, followed by
+west-northwestward motion during the remainder of the forecast
+period.  The new NHC track forecast is similar to the previous
+advisory, and lies close to the various consensus model solutions.
+
+Although Karl's convective pattern is currently somewhat disheveled
+due to the hostile shear and dry mid-level conditions that the
+cyclone has been encountering the past several days, the surface
+wind field has remained remarkably robust, including a tight
+inner-core.  The GFS and ECMWF models are forecasting the vertical
+wind shear to decrease to less than 5 kt from 24-120 hours, which
+favors a strengthening trend, especially since Karl will be moving
+29-30C SSTs during that time.  However, only a marginally moist
+mid-level environment is expected, a condition that could slow down
+the intensification process.  The official intensity forecast
+follows the trend of the previous advisory, showing gradual
+strengthening throughout the forecast period, and remains on the
+conservative side close to the intensity consensus model IVCN.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/1500Z 18.0N  43.4W   35 KT  40 MPH
+ 12H  19/0000Z 18.2N  45.5W   35 KT  40 MPH
+ 24H  19/1200Z 18.6N  48.2W   40 KT  45 MPH
+ 36H  20/0000Z 19.3N  50.9W   45 KT  50 MPH
+ 48H  20/1200Z 20.2N  53.3W   50 KT  60 MPH
+ 72H  21/1200Z 22.3N  58.4W   55 KT  65 MPH
+ 96H  22/1200Z 24.7N  63.2W   65 KT  75 MPH
+120H  23/1200Z 27.3N  66.7W   75 KT  85 MPH
+
+$$
+Forecaster Stewart
+
+
+

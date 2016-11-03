@@ -1,0 +1,62 @@
+
+015 
+WTNT41 KNHC 181241
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER   6...CORRECTED
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST THU AUG 18 2016
+
+Corrected track guidance discussion in third paragraph
+
+Deep convection associated with Fiona has increased with the
+approach of the diurnal convective maximum, and the cyclone's cloud
+pattern is better organized than it was yesterday.  Satellite data
+suggest that the low-level center is now located underneath an
+irregularly shaped central dense overcast, while a few broken
+banding features have recently developed over the eastern semicircle
+of the circulation. Satellite classifications are T3.0/45 kt and
+T2.0/30 kt from TAFB and SAB, respectively, while ADT values are
+around T3.0. A blend of these data is used to increase the initial
+wind speed to 40 kt.
+
+Global models indicate that large-scale conditions should be
+adequately conducive to support some additional strengthening during
+the next 12 to 24 hours.  However, after that time, a substantially
+drier atmosphere and increasing southwesterly shear associated with
+the mid-oceanic trough are expected to induce weakening, even though
+sea surface temperatures will be higher.  Although not shown
+explicitly in the forecast, atmospheric conditions could become so
+hostile that Fiona would degenerate into a remnant low later in the
+forecast period as depicted in the ECMWF model. The new NHC
+intensity forecast is slightly higher than the previous one and the
+bulk of the guidance in the short term but is a little lower after
+48 hours.
+
+Fiona has been moving west-northwestward to northwestward into a
+weakness in the mid-level subtropical ridge between 40w and 50w,
+and the initial motion estimate is 300/14.  Fiona should maintain a
+similar heading but at a reduced forward speed once it becomes a
+shallower cyclone in a few days and is steered around the Atlantic
+low-level subtropical ridge.  The NHC track forecast has been
+adjusted to the north of the previous one, mostly after 48 hours and
+largely in response to a significant shift in the latest ECMWF
+solution.  The forecast track lies on the western side of the
+guidance envelope, well to the left of the multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  18/0900Z 16.2N  40.3W   40 KT  45 MPH
+ 12H  18/1800Z 17.0N  41.4W   45 KT  50 MPH
+ 24H  19/0600Z 17.9N  43.0W   50 KT  60 MPH
+ 36H  19/1800Z 18.7N  44.6W   45 KT  50 MPH
+ 48H  20/0600Z 19.8N  46.6W   40 KT  45 MPH
+ 72H  21/0600Z 22.1N  50.1W   35 KT  40 MPH
+ 96H  22/0600Z 23.8N  53.5W   35 KT  40 MPH
+120H  23/0600Z 25.6N  56.1W   35 KT  40 MPH
+
+$$
+Forecaster Kimberlain
+
+
+

@@ -1,0 +1,62 @@
+
+639 
+WTNT44 KNHC 300255
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+1100 PM AST THU SEP 29 2016
+
+Data from a reconnaissance plane indicate that Matthew is
+strengthening. The estimated minimum pressure from a dropsonde
+is 983 mb. The SFMR instrument measured an isolated peak wind of
+77 kt in the northwest quadrant near the center. However, the
+flight-level winds measured in this mission so far only support an
+initial intensity of 70 kt.
+
+The cloud pattern is much better organized than 24 hours ago, and
+a recent SSMIS pass showed an eye feature. This was confirmed by the
+crew onboard the reconnaissance aircraft which reported a circular
+22 n mi eye open to the south.  Images from Curacao radar also show
+the center of the cyclone becoming better defined.  However, since
+some southwesterly wind shear is still affecting the cyclone, only a
+slight strengthening is forecast during the next 12 to 24 hours.
+After that time, the shear is forecast to relax some, and the
+overall environment is expected to be more conducive for
+intensification. The NHC forecast continues to be above the model
+consensus, and is very similar to the forecast issued by my
+predecessor.
+
+Fixes from a reconnaissance plane and radar from Curacao indicate
+that Matthew is moving toward the west or perhaps just south of due
+west at about 12 kt. A strong ridge to the north is forecast to keep
+Matthew moving westward across the southern portion of the Central
+Caribbean for the next 2 days. After that time, Matthew will be
+located on the western side of the high and ahead of a mid-latitude
+trough over the Gulf of Mexico.  This steering pattern should force
+the cyclone to turn toward the north at about 5 to 7 kt.  The NHC
+track forecast is very close to the multi-model consensus, which in
+fact has not changed very much today, and does not deviate much from
+the previous forecast.
+
+Global models, primarily the GFS and the ECMWF, continue to show a
+strong hurricane in the vicinity of Jamaica, Cuba and Haiti in 3 or
+4 days.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0300Z 14.1N  68.8W   70 KT  80 MPH
+ 12H  30/1200Z 14.0N  70.4W   75 KT  85 MPH
+ 24H  01/0000Z 13.9N  72.0W   75 KT  85 MPH
+ 36H  01/1200Z 13.8N  73.0W   80 KT  90 MPH
+ 48H  02/0000Z 14.1N  74.0W   85 KT 100 MPH
+ 72H  03/0000Z 16.4N  75.3W   90 KT 105 MPH
+ 96H  04/0000Z 19.7N  75.6W   90 KT 105 MPH
+120H  05/0000Z 23.5N  75.5W   85 KT 100 MPH
+
+$$
+Forecaster Avila
+
+
+

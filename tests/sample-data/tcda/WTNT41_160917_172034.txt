@@ -1,0 +1,47 @@
+
+642 
+WTNT41 KNHC 172034
+TCDAT1
+
+TROPICAL DEPRESSION JULIA DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 PM EDT SAT SEP 17 2016
+
+Despite ongoing vertical wind shear, Julia continues to produce
+enough convection to avoid decaying to a remnant low.  It appears
+that a small upper-level trough located just northwest of the
+depression is providing a more favorable environment for convection
+than anticipated earlier.  The dynamical models forecast this
+trough to move to the southeast of Julia during the next several
+hours, leaving the cyclone in an area of stronger shear and
+subsidence that should bring an end to the convective activity.
+The only change in the intensity forecast was to add a 72-hour
+point, as the GFS and ECMWF models now forecast Julia to persist as
+a remnant low through that time.
+
+Julia is now drifting northwestward.  A low- to mid-level ridge
+north of Julia should move eastward into the Atlantic during
+the forecast period as a mid- to upper-level trough moves into the
+eastern United States.  The flow between these features should steer
+the cyclone or its remnants slowly northwestward and northward for
+the remainder of the system's life. The new forecast track is
+sifted a little west of the previous forecast based on a slight
+westward shift in the guidance, and it lies near the various
+consensus models.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/2100Z 30.5N  76.3W   25 KT  30 MPH
+ 12H  18/0600Z 30.9N  76.9W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 24H  18/1800Z 31.5N  77.4W   25 KT  30 MPH...POST-TROP/REMNT LOW
+ 36H  19/0600Z 32.2N  77.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 48H  19/1800Z 32.7N  77.6W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 72H  20/1800Z 33.0N  78.0W   20 KT  25 MPH...POST-TROP/REMNT LOW
+ 96H  21/1800Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

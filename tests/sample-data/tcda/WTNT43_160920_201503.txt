@@ -1,0 +1,64 @@
+
+524 
+WTNT43 KNHC 201503 CCA
+TCDAT3
+
+TROPICAL STORM LISA DISCUSSION NUMBER   4...CORRECTED
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL132016
+1100 AM AST TUE SEP 20 2016
+
+CORRECTED LISA TO BE TWELFTH NAMED STORM
+
+The cloud pattern of the cyclone has steadily improved, with long
+curved bands having developed in the northern semicircle since the
+previous advisory. Although Dvorak satellite classifications from
+TAFB and SAB were 30 kt at 1200Z, recent UW-CIMSS ADT values have
+increased to 35 kt and AMSU intensity estimates range from 35-45 kt.
+Therefore the initial intensity has been increased to 35 kt, which
+is a compromise of these estimates, making the cyclone the twelfth
+named storm of the 2016 hurricane season.
+
+Visible satellite imagery indicates that Tropical Storm Lisa is now
+moving northwestward or 305/10 kt. Water vapor imagery and
+satellite-derived winds indicate that a large mid-latitude trough
+extends from near the Canary Islands southwestward into the tropics,
+which has created a break in the subtropical ridge along 30W-40W
+longitude. Lisa is forecast to move generally northwestward toward
+the break in the ridge for the next 4 days, followed by a northward
+turn as the cyclone moves around the western periphery of the ridge
+axis. The latest model guidance remains in good agreement on this
+track scenario, and the new NHC forecast track is just a little to
+the right of the previous advisory track, mainly to account for the
+more northward initial position, and lies close to the consensus
+model TVCN.
+
+Lisa has about 48 hours remaining to strengthen while the vertical
+wind shear and upper-level outflow pattern remain favorable, and
+sea-surface temperatures are above 27 deg C. However, a marginally
+moist mid-level environment and the large size of the cyclone are
+expected to prevent any rapid strengthening from occuring. After
+that time, the atmosphere is expected to become quite hostile,
+characterized by southwesterly shear of 25-30 kt and much drier
+mid-level air, resulting in steady weakening from 72-120 hours.
+Although the dynamical guidance continues to forecast some
+relaxation of the shear toward the end of the period, the cyclone
+will likely be too degraded to recover. The official intensity
+forecast is close to the SHIPS model through 48 hours, and then lies
+closer to the LGEM guidance after that.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  20/1500Z 15.3N  30.4W   35 KT  40 MPH
+ 12H  21/0000Z 16.2N  31.5W   35 KT  40 MPH
+ 24H  21/1200Z 17.3N  33.2W   40 KT  45 MPH
+ 36H  22/0000Z 18.2N  35.0W   45 KT  50 MPH
+ 48H  22/1200Z 19.1N  36.4W   50 KT  60 MPH
+ 72H  23/1200Z 21.7N  39.0W   40 KT  45 MPH
+ 96H  24/1200Z 24.5N  41.4W   30 KT  35 MPH
+120H  25/1200Z 28.3N  43.6W   25 KT  30 MPH...POST-TROP/REMNT LOW
+
+$$
+Forecaster Stewart
+
+
+

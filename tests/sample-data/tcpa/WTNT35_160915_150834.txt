@@ -1,0 +1,63 @@
+
+857 
+WTNT35 KNHC 150834
+TCPAT5
+
+BULLETIN
+TROPICAL STORM IAN ADVISORY NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+500 AM AST THU SEP 15 2016
+
+...IAN ACCELERATING NORTH-NORTHEASTWARD...
+...EXPECTED TO REMAIN A POWERFUL CYCLONE AS IT BECOMES
+POST-TROPICAL...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...35.5N 52.4W
+ABOUT 745 MI...1195 KM ENE OF BERMUDA
+MAXIMUM SUSTAINED WINDS...50 MPH...85 KM/H
+PRESENT MOVEMENT...NNE OR 25 DEGREES AT 20 MPH...31 KM/H
+MINIMUM CENTRAL PRESSURE...998 MB...29.47 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Storm Ian was
+located near latitude 35.5 North, longitude 52.4 West.  Ian is
+moving toward the north-northeast near 20 mph (31 km/h).  A turn
+toward the northeast and an increase in forward speed are expected
+today, followed by a further increase in forward speed tonight and
+Friday.
+
+Maximum sustained winds are near 50 mph (85 km/h) with higher gusts.
+Some strengthening is forecast during the next 48 hours, and Ian is
+expected to remain a powerful cyclone while it loses tropical
+characteristics by Friday.
+
+Tropical-storm-force winds extend outward up to 175 miles (280 km)
+from the center.
+
+The estimated minimum central pressure is 998 mb (29.47 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Brennan
+
+
+

@@ -1,0 +1,49 @@
+
+816 
+WTNT45 KNHC 121443
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 AM AST MON SEP 12 2016
+
+Visible satellite images and a recent ASCAT overpass show
+that the low pressure system over the central Atlantic has now
+acquired a well-defined low-level circulation.  The scatterometer
+data showed tropical-storm-force winds over the northern semicircle
+of the circulation, and the advisory intensity is set to 35 kt.
+Ian is not a well organized storm, with the low-level center
+exposed and displaced about 70 n mi to the southwest of the main
+area of deep convection.  This is due to the effect of about 20 kt
+of vertical shear over the system, and this strong shear is
+predicted to persist for at least the next day or so.  In 36 to 48
+hours, the shear is forecast to relax somewhat, so some slow
+intensification could begin by tomorrow night.  The official
+intensity forecast is a little above the model consensus.  In 120
+hours, or sooner, the system should become embedded within a
+frontal zone over north Atlantic and lose tropical characteristics.
+
+Ian is moving northwestward, with initial motion estimated to be
+about 320/11 kt.  The storm is currently moving through a break in
+the subtropical ridge.  In the next few days, a 500 mb trough
+approaching from the west should cause Ian to turn northward and
+then north-northeastward while accelerating.  The official forecast
+track leans toward the ECMWF solution, but is also not far from the
+latest dynamical model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  12/1500Z 21.8N  50.4W   35 KT  40 MPH
+ 12H  13/0000Z 23.4N  51.2W   35 KT  40 MPH
+ 24H  13/1200Z 25.4N  52.4W   35 KT  40 MPH
+ 36H  14/0000Z 27.3N  53.6W   40 KT  45 MPH
+ 48H  14/1200Z 29.7N  54.8W   45 KT  50 MPH
+ 72H  15/1200Z 34.5N  53.8W   50 KT  60 MPH
+ 96H  16/1200Z 42.5N  45.5W   50 KT  60 MPH
+120H  17/1200Z 53.0N  32.0W   50 KT  60 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

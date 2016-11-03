@@ -1,0 +1,60 @@
+
+993 
+WTNT44 KNHC 010258
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1000 PM CDT WED AUG 31 2016
+
+Data from NOAA and Air Force Reserve Hurricane Hunter aircraft this
+afternoon and evening indicate that Hermine has continued to
+strengthen, based on maximum 850-mb flight-level winds of 57 kt and
+peak SFMR surface winds of 52 kt. A recent dropsonde in the center
+of Hermine measured a pressure of about 998 mb, which is a decrease
+of 6 mb from the previous advisory.
+
+Recon fixes over the past 4 hours indicate that the estimated motion
+is north-northeastward or 025/09 kt. An approaching mid-tropospheric
+trough located over the southeastern United States and extending
+southward into the north-central Gulf of Mexico is expected to
+gradually lift out Hermine to the north-northeast tonight and
+Thursday, and then northeastward after 24 hours. The NHC model is
+in very good agreement on this developing steering flow pattern.
+Later in the forecast period, significant uncertainty in the track
+forecast remains, depending on how much the post-tropical cyclone
+interacts with a mid-latitude cutoff low that develops over the
+northeastern United States. The new NHC forecast track has been
+shifted slightly to the east of the previous advisory track,
+primarily due to the more eastward initial position determined from
+recent recon fixes, and lies just to the left of the consensus model
+TVCN.
+
+The vertical wind shear is forecast by the GFS and the ECMWF models
+to shift from the current west-northwesterly direction to
+southwesterly by 18-24 hours at about 5 to 10 kt. SSTs are expected
+to be near 30C.  The intensity consensus IVCN again brings Hermine
+to hurricane strength prior to landfall and the offical forecast
+follows this guidance, forcing the issuance of a hurricane warning
+with this advisory.  The predicted extratropical transition of the
+system is based on the global model guidance, which show the cyclone
+becoming embedded within a frontal zone over the eastern United
+States by 72 hours.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0300Z 25.8N  87.0W   50 KT  60 MPH
+ 12H  01/1200Z 26.9N  86.4W   55 KT  65 MPH
+ 24H  02/0000Z 28.7N  85.4W   65 KT  75 MPH
+ 36H  02/1200Z 30.7N  83.8W   60 KT  70 MPH...INLAND
+ 48H  03/0000Z 32.8N  81.4W   45 KT  50 MPH...INLAND
+ 72H  04/0000Z 37.0N  76.3W   40 KT  45 MPH...POST-TROP/INLAND
+ 96H  05/0000Z 39.0N  74.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+120H  06/0000Z 39.0N  71.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Stewart
+
+
+

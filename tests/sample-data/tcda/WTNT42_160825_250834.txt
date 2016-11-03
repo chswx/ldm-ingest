@@ -1,0 +1,63 @@
+
+019 
+WTNT42 KNHC 250834
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 AM AST THU AUG 25 2016
+
+For much of yesterday afternoon and evening, the NASA/NOAA Global
+Hawk unmanned aircraft flew a mission through Gaston.  On the
+aircraft's last pass through the storm, it released a dropsonde at
+0243 UTC that measured a mean boundary layer wind of 80 kt and an
+average wind of 77 kt in the lowest 150 m of the sounding near the
+center of the cyclone.  These numbers both support an intensity of
+65 kt, and consequently Gaston was upgraded to a hurricane.  The
+sonde reported a minimum pressure of 995 mb with a 69-kt surface
+wind, which equates to a central pressure of about 988 mb.
+
+Despite Gaston becoming a hurricane, microwave data indicate that
+the cyclone is tilted due to 20-25 kt of west-southwesterly shear.
+The shear is expected to increase further during the next 12-24
+hours when Gaston moves around the eastern side of an upper-level
+low, and as a result, the hurricane is forecast to weaken back to a
+tropical storm later today.  The shear is then forecast to subside
+in about 48 hours, and with sea surface temperatures expected to
+increase, Gaston is likely to reintensify during the latter part of
+the forecast period.  The updated NHC forecast is higher than the
+previous forecast during the first 48 hours primarily to account for
+the higher initial intensity.  After 48 hours, the official forecast
+is unchanged and closely follows the SHIPS model and the ICON
+intensity consensus.
+
+Gaston continues to move northwestward, or 310 degrees at 15 kt,
+along the southwestern edge of a mid-tropospheric high.  A fairly
+quick northwestward motion should continue for the next 36 hours,
+with a turn toward the west-northwest expected by 48 hours when
+Gaston moves around the north side of the aforementioned mid- to
+upper-level low.  Gaston is then expected to recurve toward the
+north-northeast by day 5 as it moves through a break in the ridge
+and toward the mid-latitude westerlies.  The track models are in
+agreement on this general scenario, although the ECMWF model is a
+little bit slower and to the east of the other models, showing a
+sharper turn by day 5.  The new NHC track forecast is therefore a
+little east of the previous forecast on days 4 and 5 and lies
+closest to the HWRF and the TVCN multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  25/0900Z 19.5N  43.3W   65 KT  75 MPH
+ 12H  25/1800Z 21.1N  44.8W   60 KT  70 MPH
+ 24H  26/0600Z 23.4N  46.9W   55 KT  65 MPH
+ 36H  26/1800Z 25.3N  49.4W   55 KT  65 MPH
+ 48H  27/0600Z 26.7N  52.0W   60 KT  70 MPH
+ 72H  28/0600Z 29.1N  56.0W   70 KT  80 MPH
+ 96H  29/0600Z 31.0N  58.0W   80 KT  90 MPH
+120H  30/0600Z 32.5N  57.5W   85 KT 100 MPH
+
+$$
+Forecaster Berg
+
+
+

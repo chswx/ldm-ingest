@@ -1,0 +1,60 @@
+
+001 
+WTNT41 KNHC 170837
+TCDAT1
+
+TROPICAL DEPRESSION SIX DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST WED AUG 17 2016
+
+The depression's cloud pattern is gradually becoming better
+organized.  It consists of a central mass of deep convection and a
+newly formed band over the northern half of the circulation.  The
+low-level center appears to still be located near the northeastern
+edge of the main convective mass, likely due to some northeasterly
+shear. Satellite classifications are T2.0 from TAFB and SAB, and
+support maintaining the initial intensity estimate of 30 kt.
+
+The northeasterly shear is forecast to decrease while the cyclone
+moves over marginally warm waters during the next 24 to 36 hours.
+These two factors should favor some intensification during this time
+frame.  However, the global models, and the ECMWF in particular,
+show the cyclone moving into a much drier environment after 48 hours
+and encountering strong southwesterly shear in association with a
+mid- to upper-level trough. Thus weakening is forecast to begin by
+day 3 despite the cyclone's trek over warmer waters, and there is
+the possibility that the system could degenerate into a remnant low
+by day 4 or 5 as depicted in the ECMWF.  The new NHC intensity
+forecast is somewhat higher than the previous one and the multi-
+model consensus in the short term but lower later in the forecast
+period and a little below most of the guidance.
+
+The depression has been responding to a weakness in the subtropical
+ridge between 40w and 50w by moving on a northwesterly track, and
+the initial motion estimate is 305/13.  The track guidance remains
+split into two distinct camps, with GFS-based deterministic models
+and GFS ensemble members showing a deeper system moving more
+poleward.  The ECMWF and its ensemble solutions are much farther to
+the south as a result of the model's forecast of a weaker, shallower
+system moving on a more westerly course.  Based on the assumption
+of a weaker system, the NHC track forecast is adjusted toward the
+ECMWF solution, and is well south of the previous one and a little
+to the left of the multi-model consensus.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  17/0900Z 13.2N  35.2W   30 KT  35 MPH
+ 12H  17/1800Z 14.3N  36.8W   40 KT  45 MPH
+ 24H  18/0600Z 15.5N  38.3W   45 KT  50 MPH
+ 36H  18/1800Z 16.8N  39.9W   50 KT  60 MPH
+ 48H  19/0600Z 17.8N  41.4W   50 KT  60 MPH
+ 72H  20/0600Z 19.2N  44.7W   45 KT  50 MPH
+ 96H  21/0600Z 21.6N  48.9W   40 KT  45 MPH
+120H  22/0600Z 23.6N  52.3W   35 KT  40 MPH
+
+$$
+Forecaster Kimberlain
+
+
+

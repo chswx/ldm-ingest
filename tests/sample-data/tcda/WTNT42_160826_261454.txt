@@ -1,0 +1,59 @@
+
+849 
+WTNT42 KNHC 261454
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST FRI AUG 26 2016
+
+Gaston continues to be adversely impacted by about 20 kt of
+southwesterly vertical shear because of a strong upper low to the
+southwest.  The shear is forcing the diminished deep convection to
+be primarily located north of the center.  The TAFB and SAB
+current intensities indicated 55 kt at 12Z, which is supported by a
+1330Z ASCAT-B scatterometer pass which just became available.
+
+As Gaston moves away from the upper-level low, the shear should drop
+fairly dramatically to between 5 and 10 kt by tomorrow.  The shear
+should stay low through about 72 h while the cyclone traverses over
+quite warm waters.  After about three days, Gaston should encounter
+strong mid-latitude upper-level westerlies and a return of hostile
+shear at the same time that SSTs steadily drop.  The official NHC
+forecast is for steady intensification between days one and three,
+with gradual weakening thereafter.  This forecast is based upon the
+IVCN intensity model consensus and is very similar to that from the
+previous advisory.
+
+Gaston's initial position is very well known, due to the center
+being along the edge of the deep convection.  The tropical storm is
+moving toward the north-northwest at a rapid 15-kt clip, as it's
+being steered between the strong upper low and a subtropical ridge
+to its northeast.  Around 72 h, Gaston should slow to a crawl as it
+reaches a weak steering pattern.  But by the end of the forecast
+period, the system should be accelerating northeastward as it enters
+the mid-latitude westerlies.  The track forecast is based upon the
+tightly clustered members of the TVCN track model consensus and is
+just slightly north of the previous advisory due to Gaston's initial
+position being more north than previously anticipated.
+
+The initial 34- and 50-kt wind radii were made slightly larger
+based upon an AMSU satellite pass and the wind radii forecast is
+similar to the RVCN consensus technique.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  26/1500Z 25.2N  48.3W   55 KT  65 MPH
+ 12H  27/0000Z 26.7N  50.1W   55 KT  65 MPH
+ 24H  27/1200Z 27.9N  52.5W   65 KT  75 MPH
+ 36H  28/0000Z 29.0N  54.3W   75 KT  85 MPH
+ 48H  28/1200Z 29.9N  55.5W   85 KT 100 MPH
+ 72H  29/1200Z 31.2N  56.1W   95 KT 110 MPH
+ 96H  30/1200Z 32.5N  54.0W   90 KT 105 MPH
+120H  31/1200Z 34.5N  50.0W   80 KT  90 MPH
+
+$$
+Forecaster Landsea
+
+
+

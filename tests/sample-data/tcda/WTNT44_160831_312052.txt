@@ -1,0 +1,65 @@
+
+091 
+WTNT44 KNHC 312052
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+400 PM CDT WED AUG 31 2016
+
+The system appears better organized on satellite images than it was
+yesterday, with more evidence of convective banding features.
+However, based on the NOAA Hurricane Hunter data the center is
+still situated near the northern edge of the main convective cloud
+mass.  Also, data from the aircraft show a very asymmetric wind
+field with all of the strong winds occurring over the eastern and
+southeastern portions of the circulation.  The advisory intensity
+is set to 40 kt based on SFMR-observed surface winds from the
+Hurricane Hunters.  Hermine should be in an environment of
+moderate west-southwesterly shear until it nears the coast, when
+the dynamical models show increasing shear.  The official intensity
+forecast has been nudged upward a bit, and there is a distinct
+possibility that Hermine could become a hurricane before landfall.
+The predicted extratropical transition of the system is based on
+the latest global model forecasts, which show the cyclone becoming
+embedded within a front over the eastern United States by 72 hours.
+
+The aircraft data show a rather broad area of light winds near the
+center, making the actual center fixes a little uncertain.
+However, the best estimate of initial motion is north-northeastward
+or 030/6 kt.  A developing mid-level trough over the southeastern
+United States should cause Hermine to move north-northeastward at
+increasing forward speed over the next couple of days.  The GFS and
+ECMWF global models have shifted westward from their previous
+predictions, and so has the new official forecast.  This required a
+westward extension of the hurricane watch and tropical storm
+warning along the Florida panhandle.  Later in the forecast period,
+there is significant uncertainty in the track of the system, which
+will depend on how the post-tropical cyclone interacts with a
+mid-tropospheric cutoff low that develops over the northeastern
+United States.  The new official forecast keeps the cyclone closer
+to the east coast from 72-120 hours in deference to the latest GFS
+solution.
+
+It is important not to focus on the forecast landfall point of this
+system.  In addition to the normal uncertainty in track and
+intensity forecasts, dangerous storm surge flooding is likely to
+extend along the Gulf coast well to the east and south of
+the path of the center.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/2100Z 25.5N  87.4W   40 KT  45 MPH
+ 12H  01/0600Z 26.5N  87.3W   45 KT  50 MPH
+ 24H  01/1800Z 28.1N  86.3W   50 KT  60 MPH
+ 36H  02/0600Z 30.0N  85.0W   60 KT  70 MPH
+ 48H  02/1800Z 32.0N  82.9W   50 KT  60 MPH...INLAND
+ 72H  03/1800Z 36.5N  77.5W   50 KT  60 MPH...POST-TROP/EXTRATROP
+ 96H  04/1800Z 39.0N  74.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+120H  05/1800Z 39.5N  72.0W   40 KT  45 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Pasch
+
+
+

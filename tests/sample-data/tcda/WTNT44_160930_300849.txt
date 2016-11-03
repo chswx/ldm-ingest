@@ -1,0 +1,72 @@
+
+236 
+WTNT44 KNHC 300849
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER   9
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 AM AST FRI SEP 30 2016
+
+There are no data currently available from the inner core of
+Matthew, so it is unclear whether the earlier rapid intensification
+is continuing.  A well-defined elliptical eye is seen in data from
+the Curacao radar.  However, the latest satellite imagery shows
+that the central convection is somewhat asymmetric and that an eye
+is yet to form.  Satellite intensity estimates are 90 kt from TAFB
+and 77 kt from SAB.  Based on continuity from the previous advisory
+and no improvement in the satellite signature, the initial intensity
+is held at a possibly conservative 85 kt.  It is notable that the
+rapid intensification has occurred despite an ongoing 20 kt of
+southwesterly vertical wind shear.
+
+The initial motion is 265/12.  There is little change to the track
+forecast philosophy from the previous advisory.  A low- to
+mid-level ridge to the north of Matthew should keep it moving
+westward or south of westward for the next 36 hours with some
+decrease in forward speed.  From 48-120 hours, the ridge is
+forecast to weaken and shift eastward as a mid- to upper-level
+trough moves into the central and eastern Gulf of Mexico.  This
+evolution should cause Matthew to turn northwestward and then
+northward.  There is a significant spread in where the turn will
+occur and how fast Matthew will move afterwards.  The ECMWF and
+UKMET are on the eastern side of the guidance envelope and slower
+than the other models, while the GFS and Canadian models are to the
+left of the center of the guidance envelope and much faster.  The
+various consensus models split these differences in both track and
+speed, and the new forecast track lies close to them.  Overall, the
+new track is a little south of the previous track through 48 hours
+and a little west of the previous track from 72-120 hours.
+
+The intensity forecast is very problematic.  The ongoing shear has
+so far done little to keep Matthew from intensifying.  Despite
+this, the intensity guidance is in unanimous agreement that the
+cyclone should weaken from 12-48 hours, most likely due to shear.
+From 48-96 hours, the shear is expected to diminish, and during that
+time Matthew is expected to intensify until it interacts with land.
+The intensity forecast will smooth through what could be some ups
+and downs in intensity.  First, it assumes that the current
+strengthening will continue for another 12-24 hours, with Matthew
+reaching major hurricane strength.  Then, it keeps the intensity at
+100 kt from 24-48 hours, followed by some intensification as the
+shear lets up.  Weakening due to land interaction is forecast after
+72 hours.  The intensity forecast lies near the upper edge of the
+intensity guidance, but it is less intense than the HWRF model from
+72-120 hours.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/0900Z 14.0N  69.9W   85 KT 100 MPH
+ 12H  30/1800Z 13.8N  71.2W   95 KT 110 MPH
+ 24H  01/0600Z 13.7N  72.5W  100 KT 115 MPH
+ 36H  01/1800Z 13.9N  73.7W  100 KT 115 MPH
+ 48H  02/0600Z 14.5N  74.8W  100 KT 115 MPH
+ 72H  03/0600Z 17.0N  76.0W  105 KT 120 MPH
+ 96H  04/0600Z 20.5N  76.0W   90 KT 105 MPH...INLAND
+120H  05/0600Z 24.5N  76.0W   85 KT 100 MPH...OVER WATER
+
+$$
+Forecaster Beven
+
+
+

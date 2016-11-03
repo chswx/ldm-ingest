@@ -1,0 +1,64 @@
+
+013 
+WTNT42 KNHC 231435
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER   4
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST TUE AUG 23 2016
+
+Gaston continues to intensify.  The cyclone's cloud pattern has been
+gradually transitioning from a curved-band pattern to a central
+dense overcast (CDO).  Within the formative CDO, a ragged eye-type
+feature has occasionally been evident during the last few hours.  A
+satellite classification of T3.5 is used to increase in the initial
+intensity estimate to 55 kt, in agreement with the latest UW-CIMSS
+ADT values.
+
+Only light vertical wind shear is forecast to affect Gaston during
+the next 24 to 36 hours while the cyclone moves over marginally
+warm waters and through a generally moist environment.  These
+factors suggest that further intensification is likely during this
+period of time.  By 48 hours, Gaston should encounter increasing
+southwesterly to westerly flow at upper-levels associated with a
+potent trough over the east-central Atlantic.  In the very least,
+the forecast shear and a drier atmosphere associated with this
+feature should result in an arrested development phase, if not
+weakening.  Late in the forecast period, global models indicate a
+reduction of the shear while Gaston is over warmer waters of 29 deg
+C, which could allow for some re-strengthening.  Through 36 hours,
+the NHC intensity forecast is a bit above the multi-model consensus
+and closest to the FSU Superensemble output and the LGEM. After that
+time, the forecast trends toward the multi-model consensus.
+
+The initial motion estimate is 285/18.  Gaston is being steered
+quickly toward the west-northwest around the western extension of
+a mid-level subtropical ridge extending westward from North Africa.
+The ridge's orientation begins to change as Gaston approaches a
+significant break in the subtropical ridge in the central Atlantic,
+which results in a northwestward heading and a reduction in
+forward speed during the next few days.  A northward turn with an
+even greater decrease in forward speed is expected by 120 hours
+once Gaston enters the weakness over the central Atlantic.  The
+latest NHC track forecast is largely similar to the previous one
+and close to the model consensus aids.
+
+
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/1500Z 13.8N  34.6W   55 KT  65 MPH
+ 12H  24/0000Z 14.6N  36.9W   65 KT  75 MPH
+ 24H  24/1200Z 16.1N  39.9W   75 KT  85 MPH
+ 36H  25/0000Z 17.8N  42.4W   85 KT 100 MPH
+ 48H  25/1200Z 19.8N  44.6W   80 KT  90 MPH
+ 72H  26/1200Z 24.2N  48.9W   75 KT  85 MPH
+ 96H  27/1200Z 27.7N  52.5W   75 KT  85 MPH
+120H  28/1200Z 30.7N  53.5W   80 KT  90 MPH
+
+$$
+Forecaster Kimberlain
+
+
+

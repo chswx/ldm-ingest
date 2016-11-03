@@ -1,0 +1,91 @@
+
+734 
+WTNT44 KNHC 022045
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  22
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+500 PM EDT FRI SEP 02 2016
+
+While the cloud pattern of Hermine has become elongated north and
+east of the center, and the central convective tops have warmed,
+numerous surface observations of 40-kt winds along the South
+Carolina coast support maintaining an initial intensity of 45 kt for
+this advisory.  While the center of Hermine remains over land for
+the next 12 to 18 hours, little change in intensity is expected,
+as the strongest winds should remain over the coastal waters of the
+Carolinas.  After the center moves offshore, intensification is
+expected through a combination of diabatic and baroclinic processes.
+The global models continue to show Hermine interacting with a potent
+upper-level shortwave trough in 2-3 days, and the system is expected
+to restrengthen to near hurricane force in 48 to 72 hours.  As the
+upper-level forcing moves away, slow weakening is expected later in
+the period.  The NHC intensity forecast is above the tropical
+cyclone guidance suite and is based largely on global models.
+
+The initial motion estimate is 055/17, as Hermine is currently
+embedded in deep-layer southwesterly flow ahead of a positively-
+tilted mid-latitude trough.  During the next 36 to 48 hours the
+cyclone should gradually slow down and then turn more poleward as
+the shortwave trough amplifies over the central Appalachians and
+mid-Atlantic states.  This trough interacts with and superimposes
+itself on top of Hermine between 48 and 72 hours.  Not surprisingly,
+there are differences in the details of how the model guidance
+handles the motion of Hermine during this time, with the ECMWF and
+ECMWF ensemble mean along the western side of the guidance by 72
+hours, and the GFS, HWRF, and UKMET farther to the east.  Note that
+the interaction between Hermine and the upper trough could result in
+some looping motions that are not captured by the 12 and 24 hour
+spacing of the official NHC forecast points.  Late in the forecast
+period, a northeastward motion is expected as the upper trough
+slides eastward.  Spread continues in the guidance at those times
+as well, with the HWRF joining the ECMWF on the left side of the
+guidance envelope at those times.  Overall, the new NHC forecast has
+been adjusted a bit to the left and is close to the middle of the
+guidance envelope.  This track is near the GEFS ensemble mean and a
+blend of the GFS and ECMWF.  Needless to say, small changes in the
+eventual track of Hermine could result in large changes in impacts
+along the mid-Atlantic coast.
+
+The NHC forecast shows Hermine as a post-tropical cyclone in 36
+hours, but model fields do not show it undergoing a full
+extratropical transition, as it instead appears to acquire a warm
+seclusion structure with a strong low-level vortex underneath an
+upper-level low.  There is a possibility that the system could
+regain some tropical characteristics in 3-5 days, but this remains
+uncertain.  It is important to remind users that Hermine is expected
+to remain a dangerous cyclone through the forecast period regardless
+of the details of its structure.
+
+Based on the latest forecast, tropical storm warnings have been
+expanded northward along the U.S. mid-Atlantic coast to Sandy Hook,
+New Jersey.
+
+KEY MESSAGE:
+
+1. Hermine is expected to become a post-tropical cyclone while still
+producing hazardous winds and storm surge over land.  NWS policy
+allows NHC to write advisories on and issue tropical storm watches
+and warnings for post-tropical cyclones, when the system continues
+to pose a significant threat to life and property. NHC and the NWS
+Eastern Region have decided that this option will be invoked for
+Hermine.  After Hermine becomes a post-tropical cyclone, NHC will
+continue to issue its full suite of advisory and warning products
+for as long as the system remains a significant threat to land.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/2100Z 33.0N  80.5W   45 KT  50 MPH...INLAND
+ 12H  03/0600Z 34.5N  77.9W   45 KT  50 MPH...INLAND
+ 24H  03/1800Z 36.1N  75.0W   50 KT  60 MPH...OVER WATER
+ 36H  04/0600Z 37.1N  73.1W   55 KT  65 MPH...POST-TROPICAL
+ 48H  04/1800Z 37.8N  72.5W   60 KT  70 MPH...POST-TROPICAL
+ 72H  05/1800Z 38.4N  72.8W   65 KT  75 MPH...POST-TROPICAL
+ 96H  06/1800Z 39.7N  71.0W   60 KT  70 MPH...POST-TROPICAL
+120H  07/1800Z 40.5N  69.5W   50 KT  60 MPH...POST-TROPICAL
+
+$$
+Forecaster Brennan
+
+
+

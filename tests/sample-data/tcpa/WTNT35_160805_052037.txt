@@ -1,0 +1,85 @@
+
+227 
+WTNT35 KNHC 052037
+TCPAT5
+
+BULLETIN
+TROPICAL STORM EARL ADVISORY NUMBER  14
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+400 PM CDT FRI AUG 05 2016
+
+...EARL RESTRENGTHENS OVER THE SOUTHERN BAY OF CAMPECHE...
+...TORRENTIAL RAINS COULD PRODUCE FLASH FLOODS AND MUDSLIDES...
+
+
+SUMMARY OF 400 PM CDT...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...18.8N 95.0W
+ABOUT 55 MI...90 KM NW OF COATZACOALCOS MEXICO
+ABOUT 85 MI...135 KM ESE OF VERACRUZ MEXICO
+MAXIMUM SUSTAINED WINDS...60 MPH...95 KM/H
+PRESENT MOVEMENT...W OR 275 DEGREES AT 8 MPH...13 KM/H
+MINIMUM CENTRAL PRESSURE...1001 MB...29.56 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+The Government of Mexico has issued a Tropical Storm Warning for
+the coast of Mexico from Laguna Verde to Tecolutla.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Warning is in effect for...
+* Puerto Dos Bocas westward to Tecolutla, Mexico.
+
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 400 PM CDT (2100 UTC), the center of Tropical Storm Earl was
+located near latitude 18.8 North, longitude 95.0 West. Earl is
+moving toward the west near 8 mph (13 km/h), and this general
+motion is expected to continue during the next day or so. On the
+forecast track, Earl will move inland into the Mexican state of
+Veracruz later tonight.
+
+Reports from an Air Force Reserve Unit reconnaissance aircraft
+indicate that maximum sustained winds have increased to near 60 mph
+(95 km/h) with higher gusts.  Little change in strength is expected
+before landfall.
+
+Tropical-storm-force winds have expanded and now extend outward up
+to 125 miles (205 km) from the center.
+
+The estimated minimum central pressure is 1001 mb (29.56 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Tropical storm conditions will spread westward across the
+warning area this afternoon and tonight.
+
+RAINFALL:  Earl is expected to produce total rainfall accumulations
+of 8 to 12 inches over portions of the Mexican states of Chiapas,
+Oaxaca, Puebla, Tabasco and Veracruz through Saturday morning with
+possible isolated maximum amounts of 18 inches.  These rains could
+result in life- threatening flash floods and mudslides.  Reports
+from the Meteorological Service of Mexico indicate that at least
+7.63 inches (194 mm) of rainfall has occurred at Yamonho Chiapas and
+5.64 inches (143 mm) has occurred at Boca del Cerro thus far.
+
+
+NEXT ADVISORY
+-------------
+Next intermediate advisory at 700 PM CDT.
+Next complete advisory at 1000 PM CDT.
+
+$$
+Forecaster Stewart
+
+
+

@@ -1,0 +1,58 @@
+
+862 
+WTNT32 KNHC 210833
+TCPAT2
+
+BULLETIN
+TROPICAL DEPRESSION KARL ADVISORY NUMBER  28
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST WED SEP 21 2016
+
+...KARL LOSING THE BATTLE AGAINST THE HOSTILE ENVIRONMENT PREVAILING
+IN THE TROPICAL ATLANTIC...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...20.2N 57.6W
+ABOUT 350 MI...560 KM NE OF THE LEEWARD ISLANDS
+ABOUT 945 MI...1525 KM SSE OF BERMUDA
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...W OR 280 DEGREES AT 14 MPH...22 KM/H
+MINIMUM CENTRAL PRESSURE...1006 MB...29.71 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the center of Tropical Depression Karl was
+located near latitude 20.2 North, longitude 57.6 West. The
+depression is moving toward the west near 14 mph (22 km/h), but a
+west-northwest to northwest motion at a slightly faster forward
+speed is expected through Thursday.
+
+Maximum sustained winds have decreased to near 35 mph (55 km/h)
+with higher gusts. Additional weakening is possible today, but
+some restrengthening is forecast to occur in a day or two.
+
+The estimated minimum central pressure is 1006 mb (29.71 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 AM AST.
+
+$$
+Forecaster Avila
+
+
+

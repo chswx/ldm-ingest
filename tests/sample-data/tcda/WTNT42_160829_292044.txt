@@ -1,0 +1,49 @@
+
+066 
+WTNT42 KNHC 292044
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  29
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST MON AUG 29 2016
+
+Gaston's satellite presentation continues to slowly degrade, with
+the latest microwave data suggesting it could be undergoing an
+eyewall replacement.  The initial wind speed is lowered to 90 kt in
+accordance with the latest satellite estimates.  Little change in
+intensity is expected for the next couple of days while Gaston
+remains over warm waters with light-to-moderate shear, although the
+eyewall cycle adds a wrinkle to the forecast.  In a couple of days,
+a gradual increase in shear, along with a decrease in SSTs, should
+cause a more significant weakening. Intensity guidance is a bit
+lower than 6 hours ago, and the latest NHC intensity forecast
+follows that trend.
+
+Gaston appears to be moving a bit faster, now north-northeastward at
+3 kt. Due to a ridge becoming established to the southeast of the
+cyclone, Gaston should accelerate to the east-northeast over the
+next few days.  The end of the forecast is tricky, with some
+uncertainties over how Gaston interacts with the mid-latitude
+westerlies and the strength of an eastern Atlantic ridge.  While
+the overall guidance suite has shifted somewhat to the north at days
+4 and 5, the ECMWF has been more consistent during the past few
+days and has stayed farther south.  Thus, the new forecast is on
+the southern side of the guidance envelope, to the south of the
+model consensus at long range.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  29/2100Z 31.2N  55.2W   90 KT 105 MPH
+ 12H  30/0600Z 31.6N  54.5W   90 KT 105 MPH
+ 24H  30/1800Z 32.2N  52.8W   85 KT 100 MPH
+ 36H  31/0600Z 33.2N  50.7W   85 KT 100 MPH
+ 48H  31/1800Z 34.6N  48.0W   85 KT 100 MPH
+ 72H  01/1800Z 37.7N  39.6W   75 KT  85 MPH
+ 96H  02/1800Z 38.5N  32.0W   55 KT  65 MPH
+120H  03/1800Z 40.0N  28.0W   40 KT  45 MPH
+
+$$
+Forecaster Blake
+
+
+

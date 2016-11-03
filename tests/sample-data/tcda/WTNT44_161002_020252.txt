@@ -1,0 +1,59 @@
+
+921 
+WTNT44 KNHC 020252
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+1100 PM EDT SAT OCT 01 2016
+
+Recent satellite images suggest that the structure of Matthew has
+changed little, and the winds are still estimated at 130 kt. The
+hurricane should experience some weakening during the next couple of
+days, but Matthew is forecast to remain a powerful hurricane until
+it interacts with the high terrain of Hispaniola and eastern Cuba in
+about 48 hours or so. Once Matthew reaches the Bahamas, the
+upper-level environment and warm waters will favor some
+restrengthening. In the mean time, some short-term fluctuations in
+intensity are possible due to internal dynamics, including eyewall
+replacement cycles, that are not included here. A better estimate
+of the intensity can be obtained when the next Air Force plane
+reaches Matthew at about 1130 UTC Sunday.
+
+A very convenient SSMIS pass at 0006 UTC was helpful in locating the
+eye of Matthew, and after a period of little or no motion, the
+hurricane has apparently begun a north-northwest track at about 6
+kt. The steering pattern has not changed, and the motion of the
+hurricane for the next 2 to 3 days remains controlled by a
+mid-level ridge over the western Atlantic and a developing mid-level
+trough in the southern Gulf of Mexico and the northwestern
+Caribbean Sea. This flow pattern will steer Matthew toward the
+north-northwest and north toward western Haiti, eastern Cuba,
+and Jamaica during the next day or so. This portion of the NHC
+forecast track was shifted eastward following the trend of the
+overall guidance, primarily the multi-model consensus. Beyond 72
+hours, given the large spread of the guidance, the confidence in the
+track is low.
+
+It is important to remind users that average NHC track forecast
+errors are around 175 miles at day 4 and 230 miles at day 5.
+Therefore, it is too soon to rule out possible hurricane impacts
+from Matthew in Florida.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  02/0300Z 13.8N  73.6W  130 KT 150 MPH
+ 12H  02/1200Z 14.2N  73.8W  125 KT 145 MPH
+ 24H  03/0000Z 15.3N  74.4W  120 KT 140 MPH
+ 36H  03/1200Z 16.7N  74.4W  115 KT 130 MPH
+ 48H  04/0000Z 18.3N  74.3W  110 KT 125 MPH
+ 72H  05/0000Z 22.0N  74.5W  100 KT 115 MPH
+ 96H  06/0000Z 25.0N  75.0W  100 KT 115 MPH
+120H  07/0000Z 27.5N  75.5W  100 KT 115 MPH
+
+$$
+Forecaster Avila
+
+
+

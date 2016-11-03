@@ -1,0 +1,57 @@
+
+267 
+WTNT45 KNHC 140252
+TCDAT5
+
+TROPICAL STORM IAN DISCUSSION NUMBER   7
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 PM AST TUE SEP 13 2016
+
+Ian's cloud pattern has changed little in organization since this
+afternoon.  The low-level center remains patrially exposed to the
+south of a fan-shaped mass of deep convection.  This structure is
+consistent with a deep-layer southwesterly vertical shear of nearly
+40 kt associated with a mid- to upper-tropospheric cyclone to the
+west of the cyclone. A 0018Z ASCAT pass showed reliable surface
+winds near 45 kt well north of the center, which agrees with a TAFB
+satellite classifciation of T3.0.  On this basis, the initial
+intensity is increased to 45 kt.
+
+The initial motion estimate has been nudged a little more to the
+right than earlier today and is now 345/11 kt.  Ian should continue
+to move generally northward into a weakness in the subtropical ridge
+over the central Atlantic during the next 24 hours or so.  A
+significant acceleration toward the northeast should occur in about
+36 hours when a shortwave trough moving through Atlantic Canada
+approaches Ian.  The NHC track forecast is adjusted to the right of
+the previous one, especially after 24 hours, and is in agreement
+with the the latest track consensus aids.
+
+The SHIPS output indicates that the shear should decrease,
+beginning in about 12 hours, roughly around the time that Ian
+becomes co-located with the upper low to its west.  The shear is
+forecast to reach a relative minimum 24 hours later while the flow
+aloft gradually becomes more diffluent.  This baroclinic forcing is
+expected to result in some intensification while Ian remains over
+warm waters, though the cyclone could possess attributes of both a
+tropical and an extratropical cyclone. Extratropical transition is
+indicated in 2 to 3 days, with absorption by a larger extratropical
+storm system over the North Atlantic likely around 72 hours.  The
+NHC intensity forecast is about the same as the previous one and
+near the multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  14/0300Z 27.6N  52.8W   45 KT  50 MPH
+ 12H  14/1200Z 29.8N  53.2W   45 KT  50 MPH
+ 24H  15/0000Z 32.3N  53.1W   50 KT  60 MPH
+ 36H  15/1200Z 35.2N  51.3W   55 KT  65 MPH
+ 48H  16/0000Z 39.4N  47.0W   55 KT  65 MPH
+ 72H  17/0000Z 49.7N  33.7W   55 KT  65 MPH...POST-TROP/EXTRATROP
+ 96H  18/0000Z...ABSORBED
+
+$$
+Forecaster Kimberlain
+
+
+

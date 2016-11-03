@@ -1,0 +1,57 @@
+
+617 
+WTNT32 KNHC 222034
+TCPAT2
+
+BULLETIN
+TROPICAL DEPRESSION SEVEN ADVISORY NUMBER   1
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST MON AUG 22 2016
+
+...NEW TROPICAL DEPRESSION FORMS WEST-SOUTHWEST OF THE CABO VERDE
+ISLANDS...
+
+
+SUMMARY OF 500 PM AST...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...12.1N 29.0W
+ABOUT 360 MI...580 KM WSW OF THE SOUTHERNMOST CABO VERDE ISLANDS
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...W OR 275 DEGREES AT 18 MPH...30 KM/H
+MINIMUM CENTRAL PRESSURE...1006 MB...29.71 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM AST (2100 UTC), the center of Tropical Depression Seven
+was located near latitude 12.1 North, longitude 29.0 West.  The
+depression is moving toward the west near 18 mph (30 km/h).  A turn
+toward the west-northwest is expected on Tuesday.
+
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts.
+Strengthening is forecast during the next 48 hours, and the
+depression is forecast to become a tropical storm tonight or on
+Tuesday.
+
+The estimated minimum central pressure is 1006 mb (29.71 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM AST.
+
+$$
+Forecaster Beven/Roberts
+
+
+

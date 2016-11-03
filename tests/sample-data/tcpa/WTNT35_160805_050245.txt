@@ -1,0 +1,87 @@
+
+656 
+WTNT35 KNHC 050245
+TCPAT5
+
+BULLETIN
+TROPICAL STORM EARL ADVISORY NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL052016
+1000 PM CDT THU AUG 04 2016
+
+...EARL MAINTAINING TROPICAL STORM STRENGTH...
+...WARNINGS ISSUED FOR SOUTHERN BAY OF CAMPECHE COAST...
+
+
+SUMMARY OF 1000 PM CDT...0300 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...18.1N 91.7W
+ABOUT 40 MILES...60 KM SSE OF CIUDAD DEL CARMEN MEXICO
+ABOUT 175 MI...285 KM E OF COATZACOALCOS MEXICO
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...WNW OR 285 DEGREES AT 10 MPH...17 KM/H
+MINIMUM CENTRAL PRESSURE...1000 MB...29.53 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+The government of Mexico has issued a Tropical Storm Warning for
+the southern Gulf coast of Mexico from Ciudad del Carmen westward
+to Laguna Verde.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Tropical Storm Warning is in effect for...
+* Ciudad del Carmen westward to Laguna Verde Mexico.
+
+Interests along the southern Bay of Campeche should monitor the
+progress of Earl.
+
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1000 PM CDT (0300 UTC), the center of Tropical Storm Earl was
+located near latitude 18.1 North, longitude 91.7 West.  Earl is
+moving toward the west-northwest near 10 mph (17 km/h) and a
+west-northwestward to westward motion is expected for the next day
+or two.  On the forecast track, the center of Earl will be moving
+near the coast along the extreme southern Bay of Campeche on Friday.
+
+Maximum sustained winds are near 40 mph (65 km/h) with higher gusts.
+Little change in strength is forecast through Friday.  Weakening
+is expected on Saturday.
+
+Tropical-storm-force winds extend outward up to 70 miles (110 km)
+from the center.
+
+The estimated minimum central pressure is 1000 mb (29.53 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Tropical storm conditions will spread westward across the
+warning area on Friday.
+
+RAINFALL:  Earl is expected to produce total rainfall accumulations
+of 8 to 12 inches over portions of Guatemala and the Mexican states
+of Campeche, Chiapas, Quintana, Tabasco and Veracruz into Saturday
+morning.  Isolated maximum amounts of 18 inches are possible in
+northern Guatemala and the central part of the Mexican state of
+Chiapas.  These rains could result in life-threatening flash floods
+and mud slides.
+
+
+NEXT ADVISORY
+-------------
+Next intermediate advisory at 100 AM CDT.
+Next complete advisory at 400 AM CDT.
+
+$$
+Forecaster Pasch
+
+
+

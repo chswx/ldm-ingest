@@ -1,0 +1,61 @@
+
+198 
+WTNT35 KNHC 151442
+TCPAT5
+
+BULLETIN
+TROPICAL STORM IAN ADVISORY NUMBER  13
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL102016
+1100 AM AST THU SEP 15 2016
+
+...IAN ACCELERATING NORTHEASTWARD...
+...EXPECTED TO INTENSIFY AS IT BECOMES POST-TROPICAL...
+
+
+SUMMARY OF 1100 AM AST...1500 UTC...INFORMATION
+-----------------------------------------------
+LOCATION...37.2N 50.5W
+ABOUT 880 MI...1415 KM ENE OF BERMUDA
+ABOUT 1285 MI...2065 KM W OF THE AZORES
+MAXIMUM SUSTAINED WINDS...50 MPH...85 KM/H
+PRESENT MOVEMENT...NE OR 40 DEGREES AT 24 MPH...39 KM/H
+MINIMUM CENTRAL PRESSURE...998 MB...29.47 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 1100 AM AST (1500 UTC), the center of Tropical Storm Ian was
+located near latitude 37.2 North, longitude 50.5 West. Ian is moving
+toward the northeast near 24 mph (39 km/h) and this motion is
+expected to continue with an increase in forward speed during the
+next 24 to 36 hours.
+
+Maximum sustained winds are near 50 mph (85 km/h) with higher gusts.
+Strengthening is forecast during the next 36 hours, and Ian is
+expected to become a storm-force extratropical low on Friday.
+
+Tropical-storm-force winds extend outward up to 175 miles (280 km)
+from the center.
+
+The estimated minimum central pressure is 998 mb (29.47 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 500 PM AST.
+
+$$
+Forecaster Beven
+
+
+

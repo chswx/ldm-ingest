@@ -1,0 +1,54 @@
+
+797 
+WTNT44 KNHC 010855
+TCDAT4
+
+TROPICAL STORM HERMINE DISCUSSION NUMBER  15
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+400 AM CDT THU SEP 01 2016
+
+A NOAA Hurricane Hunter aircraft has been investigating Hermine
+and measured 850-mb flight-level winds of 65 kt, but the SFMR winds
+are a little bit lower. These strong winds measured by the hurricane
+hunter plane are confined to the eastern half of the circulation. On
+this basis, the initial intensity is kept at 50 kt. The lowest
+pressure estimated from the plane was 996 mb. The NHC
+intensity forecast is basically the same as the previous one, and
+brings Hermine to hurricane strength near landfall. This forecast
+continues to be based primarily on the intensity consensus model
+IVCN. Once inland, Hermine should weaken, however, most of the
+global models expand the area of tropical storm force winds on the
+eastern semicircle, and so does the official forecast. By the end of
+the forecast period, most of the global models suggest
+strengthening, but by then Hermine is expected to be an
+extratropical cyclone located offshore the U.S. east coast.
+
+Hermine moved very little during the past couple of hours, but a
+recent fix from the NOAA Hurricane Hunter plane indicates that
+the cyclone has begun to move toward the north-northeast or 020
+degrees at 10 kt. Hermine is already located at the base of a
+mid-latitude trough, and this flow pattern should steer the
+cyclone on a general north to northeast track with a slight
+increase in forward speed. The NHC forecast follows very closely
+the multi-model consensus TVCN, primarily during the first 2 to 3
+days. After that time, the cyclone is forecast to move little
+while it interacts with an upper-level trough as indicated by the
+GFS and the ECMWF global models.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  01/0900Z 26.4N  86.6W   50 KT  60 MPH
+ 12H  01/1800Z 27.8N  85.8W   55 KT  65 MPH
+ 24H  02/0600Z 30.0N  84.2W   65 KT  75 MPH
+ 36H  02/1800Z 32.0N  82.0W   45 KT  50 MPH...INLAND
+ 48H  03/0600Z 34.0N  78.0W   40 KT  45 MPH...INLAND
+ 72H  04/0600Z 36.5N  73.5W   40 KT  45 MPH...POST-TROP/EXTRATROP
+ 96H  05/0600Z 38.0N  72.5W   45 KT  50 MPH...POST-TROP/EXTRATROP
+120H  06/0600Z 38.0N  72.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Avila
+
+
+

@@ -1,0 +1,60 @@
+
+255 
+WTNT44 KNHC 282043
+TCDAT4
+
+TROPICAL STORM MATTHEW DISCUSSION NUMBER   2
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 PM AST WED SEP 28 2016
+
+Surface observations and aircraft data from earlier this afternoon
+indicate that the circulation of Matthew has continued to become
+better defined.  There has also been an increase in convection
+just northeast of the center.  The initial intensity remains 50 kt
+based on the earlier aircraft data.  The next Air Force Reserve
+Hurricane Hunter mission into Matthew is scheduled for this evening.
+Although the increase in convection suggests that the system may be
+trying to establish an inner core, recent microwave and radar data
+have not revealed a significant increase in organization or banding
+so far.  The aircraft also did not report any pressure fall during
+its mission. Based on these trends, little change in intensity is
+predicted in the short-range, but warm waters and low shear are
+expected to allow for steady strengthening while Matthew moves over
+the eastern and central Caribbean during the next few days.  The
+updated NHC intensity forecast is a little below the intensity
+consensus through 24 hours, but is close to the consensus and the
+statistical models after that time.
+
+Matthew is moving westward to west-northwestward at about 16 kt.
+The track forecast reasoning is unchanged from the previous
+advisory.  The tropical cyclone should move generally westward
+during the next 2 to 3 days to the south of a strong deep-layer
+ridge over the western Atlantic.  The new NHC track forecast has
+been nudged northward through 72 hours, to be closer to the new
+model consensus.  After day 3, Matthew is expected to turn
+northwestward as it nears the western portion of the ridge.  The
+overall track envelope has shifted slightly eastward at days 4 and
+5, and the NHC track has been adjusted accordingly.  It should
+be noted that are still significant differences among the models in
+how soon and how sharply Matthew turns northwestward and northward
+late in the forecast period.  Users are reminded that the average
+NHC track errors at days 4 and 5 are on the order of 180 and 240
+miles, respectively.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  28/2100Z 13.8N  62.0W   50 KT  60 MPH
+ 12H  29/0600Z 14.1N  64.4W   50 KT  60 MPH
+ 24H  29/1800Z 14.4N  67.1W   55 KT  65 MPH
+ 36H  30/0600Z 14.4N  69.5W   65 KT  75 MPH
+ 48H  30/1800Z 14.1N  71.3W   70 KT  80 MPH
+ 72H  01/1800Z 14.2N  73.5W   80 KT  90 MPH
+ 96H  02/1800Z 15.8N  75.0W   90 KT 105 MPH
+120H  03/1800Z 19.0N  76.0W   90 KT 105 MPH
+
+$$
+Forecaster Brown
+
+
+

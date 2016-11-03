@@ -1,0 +1,61 @@
+
+618 
+WTNT41 KNHC 210851
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  18
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST SUN AUG 21 2016
+
+After the earlier convective bursting episode and resultant spin up
+of the low-level wind field, strong westerly shear of at least 30 kt
+has stripped away the convective cloud shield, leaving a fully
+exposed low-level circulation center that is easy to locate.
+Assuming some spin down of the circulation due to the loss of
+convection, the initial intensity has been lowered to 40 kt.
+
+Now that Fiona's circulation has become a little more shallow, the
+low-level center has turned more westward and the cyclone is now
+moving 295/14 kt. The global models are in good agreement on a
+mid-level ridge to the north and northeast of Fiona remaining in
+place for the next few days, which should keep the small cyclone
+moving in a general west-northwest direction through 72 hours. After
+that time, the western portion of the ridge is expected to weaken
+due to an approaching frontal system, which should allow Fiona or
+its remnant circulation to slow down and turn northwestward. The new
+track forecast is essentially just an update of the previous
+advisory track, and lies close to the TVCN consensus model forecast.
+
+During the next 24 hours or so, Fiona is forecast to traverse
+through a band of strong westerly to northwesterly vertical wind
+shear of 25-30 kt and dry mid-level air with humidity values near 40
+percent. As a result, gradual weakening is expected due to the small
+cyclone likely not being able to sustain deep convection for long
+periods of time. The new intensity forecast holds onto the previous
+trend of Fiona weakening into a remnant low by 72 hours. However, a
+lot of uncertainty remains with this intensity forecast. Strong
+instability that will be present due to very warm SSTs of 29C-30C
+and a cool upper-level troposphere, which could produce periodic
+bursts of intense convection that could sustain the low-level vortex
+until environmental become more favorable for strengthening on days
+4 and 5. Most of the global models continue to depict a weak low for
+at least the next 5 days, except for the ECMWF model, which weakens
+Fiona to an open trough by 48 hours. The NHC intensity remains a
+compromise of these extremes and shows dissipation by day 5.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/0900Z 22.2N  51.7W   40 KT  45 MPH
+ 12H  21/1800Z 22.9N  53.7W   35 KT  40 MPH
+ 24H  22/0600Z 23.8N  56.3W   35 KT  40 MPH
+ 36H  22/1800Z 24.5N  58.6W   35 KT  40 MPH
+ 48H  23/0600Z 25.3N  60.7W   30 KT  35 MPH
+ 72H  24/0600Z 27.0N  64.2W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 96H  25/0600Z 29.7N  66.3W   30 KT  35 MPH...POST-TROP/REMNT LOW
+120H  26/0600Z...DISSIPATED
+
+$$
+Forecaster Stewart
+
+
+

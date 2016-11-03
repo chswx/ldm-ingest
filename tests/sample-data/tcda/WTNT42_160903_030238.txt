@@ -1,0 +1,36 @@
+
+178 
+WTNT42 KNHC 030238
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  46
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 PM AST FRI SEP 02 2016
+
+A 2222 UTC ASCAT-B pass indicated that Gaston was producing maximum
+winds of 30-35 kt in its southeastern quadrant.  The initial
+intensity is therefore lowered to 35 kt, but Gaston won't be a
+tropical storm for much longer.  The last bit of deep convection
+dissipated around 1800 UTC, so the cyclone is likely to be declared
+post-tropical Saturday morning.  The remnant low is likely to
+maintain 30-kt winds until it dissipates in 36 hours, based on
+guidance from the global models.
+
+The initial motion is 070/14 kt.  The remnant low is expected to
+turn northeastward and accelerate away from the Azores during the
+next 24 hours ahead of an approaching cold front.  The track models
+agree on this scenario, and the NHC forecast remains close to the
+TVCN multi-model consensus.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  03/0300Z 40.1N  28.7W   35 KT  40 MPH
+ 12H  03/1200Z 41.1N  26.5W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 24H  04/0000Z 43.3N  23.1W   30 KT  35 MPH...POST-TROP/REMNT LOW
+ 36H  04/1200Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

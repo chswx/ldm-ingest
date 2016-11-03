@@ -1,0 +1,68 @@
+
+097 
+WTNT44 KNHC 302051
+TCDAT4
+
+HURRICANE MATTHEW DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL142016
+500 PM EDT FRI SEP 30 2016
+
+Matthew has continued to rapidly strengthen at a remarkable rate
+today.  A NOAA Hurricane Hunter aircraft recently reported a peak
+SFMR wind of 116 kt and flight-level winds of 121 kt.  A recent
+dropsonde from the aircraft indicated that surface winds are around
+120 kt.  Based on all of these data, the initial intensity is set to
+120 kt, an increase of 55 kt in the last 24 hours.  The latest
+pressure estimate from the aircraft is 949 mb, a drop of 44 mb since
+this time yesterday.
+
+Some additional strengthening is possible in the next 12 hours or
+so, and the NHC forecast reflects that possibility, showing 125 kt
+at that time.  Given the lack of skill of the intensity guidance
+thus far, this remains a low confidence forecast, and its possible
+this could be conservative.  Since Matthew has now become a major
+hurricane, eyewall replacement cycles could occur that would lead to
+some fluctuations in intensity not shown here.  After 12 hours, a
+gradual weakening is shown, following the trend of, but above nearly
+all of the intensity guidance.  Land interaction with Cuba should
+lead to additional weakening by day 4, but Matthew is expected to
+remain a strong hurricane through the forecast period.
+
+The initial motion is still toward the west-southwest, but the
+forward speed has slowed a bit, to around 8 kt.  The track forecast
+reasoning has not changed, with Matthew expected to turn westward by
+12 hours and then gradually turn toward the north in the next 3 to 4
+days as the cyclone moves into a weakness in the subtropical ridge.
+The track model guidance is in slightly better agreement this cycle
+through 3 days, although the ECMWF remains right of and slower than
+the rest of the guidance at days 4 and 5.  The GFS, HWRF, and
+COAMPS-TC are faster and to the left late in the period, although
+the GFS has trended slower this cycle.  The new NHC track has again
+been adjusted a little to the left through 72 hours given the
+initial position and motion, and after that time is along the
+previous official forecast but slower, following the slower trend in
+the guidance this cycle.  The NHC forecast is near the middle of the
+guidance envelope and is a little to the east of the multi-model
+consensus at days 4 and 5.
+
+It is important to remind users that average NHC track forecast
+errors are around 175 miles at day 4 and 230 miles at day 5.
+Therefore, it is too soon to rule out possible hurricane impacts
+from Matthew in Florida.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  30/2100Z 13.5N  71.6W  120 KT 140 MPH
+ 12H  01/0600Z 13.3N  72.8W  125 KT 145 MPH
+ 24H  01/1800Z 13.5N  73.9W  120 KT 140 MPH
+ 36H  02/0600Z 14.1N  74.8W  115 KT 130 MPH
+ 48H  02/1800Z 15.2N  75.6W  110 KT 125 MPH
+ 72H  03/1800Z 18.2N  76.2W  105 KT 120 MPH
+ 96H  04/1800Z 22.0N  76.0W   90 KT 105 MPH
+120H  05/1800Z 25.0N  76.0W   90 KT 105 MPH
+
+$$
+Forecaster Brennan
+
+
+

@@ -1,0 +1,46 @@
+
+184 
+WTNT42 KNHC 311443
+TCDAT2
+
+HURRICANE GASTON DISCUSSION NUMBER  36
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+1100 AM AST WED AUG 31 2016
+
+The satellite appearance of Gaston has degraded somewhat during the
+past few hours, with a slightly cooler eye noted.  A blend of the
+latest Dvorak estimates suggest an initial wind speed of 100 kt for
+this advisory.  Only a slow weakening is anticipated over the next
+couple of days while the hurricane moves over gradually cooling
+waters in moderate shear conditions.  Almost all of the guidance
+show Gaston near hurricane strength in a couple of days as it
+approaches the Azores.  The latest NHC intensity forecast is lower
+than the previous one, and best fits the model consensus.
+
+Gaston has begun to move faster toward the east-northeast, now at
+about 13 kt.  The hurricane should accelerate in that general
+direction over the next couple of days as it moves within the
+mid-latitude westerlies.  Most of the models have this system in
+the vicinity of the Azores in about 2 days, and the official
+forecast will continue to show this solution.
+
+A hurricane or tropical storm watch will likely be issued for the
+central or western Azores this afternoon.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/1500Z 34.0N  48.6W  100 KT 115 MPH
+ 12H  01/0000Z 35.2N  46.1W   95 KT 110 MPH
+ 24H  01/1200Z 36.9N  41.7W   85 KT 100 MPH
+ 36H  02/0000Z 38.0N  36.8W   75 KT  85 MPH
+ 48H  02/1200Z 38.8N  32.2W   60 KT  70 MPH
+ 72H  03/1200Z 40.0N  24.5W   40 KT  45 MPH
+ 96H  04/1200Z 43.0N  18.0W   30 KT  35 MPH...POST-TROPICAL
+120H  05/1200Z...DISSIPATED
+
+$$
+Forecaster Blake
+
+
+

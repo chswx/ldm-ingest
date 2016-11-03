@@ -1,0 +1,63 @@
+
+901 
+WTNT42 KNHC 220240
+TCDAT2
+
+TROPICAL DEPRESSION KARL DISCUSSION NUMBER  31
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST WED SEP 21 2016
+
+While the convection associated with Karl has become more
+concentrated to the northwest of the center during the past several
+hours, dropsonde data from the NOAA G-IV jet indicates that the
+cyclone's circulation is at least somewhat disorganized.  A closed
+circulation exists from the surface to 700 mb.  Above that, there is
+a poorly defined trough at 500 and 400 mb with southwesterly winds
+of 10-15 kt above the low level center. Finally, the flow at 300 and
+200 mb is from the east and southeast. The maximum surface winds in
+the dropsonde data were 25 kt, and recent ASCAT data implies
+maximum winds near 30 kt.  Thus, the initial intensity remains 30
+kt.
+
+The initial motion is 315/13 as Karl continues to move between the
+southwestern periphery of subtropical ridge and a upper- to
+mid-level low located north of Puerto Rico.  This northwestward
+track should continue for another 24 hours or so.  Beyond that time,
+Karl should turn northward, move through a break in the ridge, and
+then accelerate northeastward as it becomes embedded in the
+westerlies. Since the last advisory, the track guidance has shifted
+a little to the east during the first 72 hours, and the new forecast
+track for that period lies between the model consensus and the
+previous forecast.  After recurvature, there remain some differences
+in the guidance regarding the forward speed of Karl, and the
+forecast track is in best agreement with a blend of the GFS and
+HWRF models.
+
+While the vertical shear is forecast to gradually decrease over
+Karl, mid-level moisture values to the southwest of the cyclone
+remain marginal according to the NOAA jet data.  In addition, the
+disorganized circulation argues against any rapid strengthening.
+The intensity forecast calls for slow intensification for the next
+36 hours, followed by faster strengthening until the 72 hour point
+when the cyclone is forecast to be a hurricane.  Karl should weaken
+as it begins extratropical transition between 72-96 hours, with the
+transition to a storm-force extratropical low being complete by 120
+hours.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  22/0300Z 22.9N  59.6W   30 KT  35 MPH
+ 12H  22/1200Z 24.2N  61.3W   35 KT  40 MPH
+ 24H  23/0000Z 25.9N  63.4W   40 KT  45 MPH
+ 36H  23/1200Z 27.6N  64.3W   45 KT  50 MPH
+ 48H  24/0000Z 29.7N  64.1W   55 KT  65 MPH
+ 72H  25/0000Z 33.5N  58.5W   70 KT  80 MPH
+ 96H  26/0000Z 40.0N  47.0W   70 KT  80 MPH
+120H  27/0000Z 47.5N  33.5W   50 KT  60 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Beven
+
+
+

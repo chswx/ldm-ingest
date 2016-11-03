@@ -1,0 +1,63 @@
+
+219 
+WTNT31 KNHC 162040
+TCPAT1
+
+BULLETIN
+TROPICAL STORM JULIA ADVISORY NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL112016
+500 PM EDT FRI SEP 16 2016
+
+...JULIA BECOMING LESS ORGANIZED AS IT MEANDERS OFF OF THE
+SOUTHEASTERN COAST OF THE UNITED STATES...
+
+
+SUMMARY OF 500 PM EDT...2100 UTC...INFORMATION
+----------------------------------------------
+LOCATION...30.8N 75.7W
+ABOUT 255 MI...405 KM SSE OF CAPE FEAR NORTH CAROLINA
+MAXIMUM SUSTAINED WINDS...40 MPH...65 KM/H
+PRESENT MOVEMENT...S OR 190 DEGREES AT 3 MPH...6 KM/H
+MINIMUM CENTRAL PRESSURE...1008 MB...29.77 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 PM EDT (2100 UTC), the center of Tropical Storm Julia was
+located near latitude 30.8 North, longitude 75.7 West. Julia is
+now moving toward the south near 3 mph (6 km/h).  A slow and erratic
+motion off of the coasts of South and North Carolina is expected
+during the next couple of days.
+
+Maximum sustained winds are near 40 mph (65 km/h) with higher gusts.
+Satellite data and reports from an Air Force Reserve Hurricane
+Hunter aircraft indicate that Julia has become less organized since
+yesterday, and it is forecast to weaken to a tropical depression
+tonight.
+
+Tropical-storm-force winds extend outward up to 35 miles (55 km)
+to the north of the center.
+
+The minimum central pressure estimated from the Hurricane Hunter
+aircraft data is 1008 mb (29.77 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM EDT.
+
+$$
+Forecaster Beven
+
+
+

@@ -1,0 +1,53 @@
+
+045 
+WTNT42 KNHC 190238
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  19
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST SUN SEP 18 2016
+
+Karl is a poorly organized tropical storm.  Satellite data indicate
+that the low-level center is exposed to the southwest of a few
+patches of deep convection.  The initial intensity is again held at
+35 kt, in agreement with the earlier scatterometer data and a Dvorak
+classification from TAFB.  The cyclone continues to struggle in an
+environment of southwesterly shear and dry air.  In fact, total
+precipitable water imagery shows dry air wrapping around the west
+and south sides of the circulation.  The models indicate that the
+shear should lower on Monday, and remain relatively light during the
+next several days.  Since Karl is expected to track over
+progressively warmer waters, between 28-30 deg C, and move into a
+more conducive atmospheric environment, strengthening seems likely.
+The NHC intensity forecast is largely an update of the previous one,
+but it is a touch lower at the 12-h point given the current poor
+initial structure of Karl. This forecast is in best agreement with
+the SHIPS model.
+
+The system is moving westward at 13 kt, and that general motion
+should continue for the next 12-24 hours as Karl remains on the
+south side of a subtropical ridge over the central Atlantic.  A
+west-northwestward motion is expected to begin by Monday night,
+followed by a turn to the northwest by mid-week when the cyclone
+moves toward a weakness in the ridge.  Although the models
+agree on the overall scenario, there is a fair amount of spread by
+the end of the forecast period.  The NHC track forecast is slightly
+faster than the model consensus, giving a little more weight to the
+GFS and ECMWF models.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/0300Z 18.3N  46.3W   35 KT  40 MPH
+ 12H  19/1200Z 18.5N  48.3W   35 KT  40 MPH
+ 24H  20/0000Z 19.1N  50.9W   40 KT  45 MPH
+ 36H  20/1200Z 19.8N  53.4W   45 KT  50 MPH
+ 48H  21/0000Z 20.7N  55.9W   50 KT  60 MPH
+ 72H  22/0000Z 23.1N  60.9W   60 KT  70 MPH
+ 96H  23/0000Z 26.5N  65.0W   70 KT  80 MPH
+120H  24/0000Z 28.8N  66.9W   80 KT  90 MPH
+
+$$
+Forecaster Cangialosi
+
+
+

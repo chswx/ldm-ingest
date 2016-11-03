@@ -1,0 +1,65 @@
+
+662 
+WTNT42 KNHC 230251
+TCDAT2
+
+TROPICAL STORM KARL DISCUSSION NUMBER  35
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+1100 PM AST THU SEP 22 2016
+
+Reports from Air Force Reserve and NOAA Hurricane Hunter aircraft
+indicate that Karl has become significantly better organized during
+the past 24 hours, with dropsonde data showing that a well-defined
+circulation now exists from the surface to 400 mb.  The maximum
+flight-level winds were 56 kt at 8000 ft, and there were numerous
+SFMR surface wind estimates of 35-40 kt.  The minimum central
+pressure estimated from the aircraft data is 1001 mb based on a 1003
+mb dropsonde with surface winds of 24 kt. Based on these data and
+observations from NOAA buoy 41049, the initial intensity is now 40
+kt.  Additional aircraft data should be available starting at about
+0600 UTC.
+
+The initial motion is now 315/14 as Karl continues moving
+northwestward between the subtropical ridge and a mid- to
+upper-level trough north of Hispaniola and east of the Bahamas.
+During the next 24-36 hours, Karl should turn northward and then
+northeastward as it moves through a break in the ridge into the
+westerlies.  Subsequently, the cyclone should accelerate
+northeastward.  The model guidance is in excellent agreement with
+this scenario, although there remains some spread in the forecast
+forward speed late in the forecast period between the slower ECMWF
+and the other faster models.  The new forecast track remains down
+the center of the guidance and overall is similar to the previous
+track.  The new forecast track is shifted a little closer to
+Bermuda, with the closest approach now forecast between
+24 and 36 hours.
+
+While there remain some differences in the model details, Karl is
+expected to move into an area of decreasing vertical shear during
+the next 48 hours, which should allow continued development.  After
+that, the cyclone should begin extratropical transition, which is
+likely to be complete by 72 hours according the the latest dynamical
+model guidance.  The new intensity forecast is similar to the
+previous forecast and calls for Karl to steadily intensify to
+hurricane strength in about 48 hours, followed by rapid weakening
+after extratropical transition.  The forecast also follows the
+dynamical models in calling for Karl to be absorbed by another
+extratropical low by 120 hours.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  23/0300Z 27.0N  64.0W   40 KT  45 MPH
+ 12H  23/1200Z 28.4N  65.0W   45 KT  50 MPH
+ 24H  24/0000Z 30.5N  64.8W   50 KT  60 MPH
+ 36H  24/1200Z 32.4N  62.6W   60 KT  70 MPH
+ 48H  25/0000Z 35.2N  57.4W   70 KT  80 MPH
+ 72H  26/0000Z 43.5N  41.0W   70 KT  80 MPH...POST-TROP/EXTRATROP
+ 96H  27/0000Z 53.0N  26.0W   45 KT  50 MPH...POST-TROP/EXTRATROP
+120H  28/0000Z...ABSORBED BY EXTRATROPICAL LOW
+
+$$
+Forecaster Beven
+
+
+

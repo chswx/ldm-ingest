@@ -1,0 +1,148 @@
+
+121 
+WTNT34 KNHC 012356
+TCPAT4
+
+BULLETIN
+HURRICANE HERMINE INTERMEDIATE ADVISORY NUMBER  18A
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+800 PM EDT THU SEP 01 2016
+
+...HERMINE CONTINUING TO STRENGTHEN...
+...LIFE-THREATENING SURGE AND FLOODING RAINS EXPECTED...
+
+
+SUMMARY OF 800 PM EDT...0000 UTC...INFORMATION
+----------------------------------------------
+LOCATION...29.1N 84.8W
+ABOUT 45 MI...70 KM SSE OF APALACHICOLA FLORIDA
+ABOUT 105 MI...170 KM W OF CEDAR KEY FLORIDA
+MAXIMUM SUSTAINED WINDS...80 MPH...130 KM/H
+PRESENT MOVEMENT...NNE OR 30 DEGREES AT 14 MPH...22 KM/H
+MINIMUM CENTRAL PRESSURE...983 MB...29.03 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+
+None.
+
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+
+A Hurricane Warning is in effect for...
+* Suwannee River to Mexico Beach
+
+A Hurricane Watch is in effect for...
+* Anclote River to Suwannee River
+* West of Mexico Beach to the Walton/Bay County line
+
+A Tropical Storm Warning is in effect for...
+* Englewood to Suwannee River
+* West of Mexico Beach to the Walton/Bay County line
+* Flagler/Volusia County line to Duck
+* Pamlico and Albemarle Sounds
+
+A Tropical Storm Watch is in effect for...
+* North of Duck to Sandy Hook
+* Chesapeake Bay from Smith Point southward
+* Southern Delaware Bay
+
+Interests elsewhere along the United States northeast coast should
+monitor the progress of this system.
+
+For storm information specific to your area, including possible
+inland watches and warnings, please monitor products issued by your
+local National Weather Service forecast office.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 800 PM EDT (0000 UTC), the center of Hurricane Hermine was
+located near latitude 29.1 North, longitude 84.8 West.  Hermine is
+moving toward the north-northeast near 14 mph (22 km/h), and this
+motion with a slight increase in forward speed is expected during
+the next day or so.  On the forecast track, the center of Hermine
+should cross the coast of Florida in the hurricane warning area
+tonight or early Friday.
+
+Reports from an Air Force Reserve Hurricane Hunter Aircraft
+indicate that maximum sustained winds have increased to near 80 mph
+(130 km/h) with higher gusts.  Some slight additional strengthening
+is forecast before landfall.  Weakening will begin after Hermine
+crosses the coast.
+
+Hurricane-force winds extend outward up to 45 miles (75 km) from
+the center, and tropical-storm-force winds extend outward up to 185
+miles (295 km).  NOAA buoy 42036 recently reported sustained winds
+of 58 mph (94 km/h) and a wind gust of 78 mph (126 km/h).
+
+The minimum central pressure reported by the Hurricane Hunter
+aircraft is 983 mb (29.03 inches).  NOAA buoy 42036 recently
+reported a pressure of 989.4 mb (29.22 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+WIND:  Hurricane conditions are expected to reach the coast
+within the warning area beginning tonight.  Winds are already near
+tropical storm strength in portions of the warning area, making
+outside preparations difficult or dangerous.  Preparations to
+protect life and property should be rushed to completion.  Tropical
+storm conditions are expected to begin within the warning area along
+the Atlantic coast on Friday, and spread northward through the
+weekend.
+
+STORM SURGE:  The combination of a dangerous storm surge and the
+tide will cause normally dry areas near the coast to be flooded by
+rising waters moving inland from the shoreline.  There is a danger
+of life-threatening inundation within the next 12 to 24 hours along
+the Gulf coast of Florida from Indian Pass to Longboat Key.  For a
+depiction of areas at risk, please see the Prototype National
+Weather Service Storm Surge Watch/Warning Graphic.  Persons located
+within these areas should take all necessary actions to protect life
+and property from rising water.  Promptly follow any instructions,
+including evacuation orders, from local officials.
+
+The water could reach the following heights above ground if the
+peak surge occurs at the time of high tide...
+
+Destin to Indian Pass...1 to 3 feet
+Indian Pass to Ochlockonee River...4 to 7 feet
+Ochlockonee River to Yankeetown...6 to 9 feet
+Yankeetown to Aripeka...4 to 7 feet
+Aripeka to Longboat Key...including Tampa Bay...2 to 4 feet
+Longboat Key to Bonita Beach...1 to 3 feet
+Florida-Georgia line to Tidewater of Virginia...1 to 3 feet
+
+The Prototype National Weather Service Storm Surge Watch/Warning
+Graphic is a depiction of areas that would qualify for inclusion
+under a storm surge watch or warning currently under development by
+the National Weather Service and planned for operational use in
+2017.  This prototype graphic is available at
+www.hurricanes.gov/graphics_at4.shtml?wsurge
+
+RAINFALL:  Hermine is expected to produce storm total rainfall
+accumulations of 5 to 10 inches over portions of northwest Florida
+and southern Georgia through Friday, with possible isolated maximum
+amounts of 15 inches.  On Friday and Saturday, Hermine is expected
+to produce totals of 4 to 8 inches with isolated maximum amounts of
+10 inches possible across portions of eastern Georgia, South
+Carolina, and eastern North Carolina through Saturday.  These rains
+may cause life-threatening floods and flash floods.
+
+TORNADOES:  A few tornadoes are possible through tonight across
+north Florida and southeast Georgia.  The tornado risk will continue
+across the eastern Carolinas from Friday morning into Friday night.
+
+
+NEXT ADVISORY
+-------------
+Next complete advisory at 1100 PM EDT.
+Position Estimates at 900 PM EDT and 1000 PM EDT.
+
+$$
+Forecaster Beven
+
+
+

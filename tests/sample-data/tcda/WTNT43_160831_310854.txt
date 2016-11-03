@@ -1,0 +1,40 @@
+
+252 
+WTNT43 KNHC 310854
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER  12
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 AM EDT WED AUG 31 2016
+
+The low-level center is difficult to find, but given the strong
+westerly shear and continuity, it is assumed that it is located to
+the west of a large area of deep convection devoid of banding
+features. Dvorak numbers have not changed, and the initial intensity
+remains at 30 kt. Most of the guidance shows a significant increase
+in the shear, but at the same time forecasts a slight increase in
+intensity. The NHC forecast follows the guidance and the previous
+forecast showing a slight increase in the winds before the cyclone
+becomes extratropical in 48 hours.
+
+The depression is moving slowly toward the northeast at 4 kt, and
+is already embedded within the southwesterly flow ahead of an
+amplifying mid-latitude trough. This pattern favors a continuation
+of the northeast track away from the U.S coast with a significant
+increase in forward speed.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/0900Z 34.8N  74.3W   30 KT  35 MPH
+ 12H  31/1800Z 35.7N  72.8W   35 KT  40 MPH
+ 24H  01/0600Z 37.7N  69.0W   40 KT  45 MPH
+ 36H  01/1800Z 40.0N  63.5W   40 KT  45 MPH
+ 48H  02/0600Z 42.5N  57.5W   35 KT  40 MPH...POST-TROP/EXTRATROP
+ 72H  03/0600Z...DISSIPATED
+
+$$
+Forecaster Avila
+
+
+

@@ -1,0 +1,50 @@
+
+016 
+WTNT43 KNHC 310240
+TCDAT3
+
+TROPICAL DEPRESSION EIGHT DISCUSSION NUMBER  11
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+1100 PM EDT TUE AUG 30 2016
+
+Aircraft fixes from the Air Force Reserve Hurricane Hunters
+indicate that the center of the depression is located near the
+southwestern edge of a persistent cluster of deep convection.  The
+plane did not find any stronger winds than in previous missions,
+and the initial intensity remains 30 kt.  Westerly vertical shear
+affecting the cyclone is not expected to decrease, and in fact it
+should increase substantially from 24 hours and beyond.  Still, if
+the system can maintain deep convection while it remains over warm
+sea surface temperatures for the next 36 hours or so, the mere fact
+that it is expected to accelerate from this point forward could
+allow the maximum winds to increase.  The NHC intensity forecast is
+very similar to the previous one, but it does allow for possible
+strengthening to tropical storm strength in about 12 hours.  The
+cyclone should become extratropical by 72 hours, but after that
+there is some uncertainty whether it will be absorbed by another
+cyclone or become the dominant system.  For now, the forecast
+continues to show it becoming absorbed, which is in line with the
+ECMWF.
+
+The aircraft fixes indicate that the depression is beginning to
+move away from the Outer Banks with an initial motion of 040/4 kt.
+The cyclone is expected to accelerate toward the northeast and then
+east-northeast through the forecast period.  The track models are
+in very good agreement, and no significant changes were required to
+the official track forecast.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  31/0300Z 34.5N  74.6W   30 KT  35 MPH
+ 12H  31/1200Z 35.4N  73.6W   35 KT  40 MPH
+ 24H  01/0000Z 37.1N  71.0W   40 KT  45 MPH
+ 36H  01/1200Z 39.3N  66.1W   45 KT  50 MPH
+ 48H  02/0000Z 41.5N  59.3W   45 KT  50 MPH
+ 72H  03/0000Z 45.1N  45.3W   40 KT  45 MPH...POST-TROP/EXTRATROP
+ 96H  04/0000Z...DISSIPATED
+
+$$
+Forecaster Berg
+
+
+

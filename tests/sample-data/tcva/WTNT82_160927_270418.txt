@@ -1,0 +1,93 @@
+
+897 
+WTNT82 EGRR 270418
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 0000UTC 27.09.2016
+
+   TROPICAL DEPRESSION 19E        ANALYSED POSITION : 11.6N 140.4W
+
+     ATCF IDENTIFIER : EP192016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 27.09.2016    0  11.6N 140.4W     1004            28
+    1200UTC 27.09.2016   12  12.4N 140.4W     1002            33
+    0000UTC 28.09.2016   24  13.4N 140.1W     1001            34
+    1200UTC 28.09.2016   36  14.3N 139.5W     1001            34
+    0000UTC 29.09.2016   48  15.3N 139.5W     1002            35
+    1200UTC 29.09.2016   60  15.8N 140.2W     1005            31
+    0000UTC 30.09.2016   72  16.2N 140.9W     1007            30
+    1200UTC 30.09.2016   84  16.6N 142.0W     1008            29
+    0000UTC 01.10.2016   96  16.7N 143.2W     1008            31
+    1200UTC 01.10.2016  108  16.7N 145.1W     1009            29
+    0000UTC 02.10.2016  120  16.9N 147.0W     1009            29
+    1200UTC 02.10.2016  132  16.9N 149.6W     1010            29
+    0000UTC 03.10.2016  144              CEASED TRACKING
+
+        TROPICAL STORM ROSLYN     ANALYSED POSITION : 16.9N 118.8W
+
+     ATCF IDENTIFIER : EP182016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    0000UTC 27.09.2016    0  16.9N 118.8W      999            33
+    1200UTC 27.09.2016   12  18.3N 117.3W      998            40
+    0000UTC 28.09.2016   24  19.1N 116.7W      997            38
+    1200UTC 28.09.2016   36  20.5N 116.7W     1001            33
+    0000UTC 29.09.2016   48  21.3N 116.7W     1005            26
+    1200UTC 29.09.2016   60  22.3N 117.1W     1010            20
+    0000UTC 30.09.2016   72  22.4N 117.6W     1012            16
+    1200UTC 30.09.2016   84              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  30 HOURS
+              FORECAST POSITION AT T+ 30 : 22.2N  96.2W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 28.09.2016   36  21.6N  96.6W     1007            35
+    0000UTC 29.09.2016   48  22.1N  96.8W     1008            33
+    1200UTC 29.09.2016   60  22.3N  97.5W     1011            25
+    0000UTC 30.09.2016   72              CEASED TRACKING
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  60 HOURS
+              FORECAST POSITION AT T+ 60 : 13.0N  66.5W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 29.09.2016   60  13.0N  66.5W     1008            34
+    0000UTC 30.09.2016   72  13.0N  69.2W     1005            35
+    1200UTC 30.09.2016   84  12.3N  71.5W     1002            40
+    0000UTC 01.10.2016   96  12.0N  73.8W      998            44
+    1200UTC 01.10.2016  108  11.5N  75.3W      997            45
+    0000UTC 02.10.2016  120  12.2N  76.9W      993            45
+    1200UTC 02.10.2016  132  13.1N  77.8W      988            53
+    0000UTC 03.10.2016  144  14.7N  77.8W      978            61
+
+       NEW TROPICAL CYCLONE FORECAST TO DEVELOP AFTER  78 HOURS
+              FORECAST POSITION AT T+ 78 : 13.1N 159.0W
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 30.09.2016   84  13.4N 159.3W     1007            26
+    0000UTC 01.10.2016   96  14.4N 160.7W     1007            27
+    1200UTC 01.10.2016  108  15.2N 162.0W     1008            29
+    0000UTC 02.10.2016  120  16.1N 163.1W     1007            28
+    1200UTC 02.10.2016  132  16.9N 164.7W     1007            31
+    0000UTC 03.10.2016  144  18.1N 166.1W     1007            30
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 270418
+

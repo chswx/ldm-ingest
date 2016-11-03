@@ -1,0 +1,48 @@
+
+386 
+WTNT44 KNHC 061446
+TCDAT4
+
+POST-TROPICAL CYCLONE HERMINE DISCUSSION NUMBER  37
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL092016
+1100 AM EDT TUE SEP 06 2016
+
+There has been little change in the structure of Hermine since the
+last advisory, as it remains a post-tropical low pressure system
+with a few small patches of convection located to the south and west
+of the center.  Buoy data suggests the circulation is slowly
+decaying, so the initial intensity is now a somewhat uncertain 50
+kt.  The post-tropical cyclone is expected to continue to weaken
+during the next couple of days due to the lack of baroclinic forcing
+and cool sea-surface temperatures along the forecast track, and the
+new intensity forecast has the winds decreasing below tropical storm
+force by 48 hours in agreement with the global models.  After that
+time, the system is expected to be absorbed by a new frontal system
+moving eastward across the New England States.
+
+Hermine has slowed its forward motion, which is now 270/3.  A slow
+and erratic motion, possibly including a cusp or a loop, is likely
+during the next 24 hours.  After that, the cyclone should move
+northeastward in advance of the above-mentioned frontal system.
+The new forecast track is a little faster than the previous track
+after 24 hours, and it is in best agreement with a blend of the GFS
+and ECMWF models.
+
+The tropical storm warning for Long island may be discontinued
+later today if the winds north of the center continue to decrease.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  06/1500Z 39.5N  71.9W   50 KT  60 MPH...POST-TROPICAL
+ 12H  07/0000Z 39.3N  72.5W   45 KT  50 MPH...POST-TROPICAL
+ 24H  07/1200Z 39.4N  72.7W   40 KT  45 MPH...POST-TROPICAL
+ 36H  08/0000Z 39.9N  72.4W   35 KT  40 MPH...POST-TROPICAL
+ 48H  08/1200Z 40.5N  71.5W   30 KT  35 MPH...POST-TROPICAL
+ 72H  09/1200Z...DISSIPATED
+
+$$
+Forecaster Beven
+
+
+

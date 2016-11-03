@@ -1,0 +1,63 @@
+
+860 
+WTNT82 EGRR 291618
+
+  MET OFFICE TROPICAL CYCLONE GUIDANCE FOR NORTH-EAST PACIFIC AND ATLANTIC
+
+             GLOBAL MODEL DATA TIME 1200UTC 29.09.2016
+
+        TROPICAL STORM MATTHEW    ANALYSED POSITION : 14.2N  65.4W
+
+     ATCF IDENTIFIER : AL142016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 29.09.2016    0  14.2N  65.4W      996            58
+    0000UTC 30.09.2016   12  13.8N  68.3W      989            64
+    1200UTC 30.09.2016   24  13.0N  69.7W      987            62
+    0000UTC 01.10.2016   36  12.8N  70.9W      988            59
+    1200UTC 01.10.2016   48  12.9N  71.8W      989            57
+    0000UTC 02.10.2016   60  13.1N  72.9W      987            58
+    1200UTC 02.10.2016   72  13.4N  73.9W      984            57
+    0000UTC 03.10.2016   84  14.5N  74.5W      980            67
+    1200UTC 03.10.2016   96  15.9N  74.7W      975            62
+    0000UTC 04.10.2016  108  17.3N  74.1W      972            67
+    1200UTC 04.10.2016  120  18.7N  74.0W      977            62
+    0000UTC 05.10.2016  132  19.7N  73.7W      974            67
+    1200UTC 05.10.2016  144  20.5N  74.1W      983            61
+
+   TROPICAL DEPRESSION ROSLYN     ANALYSED POSITION : 23.3N 115.5W
+
+     ATCF IDENTIFIER : EP182016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 29.09.2016    0  23.3N 115.5W     1009            22
+    0000UTC 30.09.2016   12  24.2N 116.2W     1011            19
+    1200UTC 30.09.2016   24              CEASED TRACKING
+
+        TROPICAL STORM ULIKA      ANALYSED POSITION : 16.4N 139.0W
+
+     ATCF IDENTIFIER : EP192016
+
+                        LEAD                 CENTRAL     MAXIMUM WIND
+      VERIFYING TIME    TIME   POSITION   PRESSURE (MB)  SPEED (KNOTS)
+      --------------    ----   --------   -------------  -------------
+    1200UTC 29.09.2016    0  16.4N 139.0W     1001            41
+    0000UTC 30.09.2016   12  17.0N 139.7W     1004            34
+    1200UTC 30.09.2016   24  17.3N 140.3W     1008            30
+    0000UTC 01.10.2016   36  17.2N 141.5W     1009            26
+    1200UTC 01.10.2016   48  16.9N 143.4W     1010            26
+    0000UTC 02.10.2016   60              CEASED TRACKING
+
+
+ THIS INFORMATION IS PROVIDED AS GUIDANCE FOR TROPICAL CYCLONE
+ RSMCS. IT REQUIRES INTERPRETATION BY TROPICAL CYCLONE SPECIALISTS
+ AND SHOULD NOT BE CONSIDERED AS A FINAL PRODUCT.
+
+ MET OFFICE, EXETER, UK
+
+ TOO 291618
+

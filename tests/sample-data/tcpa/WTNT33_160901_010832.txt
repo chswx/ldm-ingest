@@ -1,0 +1,54 @@
+
+196 
+WTNT33 KNHC 010832
+TCPAT3
+
+BULLETIN
+REMNANTS OF EIGHT ADVISORY NUMBER  16
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL082016
+500 AM AST THU SEP 01 2016
+
+...DEPRESSION DISSIPATES...
+
+
+SUMMARY OF 500 AM AST...0900 UTC...INFORMATION
+----------------------------------------------
+LOCATION...38.2N 69.2W
+ABOUT 405 MI...655 KM ENE OF CAPE HATTERAS NORTH CAROLINA
+ABOUT 1005 MI...1620 KM WSW OF CAPE RACE NEWFOUNDLAND
+MAXIMUM SUSTAINED WINDS...30 MPH...45 KM/H
+PRESENT MOVEMENT...NE OR 50 DEGREES AT 15 MPH...24 KM/H
+MINIMUM CENTRAL PRESSURE...1010 MB...29.83 INCHES
+
+
+WATCHES AND WARNINGS
+--------------------
+There are no coastal watches or warnings in effect.
+
+
+DISCUSSION AND 48-HOUR OUTLOOK
+------------------------------
+At 500 AM AST (0900 UTC), the remnants of Eight were located near
+latitude 38.2 North, longitude 69.2 West. The remnants are moving
+toward the northeast near 15 mph (24 km/h).
+
+Maximum sustained winds are near 30 mph (45 km/h) with higher gusts.
+
+The estimated minimum central pressure is 1010 mb (29.83 inches).
+
+
+HAZARDS AFFECTING LAND
+----------------------
+None.
+
+
+NEXT ADVISORY
+-------------
+This is the last public advisory issued by the National Hurricane
+Center on this system.
+
+$$
+Forecaster Landsea
+
+
+

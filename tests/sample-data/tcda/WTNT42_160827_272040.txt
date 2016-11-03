@@ -1,0 +1,66 @@
+
+119 
+WTNT42 KNHC 272040
+TCDAT2
+
+TROPICAL STORM GASTON DISCUSSION NUMBER  21
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL072016
+500 PM AST SAT AUG 27 2016
+
+The inner-core convection of Gaston has continued to increase with
+the CDO having expanded and become more symmetrical. Subjective
+satellite intensity estimates remain T4.0/65 kt and T3.5/55 kt from
+TAFB and SAB, respectively, and the latest UW-CIMSS ADT value is
+T3.9/63 kt. An average of these estimates supports maintaining the
+initial intensity at 60 kt, which could be conservative.
+
+Gaston's initial motion estimate is 320/08 kt. There is no
+significant change to the previous forecast track reasoning. Gaston
+is expected to continue moving northwestward and gradually
+decelerate during the next two days as the cyclone moves into a
+break in the Bermuda-Azores ridge. A shortwave trough and associated
+frontal system is forecast to approach Gaston by 72 hours and slowly
+lift out the tropical cyclone to the north and northeast. On days 4
+and 5, Gaston is expected to get caught up in the mid-latitude
+westerly flow ahead of the aforementioned frontal system and
+accelerate east-northeastward. The new NHC track model guidance is
+in much better agreement now that the ECMWF model has made a
+significant eastward shift in its track forecast and is much closer
+to the previous advisory track. The new official forecast track was
+only shifted eastward slightly to come more in line with the
+consensus models TVCN and GFEX. However, the track shift also
+resulted in a significant decrease in the forward speed on days 3,
+4, and 5.
+
+The global and regional models continue to indicate that Gaston
+will remain in a very favorable upper-level outflow pattern for at
+least the next 72 hours. In fact, the Navy-COAMPS, GFS, and ECMWF
+models forecast Gaston to become a major hurricane by 72-120 h, with
+the ECMWF forecasting a central pressure of 945 mb on day 5. In
+contrast, the HWRF and the statistical-dynamical models SHIPS/LGEM
+only bring Gaston up to 85-90 kt. Due to the possibility of
+occasional dry air intrusions, with mid-level humidity values in the
+40-percent range, weakening the inner-core convection, the official
+intensity forecast remains unchanged and on the conservative side
+through 72 hours, which is slightly above the consensus model IVCN.
+On days 4 and 5, strong westerly shear of about 30 kt should induce
+weakening, which also argues against this system becoming a major
+hurricane at that time like the ECMWF model is predicting, and the
+forecast is a little lower than the consensus on those days.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  27/2100Z 29.2N  54.0W   60 KT  70 MPH
+ 12H  28/0600Z 30.0N  54.6W   70 KT  80 MPH
+ 24H  28/1800Z 30.7N  55.1W   80 KT  90 MPH
+ 36H  29/0600Z 31.0N  55.3W   85 KT 100 MPH
+ 48H  29/1800Z 31.4N  54.9W   90 KT 105 MPH
+ 72H  30/1800Z 32.5N  53.0W   85 KT 100 MPH
+ 96H  31/1800Z 34.0N  50.0W   75 KT  85 MPH
+120H  01/1800Z 37.0N  44.0W   65 KT  75 MPH
+
+$$
+Forecaster Stewart
+
+
+

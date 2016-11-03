@@ -1,0 +1,57 @@
+
+981 
+WTNT42 KNHC 210835
+TCDAT2
+
+TROPICAL DEPRESSION KARL DISCUSSION NUMBER  28
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL122016
+500 AM AST WED SEP 21 2016
+
+Karl's structure is very difficult to determine this morning.
+Satellite data indicate that the low-level center moved westward
+far away from the convection, and currently it is hard to say if
+Karl possess a closed circulation or not. Assuming that it still
+does, the maximum winds are estimated generously at 30 kt, since the
+cloud pattern has become less organized. I would not be surprised if
+early visible satellite images will reveal that the cyclone has
+degenerated into a broad area of low pressure.
+
+Global models have totally failed so far in forecasting the
+upper-level winds surrounding Karl. The upper-low near Karl which
+unanimously all models have been forecasting to weaken is still
+strong and producing shear over the cyclone. Given such a resilient
+shear pattern, additional weakening is anticipated today. However,
+most of the models are still predicting a favorable pattern for
+intensification, and on this basis as well as continuity, the NHC
+forecast calls for some strengthening beyond 36 hours while Karl
+moves away from the hostile tropics. By the end of the forecast
+period, Karl should be rapidly losing tropical characteristics
+while it interacts with the mid-latitude flow.
+
+The initial motion is also highly uncertain, giving that we have
+been following the low-cloud swirl defining the alleged center. The
+best estimate is toward the west or 280 degrees at 12 kt. Karl is
+approaching the southwestern edge of the subtropical ridge, and this
+pattern should result in a turn to the northwest and then north
+during the following two days. After that time, a sharp recurvature
+is anticipated around the northwestern portion of the subtropical
+high and ahead of a mid-latitude shortwave. This sharp recurvature
+is the solution provided by most of the track models, and the NHC
+forecast is in the middle if the guidance envelope.
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  21/0900Z 20.2N  57.6W   30 KT  35 MPH
+ 12H  21/1800Z 20.9N  59.3W   25 KT  30 MPH
+ 24H  22/0600Z 23.0N  61.5W   30 KT  35 MPH
+ 36H  22/1800Z 25.0N  64.0W   35 KT  40 MPH
+ 48H  23/0600Z 27.0N  65.5W   45 KT  50 MPH
+ 72H  24/0600Z 30.0N  64.0W   60 KT  70 MPH
+ 96H  25/0600Z 35.5N  56.5W   75 KT  85 MPH
+120H  26/0600Z 43.0N  42.0W   65 KT  75 MPH...POST-TROP/EXTRATROP
+
+$$
+Forecaster Avila
+
+
+

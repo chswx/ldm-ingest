@@ -1,0 +1,57 @@
+
+439 
+WTNT41 KNHC 190846
+TCDAT1
+
+TROPICAL STORM FIONA DISCUSSION NUMBER  10
+NWS NATIONAL HURRICANE CENTER MIAMI FL       AL062016
+500 AM AST FRI AUG 19 2016
+
+Fiona hasn't really changed much overall in the past several hours
+with an earlier burst of convection having dissipated and a new
+burst taking its place.  Microwave data suggest the center is near
+or south of the main area of thunderstorms, which is a sign of
+the ongoing southwesterly shear.  The initial wind speed is kept at
+40 kt for this advisory since the Dvorak estimates are the same as
+the previous cycle.  Little significant change is expected with
+Fiona's intensity today due to gradually increasing shear.  The
+storm should weaken over the weekend as the shear further increases,
+along with the likely entrainment of drier mid-level air.  While the
+environmental conditions might get less hostile at the end of the
+period, it is uncertain how much will be left of Fiona at that time
+to take advantage of that change, with some suggestion in the global
+models that Fiona could decay to a remnant low by then.  Thus,
+the new NHC intensity forecast is a bit lower than the previous one,
+near a model consensus than excludes the GFDL (which has looked
+consistently too high).
+
+A timely AMSR2 pass helped show that Fiona has sped up, and is now
+moving 300/9.  Fiona should move around the Atlantic subtropical
+ridge for the next few days.  The biggest change to the track
+guidance is that all of the models have shifted a few degrees
+westward at long range.  This appears to be due to less of a trough
+forecast over the central Atlantic and a weaker representation of
+Fiona in the global models, both of which would cause the storm to
+continue moving northwestward for a longer period of time.  The new
+NHC track forecast follows the trend of the models, but remains a
+fair distance east of the model consensus at days 4 and 5 due to
+continuity constraints.  It would not be surprising if further
+westward adjustments had to be made later today.
+
+
+FORECAST POSITIONS AND MAX WINDS
+
+INIT  19/0900Z 17.6N  42.7W   40 KT  45 MPH
+ 12H  19/1800Z 18.2N  44.0W   40 KT  45 MPH
+ 24H  20/0600Z 19.1N  46.0W   35 KT  40 MPH
+ 36H  20/1800Z 20.2N  48.1W   35 KT  40 MPH
+ 48H  21/0600Z 21.3N  50.3W   30 KT  35 MPH
+ 72H  22/0600Z 23.5N  54.8W   30 KT  35 MPH
+ 96H  23/0600Z 26.0N  57.5W   30 KT  35 MPH
+120H  24/0600Z 28.0N  59.0W   30 KT  35 MPH
+
+$$
+Forecaster Blake
+
+
+

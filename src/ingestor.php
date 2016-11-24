@@ -31,6 +31,12 @@ Utils::log("Ingest has begun from STDIN.");
 // Pipe in text from STDIN
 $m_text = stream_get_contents(STDIN);
 
+// If the text is empty, abort with a non-zero error code
+if (empty($m_text)) {
+    fwrite(STDERR, "Aborted product ingest due to empty input");
+    exit(1);
+}
+
 // Send to the factory to parse the product.
 $product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
 

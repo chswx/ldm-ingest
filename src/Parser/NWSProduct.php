@@ -9,46 +9,48 @@ namespace UpdraftNetworks\Parser;
 
 use UpdraftNetworks\Utils as Utils;
 
-class NWSProduct {
+class NWSProduct
+{
     /**
      * Raw product text (with some light cleanup).
      *
      * @var string Product text.
      */
-    var $raw_product;
+    public $raw_product;
 
     /**
      * Issuing office.
      *
      * @var string WFO
      */
-    var $office;
+    public $office;
 
     /**
      * AFOS identifier.
      *
      * @var string AFOS ID
      */
-    var $afos;
+    public $afos;
 
     /**
      * Unique stamp for this particular product.
      *
      * @var string stamp
      */
-    var $stamp;
+    public $stamp;
 
     /**
      * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
      *
      * @var mixed Array of segments
      */
-    var $segments;
+    public $segments;
 
     /**
      * Constructor.
      */
-    function __construct($prod_info, $product_text) {
+    public function __construct($prod_info, $product_text)
+    {
         // Extract info from the $prod_info array...
         $this->office = $prod_info['office'];   // Issuing office
         $this->afos = $prod_info['afos'];     // AFOS code
@@ -67,7 +69,8 @@ class NWSProduct {
      * STRONGLY recommend overriding in a WMO-specific file
      */
 
-    function parse() {
+    public function parse()
+    {
         return $this->split_product($this->raw_product);
     }
 
@@ -76,7 +79,8 @@ class NWSProduct {
      *
      * @return string Product text
      */
-    function get_product_text() {
+    public function get_product_text()
+    {
         return $this->raw_product;
     }
 
@@ -88,7 +92,8 @@ class NWSProduct {
      *
      * @return array of NWSProductSegments
      */
-    function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment') {
+    public function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment')
+    {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
@@ -109,52 +114,53 @@ class NWSProduct {
 
         return $segments;
     }
-
 }
 
-class NWSProductSegment {
+class NWSProductSegment
+{
     /**
      * Segment text
      *
      * @var string
      */
 
-    var $text;
+    public $text;
 
     /**
      * Zones for this segment.
      *
      * @var array zones
      */
-    var $zones;
+    public $zones;
 
     /**
      * Issuing time.
      *
      * @var int Timestamp
      */
-    var $issued_time;
+    public $issued_time;
 
     /**
      * Issuing WFO (from parent product)
      *
      * @var string $office
      */
-    var $office;
+    public $office;
 
     /**
      * AFOS code (from parent product)
      *
      * @var string $afos
      */
-    var $afos;
+    public $afos;
 
     /**
      * Constructor.
      *
      * @param string $segment_text
      */
-    function __construct($segment_text, $afos, $office) {
+    public function __construct($segment_text, $afos, $office)
+    {
         $this->afos = $afos;
         $this->office = $office;
         $this->text = $segment_text;
@@ -166,7 +172,8 @@ class NWSProductSegment {
      *
      * @return string Raw text of the segment
      */
-    function get_text() {
+    public function get_text()
+    {
         return $this->text;
     }
 
@@ -175,7 +182,8 @@ class NWSProductSegment {
      *
      * @return array of zones
      */
-    function get_zones() {
+    public function get_zones()
+    {
         return $this->zones;
     }
 
@@ -186,7 +194,8 @@ class NWSProductSegment {
      *
      * @return boolean Array search result - true if found, false if not
      */
-    function in_zone($zones) {
+    public function in_zone($zones)
+    {
         foreach ($zones as $zone) {
             if (in_array($zone, $this->zones)) {
                 return true;
@@ -208,7 +217,8 @@ class NWSProductSegment {
      * We will also call the function to expand the ranges here.
      * See: http://www.weather.gov/emwin/winugc.htm
      */
-    protected function parse_zones() {
+    protected function parse_zones()
+    {
         $data = $this->text;
 
         $output = str_replace(array("\r\n", "\r"), "\n", $data);
@@ -216,8 +226,9 @@ class NWSProductSegment {
         $new_lines = array();
 
         foreach ($lines as $i => $line) {
-            if (!empty($line))
+            if (!empty($line)) {
                 $new_lines[] = trim($line);
+            }
         }
         $data = implode($new_lines);
 
@@ -258,7 +269,8 @@ class NWSProductSegment {
      * All we want to do here is convert ranges like 014>016 to 014-015-016
      * See: http://www.weather.gov/emwin/winugc.htm
      */
-    protected function expand_ranges($data) {
+    protected function expand_ranges($data)
+    {
         $regex = '/(([0-9]{3})(>[0-9]{3}))/';
 
         $count = preg_match_all($regex, $data, $matches);

@@ -9,7 +9,8 @@ namespace UpdraftNetworks\Parser\Library;
 use UpdraftNetworks\Utils as Utils;
 use UpdraftNetworks\Parser\Library\Geo\Point as Point;
 
-class SMVString {
+class SMVString
+{
     /**
      *  Stores the time of the storm motion vector fix.
      *  Should only be one per segment.
@@ -17,7 +18,7 @@ class SMVString {
      *
      * @var int
      */
-    var $time;
+    public $time;
 
     /**
      * Stores the actual vector itself.
@@ -26,7 +27,7 @@ class SMVString {
      *
      * @var array
      */
-    var $motion;
+    public $motion;
 
     /**
      * Stores the coordinates of the storm fix point as set in WarnGen by the warning forecaster.
@@ -34,7 +35,7 @@ class SMVString {
      *
      * @var mixed
      */
-    var $location;
+    public $location;
 
     /**
      * Constructor. Takes in segment text and spits out the Storm Motion Vector string for that segment.
@@ -43,7 +44,8 @@ class SMVString {
      *
      * @return string Storm Motion Vector or null
      */
-    function __construct($segment_text) {
+    public function __construct($segment_text)
+    {
         $smv = $this->_extract_storm_motion_vector($segment_text);
         $this->time = $smv['time'];
         $this->motion = $smv['mot'];
@@ -59,7 +61,8 @@ class SMVString {
      *
      * @return array Array with storm motion vector data inside.
      */
-    protected function _extract_storm_motion_vector($segment_text) {
+    protected function _extract_storm_motion_vector($segment_text)
+    {
         preg_match('/TIME\.\.\.MOT\.\.\.LOC\ (\d*)Z\ (\d*)DEG\ (\d*)KT\ (.... ....)/', $segment_text, $matches);
 
         return array(
@@ -71,6 +74,4 @@ class SMVString {
             'loc' => (new Point($matches[4]))->to_array()
         );
     }
-
-
 }

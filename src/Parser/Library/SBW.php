@@ -9,10 +9,12 @@ namespace UpdraftNetworks\Parser\Library;
 use UpdraftNetworks\Utils as Utils;
 use UpdraftNetworks\Parser\Library\Geo as Geo;
 
-class SBW {
-    var $polygon = array();
+class SBW
+{
+    public $polygon = array();
 
-    function __construct($text) {
+    public function __construct($text)
+    {
         $this->polygon = $this->find_polygon($text);
     }
 
@@ -23,7 +25,8 @@ class SBW {
      *
      * @return Polygon|null
      */
-    function find_polygon($text) {
+    public function find_polygon($text)
+    {
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
         $sanitized_text = Utils::deindent(Utils::strip_newlines($text));
         // Get a clean LAT...LON string devoid of any other point types (primarily those found in TIME...MOT...LOC) to ensure quality polygons

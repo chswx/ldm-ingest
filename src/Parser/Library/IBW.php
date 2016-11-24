@@ -7,15 +7,16 @@ namespace UpdraftNetworks\Parser\Library;
 
 use UpdraftNetworks\Utils as Utils;
 
-class IBW {
-    var $tornado;
-    var $wind;
-    var $hail;
-    var $tornado_damage;
-    var $waterspout;
-    var $hazard;
-    var $source;
-    var $impact;
+class IBW
+{
+    public $tornado;
+    public $wind;
+    public $hail;
+    public $tornado_damage;
+    public $waterspout;
+    public $hazard;
+    public $source;
+    public $impact;
 
     /**
      * Constructor.
@@ -25,7 +26,8 @@ class IBW {
      *
      * @return IBW
      */
-    function __construct($segment_text) {
+    public function __construct($segment_text)
+    {
         $this->tornado = $this->find_metadata($segment_text, 'tornado');
         $this->wind = $this->find_metadata($segment_text, 'wind');
         $this->hail = $this->find_metadata($segment_text, 'hail');
@@ -39,7 +41,8 @@ class IBW {
         }
     }
 
-    function find_metadata($text, $type) {
+    public function find_metadata($text, $type)
+    {
         $type = strtoupper($type);
         if (preg_match("/$type\.\.\.(.*)/", $text, $matches)) {
             Utils::log(print_r($matches));
@@ -50,7 +53,8 @@ class IBW {
         return $matches[1];
     }
 
-    function find_impacts_in_text($text, $type) {
+    public function find_impacts_in_text($text, $type)
+    {
         // Normalize the type to uppercase.
         $type = strtoupper($type);
 
@@ -68,5 +72,4 @@ class IBW {
 
         return null;
     }
-
 }

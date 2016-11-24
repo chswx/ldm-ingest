@@ -5,53 +5,54 @@ namespace UpdraftNetworks\Parser\Library;
  * Class to assist with VTEC string operations.
  * VTECString object properties are externally accessible
  */
-class VTECString {
+class VTECString
+{
     /**
      * Raw VTEC string.
      *
      * @var string
      */
-    var $vtec_string;
+    public $vtec_string;
 
     /**
      * @var string Product class
      */
-    var $product_class;
+    public $product_class;
 
     /**
      * @var string Action
      */
-    var $action;
+    public $action;
 
     /**
      * @var string Issuing office ID
      */
-    var $office;
+    public $office;
 
     /**
      * @var string Phenomena
      */
-    var $phenomena;
+    public $phenomena;
 
     /**
      * @var string Significance
      */
-    var $significance;
+    public $significance;
 
     /**
      * @var string Event Tracking Number
      */
-    var $event_number;
+    public $event_number;
 
     /**
      * @var int Event effective time as a UNIX timestamp
      */
-    var $effective_timestamp;
+    public $effective_timestamp;
 
     /**
      * @var int Event expiration time as a UNIX timestamp
      */
-    var $expire_timestamp;
+    public $expire_timestamp;
 
     /**
      * Constructor.
@@ -59,8 +60,8 @@ class VTECString {
      *
      * @param string $product Product text.
      */
-    function __construct($vtec) {
-
+    public function __construct($vtec)
+    {
         if (is_array($vtec)) {
             $this->_create_obj($vtec);
         } else {
@@ -75,7 +76,8 @@ class VTECString {
     /**
      * Parse out the VTEC string into its properties
      */
-    private function _create_obj($vtec_string_array) {
+    private function _create_obj($vtec_string_array)
+    {
         // Save the VTEC string in its entirety
         $this->vtec_string = $vtec_string_array[0];
 
@@ -104,7 +106,8 @@ class VTECString {
         $this->expire_timestamp = $this->vtec_to_timestamp($vtec_string_array[9], $vtec_string_array[10]);
     }
 
-    private function _parse($vtec_string) {
+    private function _parse($vtec_string)
+    {
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if (preg_match($regex, $vtec_string, $matches)) {
@@ -117,7 +120,8 @@ class VTECString {
      *
      * @return boolean
      */
-    function is_operational() {
+    public function is_operational()
+    {
         return $this->product_class === 'O';
     }
 
@@ -126,7 +130,8 @@ class VTECString {
      *
      * @return boolean
      */
-    function is_test() {
+    public function is_test()
+    {
         return $this->product_class === 'T';
     }
 
@@ -135,7 +140,8 @@ class VTECString {
      *
      * @return string action
      */
-    function get_action() {
+    public function get_action()
+    {
         return $this->action;
     }
 
@@ -144,11 +150,13 @@ class VTECString {
      *
      * @return string Phenomena name
      */
-    function get_phenomena_name() {
-        if (isset($this->vtec_phenomena_codes[$this->phenomena]))
+    public function get_phenomena_name()
+    {
+        if (isset($this->vtec_phenomena_codes[$this->phenomena])) {
             return $this->vtec_phenomena_codes[$this->phenomena];
-        else
+        } else {
             return null;
+        }
     }
 
     /**
@@ -156,14 +164,17 @@ class VTECString {
      *
      * @return string Significance name
      */
-    function get_significance_name() {
-        if (isset($this->vtec_significance_codes[$this->significance]))
+    public function get_significance_name()
+    {
+        if (isset($this->vtec_significance_codes[$this->significance])) {
             return $this->vtec_significance_codes[$this->significance];
-        else
+        } else {
             return null;
+        }
     }
 
-    function get_product_name() {
+    public function get_product_name()
+    {
         if (!empty($this->get_significance_name()) && !empty($this->get_phenomena_name())) {
             return $this->get_phenomena_name() . " " . $this->get_phenomena_name();
         }
@@ -176,7 +187,8 @@ class VTECString {
      *
      * @return int UNIX timestamp
      */
-    private function vtec_to_timestamp($vtec_date, $vtec_time) {
+    private function vtec_to_timestamp($vtec_date, $vtec_time)
+    {
         // Don't bother with blank dates
         if ($vtec_date == "OOOOOO") {
             $stamp = 0;

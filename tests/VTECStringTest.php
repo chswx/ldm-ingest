@@ -1,38 +1,41 @@
 <?php
-namespace UpdraftNetworks\Ingestor\Tests;
+namespace UpdraftNetworks\Tests;
+
 use UpdraftNetworks\Parser\Library\VTECString as VTECString;
 
 require_once('vendor/autoload.php');
 
 date_default_timezone_set('UTC');
 
-class VTECStringTest extends \PHPUnit_Framework_TestCase {
+class VTECStringTest extends \PHPUnit_Framework_TestCase
+{
+    public $expireOperationalTestString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
 
-    var $expireOperationalTestString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
-
-    function testFullVtecStringParser() {
+    public function testFullVtecStringParser()
+    {
         $vtec = new VTECString($this->expireOperationalTestString);
 
-        $this->assertEquals($this->expireOperationalTestString,$vtec->vtec_string);
+        $this->assertEquals($this->expireOperationalTestString, $vtec->vtec_string);
     }
     
-    function testIsOperational() {
+    public function testIsOperational()
+    {
         $vtec = new VTECString($this->expireOperationalTestString);
         
-        $this->assertEquals(true,$vtec->is_operational());
+        $this->assertEquals(true, $vtec->is_operational());
     }
 
-    function testIsNotTest() {
+    public function testIsNotTest()
+    {
         $vtec = new VTECString($this->expireOperationalTestString);
 
-        $this->assertEquals(false,$vtec->is_test());
+        $this->assertEquals(false, $vtec->is_test());
     }
 
-    function testIsExpired() {
+    public function testIsExpired()
+    {
         $vtec = new VTECString($this->expireOperationalTestString);
 
-        $this->assertEquals('EXP',$vtec->get_action());
+        $this->assertEquals('EXP', $vtec->get_action());
     }
-
 }
-

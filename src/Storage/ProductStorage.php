@@ -4,10 +4,12 @@ namespace UpdraftNetworks\Storage;
 
 use r;
 
-class ProductStorage {
-    var $conn;
+class ProductStorage
+{
+    public $conn;
 
-    function __construct() {
+    public function __construct()
+    {
         $this->conn = r\connect('localhost');   // TODO: make configurable
         $this->conn->useDb('updraft');
     }
@@ -18,7 +20,8 @@ class ProductStorage {
      * @param $product mixed Array of product data to be inserted into the database
      * @param $table   string Table to write to
      */
-    function send($product, $table = 'products') {
+    public function send($product, $table = 'products')
+    {
         $product_class = get_class($product);
         // Today in PHP Is Terrible: Encoding and then decoding the product to get an object->array conversion
         // Seems to be the only way this will work!
@@ -34,7 +37,8 @@ class ProductStorage {
      * @param $product mixed Array of product data to attach to the record
      * @param $record
      */
-    function update($product, $record) {
+    public function update($product, $record)
+    {
         return;
     }
 
@@ -46,7 +50,8 @@ class ProductStorage {
      *
      * @return Prepared object for database insertion
      */
-    function prepare_location_data($product, $product_class) {
+    public function prepare_location_data($product, $product_class)
+    {
         switch ($product_class) {
             case 'UpdraftNetworks\Parser\VTEC':
                 $prepped = $this->_prepare_vtec($product);
@@ -56,7 +61,8 @@ class ProductStorage {
         return $product;
     }
 
-    private function _prepare_vtec($product) {
+    private function _prepare_vtec($product)
+    {
         $prepped_segments = array();
         foreach ($product->segments as $segment) {
             if (isset($segment->smv->location)) {
@@ -72,5 +78,4 @@ class ProductStorage {
 
         return $product;
     }
-
 }

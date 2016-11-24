@@ -13,12 +13,15 @@ use UpdraftNetworks\Parser\Library\SMVString as SMVString;
 use UpdraftNetworks\Parser\Library\IBW as IBW;
 use UpdraftNetworks\Parser\Library\SBW as SBW;
 
-class VTEC extends NWSProduct {
-    function __construct($prod_info, $prod_text) {
+class VTEC extends NWSProduct
+{
+    public function __construct($prod_info, $prod_text)
+    {
         parent::__construct($prod_info, $prod_text);
     }
 
-    function parse() {
+    public function parse()
+    {
         return $this->split_product($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
     }
 }
@@ -26,32 +29,34 @@ class VTEC extends NWSProduct {
 /**
  * Extends the NWSProductSegment with attributes specific to VTEC-enabled products.
  */
-class VTECSegment extends NWSProductSegment {
+class VTECSegment extends NWSProductSegment
+{
     /**
      * Array of VTEC strings.
      *
      * @var array VTECString
      */
-    var $vtec_strings;
+    public $vtec_strings;
 
     /**
      * Storm motion vector info.
      *
      * @var array SMVString
      */
-    var $smv;
+    public $smv;
 
     /**
      * Impact-based warning info (if available.)
      */
-    var $impacts;
+    public $impacts;
 
     /**
      * Storm-based warning polygon geometry (if available)
      */
-    var $polygon;
+    public $polygon;
 
-    function __construct($segment_text, $afos, $office) {
+    public function __construct($segment_text, $afos, $office)
+    {
         parent::__construct($segment_text, $afos, $office);
         $this->vtec_strings = $this->parse_vtec();
         // Only attempt to parse out storm motion vector and impact-based information for:
@@ -81,7 +86,8 @@ class VTECSegment extends NWSProductSegment {
      * @return array VTEC strings
      * @return boolean false if failure
      */
-    function get_vtec() {
+    public function get_vtec()
+    {
         if (!empty($this->vtec_strings)) {
             foreach ($this->vtec_strings as $vtec_string) {
                 $strings[] = $vtec_string;
@@ -100,7 +106,8 @@ class VTECSegment extends NWSProductSegment {
      *
      * @return  boolean
      */
-    function has_vtec() {
+    public function has_vtec()
+    {
         return !empty($this->vtec_strings);
     }
 
@@ -109,7 +116,8 @@ class VTECSegment extends NWSProductSegment {
      *
      * @return boolean
      */
-    function parse_vtec() {
+    public function parse_vtec()
+    {
         $data = $this->text;
         $vtec_strings = array();
 
@@ -125,4 +133,3 @@ class VTECSegment extends NWSProductSegment {
         return $vtec_strings;
     }
 }
-

@@ -8,7 +8,8 @@ namespace UpdraftNetworks\Ingestor;
 use UpdraftNetworks\Utils as Utils;
 use UpdraftNetworks\Parser as Parser;
 
-class NWSProductFactory {
+class NWSProductFactory
+{
     /**
      * Dispatches a sanitized product to its parser.
      * It's up to the parser to generate and relay appropriate events.
@@ -17,12 +18,13 @@ class NWSProductFactory {
      *
      * @return Parsed Product object.
      */
-    public static function get_product($product_text) {
+    public static function getProduct($product_text)
+    {
         // Get WMO header and issuing office
-        $prod_info = self::get_product_details($product_text);
+        $prod_info = self::getProductDetails($product_text);
 
         // Select a route (database and parser) based on AFOS
-        $route = self::get_route_from_afos($prod_info['afos']);
+        $route = self::getRouteFromAfos($prod_info['afos']);
 
         Utils::log("Attempting to use {$route['parser']}");
 
@@ -33,8 +35,8 @@ class NWSProductFactory {
             // Instantiate the class
             Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
             $product = new $parser($prod_info, $product_text);
-        } // It's not here...return a generic parsing library.
-        else {
+        } else {
+            // It's not here...return a generic parsing library.
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
             $product = new Parser\GenericProduct($prod_info, $product_text);
         }
@@ -51,7 +53,8 @@ class NWSProductFactory {
      *
      * @return array WMO header ID, issuing office, and AWIPS code
      */
-    public static function get_product_details($product_text) {
+    public static function getProductDetails($product_text)
+    {
         $text_array = Utils::make_array($product_text);
         $wmo_and_office = explode(' ', $text_array[1]);
         $wmo = $wmo_and_office[0];
@@ -74,61 +77,55 @@ class NWSProductFactory {
      *
      * @return array Parser to use and DB table to store
      */
-    public static function get_route_from_afos($afos) {
+    public static function getRouteFromAfos($afos)
+    {
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)
         if (preg_match('(MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS|FLW|FFW|FFS|HLS|TSU|WOU)', $afos)) {
             $parser = 'VTEC';
             $table = 'wwa';
-        }
-        // SPS parsing
-        // (SPS)
-        else if (strpos($afos, 'SPS') !== false) {
+        } elseif (strpos($afos, 'SPS') !== false) {
+            // SPS parsing
+            // (SPS)
             $parser = 'SPS';
             $table = 'sps';
-        }
-        // Watch Probabilities
-        // ^WWUS(40 KMKC|30 KWNS)
-        else if (strpos($afos, 'WWP') !== false) {
+        } elseif (strpos($afos, 'WWP') !== false) {
+            // Watch Probabilities
+            // ^WWUS(40 KMKC|30 KWNS)
             $parser = "WatchProbs";
             $table = 'spc_watch';
-        }
-        // Public Watch Notification
-        // WWUS20
-        else if (strpos($afos, 'SEL') !== false) {
+        } elseif (strpos($afos, 'SEL') !== false) {
+            // Public Watch Notification
+            // WWUS20
             $parser = "PublicWatch";
             $table = 'spc_watch';
-        }
-        // Mesoscale convective discussions
-        // (SWOMCD)
-        else if (preg_match('(SWOMCD)', $afos)) {
+        } elseif (preg_match('(SWOMCD)', $afos)) {
+            // Mesoscale convective discussions
+            // (SWOMCD)
             $parser = "MesoDisc";
             $table = 'mesodisc';
-        }
-        // SPC outlook points
-        // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
-        else if (preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
+        } elseif (preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
+            // SPC outlook points
+            // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
             $parser = "OutlookPoints";
             $table = 'spc_outlook';
-        } // SPC outlook text
-        else if (preg_match('(SWODY)', $afos)) {
+        } elseif (preg_match('(SWODY)', $afos)) {
+            // SPC outlook text
             $parser = "OutlookText";
             $table = 'spc_outlook';
-        }
-        // Local Storm Reports
-        // (LSR)
-        else if (strpos($afos, 'LSR') !== false) {
+        } elseif (strpos($afos, 'LSR') !== false) {
+            // Local Storm Reports
+            // (LSR)
             $parser = "LSR";
             $table = 'lsr';
-        } // Mesoscale precipitation discussions from WPC (FFGMPD)
-        else if (preg_match('(FFGMPD)', $afos)) {
+        } elseif (preg_match('(FFGMPD)', $afos)) {
+            // Mesoscale precipitation discussions from WPC (FFGMPD)
             $parser = "MesoDisc";
             $table = 'wpc_mpd';
-        }
-        // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
-        // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
-        else if (preg_match('/RBG(94|98|99)E/', $afos)) {
+        } elseif (preg_match('/RBG(94|98|99)E/', $afos)) {
+            // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
+            // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
             $parser = "WPCOutlook";
             $table = "wpc_outlook";
         } else {

@@ -90,7 +90,7 @@ class Utils
         error_log($message, 0);
     }
 
-    public static function exit_with_error($message, $code = 1)
+    public static function exitWithError($message, $code = 1)
     {
         fwrite(STDERR, $message);
         exit($code);

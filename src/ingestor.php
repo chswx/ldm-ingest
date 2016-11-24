@@ -33,12 +33,11 @@ $m_text = stream_get_contents(STDIN);
 
 // If the text is empty, abort with a non-zero error code
 if (empty($m_text)) {
-    fwrite(STDERR, "Aborted product ingest due to empty input");
-    exit(1);
+    Utils::exitWithError("Aborting ingest due to empty input");
 }
 
 // Send to the factory to parse the product.
-$product_obj = NWSProductFactory::get_product(Utils::sanitize($m_text));
+$product_obj = NWSProductFactory::getProduct(Utils::sanitize($m_text));
 
 // If we're not null, victory! Encode and send on its merry way
 if (!is_null($product_obj)) {

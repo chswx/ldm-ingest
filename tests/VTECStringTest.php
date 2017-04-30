@@ -1,13 +1,14 @@
 <?php
 namespace UpdraftNetworks\Tests;
 
-use UpdraftNetworks\Parser\Library\VTECString as VTECString;
+use UpdraftNetworks\Parser\Library\VTECString;
+use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');
 
 date_default_timezone_set('UTC');
 
-class VTECStringTest extends \PHPUnit_Framework_TestCase
+class VTECStringTest extends TestCase
 {
     public $expireOperationalTestString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
 

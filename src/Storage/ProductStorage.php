@@ -3,6 +3,7 @@
 namespace UpdraftNetworks\Storage;
 
 use r;
+use UpdraftNetworks\Utils as Utils;
 
 class ProductStorage
 {
@@ -10,8 +11,12 @@ class ProductStorage
 
     public function __construct()
     {
-        $this->conn = r\connect('localhost');   // TODO: make configurable
-        $this->conn->useDb('updraft');
+        try {
+            $this->conn = r\connect('localhost');   // TODO: make configurable
+            $this->conn->useDb('updraft');
+        } catch (Exception $e) {
+            Utils::log("Error when trying to initialize the database: " . $e->getMessage());
+        }
     }
 
     /**

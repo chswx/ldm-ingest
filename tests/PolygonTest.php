@@ -1,12 +1,13 @@
 <?php
 namespace UpdraftNetworks\Ingestor\Tests;
 
-use UpdraftNetworks\Parser\Library\Geo\Polygon as Polygon;
+use UpdraftNetworks\Parser\Library\Geo\Polygon;
+use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');
 
 date_default_timezone_get('UTC');
 
-class PolygonTest extends \PHPUnit_Framework_TestCase
+class PolygonTest extends TestCase
 {
 }

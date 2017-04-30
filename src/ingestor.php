@@ -23,6 +23,9 @@ include(dirname(dirname(__FILE__)) . '/conf/chswx.conf.php');
 
 // Handle to DB
 $db = new ProductStorage;
+if (empty($db->conn)) {
+    Utils::exitWithError("Aborting due to database initialization failure.");
+}
 
 // #10: Pipe in products from the LDM vs. reading in written files.
 // This gives us a level of concurrence that we wouldn't otherwise have...

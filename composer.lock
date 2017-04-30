@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec5df8cd9b2595e717595dfb4a04e7ab",
     "content-hash": "2a53267fac1e097e4501b6801fa11420",
     "packages": [
         {
@@ -59,7 +58,7 @@
                 "reql",
                 "rethinkdb"
             ],
-            "time": "2016-05-31 01:55:32"
+            "time": "2016-05-31T01:55:32+00:00"
         }
     ],
     "packages-dev": [],

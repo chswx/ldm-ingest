@@ -1,5 +1,5 @@
 <?php
-namespace UpdraftNetworks\Tests;
+namespace UpdraftNetworks\Parser\Library\Tests;
 
 use UpdraftNetworks\Parser\Library\VTECString;
 use PHPUnit\Framework\TestCase;

@@ -115,4 +115,3 @@ class NWSProduct
         return $segments;
     }
 }
-

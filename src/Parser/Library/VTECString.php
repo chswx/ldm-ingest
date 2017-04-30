@@ -69,6 +69,46 @@ class VTECString
         }
     }
 
+    /**
+     * Checks if an operational VTEC string.
+     *
+     * @return boolean
+     */
+    public function isOperational()
+    {
+        return $this->product_class === 'O';
+    }
+
+    /**
+     * Checks if a test VTEC product.
+     *
+     * @return boolean
+     */
+    public function isTest()
+    {
+        return $this->product_class === 'T';
+    }
+
+    /**
+     * Returns the action type from the VTEC dictionary.
+     *
+     * @return string action
+     */
+    public function getAction()
+    {
+        return $this->action;
+    }
+
+    /**
+     * Returns the Event Tracking Number.
+     *
+     * @return int ETN
+     */
+    public function getETN()
+    {
+        return $this->event_number;
+    }
+
     ///
     /// Private functions /////////////////////////////////////////////////
     ///
@@ -113,73 +153,6 @@ class VTECString
         if (preg_match($regex, $vtec_string, $matches)) {
             $this->_create_obj($matches);
         }
-    }
-
-    /**
-     * Checks if an operational VTEC string.
-     *
-     * @return boolean
-     */
-    public function is_operational()
-    {
-        return $this->product_class === 'O';
-    }
-
-    /**
-     * Checks if a test VTEC product.
-     *
-     * @return boolean
-     */
-    public function is_test()
-    {
-        return $this->product_class === 'T';
-    }
-
-    /**
-     * Returns the action type from the VTEC dictionary.
-     *
-     * @return string action
-     */
-    public function get_action()
-    {
-        return $this->action;
-    }
-
-    /**
-     * Return the phenomena name from the global dictionary.
-     *
-     * @return string Phenomena name
-     */
-    public function get_phenomena_name()
-    {
-        if (isset($this->vtec_phenomena_codes[$this->phenomena])) {
-            return $this->vtec_phenomena_codes[$this->phenomena];
-        } else {
-            return null;
-        }
-    }
-
-    /**
-     * Return the significance name from the global dictionary.
-     *
-     * @return string Significance name
-     */
-    public function get_significance_name()
-    {
-        if (isset($this->vtec_significance_codes[$this->significance])) {
-            return $this->vtec_significance_codes[$this->significance];
-        } else {
-            return null;
-        }
-    }
-
-    public function get_product_name()
-    {
-        if (!empty($this->get_significance_name()) && !empty($this->get_phenomena_name())) {
-            return $this->get_phenomena_name() . " " . $this->get_phenomena_name();
-        }
-
-        return null;
     }
 
     /**

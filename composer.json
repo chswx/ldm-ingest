@@ -1,6 +1,11 @@
 {
+    "name": "chswx/ldm-ingest",
+    "description": "Receives products from Unidata's LDM and parses them into JSON, which can then be reused in many, many wonderful ways.",
     "require": {
         "danielmewes/php-rql": "^2.2"
+    },
+    "require-dev": {
+        "phpunit": "6.1.*"
     },
     "autoload": {
         "psr-4": {

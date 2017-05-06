@@ -58,7 +58,7 @@ class VTECSegment extends NWSProductSegment
     public function __construct($segment_text, $afos, $office)
     {
         parent::__construct($segment_text, $afos, $office);
-        $this->vtec_strings = $this->parse_vtec();
+        $this->vtec_strings = $this->parseVTEC();
         // Only attempt to parse out storm motion vector and impact-based information for:
         // - tornado warnings
         // - severe thunderstorm warnings
@@ -69,6 +69,7 @@ class VTECSegment extends NWSProductSegment
             $this->smv = new SMVString($segment_text);
             $this->impacts = new IBW($segment_text);
         }
+        
         // Respect the polygon!
         $sbw = new SBW($segment_text);
         $this->polygon = $sbw->polygon;
@@ -86,7 +87,7 @@ class VTECSegment extends NWSProductSegment
      * @return array VTEC strings
      * @return boolean false if failure
      */
-    public function get_vtec()
+    public function getVTEC()
     {
         if (!empty($this->vtec_strings)) {
             foreach ($this->vtec_strings as $vtec_string) {
@@ -106,7 +107,7 @@ class VTECSegment extends NWSProductSegment
      *
      * @return  boolean
      */
-    public function has_vtec()
+    public function hasVTEC()
     {
         return !empty($this->vtec_strings);
     }
@@ -116,7 +117,7 @@ class VTECSegment extends NWSProductSegment
      *
      * @return boolean
      */
-    public function parse_vtec()
+    public function parseVTEC()
     {
         $data = $this->text;
         $vtec_strings = array();

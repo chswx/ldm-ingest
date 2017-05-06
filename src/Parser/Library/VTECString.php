@@ -89,6 +89,11 @@ class VTECString
         return $this->product_class === 'T';
     }
 
+    public function isUpgrade()
+    {
+        return $this->product_class === 'U';
+    }
+
     /**
      * Returns the action type from the VTEC dictionary.
      *

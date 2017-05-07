@@ -44,9 +44,7 @@ class IBW
     public function find_metadata($text, $type)
     {
         $type = strtoupper($type);
-        if (preg_match("/$type\.\.\.(.*)/", $text, $matches)) {
-            Utils::log(print_r($matches));
-        } else {
+        if (!preg_match("/$type\.\.\.(.*)/", $text, $matches)) {
             return null;
         }
 

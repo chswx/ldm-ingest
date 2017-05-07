@@ -59,7 +59,7 @@ class ProductStorage
     {
         switch ($product_class) {
             case 'UpdraftNetworks\Parser\VTEC':
-                $prepped = $this->_prepare_vtec($product);
+                $product = $this->_prepare_vtec($product);
                 break;
         }
 

@@ -13,14 +13,14 @@ class Polygon
      *
      * @var array
      */
-    private $coordinates = array();
+    public $coordinates = array();
 
     /**
      * Type of item (for GeoJSON)
      *
      * @var string
      */
-    private $type;
+    public $type;
 
     /**
      * Constructor.

@@ -12,6 +12,7 @@ use UpdraftNetworks\Parser\Library\VTECString as VTECString;
 use UpdraftNetworks\Parser\Library\SMVString as SMVString;
 use UpdraftNetworks\Parser\Library\IBW as IBW;
 use UpdraftNetworks\Parser\Library\SBW as SBW;
+use UpdraftNetworks\Utils;
 
 class VTEC extends NWSProduct
 {
@@ -58,7 +59,7 @@ class VTECSegment extends NWSProductSegment
     public function __construct($segment_text, $afos, $office)
     {
         parent::__construct($segment_text, $afos, $office);
-        $this->vtec_strings = $this->parseVTEC();
+        $this->vtec_strings = $this->parseVTEC($segment_text);
         // Only attempt to parse out storm motion vector and impact-based information for:
         // - tornado warnings
         // - severe thunderstorm warnings
@@ -72,6 +73,7 @@ class VTECSegment extends NWSProductSegment
         
         // Respect the polygon!
         $sbw = new SBW($segment_text);
+        print_r($sbw);
         $this->polygon = $sbw->polygon;
     }
 
@@ -117,9 +119,9 @@ class VTECSegment extends NWSProductSegment
      *
      * @return boolean
      */
-    public function parseVTEC()
+    public function parseVTEC($segment_text)
     {
-        $data = $this->text;
+        $data = $segment_text;
         $vtec_strings = array();
 
         // Fun regex to find VTEC strings

@@ -73,7 +73,6 @@ class VTECSegment extends NWSProductSegment
         
         // Respect the polygon!
         $sbw = new SBW($segment_text);
-        print_r($sbw);
         $this->polygon = $sbw->polygon;
     }
 

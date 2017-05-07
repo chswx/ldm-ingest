@@ -47,7 +47,6 @@ if (!is_null($product_obj)) {
     $table = $product_obj->table;
     // Unset the table now to prevent storing the name of the table along with the product
     unset($product_obj->table);
-    unset($product_obj->raw_product);
     // Send to our product storage system
     $db->send($product_obj, $table);
 

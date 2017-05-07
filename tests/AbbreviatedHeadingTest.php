@@ -11,6 +11,10 @@ date_default_timezone_set('UTC');
 
 class AbbreviatedHeadingTest extends TestCase
 {
+    /**
+     * @covers AbbreviatedHeading::__construct
+     * @covers AbbreviatedHeading::generateTimestampFromWMO
+     */
     public function testTimestampGenerator()
     {
         $heading = new AbbreviatedHeading("WFUS52 KCHS 221432");
@@ -22,6 +26,28 @@ class AbbreviatedHeadingTest extends TestCase
             1495463520,
             $heading->generateTimestampFromWMO($timestamp, $seed_timestamp),
             "Did not get equal times"
+        );
+    }
+
+    public function testCorrections()
+    {
+        $heading = new AbbreviatedHeading("WFUS52 KCHS 221432 CCA");
+        
+        $this->assertEquals(
+            "CCA",
+            $heading->amendment,
+            "Amendment was not equal to CCA"
+        );
+    }
+
+    public function testNoCorrections()
+    {
+        $heading = new AbbreviatedHeading("WFUS52 KCHS 221432");
+
+        $this->assertEquals(
+            null,
+            $heading->amendment,
+            'Amendment was not null'
         );
     }
 }

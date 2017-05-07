@@ -28,12 +28,21 @@ class AbbreviatedHeading
      */
     public $timestamp;
 
+    /**
+     * Revisions or corrections should be found here.
+     */
+    public $amendment;
+
     public function __construct($wmo_header)
     {
         $wmo_header_arr = explode(' ', $wmo_header);
         $this->id = $wmo_header_arr[0];
         $this->office = $wmo_header_arr[1];
         $this->timestamp = $this->generateTimestampFromWMO($wmo_header_arr[2], time());
+        $this->amendment = null;
+        if (isset($wmo_header_arr[3])) {
+            $this->amendment = $wmo_header_arr[3];
+        }
     }
 
     /**

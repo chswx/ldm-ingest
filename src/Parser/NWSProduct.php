@@ -47,6 +47,13 @@ class NWSProduct
     public $segments;
 
     /**
+     * Issuance time as set in the WMO abbreviated header.
+     *
+     * @var int
+     */
+    public $timestamp;
+
+    /**
      * Constructor.
      */
     public function __construct($prod_info, $product_text)
@@ -54,6 +61,7 @@ class NWSProduct
         // Extract info from the $prod_info array...
         $this->office = $prod_info['office'];   // Issuing office
         $this->afos = $prod_info['afos'];     // AFOS code
+        $this->timestamp = $prod_info['timestamp'];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
         // Parse the product out into segments if not already done by a more specialized parser.
@@ -61,7 +69,7 @@ class NWSProduct
             $this->segments = $this->parse();
         }
         // Set up the product stamp.
-        $this->stamp = Utils::generate_stamp($this->afos, time());
+        $this->stamp = Utils::generate_stamp($this->afos, $this->timestamp);
     }
 
     /**

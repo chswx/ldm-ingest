@@ -21,13 +21,6 @@ class NWSProductSegment
     public $zones;
 
     /**
-     * Issuing time.
-     *
-     * @var int Timestamp
-     */
-    public $issued_time;
-
-    /**
      * Issuing WFO (from parent product)
      *
      * @var string $office

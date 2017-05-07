@@ -52,6 +52,13 @@ class Utils
         return trim(str_replace("\n", " ", $text));
     }
 
+    /**
+     * Remove indents from the text. Important for IBW applications.
+     *
+     * @param string $text Text to deindent
+     *
+     * @return string
+     */
     public static function deindent($text)
     {
         return trim(preg_replace('/\s\s+/', " ", $text));
@@ -72,7 +79,13 @@ class Utils
         return $coords_prepped;
     }
 
-
+    /**
+     * Generate a unique identifier for the incoming product.
+     *
+     * @param string $afos AFOS identifier
+     *
+     * @return string
+     */
     public static function generate_stamp($afos, $timestamp)
     {
         return $afos . '-' . $timestamp;

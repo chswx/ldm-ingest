@@ -48,6 +48,7 @@ if (!is_null($product_obj)) {
     // Unset the table now to prevent storing the name of the table along with the product
     unset($product_obj->table);
     // Send to our product storage system
+    Utils::log(json_encode($product_obj));
     $db->send($product_obj, $table);
 
     // Have you heard the good word of our properly parsed product?

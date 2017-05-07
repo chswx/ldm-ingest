@@ -56,9 +56,10 @@ class NWSProductFactory
     public static function getProductDetails($product_text)
     {
         $text_array = Utils::make_array($product_text);
-        $wmo_and_office = explode(' ', $text_array[1]);
-        $wmo = $wmo_and_office[0];
-        $office = $wmo_and_office[1];
+        $wmo_header = new Parser\Library\WMO\AbbreviatedHeading($text_array[1]);
+        $wmo = $wmo_header->id;
+        $office = $wmo_header->office;
+        $timestamp = $wmo_header->timestamp;
         $afos = trim($text_array[2]);
 
         Utils::log("Product WMO: " . $wmo . '; Office: ' . $office . '; AFOS code: ' . $afos);
@@ -66,7 +67,8 @@ class NWSProductFactory
         return array(
             'wmo' => $wmo,
             'office' => $office,
-            'afos' => $afos
+            'afos' => $afos,
+            'timestamp' => $timestamp
         );
     }
 

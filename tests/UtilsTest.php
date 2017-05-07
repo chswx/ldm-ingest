@@ -2,7 +2,7 @@
 
 namespace UpdraftNetworks\Tests;
 
-use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Utils;
 use PHPUnit\Framework\TestCase;
 
 require_once 'vendor/autoload.php';

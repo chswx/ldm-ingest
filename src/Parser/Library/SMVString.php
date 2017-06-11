@@ -47,9 +47,11 @@ class SMVString
     public function __construct($segment_text)
     {
         $smv = $this->_extract_storm_motion_vector($segment_text);
-        $this->time = $smv['time'];
-        $this->motion = $smv['mot'];
-        $this->location = $smv['loc'];
+        if (!is_null($smv)) {
+            $this->time = $smv['time'];
+            $this->motion = $smv['mot'];
+            $this->location = $smv['loc'];
+        }
     }
 
     /**
@@ -64,6 +66,10 @@ class SMVString
     protected function _extract_storm_motion_vector($segment_text)
     {
         preg_match('/TIME\.\.\.MOT\.\.\.LOC\ (\d*)Z\ (\d*)DEG\ (\d*)KT\ (.... ....)/', $segment_text, $matches);
+
+        if(empty($matches)) {
+            return null;
+        }
 
         return array(
             'time' => (int)$matches[1],

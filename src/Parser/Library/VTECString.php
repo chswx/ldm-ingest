@@ -42,7 +42,7 @@ class VTECString
     /**
      * @var string Event Tracking Number
      */
-    public $event_number;
+    public $etn;
 
     /**
      * @var int Event effective time as a UNIX timestamp
@@ -111,7 +111,7 @@ class VTECString
      */
     public function getETN()
     {
-        return $this->event_number;
+        return $this->etn;
     }
 
     ///
@@ -142,7 +142,7 @@ class VTECString
         $this->significance = $vtec_string_array[5];
 
         // VTEC event number
-        $this->event_number = $vtec_string_array[6];
+        $this->etn = $vtec_string_array[6];
 
         // Effective time (as UNIX timestamp)
         $this->effective_timestamp = $this->vtec_to_timestamp($vtec_string_array[7], $vtec_string_array[8]);

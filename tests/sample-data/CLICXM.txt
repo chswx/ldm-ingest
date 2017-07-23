@@ -1,0 +1,78 @@
+
+000
+CDUS42 KCHS 222120
+CLICXM
+
+
+CLIMATE REPORT
+NATIONAL WEATHER SERVICE CHARLESTON SC
+519 PM EDT SAT JUL 22 2017
+
+
+...................................
+
+...THE DOWNTOWN CHARLESTON SC CLIMATE SUMMARY FOR JULY 22 2017...
+VALID TODAY AS OF 0500 PM LOCAL TIME.
+
+CLIMATE NORMAL PERIOD 1981 TO 2010
+CLIMATE RECORD PERIOD 1870 TO 2017
+
+
+WEATHER ITEM   OBSERVED TIME   RECORD YEAR NORMAL DEPARTURE
+                VALUE   (LST)  VALUE       VALUE  FROM
+                                                  NORMAL
+...............................................................
+TEMPERATURE (F)
+ TODAY
+  MAXIMUM         88   1140 AM 103    1977  88      0
+  MINIMUM         80    110 AM  63    1929  77      3
+  AVERAGE         84                        83      1
+
+PRECIPITATION (IN)
+  TODAY            0.00          5.44 1919   0.17  -0.17
+  MONTH TO DATE    5.64                      3.69   1.95
+  SINCE JUN 1     14.52                      8.34   6.18
+  SINCE JAN 1     31.51                     21.78   9.73
+
+DEGREE DAYS
+ COOLING
+  TODAY           19                        17      2
+  MONTH TO DATE  389                       374     15
+  SINCE JUN 1    811                       802      9
+  SINCE JAN 1   1347                      1160    187
+...............................................................
+
+
+WIND (MPH)
+  HIGHEST WIND SPEED    12   HIGHEST WIND DIRECTION     S (180)
+  HIGHEST GUST SPEED    15   HIGHEST GUST DIRECTION     S (180)
+  AVERAGE WIND SPEED     5.5
+
+
+
+
+..........................................................
+
+
+THE DOWNTOWN CHARLESTON SC CLIMATE NORMALS FOR TOMORROW
+                         NORMAL    RECORD    YEAR
+ MAXIMUM TEMPERATURE (F)   88       100      1940
+ MINIMUM TEMPERATURE (F)   77        69      1974
+
+
+SUNRISE AND SUNSET
+JULY 22 2017..........SUNRISE   627 AM EDT   SUNSET   825 PM EDT
+JULY 23 2017..........SUNRISE   628 AM EDT   SUNSET   824 PM EDT
+
+
+-  INDICATES NEGATIVE NUMBERS.
+R  INDICATES RECORD WAS SET OR TIED.
+MM INDICATES DATA IS MISSING.
+T  INDICATES TRACE AMOUNT.
+
+
+
+
+$$
+
+

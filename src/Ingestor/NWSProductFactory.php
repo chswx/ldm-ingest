@@ -33,7 +33,7 @@ class NWSProductFactory
 
         if (class_exists($parser)) {
             // Instantiate the class
-            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
+            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']} (product stamp ");
             $product = new $parser($prod_info, $product_text);
         } else {
             // It's not here...return a generic parsing library.
@@ -130,6 +130,9 @@ class NWSProductFactory
             // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
             $parser = "WPCOutlook";
             $table = "wpc_outlook";
+        } elseif (strpos($afos, 'CLI') !== false) {
+            $parser = "Climate";
+            $table = "climate";
         } else {
             $parser = "GenericProduct";
             $table = 'misc';

@@ -1,0 +1,106 @@
+
+000
+CDUS42 KCHS 222120
+CLICHS
+
+
+CLIMATE REPORT
+NATIONAL WEATHER SERVICE CHARLESTON SC
+519 PM EDT SAT JUL 22 2017
+
+
+...................................
+
+...THE NORTH CHARLESTON SC CLIMATE SUMMARY FOR JULY 22 2017...
+VALID TODAY AS OF 0500 PM LOCAL TIME.
+
+CLIMATE NORMAL PERIOD 1981 TO 2010
+CLIMATE RECORD PERIOD 1938 TO 2017
+
+
+WEATHER ITEM   OBSERVED TIME   RECORD YEAR NORMAL DEPARTURE LAST
+                VALUE   (LST)  VALUE       VALUE  FROM      YEAR
+                                                  NORMAL
+..................................................................
+TEMPERATURE (F)
+ TODAY
+  MAXIMUM         92    257 PM 101    1977  91      1       93
+  MINIMUM         75    426 AM  64    1974  73      2       73
+                                      1965
+  AVERAGE         84                        82      2       83
+
+PRECIPITATION (IN)
+  TODAY            0.00          1.93 1988   0.20  -0.20     1.69
+  MONTH TO DATE    5.81                      4.66   1.15     4.09
+  SINCE JUN 1     12.28                     10.31   1.97     7.23
+  SINCE JAN 1     27.44                     26.62   0.82    27.98
+
+SNOWFALL (IN)
+  TODAY            0.0                       0.0    0.0
+  SINCE JUN 1      0.0                       0.0    0.0
+  SINCE JUL 1      0.0                       0.0    0.0
+
+DEGREE DAYS
+ HEATING
+  TODAY            0                         0      0        0
+  MONTH TO DATE    0                         0      0        0
+  SINCE JUN 1      0                         1     -1        0
+  SINCE JUL 1      0                         0      0        0
+
+ COOLING
+  TODAY           19                        17      2       18
+  MONTH TO DATE  396                       371     25      462
+  SINCE JUN 1    806                       792     14      987
+  SINCE JAN 1   1381                      1154    227     1482
+..................................................................
+
+
+WIND (MPH)
+  HIGHEST WIND SPEED    13   HIGHEST WIND DIRECTION     S (200)
+  HIGHEST GUST SPEED    16   HIGHEST GUST DIRECTION    SW (210)
+  AVERAGE WIND SPEED     6.0
+
+
+SKY COVER
+  POSSIBLE SUNSHINE  MM
+  AVERAGE SKY COVER 0.1
+
+
+WEATHER CONDITIONS
+ THE FOLLOWING WEATHER WAS RECORDED TODAY.
+  NO SIGNIFICANT WEATHER WAS OBSERVED.
+
+
+RELATIVE HUMIDITY (PERCENT)
+ HIGHEST    94          1200 AM
+ LOWEST     52           100 PM
+ AVERAGE    73
+
+..........................................................
+
+
+THE NORTH CHARLESTON SC CLIMATE NORMALS FOR TOMORROW
+                         NORMAL    RECORD    YEAR
+ MAXIMUM TEMPERATURE (F)   91        99      2015
+                                             1952
+                                             1940
+ MINIMUM TEMPERATURE (F)   73        60      1974
+                                             1966
+
+
+SUNRISE AND SUNSET
+JULY 22 2017..........SUNRISE   627 AM EDT   SUNSET   826 PM EDT
+JULY 23 2017..........SUNRISE   628 AM EDT   SUNSET   825 PM EDT
+
+
+-  INDICATES NEGATIVE NUMBERS.
+R  INDICATES RECORD WAS SET OR TIED.
+MM INDICATES DATA IS MISSING.
+T  INDICATES TRACE AMOUNT.
+
+
+
+
+$$
+
+

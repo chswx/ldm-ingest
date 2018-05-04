@@ -13,7 +13,7 @@ class ProductStorage
     {
         try {
             $this->conn = r\connect('localhost');   // TODO: make configurable
-            $this->conn->useDb('updraft');
+            $this->conn->useDb('chswx');
         } catch (Exception $e) {
             Utils::log("Error when trying to initialize the database: " . $e->getMessage());
         }

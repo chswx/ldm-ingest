@@ -6,8 +6,8 @@
 
 namespace UpdraftNetworks\Parser\Library;
 
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Parser\Library\Geo as Geo;
+use UpdraftNetworks\Utils;
+use UpdraftNetworks\Parser\Library\Geo;
 
 class SBW
 {

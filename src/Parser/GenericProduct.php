@@ -5,7 +5,7 @@
 
 namespace UpdraftNetworks\Parser;
 
-use UpdraftNetworks\Parser\NWSProduct as NWSProduct;
+use UpdraftNetworks\Parser\NWSProduct;
 
 class GenericProduct extends NWSProduct
 {

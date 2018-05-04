@@ -145,10 +145,10 @@ class VTECString
         $this->etn = $vtec_string_array[6];
 
         // Effective time (as UNIX timestamp)
-        $this->effective_timestamp = $this->vtec_to_timestamp($vtec_string_array[7], $vtec_string_array[8]);
+        $this->effective_timestamp = $this->vtecToTimestamp($vtec_string_array[7], $vtec_string_array[8]);
 
         // Expire time (as UNIX timestamp)
-        $this->expire_timestamp = $this->vtec_to_timestamp($vtec_string_array[9], $vtec_string_array[10]);
+        $this->expire_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
     }
 
     private function _parse($vtec_string)
@@ -165,7 +165,7 @@ class VTECString
      *
      * @return int UNIX timestamp
      */
-    private function vtec_to_timestamp($vtec_date, $vtec_time)
+    private function vtecToTimestamp($vtec_date, $vtec_time)
     {
         // Don't bother with blank dates
         if ($vtec_date == "OOOOOO") {

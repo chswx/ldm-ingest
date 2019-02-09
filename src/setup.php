@@ -36,8 +36,8 @@ $tables = array(
     'geo_cities',       // Badly designed websites
     'geo_counties',     // County outlines in GeoJSON
     'geo_custom_locs',  // Custom locations
-    'products'          // Bucket for incoming products
-
+    'products',         // All incoming products
+    'events'            // Events for specific alerts
 );
 
 echo "Setting up database tables for the @chswx LDM bridge...\n";

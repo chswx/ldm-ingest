@@ -5,8 +5,8 @@
 
 namespace UpdraftNetworks\Ingestor;
 
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Parser as Parser;
+use UpdraftNetworks\Utils;
+use UpdraftNetworks\Parser;
 
 class NWSProductFactory
 {
@@ -77,7 +77,7 @@ class NWSProductFactory
      *
      * @param string $afos AFOS string
      *
-     * @return array Parser to use and DB table to store
+     * @return array Parser to use
      */
     public static function getRouteFromAfos($afos)
     {

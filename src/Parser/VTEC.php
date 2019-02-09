@@ -23,7 +23,7 @@ class VTEC extends NWSProduct
 
     public function parse()
     {
-        return $this->split_product($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
+        return $this->splitProduct($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
     }
 }
 

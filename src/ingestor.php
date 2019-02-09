@@ -44,11 +44,12 @@ $product_obj = NWSProductFactory::getProduct(Utils::sanitize($m_text));
 
 // If we're not null, victory! Encode and send on its merry way
 if (!is_null($product_obj)) {
-    $table = 'products';
+    var_dump($product_obj);
+    /*$table = 'products';
     // Unset the table now to prevent storing the name of the table along with the product
     unset($product_obj->table);
     // Send to our product storage system
-    $db->send($product_obj, $table);
+    $db->send($product_obj, $table);*/
 
     // Have you heard the good word of our properly parsed product?
     Utils::log("Parsed product {$product_obj->afos} from {$product_obj->office} successfully");

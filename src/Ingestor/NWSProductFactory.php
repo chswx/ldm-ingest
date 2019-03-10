@@ -29,7 +29,6 @@ class NWSProductFactory
         Utils::log("Attempting to use {$route['parser']}");
 
         $parser = $route['parser'];
-        $table = $route['table'];
 
         if (class_exists($parser)) {
             // Instantiate the class
@@ -40,8 +39,6 @@ class NWSProductFactory
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
             $product = new Parser\GenericProduct($prod_info, $product_text);
         }
-
-        $product->table = $table;
 
         return $product;
     }

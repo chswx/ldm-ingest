@@ -23,7 +23,7 @@ class ProductStorage
      * Inserts a product into the database.
      *
      * @param $product mixed Array of product data to be inserted into the database
-     * @param $table   string Table to write to
+     * @param $table   string Table to write to (default is 'products')
      */
     public function send($product, $table = 'products')
     {

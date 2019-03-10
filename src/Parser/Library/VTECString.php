@@ -58,7 +58,7 @@ class VTECString
      * Constructor.
      * Take product text and parse out VTEC string(s).
      *
-     * @param string $product Product text.
+     * @param array|string $vtec Product text.
      */
     public function __construct($vtec)
     {

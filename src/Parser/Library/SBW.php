@@ -6,8 +6,8 @@
 
 namespace UpdraftNetworks\Parser\Library;
 
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Parser\Library\Geo as Geo;
+use UpdraftNetworks\Utils;
+use UpdraftNetworks\Parser\Library\Geo;
 
 class SBW
 {
@@ -15,7 +15,7 @@ class SBW
 
     public function __construct($text)
     {
-        $this->polygon = $this->find_polygon($text);
+        $this->polygon = $this->findPolygon($text);
     }
 
     /**
@@ -25,7 +25,7 @@ class SBW
      *
      * @return Polygon|null
      */
-    public function find_polygon($text)
+    public function findPolygon($text)
     {
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
         $sanitized_text = Utils::deindent(Utils::strip_newlines($text));
@@ -39,7 +39,6 @@ class SBW
             }
 
             // Return a GeoJSON polygon.
-
             return (new Geo\Polygon($coords_arr));
         }
 

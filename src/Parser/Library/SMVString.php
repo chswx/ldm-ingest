@@ -46,7 +46,7 @@ class SMVString
      */
     public function __construct($segment_text)
     {
-        $smv = $this->_extract_storm_motion_vector($segment_text);
+        $smv = $this->extractStormMotionVector($segment_text);
         if (!is_null($smv)) {
             $this->time = $smv['time'];
             $this->motion = $smv['mot'];
@@ -63,11 +63,11 @@ class SMVString
      *
      * @return array Array with storm motion vector data inside.
      */
-    protected function _extract_storm_motion_vector($segment_text)
+    protected function extractStormMotionVector($segment_text)
     {
         preg_match('/TIME\.\.\.MOT\.\.\.LOC\ (\d*)Z\ (\d*)DEG\ (\d*)KT\ (.... ....)/', $segment_text, $matches);
 
-        if(empty($matches)) {
+        if (empty($matches)) {
             return null;
         }
 

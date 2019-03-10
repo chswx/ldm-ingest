@@ -6,12 +6,12 @@
 
 namespace UpdraftNetworks\Parser;
 
-use UpdraftNetworks\Parser\NWSProduct as NWSProduct;
-use UpdraftNetworks\Parser\NWSProductSegment as NWSProductSegment;
-use UpdraftNetworks\Parser\Library\VTECString as VTECString;
-use UpdraftNetworks\Parser\Library\SMVString as SMVString;
-use UpdraftNetworks\Parser\Library\IBW as IBW;
-use UpdraftNetworks\Parser\Library\SBW as SBW;
+use UpdraftNetworks\Parser\NWSProduct;
+use UpdraftNetworks\Parser\NWSProductSegment;
+use UpdraftNetworks\Parser\Library\VTECString;
+use UpdraftNetworks\Parser\Library\SMVString;
+use UpdraftNetworks\Parser\Library\IBW;
+use UpdraftNetworks\Parser\Library\SBW;
 use UpdraftNetworks\Utils;
 
 class VTEC extends NWSProduct
@@ -23,7 +23,7 @@ class VTEC extends NWSProduct
 
     public function parse()
     {
-        return $this->split_product($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
+        return $this->splitProduct($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
     }
 }
 

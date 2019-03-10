@@ -1,0 +1,61 @@
+
+000
+WUUS52 KCHS 291630
+SVRCHS
+SCC013-053-291730-
+/O.NEW.KCHS.SV.W.0070.180929T1630Z-180929T1730Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Charleston SC
+1230 PM EDT SAT SEP 29 2018
+
+The National Weather Service in Charleston has issued a
+
+* Severe Thunderstorm Warning for portions of...
+  Beaufort County in southeastern South Carolina...
+  Jasper County in southeastern South Carolina...
+
+* Until 130 PM EDT.
+
+* At 1229 PM EDT, a severe thunderstorm was located near Ridgeland,
+  moving southeast at 10 mph.
+
+  HAZARD...60 mph wind gusts.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and powerlines.
+
+* Locations impacted include...
+  Hilton Head Island, Bluffton, Beaufort, Port Royal, Ridgeland,
+  Jasper, Hardeeville and Grahamville.
+
+This warning includes I-95 in South Carolina between mile markers 8
+and 23.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Continuous cloud to ground lightning is occurring with these storms.
+Move indoors immediately. If this is not possible, avoid open outdoor
+spaces and remain low. Stay away from tall objects such as trees and
+utility poles.
+
+Torrential rainfall is occurring with this storm, and may lead to
+flash flooding. Do not drive your vehicle through flooded roadways.
+
+Report damage directly to the Charleston National Weather Service at
+1-888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3236 8115 3252 8095 3249 8083 3246 8083
+      3248 8082 3236 8040 3232 8041 3228 8045
+      3225 8057 3212 8072 3207 8084
+TIME...MOT...LOC 1629Z 300DEG 9KT 3242 8096 
+
+HAIL...<.75IN
+WIND...60MPH
+ 
+$$
+

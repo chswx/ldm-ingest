@@ -5,7 +5,7 @@
 
 namespace UpdraftNetworks\Parser\Library;
 
-use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Utils;
 
 class IBW
 {

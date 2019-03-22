@@ -57,6 +57,7 @@ echo "{$count} tables created\n";
 // Set up geospatial index
 if (defined('IMPORT_GEOSPATIAL')) {
     echo "Importing geospatial data...\n";
+    echo "Step 1: Cities\n";
     $file = '../data/awips_cities_geojson.geojson';
     $json = file_get_contents($file);
     $decoded = json_decode($json);
@@ -72,13 +73,20 @@ if (defined('IMPORT_GEOSPATIAL')) {
             echo "$complete record of $total complete\n";
         }
     }
+
+    echo "Step 2: Counties\n";
+
+    
+
+    // Set up geospatial indexes
+    echo "Setting up geospatial indexes...\n";
+    try {
+        r\table('geo_cities')->indexCreateGeo('geometry')->run($conn);
+    } catch (r\Exceptions\RQLServerError $e) {
+        echo "Index may already exist.\n";
+    }
 }
 
-echo "Setting up indexes...\n";
-try {
-    r\table('geo_cities')->indexCreateGeo('geometry')->run($conn);
-} catch (r\Exceptions\RQLServerError $e) {
-    echo "Index may already exist.\n";
-}
+
 echo "Setup complete\n";
 exit(0);

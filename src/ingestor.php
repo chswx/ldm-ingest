@@ -44,6 +44,8 @@ $product_obj = NWSProductFactory::getProduct(Utils::sanitize($m_text));
 
 // If we're not null, victory! Encode and send on its merry way
 if (!is_null($product_obj)) {
+    // set a source for the product so we can sniff this out as needed.
+    $product_obj->src = "ldm";
     $db->send($product_obj);
 
     // Have you heard the good word of our properly parsed product?

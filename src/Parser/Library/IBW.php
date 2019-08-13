@@ -28,12 +28,12 @@ class IBW
      */
     public function __construct($segment_text)
     {
-        $this->tornado = $this->find_metadata($segment_text, 'tornado');
-        $this->wind = $this->find_metadata($segment_text, 'wind');
-        $this->hail = $this->find_metadata($segment_text, 'hail');
-        $this->tornado_damage = $this->find_metadata($segment_text, 'tornado damage threat');
-        $this->waterspout = $this->find_metadata($segment_text, 'waterspout');
-        $impacts = $this->find_impacts_in_text($segment_text, "hazard");
+        $this->tornado = $this->findMetadata($segment_text, 'tornado');
+        $this->wind = $this->findMetadata($segment_text, 'wind');
+        $this->hail = $this->findMetadata($segment_text, 'hail');
+        $this->tornado_damage = $this->findMetadata($segment_text, 'tornado damage threat');
+        $this->waterspout = $this->findMetadata($segment_text, 'waterspout');
+        $impacts = $this->findImpactsInText($segment_text, "hazard");
         if (!is_null($impacts)) {
             $this->hazard = $impacts[0];
             $this->source = $impacts[1];
@@ -41,7 +41,7 @@ class IBW
         }
     }
 
-    public function find_metadata($text, $type)
+    public function findMetadata($text, $type)
     {
         $type = strtoupper($type);
         if (!preg_match("/$type\.\.\.(.*)/", $text, $matches)) {
@@ -51,7 +51,7 @@ class IBW
         return $matches[1];
     }
 
-    public function find_impacts_in_text($text, $type)
+    public function findImpactsInText($text, $type)
     {
         // Normalize the type to uppercase.
         $type = strtoupper($type);

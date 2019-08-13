@@ -86,7 +86,7 @@ class Utils
      *
      * @return string
      */
-    public static function generate_stamp($afos, $timestamp)
+    public static function generateStamp($afos, $timestamp)
     {
         return $afos . '-' . $timestamp;
     }

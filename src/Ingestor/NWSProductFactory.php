@@ -12,7 +12,6 @@ class NWSProductFactory
 {
     /**
      * Dispatches a sanitized product to its parser.
-     * It's up to the parser to generate and relay appropriate events.
      *
      * @param string $product_text Sanitized product text.
      *

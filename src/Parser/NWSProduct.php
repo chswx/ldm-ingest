@@ -7,7 +7,7 @@
 
 namespace UpdraftNetworks\Parser;
 
-use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Utils;
 
 class NWSProduct
 {
@@ -79,7 +79,7 @@ class NWSProduct
 
     public function parse()
     {
-        return $this->split_product($this->raw_product);
+        return $this->splitProduct($this->raw_product);
     }
 
     /**
@@ -100,7 +100,7 @@ class NWSProduct
      *
      * @return array of NWSProductSegments
      */
-    public function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment')
+    public function splitProduct($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment')
     {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings

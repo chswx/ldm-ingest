@@ -31,7 +31,7 @@ class Utils
      *
      * @return array
      */
-    public static function make_array($text)
+    public static function makeArray($text)
     {
         if (strpos("\x00..\x1F", $text) || strpos("\r\r\n", $text)) {
             $text = self::sanitize($text);

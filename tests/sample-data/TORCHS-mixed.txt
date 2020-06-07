@@ -1,0 +1,57 @@
+
+000
+WFUS52 KCHS 110315
+TORCHS
+SCC013-053-110345-
+/O.NEW.KCHS.TO.W.0005.181011T0315Z-181011T0345Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+1115 PM EDT WED OCT 10 2018
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Beaufort County in southeastern South Carolina...
+  Jasper County in southeastern South Carolina...
+
+* Until 1145 PM EDT.
+    
+* At 1114 PM EDT, a severe thunderstorm capable of producing a
+  tornado was located over Hilton Head Island, moving north at 50
+  mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include...
+  Hilton Head Island, Bluffton, Beaufort, Port Royal, Clarendon,
+  Coosawhatchie, Gardens Corner and Lemon Island.
+
+This warning includes I-95 in South Carolina between mile markers 27
+and 32.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Tornadoes from tropical storms or hurricanes can form and move very
+quickly. TAKE COVER IMMEDIATELY! If you wait until you hear a tornado
+it could be too late. Take action now to immediately protect
+yourself.
+
+&&
+
+LAT...LON 3208 8087 3261 8096 3262 8066 3260 8065
+      3259 8063 3217 8066 3212 8072 3208 8081
+TIME...MOT...LOC 0314Z 176DEG 44KT 3217 8077 
+
+TORNADO...RADAR INDICATED
+HAIL...0.00IN
+
+$$

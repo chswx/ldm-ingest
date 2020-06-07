@@ -2,7 +2,7 @@
 
 namespace UpdraftNetworks\Parser;
 
-use UpdraftNetworks\Utils as Utils;
+use UpdraftNetworks\Utils;
 
 class NWSProductSegment
 {

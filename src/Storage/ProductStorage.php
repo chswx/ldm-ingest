@@ -13,7 +13,7 @@ class ProductStorage
     {
         try {
             $this->conn = r\connect('localhost');   // TODO: make configurable
-            $this->conn->useDb('updraft');
+            $this->conn->useDb('chswx');
         } catch (Exception $e) {
             Utils::log("Error when trying to initialize the database: " . $e->getMessage());
         }
@@ -23,7 +23,7 @@ class ProductStorage
      * Inserts a product into the database.
      *
      * @param $product mixed Array of product data to be inserted into the database
-     * @param $table   string Table to write to
+     * @param $table   string Table to write to (default is 'products')
      */
     public function send($product, $table = 'products')
     {

@@ -14,7 +14,7 @@ class Point
      *
      * @var array
      */
-    var $coordinates = array();
+    private $coordinates = array();
 
     /**
      * GeoJSON type.
@@ -35,7 +35,7 @@ class Point
         return $this;
     }
 
-    public function to_array()
+    public function toArray()
     {
         return array('coordinates' => $this->coordinates, 'type' => $this->type);
     }

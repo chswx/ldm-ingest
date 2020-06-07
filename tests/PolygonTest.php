@@ -24,6 +24,6 @@ class PolygonTest extends TestCase
         );
         $expected = array('type' => 'Polygon', 'coordinates' => array($polygon_with_last_coord));
         $actual = new Polygon($polygon);
-        $this->assertEquals($expected, $actual->to_array(), 'Arrays did not match');
+        $this->assertEquals($expected, $actual->toArray(), 'Arrays did not match');
     }
 }

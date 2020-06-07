@@ -77,7 +77,7 @@ class SMVString
                 'vector' => (int)$matches[2],
                 'speed' => (int)$matches[3]
             ),
-            'loc' => (new Point($matches[4]))->to_array()
+            'loc' => (new Point($matches[4]))->toArray()
         );
     }
 }

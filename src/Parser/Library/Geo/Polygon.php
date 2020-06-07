@@ -36,7 +36,7 @@ class Polygon
         $this->coordinates = array($coords_arr);
     }
 
-    public function to_array()
+    public function toArray()
     {
         return array('type' => $this->type, 'coordinates' => $this->coordinates);
     }

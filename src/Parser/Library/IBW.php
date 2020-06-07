@@ -57,7 +57,7 @@ class IBW
         $type = strtoupper($type);
 
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
-        $sanitized_text = Utils::deindent(Utils::strip_newlines($text));
+        $sanitized_text = Utils::deindent(Utils::stripNewlines($text));
         if (preg_match('/HAZARD\.\.\.(.*)SOURCE\.\.\.(.*)IMPACT\.\.\.(.*)(?=\*)/', $sanitized_text, $matches)) {
             $impacts = array();
             unset($matches[0]);

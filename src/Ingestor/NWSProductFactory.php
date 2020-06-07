@@ -7,6 +7,7 @@ namespace UpdraftNetworks\Ingestor;
 
 use UpdraftNetworks\Utils;
 use UpdraftNetworks\Parser;
+use UpdraftNetworks\Parser\ProductTypes\GenericProduct;
 
 class NWSProductFactory
 {
@@ -36,7 +37,7 @@ class NWSProductFactory
         } else {
             // It's not here...return a generic parsing library.
             Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
-            $product = new Parser\GenericProduct($prod_info, $product_text);
+            $product = new GenericProduct($prod_info, $product_text);
         }
 
         return $product;
@@ -120,6 +121,6 @@ class NWSProductFactory
             $parser = "GenericProduct";
         }
 
-        return array('parser' => 'UpdraftNetworks\\Parser\\' . $parser, 'table' => $table);
+        return array('parser' => 'UpdraftNetworks\\Parser\\ProductTypes\\' . $parser);
     }
 }

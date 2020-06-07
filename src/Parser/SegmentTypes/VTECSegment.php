@@ -1,31 +1,11 @@
 <?php
-/**
- * VTEC parser.
- * Designed specifically for parsing VTEC-enabled products.
- */
+namespace UpdraftNetworks\Parser\SegmentTypes;
 
-namespace UpdraftNetworks\Parser;
-
-use UpdraftNetworks\Parser\NWSProduct;
 use UpdraftNetworks\Parser\NWSProductSegment;
-use UpdraftNetworks\Parser\Library\VTECString;
 use UpdraftNetworks\Parser\Library\SMVString;
 use UpdraftNetworks\Parser\Library\IBW;
 use UpdraftNetworks\Parser\Library\SBW;
-use UpdraftNetworks\Utils;
-
-class VTEC extends NWSProduct
-{
-    public function __construct($prod_info, $prod_text)
-    {
-        parent::__construct($prod_info, $prod_text);
-    }
-
-    public function parse()
-    {
-        return $this->splitProduct($this->raw_product, 'UpdraftNetworks\\Parser\\VTECSegment');
-    }
-}
+use UpdraftNetworks\Parser\Library\VTECString;
 
 /**
  * Extends the NWSProductSegment with attributes specific to VTEC-enabled products.
@@ -83,24 +63,21 @@ class VTECSegment extends NWSProductSegment
     //
 
     /**
-     * Get VTEC strings if they exist...otherwise, return false
+     * Get VTEC strings if they exist. Returns a blank array if there are none found.
      *
      * @return array VTEC strings
-     * @return boolean false if failure
      */
     public function getVTEC()
     {
+        $strings = array();
         if (!empty($this->vtec_strings)) {
             foreach ($this->vtec_strings as $vtec_string) {
                 $strings[] = $vtec_string;
             }
-
-            // Return an array of VTEC strings
-            return $strings;
         }
 
-        // No VTEC string found
-        return null;
+        // Return an array of VTEC strings
+        return $strings;
     }
 
     /**

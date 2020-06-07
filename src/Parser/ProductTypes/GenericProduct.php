@@ -3,7 +3,7 @@
  * Generic product ingestor. Fallback for non-specific products.
  */
 
-namespace UpdraftNetworks\Parser;
+namespace UpdraftNetworks\Parser\ProductTypes;
 
 use UpdraftNetworks\Parser\NWSProduct;
 

@@ -1,13 +1,13 @@
 #!/usr/bin/php
 <?php
+namespace UpdraftNetworks\Ingestor;
+
 /*
  * LDM Product Ingestor
  * Command-line tool
  * Main entry point for LDM ingest. This hands off to a factory which generates a class for specific products.
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
-
-namespace UpdraftNetworks\Ingestor;
 
 use UpdraftNetworks\Utils as Utils;
 use UpdraftNetworks\Storage\ProductStorage as ProductStorage;

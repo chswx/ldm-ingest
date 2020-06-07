@@ -31,7 +31,7 @@ class ProductStorage
         // Today in PHP Is Terrible: Encoding and then decoding the product to get an object->array conversion
         // Seems to be the only way this will work!
         $encoded_product = json_decode(json_encode($product));
-        $encoded_product = $this->prepare_location_data($encoded_product, $product_class);
+        $encoded_product = $this->prepareLocationData($encoded_product, $product_class);
         $result = r\table($table)->insert($encoded_product)->run($this->conn);
     }
 
@@ -55,18 +55,18 @@ class ProductStorage
      *
      * @return Prepared object for database insertion
      */
-    public function prepare_location_data($product, $product_class)
+    public function prepareLocationData($product, $product_class)
     {
         switch ($product_class) {
             case 'UpdraftNetworks\Parser\VTEC':
-                $product = $this->_prepare_vtec($product);
+                $product = $this->prepareVtec($product);
                 break;
         }
 
         return $product;
     }
 
-    private function _prepare_vtec($product)
+    private function prepareVtec($product)
     {
         $prepped_segments = array();
         foreach ($product->segments as $segment) {

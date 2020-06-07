@@ -114,6 +114,35 @@ class VTECString
         return $this->etn;
     }
 
+    public function getPhen()
+    {
+        return $this->phenomena;
+    }
+
+    public function getSig()
+    {
+        return $this->significance;
+    }
+
+    /**
+     * Get phenomena and signficance.
+     *
+     * @return string
+     */
+    public function getPhenSig()
+    {
+        return $this->phenomena . "." . $this->significance;
+    }
+
+    /**
+     * Returns the three-character WFO identifier.
+     * @return string
+     */
+    public function getOffice()
+    {
+        return substr($this->office, 1);
+    }
+
     ///
     /// Private functions /////////////////////////////////////////////////
     ///

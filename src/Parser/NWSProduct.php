@@ -54,16 +54,25 @@ class NWSProduct
     public $timestamp;
 
     /**
+     * Channels to send this product to for dissemination.
+     *
+     * @var \array
+     */
+    public $channels;
+
+    /**
      * Constructor.
      */
     public function __construct($prod_info, $product_text)
     {
         // Extract info from the $prod_info array...
         $this->office = $prod_info['office'];   // Issuing office
-        $this->afos = $prod_info['afos'];     // AFOS code
+        $this->afos = $prod_info['afos'];       // AWIPS/AFOS PIL
         $this->timestamp = $prod_info['timestamp'];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
+        // Generate initial channels for this product
+        $this->generateChannels();
         // Parse the product out into segments if not already done by a more specialized parser.
         if (empty($this->segments)) {
             $this->segments = $this->parse();
@@ -117,9 +126,36 @@ class NWSProduct
         }
 
         foreach ($raw_segments as $segment) {
-            $segments[] = new $class($segment, $this->afos, $this->office);
+            $segments[] = new $class($segment, $this);
         }
 
         return $segments;
+    }
+
+    /**
+     * Generates channels for dissemination. These can be used upstream for targeting of specific messages to different media (tweets, email, text, etc.)
+     * Specialized parsers should call this and then populate with their own additional channels as appropriate.
+     *
+     * @return void
+     */
+    public function generateChannels()
+    {
+        // Initialize if needed.
+        if (empty($this->channels)) {
+            $this->channels = array();
+        }
+        // Adds the PIL and issuing office to the channels list by default
+        $this->appendChannels(array(substr($this->office, 1), $this->afos));
+    }
+
+    /**
+     * Helper function to allow segments to add to the channels list for this product.
+     *
+     * @param array $newChannels
+     * @return void
+     */
+    public function appendChannels(array $newChannels)
+    {
+        $this->channels = array_merge($this->channels, $newChannels);
     }
 }

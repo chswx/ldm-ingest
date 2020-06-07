@@ -36,9 +36,9 @@ class VTECSegment extends NWSProductSegment
      */
     public $polygon;
 
-    public function __construct($segment_text, $afos, $office)
+    public function __construct($segment_text, $parentProduct)
     {
-        parent::__construct($segment_text, $afos, $office);
+        parent::__construct($segment_text, $parentProduct);
         $this->vtec_strings = $this->parseVTEC($segment_text);
         // Only attempt to parse out storm motion vector and impact-based information for:
         // - tornado warnings
@@ -54,6 +54,9 @@ class VTECSegment extends NWSProductSegment
         // Respect the polygon!
         $sbw = new SBW($segment_text);
         $this->polygon = $sbw->polygon;
+
+        // Append additional channels as needed
+        $parentProduct->appendChannels($this->generateChannels());
     }
 
     //
@@ -110,5 +113,27 @@ class VTECSegment extends NWSProductSegment
         }
 
         return $vtec_strings;
+    }
+
+    public function generateChannels()
+    {
+        $channels = array();
+
+        if (!empty($this->vtec_strings)) {
+            foreach ($this->vtec_strings as $vtec_string) {
+                // Add channels for phenomena and significance
+                $channels[] = $vtec_string->getPhenSig();
+                // Add channels for phenomena and signficance by office
+                $channels[] = $vtec_string->getPhenSig() . "." . $vtec_string->getOffice();
+                // Add phensig channels for zones attached to this warning
+                foreach ($this->getZones() as $zone) {
+                    $channels[] = $vtec_string->getPhenSig() . "." . $zone;
+                }
+                // Add phensig and action channels
+                $channels[] = $vtec_string->getPhenSig() . '.' . $vtec_string->getAction();
+            }
+        }
+
+        return $channels;
     }
 }

@@ -35,7 +35,7 @@ class NWSProductSegment
     public $afos;
 
     /**
-     * Constructor.
+     * Basic constructor for product segments. Will be called explicitly by subclasses.
      *
      * @param string $segment_text
      */

@@ -30,7 +30,7 @@ class Point
     public function __construct($coords)
     {
         $this->type = "Point";
-        $this->coordinates = Utils::convert_coords_to_geojson($coords);
+        $this->coordinates = Utils::convertCoordsToGeojson($coords);
 
         return $this;
     }

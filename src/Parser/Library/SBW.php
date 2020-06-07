@@ -28,14 +28,14 @@ class SBW
     public function findPolygon($text)
     {
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
-        $sanitized_text = Utils::deindent(Utils::strip_newlines($text));
+        $sanitized_text = Utils::deindent(Utils::stripNewlines($text));
         // Get a clean LAT...LON string devoid of any other point types (primarily those found in TIME...MOT...LOC) to ensure quality polygons
         $clean_lat_lon_string = explode("TIME...MOT...LOC", $sanitized_text);
         // If we have matches, loop through and convert them to normal coordinates
         if (preg_match_all('/(\d{4}\s\d{4})/', $clean_lat_lon_string[0], $matches)) {
             $coords_arr = array();
             foreach ($matches[0] as $point) {
-                $coords_arr[] = Utils::convert_coords_to_geojson($point);
+                $coords_arr[] = Utils::convertCoordsToGeojson($point);
             }
 
             // Return a GeoJSON polygon.

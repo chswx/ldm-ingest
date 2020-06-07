@@ -69,7 +69,7 @@ class NWSProduct
             $this->segments = $this->parse();
         }
         // Set up the product stamp.
-        $this->stamp = Utils::generate_stamp($this->afos, $this->timestamp);
+        $this->stamp = Utils::generateStamp($this->afos, $this->timestamp);
     }
 
     /**
@@ -87,7 +87,7 @@ class NWSProduct
      *
      * @return string Product text
      */
-    public function get_product_text()
+    public function getProductText()
     {
         return $this->raw_product;
     }

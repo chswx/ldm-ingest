@@ -47,7 +47,7 @@ class Utils
      *
      * @return string
      */
-    public static function strip_newlines($text)
+    public static function stripNewlines($text)
     {
         return trim(str_replace("\n", " ", $text));
     }
@@ -64,7 +64,7 @@ class Utils
         return trim(preg_replace('/\s\s+/', " ", $text));
     }
 
-    public static function convert_coords_to_geojson($coords)
+    public static function convertCoordsToGeojson($coords)
     {
         // Take the format LLLL OOOO
         // Explode into array
@@ -86,7 +86,7 @@ class Utils
      *
      * @return string
      */
-    public static function generate_stamp($afos, $timestamp)
+    public static function generateStamp($afos, $timestamp)
     {
         return $afos . '-' . $timestamp;
     }

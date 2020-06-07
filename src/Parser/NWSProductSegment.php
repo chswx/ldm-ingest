@@ -39,12 +39,13 @@ class NWSProductSegment
      *
      * @param string $segment_text
      */
-    public function __construct($segment_text, $afos, $office)
+    public function __construct(string $segment_text, NWSProduct $parentProduct)
     {
-        $this->afos = $afos;
-        $this->office = $office;
+        $this->afos = $parentProduct->afos;
+        $this->office = $parentProduct->office;
         $this->text = $segment_text;
         $this->zones = Utils::parseZones($this->text);
+        $parentProduct->appendChannels($this->generateZoneChannels());
     }
 
     /**
@@ -58,7 +59,7 @@ class NWSProductSegment
     }
 
     /**
-     * Return the zones for this product.
+     * Return the zones for this product segment.
      *
      * @return array of zones
      */
@@ -69,6 +70,7 @@ class NWSProductSegment
 
     /**
      * Was this product issued for a particular zone(s)?
+     * Note: Unclear we are going to need this going forward.
      *
      * @param array $zones Array of zone codes to check against
      *
@@ -85,5 +87,17 @@ class NWSProductSegment
         }
 
         return $array_search_result;
+    }
+
+    public function generateZoneChannels()
+    {
+        $channels = array();
+        // Pair AWIPS PIL with zones.
+        foreach ($this->zones as $zone) {
+            $channels[] = $zone;
+            $channels[] = $this->afos . "." . $zone;
+        }
+
+        return $channels;
     }
 }

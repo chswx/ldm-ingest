@@ -13,7 +13,7 @@ class IBWTest extends TestCase
 {
     protected $mixed_ibw;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->mixed_tor_ibw = new IBW(file_get_contents(getcwd() . '/tests/sample-data/TORCHS-mixed.txt'));
         $this->svr_ibw = new IBW(file_get_contents(getcwd() . '/tests/sample-data/SVRCHS.txt'));

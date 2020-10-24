@@ -13,15 +13,30 @@ namespace chswx\LDMIngest;
 use chswx\LDMIngest\Utils;
 use chswx\LDMIngest\Ingestor;
 use chswx\LDMIngest\Storage\ProductStorage;
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+use Dotenv;
 
 // Begin timing execution
 $time_start = microtime(true);
+
+// Default exit code
+$exit_code = 0;
 
 // Include composer autoload
 include(dirname(dirname(__FILE__)) . '/vendor/autoload.php');
 
 // Configuration
 include(dirname(dirname(__FILE__)) . '/conf/chswx.conf.php');
+
+// Include environment
+$env = Dotenv\Dotenv::create(dirname(dirname(__FILE__)));
+$env->load();
+
+// Set up logging
+$log = new Logger('alerter');
+// Cast the log level to an int so that it can be properly read in from environment vars
+$log->pushHandler(new StreamHandler($_ENV['LOG_OUTPUT'], (int) $_ENV['LOG_LEVEL']));
 
 // Handle to DB
 $db = new ProductStorage();
@@ -55,11 +70,8 @@ if (!is_null($product_obj)) {
     Utils::log("Channels: " . implode(', ', $product_obj->channels));
 } else {
     // Something went wrong
-    Utils::log("Error parsing.");
+    Utils::log("Error parsing.", 'error');
+    $exit_code = 1;
 }
 
-// Finish logging execution, log and get out
-$time_end = microtime(true);
-$time = $time_end - $time_start;
-Utils::log("Ingest has run. Execution time: $time seconds");
-exit(0);
+Utils::exit($exit_code);

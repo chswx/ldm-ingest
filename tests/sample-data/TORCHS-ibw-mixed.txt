@@ -1,0 +1,54 @@
+178
+WFUS52 KCHS 131154
+TORCHS
+SCC015-131230-
+/O.NEW.KCHS.TO.W.0010.200413T1154Z-200413T1230Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+754 AM EDT Mon Apr 13 2020
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Berkeley County in southeastern South Carolina...
+
+* Until 830 AM EDT.
+
+* At 753 AM EDT, a tornado producing storm was located 7 miles west
+  of Jamestown, moving east at 45 mph.
+
+  HAZARD...Damaging tornado.
+
+  SOURCE...Radar confirmed tornado.
+
+  IMPACT...Flying debris will be dangerous to those caught without
+           shelter. Mobile homes will be damaged or destroyed.
+           Damage to roofs, windows, and vehicles will occur.  Tree
+           damage is likely.
+
+* Locations impacted include...
+  Jamestown.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+To repeat, a tornado is on the ground. TAKE COVER NOW! Move to an
+interior room on the lowest floor of a sturdy building. Avoid
+windows. If you are outdoors, in a mobile home, or in a vehicle, move
+to the closest substantial shelter and protect yourself from flying
+debris.
+
+&&
+
+LAT...LON 3337 7980 3338 7979 3332 7974 3332 7970
+      3330 7966 3329 7963 3326 7955 3325 7955
+      3315 7987 3334 7994 3338 7981
+TIME...MOT...LOC 1153Z 251DEG 38KT 3327 7982
+
+TORNADO...OBSERVED
+HAIL...<.75IN
+
+$$
+
+SPR

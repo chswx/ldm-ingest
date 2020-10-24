@@ -179,9 +179,17 @@ class Utils
      * @param   string  $message    The message to log
      * @param   string  $level      The level to log at, notice by default (currently unused, needs some work)
      */
-    public static function log($message, $level = 'NOTICE')
+    public static function log($message, $level = 'notice')
     {
-        error_log($message, 0);
+        global $log;
+
+        // For compatibility with older calls
+        $level = strtolower($level);
+        // Info = notice in PHP land
+        if ($level === 'notice') {
+            $level = 'info';
+        }
+        call_user_func([$log, $level], $message);
     }
 
     /**
@@ -202,8 +210,22 @@ class Utils
      */
     public static function exitWithError($message, $code = 1)
     {
-        self::log($message, 'ERROR');
-        fwrite(STDERR, $message);
-        exit($code);
+        global $log;
+        $log->error($message);
+        self::exit($code);
+    }
+
+    /**
+     * Exit the application.
+     */
+    public static function exit(int $exit_code)
+    {
+        global $time_start, $log;
+
+        $execution_time = microtime(true) - $time_start;
+        $with_errors = $exit_code != 0 ? " with errors (exit code {$exit_code})" : '';
+
+        $log->info("Script completed in {$execution_time} seconds{$with_errors}.");
+        exit($exit_code);
     }
 }

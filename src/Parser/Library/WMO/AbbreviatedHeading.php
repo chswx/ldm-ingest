@@ -1,6 +1,6 @@
 <?php
 
-namespace UpdraftNetworks\Parser\Library\WMO;
+namespace chswx\LDMIngest\Parser\Library\WMO;
 
 /**
  * Defines a WMO-compatible Abbreviated Heading.

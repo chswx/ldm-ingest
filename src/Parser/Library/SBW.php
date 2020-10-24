@@ -1,13 +1,14 @@
 <?php
+
 /**
  * Storm-based warnings
  * Respect the polygon!
  */
 
-namespace UpdraftNetworks\Parser\Library;
+namespace chswx\LDMIngest\Parser\Library;
 
-use UpdraftNetworks\Utils;
-use UpdraftNetworks\Parser\Library\Geo;
+use chswx\LDMIngest\Utils;
+use chswx\LDMIngest\Parser\Library\Geo;
 
 class SBW
 {
@@ -29,7 +30,8 @@ class SBW
     {
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
         $sanitized_text = Utils::deindent(Utils::stripNewlines($text));
-        // Get a clean LAT...LON string devoid of any other point types (primarily those found in TIME...MOT...LOC) to ensure quality polygons
+        // Get a clean LAT...LON string devoid of any other point types
+        // (primarily those found in TIME...MOT...LOC) to ensure quality polygons
         $clean_lat_lon_string = explode("TIME...MOT...LOC", $sanitized_text);
         // If we have matches, loop through and convert them to normal coordinates
         if (preg_match_all('/(\d{4}\s\d{4})/', $clean_lat_lon_string[0], $matches)) {

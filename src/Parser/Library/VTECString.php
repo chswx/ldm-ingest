@@ -1,5 +1,6 @@
 <?php
-namespace UpdraftNetworks\Parser\Library;
+
+namespace chswx\LDMIngest\Parser\Library;
 
 /**
  * Class to assist with VTEC string operations.
@@ -63,9 +64,9 @@ class VTECString
     public function __construct($vtec)
     {
         if (is_array($vtec)) {
-            $this->_create_obj($vtec);
+            $this->createObj($vtec);
         } else {
-            $this->_parse($vtec);
+            $this->parse($vtec);
         }
     }
 
@@ -150,7 +151,7 @@ class VTECString
     /**
      * Parse out the VTEC string into its properties
      */
-    private function _create_obj($vtec_string_array)
+    private function createObj($vtec_string_array)
     {
         // Save the VTEC string in its entirety
         $this->vtec_string = $vtec_string_array[0];
@@ -180,12 +181,12 @@ class VTECString
         $this->expire_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
     }
 
-    private function _parse($vtec_string)
+    private function parse($vtec_string)
     {
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if (preg_match($regex, $vtec_string, $matches)) {
-            $this->_create_obj($matches);
+            $this->createObj($matches);
         }
     }
 

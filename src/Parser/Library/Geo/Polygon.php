@@ -1,10 +1,11 @@
 <?php
+
 /**
  * Polygon definition
  * Very much like a Point, just with multiple points
  */
 
-namespace UpdraftNetworks\Parser\Library\Geo;
+namespace chswx\LDMIngest\Parser\Library\Geo;
 
 class Polygon
 {

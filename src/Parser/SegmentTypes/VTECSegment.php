@@ -1,11 +1,12 @@
 <?php
-namespace UpdraftNetworks\Parser\SegmentTypes;
 
-use UpdraftNetworks\Parser\NWSProductSegment;
-use UpdraftNetworks\Parser\Library\SMVString;
-use UpdraftNetworks\Parser\Library\IBW;
-use UpdraftNetworks\Parser\Library\SBW;
-use UpdraftNetworks\Parser\Library\VTECString;
+namespace chswx\LDMIngest\Parser\SegmentTypes;
+
+use chswx\LDMIngest\Parser\NWSProductSegment;
+use chswx\LDMIngest\Parser\Library\SMVString;
+use chswx\LDMIngest\Parser\Library\IBW;
+use chswx\LDMIngest\Parser\Library\SBW;
+use chswx\LDMIngest\Parser\Library\VTECString;
 
 /**
  * Extends the NWSProductSegment with attributes specific to VTEC-enabled products.
@@ -50,7 +51,7 @@ class VTECSegment extends NWSProductSegment
             $this->smv = new SMVString($segment_text);
             $this->impacts = new IBW($segment_text);
         }
-        
+
         // Respect the polygon!
         $sbw = new SBW($segment_text);
         $this->polygon = $sbw->polygon;

@@ -1,13 +1,14 @@
 <?php
+
 /**
  * Storm Motion Vector support
  * Grabs the TIME...MOT...LOC info from a warning and extracts it to be useful
  */
 
-namespace UpdraftNetworks\Parser\Library;
+namespace chswx\LDMIngest\Parser\Library;
 
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Parser\Library\Geo\Point as Point;
+use chswx\LDMIngest\Utils as Utils;
+use chswx\LDMIngest\Parser\Library\Geo\Point as Point;
 
 class SMVString
 {

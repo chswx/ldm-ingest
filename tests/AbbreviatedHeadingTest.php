@@ -1,8 +1,8 @@
 <?php
 
-namespace UpdraftNetworks\Tests;
+namespace chswx\LDMIngest\Tests;
 
-use UpdraftNetworks\Parser\Library\WMO\AbbreviatedHeading;
+use chswx\LDMIngest\Parser\Library\WMO\AbbreviatedHeading;
 use PHPUnit\Framework\TestCase;
 
 require_once 'vendor/autoload.php';
@@ -18,10 +18,10 @@ class AbbreviatedHeadingTest extends TestCase
     public function testTimestampGenerator()
     {
         $heading = new AbbreviatedHeading("WFUS52 KCHS 221432");
-        
+
         $seed_timestamp = 1494120476;   // from May 2017
         $timestamp = "221432";
-        
+
         $this->assertEquals(
             1495463520,
             $heading->generateTimestampFromWMO($timestamp, $seed_timestamp),
@@ -32,7 +32,7 @@ class AbbreviatedHeadingTest extends TestCase
     public function testCorrections()
     {
         $heading = new AbbreviatedHeading("WFUS52 KCHS 221432 CCA");
-        
+
         $this->assertEquals(
             "CCA",
             $heading->amendment,

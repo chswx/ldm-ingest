@@ -1,11 +1,12 @@
 <?php
+
 /**
  * Get lat and lon from the weird coordinates that are in the end of NWS products.
  */
 
-namespace UpdraftNetworks\Parser\Library\Geo;
+namespace chswx\LDMIngest\Parser\Library\Geo;
 
-use UpdraftNetworks\Utils as Utils;
+use chswx\LDMIngest\Utils as Utils;
 
 class Point
 {

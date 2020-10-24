@@ -1,11 +1,12 @@
 <?php
+
 /*
  * Not Irritable Bowel Weather, Impact-Based Warnings.
  */
 
-namespace UpdraftNetworks\Parser\Library;
+namespace chswx\LDMIngest\Parser\Library;
 
-use UpdraftNetworks\Utils;
+use chswx\LDMIngest\Utils;
 
 class IBW
 {

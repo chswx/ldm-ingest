@@ -1,13 +1,13 @@
 <?php
+
 /*
  * Factory class that routes products to the most specific available parser.
  */
 
-namespace UpdraftNetworks\Ingestor;
+namespace chswx\LDMIngest\Ingestor;
 
-use UpdraftNetworks\Utils;
-use UpdraftNetworks\Parser;
-use UpdraftNetworks\Parser\ProductTypes\GenericProduct;
+use chswx\LDMIngest\Utils;
+use chswx\LDMIngest\Parser;
 
 class NWSProductFactory
 {
@@ -35,9 +35,8 @@ class NWSProductFactory
             Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
             $product = new $parser($prod_info, $product_text);
         } else {
-            // It's not here...return a generic parsing library.
-            Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
-            $product = new GenericProduct($prod_info, $product_text);
+            Utils::log("We really should never get here.");
+            Utils::exitWithError("Parsing failed. No suitable parser available, and no generic was found.");
         }
 
         return $product;
@@ -121,6 +120,6 @@ class NWSProductFactory
             $parser = "GenericProduct";
         }
 
-        return array('parser' => 'UpdraftNetworks\\Parser\\ProductTypes\\' . $parser);
+        return array('parser' => 'chswx\\LDMIngest\\Parser\\ProductTypes\\' . $parser);
     }
 }

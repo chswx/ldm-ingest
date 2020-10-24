@@ -1,9 +1,9 @@
 <?php
 
-namespace UpdraftNetworks\Storage;
+namespace chswx\LDMIngest\Storage;
 
 use r;
-use UpdraftNetworks\Utils as Utils;
+use chswx\LDMIngest\Utils;
 
 class ProductStorage
 {
@@ -14,7 +14,7 @@ class ProductStorage
         try {
             $this->conn = r\connect('localhost');   // TODO: make configurable
             $this->conn->useDb('chswx');
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             Utils::log("Error when trying to initialize the database: " . $e->getMessage());
         }
     }
@@ -58,7 +58,7 @@ class ProductStorage
     public function prepareLocationData($product, $product_class)
     {
         switch ($product_class) {
-            case 'UpdraftNetworks\Parser\VTEC':
+            case 'chswx\LDMIngest\Parser\ProductTypes\VTEC':
                 $product = $this->prepareVtec($product);
                 break;
         }

@@ -6,7 +6,7 @@ A series of scripts to ingest and store NWS watch/warning/advisory products via 
 
 ## New in 2.0
 
-All responsibilities for outputting the results of parsing out products from LDM will be placed on the [Alerter](http://github.com/chswx/alerter) going forward. Thus, a lot of what's new in 2.0 has been more code _deletion_ than anything else. 
+All responsibilities for outputting the results of parsing out products from LDM will be placed on the [Alerter](http://github.com/chswx/alerter) going forward. Thus, a lot of what's new in 2.0 has been more code _deletion_ than anything else.
 Version 2.0, instead of handling the entire lifecycle of a request from receiving it from LDM to sending it out over Twitter, will just dump everything in a pub-sub-aware database (currently RethinkDB) and let other worker processes figure it out. This should improve performance, scalability, and redundancy quite nicely. We store things in JSON; this makes it easy to send the data to virtually anywhere, including directly over a socket into a Web browser. (Wink
 wink.)
 
@@ -39,7 +39,7 @@ wink.)
 
 The current version of the LDM ingestor works behind the scenes.
 
-To see its [predecessor](https://github.com/chswx/ldm-ingest-legacy) in action, follow [@chswx on Twitter](http://twitter.com/chswx) during inclement weather in Charleston, SC to see examples of the bot’s output. 
+To see its [predecessor](https://github.com/chswx/ldm-ingest-legacy) in action, follow [@chswx on Twitter](http://twitter.com/chswx) during inclement weather in Charleston, SC to see examples of the bot’s output.
 
 ## Questions?
 
@@ -51,4 +51,4 @@ Licensing TBD. Not for use in life or death situations; code is getting better b
 
 ## Many Thanks
 
-Many thanks to @blairblends, @edarc and @UpdraftNetworks for infrastructure and seeding the initial code for this project.
+Many thanks to @blairblends, @edarc and @chswx\LDMIngest for infrastructure and seeding the initial code for this project.

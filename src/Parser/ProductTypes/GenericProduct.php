@@ -3,9 +3,9 @@
  * Generic product ingestor. Fallback for non-specific products.
  */
 
-namespace UpdraftNetworks\Parser\ProductTypes;
+namespace chswx\LDMIngest\Parser\ProductTypes;
 
-use UpdraftNetworks\Parser\NWSProduct;
+use chswx\LDMIngest\Parser\NWSProduct;
 
 class GenericProduct extends NWSProduct
 {

@@ -1,7 +1,8 @@
 <?php
-namespace UpdraftNetworks\Parser\Tests;
 
-use UpdraftNetworks\Parser\Library\Geo\Polygon;
+namespace chswx\LDMIngest\Parser\Tests;
+
+use chswx\LDMIngest\Parser\Library\Geo\Polygon;
 use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');

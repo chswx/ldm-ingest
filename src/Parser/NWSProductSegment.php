@@ -1,8 +1,8 @@
 <?php
 
-namespace UpdraftNetworks\Parser;
+namespace chswx\LDMIngest\Parser;
 
-use UpdraftNetworks\Utils;
+use chswx\LDMIngest\Utils;
 
 class NWSProductSegment
 {

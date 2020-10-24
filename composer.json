@@ -5,14 +5,14 @@
         "danielmewes/php-rql": "^2.2"
     },
     "require-dev": {
-        "phpunit": "6.1.*"
+        "phpunit/phpunit": "^8.4"
     },
     "autoload": {
         "psr-4": {
-            "UpdraftNetworks\\":"src/",
-            "UpdraftNetworks\\Ingestor\\Tests\\":"tests/",
-            "UpdraftNetworks\\Parser\\Tests\\":"tests/",
-            "":"src/"
+            "chswx\\LDMIngest\\": "src/",
+            "chswx\\LDMIngest\\Ingestor\\Tests\\": "tests/",
+            "chswx\\LDMIngest\\Parser\\Tests\\": "tests/",
+            "": "src/"
         }
     }
 }

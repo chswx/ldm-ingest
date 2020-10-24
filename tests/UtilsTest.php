@@ -1,8 +1,8 @@
 <?php
 
-namespace UpdraftNetworks\Tests;
+namespace chswx\LDMIngest\Tests;
 
-use UpdraftNetworks\Utils;
+use chswx\LDMIngest\Utils;
 use PHPUnit\Framework\TestCase;
 
 require_once 'vendor/autoload.php';

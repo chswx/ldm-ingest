@@ -1,6 +1,7 @@
 #!/usr/bin/php
 <?php
-namespace UpdraftNetworks\Ingestor;
+
+namespace chswx\LDMIngest;
 
 /*
  * LDM Product Ingestor
@@ -9,8 +10,9 @@ namespace UpdraftNetworks\Ingestor;
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
 
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
+use chswx\LDMIngest\Utils;
+use chswx\LDMIngest\Ingestor;
+use chswx\LDMIngest\Storage\ProductStorage;
 
 // Begin timing execution
 $time_start = microtime(true);
@@ -22,7 +24,7 @@ include(dirname(dirname(__FILE__)) . '/vendor/autoload.php');
 include(dirname(dirname(__FILE__)) . '/conf/chswx.conf.php');
 
 // Handle to DB
-$db = new ProductStorage;
+$db = new ProductStorage();
 if (empty($db->conn)) {
     Utils::exitWithError("Aborting due to database initialization failure.");
 }
@@ -40,7 +42,7 @@ if (empty($m_text)) {
 }
 
 // Send to the factory to parse the product.
-$product_obj = NWSProductFactory::getProduct(Utils::sanitize($m_text));
+$product_obj = Ingestor\NWSProductFactory::getProduct(Utils::sanitize($m_text));
 
 // If we're not null, victory! Encode and send on its merry way
 if (!is_null($product_obj)) {

@@ -1,7 +1,8 @@
 <?php
-namespace UpdraftNetworks\Parser\Library\Tests;
 
-use UpdraftNetworks\Parser\Library\VTECString;
+namespace chswx\LDMIngest\Parser\Library\Tests;
+
+use chswx\LDMIngest\Parser\Library\VTECString;
 use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');

@@ -1,14 +1,14 @@
 #!/usr/bin/php
 <?php
 
-namespace chswx\LDMIngest;
-
 /*
  * LDM Product Ingestor
  * Command-line tool
  * Main entry point for LDM ingest. This hands off to a factory which generates a class for specific products.
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
+
+namespace chswx\LDMIngest;
 
 use chswx\LDMIngest\Utils;
 use chswx\LDMIngest\Ingestor;

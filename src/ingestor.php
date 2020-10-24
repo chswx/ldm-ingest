@@ -34,7 +34,7 @@ $env = Dotenv\Dotenv::create(dirname(dirname(__FILE__)));
 $env->load();
 
 // Set up logging
-$log = new Logger('alerter');
+$log = new Logger('ldm-ingest');
 // Cast the log level to an int so that it can be properly read in from environment vars
 $log->pushHandler(new StreamHandler($_ENV['LOG_OUTPUT'], (int) $_ENV['LOG_LEVEL']));
 

@@ -6,3 +6,4 @@ lib/*
 vendor/*
 .idea
 .vscode
+.phpunit.result.cache

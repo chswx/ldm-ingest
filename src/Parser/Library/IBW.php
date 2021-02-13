@@ -18,6 +18,7 @@ class IBW
     public $hazard;
     public $source;
     public $impact;
+    public $landspout;
 
     /**
      * Constructor.
@@ -31,9 +32,24 @@ class IBW
     {
         $this->tornado = $this->findMetadata($segment_text, 'tornado');
         $this->wind = $this->findMetadata($segment_text, 'wind');
+        // Compatibility shim for the new April 2021 impact-based data.
+        // Should remove this check and the above 'wind' search for perf after new IBW goes operational.
+        if (is_null($this->wind)) {
+            $this->wind = $this->findMetadata($segment_text, 'max wind gust');
+        }
         $this->hail = $this->findMetadata($segment_text, 'hail');
+        // Compatibility shim for the new April 2021 impact-based data.
+        // Should remove this check and the above 'hail' search for perf after new IBW goes operational.
+        if (is_null($this->hail)) {
+            $this->hail = $this->findMetadata($segment_text, 'max hail size');
+        }
         $this->tornado_damage = $this->findMetadata($segment_text, 'tornado damage threat');
         $this->waterspout = $this->findMetadata($segment_text, 'waterspout');
+        // New as of April 2021
+        $this->landspout = $this->findMetadata($segment_text, 'landspout');
+        $this->thunderstorm_damage = $this->findMetadata($segment_text, 'thunderstorm damage threat');
+        $this->hail_threat = $this->findMetadata($segment_text, 'hail threat');
+        $this->wind_threat = $this->findMetadata($segment_text, 'wind threat');
         $impacts = $this->findImpactsInText($segment_text, "hazard");
         if (!is_null($impacts)) {
             $this->hazard = $impacts[0];

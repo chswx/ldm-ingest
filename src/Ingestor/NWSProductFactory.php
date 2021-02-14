@@ -23,8 +23,8 @@ class NWSProductFactory
         // Get WMO header and issuing office
         $prod_info = self::getProductDetails($product_text);
 
-        // Select a route (database and parser) based on AFOS
-        $route = self::getRouteFromPil($prod_info['afos']);
+        // Select a route (database and parser) based on PIL
+        $route = self::getRouteFromPil($prod_info['pil']);
 
         Utils::log("Attempting to use {$route['parser']}");
 
@@ -32,7 +32,7 @@ class NWSProductFactory
 
         if (class_exists($parser)) {
             // Instantiate the class
-            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
+            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['pil']}");
             $product = new $parser($prod_info, $product_text);
         } else {
             Utils::log("We really should never get here.");

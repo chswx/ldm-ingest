@@ -26,11 +26,11 @@ class NWSProduct
     public $office;
 
     /**
-     * AFOS identifier.
+     * Product identifier line.
      *
-     * @var string AFOS ID
+     * @var string PIL
      */
-    public $afos;
+    public $pil;
 
     /**
      * Unique stamp for this particular product.
@@ -66,8 +66,8 @@ class NWSProduct
     public function __construct($prod_info, $product_text)
     {
         // Extract info from the $prod_info array...
-        $this->office = $prod_info['office'];   // Issuing office
-        $this->afos = $prod_info['afos'];       // AWIPS/AFOS PIL
+        $this->office = $prod_info['office'];       // Issuing office
+        $this->pil = $prod_info['pil'];             // AWIPS/AFOS PIL
         $this->timestamp = $prod_info['timestamp'];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
@@ -78,7 +78,7 @@ class NWSProduct
             $this->segments = $this->parse();
         }
         // Set up the product stamp.
-        $this->stamp = Utils::generateStamp($this->afos, $this->timestamp);
+        $this->stamp = Utils::generateStamp($this->pil, $this->timestamp);
     }
 
     /**
@@ -145,7 +145,7 @@ class NWSProduct
             $this->channels = array();
         }
         // Adds the PIL and issuing office to the channels list by default
-        $this->appendChannels(array(substr($this->office, 1), $this->afos));
+        $this->appendChannels(array(substr($this->office, 1), $this->pil));
     }
 
     /**

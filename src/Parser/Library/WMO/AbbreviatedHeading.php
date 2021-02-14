@@ -35,7 +35,14 @@ class AbbreviatedHeading
 
     public function __construct($wmo_header)
     {
-        $wmo_header_arr = explode(' ', $wmo_header);
+        if (is_array($wmo_header)) {
+            // If we're receiving an array to the constructor, we probably have all of the capture groups already.
+            // Slice off the first element of the array to get the pieces.
+            $wmo_header_arr = array_slice($wmo_header, 1);
+        } elseif (is_string($wmo_header)) {
+            // If we're getting a straight up string, then just explode on spaces.
+            $wmo_header_arr = explode(' ', $wmo_header);
+        }
         $this->id = $wmo_header_arr[0];
         $this->office = $wmo_header_arr[1];
         $this->timestamp = $this->generateTimestampFromWMO($wmo_header_arr[2], time());
@@ -50,7 +57,9 @@ class AbbreviatedHeading
      * - YY (day of month)
      * - GG (UTC hour of issuance or observation)
      * - gg (Minute in hour of issuance or observation [if needed])
-     * ...generate a UNIX timestamp.
+     *
+     * generate a UNIX timestamp.
+     *
      * CAVEAT: Sources the current month and year when putting together
      * the UNIX timestamp. OK for generating once and placing into
      * persistent storage, but adjust accordingly when unit testing!
@@ -69,11 +78,11 @@ class AbbreviatedHeading
         // Prepare a string compatible with strtotime().
         // Using XMLRPC (Compact): http://php.net/manual/en/datetime.formats.compound.php
         $curr_month_year = date('Ym', $seed_timestamp);
-        $afos_day = substr($timestamp, 0, 2);
-        $afos_time = substr($timestamp, 2, 4);
+        $wmo_day = substr($timestamp, 0, 2);
+        $wmo_time = substr($timestamp, 2, 4);
 
         // Put it all together and get us a timestamp.
-        $unix_timestamp = strtotime($curr_month_year . $afos_day . 'T' . $afos_time . '00');
+        $unix_timestamp = strtotime($curr_month_year . $wmo_day . 'T' . $wmo_time . '00');
 
         return $unix_timestamp;
     }

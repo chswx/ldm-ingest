@@ -66,7 +66,7 @@ if (!is_null($product_obj)) {
     $db->send($product_obj);
 
     // Have you heard the good word of our properly parsed product?
-    Utils::log("Parsed product {$product_obj->afos} from {$product_obj->office} successfully");
+    Utils::log("Parsed product {$product_obj->pil} from {$product_obj->office} successfully");
     Utils::log("Channels: " . implode(', ', $product_obj->channels));
 } else {
     // Something went wrong

@@ -28,11 +28,11 @@ class NWSProductSegment
     public $office;
 
     /**
-     * AFOS code (from parent product)
+     * Product identifier line (from parent product)
      *
-     * @var string $afos
+     * @var string $pil
      */
-    public $afos;
+    public $pil;
 
     /**
      * Basic constructor for product segments. Will be called explicitly by subclasses.
@@ -41,7 +41,7 @@ class NWSProductSegment
      */
     public function __construct(string $segment_text, NWSProduct $parentProduct)
     {
-        $this->afos = $parentProduct->afos;
+        $this->pil = $parentProduct->pil;
         $this->office = $parentProduct->office;
         $this->text = $segment_text;
         $this->zones = Utils::parseZones($this->text);
@@ -95,7 +95,7 @@ class NWSProductSegment
         // Pair AWIPS PIL with zones.
         foreach ($this->zones as $zone) {
             $channels[] = $zone;
-            $channels[] = $this->afos . "." . $zone;
+            $channels[] = $this->pil . "." . $zone;
         }
 
         return $channels;

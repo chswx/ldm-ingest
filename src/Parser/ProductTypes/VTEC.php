@@ -14,6 +14,7 @@ class VTEC extends NWSProduct
     public function __construct($prod_info, $prod_text)
     {
         parent::__construct($prod_info, $prod_text);
+        $this->table = "products_wwa";
     }
 
     public function parse()

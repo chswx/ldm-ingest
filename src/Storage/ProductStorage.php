@@ -25,9 +25,11 @@ class ProductStorage
      * @param $product mixed Array of product data to be inserted into the database
      * @param $table   string Table to write to (default is 'products')
      */
-    public function send($product, $table = 'products')
+    public function send($product, $table = 'products_generic')
     {
         $product_class = get_class($product);
+        // If we are passing in the table from the product object, don't set it here so it doesn't come along.
+        unset($product->table);
         // Today in PHP Is Terrible: Encoding and then decoding the product to get an object->array conversion
         // Seems to be the only way this will work!
         $encoded_product = json_decode(json_encode($product));

@@ -1,8 +1,10 @@
 <?php
+
 /*
  * NWSProduct class
  * Defines most of what is a National Weather Service text product and puts it out into easily reusable chunks.
- * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
+ * Portions adapted from code by Andrew:
+ *  http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
  */
 
 namespace chswx\LDMIngest\Parser;
@@ -37,7 +39,7 @@ class NWSProduct
      *
      * @var string stamp
      */
-    public $stamp;
+    public $id;
 
     /**
      * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
@@ -61,6 +63,13 @@ class NWSProduct
     public $channels;
 
     /**
+     * Table to receive the product.
+     *
+     * @var string
+     */
+    public $table;
+
+    /**
      * Constructor.
      */
     public function __construct($prod_info, $product_text)
@@ -78,7 +87,9 @@ class NWSProduct
             $this->segments = $this->parse();
         }
         // Set up the product stamp.
-        $this->stamp = Utils::generateStamp($this->pil, $this->timestamp);
+        $this->id = Utils::generateProductId($this->pil, $this->timestamp);
+        // Set up the default product table. Should be overridden by parser subclasses.
+        $this->table = 'products_generic';
     }
 
     /**

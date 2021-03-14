@@ -47,7 +47,7 @@ class VTECSegment extends NWSProductSegment
         // - severe weather followup statements
         // - special marine warnings
         // - marine weather statements (questionable)
-        if (preg_match('/(TOR|SVR|SVS|MWW|MWS)/', $this->afos)) {
+        if (preg_match('/(TOR|SVR|SVS|MWW|MWS)/', $this->pil)) {
             $this->smv = new SMVString($segment_text);
             $this->impacts = new IBW($segment_text);
         }

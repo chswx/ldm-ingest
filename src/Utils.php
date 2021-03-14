@@ -83,13 +83,13 @@ class Utils
     /**
      * Generate a unique identifier for the incoming product.
      *
-     * @param string $afos AFOS identifier
+     * @param string $pil AFOS PIL
      *
      * @return string
      */
-    public static function generateStamp($afos, $timestamp)
+    public static function generateProductId($pil, $timestamp)
     {
-        return $afos . '-' . $timestamp;
+        return $pil . '-' . $timestamp;
     }
 
     /**

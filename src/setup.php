@@ -36,7 +36,8 @@ $tables = array(
     'geo_cities',       // Badly designed websites
     'geo_counties',     // County outlines in GeoJSON
     'geo_custom_locs',  // Custom locations
-    'products',         // All incoming products
+    'products_wwa',     // All incoming WWA products
+    'products_generic', // Default products dropbox
     'events'            // Events for specific alerts
 );
 
@@ -76,7 +77,7 @@ if (defined('IMPORT_GEOSPATIAL')) {
 
     echo "Step 2: Counties\n";
 
-    
+
 
     // Set up geospatial indexes
     echo "Setting up geospatial indexes...\n";

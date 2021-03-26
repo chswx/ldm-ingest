@@ -34,6 +34,7 @@ class VTECSegment extends NWSProductSegment
 
     /**
      * Storm-based warning polygon geometry (if available)
+     * Treat with the utmost respect
      */
     public $polygon;
 

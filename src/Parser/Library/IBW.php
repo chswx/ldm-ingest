@@ -52,9 +52,9 @@ class IBW
         $this->wind_threat = $this->findMetadata($segment_text, 'wind threat');
         $impacts = $this->findHazSrcImpact($segment_text);
         if (!is_null($impacts)) {
-            $this->hazard = $impacts[0];
-            $this->source = $impacts[1];
-            $this->impact = $impacts[2];
+            $this->hazard = $impacts['hazard'];
+            $this->source = $impacts['source'];
+            $this->impact = $impacts['impact'];
         }
     }
 

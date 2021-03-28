@@ -171,7 +171,6 @@ class NWSProduct
         $new_channel_list = array_merge($this->channels, $newChannels);
         // Sort the channel list in alphabetical order
         sort($new_channel_list);
-        // Dedupe the channels before they go in
-        $this->channels = (array_unique($new_channel_list));
+        $this->channels = $new_channel_list;
     }
 }

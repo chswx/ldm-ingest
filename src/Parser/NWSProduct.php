@@ -168,6 +168,10 @@ class NWSProduct
      */
     public function appendChannels(array $newChannels): void
     {
-        $this->channels = array_merge($this->channels, $newChannels);
+        $new_channel_list = array_merge($this->channels, $newChannels);
+        // Sort the channel list in alphabetical order
+        sort($new_channel_list);
+        // Dedupe the channels before they go in
+        $this->channels = (array_unique($new_channel_list));
     }
 }

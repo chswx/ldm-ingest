@@ -1,73 +1,105 @@
 <?php
+
 /*
  * NWSProduct class
  * Defines most of what is a National Weather Service text product and puts it out into easily reusable chunks.
- * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
+ * Portions adapted from code by Andrew:
+ *  http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
  */
 
-namespace UpdraftNetworks\Parser;
-use UpdraftNetworks\Utils as Utils;
+namespace chswx\LDMIngest\Parser;
 
-class NWSProduct {
+use chswx\LDMIngest\Utils;
+
+class NWSProduct
+{
     /**
      * Raw product text (with some light cleanup).
      *
      * @var string Product text.
      */
-    var $raw_product;
+    public $raw_product;
 
     /**
      * Issuing office.
      *
      * @var string WFO
      */
-    var $office;
+    public $office;
 
     /**
-     * AFOS identifier.
+     * Product identifier line.
      *
-     * @var string AFOS ID
+     * @var string PIL
      */
-    var $afos;
+    public $pil;
 
     /**
      * Unique stamp for this particular product.
      *
      * @var string stamp
      */
-    var $stamp;
+    public $id;
 
     /**
      * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
      *
      * @var mixed Array of segments
      */
-    var $segments;
+    public $segments;
+
+    /**
+     * Issuance time as set in the WMO abbreviated header.
+     *
+     * @var int
+     */
+    public $timestamp;
+
+    /**
+     * Channels to send this product to for dissemination.
+     *
+     * @var \array
+     */
+    public $channels;
+
+    /**
+     * Table to receive the product.
+     *
+     * @var string
+     */
+    public $table;
 
     /**
      * Constructor.
      */
-    function __construct( $prod_info, $product_text ) {
+    public function __construct($prod_info, $product_text)
+    {
         // Extract info from the $prod_info array...
-        $this->office = $prod_info['office'];   // Issuing office
-        $this->afos = $prod_info['afos'];     // AFOS code
+        $this->office = $prod_info['office'];       // Issuing office
+        $this->pil = $prod_info['pil'];             // AWIPS/AFOS PIL
+        $this->timestamp = $prod_info['timestamp'];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
+        // Generate initial channels for this product
+        $this->generateChannels();
         // Parse the product out into segments if not already done by a more specialized parser.
-        if(empty($this->segments)) {
+        if (empty($this->segments)) {
             $this->segments = $this->parse();
         }
-        // Set up the product stamp.
-        $this->stamp = Utils::generate_stamp($this->afos, time());
+        // Set up the product id.
+        $this->id = Utils::generateProductId($this->pil, $this->timestamp);
+        // Set up the default product table. Should be overridden by parser subclasses.
+        $this->table = 'products';
     }
 
     /**
      * Generic parsing ability.
-     * STRONGLY recommend overriding in a WMO-specific file
+     * Should be overridden.
      */
 
-    function parse() {
-        return $this->split_product($this->raw_product);
+    public function parse(): array
+    {
+        return $this->splitProduct($this->raw_product);
     }
 
     /**
@@ -75,7 +107,8 @@ class NWSProduct {
      *
      * @return string Product text
      */
-    function get_product_text() {
+    public function getProductText(): string
+    {
         return $this->raw_product;
     }
 
@@ -83,198 +116,61 @@ class NWSProduct {
      * Split the product by $$ if needed.
      *
      * @param $product string Raw product data to get shredded
-     * @param $class string Optional definition of which class defines what a segment is
+     * @param $class   string Optional definition of which class defines what a segment is
+     *
      * @return array of NWSProductSegments
      */
-    function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment') {
+    public function splitProduct($product, $class = 'chswx\LDMIngest\\Parser\\NWSProductSegment'): array
+    {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
         // TODO: Determine storage strategy. For short-fused warnings we'd essentially be storing the product twice
-        
+
         // Check if the product contains $$ identifiers for multiple products
-        if(strpos($product, "$$")) {
+        if (strpos($product, "$$")) {
             // Loop over the file for multiple products within one file identified by $$
-            $raw_segments = explode('$$',trim($product), -1);
-        }
-        else {
+            $raw_segments = explode('$$', trim($product), -1);
+        } else {
             // No delimiters
             $raw_segments = array(trim($product));
         }
 
-        foreach($raw_segments as $segment) {
-            $segments[] = new $class($segment,$this->afos,$this->office);
+        foreach ($raw_segments as $segment) {
+            $segments[] = new $class($segment, $this);
         }
 
         return $segments;
     }
 
-}
-
-class NWSProductSegment
-{
     /**
-     * Segment text
+     * Generates channels for dissemination. These can be used upstream for targeting of specific messages to
+     * different media (tweets, email, text, etc.)
+     * Specialized parsers should call this and then populate with their own additional channels as appropriate.
      *
-     * @var string
+     * @return void
      */
-
-    var $text;
-
-    /**
-     * Zones for this segment.
-     *
-     * @var array zones
-     */
-    var $zones;
-
-    /**
-     * Issuing time.
-     *
-     * @var int Timestamp
-     */
-    var $issued_time;
-
-    /**
-     * Issuing WFO (from parent product)
-     *
-     * @var string $office
-     */
-    var $office;
-
-    /**
-     * AFOS code (from parent product)
-     * @var string $afos
-     */
-    var $afos;
-
-    /**
-     * Constructor.
-     *
-     * @param string $segment_text
-     */
-    function __construct($segment_text, $afos, $office)
+    public function generateChannels(): void
     {
-        $this->afos = $afos;
-        $this->office = $office;
-        $this->text = $segment_text;
-        $this->zones = $this->parse_zones();
+        // Initialize if needed.
+        if (empty($this->channels)) {
+            $this->channels = array();
+        }
+        // Adds the PIL and issuing office to the channels list by default
+        $this->appendChannels(array(substr($this->office, 1), $this->pil));
     }
 
     /**
-     * Get this segment's text.
+     * Helper function to allow segments to add to the channels list for this product.
      *
-     * @return string Raw text of the segment
+     * @param array $newChannels
+     * @return void
      */
-    function get_text()
+    public function appendChannels(array $newChannels): void
     {
-        return $this->text;
-    }
-
-    /**
-     * Return the zones for this product.
-     *
-     * @return array of zones
-     */
-    function get_zones() {
-        return $this->zones;
-    }
-
-    /**
-     * Was this product issued for a particular zone(s)?
-     *
-     * @param array   $zones Array of zone codes to check against
-     * @return boolean Array search result - true if found, false if not
-     */
-    function in_zone( $zones ) {
-        foreach ( $zones as $zone ) {
-            if ( in_array( $zone, $this->zones ) ) {
-                return true;
-            }
-            else {
-                $array_search_result = false;
-            }
-        }
-
-        return $array_search_result;
-    }
-
-    /*
-     * Zone generation functions
-     */
-
-    /**
-     * The NWS combines does not repeat the state code for multiple zones...not good for our purpose
-     * All we want to do here is convert ranges like INZ021-028 to INZ021-INZ028
-     * We will also call the function to expand the ranges here.
-     * See: http://www.weather.gov/emwin/winugc.htm
-     */
-    protected function parse_zones() {
-        $data = $this->text;
-
-        $output = str_replace( array( "\r\n", "\r" ), "\n", $data );
-        $lines = explode( "\n", $output );
-        $new_lines = array();
-
-        foreach ( $lines as $i => $line ) {
-            if ( !empty( $line ) )
-                $new_lines[] = trim( $line );
-        }
-        $data = implode( $new_lines );
-
-        /* split up individual states - multiple states may be in the same forecast */
-        $regex = '/(([A-Z]{2})(C|Z){1}([0-9]{3})((>|-)[0-9]{3})*)-/';
-
-        $count = preg_match_all( $regex, $data, $matches );
-        $total_zones = '';
-
-        foreach ($matches[0] as $field => $value)
-        {
-            /* since the NWS thought it was efficient to not repeat state codes, we have to reverse that */
-            $state = substr( $value, 0, 3 );
-            $zones = substr( $value, 3 );
-
-            /* convert ranges like 014>016 to 014-015-016 */
-            $zones = $this->expand_ranges($zones);
-
-            /* hack off the last dash */
-            $zones = substr($zones, 0, strlen($zones) - 1);
-
-            $zones = $state . str_replace('-', '-'.$state, $zones);
-
-            $total_zones .= $zones;
-
-            // Need one last dash to temporarily buffer between state changes
-            $total_zones .= '-';
-        }
-
-        /* One last cleanup */
-        $total_zones = substr( $total_zones, 0, strlen( $total_zones ) - 1 );
-        $total_zones = explode( '-', $total_zones );
-        return $total_zones;
-    }
-
-    /**
-     * The NWS combines multiple zones into ranges...not good for our purpose
-     * All we want to do here is convert ranges like 014>016 to 014-015-016
-     * See: http://www.weather.gov/emwin/winugc.htm
-     */
-    protected function expand_ranges( $data ) {
-        $regex = '/(([0-9]{3})(>[0-9]{3}))/';
-
-        $count = preg_match_all( $regex, $data, $matches );
-
-        foreach ( $matches[0] as $field => $value ) {
-            list( $start, $end ) = explode( '>', $value );
-
-            $new_value = array();
-            for ( $i = $start; $i <= $end; $i++ ) {
-                $new_value[] = str_pad( $i, 3, '0', STR_PAD_LEFT );
-            }
-
-            $data = str_replace( $value, implode( '-', $new_value ), $data );
-        }
-
-        return $data;
+        $new_channel_list = array_merge($this->channels, $newChannels);
+        // Sort the channel list in alphabetical order
+        sort($new_channel_list);
+        $this->channels = $new_channel_list;
     }
 }

@@ -1,45 +1,43 @@
 <?php
+
 /*
  * Factory class that routes products to the most specific available parser.
  */
 
-namespace UpdraftNetworks\Ingestor;
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Parser as Parser;
+namespace chswx\LDMIngest\Ingestor;
 
-class NWSProductFactory {
+use chswx\LDMIngest\Utils;
+use chswx\LDMIngest\Parser;
+
+class NWSProductFactory
+{
     /**
      * Dispatches a sanitized product to its parser.
-     * It's up to the parser to generate and relay appropriate events.
      *
      * @param string $product_text Sanitized product text.
+     *
      * @return Parsed Product object.
      */
-    public static function get_product($product_text) {
+    public static function getProduct($product_text)
+    {
         // Get WMO header and issuing office
-        $prod_info = self::get_product_details($product_text);
+        $prod_info = self::getProductDetails($product_text);
 
-        // Select a route (database and parser) based on AFOS
-        $route = self::get_route_from_afos($prod_info['afos']);
+        // Select a route (database and parser) based on PIL
+        $route = self::getRouteFromPil($prod_info['pil']);
 
         Utils::log("Attempting to use {$route['parser']}");
 
         $parser = $route['parser'];
-        $table = $route['table'];
 
-        if(class_exists($parser)) {
+        if (class_exists($parser)) {
             // Instantiate the class
-            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}");
+            Utils::log("Using $parser to parse {$prod_info['wmo']} {$prod_info['office']} {$prod_info['pil']}");
             $product = new $parser($prod_info, $product_text);
+        } else {
+            Utils::log("We really should never get here.");
+            Utils::exitWithError("Parsing failed. No suitable parser available, and no generic was found.");
         }
-        // It's not here...return a generic parsing library.
-        else
-        {
-            Utils::log("There are no parsers available for {$prod_info['wmo']} {$prod_info['office']} {$prod_info['afos']}, trying a generic...");
-            $product = new Parser\GenericProduct($prod_info, $product_text);
-        }
-
-        $product->table = $table;
 
         return $product;
     }
@@ -48,95 +46,86 @@ class NWSProductFactory {
      * Get WMO product ID and authority from the second line.
      *
      * @param string $product_text Sanitized product text.
+     *
      * @return array WMO header ID, issuing office, and AWIPS code
      */
-    public static function get_product_details($product_text) {
-        $text_array = Utils::make_array($product_text);
-        $wmo_and_office = explode(' ',$text_array[1]);
-        $wmo = $wmo_and_office[0];
-        $office = $wmo_and_office[1];
-        $afos = trim($text_array[2]);
+    public static function getProductDetails($product_text)
+    {
+        $text_array = Utils::makeArray($product_text);
+        // Is there a valid WMO header?
+        preg_match('/([A-Z]{4}[0-9]{2})\s([A-Z]{4})\s([0-9]{6})\s?([R]{2}[A-Z]|[C]{2}[A-Z]|[A]{2}[A-Z]|[P][A-Z]{2})?/', $product_text, $wmo_matches);
+        if (!empty($wmo_matches)) {
+            $wmo_header = new Parser\Library\WMO\AbbreviatedHeading($wmo_matches);
+            $wmo = $wmo_header->id;
+            $office = $wmo_header->office;
+            $timestamp = $wmo_header->timestamp;
+        } else {
+            Utils::log("No valid WMO header found");
+        }
+        $pil = trim($text_array[2]);
 
-        Utils::log("Product WMO: " . $wmo . '; Office: ' . $office . '; AFOS code: ' . $afos);
+        Utils::log("Product WMO Header: " . $wmo . '; Issuing Office: ' . $office . '; AWIPS PIL: ' . $pil);
 
         return array(
             'wmo' => $wmo,
             'office' => $office,
-            'afos' => $afos
+            'pil' => $pil,
+            'timestamp' => $timestamp
         );
     }
 
     /**
-     * Retrieves the appropriate parser from the AFOS string.
+     * Retrieves the appropriate parser from the product identifier.
      *
-     * @param string $afos AFOS string
-     * @return array Parser to use and DB table to store
+     * @param string $pil Product Identifier Line
+     *
+     * @return array Parser to use
      */
-    public static function get_route_from_afos($afos) {
+    public static function getRouteFromPil($pil)
+    {
         // VTEC parsing
         // (MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS)
         // (FLW|FFW|FFS|HLS|TSU)
-        if(preg_match('(MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS|FLW|FFW|FFS|HLS|TSU|WOU)',$afos)) {
+        if (preg_match('(MWW|FWW|CFW|TCV|RFW|FFA|SVR|TOR|SVS|SMW|MWS|NPW|WCN|WSW|EWW|FLS|FLW|FFW|FFS|TSU|WOU)', $pil)) {
             $parser = 'VTEC';
-            $table = 'wwa';
-        }
-        // SPS parsing
-        // (SPS)
-        else if(strpos($afos, 'SPS') !== false) {
+        } elseif (strpos($pil, 'SPS') !== false) {
+            // SPS parsing
+            // (SPS)
             $parser = 'SPS';
-            $table = 'sps';
-        }
-        // Watch Probabilities
-        // ^WWUS(40 KMKC|30 KWNS)
-        else if(strpos($afos, 'WWP') !== false) {
+        } elseif (strpos($pil, 'WWP') !== false) {
+            // Watch Probabilities
+            // ^WWUS(40 KMKC|30 KWNS)
             $parser = "WatchProbs";
-            $table = 'spc_watch';
-        }
-        // Public Watch Notification
-        // WWUS20
-        else if(strpos($afos, 'SEL') !== false) {
+        } elseif (strpos($pil, 'SEL') !== false) {
+            // Public Watch Notification
+            // WWUS20
             $parser = "PublicWatch";
-            $table = 'spc_watch';
-        }
-        // Mesoscale convective discussions
-        // (SWOMCD)
-        else if(preg_match('(SWOMCD)',$afos)) {
+        } elseif (preg_match('(SWOMCD)', $pil)) {
+            // Mesoscale convective discussions
+            // (SWOMCD)
             $parser = "MesoDisc";
-            $table = 'mesodisc';
-        }
-        // SPC outlook points
-        // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
-        else if(preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $afos)) {
+        } elseif (preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $pil)) {
+            // SPC outlook points
+            // (PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)
             $parser = "OutlookPoints";
-            $table = 'spc_outlook';
-        }
-        // SPC outlook text
-        else if(preg_match('(SWODY)',$afos)) {
+        } elseif (preg_match('(SWODY)', $pil)) {
+            // SPC outlook text
             $parser = "OutlookText";
-            $table = 'spc_outlook';
-        }
-        // Local Storm Reports
-        // (LSR)
-        else if(strpos($afos, 'LSR') !== false) {
+        } elseif (strpos($pil, 'LSR') !== false) {
+            // Local Storm Reports
+            // (LSR)
             $parser = "LSR";
-            $table = 'lsr';
-        }
-        // Mesoscale precipitation discussions from WPC (FFGMPD)
-        else if (preg_match('(FFGMPD)',$afos)) {
+        } elseif (preg_match('(FFGMPD)', $pil)) {
+            // Mesoscale precipitation discussions from WPC (FFGMPD)
             $parser = "MesoDisc";
-            $table = 'wpc_mpd';
-        }
-        // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
-        // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
-        else if (preg_match('/RBG(94|98|99)E/',$afos)) {
+        } elseif (preg_match('/RBG(94|98|99)E/', $pil)) {
+            // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
+            // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
             $parser = "WPCOutlook";
-            $table = "wpc_outlook";
-        }
-        else {
+        } else {
             $parser = "GenericProduct";
-            $table = 'misc';
         }
 
-        return array('parser' => 'UpdraftNetworks\\Parser\\' . $parser, 'table' => $table);
+        return array('parser' => 'chswx\\LDMIngest\\Parser\\ProductTypes\\' . $parser);
     }
 }

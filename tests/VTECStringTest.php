@@ -1,38 +1,63 @@
 <?php
-namespace UpdraftNetworks\Ingestor\Tests;
-use UpdraftNetworks\Parser\VTECString as VTECString;
+
+namespace chswx\LDMIngest\Parser\Library\Tests;
+
+use chswx\LDMIngest\Parser\Library\VTECString;
+use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');
 
 date_default_timezone_set('UTC');
 
-class VTECStringTest extends \PHPUnit_Framework_TestCase {
+class VTECStringTest extends TestCase
+{
+    public $expireOperationalString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
 
-    var $expireOperationalTestString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
+    public $newOperationalString = "/O.NEW.KCHS.SV.W.0005.160326T1847Z-160326T1930Z/";
 
-    function testFullVtecStringParser() {
-        $vtec = new VTECString($this->expireOperationalTestString);
+    public function testVtecOperationalExpiration()
+    {
+        $vtec = new VTECString($this->expireOperationalString);
 
-        $this->assertEquals($this->expireOperationalTestString,$vtec->vtec_string);
+        // test case 1: Make sure the parser is parsing properly
+        $this->assertEquals($this->expireOperationalString, $vtec->vtec_string);
+
+        // test case 2: Make sure the operational checks are good
+        $this->assertEquals(true, $vtec->isOperational());
+
+        // test case 3: Assert that this is not a test string
+        $this->assertEquals(false, $vtec->isTest());
+
+        // test case 4: test it is an expiration
+        $this->assertEquals('EXP', $vtec->getAction());
+
+        // test case 5: test it is not an issuance
+        $this->assertNotEquals('NEW', $vtec->getAction());
+
+        // test case 6: test the ETN parser
+        $this->assertEquals('0010', $vtec->getETN());
     }
-    
-    function testIsOperational() {
-        $vtec = new VTECString($this->expireOperationalTestString);
-        
-        $this->assertEquals(true,$vtec->is_operational());
+
+    public function testVtecOperationalIssuance()
+    {
+        $vtec = new VTECString($this->newOperationalString);
+
+        // test case 1: Make sure the parser is parsing properly
+        $this->assertEquals($this->newOperationalString, $vtec->vtec_string);
+
+        // test case 2: Make sure the operational checks are good
+        $this->assertEquals(true, $vtec->isOperational());
+
+        // test case 3: Assert that this is not a test string
+        $this->assertEquals(false, $vtec->isTest());
+
+        // test case 4: test it is a new issuance
+        $this->assertEquals('NEW', $vtec->getAction());
+
+        // test case 5: test it is not an expiration
+        $this->assertNotEquals('EXP', $vtec->getAction());
+
+        // test case 6: test the ETN parser
+        $this->assertEquals('0005', $vtec->getETN());
     }
-
-    function testIsNotTest() {
-        $vtec = new VTECString($this->expireOperationalTestString);
-
-        $this->assertEquals(false,$vtec->is_test());
-    }
-
-    function testIsExpired() {
-        $vtec = new VTECString($this->expireOperationalTestString);
-
-        $this->assertEquals('EXP',$vtec->get_action());
-    }
-
 }
-

@@ -53,7 +53,8 @@ class VTECSegment extends NWSProductSegment
             $this->impacts = new IBW($segment_text);
         }
 
-        // Respect the polygon!
+        // Extract the polygon from the product and save.
+        // Will be null if the polygon does not exist in the product.
         $sbw = new SBW($segment_text);
         $this->polygon = $sbw->polygon;
 
@@ -106,6 +107,7 @@ class VTECSegment extends NWSProductSegment
         $vtec_strings = array();
 
         // Fun regex to find VTEC strings
+        // TODO: Reconcile where this regex should live. Right now it is duplicated in VTECString.php
         $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
 
         if (preg_match_all($regex, $data, $matches, PREG_SET_ORDER)) {
@@ -119,7 +121,7 @@ class VTECSegment extends NWSProductSegment
 
     public function generateChannels()
     {
-        $channels = array();
+        $channels = [];
 
         if (!empty($this->vtec_strings)) {
             foreach ($this->vtec_strings as $vtec_string) {
@@ -133,6 +135,10 @@ class VTECSegment extends NWSProductSegment
                 }
                 // Add phensig and action channels
                 $channels[] = $vtec_string->getPhenSig() . '.' . $vtec_string->getAction();
+                // Add office, phensig, action
+                // Use case: Suppress initial watch issuances from WFOs
+                // in favor of faster issuances from SPC
+                $channels[] = $vtec_string->getOffice() . '.' . $vtec_string->getPhenSig() . '.' . $vtec_string->getAction();
             }
         }
 

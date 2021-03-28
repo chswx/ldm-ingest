@@ -50,7 +50,7 @@ class IBW
         $this->thunderstorm_damage = $this->findMetadata($segment_text, 'thunderstorm damage threat');
         $this->hail_threat = $this->findMetadata($segment_text, 'hail threat');
         $this->wind_threat = $this->findMetadata($segment_text, 'wind threat');
-        $impacts = $this->findImpactsInText($segment_text, "hazard");
+        $impacts = $this->findHazSrcImpact($segment_text);
         if (!is_null($impacts)) {
             $this->hazard = $impacts[0];
             $this->source = $impacts[1];
@@ -58,6 +58,12 @@ class IBW
         }
     }
 
+    /**
+     * Find the specified metadata within the warning.
+     * @param mixed $text Warning product text.
+     * @param mixed $type The type of metadata to find (tornado, wind, etc.)
+     * @return string|null The matching string, if found, otherwise null
+     */
     public function findMetadata($text, $type)
     {
         $type = strtoupper($type);
@@ -68,10 +74,14 @@ class IBW
         return $matches[1];
     }
 
-    public function findImpactsInText($text, $type)
+    /**
+     * Finds the HAZARD...SOURCE...IMPACT... line in the warning and extracts the contents.
+     * @param mixed $text Warning text
+     * @return array|null Array of hazard/source/impact, otherwise null
+     */
+    public function findHazSrcImpact($text)
     {
-        // Normalize the type to uppercase.
-        $type = strtoupper($type);
+        $keys = ['hazard', 'source', 'impact'];
 
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
         $sanitized_text = Utils::deindent(Utils::stripNewlines($text));
@@ -81,6 +91,9 @@ class IBW
             foreach ($matches as $impact) {
                 $impacts[] = trim($impact);
             }
+
+            // Make the impacts array available using plain-value keys in addition to numerical indexes
+            $impacts = array_combine($keys, $impacts);
 
             return $impacts;
         }

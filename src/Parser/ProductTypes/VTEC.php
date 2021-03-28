@@ -11,14 +11,9 @@ use chswx\LDMIngest\Parser\NWSProduct;
 
 class VTEC extends NWSProduct
 {
-    public function __construct($prod_info, $prod_text)
+    public function parse(): array
     {
-        parent::__construct($prod_info, $prod_text);
-        $this->table = "products_wwa";
-    }
-
-    public function parse()
-    {
-        return $this->splitProduct($this->raw_product, 'chswx\\LDMIngest\\Parser\\SegmentTypes\\VTECSegment');
+        $segments = $this->splitProduct($this->raw_product, 'chswx\\LDMIngest\\Parser\\SegmentTypes\\VTECSegment');
+        return $segments;
     }
 }

@@ -86,18 +86,18 @@ class NWSProduct
         if (empty($this->segments)) {
             $this->segments = $this->parse();
         }
-        // Set up the product stamp.
+        // Set up the product id.
         $this->id = Utils::generateProductId($this->pil, $this->timestamp);
         // Set up the default product table. Should be overridden by parser subclasses.
-        $this->table = 'products_generic';
+        $this->table = 'products';
     }
 
     /**
      * Generic parsing ability.
-     * STRONGLY recommend overriding in a WMO-specific file
+     * Should be overridden.
      */
 
-    public function parse()
+    public function parse(): array
     {
         return $this->splitProduct($this->raw_product);
     }
@@ -107,7 +107,7 @@ class NWSProduct
      *
      * @return string Product text
      */
-    public function getProductText()
+    public function getProductText(): string
     {
         return $this->raw_product;
     }
@@ -120,7 +120,7 @@ class NWSProduct
      *
      * @return array of NWSProductSegments
      */
-    public function splitProduct($product, $class = 'chswx\LDMIngest\\Parser\\NWSProductSegment')
+    public function splitProduct($product, $class = 'chswx\LDMIngest\\Parser\\NWSProductSegment'): array
     {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
@@ -144,12 +144,13 @@ class NWSProduct
     }
 
     /**
-     * Generates channels for dissemination. These can be used upstream for targeting of specific messages to different media (tweets, email, text, etc.)
+     * Generates channels for dissemination. These can be used upstream for targeting of specific messages to
+     * different media (tweets, email, text, etc.)
      * Specialized parsers should call this and then populate with their own additional channels as appropriate.
      *
      * @return void
      */
-    public function generateChannels()
+    public function generateChannels(): void
     {
         // Initialize if needed.
         if (empty($this->channels)) {
@@ -165,7 +166,7 @@ class NWSProduct
      * @param array $newChannels
      * @return void
      */
-    public function appendChannels(array $newChannels)
+    public function appendChannels(array $newChannels): void
     {
         $this->channels = array_merge($this->channels, $newChannels);
     }

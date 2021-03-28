@@ -144,6 +144,35 @@ class VTECString
         return substr($this->office, 1);
     }
 
+    /**
+     * Returns the fully qualified ICAO for the issuing center.
+     * @return string The ICAO
+     */
+    public function getOfficeIcao()
+    {
+        return $this->office;
+    }
+
+    /**
+     * Get the year from the VTEC string (best-effort).
+     * If there is no year provided in the effective timestamp,
+     * get the current UTC year.
+     * Potential ideas for later:
+     * - Try to get the issue year from the segment for more ironclad info.
+     * - Try to use H-VTEC to determine the year of issuance for long-running flood warnings.
+     * @return string|false The year in question
+     */
+    public function getVtecYear()
+    {
+        $year = date('Y');
+
+        if ($this->effective_timestamp !== 0) {
+            $year = date('Y', $this->effective_timestamp);
+        }
+
+        return $year;
+    }
+
     ///
     /// Private functions /////////////////////////////////////////////////
     ///
@@ -198,7 +227,7 @@ class VTECString
     private function vtecToTimestamp($vtec_date, $vtec_time)
     {
         // Don't bother with blank dates
-        if ($vtec_date == "OOOOOO") {
+        if ($vtec_date == "000000") {
             $stamp = 0;
         } else {
             // Break out the VTEC datestamp into chunks to reassemble shortly

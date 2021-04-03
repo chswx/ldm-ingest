@@ -19,6 +19,7 @@ class IBW
     public $source;
     public $impact;
     public $landspout;
+    public $is_pds;
 
     /**
      * Constructor.
@@ -56,6 +57,8 @@ class IBW
             $this->source = $impacts['source'];
             $this->impact = $impacts['impact'];
         }
+        // Is this a PDS watch/warning?
+        $this->is_pds = Utils::findPDS($segment_text);
     }
 
     /**
@@ -82,6 +85,7 @@ class IBW
     public function findHazSrcImpact($text)
     {
         $keys = ['hazard', 'source', 'impact'];
+        $impacts = null;
 
         // Get the product on one line and remove extra indenting spaces for maximum parsability.
         $sanitized_text = Utils::deindent(Utils::stripNewlines($text));
@@ -94,10 +98,8 @@ class IBW
 
             // Make the impacts array available using plain-value keys in addition to numerical indexes
             $impacts = array_combine($keys, $impacts);
-
-            return $impacts;
         }
 
-        return null;
+        return $impacts;
     }
 }

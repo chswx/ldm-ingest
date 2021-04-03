@@ -173,6 +173,26 @@ class Utils
     }
 
     /**
+     * Looks for the phrase "particularly dangerous situation" in the segment text.
+     * TODO: Look for a better home for this. I put this here for now as the most
+     * parser-agnostic location possible, as text products such as SEL, which won't
+     * go through the VTEC parser, will still be able to make use of this fn.
+     * @param mixed $text Product text
+     * @return bool If it is a PDS or not
+     */
+    public static function findPDS($text): bool
+    {
+        $pds = false;
+
+        // Less overhead than a regex match for this particular use case.
+        if (strpos($text, 'PARTICULARLY DANGEROUS SITUATION') !== false) {
+            $pds = true;
+        }
+
+        return $pds;
+    }
+
+    /**
      * Write a message to the log or console depending on configuration.
      * Wrapper for the built-in error_log PHP function.
      *

@@ -168,9 +168,18 @@ class NWSProduct
      */
     public function appendChannels(array $newChannels): void
     {
-        $new_channel_list = array_merge($this->channels, $newChannels);
+        $new_channel_list = [];
+
+        // For deduplication
+        foreach ($newChannels as $channel) {
+            if (!in_array($channel, $this->channels)) {
+                array_push($new_channel_list, $channel);
+            }
+        }
+
+        // Merge the deduped channel list into the product channels
+        $this->channels = array_merge($this->channels, $new_channel_list);
         // Sort the channel list in alphabetical order
-        sort($new_channel_list);
-        $this->channels = $new_channel_list;
+        sort($this->channels);
     }
 }

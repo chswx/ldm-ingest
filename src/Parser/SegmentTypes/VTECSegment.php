@@ -38,7 +38,7 @@ class VTECSegment extends NWSProductSegment
      */
     public $polygon;
 
-    public function __construct($segment_text, $parentProduct)
+    public function __construct($segment_text, \chswx\LDMIngest\Parser\NWSProduct $parentProduct)
     {
         parent::__construct($segment_text, $parentProduct);
         $this->vtec_strings = $this->parseVTEC($segment_text);
@@ -57,10 +57,6 @@ class VTECSegment extends NWSProductSegment
         // Will be null if the polygon does not exist in the product.
         $sbw = new SBW($segment_text);
         $this->polygon = $sbw->polygon;
-
-        //
-        // TODO: Dedupe this
-        //
 
         // Generate additional channels from each VTEC segment
         $channels = $this->generateChannels();

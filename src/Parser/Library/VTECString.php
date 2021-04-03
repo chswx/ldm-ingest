@@ -160,6 +160,8 @@ class VTECString
      * Potential ideas for later:
      * - Try to get the issue year from the segment for more ironclad info.
      * - Try to use H-VTEC to determine the year of issuance for long-running flood warnings.
+     * This same code is in the Alerter.
+     * TODO: Abstract to a library
      * @return string|false The year in question
      */
     public function getVtecYear()
@@ -167,7 +169,14 @@ class VTECString
         $year = date('Y');
 
         if ($this->effective_timestamp !== 0) {
-            $year = date('Y', $this->effective_timestamp);
+            // Use the effective timestamp to infer the year,
+            // but only if it is the same as the current year
+            // If NWS issues a VTEC product valid in the new year during
+            // the current year, the ETN will go toward the _current_ year
+            $eff_year = date('Y', $this->effective_timestamp);
+            $curr_year = date('Y');
+
+            $year = ($eff_year > $curr_year) ? $curr_year : $eff_year;
         }
 
         return $year;

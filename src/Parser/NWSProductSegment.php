@@ -35,6 +35,13 @@ class NWSProductSegment
     public $pil;
 
     /**
+     * Segment-specific channels
+     *
+     * @var array channels
+     */
+    public $channels;
+
+    /**
      * Basic constructor for product segments. Will be called explicitly by subclasses.
      *
      * @param string $segment_text
@@ -45,7 +52,13 @@ class NWSProductSegment
         $this->office = $parentProduct->office;
         $this->text = $segment_text;
         $this->zones = Utils::parseZones($this->text);
-        $parentProduct->appendChannels($this->generateZoneChannels());
+        $this->channels = [];
+        // Get channels for this segment.
+        $channels = $this->generateZoneChannels();
+        // Append segment-specific channels.
+        $this->appendChannels($channels);
+        // Propagate the channels upward to the product.
+        $parentProduct->appendChannels($channels);
     }
 
     /**
@@ -99,5 +112,19 @@ class NWSProductSegment
         }
 
         return $channels;
+    }
+
+    /**
+     * Helper function to allow segments to add channels per-segment.
+     *
+     * @param array $newChannels
+     * @return void
+     */
+    public function appendChannels(array $newChannels): void
+    {
+        $new_channel_list = array_merge($this->channels, $newChannels);
+        // Sort the channel list in alphabetical order
+        sort($new_channel_list);
+        $this->channels = $new_channel_list;
     }
 }

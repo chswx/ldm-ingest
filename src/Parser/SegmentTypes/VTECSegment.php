@@ -58,8 +58,16 @@ class VTECSegment extends NWSProductSegment
         $sbw = new SBW($segment_text);
         $this->polygon = $sbw->polygon;
 
-        // Append additional channels as needed
-        $parentProduct->appendChannels($this->generateChannels());
+        //
+        // TODO: Dedupe this
+        //
+
+        // Generate additional channels from each VTEC segment
+        $channels = $this->generateChannels();
+        // Append per-segment channels
+        $this->appendChannels($channels);
+        // Append channels to the parent product
+        $parentProduct->appendChannels($channels);
     }
 
     //

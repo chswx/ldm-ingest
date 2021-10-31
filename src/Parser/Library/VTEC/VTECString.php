@@ -1,6 +1,8 @@
 <?php
 
-namespace chswx\LDMIngest\Parser\Library;
+namespace chswx\LDMIngest\Parser\Library\VTEC;
+
+use chswx\LDMIngest\Utils;
 
 /**
  * Class to assist with VTEC string operations.
@@ -57,16 +59,17 @@ class VTECString
 
     /**
      * Constructor.
-     * Take product text and parse out VTEC string(s).
+     * Take array of VTEC tokens and return properly populated object.
      *
-     * @param array|string $vtec Product text.
+     * @param array $vtec Array containing VTEC tokens.
      */
     public function __construct($vtec)
     {
         if (is_array($vtec)) {
             $this->createObj($vtec);
         } else {
-            $this->parse($vtec);
+            Utils::log("Doing it wrong: Need to only pass in an array. This will not end well.");
+            return null;
         }
     }
 
@@ -217,15 +220,6 @@ class VTECString
 
         // Expire time (as UNIX timestamp)
         $this->expire_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
-    }
-
-    private function parse($vtec_string)
-    {
-        $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
-
-        if (preg_match($regex, $vtec_string, $matches)) {
-            $this->createObj($matches);
-        }
     }
 
     /**

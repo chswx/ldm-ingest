@@ -58,6 +58,11 @@ class VTECString
     public $expire_timestamp;
 
     /**
+     * @var int Inferred year of the event
+     */
+    public $year;
+
+    /**
      * Constructor.
      * Take array of VTEC tokens and return properly populated object.
      *
@@ -220,6 +225,9 @@ class VTECString
 
         // Expire time (as UNIX timestamp)
         $this->expire_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
+
+        // Year of event
+        $this->year = $this->getVtecYear();
     }
 
     /**

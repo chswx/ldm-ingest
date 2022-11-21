@@ -59,4 +59,9 @@ class IBWTest extends TestCase
         $this->assertEquals($this->april_2021_ibw_svr_base->wind, "60 MPH");
         $this->assertEquals($this->april_2021_ibw_svr_considerable_wind->wind_threat, "OBSERVED");
     }
+
+    public function hasDependencies()
+    {
+        return null;
+    }
 }

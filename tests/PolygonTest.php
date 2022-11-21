@@ -27,4 +27,9 @@ class PolygonTest extends TestCase
         $actual = new Polygon($polygon);
         $this->assertEquals($expected, $actual->toArray(), 'Arrays did not match');
     }
+
+    public function hasDependencies()
+    {
+        return null;
+    }
 }

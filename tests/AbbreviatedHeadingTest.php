@@ -50,4 +50,9 @@ class AbbreviatedHeadingTest extends TestCase
             'Amendment was not null'
         );
     }
+
+    public function hasDependencies()
+    {
+        return null;
+    }
 }

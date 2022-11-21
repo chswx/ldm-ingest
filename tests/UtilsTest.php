@@ -64,4 +64,9 @@ class UtilsTest extends TestCase
         );
         $this->assertEquals($expected, $parsed, "Did not get expected list of zones");
     }
+
+    public function hasDependencies()
+    {
+        return null;
+    }
 }

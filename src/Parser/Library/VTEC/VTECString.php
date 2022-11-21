@@ -1,6 +1,8 @@
 <?php
 
-namespace chswx\LDMIngest\Parser\Library;
+namespace chswx\LDMIngest\Parser\Library\VTEC;
+
+use chswx\LDMIngest\Utils;
 
 /**
  * Class to assist with VTEC string operations.
@@ -57,16 +59,17 @@ class VTECString
 
     /**
      * Constructor.
-     * Take product text and parse out VTEC string(s).
+     * Take array of VTEC tokens and return properly populated object.
      *
-     * @param array|string $vtec Product text.
+     * @param array $vtec Array containing VTEC tokens.
      */
     public function __construct($vtec)
     {
         if (is_array($vtec)) {
             $this->createObj($vtec);
         } else {
-            $this->parse($vtec);
+            Utils::log("Doing it wrong: Need to only pass in an array. This will not end well.");
+            return null;
         }
     }
 
@@ -160,6 +163,8 @@ class VTECString
      * Potential ideas for later:
      * - Try to get the issue year from the segment for more ironclad info.
      * - Try to use H-VTEC to determine the year of issuance for long-running flood warnings.
+     * This same code is in the Alerter.
+     * TODO: Abstract to a library
      * @return string|false The year in question
      */
     public function getVtecYear()
@@ -167,7 +172,14 @@ class VTECString
         $year = date('Y');
 
         if ($this->effective_timestamp !== 0) {
-            $year = date('Y', $this->effective_timestamp);
+            // Use the effective timestamp to infer the year,
+            // but only if it is the same as the current year
+            // If NWS issues a VTEC product valid in the new year during
+            // the current year, the ETN will go toward the _current_ year
+            $eff_year = date('Y', $this->effective_timestamp);
+            $curr_year = date('Y');
+
+            $year = ($eff_year > $curr_year) ? $curr_year : $eff_year;
         }
 
         return $year;
@@ -208,15 +220,6 @@ class VTECString
 
         // Expire time (as UNIX timestamp)
         $this->expire_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
-    }
-
-    private function parse($vtec_string)
-    {
-        $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
-
-        if (preg_match($regex, $vtec_string, $matches)) {
-            $this->createObj($matches);
-        }
     }
 
     /**

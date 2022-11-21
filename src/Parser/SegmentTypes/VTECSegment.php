@@ -6,7 +6,8 @@ use chswx\LDMIngest\Parser\NWSProductSegment;
 use chswx\LDMIngest\Parser\Library\SMVString;
 use chswx\LDMIngest\Parser\Library\IBW;
 use chswx\LDMIngest\Parser\Library\SBW;
-use chswx\LDMIngest\Parser\Library\VTECString;
+use chswx\LDMIngest\Parser\Library\VTEC\VTECString;
+use chswx\LDMIngest\Parser\Library\VTEC\VTECUtils;
 
 /**
  * Extends the NWSProductSegment with attributes specific to VTEC-enabled products.
@@ -38,7 +39,7 @@ class VTECSegment extends NWSProductSegment
      */
     public $polygon;
 
-    public function __construct($segment_text, $parentProduct)
+    public function __construct($segment_text, \chswx\LDMIngest\Parser\NWSProduct $parentProduct)
     {
         parent::__construct($segment_text, $parentProduct);
         $this->vtec_strings = $this->parseVTEC($segment_text);
@@ -55,11 +56,18 @@ class VTECSegment extends NWSProductSegment
 
         // Extract the polygon from the product and save.
         // Will be null if the polygon does not exist in the product.
-        $sbw = new SBW($segment_text);
-        $this->polygon = $sbw->polygon;
+        // For now, limit to certain short-fuse products
+        if (preg_match('/(TOR|SVR|SVS|FFW|FLS|MWW|MWS)/', $this->pil)) {
+            $sbw = new SBW($segment_text);
+            $this->polygon = $sbw->polygon;
+        }
 
-        // Append additional channels as needed
-        $parentProduct->appendChannels($this->generateChannels());
+        // Generate additional channels from each VTEC segment
+        $channels = $this->generateChannels();
+        // Append per-segment channels
+        $this->appendChannels($channels);
+        // Append channels to the parent product
+        $parentProduct->appendChannels($channels);
     }
 
     //
@@ -97,23 +105,16 @@ class VTECSegment extends NWSProductSegment
     }
 
     /**
-     * Checks if a segment has a VTEC message.
+     * Return VTEC messages as string objects from the parser.
      *
-     * @return boolean
+     * @return chswx\LDMIngest\Parser\Library\VTEC\VTECString[]
      */
     public function parseVTEC($segment_text)
     {
-        $data = $segment_text;
-        $vtec_strings = array();
-
-        // Fun regex to find VTEC strings
-        // TODO: Reconcile where this regex should live. Right now it is duplicated in VTECString.php
-        $regex = "/\/([A-Z]{1})\.(NEW|CON|EXP|CAN|EXT|EXA|EXB|UPG|COR|ROU)\.([A-Z]{4})\.([A-Z]{2})\.([A-Z]{1})\.([0-9]{4})\.([0-9]{6})T([0-9]{4})Z-([0-9]{6})T([0-9]{4})Z\//";
-
-        if (preg_match_all($regex, $data, $matches, PREG_SET_ORDER)) {
-            foreach ($matches as $key => $match) {
-                $vtec_strings[$key] = new VTECString($match);
-            }
+        $vtec_strings = [];
+        $arrays = VTECUtils::parse($segment_text);
+        foreach ($arrays as $array) {
+            $vtec_strings[] = new VTECString($array);
         }
 
         return $vtec_strings;

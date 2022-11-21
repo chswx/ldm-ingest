@@ -2,7 +2,8 @@
 
 namespace chswx\LDMIngest\Parser\Library\Tests;
 
-use chswx\LDMIngest\Parser\Library\VTECString;
+use chswx\LDMIngest\Parser\Library\VTEC\VTECString;
+use chswx\LDMIngest\Parser\Library\VTEC\VTECUtils;
 use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');
@@ -17,7 +18,8 @@ class VTECStringTest extends TestCase
 
     public function testVtecOperationalExpiration()
     {
-        $vtec = new VTECString($this->expireOperationalString);
+        $arrays = VTECUtils::parse($this->expireOperationalString);
+        $vtec = new VTECString($arrays[0]);
 
         // test case 1: Make sure the parser is parsing properly
         $this->assertEquals($this->expireOperationalString, $vtec->vtec_string);
@@ -40,7 +42,8 @@ class VTECStringTest extends TestCase
 
     public function testVtecOperationalIssuance()
     {
-        $vtec = new VTECString($this->newOperationalString);
+        $arrays = VTECUtils::parse($this->newOperationalString);
+        $vtec = new VTECString($arrays[0]);
 
         // test case 1: Make sure the parser is parsing properly
         $this->assertEquals($this->newOperationalString, $vtec->vtec_string);

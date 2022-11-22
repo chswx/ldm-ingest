@@ -185,6 +185,16 @@ class VTECString
             $curr_year = date('Y');
 
             $year = ($eff_year > $curr_year) ? $curr_year : $eff_year;
+        } else if ($this->expire_timestamp !== 0) {
+            // If the effective timestamp is zeroed out (CON/EXA),
+            // we should still be able to infer the year from expiration.
+            // If the current year is greater than the expiration year,
+            // then use that year (primarily in archival scenarios).
+            // Otherwise, use the current year
+            $exp_year = date('Y', $this->expire_timestamp);
+            if ($year > $exp_year) {
+                $year = $exp_year;
+            }
         }
 
         return $year;

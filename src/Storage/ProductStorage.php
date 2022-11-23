@@ -25,7 +25,7 @@ class ProductStorage
      * @param $product mixed Array of product data to be inserted into the database
      * @param $table   string Table to write to (default is 'products')
      */
-    public function send($product, $table = 'products_generic')
+    public function send($product, $table = 'products')
     {
         $product_class = get_class($product);
         // If we are passing in the table from the product object, don't set it here so it doesn't come along.

@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 require_once('vendor/autoload.php');
 
-date_default_timezone_get('UTC');
+date_default_timezone_set('UTC');
 
 class PolygonTest extends TestCase
 {

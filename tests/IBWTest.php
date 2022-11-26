@@ -28,6 +28,9 @@ class IBWTest extends TestCase
         // Updated IBW for SPS going live April 2021
         $this->april_2021_ibw_sps_landspout = new IBW(file_get_contents(getcwd() . '/tests/sample-data/april-2021-ibw/sps-landspout'));
         $this->april_2021_ibw_sps_waterspout_observed = new IBW(file_get_contents(getcwd() . '/tests/sample-data/april-2021-ibw/sps-waterspout-observed'));
+
+        // Flash Flood Warning IBW
+        $this->ffw_ibw = new IBW(file_get_contents(getcwd() . '/tests/sample-data/ffw-sequence-jul142022/issuance'));
     }
 
     public function testMetadataSearch()
@@ -53,11 +56,19 @@ class IBWTest extends TestCase
         // New hail and wind tags
         //
 
-        $this->assertEquals($this->april_2021_ibw_svr_base->hail, "1.00 IN");
-        $this->assertEquals($this->april_2021_ibw_svr_considerable_wind->hail, "1.00 IN");
-        $this->assertEquals($this->april_2021_ibw_svr_considerable_wind->hail_threat, "RADAR INDICATED");
-        $this->assertEquals($this->april_2021_ibw_svr_base->wind, "60 MPH");
-        $this->assertEquals($this->april_2021_ibw_svr_considerable_wind->wind_threat, "OBSERVED");
+        $this->assertEquals("1.00 IN", $this->april_2021_ibw_svr_base->hail);
+        $this->assertEquals("1.00 IN", $this->april_2021_ibw_svr_considerable_wind->hail);
+        $this->assertEquals("RADAR INDICATED", $this->april_2021_ibw_svr_considerable_wind->hail_threat);
+        $this->assertEquals("60 MPH", $this->april_2021_ibw_svr_base->wind);
+        $this->assertEquals("OBSERVED", $this->april_2021_ibw_svr_considerable_wind->wind_threat);
+
+        //
+        // Flash Flood tags
+        //
+
+        $this->assertEquals("RADAR INDICATED", $this->ffw_ibw->flash_flood);
+        $this->assertEquals("CONSIDERABLE", $this->ffw_ibw->flash_flood_threat);
+        $this->assertEquals("1-2.5 INCHES IN 1 HOUR", $this->ffw_ibw->rain_rate);
     }
 
     public function hasDependencies()

@@ -177,7 +177,7 @@ class Utils
      * TODO: Look for a better home for this. I put this here for now as the most
      * parser-agnostic location possible, as text products such as SEL, which won't
      * go through the VTEC parser, will still be able to make use of this fn.
-     * @param mixed $text Product text
+     * @param string $text Product text
      * @return bool If it is a PDS or not
      */
     public static function findPDS($text): bool
@@ -190,6 +190,24 @@ class Utils
         }
 
         return $pds;
+    }
+
+    /**
+     * Looks for the phrases "tornado emergency" or "flash flood emergency"
+     * in the segment text.
+     * TODO: See above...needs a better place to live.
+     * @param string $text Product text
+     * @return bool If it is an emergency or not
+     */
+    public static function findEmergency($text): bool
+    {
+        $emergency = false;
+
+        if (strpos($text, 'TORNADO EMERGENCY') !== false || strpos($text, 'FLASH FLOOD EMERGENCY') !== false) {
+            $emergency = true;
+        }
+
+        return $emergency;
     }
 
     /**

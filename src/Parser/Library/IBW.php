@@ -19,7 +19,14 @@ class IBW
     public $source;
     public $impact;
     public $landspout;
+    public $thunderstorm_damage;
+    public $hail_threat;
+    public $wind_threat;
+    public $flash_flood;
+    public $flash_flood_threat;
+    public $rain_rate;
     public $is_pds;
+    public $is_emergency;
 
     /**
      * Constructor.
@@ -51,6 +58,10 @@ class IBW
         $this->thunderstorm_damage = $this->findMetadata($segment_text, 'thunderstorm damage threat');
         $this->hail_threat = $this->findMetadata($segment_text, 'hail threat');
         $this->wind_threat = $this->findMetadata($segment_text, 'wind threat');
+        // Impact-based flash flood warnings are online with Hazard Services as of Summer 2022
+        $this->flash_flood = $this->findMetadata($segment_text, 'flash flood');
+        $this->flash_flood_threat = $this->findMetadata($segment_text, 'flash flood damage threat');
+        $this->rain_rate = $this->findMetadata($segment_text, 'expected rainfall rate');
         $impacts = $this->findHazSrcImpact($segment_text);
         if (!is_null($impacts)) {
             $this->hazard = $impacts['hazard'];
@@ -59,6 +70,8 @@ class IBW
         }
         // Is this a PDS watch/warning?
         $this->is_pds = Utils::findPDS($segment_text);
+        // Is this an "emergency" level warning, such as a tornado or flash flood emergency?
+        $this->is_emergency = Utils::findEmergency($segment_text);
     }
 
     /**

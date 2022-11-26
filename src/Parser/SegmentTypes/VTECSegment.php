@@ -43,7 +43,7 @@ class VTECSegment extends NWSProductSegment
     {
         parent::__construct($segment_text, $parentProduct);
         $this->vtec_strings = $this->parseVTEC($segment_text);
-        // Only attempt to parse out storm motion vector and impact-based information for:
+        // Only attempt to parse out storm motion vector for:
         // - tornado warnings
         // - severe thunderstorm warnings
         // - severe weather followup statements
@@ -51,7 +51,6 @@ class VTECSegment extends NWSProductSegment
         // - marine weather statements (questionable)
         if (preg_match('/(TOR|SVR|SVS|MWW|MWS)/', $this->pil)) {
             $this->smv = new SMVString($segment_text);
-            $this->impacts = new IBW($segment_text);
         }
 
         // Extract the polygon from the product and save.
@@ -60,6 +59,11 @@ class VTECSegment extends NWSProductSegment
         if (preg_match('/(TOR|SVR|SVS|FFW|FLS|MWW|MWS)/', $this->pil)) {
             $sbw = new SBW($segment_text);
             $this->polygon = $sbw->polygon;
+        }
+
+        // Parse impact-based tags for certain products.
+        if (preg_match('/(TOR|SVR|SVS|MWW|MWS|FFW|FLS)/', $this->pil)) {
+            $this->impacts = new IBW($segment_text);
         }
 
         // Generate additional channels from each VTEC segment

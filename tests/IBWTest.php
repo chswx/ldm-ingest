@@ -31,6 +31,7 @@ class IBWTest extends TestCase
 
         // Flash Flood Warning IBW
         $this->ffw_ibw = new IBW(file_get_contents(getcwd() . '/tests/sample-data/ffw-sequence-jul142022/issuance'));
+        $this->ffs_ibw = new IBW(file_get_contents(getcwd() . '/tests/sample-data/ffw-sequence-jul142022/update-1'));
     }
 
     public function testMetadataSearch()
@@ -69,6 +70,10 @@ class IBWTest extends TestCase
         $this->assertEquals("RADAR INDICATED", $this->ffw_ibw->flash_flood);
         $this->assertEquals("CONSIDERABLE", $this->ffw_ibw->flash_flood_threat);
         $this->assertEquals("1-2.5 INCHES IN 1 HOUR", $this->ffw_ibw->rain_rate);
+
+        $this->assertEquals("RADAR INDICATED", $this->ffs_ibw->flash_flood);
+        $this->assertEquals("CONSIDERABLE", $this->ffs_ibw->flash_flood_threat);
+        $this->assertEquals("1-2 INCHES IN 1 HOUR", $this->ffs_ibw->rain_rate);
     }
 
     public function hasDependencies()

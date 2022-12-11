@@ -56,13 +56,13 @@ class VTECSegment extends NWSProductSegment
         // Extract the polygon from the product and save.
         // Will be null if the polygon does not exist in the product.
         // For now, limit to certain short-fuse products
-        if (preg_match('/(TOR|SVR|SVS|FFW|FLS|MWW|MWS)/', $this->pil)) {
+        if (preg_match('/(TOR|SVR|SVS|FFW|FLS|FFS|MWW|MWS)/', $this->pil)) {
             $sbw = new SBW($segment_text);
             $this->polygon = $sbw->polygon;
         }
 
         // Parse impact-based tags for certain products.
-        if (preg_match('/(TOR|SVR|SVS|MWW|MWS|FFW|FLS)/', $this->pil)) {
+        if (preg_match('/(TOR|SVR|SVS|MWW|MWS|FFW|FFS|FLS)/', $this->pil)) {
             $this->impacts = new IBW($segment_text);
         }
 

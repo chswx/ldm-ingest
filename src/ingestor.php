@@ -67,7 +67,7 @@ if (!is_null($product_obj)) {
 
     // Have you heard the good word of our properly parsed product?
     Utils::log("Parsed product {$product_obj->pil} from {$product_obj->office} successfully");
-    Utils::log("Channels: " . implode(', ', $product_obj->channels));
+    // Utils::log("Channels: " . implode(', ', $product_obj->channels));
 } else {
     // Something went wrong
     Utils::log("Error parsing.", 'error');

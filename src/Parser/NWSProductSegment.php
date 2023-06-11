@@ -52,13 +52,13 @@ class NWSProductSegment
         $this->office = $parentProduct->office;
         $this->text = $segment_text;
         $this->zones = Utils::parseZones($this->text);
-        $this->channels = [];
+        //        $this->channels = [];
         // Get channels for this segment.
-        $channels = $this->generateZoneChannels();
+        //        $channels = $this->generateZoneChannels();
         // Append segment-specific channels.
-        $this->appendChannels($channels);
+        //       $this->appendChannels($channels);
         // Propagate the channels upward to the product.
-        $parentProduct->appendChannels($channels);
+        //        $parentProduct->appendChannels($channels);
     }
 
     /**

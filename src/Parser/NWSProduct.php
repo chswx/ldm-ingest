@@ -80,7 +80,7 @@ class NWSProduct
         $this->timestamp = $prod_info['timestamp'];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
-        // Generate initial channels for this product
+        // Generate product-level channels
         $this->generateChannels();
         // Parse the product out into segments if not already done by a more specialized parser.
         if (empty($this->segments)) {

@@ -67,11 +67,11 @@ class VTECSegment extends NWSProductSegment
         }
 
         // Generate additional channels from each VTEC segment
-        $channels = $this->generateChannels();
+        // $channels = $this->generateChannels();
         // Append per-segment channels
-        $this->appendChannels($channels);
+        // $this->appendChannels($channels);
         // Append channels to the parent product
-        $parentProduct->appendChannels($channels);
+        // $parentProduct->appendChannels($channels);
     }
 
     //

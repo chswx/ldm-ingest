@@ -11,6 +11,7 @@ require_once('../vendor/autoload.php');
 define('DATABASE_NAME', 'chswx');
 define('DATABASE_SERVER', 'localhost');
 define('IMPORT_GEOSPATIAL', true);
+define('IMPORT_ZONES', true);
 
 echo "Opening the connection to the local RethinkDB instance...\n";
 $conn = r\connect(DATABASE_SERVER);
@@ -58,7 +59,7 @@ foreach ($tables as $table) {
 echo "{$count} tables created, {$skipped} tables skipped\n";
 
 // Set up geospatial index
-if (defined('IMPORT_GEOSPATIAL')) {
+if (defined('IMPORT_GEOSPATIAL') && IMPORT_GEOSPATIAL) {
     echo "Importing geospatial data...\n";
     echo "Step 1: Cities\n";
     $file = '../data/awips_cities_geojson.geojson';
@@ -85,7 +86,22 @@ if (defined('IMPORT_GEOSPATIAL')) {
     unset($json);
     unset($decoded);
 
-    echo "Step 2: Zones\n";
+    // Set up geospatial indexes
+    echo "Setting up geospatial indexes...\n";
+    $geo_indexes = [
+        'geo_cities' => "geometry"
+    ];
+    foreach ($geo_indexes as $table => $index) {
+        try {
+            r\table($table)->indexCreateGeo($index)->run($conn);
+        } catch (r\Exceptions\RQLServerError $e) {
+            echo "Index may already exist.\n";
+        }
+    }
+}
+
+if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
+    echo "Importing: Zones\n";
     /*
      * Format:
      *  STATE	    Two character state abbreviation
@@ -100,12 +116,12 @@ if (defined('IMPORT_GEOSPATIAL')) {
         LAT	        Latitude of centroid of the zone
         LON	        Longitude of centroid of the zone
      */
-    //$zonefile = file_get_contents('../data/zone_correlation.dbx');
     $count = 0;
     foreach (file('../data/zone_correlation.dbx') as $line) {
         $raw_zone = explode('|', $line);
         $zone = new stdClass;
         $zone->id = $raw_zone[0] . 'Z' . $raw_zone[1];
+        $zone->county_id = $raw_zone[0] . 'C' . substr($raw_zone['6'], 2);
         $zone->state = $raw_zone[0];
         $zone->zone = $raw_zone[1];
         $zone->cwa = $raw_zone[2];
@@ -126,21 +142,17 @@ if (defined('IMPORT_GEOSPATIAL')) {
 
     // Set up indexes
     echo "Setting up indexes...\n";
-    try {
-        r\table('geo_zones')->indexCreate('county_name')->run($conn);
-    } catch (r\Exceptions\RqlServerError $e) {
-        echo "Index may already exist.\n";
-    }
-
-    // Set up geospatial indexes
-    echo "Setting up geospatial indexes...\n";
-    $indexes = [
-        'geo_cities' => "geometry"
+    $tables = [
+        'geo_zones' => ['county_name', 'county_id'],
     ];
-    foreach ($indexes as $table => $index) {
+
+
+    foreach ($tables as $table => $indexes) {
         try {
-            r\table($table)->indexCreateGeo($index)->run($conn);
-        } catch (r\Exceptions\RQLServerError $e) {
+            foreach ($indexes as $index) {
+                r\table($table)->indexCreate($index)->run($conn);
+            }
+        } catch (r\Exceptions\RqlServerError $e) {
             echo "Index may already exist.\n";
         }
     }

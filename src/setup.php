@@ -10,7 +10,7 @@ require_once('../vendor/autoload.php');
 
 define('DATABASE_NAME', 'chswx');
 define('DATABASE_SERVER', 'localhost');
-define('IMPORT_GEOSPATIAL', true);
+define('IMPORT_GEOSPATIAL', false);
 define('IMPORT_ZONES', true);
 
 echo "Opening the connection to the local RethinkDB instance...\n";
@@ -87,7 +87,7 @@ if (defined('IMPORT_GEOSPATIAL') && IMPORT_GEOSPATIAL) {
     unset($decoded);
 
     // Set up geospatial indexes
-    echo "Setting up geospatial indexes...\n";
+    echo "\nSetting up geospatial indexes...\n";
     $geo_indexes = [
         'geo_cities' => "geometry"
     ];
@@ -117,8 +117,14 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
         LON	        Longitude of centroid of the zone
      */
     $count = 0;
+    $county_count = 0;  // lol
+    $counties = [];     // set up the counties array
+
+    // Read the file.
     foreach (file('../data/zone_correlation.dbx') as $line) {
         $raw_zone = explode('|', $line);
+
+        // First, create a zone
         $zone = new stdClass;
         $zone->id = $raw_zone[0] . 'Z' . $raw_zone[1];
         $zone->county_id = $raw_zone[0] . 'C' . substr($raw_zone['6'], 2);
@@ -133,15 +139,36 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
         $zone->feature_area = $raw_zone[8];
         $zone->lat = $raw_zone[9];
         $zone->lon = $raw_zone[10];
+        $zone->type = 'zone';
+
+        // Next, skim counties from zones
+        if (!isset($counties[$zone->county_id])) {
+            $county = new stdClass();
+            $county->id = $zone->county_id;
+            $county->name = $zone->county_name;
+            $county->state = $zone->state;
+            $county->cwa = $zone->cwa;
+            $county->fips = $zone->fips;
+            $county->type = 'county';
+
+            // Do not duplicate inserts
+            $counties[$zone->county_id] = $county;
+
+            $result = r\table('geo_zones')->insert($county)->run($conn);
+            if ($result) {
+                $county_count++;
+            }
+        }
+
         $result = r\table('geo_zones')->insert($zone)->run($conn);
         if ($result) {
             $count++;
-            echo "$count records inserted\r";
+            echo "$count zone records inserted; $county_count county records inserted\r";
         }
     }
 
     // Set up indexes
-    echo "Setting up indexes...\n";
+    echo "\nSetting up indexes...\n";
     $tables = [
         'geo_zones' => ['county_name', 'county_id'],
     ];

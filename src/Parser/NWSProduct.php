@@ -70,6 +70,13 @@ class NWSProduct
     public $table;
 
     /**
+     * Source of the product.
+     *
+     * @var string
+     */
+    public $src;
+
+    /**
      * Constructor.
      */
     public function __construct($prod_info, $product_text)

@@ -11,7 +11,7 @@ require_once('../vendor/autoload.php');
 define('DATABASE_NAME', 'chswx');
 define('DATABASE_SERVER', 'localhost');
 define('IMPORT_GEOSPATIAL', false);
-define('IMPORT_ZONES', true);
+define('IMPORT_ZONES', false);
 
 echo "Opening the connection to the local RethinkDB instance...\n";
 $conn = r\connect(DATABASE_SERVER);

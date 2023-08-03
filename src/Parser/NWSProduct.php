@@ -18,56 +18,63 @@ class NWSProduct
      *
      * @var string Product text.
      */
-    public $raw_product;
+    public string $raw_product;
 
     /**
      * Issuing office.
      *
      * @var string WFO
      */
-    public $office;
+    public string $office;
 
     /**
      * Product identifier line.
      *
      * @var string PIL
      */
-    public $pil;
+    public string $pil;
 
     /**
      * Unique stamp for this particular product.
      *
      * @var string stamp
      */
-    public $id;
+    public string $id;
 
     /**
      * Holds the product's NWSProductSegments, if any. Generate events from these later if needed.
      *
      * @var mixed Array of segments
      */
-    public $segments;
+    public mixed $segments;
 
     /**
      * Issuance time as set in the WMO abbreviated header.
      *
      * @var int
      */
-    public $timestamp;
+    public int $timestamp;
 
     /**
      * Channels to send this product to for dissemination.
      *
-     * @var \array
+     * @var mixed
      */
-    public $channels;
+    public mixed $channels;
 
     /**
      * Table to receive the product.
      *
      * @var string
      */
-    public $table;
+    public string $table;
+
+    /**
+     * Source of the product.
+     *
+     * @var string
+     */
+    public string $src;
 
     /**
      * Constructor.

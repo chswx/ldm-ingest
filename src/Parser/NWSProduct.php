@@ -77,6 +77,13 @@ class NWSProduct
     public string $src;
 
     /**
+     * Type of the product.
+     *
+     * @var string
+     */
+    public string $type = 'generic';
+
+    /**
      * Constructor.
      */
     public function __construct($prod_info, $product_text)

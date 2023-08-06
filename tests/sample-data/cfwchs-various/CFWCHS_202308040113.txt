@@ -1,0 +1,121 @@
+
+304 
+WHUS42 KCHS 040113
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+913 PM EDT Thu Aug 3 2023
+
+SCZ049-050-040500-
+/O.CON.KCHS.CF.Y.0031.000000T0000Z-230804T0500Z/
+Coastal Colleton-Charleston-
+913 PM EDT Thu Aug 3 2023
+
+...COASTAL FLOOD ADVISORY REMAINS IN EFFECT UNTIL 1 AM EDT
+FRIDAY...
+
+* WHAT...Up to one foot of inundation above ground level 
+  expected along shorelines and tidal waterways (7.6 to 7.8 feet 
+  Mean Lower Low Water at Charleston).
+
+* WHERE...Coastal Colleton and Charleston Counties.
+
+* WHEN...From 9 PM this evening to 1 AM EDT Friday.
+
+* IMPACTS...This will result in some roads becoming impassable 
+  and minor flooding of properties.
+
+* ADDITIONAL DETAILS...High tide will occur around 10:30 PM this 
+  evening at Charleston. Saltwater inundation will be possible 1 
+  to 2 hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Charleston Harbor SC
+MLLW Categories - Minor 7.0 ft, Moderate 7.5 ft, Major 8.0 ft
+MHHW Categories - Minor 1.2 ft, Moderate 1.7 ft, Major 2.2 ft
+
+             Total      Total    Departure                   
+ Day/Time    Tide       Tide     from Norm   Waves    Flood  
+            ft MLLW    ft MHHW       ft       ft      Impact 
+ --------  ---------  ---------  ---------  -------  --------
+ 03/10 PM     7.7        1.9        1.1       N/A    Moderate  
+ 04/11 AM     6.8        1.0        0.9       N/A      None    
+ 04/11 PM     7.3        1.5        0.9       N/A     Minor    
+ 05/12 PM     6.9        1.1        0.9       N/A      None    
+ 06/12 AM     6.9        1.1        0.9       N/A      None    
+ 06/01 PM     6.9        1.1        0.9       N/A      None
+
+&&
+
+$$
+
+GAZ117-119-139-141-SCZ048-051-040500-
+/O.CON.KCHS.CF.Y.0031.000000T0000Z-230804T0500Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Jasper-
+913 PM EDT Thu Aug 3 2023
+
+...COASTAL FLOOD ADVISORY REMAINS IN EFFECT UNTIL 1 AM EDT
+FRIDAY...
+
+* WHAT...Up to one half foot of inundation above ground level 
+  expected along shorelines and tidal waterways (9.5 to 9.7 feet 
+  Mean Lower Low Water at Fort Pulaski).
+
+* WHERE...Beaufort, Coastal Jasper, and coastal southeast 
+  Georgia.
+
+* WHEN...From 9 PM this evening to 1 AM EDT Friday.
+
+* IMPACTS...Saltwater inundation will impact some roads.
+
+* ADDITIONAL DETAILS...High tide will occur around 10:30 PM this 
+  evening at Fort Pulaski. Saltwater inundation will be possible 
+  1 to 2 hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Fort Pulaski GA
+MLLW Categories - Minor 9.5 ft, Moderate 10.0 ft, Major 10.5 ft
+MHHW Categories - Minor 2.0 ft, Moderate 2.5 ft, Major 3.0 ft
+
+             Total      Total    Departure                   
+ Day/Time    Tide       Tide     from Norm   Waves    Flood  
+            ft MLLW    ft MHHW       ft       ft      Impact 
+ --------  ---------  ---------  ---------  -------  --------
+ 03/11 PM     9.6        2.1        1.1       N/A     Minor    
+ 04/11 AM     8.5        1.0        0.8       N/A      None    
+ 04/11 PM     9.0        1.5        0.8       N/A      None    
+ 05/12 PM     8.4        0.9        0.7       N/A      None    
+ 06/12 AM     8.5        1.0        0.8       N/A      None    
+ 06/01 PM     8.5        1.0        0.8       N/A      None
+
+&&
+
+$$

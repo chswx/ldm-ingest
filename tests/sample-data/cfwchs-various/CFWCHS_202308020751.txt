@@ -1,0 +1,65 @@
+
+056 
+WHUS42 KCHS 020751
+CFWCHS
+
+URGENT - IMMEDIATE BROADCAST REQUESTED
+Coastal Hazard Message
+National Weather Service Charleston SC
+351 AM EDT Wed Aug 2 2023
+
+SCZ049-050-021600-
+/O.NEW.KCHS.CF.A.0004.230803T0000Z-230803T0400Z/
+Coastal Colleton-Charleston-
+351 AM EDT Wed Aug 2 2023
+
+...COASTAL FLOOD WATCH IN EFFECT THIS EVENING...
+
+* WHAT...One to two feet of inundation above ground level 
+  possible along shorelines and tidal waterways (7.9 to 8.1 feet 
+  Mean Lower Low Water at Charleston).
+
+* WHERE...Coastal Colleton and Charleston Counties.
+
+* WHEN...This evening.
+
+* IMPACTS...Significant saltwater inundation will render 
+  numerous roads impassable. Properties may also flood.
+
+* ADDITIONAL DETAILS...High tide will occur around 9:37 PM today 
+  at Charleston. Saltwater inundation will be possible 1 to 2 
+  hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Charleston Harbor SC
+MLLW Categories - Minor 7.0 ft, Moderate 7.5 ft, Major 8.0 ft
+MHHW Categories - Minor 1.2 ft, Moderate 1.7 ft, Major 2.2 ft
+
+             Total      Total    Departure                   
+ Day/Time    Tide       Tide     from Norm   Waves    Flood  
+            ft MLLW    ft MHHW       ft       ft      Impact 
+ --------  ---------  ---------  ---------  -------  --------
+  02/09 AM     6.4        0.6        0.8       N/A      None    
+  02/10 PM     8.0        2.2        1.2       N/A     Major    
+  03/10 AM     6.5        0.7        0.8       N/A      None    
+  03/10 PM     7.3        1.5        0.7       N/A     Minor    
+  04/11 AM     6.6        0.8        0.7       N/A      None    
+  04/11 PM     7.0        1.2        0.6       N/A     Minor    
+
+
+&&
+
+$$

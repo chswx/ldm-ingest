@@ -1,0 +1,21 @@
+
+953 
+WHUS42 KCHS 040417
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+1217 AM EDT Fri Aug 4 2023
+
+GAZ117-119-139-141-SCZ048>051-040530-
+/O.CAN.KCHS.CF.Y.0031.000000T0000Z-230804T0500Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Colleton-Charleston-Coastal Jasper-
+1217 AM EDT Fri Aug 4 2023
+
+...COASTAL FLOOD ADVISORY IS CANCELLED...
+
+Tides have continued to fall below flood stage. Therefore the 
+Coastal Flood Advisory is canceled.
+
+$$

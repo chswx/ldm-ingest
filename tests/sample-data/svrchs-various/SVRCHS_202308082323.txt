@@ -1,0 +1,64 @@
+
+031 
+WUUS52 KCHS 082323
+SVRCHS
+GAC029-051-179-183-191-090030-
+/O.NEW.KCHS.SV.W.0079.230808T2323Z-230809T0030Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Charleston SC
+723 PM EDT Tue Aug 8 2023
+
+The National Weather Service in Charleston has issued a
+
+* Severe Thunderstorm Warning for portions of...
+  Bryan County in southeastern Georgia...
+  Liberty County in southeastern Georgia...
+  McIntosh County in southeastern Georgia...
+  Chatham County in southeastern Georgia...
+  Long County in southeastern Georgia...
+
+* Until 830 PM EDT.
+
+* At 723 PM EDT, a severe thunderstorm was located near Ludowici,
+  moving east at 20 mph.
+
+  HAZARD...60 mph wind gusts.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and powerlines.
+
+* Locations impacted include:
+  Hinesville, Darien, Ludowici, Tibet, Fort Stewart, Jones, McIntosh,
+  Walthourville, Midway, Riceboro, Flemington, Allenhurst, Gumbranch,
+  Gum Branch, and Harris Neck.
+
+This warning includes I-95 in Georgia between mile markers 50 and 84.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3129 8142 3133 8144 3138 8155 3143 8161
+      3147 8161 3151 8166 3154 8166 3155 8170
+      3158 8170 3167 8185 3173 8191 3175 8191
+      3179 8198 3193 8182 3199 8181 3180 8100
+      3171 8110 3162 8110 3140 8122 3129 8124
+TIME...MOT...LOC 2323Z 282DEG 17KT 3176 8175 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+BSH

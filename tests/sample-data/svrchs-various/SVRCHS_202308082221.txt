@@ -1,0 +1,60 @@
+
+261 
+WUUS52 KCHS 082221
+SVRCHS
+GAC031-043-109-267-082315-
+/O.NEW.KCHS.SV.W.0076.230808T2221Z-230808T2315Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Charleston SC
+621 PM EDT Tue Aug 8 2023
+
+The National Weather Service in Charleston has issued a
+
+* Severe Thunderstorm Warning for portions of...
+  Evans County in southeastern Georgia...
+  Bulloch County in southeastern Georgia...
+  Candler County in southeastern Georgia...
+  Tattnall County in southeastern Georgia...
+
+* Until 715 PM EDT.
+
+* At 620 PM EDT, a severe thunderstorm was located near Cobbtown,
+  moving east at 30 mph.
+
+  HAZARD...60 mph wind gusts and penny size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and powerlines.
+
+* Locations impacted include:
+  Reidsville, Metter, Claxton, Hagan, Collins, Cobbtown, Pulaski,
+  Register, Daisy, Bellville, Manassas, Gordonia Altamaha State Park,
+  and Aline.
+
+This warning includes I-16 between mile markers 96 and 118.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3239 8222 3245 8187 3212 8184 3208 8220
+      3218 8218 3223 8221 3234 8224 3235 8225
+TIME...MOT...LOC 2220Z 267DEG 26KT 3225 8223 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...0.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+BSH

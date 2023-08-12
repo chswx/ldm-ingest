@@ -27,6 +27,7 @@ class IBW
     public $rain_rate;
     public $is_pds;
     public $is_emergency;
+    public $emergency_headline = '';
 
     /**
      * Constructor.
@@ -72,6 +73,9 @@ class IBW
         $this->is_pds = Utils::findPDS($segment_text);
         // Is this an "emergency" level warning, such as a tornado or flash flood emergency?
         $this->is_emergency = Utils::findEmergency($segment_text);
+        if ($this->is_emergency) {
+            $this->emergency_headline = Utils::getEmergencyHeadline($segment_text);
+        }
     }
 
     /**

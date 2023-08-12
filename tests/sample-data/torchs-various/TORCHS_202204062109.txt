@@ -1,0 +1,50 @@
+
+991 
+WFUS52 KCHS 062109
+TORCHS
+SCC015-062145-
+/O.NEW.KCHS.TO.W.0012.220406T2109Z-220406T2145Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+509 PM EDT Wed Apr 6 2022
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Berkeley County in southeastern South Carolina...
+
+* Until 545 PM EDT.
+    
+* At 509 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located near Pinopolis, moving east at 25 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Moncks Corner, Old Santee Canal State Park, Huger and Pinopolis. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3311 8019 3323 8014 3324 7974 3298 7982
+TIME...MOT...LOC 2109Z 277DEG 24KT 3316 8010 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+
+$$
+
+BSH

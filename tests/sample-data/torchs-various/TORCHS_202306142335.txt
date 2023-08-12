@@ -1,0 +1,57 @@
+
+148 
+WFUS52 KCHS 142335
+TORCHS
+GAC103-SCC053-150000-
+/O.NEW.KCHS.TO.W.0003.230614T2335Z-230615T0000Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+735 PM EDT Wed Jun 14 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Effingham County in southeastern Georgia...
+  Jasper County in southeastern South Carolina...
+
+* Until 800 PM EDT.
+    
+* At 735 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located over Springfield, moving east at 45 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Springfield, Rincon, Hardeeville, Guyton, Purysburgh, Pineora,
+  Ebenezer, and Stillwell.
+
+This warning includes I-95 in South Carolina between mile markers 2
+and 15.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+&&
+
+LAT...LON 3241 8140 3243 8102 3220 8104 3229 8141
+TIME...MOT...LOC 2335Z 272DEG 40KT 3235 8132 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+CPM

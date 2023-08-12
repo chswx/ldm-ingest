@@ -1,0 +1,54 @@
+
+246 
+WFUS52 KCHS 222257
+TORCHS
+SCC015-222330-
+/O.NEW.KCHS.TO.W.0005.230722T2257Z-230722T2330Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+657 PM EDT Sat Jul 22 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Berkeley County in southeastern South Carolina...
+
+* Until 730 PM EDT.
+    
+* At 656 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located near Saint Stephen, moving east at 25 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Saint Stephen and Jamestown. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+&&
+
+LAT...LON 3343 7987 3343 7988 3340 7985 3338 7981
+      3337 7980 3338 7979 3332 7974 3332 7970
+      3330 7965 3325 7970 3336 7998 3347 7993
+TIME...MOT...LOC 2256Z 290DEG 22KT 3339 7986 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+Adam

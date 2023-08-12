@@ -1,0 +1,56 @@
+
+069 
+WFUS52 KCHS 070259
+TORCHS
+SCC029-070330-
+/O.NEW.KCHS.TO.W.0013.220407T0259Z-220407T0330Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+1059 PM EDT Wed Apr 6 2022
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Colleton County in southeastern South Carolina...
+
+* Until 1130 PM EDT.
+    
+* At 1059 PM EDT, a severe thunderstorm capable of producing a
+  tornado was located near Walterboro, moving east at 35 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Walterboro, Cottageville and Round O. 
+
+This warning includes I-95 in South Carolina between mile markers 54
+and 64.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3306 8051 3306 8046 3305 8044 3305 8040
+      3304 8039 3302 8041 3297 8042 3293 8040
+      3291 8041 3289 8039 3287 8040 3287 8079
+      3297 8082 3307 8053
+TIME...MOT...LOC 0259Z 258DEG 31KT 3293 8075 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+BSH

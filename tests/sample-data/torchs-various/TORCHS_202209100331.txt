@@ -1,0 +1,53 @@
+
+678 
+WFUS52 KCHS 100331
+TORCHS
+SCC019-100400-
+/O.NEW.KCHS.TO.W.0014.220910T0331Z-220910T0400Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+1131 PM EDT Fri Sep 9 2022
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Charleston County in southeastern South Carolina...
+
+* Until midnight EDT.
+    
+* At 1130 PM EDT, a severe thunderstorm capable of producing a
+  tornado was located over Seabrook Island, moving north at 20 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Johns Island, Seabrook Island, Kiawah Island, Meggett, Rockville,
+  Yonges Island, Bears Bluff and Wadmalaw Island.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Waterspouts that move onshore become tornadoes. Immediately seek
+shelter inside a sturdy building. As a last resort, find a low spot
+and protect yourself from flying debris.
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3258 8010 3253 8020 3267 8028 3277 8010
+TIME...MOT...LOC 0330Z 164DEG 17KT 3260 8014 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$

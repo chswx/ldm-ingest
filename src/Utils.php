@@ -210,6 +210,19 @@ class Utils
         return $emergency;
     }
 
+    public static function getEmergencyHeadline($text): string
+    {
+        $headline = '';
+
+        // Regex for emergency headline.
+        $regex = '/\.\.\.((.*)(TORNADO|FLASH FLOOD) EMERGENCY(.*))?\.\.\./';
+        if (preg_match($regex, $text, $matches)) {
+            $headline = $matches[0];
+        }
+
+        return str_replace("...", " ** ", $headline);
+    }
+
     /**
      * Write a message to the log or console depending on configuration.
      * Wrapper for the built-in error_log PHP function.

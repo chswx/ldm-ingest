@@ -1,0 +1,55 @@
+
+909 
+WFUS52 KCHS 102218
+TORCHS
+SCC029-035-102245-
+/O.NEW.KCHS.TO.W.0015.221110T2218Z-221110T2245Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+518 PM EST Thu Nov 10 2022
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Colleton County in southeastern South Carolina...
+  Dorchester County in southeastern South Carolina...
+
+* Until 545 PM EST.
+    
+* At 517 PM EST, a severe thunderstorm capable of producing a tornado
+  was located near Knightsville, moving northwest at 45 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Summerville, Saint George, Givhans Ferry State Park, Cottageville,
+  Givhans, Canadys and Knightsville.
+
+This warning includes I-95 in South Carolina between mile markers 64
+and 68.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Tornadoes from tropical storms or hurricanes can form and move very
+quickly. TAKE COVER IMMEDIATELY! If you wait until you hear a tornado
+it could be too late. Take action now to immediately protect
+yourself.
+
+&&
+
+LAT...LON 3296 8014 3285 8022 3302 8070 3321 8055
+TIME...MOT...LOC 2217Z 121DEG 41KT 3295 8027 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$

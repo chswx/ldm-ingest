@@ -1,0 +1,57 @@
+
+544 
+WFUS52 KCHS 142352
+TORCHS
+GAC103-SCC013-053-150015-
+/O.NEW.KCHS.TO.W.0004.230614T2352Z-230615T0015Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+752 PM EDT Wed Jun 14 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Effingham County in southeastern Georgia...
+  Beaufort County in southeastern South Carolina...
+  Jasper County in southeastern South Carolina...
+
+* Until 815 PM EDT.
+
+* At 751 PM EDT, a confirmed tornado was located over Purysburgh,
+  moving east at 45 mph.
+
+  HAZARD...Damaging tornado.
+
+  SOURCE...Weather spotters confirmed tornado.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Hilton Head Island, Bluffton, Beaufort, Port Royal, Jasper,
+  Hardeeville, Lemon Island, Rose Hill, Sun City, Purysburgh, Shell
+  Point, Burton, Calawassie Island, Laurel Bay, and Parris Island.
+
+This warning includes I-95 in South Carolina between mile markers 6
+and 17.
+ 
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rainfall may hide this tornado. Do not wait to see or hear the
+tornado. TAKE COVER NOW!
+
+&&
+
+LAT...LON 3228 8118 3240 8118 3247 8070 3219 8070
+TIME...MOT...LOC 2351Z 272DEG 40KT 3233 8109 
+
+TORNADO...OBSERVED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+CPM

@@ -1,0 +1,57 @@
+
+777 
+WFUS52 KCHS 110522
+TORCHS
+SCC019-110545-
+/O.NEW.KCHS.TO.W.0016.221111T0522Z-221111T0545Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+1222 AM EST Fri Nov 11 2022
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Charleston County in southeastern South Carolina...
+
+* Until 1245 AM EST.
+    
+* At 1221 AM EST, a severe thunderstorm capable of producing a
+  tornado was located near Kiawah Island, moving northwest at 25 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Johns Island, Hollywood, Seabrook Island, Kiawah Island, Meggett,
+  Yonges Island and Wadmalaw Island.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Tornadoes are extremely difficult to see and confirm at night. Do not
+wait to see or hear the tornado. TAKE COVER NOW!
+
+Tornadoes from tropical storms or hurricanes can form and move very
+quickly. TAKE COVER IMMEDIATELY! If you wait until you hear a tornado
+it could be too late. Take action now to immediately protect
+yourself.
+
+&&
+
+LAT...LON 3254 8010 3254 8011 3270 8029 3277 8009
+      3258 8001
+TIME...MOT...LOC 0521Z 149DEG 20KT 3254 8006 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+DPB

@@ -1,0 +1,68 @@
+
+610 
+WUUS52 KCHS 082336
+SVRCHS
+GAC029-031-051-103-109-251-SCC049-053-090030-
+/O.NEW.KCHS.SV.W.0081.230808T2336Z-230809T0030Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Charleston SC
+736 PM EDT Tue Aug 8 2023
+
+The National Weather Service in Charleston has issued a
+
+* Severe Thunderstorm Warning for portions of...
+  Bryan County in southeastern Georgia...
+  Screven County in southeastern Georgia...
+  Evans County in southeastern Georgia...
+  Bulloch County in southeastern Georgia...
+  Effingham County in southeastern Georgia...
+  Chatham County in southeastern Georgia...
+  Hampton County in southeastern South Carolina...
+  Jasper County in southeastern South Carolina...
+
+* Until 830 PM EDT.
+
+* At 735 PM EDT, a severe thunderstorm was located near Register,
+  moving east at 35 mph.
+
+  HAZARD...70 mph wind gusts.
+
+  SOURCE...Emergency management. The Metter Fire Department Chief 
+           reported multiple trees down in the Metter area. 
+
+  IMPACT...Expect considerable tree damage. Damage is likely to 
+           mobile homes, roofs, and outbuildings.
+
+* Locations impacted include:
+  Statesboro, Springfield, Rincon, Port Wentworth, Guyton, Brooklet,
+  Newington, Oliver, Furman, Scotia, Register, Egypt, Stillwell,
+  Pineora, and Leefield.
+
+This warning includes the following interstates:
+ I-16 between mile markers 117 and 141.
+ I-95 in Georgia between mile markers 111 and 112.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3220 8187 3256 8191 3268 8119 3221 8116
+TIME...MOT...LOC 2335Z 272DEG 30KT 3230 8186 
+
+THUNDERSTORM DAMAGE THREAT...CONSIDERABLE
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...70 MPH
+
+$$
+
+BSH

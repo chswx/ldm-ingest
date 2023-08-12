@@ -1,0 +1,57 @@
+
+506 
+WUUS52 KCHS 082219
+SVRCHS
+GAC109-183-267-082315-
+/O.NEW.KCHS.SV.W.0075.230808T2219Z-230808T2315Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Charleston SC
+619 PM EDT Tue Aug 8 2023
+
+The National Weather Service in Charleston has issued a
+
+* Severe Thunderstorm Warning for portions of...
+  Evans County in southeastern Georgia...
+  Long County in southeastern Georgia...
+  Tattnall County in southeastern Georgia...
+
+* Until 715 PM EDT.
+
+* At 618 PM EDT, a severe thunderstorm was located near Plant Hatch,
+  moving east at 25 mph.
+
+  HAZARD...60 mph wind gusts and penny size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and powerlines.
+
+* Locations impacted include:
+  Reidsville, Glennville, Gordonia Altamaha State Park, Mendes, and
+  Donald.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3209 8220 3213 8184 3181 8180 3182 8205
+      3187 8211 3189 8212 3189 8213 3191 8213
+      3190 8215 3191 8216 3190 8219 3192 8222
+TIME...MOT...LOC 2218Z 268DEG 21KT 3196 8224 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...0.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+BSH

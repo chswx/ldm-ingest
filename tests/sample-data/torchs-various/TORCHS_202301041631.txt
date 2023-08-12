@@ -1,0 +1,53 @@
+
+869 
+WFUS52 KCHS 041631
+TORCHS
+GAC103-SCC049-053-041700-
+/O.NEW.KCHS.TO.W.0001.230104T1631Z-230104T1700Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+1131 AM EST Wed Jan 4 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Effingham County in southeastern Georgia...
+  Hampton County in southeastern South Carolina...
+  Jasper County in southeastern South Carolina...
+
+* Until noon EST.
+    
+* At 1131 AM EST, a severe thunderstorm capable of producing a
+  tornado was located near Garnett, moving east at 45 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Pineland, Tillman, Tarboro, Robertville and Garnett. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+&&
+
+LAT...LON 3250 8135 3260 8134 3265 8105 3256 8101
+      3245 8104
+TIME...MOT...LOC 1631Z 265DEG 38KT 3256 8127 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$

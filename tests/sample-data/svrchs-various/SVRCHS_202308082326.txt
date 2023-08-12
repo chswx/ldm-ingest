@@ -1,0 +1,69 @@
+
+804 
+WUUS52 KCHS 082326
+SVRCHS
+GAC029-051-103-179-SCC013-053-090030-
+/O.NEW.KCHS.SV.W.0080.230808T2326Z-230809T0030Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Charleston SC
+726 PM EDT Tue Aug 8 2023
+
+The National Weather Service in Charleston has issued a
+
+* Severe Thunderstorm Warning for portions of...
+  Bryan County in southeastern Georgia...
+  Liberty County in southeastern Georgia...
+  Effingham County in southeastern Georgia...
+  Chatham County in southeastern Georgia...
+  Beaufort County in southeastern South Carolina...
+  Jasper County in southeastern South Carolina...
+
+* Until 830 PM EDT.
+
+* At 726 PM EDT, a severe thunderstorm was located near Meldrim,
+  moving east at 20 mph.
+
+  HAZARD...60 mph wind gusts and penny size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and powerlines.
+
+* Locations impacted include:
+  Hilton Head Island, Pooler, Bluffton, Richmond Hill, Tybee Island,
+  Wilmington Island, Fort Pulaski National Monument, Bellinger Hill
+  Area, Midtown Savannah, Downtown Savannah, Coffee Bluff, Savannah
+  International Airport, I-16/I-95 Interchange, Hunter Army Airfield,
+  and Godley Station.
+
+This warning includes the following interstates:
+ I-16 between mile markers 149 and 168.
+ I-516 between mile markers 3 and 9.
+ I-95 in Georgia between mile markers 84 and 112.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Report damage directly to the Charleston National Weather Service at
+888-383-2024 when it is safe to do so.
+
+&&
+
+LAT...LON 3182 8113 3182 8115 3183 8119 3182 8119
+      3188 8142 3225 8138 3221 8083 3209 8079
+      3207 8083 3206 8084 3201 8081 3196 8082
+      3179 8101
+TIME...MOT...LOC 2326Z 282DEG 17KT 3208 8141 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...0.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+BSH

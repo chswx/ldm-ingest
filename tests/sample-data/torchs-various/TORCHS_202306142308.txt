@@ -1,0 +1,54 @@
+
+196 
+WFUS52 KCHS 142308
+TORCHS
+GAC031-103-142345-
+/O.NEW.KCHS.TO.W.0002.230614T2308Z-230614T2345Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+708 PM EDT Wed Jun 14 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Bulloch County in southeastern Georgia...
+  Effingham County in southeastern Georgia...
+
+* Until 745 PM EDT.
+    
+* At 708 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located over Leefield, moving east at 55 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Springfield, Guyton, Brooklet, Pineora, Marlow, Leefield,
+  Stillwell, and Stilson.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+&&
+
+LAT...LON 3236 8173 3247 8169 3243 8122 3222 8128
+TIME...MOT...LOC 2308Z 287DEG 49KT 3241 8160 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+CPM

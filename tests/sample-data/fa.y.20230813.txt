@@ -1,0 +1,62 @@
+
+266 
+WGUS82 KCHS 132028
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+428 PM EDT Sun Aug 13 2023
+
+SCC015-019-132200-
+/O.NEW.KCHS.FA.Y.0036.230813T2028Z-230813T2200Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-
+428 PM EDT Sun Aug 13 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 6 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following counties, Berkeley and Charleston.
+
+* WHEN...Until 600 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 428 PM EDT, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 0.5 and 1.5 inches of
+    rain have fallen.
+  - Additional rainfall amounts up to 1 inch are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    North Charleston, Mount Pleasant, Goose Creek, Hanahan,
+    Downtown Charleston, West Ashley, James Island, I-26/I-526
+    Interchange, Daniel Island, Fort Sumter, Johns Island, Folly
+    Beach, Charles Towne Landing, Charleston Naval Complex,
+    Maybank Bridge, James Island County Park, Don Holt Bridge,
+    Fort Johnson and The Citadel.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Heavy rain in Downtown Charleston will result in nuisance flooding 
+of low-lying areas. Areas most prone to flooding include the Market, 
+Crosstown, East Bay Street and Morrison Drive. Slow down when 
+traveling and allow extra distance between you and the vehicle 
+ahead. Do not drive into water of unknown depth.
+
+&&
+
+LAT...LON 3294 7991 3283 7990 3278 7991 3273 7985
+      3271 7985 3270 8003 3285 8010
+
+
+$$
+
+

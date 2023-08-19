@@ -1,0 +1,159 @@
+848
+WWUS72 KCHS 300751
+NPWCHS
+
+URGENT - WEATHER MESSAGE
+National Weather Service Charleston SC
+351 AM EDT Fri Jul 30 2021
+
+GAZ117-119-139-141-SCZ044-045-048>052-301600-
+/O.UPG.KCHS.EH.A.0001.210730T1700Z-210730T2300Z/
+/O.NEW.KCHS.EH.W.0001.210730T1500Z-210731T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Dorchester-Inland Berkeley-Beaufort-Coastal Colleton-Charleston-
+Coastal Jasper-Tidal Berkeley-
+Including the cities of Fort Mcallister, Oak Level,
+Wilmington Island, Tybee Island, Darien, Saint George,
+Summerville, Goose Creek, Moncks Corner, Beaufort,
+Hilton Head Island, Edisto Beach, Charleston, North Charleston,
+Mount Pleasant, Levy, Chelsea, Jasper, and Daniel Island
+351 AM EDT Fri Jul 30 2021
+
+...EXCESSIVE HEAT WARNING IN EFFECT FROM 11 AM THIS MORNING TO
+8 PM EDT THIS EVENING...
+
+* WHAT...Dangerously hot conditions with heat index values 112 to
+  117.
+
+* WHERE...The coastal counties of Southeast South Carolina and
+  Southeast Georgia, including the Charleston and Savannah Metro
+  Areas. This includes the southern and eastern portions of
+  Dorchester and Berkeley Counties in Southeast South Carolina.
+
+* WHEN...From 11 AM this morning to 8 PM EDT this evening.
+
+* IMPACTS...Extreme heat and humidity will significantly
+  increase the potential for heat related illnesses,
+  particularly for those working or participating in outdoor
+  activities.
+
+* ADDITIONAL DETAILS...The highest heat index values will occur
+  roughly along and south of US-17 in Southeast South Carolina and
+  east of I-95 in Southeast Georgia, including Downtown Charleston
+  and portions of the Savannah Metro Area.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Drink plenty of fluids, stay in an air-conditioned room, stay out
+of the sun, and check up on relatives and neighbors. Young
+children and pets should never be left unattended in vehicles
+under any circumstances.
+
+Take extra precautions if you work or spend time outside. When
+possible reschedule strenuous activities to early morning or
+evening. Know the signs and symptoms of heat exhaustion and heat
+stroke. Wear lightweight and loose fitting clothing when
+possible. To reduce risk during outdoor work, the Occupational
+Safety and Health Administration recommends scheduling frequent
+rest breaks in shaded or air conditioned environments. Anyone
+overcome by heat should be moved to a cool and shaded location.
+Heat stroke is an emergency! Call 9 1 1.
+
+&&
+
+$$
+
+GAZ118-301600-
+/O.UPG.KCHS.HT.Y.0001.210730T1700Z-210730T2300Z/
+/O.NEW.KCHS.EH.W.0001.210730T1500Z-210731T0000Z/
+Inland Chatham-
+Including the cities of Garden City, Pooler, and Savannah
+351 AM EDT Fri Jul 30 2021
+
+...EXCESSIVE HEAT WARNING IN EFFECT FROM 11 AM THIS MORNING TO
+8 PM EDT THIS EVENING...
+
+* WHAT...Dangerously hot conditions with heat index values 112 to
+  117.
+
+* WHERE...Coastal portions of Southeast South Carolina and
+  Southeast Georgia, including the Charleston and Savannah Metro
+  Areas.
+
+* WHEN...From 11 AM this morning to 8 PM EDT this evening.
+
+* IMPACTS...Extreme heat and humidity will significantly
+  increase the potential for heat related illnesses,
+  particularly for those working or participating in outdoor
+  activities.
+
+* ADDITIONAL DETAILS...The highest heat index values will occur
+  roughly along and south of US-17 in Southeast South Carolina and
+  east of I-95 in Southeast Georgia, including Downtown Charleston
+  and portions of the Savannah Metro Area.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Drink plenty of fluids, stay in an air-conditioned room, stay out
+of the sun, and check up on relatives and neighbors. Young
+children and pets should never be left unattended in vehicles
+under any circumstances.
+
+Take extra precautions if you work or spend time outside. When
+possible reschedule strenuous activities to early morning or
+evening. Know the signs and symptoms of heat exhaustion and heat
+stroke. Wear lightweight and loose fitting clothing when
+possible. To reduce risk during outdoor work, the Occupational
+Safety and Health Administration recommends scheduling frequent
+rest breaks in shaded or air conditioned environments. Anyone
+overcome by heat should be moved to a cool and shaded location.
+Heat stroke is an emergency! Call 9 1 1.
+
+&&
+
+$$
+
+GAZ087-088-099>101-114>116-137-138-140-SCZ040-042-043-047-301600-
+/O.EXT.KCHS.HT.Y.0001.210730T1500Z-210731T0000Z/
+Jenkins-Screven-Candler-Bulloch-Effingham-Tattnall-Evans-
+Inland Bryan-Long-Inland Liberty-Inland McIntosh-Allendale-
+Hampton-Inland Colleton-Inland Jasper-
+Including the cities of Millen, Sylvania, Metter, Statesboro,
+Rincon, Springfield, Reidsville, Claxton, Pembroke,
+Richmond Hill, Ludowici, Hinesville, Fort Stewart, Townsend,
+Allendale, Hampton, Yemassee, Walterboro, and Ridgeland
+351 AM EDT Fri Jul 30 2021
+
+...HEAT ADVISORY NOW IN EFFECT FROM 11 AM THIS MORNING TO 8 PM
+EDT THIS EVENING...
+
+* WHAT...Heat index values up to 111 expected.
+
+* WHERE...Portions of Southeast South Carolina and Southeast
+  Georgia, mainly along and west of I-95.
+
+* WHEN...From 11 AM this morning to 8 PM EDT this evening.
+
+* IMPACTS...Hot temperatures and high humidity may cause heat
+  illnesses to occur.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Drink plenty of fluids, stay in an air-conditioned room, stay out
+of the sunshine, and check up on relatives and neighbors. Young
+children and pets should never be left unattended in vehicles
+under any circumstances.
+
+Take extra precautions if you work or spend time outside. When
+possible reschedule strenuous activities to early morning or
+evening. Know the signs and symptoms of heat exhaustion and heat
+stroke. Wear lightweight and loose fitting clothing when
+possible. To reduce risk during outdoor work, the Occupational
+Safety and Health Administration recommends scheduling frequent
+rest breaks in shaded or air conditioned environments. Anyone
+overcome by heat should be moved to a cool and shaded location.
+Heat stroke is an emergency! Call 9 1 1.
+
+&&
+
+$$

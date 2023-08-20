@@ -23,8 +23,10 @@ class WatchProbs extends NWSProduct
 
         if ($product_info[0] == "WS") {
             $product_name = "Severe Thunderstorm Watch";
+            $product_vtec = 'SV.A';
         } else {
             $product_name = "Tornado Watch";
+            $product_vtec = 'TO.A';
         }
 
         if (isset($product_info[2])) {
@@ -34,6 +36,7 @@ class WatchProbs extends NWSProduct
         $data['product_name'] = $product_name . " " . ltrim($product_info[1], '0');
         $data['watch_number'] = ltrim($product_info[1], '0');
         $data['raw_watch_number'] = $product_info[1];
+        $data['product_vtec'] = $product_vtec;
 
         // Lines 11-17 -- probabilities
         // In this order:
@@ -78,5 +81,21 @@ class WatchProbs extends NWSProduct
         $data['attributes']['pds'] = ($watch_att[4] == "YES") ? true : false;
 
         return $data;
+    }
+
+    public final function generateChannels(): void
+    {
+        parent::generateChannels();
+
+        $watch_number = $this->segments['raw_watch_number'];
+        $vtec = $this->segments['product_vtec'];
+        $year = date('Y', $this->timestamp);
+
+        $additional_channels = [
+            "$vtec.$watch_number",
+            "$vtec.$watch_number.WWP",
+            "$vtec.$watch_number.$year.WWP"
+        ];
+        $this->appendChannels($additional_channels);
     }
 }

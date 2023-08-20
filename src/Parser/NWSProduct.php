@@ -94,14 +94,14 @@ class NWSProduct
         $this->timestamp = $prod_info['timestamp'];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
-        // Generate product-level channels
-        $this->generateChannels();
         // Parse the product out into segments if not already done by a more specialized parser.
         if (empty($this->segments)) {
             $this->segments = $this->parse();
         }
         // Set up the product id.
         $this->id = Utils::generateProductId($this->pil, $this->timestamp);
+        // Generate product-level channels
+        $this->generateChannels();
         // Set up the default product table. Should be overridden by parser subclasses.
         $this->table = 'products';
     }

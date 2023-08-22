@@ -1,0 +1,59 @@
+
+527 
+WGUS82 KCHS 192203
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+603 PM EDT Sat Aug 19 2023
+
+SCC015-019-192245-
+/O.CON.KCHS.FA.Y.0049.000000T0000Z-230819T2245Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-
+603 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY REMAINS IN EFFECT UNTIL 645 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following counties, Berkeley and Charleston.
+
+* WHEN...Until 645 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 602 PM EDT, Doppler radar indicated thunderstorms with
+    torrential rainfall extending from just west of Daniel Island
+    east to Wando and Awendaw. As much as 1 to 4 inches of rain
+    has fallen in some areas so far this afternoon.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding. Motorists traveling US-17 near Awendaw should
+    remain alert for significant ponding of water on the road.
+  - Some locations that will experience flooding include...
+    North Charleston, Mount Pleasant, Goose Creek, Hanahan,
+    Daniel Island, Naval Weapons Station Charleston, Awendaw,
+    Garris Landing, Mount Pleasant Regional Airport, Wando,
+    Cainhoy, Bull Island, Don Holt Bridge, Dunes West, Park West,
+    Whitehall Terrace, Mount Pleasant Hospital, Rivertowne,
+    Beresford and James Edward Bridge.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3291 8002 3297 7997 3299 7991 3301 7969
+      3310 7956 3310 7953 3306 7949 3302 7950
+      3300 7949 3299 7950 3299 7949 3296 7953
+      3294 7954 3291 7954 3287 7971 3286 7989
+      3287 7997 3289 8001
+
+
+$$

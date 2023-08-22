@@ -1,0 +1,29 @@
+
+103 
+WGUS82 KCHS 200040
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+840 PM EDT Sat Aug 19 2023
+
+SCC019-200050-
+/O.CAN.KCHS.FA.Y.0052.000000T0000Z-230820T0115Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Charleston SC-
+840 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY IS CANCELLED...
+
+The Flood Advisory is cancelled for a portion of southeast South 
+Carolina, including the following area, Charleston.
+
+The heavy rain has ended. Flooding is no longer expected to pose a 
+threat. Please continue to heed remaining road closures.
+
+LAT...LON 3281 7992 3283 7987 3287 7981 3292 7972
+      3286 7966 3280 7970 3275 7979 3275 7983
+      3277 7991
+
+
+$$

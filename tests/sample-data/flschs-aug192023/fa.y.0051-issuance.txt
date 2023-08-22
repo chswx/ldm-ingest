@@ -1,0 +1,51 @@
+
+447 
+WGUS82 KCHS 192316
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+716 PM EDT Sat Aug 19 2023
+
+SCC019-200000-
+/O.NEW.KCHS.FA.Y.0051.230819T2316Z-230820T0000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Charleston SC-
+716 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 8 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following county, Charleston.
+
+* WHEN...Until 800 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 715 PM EDT, Doppler radar indicated showers and
+    thunderstorms with torrential rainfall over Mount Pleasant,
+    Isle of Palms and Sullivans Island. This line will build
+    slowly south and southwest through 8 PM.
+  - Additional rainfall of 1 to 1.5 inches are expected over the
+    area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Mount Pleasant, Isle Of Palms, Sullivan's Island, Sullivans
+    Island, Fort Moultrie, The Old Village, Remleys Point, Wild
+    Dunes, Mount Pleasant Waterfront Park, Patriots Point and
+    Ravenel Bridge.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3281 7992 3282 7969 3281 7969 3275 7978
+      3275 7983 3277 7991 3279 7992
+
+
+$$

@@ -1,0 +1,58 @@
+
+989 
+WGUS82 KCHS 192353
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+753 PM EDT Sat Aug 19 2023
+
+SCC019-200115-
+/O.NEW.KCHS.FA.Y.0052.230819T2353Z-230820T0115Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Charleston SC-
+753 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 915 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following county, Charleston.
+
+* WHEN...Until 915 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+  Overflowing poor drainage areas.
+
+* ADDITIONAL DETAILS...
+  - At 747 PM EDT, Doppler radar indicated a nearly stationary
+    cluster of showers and thunderstorms with torrential rains
+    over Mount Pleasant, Sullivans Island, Isle of Palms and
+    Dewees Island. As much as 1 to 3 inches of rain has fallen in
+    this area this evening.
+  - Additional rainfall amounts of 0.5 to 1.5 inches are expected
+    over the area. This additional rain will result in minor
+    flooding. Motorists driving US-17 between the Ravenel Bridge
+    and Whitehall Terrace should be on alert for flooded areas.
+  - Some locations that will experience flooding include...
+    Mount Pleasant, Isle Of Palms, Sullivan's Island, Mount
+    Pleasant Towne Centre, Boone Hall Plantation, Sullivans
+    Island, Capers Inlet, Hamlin Plantation, Seaside Farms, Mount
+    Pleasant Hospital, Wild Dunes, Whitehall Terrace, Snowden,
+    East Cooper Regional Medical Center, Dewees Island, Ion, Fort
+    Moultrie, The Old Village, Hobcaw Point and Remleys Point.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3281 7992 3283 7987 3287 7981 3292 7972
+      3286 7966 3280 7970 3275 7979 3275 7983
+      3277 7991
+
+
+$$

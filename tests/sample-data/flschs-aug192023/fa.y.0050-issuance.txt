@@ -1,0 +1,60 @@
+
+902 
+WGUS82 KCHS 192235
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+635 PM EDT Sat Aug 19 2023
+
+SCC015-019-200000-
+/O.NEW.KCHS.FA.Y.0050.230819T2235Z-230820T0000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-
+635 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 8 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following counties, Berkeley and Charleston.
+
+* WHEN...Until 800 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 634 PM EDT, Doppler radar indicated showers and
+    thunderstorms with torrential rainfall extending from Daniel
+    Island to Whitehall Terrance, Awendaw and McClellanville. As
+    much as 1 to 4 inches of rain has fallen over parts of the
+    area this afternoon.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding. Motorists traveling US-17 near Awendaw should
+    remain alert for significant ponding of water on the road.
+  - Some locations that will experience flooding include...
+    North Charleston, Mount Pleasant, Goose Creek, Hanahan,
+    McClellanville, Daniel Island, Downtown Charleston, Isle Of
+    Palms, Awendaw, Garris Landing, Bull Island, Price Inlet,
+    Capers Inlet, Mount Pleasant Regional Airport, Lighthouse
+    Island, Wando, Cainhoy, Cape Romain, Boone Hall Plantation
+    and Cape Island.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3293 7996 3295 7980 3308 7960 3322 7945
+      3321 7943 3316 7935 3314 7927 3312 7928
+      3311 7926 3307 7931 3302 7933 3298 7937
+      3298 7951 3294 7954 3289 7955 3282 7969
+      3281 7992 3286 8000
+
+
+$$

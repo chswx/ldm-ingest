@@ -1,0 +1,53 @@
+
+732 
+WGUS82 KCHS 192008
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+408 PM EDT Sat Aug 19 2023
+
+SCC015-019-192130-
+/O.NEW.KCHS.FA.Y.0048.230819T2008Z-230819T2130Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-
+408 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 530 PM EDT THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following counties, Berkeley and Charleston.
+
+* WHEN...Until 530 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 406 PM EDT, Doppler radar indicated showers and
+    thunderstorms with torrential rainfall extending from New
+    Hope and Smith east to Awendaw. As much as 1 to 2 inches of
+    rain has already fallen in this area.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that will experience flooding include...
+    Awendaw, Huger, Smith, Limerick, Charity, Richmond, Buck
+    Hall, Woodland, Hagan, Woodland Landing and Comingtee.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3298 7982 3301 7989 3303 7993 3306 7994
+      3309 7993 3312 7990 3314 7984 3314 7979
+      3312 7969 3309 7958 3305 7950 3303 7949
+      3301 7950 3299 7957 3297 7975
+
+
+$$

@@ -1,0 +1,56 @@
+
+172 
+WGUS82 KCHS 192052
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+452 PM EDT Sat Aug 19 2023
+
+SCC015-019-192130-
+/O.CON.KCHS.FA.Y.0048.000000T0000Z-230819T2130Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-
+452 PM EDT Sat Aug 19 2023
+
+...FLOOD ADVISORY REMAINS IN EFFECT UNTIL 530 PM EDT THIS 
+AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall continues.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following counties, Berkeley and Charleston.
+
+* WHEN...Until 530 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 449 PM EDT, Doppler radar indicated thunderstorms with
+    torrential rainfall near Buck Hall, Awendaw and Halfway
+    Creek. As much as 1 to 4 inches of rain has fallen in this
+    area this afternoon.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding. Motorists traveling US-17 near Awendaw and Steed
+    Creek Road between US-17 and Halfway Creek Road should be
+    alert for significant ponding of water on the road.
+  - Some locations that will experience flooding include...
+    Awendaw, Huger, Smith, Limerick, Charity, Richmond, Buck
+    Hall, Woodland, Hagan, Woodland Landing and Comingtee.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3298 7982 3301 7989 3303 7993 3306 7994
+      3309 7993 3312 7990 3314 7984 3314 7979
+      3312 7969 3309 7958 3305 7950 3303 7949
+      3301 7950 3299 7957 3297 7975
+
+
+$$

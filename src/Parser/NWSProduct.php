@@ -171,7 +171,7 @@ class NWSProduct
             $this->channels = array();
         }
         // Adds the PIL and issuing office to the channels list by default
-        $this->appendChannels(array(substr($this->office, 1), $this->pil));
+        $this->appendChannels(array($this->office, $this->pil));
     }
 
     /**

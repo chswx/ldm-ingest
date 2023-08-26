@@ -122,6 +122,9 @@ class NWSProductFactory
             // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
             // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf
             $parser = "WPCOutlook";
+        } elseif (strpos($pil, 'HLS') !== 'false') {
+            // Hurricane Local Statements
+            $parser = "GenericProduct";
         } else {
             $parser = "GenericProduct";
         }

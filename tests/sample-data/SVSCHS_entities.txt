@@ -1,0 +1,55 @@
+
+617 
+WWUS52 KCHS 152106
+SVSCHS
+
+Severe Weather Statement
+National Weather Service Charleston SC
+506 PM EDT Tue Aug 15 2023
+
+SCC015-019-152130-
+/O.CON.KCHS.SV.W.0085.000000T0000Z-230815T2130Z/
+Charleston SC-Berkeley SC-
+506 PM EDT Tue Aug 15 2023
+
+...A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 530 PM EDT
+FOR PORTIONS OF CHARLESTON AND BERKELEY COUNTIES...
+
+At 506 PM EDT, severe thunderstorms were located along a line
+extending from near Wando to near Daniel Island, moving east at 10
+mph.
+
+HAZARD...60 mph wind gusts.
+
+SOURCE...Radar indicated.
+
+IMPACT...Expect damage to trees and powerlines.
+
+These severe thunderstorms will remain over mainly rural areas of
+Charleston and Berkeley Counties, including the following 
+locations...Capers Island, Beresford, Whitehall Terrace, Dunes West, 
+Mount Pleasant Hospital, Red Bank Landing, Woodland, Rivertowne, 
+Bushy Park, and Cote Bas Landing.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Continuous cloud to ground lightning is occurring with these storms.
+Move indoors immediately. Lightning is one of nature's leading
+killers. Remember, if you can hear thunder, you are close enough to
+be struck by lightning.
+
+&&
+
+LAT...LON 3290 7960 3283 7967 3293 8001 3307 7989
+      3297 7956
+TIME...MOT...LOC 2106Z 263DEG 11KT 3299 7983 3292 7991 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$

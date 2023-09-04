@@ -1,0 +1,116 @@
+
+892 
+WGUS62 KCHS 291356
+FFACHS
+
+URGENT - IMMEDIATE BROADCAST REQUESTED
+Flood Watch
+National Weather Service Charleston SC
+956 AM EDT Tue Aug 29 2023
+
+GAZ087-088-117-139-141-SCZ040-042>045-052-292200-
+/O.EXA.KCHS.FA.A.0001.230830T1200Z-230831T0600Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Jenkins-Screven-Coastal Bryan-Coastal Liberty-Coastal McIntosh-
+Allendale-Hampton-Inland Colleton-Dorchester-Inland Berkeley-
+Tidal Berkeley-
+Including the cities of Millen, Sylvania, Fort Mcallister, Oak
+Level, Darien, Allendale, Hampton, Yemassee, Walterboro, Saint
+George, Summerville, Goose Creek, Moncks Corner, and Daniel
+Island
+956 AM EDT Tue Aug 29 2023
+
+...FLOOD WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH LATE 
+WEDNESDAY NIGHT...
+
+* WHAT...Flash flooding caused by excessive rainfall continues to be 
+  possible.
+
+* WHERE...Portions of southeast Georgia, including the following 
+  areas, Coastal Bryan, Coastal Liberty, Coastal McIntosh, Jenkins 
+  and Screven. Portions of southeast South Carolina, including the 
+  following areas, Allendale, Dorchester, Hampton, Inland Berkeley, 
+  Inland Colleton and Tidal Berkeley.
+
+* WHEN...From Wednesday morning through late Wednesday night.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers, 
+  creeks, streams, and other low-lying and flood-prone locations.
+
+* ADDITIONAL DETAILS...
+  - Tropical Cyclone Idalia is forecast to track along the
+    southeast Georgia and southeast South Carolina coastline
+    after making landfall in the Big Bend region of Florida early
+    Wednesday morning. Rainfall is forecast to begin over
+    southeastern Georgia as early as Wednesday morning,
+    overspreading the region through Wednesday afternoon and into
+    Wednesday night, with rainfall totals of 4 to 8 inches
+    forecast. The heaviest rainfall is expected to occur
+    Wednesday evening, coinciding with the high tide,
+    exacerbating the flash flooding threat.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+You should monitor later forecasts and be prepared to take action 
+should Flash Flood Warnings be issued.
+
+&&
+
+$$
+
+GAZ099>101-114>116-118-119-137-138-140-SCZ047>051-292200-
+/O.CON.KCHS.FA.A.0001.230830T1200Z-230831T0600Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Candler-Bulloch-Effingham-Tattnall-Evans-Inland Bryan-Inland
+Chatham-Coastal Chatham-Long-Inland Liberty-Inland McIntosh-
+Inland Jasper-Beaufort-Coastal Colleton-Charleston-Coastal Jasper-
+Including the cities of Metter, Statesboro, Rincon, Springfield,
+Reidsville, Claxton, Pembroke, Richmond Hill, Garden City,
+Pooler, Savannah, Wilmington Island, Tybee Island, Ludowici,
+Hinesville, Fort Stewart, Townsend, Ridgeland, Beaufort, Hilton
+Head Island, Edisto Beach, Charleston, North Charleston, Mount
+Pleasant, Levy, Chelsea, and Jasper
+956 AM EDT Tue Aug 29 2023
+
+...FLOOD WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH LATE 
+WEDNESDAY NIGHT...
+
+* WHAT...Flash flooding caused by excessive rainfall continues to be 
+  possible.
+
+* WHERE...Portions of southeast Georgia, including the following 
+  areas, Bulloch, Candler, Coastal Chatham, Effingham, Evans, Inland 
+  Bryan, Inland Chatham, Inland Liberty, Inland McIntosh, Long and 
+  Tattnall. Portions of southeast South Carolina, including the 
+  following areas, Beaufort, Charleston, Coastal Colleton, Coastal 
+  Jasper and Inland Jasper.
+
+* WHEN...From Wednesday morning through late Wednesday night.
+
+* IMPACTS...Excessive runoff may result in flooding of rivers, 
+  creeks, streams, and other low-lying and flood-prone locations.
+
+* ADDITIONAL DETAILS...
+  - Tropical Cyclone Idalia is forecast to track along the
+    southeast Georgia and southeast South Carolina coastline
+    after making landfall in the Big Bend region of Florida early
+    Wednesday morning. Rainfall is forecast to begin over
+    southeastern Georgia as early as Wednesday morning,
+    overspreading the region through Wednesday afternoon and into
+    Wednesday night, with rainfall totals of 4 to 8 inches
+    forecast. The heaviest rainfall is expected to occur
+    Wednesday evening, coinciding with the high tide,
+    exacerbating the flash flooding threat.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+You should monitor later forecasts and be prepared to take action 
+should Flash Flood Warnings be issued.
+
+&&
+
+$$
+
+ETM

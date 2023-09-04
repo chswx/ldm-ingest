@@ -1,0 +1,69 @@
+
+915 
+WHUS42 KCHS 281900
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+300 PM EDT Mon Aug 28 2023
+
+SCZ048>051-290300-
+/O.EXB.KCHS.RP.S.0007.230829T0000Z-230830T0000Z/
+Beaufort-Coastal Colleton-Charleston-Coastal Jasper-
+300 PM EDT Mon Aug 28 2023
+
+...HIGH RIP CURRENT RISK IN EFFECT FROM 8 PM EDT THIS EVENING
+THROUGH TUESDAY EVENING...
+
+* WHAT...Dangerous rip currents expected.
+
+* WHERE...South Carolina Beaches.
+
+* WHEN...From 8 PM EDT this evening through Tuesday evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+* ADDITIONAL DETAILS...Swells from distant hurricanes can be
+  powerful. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$
+
+GAZ117-119-139-141-290300-
+/O.EXT.KCHS.RP.S.0007.000000T0000Z-230830T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+300 PM EDT Mon Aug 28 2023
+
+...HIGH RIP CURRENT RISK NOW IN EFFECT THROUGH TUESDAY EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Georgia Beaches.
+
+* WHEN...Through Tuesday evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+* ADDITIONAL DETAILS...Swells from distant hurricanes can be
+  powerful. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$

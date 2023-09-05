@@ -1,0 +1,63 @@
+
+109 
+WFUS52 KCHS 302046
+TORCHS
+GAC103-251-302115-
+/O.NEW.KCHS.TO.W.0016.230830T2046Z-230830T2115Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+446 PM EDT Wed Aug 30 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Screven County in southeastern Georgia...
+  Effingham County in southeastern Georgia...
+
+* Until 515 PM EDT.
+    
+* At 446 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located over Egypt, moving north at 20 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Newington, Oliver, Shawnee, Egypt, and Kildare. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+Tornadoes from tropical storms or hurricanes can form and move very
+quickly. TAKE COVER IMMEDIATELY! If you wait until you hear a tornado
+it could be too late. Take action now to immediately protect
+yourself.
+
+Life-threatening flash flooding is also occurring or is imminent.
+Avoid taking shelter in flooded or flood prone areas. If indoors,
+move to an interior room on the lowest dry floor. If in a car, seek
+shelter in a sturdy building away from flooding.
+
+&&
+
+LAT...LON 3247 8139 3243 8150 3260 8160 3265 8143
+TIME...MOT...LOC 2046Z 158DEG 17KT 3250 8146 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+BRM

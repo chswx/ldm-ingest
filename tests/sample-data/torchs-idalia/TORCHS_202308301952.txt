@@ -1,0 +1,53 @@
+
+044 
+WFUS52 KCHS 301952
+TORCHS
+SCC029-035-302015-
+/O.NEW.KCHS.TO.W.0015.230830T1952Z-230830T2015Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+352 PM EDT Wed Aug 30 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Colleton County in southeastern South Carolina...
+  Dorchester County in southeastern South Carolina...
+
+* Until 415 PM EDT.
+    
+* At 352 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located near Cottageville, moving north at 30 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Givhans Ferry State Park, Ridgeville, Cottageville, and Givhans. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Tornadoes from tropical storms or hurricanes can form and move very
+quickly. TAKE COVER IMMEDIATELY! If you wait until you hear a tornado
+it could be too late. Take action now to immediately protect
+yourself.
+
+&&
+
+LAT...LON 3291 8028 3288 8043 3309 8057 3315 8034
+TIME...MOT...LOC 1952Z 160DEG 27KT 3293 8038 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+JRL

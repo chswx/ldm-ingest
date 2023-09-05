@@ -43,7 +43,7 @@ class VTECString
     public $sig;
 
     /**
-     * @var string Event Tracking Number
+     * @var int Event Tracking Number
      */
     public $etn;
 
@@ -228,7 +228,7 @@ class VTECString
         $this->sig = $vtec_string_array[5];
 
         // VTEC event number
-        $this->etn = $vtec_string_array[6];
+        $this->etn = (int)$vtec_string_array[6];
 
         // Effective time (as UNIX timestamp)
         $this->start_timestamp = $this->vtecToTimestamp($vtec_string_array[7], $vtec_string_array[8]);

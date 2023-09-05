@@ -1,0 +1,68 @@
+
+829 
+WWUS52 KCHS 302058
+SVSCHS
+
+Severe Weather Statement
+National Weather Service Charleston SC
+458 PM EDT Wed Aug 30 2023
+
+GAC103-302108-
+/O.CAN.KCHS.TO.W.0016.000000T0000Z-230830T2115Z/
+Effingham GA-
+458 PM EDT Wed Aug 30 2023
+
+...THE TORNADO WARNING FOR PORTIONS OF EFFINGHAM COUNTY IS
+CANCELLED...
+    
+The immediate risk for tornadoes has ended. 
+
+A Tornado Watch remains in effect until 600 PM EDT for southeastern
+Georgia.
+
+LAT...LON 3265 8143 3258 8141 3250 8154 3260 8160
+TIME...MOT...LOC 2058Z 146DEG 18KT 3255 8152 
+
+$$
+
+GAC251-302115-
+/O.CON.KCHS.TO.W.0016.000000T0000Z-230830T2115Z/
+Screven GA-
+458 PM EDT Wed Aug 30 2023
+
+...A TORNADO WARNING REMAINS IN EFFECT UNTIL 515 PM EDT FOR PORTIONS
+OF SCREVEN COUNTY...
+    
+At 458 PM EDT, a severe thunderstorm capable of producing a tornado
+was located over Oliver, moving northwest at 20 mph.
+
+HAZARD...Tornado.
+
+SOURCE...Radar indicated rotation.
+
+IMPACT...Flying debris will be dangerous to those caught without 
+         shelter. Mobile homes will be damaged or destroyed. Damage 
+         to roofs, windows, and vehicles will occur.  Tree damage is 
+         likely.
+
+Locations impacted include: 
+Newington and Oliver. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+&&
+
+LAT...LON 3265 8143 3258 8141 3250 8154 3260 8160
+TIME...MOT...LOC 2058Z 146DEG 18KT 3255 8152 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+BSH

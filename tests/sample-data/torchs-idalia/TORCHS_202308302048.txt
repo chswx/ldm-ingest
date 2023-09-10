@@ -1,0 +1,53 @@
+
+723 
+WFUS52 KCHS 302048
+TORCHS
+SCC015-019-302115-
+/O.NEW.KCHS.TO.W.0017.230830T2048Z-230830T2115Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Charleston SC
+448 PM EDT Wed Aug 30 2023
+
+The National Weather Service in Charleston has issued a
+
+* Tornado Warning for portions of...
+  Charleston County in southeastern South Carolina...
+  Berkeley County in southeastern South Carolina...
+
+* Until 515 PM EDT.
+    
+* At 447 PM EDT, a severe thunderstorm capable of producing a tornado
+  was located near Wando, moving north at 50 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* Locations impacted include:
+  Awendaw, Garris Landing, and Huger. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Tornadoes from tropical storms or hurricanes can form and move very
+quickly. TAKE COVER IMMEDIATELY! If you wait until you hear a tornado
+it could be too late. Take action now to immediately protect
+yourself.
+
+&&
+
+LAT...LON 3294 7965 3293 7981 3318 7993 3321 7970
+TIME...MOT...LOC 2047Z 168DEG 45KT 3299 7976 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+JRL

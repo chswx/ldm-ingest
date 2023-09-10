@@ -1,0 +1,113 @@
+
+559 
+WTNT35 KNHC 271155
+TCPAT5
+ 
+BULLETIN
+Tropical Depression Ten Intermediate Advisory Number 3A
+NWS National Hurricane Center Miami FL       AL102023
+700 AM CDT Sun Aug 27 2023
+ 
+...DEPRESSION NEARING TROPICAL STORM INTENSITY...
+...EXPECTED TO STRENGTHEN INTO A HURRICANE OVER THE EASTERN GULF OF 
+MEXICO IN A COUPLE OF DAYS...
+ 
+ 
+SUMMARY OF 700 AM CDT...1200 UTC...INFORMATION
+----------------------------------------------
+LOCATION...19.7N 86.3W
+ABOUT 70 MI...110 KM SE OF COZUMEL MEXICO
+MAXIMUM SUSTAINED WINDS...35 MPH...55 KM/H
+PRESENT MOVEMENT...SE OR 135 DEGREES AT 5 MPH...7 KM/H
+MINIMUM CENTRAL PRESSURE...1001 MB...29.56 INCHES
+ 
+ 
+WATCHES AND WARNINGS
+--------------------
+CHANGES WITH THIS ADVISORY:
+ 
+None.
+ 
+SUMMARY OF WATCHES AND WARNINGS IN EFFECT:
+ 
+A Tropical Storm Warning is in effect for...
+* Yucatan Peninsula from Tulum to Rio Lagartos, including Cozumel
+* Pinar del Rio Cuba
+ 
+A Tropical Storm Watch is in effect for...
+* Isle of Youth Cuba
+ 
+A Tropical Storm Warning means that tropical storm conditions are
+expected somewhere within the warning area.
+ 
+A Tropical Storm Watch means that tropical storm conditions are
+possible within the watch area.
+ 
+Interests in Florida should monitor the progress of this system.
+ 
+For storm information specific to your area, please monitor
+products issued by your national meteorological service.
+ 
+ 
+DISCUSSION AND OUTLOOK
+----------------------
+At 700 AM CDT (1200 UTC), the center of Tropical Depression Ten was
+located near latitude 19.7 North, longitude 86.3 West.  The
+depression is moving toward the southeast near 5 mph (7 km/h), and 
+it is likely to meander near the Yucatan Channel through early 
+Monday.  A faster motion toward the north or north-northeast is 
+expected later on Monday, bringing the system over the eastern Gulf 
+of Mexico.
+ 
+Maximum sustained winds are near 35 mph (55 km/h) with higher gusts. 
+The depression is expected to become a tropical storm later today 
+and a hurricane by Tuesday.
+ 
+The estimated minimum central pressure is 1001 mb (29.56 inches).
+ 
+ 
+HAZARDS AFFECTING LAND
+----------------------
+Key messages for Tropical Depression Ten can be found in the
+Tropical Cyclone Discussion under AWIPS header MIATCDAT5 and WMO
+header WTNT45 KNHC.
+ 
+RAINFALL:  Tropical Depression Ten is expected to produce the
+following rainfall amounts:
+ 
+Portions of the eastern Yucatan: 2 to 4 inches, with isolated higher
+totals of 6 inches.
+ 
+Western Cuba: 3 to 6 inches, with isolated higher totals of 10
+inches.
+ 
+Portions of the west coast of Florida, the Florida Panhandle, and
+southern Georgia: From Tuesday into Wednesday, 3 to 6 inches, with
+isolated higher totals of 10 inches.
+ 
+Heavy rainfall is also likely to spread into portions of the
+Carolinas by Wednesday into Thursday.
+ 
+This rainfall may lead to flash and urban flooding, and landslides
+across western Cuba. Scattered flash and urban flooding can also be
+expected across portions of the west coast of Florida, the Florida
+Panhandle and portions of the Southeast U.S. by Tuesday into
+Thursday.
+ 
+WIND:  Tropical storm conditions are expected over portions of the 
+warning area over the Yucatan Peninsula today and western Cuba 
+tonight or Monday.  Tropical storm conditions are possible within 
+the watch area on the Isle of Youth tonight or Monday.
+ 
+STORM SURGE:  Minor coastal flooding is expected within the Tropical
+Storm Warning area over the Yucatan Peninsula in areas of onshore
+winds.
+ 
+ 
+NEXT ADVISORY
+-------------
+Next complete advisory at 1000 AM CDT.
+ 
+$$
+Forecaster Pasch
+ 

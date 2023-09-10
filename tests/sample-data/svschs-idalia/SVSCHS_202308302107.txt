@@ -1,0 +1,34 @@
+
+536 
+WWUS52 KCHS 302107
+SVSCHS
+
+Severe Weather Statement
+National Weather Service Charleston SC
+507 PM EDT Wed Aug 30 2023
+
+GAC251-302117-
+/O.EXP.KCHS.TO.W.0016.000000T0000Z-230830T2115Z/
+Screven GA-
+507 PM EDT Wed Aug 30 2023
+
+...THE TORNADO WARNING FOR PORTIONS OF SCREVEN COUNTY WILL EXPIRE AT
+515 PM EDT...
+        
+The storm which prompted the warning has moved out of the area.
+Therefore, the warning will be allowed to expire.  However, gusty
+winds and heavy rain are still possible with this thunderstorm.
+
+A Tornado Watch remains in effect until 600 PM EDT for southeastern
+Georgia.
+
+To report severe weather, contact your nearest law enforcement
+agency. They will relay your report to the National Weather Service
+Charleston.
+
+LAT...LON 3265 8143 3258 8141 3250 8154 3260 8160
+TIME...MOT...LOC 2107Z 158DEG 17KT 3258 8153 
+
+$$
+
+KR

@@ -1,0 +1,32 @@
+
+889 
+WWUS52 KCHS 302143
+SVSCHS
+
+Severe Weather Statement
+National Weather Service Charleston SC
+543 PM EDT Wed Aug 30 2023
+
+SCC015-302152-
+/O.EXP.KCHS.TO.W.0018.000000T0000Z-230830T2145Z/
+Berkeley SC-
+543 PM EDT Wed Aug 30 2023
+
+...THE TORNADO WARNING FOR PORTIONS OF BERKELEY COUNTY WILL EXPIRE AT
+545 PM EDT...
+        
+The storm which prompted the warning has moved out of the area.
+Therefore, the warning will be allowed to expire.
+
+A Tornado Watch remains in effect until 1000 PM EDT for southeastern
+South Carolina.
+
+LAT...LON 3340 7985 3337 7980 3338 7979 3332 7974
+      3332 7970 3327 7958 3325 7960 3323 7965
+      3322 7970 3323 7979 3344 7989 3343 7987
+      3342 7987
+TIME...MOT...LOC 2142Z 166DEG 35KT 3337 7970 
+
+$$
+
+BSH

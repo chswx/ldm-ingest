@@ -22,7 +22,7 @@ class VTECStringTest extends TestCase
         $vtec = new VTECString($arrays[0]);
 
         // test case 1: Make sure the parser is parsing properly
-        $this->assertEquals($this->expireOperationalString, $vtec->vtec_string);
+        $this->assertEquals($this->expireOperationalString, $vtec->raw_vtec);
 
         // test case 2: Make sure the operational checks are good
         $this->assertEquals(true, $vtec->isOperational());
@@ -46,7 +46,7 @@ class VTECStringTest extends TestCase
         $vtec = new VTECString($arrays[0]);
 
         // test case 1: Make sure the parser is parsing properly
-        $this->assertEquals($this->newOperationalString, $vtec->vtec_string);
+        $this->assertEquals($this->newOperationalString, $vtec->raw_vtec);
 
         // test case 2: Make sure the operational checks are good
         $this->assertEquals(true, $vtec->isOperational());

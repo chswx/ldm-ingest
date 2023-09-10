@@ -15,7 +15,7 @@ class VTECString
      *
      * @var string
      */
-    public $vtec_string;
+    public $raw_vtec;
 
     /**
      * @var string Product class
@@ -35,27 +35,27 @@ class VTECString
     /**
      * @var string Phenomena
      */
-    public $phenomena;
+    public $phen;
 
     /**
      * @var string Significance
      */
-    public $significance;
+    public $sig;
 
     /**
-     * @var string Event Tracking Number
+     * @var int Event Tracking Number
      */
     public $etn;
 
     /**
      * @var int Event effective time as a UNIX timestamp
      */
-    public $effective_timestamp;
+    public $start_timestamp;
 
     /**
      * @var int Event expiration time as a UNIX timestamp
      */
-    public $expire_timestamp;
+    public $end_timestamp;
 
     /**
      * @var int Inferred year of the event
@@ -125,12 +125,12 @@ class VTECString
 
     public function getPhen()
     {
-        return $this->phenomena;
+        return $this->phen;
     }
 
     public function getSig()
     {
-        return $this->significance;
+        return $this->sig;
     }
 
     /**
@@ -140,7 +140,7 @@ class VTECString
      */
     public function getPhenSig()
     {
-        return $this->phenomena . "." . $this->significance;
+        return $this->phen . "." . $this->sig;
     }
 
     /**
@@ -176,22 +176,22 @@ class VTECString
     {
         $year = date('Y');
 
-        if ($this->effective_timestamp !== 0) {
+        if ($this->start_timestamp !== 0) {
             // Use the effective timestamp to infer the year,
             // but only if it is the same as the current year
             // If NWS issues a VTEC product valid in the new year during
             // the current year, the ETN will go toward the _current_ year
-            $eff_year = date('Y', $this->effective_timestamp);
+            $eff_year = date('Y', $this->start_timestamp);
             $curr_year = date('Y');
 
             $year = ($eff_year > $curr_year) ? $curr_year : $eff_year;
-        } else if ($this->expire_timestamp !== 0) {
+        } else if ($this->end_timestamp !== 0) {
             // If the effective timestamp is zeroed out (CON/EXA),
             // we should still be able to infer the year from expiration.
             // If the current year is greater than the expiration year,
             // then use that year (primarily in archival scenarios).
             // Otherwise, use the current year
-            $exp_year = date('Y', $this->expire_timestamp);
+            $exp_year = date('Y', $this->end_timestamp);
             if ($year > $exp_year) {
                 $year = $exp_year;
             }
@@ -210,7 +210,7 @@ class VTECString
     private function createObj($vtec_string_array)
     {
         // Save the VTEC string in its entirety
-        $this->vtec_string = $vtec_string_array[0];
+        $this->raw_vtec = $vtec_string_array[0];
 
         // VTEC product class
         $this->product_class = $vtec_string_array[1];
@@ -222,19 +222,19 @@ class VTECString
         $this->office = $vtec_string_array[3];
 
         // VTEC phenomena
-        $this->phenomena = $vtec_string_array[4];
+        $this->phen = $vtec_string_array[4];
 
         // VTEC significance
-        $this->significance = $vtec_string_array[5];
+        $this->sig = $vtec_string_array[5];
 
         // VTEC event number
-        $this->etn = $vtec_string_array[6];
+        $this->etn = (int)$vtec_string_array[6];
 
         // Effective time (as UNIX timestamp)
-        $this->effective_timestamp = $this->vtecToTimestamp($vtec_string_array[7], $vtec_string_array[8]);
+        $this->start_timestamp = $this->vtecToTimestamp($vtec_string_array[7], $vtec_string_array[8]);
 
         // Expire time (as UNIX timestamp)
-        $this->expire_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
+        $this->end_timestamp = $this->vtecToTimestamp($vtec_string_array[9], $vtec_string_array[10]);
 
         // Year of event
         $this->year = $this->getVtecYear();

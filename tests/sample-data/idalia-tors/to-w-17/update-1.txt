@@ -1,0 +1,69 @@
+
+715 
+WWUS52 KCHS 302108
+SVSCHS
+
+Severe Weather Statement
+National Weather Service Charleston SC
+508 PM EDT Wed Aug 30 2023
+
+SCC019-302118-
+/O.CAN.KCHS.TO.W.0017.000000T0000Z-230830T2115Z/
+Charleston SC-
+508 PM EDT Wed Aug 30 2023
+
+...THE TORNADO WARNING FOR PORTIONS OF CHARLESTON COUNTY IS
+CANCELLED...
+    
+The immediate risk for tornadoes has ended. 
+
+A Tornado Watch remains in effect until 1000 PM EDT for southeastern
+South Carolina.
+
+LAT...LON 3313 7971 3311 7985 3319 7987 3321 7971
+TIME...MOT...LOC 2108Z 164DEG 36KT 3317 7978 
+
+$$
+
+SCC015-302115-
+/O.CON.KCHS.TO.W.0017.000000T0000Z-230830T2115Z/
+Berkeley SC-
+508 PM EDT Wed Aug 30 2023
+
+...A TORNADO WARNING REMAINS IN EFFECT UNTIL 515 PM EDT FOR PORTIONS
+OF BERKELEY COUNTY...
+        
+At 508 PM EDT, a severe thunderstorm capable of producing a tornado
+was located near Huger, moving north at 40 mph.
+
+HAZARD...Tornado.
+
+SOURCE...Weather spotters reported a funnel cloud.
+
+IMPACT...Flying debris will be dangerous to those caught without 
+         shelter. Mobile homes will be damaged or destroyed. Damage 
+         to roofs, windows, and vehicles will occur.  Tree damage is 
+         likely.
+
+This tornadic thunderstorm will remain over mainly rural areas of
+Berkeley County, including the following locations: Limerick and
+Thomas Corner.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to an interior room on the lowest floor of a
+sturdy building. Avoid windows. If you are outdoors, in a mobile
+home, or in a vehicle, move to the closest substantial shelter and
+protect yourself from flying debris.
+
+&&
+
+LAT...LON 3313 7971 3311 7985 3319 7987 3321 7971
+TIME...MOT...LOC 2108Z 164DEG 36KT 3317 7978 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+BSH

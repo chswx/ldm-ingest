@@ -1,0 +1,38 @@
+
+816 
+WHUS42 KCHS 281300
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+900 AM EDT Mon Aug 28 2023
+
+GAZ117-119-139-141-282100-
+/O.NEW.KCHS.RP.S.0007.230828T1300Z-230829T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+900 AM EDT Mon Aug 28 2023
+
+...HIGH RIP CURRENT RISK IN EFFECT UNTIL 8 PM EDT THIS EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Georgia Beaches.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+* ADDITIONAL DETAILS...Swells from distant hurricanes can be
+  powerful. 
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$

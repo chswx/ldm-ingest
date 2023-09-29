@@ -1,0 +1,125 @@
+
+304 
+WGUS82 KCHS 171746
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+146 PM EDT Sun Sep 17 2023
+
+SCC015-019-035-171945-
+/O.NEW.KCHS.FA.Y.0070.230917T1746Z-230917T1945Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-Dorchester SC-
+146 PM EDT Sun Sep 17 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 345 PM EDT THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast South Carolina, including the 
+  following counties, Berkeley, Charleston and Dorchester.
+
+* WHEN...Until 345 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+  Water over roadways. Ponding of water in urban or other areas is 
+  occurring or is imminent.
+
+* ADDITIONAL DETAILS...
+  - At 146 PM EDT, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1.5 and 2 inches of
+    rain have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that will experience flooding include...
+    North Charleston, Mount Pleasant, Summerville, Goose Creek,
+    Hanahan, Moncks Corner, McClellanville, Daniel Island, Naval
+    Weapons Station Charleston, I-26/I-526 Interchange, Downtown
+    Charleston, Fort Sumter, Ladson, West Ashley, James Island,
+    Johns Island, Hollywood, Isle Of Palms, Folly Beach and
+    Ravenel.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Heavy rain in Downtown Savannah will result in nuisance flooding of 
+low-lying areas. Slow down when traveling and allow extra distance 
+between you and the vehicle ahead. Do not drive into water of 
+unknown depth.
+
+&&
+
+LAT...LON 3285 8025 3292 8018 3314 8007 3342 7986
+      3337 7981 3338 7978 3332 7974 3324 7949
+      3325 7948 3316 7935 3314 7927 3311 7926
+      3307 7931 3298 7934 3298 7951 3289 7955
+      3273 7982 3273 7985 3268 7985 3252 8025
+
+
+$$
+
+
+
+330 
+WGUS82 KCHS 151257
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+857 AM EDT Fri Sep 15 2023
+
+GAC179-191-151430-
+/O.NEW.KCHS.FA.Y.0069.230915T1257Z-230915T1430Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Liberty GA-McIntosh GA-
+857 AM EDT Fri Sep 15 2023
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1030 AM EDT THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of southeast Georgia, including the following 
+  counties, Liberty and McIntosh.
+
+* WHEN...Until 1030 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 856 AM EDT, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 1 and 2 inches of rain
+    have fallen.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that will experience flooding include...
+    Darien, Sapelo Island, Valona, Blackbeard Island, Shellman
+    Bluff, Crescent, Meridian, Carnigan, Harris Neck, Wolf
+    Island, Ridgeville, Halfmoon Landing, St. Catherines Island,
+    Little Saint Simons Island, Raccoon Bluff and Ashintilly.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3134 8149 3173 8127 3171 8110 3165 8111
+      3162 8110 3154 8115 3150 8115 3139 8123
+      3136 8122 3135 8124 3132 8122 3128 8124
+      3128 8133 3130 8136 3129 8140 3131 8144
+      3133 8144
+
+
+$$
+
+

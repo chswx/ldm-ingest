@@ -1,0 +1,35 @@
+
+719 
+WHUS42 KCHS 290142
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+942 PM EDT Thu Sep 28 2023
+
+SCZ049-050-290245-
+/O.EXP.KCHS.CF.Y.0042.000000T0000Z-230929T0200Z/
+Coastal Colleton-Charleston-
+942 PM EDT Thu Sep 28 2023
+
+...COASTAL FLOOD ADVISORY WILL EXPIRE AT 10 PM EDT THIS EVENING...
+
+Tides peaked at 8.06 feet MLLW in Charleston Harbor this evening.
+Another advisory will be required for the Friday morning high 
+tide.
+
+$$
+
+GAZ117-119-139-141-SCZ048-051-290245-
+/O.EXP.KCHS.CF.Y.0042.000000T0000Z-230929T0200Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Jasper-
+942 PM EDT Thu Sep 28 2023
+
+...COASTAL FLOOD ADVISORY WILL EXPIRE AT 10 PM EDT THIS EVENING...
+
+Tides peaked at 9.94 feet MLLW at Fort Pulaski this evening. 
+Another advisory will be required for the Friday morning high 
+tide.
+
+$$

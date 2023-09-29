@@ -1,0 +1,121 @@
+
+895 
+WHUS42 KCHS 290715
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+315 AM EDT Fri Sep 29 2023
+
+SCZ049-050-291400-
+/O.CON.KCHS.CF.Y.0043.230929T1000Z-230929T1400Z/
+Coastal Colleton-Charleston-
+315 AM EDT Fri Sep 29 2023
+
+...COASTAL FLOOD ADVISORY REMAINS IN EFFECT UNTIL 10 AM EDT THIS
+MORNING...
+
+* WHAT...Up to one foot of inundation above ground level 
+  expected along shorelines and tidal waterways (7.8 to 8.0 feet 
+  Mean Lower Low Water at Charleston).
+
+* WHERE...Coastal Colleton and Charleston Counties.
+
+* WHEN...Until 10 AM EDT this morning.
+
+* IMPACTS...This will result in some roads becoming impassable 
+  and minor flooding of properties.
+
+* ADDITIONAL DETAILS...High tide will occur around 8:23 AM today 
+  at Charleston. Saltwater inundation will be possible 1 to 2 
+  hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Charleston Harbor SC
+MLLW Categories - Minor 7.0 ft, Moderate 7.5 ft, Major 8.0 ft
+MHHW Categories - Minor 1.2 ft, Moderate 1.7 ft, Major 2.2 ft
+
+             Total      Total    Departure                   
+ Day/Time    Tide       Tide     from Norm   Waves    Flood  
+            ft MLLW    ft MHHW       ft       ft      Impact 
+ --------  ---------  ---------  ---------  -------  --------
+ 29/08 AM     7.9        2.1        1.2       N/A    Moderate  
+ 29/09 PM     7.7        1.9        1.0       N/A    Moderate  
+ 30/09 AM     7.9        2.1        1.0       N/A    Moderate  
+ 30/10 PM     7.3        1.5        0.9       N/A     Minor    
+ 01/10 AM     7.9        2.1        1.0       N/A    Moderate  
+ 01/10 PM     7.3        1.5        1.3       N/A     Minor
+
+&&
+
+$$
+
+GAZ117-119-139-141-SCZ048-051-291400-
+/O.CON.KCHS.CF.Y.0043.230929T1000Z-230929T1400Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Jasper-
+315 AM EDT Fri Sep 29 2023
+
+...COASTAL FLOOD ADVISORY REMAINS IN EFFECT UNTIL 10 AM EDT THIS
+MORNING...
+
+* WHAT...Up to one half foot of inundation above ground level 
+  expected along shorelines and tidal waterways (9.8 to 10.0 
+  feet Mean Lower Low Water at Fort Pulaski).
+
+* WHERE...Beaufort, Coastal Jasper, and coastal southeast 
+  Georgia.
+
+* WHEN...Until 10 AM EDT this morning.
+
+* IMPACTS...Saltwater inundation will impact some roads.
+
+* ADDITIONAL DETAILS...High tide will occur around 8:31 AM today 
+  at Fort Pulaski. Saltwater inundation will be possible 1 to 2 
+  hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Fort Pulaski GA
+MLLW Categories - Minor 9.5 ft, Moderate 10.0 ft, Major 10.5 ft
+MHHW Categories - Minor 2.0 ft, Moderate 2.5 ft, Major 3.0 ft
+
+             Total      Total    Departure                   
+ Day/Time    Tide       Tide     from Norm   Waves    Flood  
+            ft MLLW    ft MHHW       ft       ft      Impact 
+ --------  ---------  ---------  ---------  -------  --------
+ 29/08 AM     9.9        2.4        1.2       N/A     Minor    
+ 29/09 PM     9.7        2.2        1.0       N/A     Minor    
+ 30/09 AM     9.8        2.3        0.9       N/A     Minor    
+ 30/10 PM     9.3        1.8        0.9       N/A      None    
+ 01/10 AM    10.0        2.5        1.1       N/A    Moderate  
+ 01/11 PM     9.3        1.8        1.3       N/A      None
+
+&&
+
+$$

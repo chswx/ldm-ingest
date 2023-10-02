@@ -1,0 +1,29 @@
+
+724 
+WGUS82 KCHS 102021
+FLSCHS
+
+Flood Advisory
+National Weather Service Charleston SC
+421 PM EDT Sun Sep 10 2023
+
+SCC015-019-035-102031-
+/O.CAN.KCHS.FA.Y.0063.000000T0000Z-230910T2215Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Berkeley SC-Charleston SC-Dorchester SC-
+421 PM EDT Sun Sep 10 2023
+
+...FLOOD ADVISORY IS CANCELLED...
+
+The Flood Advisory is cancelled for a portion of southeast South 
+Carolina, including the following areas, Berkeley, Charleston and 
+Dorchester.
+
+The heavy rain has ended. Flooding is no longer expected to pose a 
+threat. Please continue to heed remaining road closures.
+
+LAT...LON 3285 8026 3287 8018 3296 7991 3289 7987
+      3272 8007 3269 8028
+
+
+$$

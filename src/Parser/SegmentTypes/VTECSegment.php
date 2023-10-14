@@ -49,20 +49,20 @@ class VTECSegment extends NWSProductSegment
         // - severe weather followup statements
         // - special marine warnings
         // - marine weather statements (questionable)
-        if (preg_match('/(TOR|SVR|SVS|MWW|MWS)/', $this->pil)) {
+        if (preg_match('/(TOR|SVR|SVS|SMW|MWS)/', $this->pil)) {
             $this->smv = new SMVString($segment_text);
         }
 
         // Extract the polygon from the product and save.
         // Will be null if the polygon does not exist in the product.
         // For now, limit to certain short-fuse products
-        if (preg_match('/(TOR|SVR|SVS|FFW|FLS|FFS|MWW|MWS)/', $this->pil)) {
+        if (preg_match('/(TOR|SVR|SVS|FFW|FLS|FFS|FLW|MWS|SMW)/', $this->pil)) {
             $sbw = new SBW($segment_text);
             $this->polygon = $sbw->polygon;
         }
 
         // Parse impact-based tags for certain products.
-        if (preg_match('/(TOR|SVR|SVS|MWW|MWS|FFW|FFS|FLS)/', $this->pil)) {
+        if (preg_match('/(TOR|SVR|SVS|SMW|MWW|MWS|FFW|FFS|FLS)/', $this->pil)) {
             $this->impacts = new IBW($segment_text);
         }
 

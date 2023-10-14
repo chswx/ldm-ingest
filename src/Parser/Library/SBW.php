@@ -24,7 +24,7 @@ class SBW
      *
      * @param string $text Segment text to check
      *
-     * @return Polygon|null
+     * @return Polygon|array
      */
     public function findPolygon($text)
     {
@@ -44,7 +44,8 @@ class SBW
             return (new Geo\Polygon($coords_arr));
         }
 
-        // Null if we don't have one
-        return null;
+        // Empty array if we don't have one
+        // Fixes downstream crasher where we aren't expecting Null
+        return [];
     }
 }

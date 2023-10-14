@@ -1,0 +1,40 @@
+779 
+WGUS83 KUNR 141426
+FLSUNR
+
+Flood Statement
+National Weather Service Rapid City SD
+826 AM MDT Sat Oct 14 2023
+
+...The Flood Warning is cancelled for the following rivers in South 
+Dakota...
+
+  White River near Kadoka affecting Jackson County.
+
+
+
+SDC071-141530-
+/O.CAN.KUNR.FL.W.0003.000000T0000Z-231014T1426Z/
+/KDKS2.1.ER.231013T1845Z.231014T1200Z.000000T0000Z.NO/
+826 AM MDT Sat Oct 14 2023
+
+...FLOOD WARNING IS CANCELLED...
+
+The Flood Warning is cancelled for
+  the White River near Kadoka.
+
+* ADDITIONAL DETAILS...
+  - At 7:45 AM MDT Saturday the stage was 12.4 feet.
+  - Bankfull stage is 14.7 feet.
+  - Forecast...The river is expected to fall to 5.1 feet Thursday
+    morning.
+
+
+&&
+
+LAT...LON 4372 10214 4388 10103 4377 10121 4359 10214
+
+
+$$
+
+Hintz

@@ -1,0 +1,68 @@
+931 
+WGUS43 KUNR 131332
+FLWUNR
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Rapid City SD
+732 AM MDT Fri Oct 13 2023
+
+...The National Weather Service in Rapid City SD has issued a Flood 
+Warning for the following rivers in South Dakota...
+
+  White River near Kadoka affecting Jackson County.
+
+
+
+For the White River...including Kadoka...Moderate flooding is 
+forecast.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Additional information is available at www.weather.gov.
+
+The next statement will be issued this evening at 745 PM MDT.
+
+&&
+
+SDC071-140145-
+/O.NEW.KUNR.FL.W.0003.231013T1845Z-231015T0400Z/
+/KDKS2.2.ER.231013T1845Z.231014T0600Z.231014T2000Z.NO/
+732 AM MDT Fri Oct 13 2023
+
+...FLOOD WARNING IN EFFECT FROM THIS AFTERNOON TO LATE TOMORROW 
+EVENING...
+
+* WHAT...Moderate flooding is forecast.
+
+* WHERE...White River near Kadoka.
+
+* WHEN...From this afternoon to late tomorrow evening.
+
+* IMPACTS...At 16.0 feet, Moderate flood stage. Some inundation of 
+  structures and roads near the White River are possible. 
+  Significant flooding of agricultural land.
+
+* ADDITIONAL DETAILS...
+  - At 6:45 AM MDT Friday the stage was 13.7 feet.
+  - Bankfull stage is 14.7 feet.
+  - Forecast...The river will rise above flood stage this
+    afternoon, and then to 16.7 feet just after midnight tonight.
+    It will then fall below flood stage early tomorrow afternoon,
+    then to 6.0 feet early Monday afternoon.
+  - Flood stage is 15.0 feet.
+
+
+&&
+
+LAT...LON 4372 10214 4388 10103 4377 10121 4359 10214
+
+
+$$
+
+Pojorlie
+
+

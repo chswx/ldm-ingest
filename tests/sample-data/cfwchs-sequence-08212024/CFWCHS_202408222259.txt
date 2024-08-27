@@ -1,0 +1,130 @@
+091 
+WHUS42 KCHS 222259
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+659 PM EDT Thu Aug 22 2024
+
+SCZ049-050-230500-
+/O.NEW.KCHS.CF.Y.0022.240823T0100Z-240823T0500Z/
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240823T0000Z/
+Coastal Colleton-Charleston-
+659 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 8 PM EDT THIS
+EVENING...
+...COASTAL FLOOD ADVISORY IN EFFECT UNTIL 1 AM EDT FRIDAY...
+
+* WHAT...For the High Rip Current Risk, dangerous rip currents. 
+  For the Coastal Flood Advisory, up to one half foot of 
+  inundation above ground level expected along shorelines and 
+  tidal waterways (7.0 to 7.2 feet Mean Lower Low Water at 
+  Charleston).
+
+* WHERE...Coastal Colleton and Charleston Counties.
+
+* WHEN...For the High Rip Current Risk, until 8 PM EDT this 
+  evening. For the Coastal Flood Advisory, until 1 AM EDT Friday.
+
+* IMPACTS...This could result in some roads becoming impassable. 
+  Rip currents can sweep even the best swimmers away from shore 
+  into deeper water.
+
+* ADDITIONAL DETAILS...High tide will occur around 11:07 PM this
+  evening at Charleston. Saltwater inundation will be possible 1 
+  to 2 hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Charleston Harbor SC
+MLLW Categories - Minor 7.0 ft, Moderate 7.5 ft, Major 8.0 ft
+MHHW Categories - Minor 1.2 ft, Moderate 1.7 ft, Major 2.2 ft
+
+             Total      Total    Departure                   
+ Day/Time    Tide       Tide     from Norm   Waves    Flood  
+            ft MLLW    ft MHHW       ft       ft      Impact 
+ --------  ---------  ---------  ---------  -------  --------
+ 22/11 PM     7.1        1.3        0.9       N/A     Minor    
+ 23/12 PM     7.0        1.2        0.8       N/A     Minor    
+ 24/12 AM     6.5        0.7        0.6       N/A      None    
+ 24/12 PM     6.5        0.7        0.3       N/A      None    
+ 25/01 AM     5.7       -0.1        0.2       N/A      None    
+ 25/02 PM     6.4        0.6        0.2       N/A      None
+
+&&
+
+$$
+
+GAZ117-119-139-141-230700-
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240824T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+659 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH FRIDAY
+EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Georgia Beaches.
+
+* WHEN...Through Friday evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$
+
+SCZ048-051-230000-
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240823T0000Z/
+Beaufort-Coastal Jasper-
+659 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 8 PM EDT THIS
+EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Beaufort and Coastal Jasper Counties.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$

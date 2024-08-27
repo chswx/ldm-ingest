@@ -1,0 +1,62 @@
+939 
+WHUS42 KCHS 221922
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+322 PM EDT Thu Aug 22 2024
+
+GAZ117-119-139-141-230330-
+/O.EXT.KCHS.RP.S.0007.000000T0000Z-240824T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+322 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK NOW IN EFFECT THROUGH FRIDAY EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Georgia Beaches.
+
+* WHEN...Through Friday evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$
+
+SCZ048>051-230000-
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240823T0000Z/
+Beaufort-Coastal Colleton-Charleston-Coastal Jasper-
+322 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 8 PM EDT THIS
+EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...South Carolina Beaches.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$

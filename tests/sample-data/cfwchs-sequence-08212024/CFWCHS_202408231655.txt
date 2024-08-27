@@ -1,0 +1,46 @@
+914 
+WHUS42 KCHS 231655
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+1255 PM EDT Fri Aug 23 2024
+
+SCZ049-050-231800-
+/O.EXP.KCHS.CF.Y.0023.000000T0000Z-240823T1700Z/
+Coastal Colleton-Charleston-
+1255 PM EDT Fri Aug 23 2024
+
+...COASTAL FLOOD ADVISORY WILL EXPIRE AT 1 PM EDT THIS
+AFTERNOON...
+
+
+$$
+
+GAZ117-119-139-141-240000-
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240824T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+1255 PM EDT Fri Aug 23 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 8 PM EDT THIS
+EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Georgia Beaches.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$

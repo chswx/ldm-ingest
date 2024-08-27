@@ -1,0 +1,66 @@
+279 
+WHUS42 KCHS 221649
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+1249 PM EDT Thu Aug 22 2024
+
+SCZ049-050-230000-
+/O.CAN.KCHS.CF.Y.0021.000000T0000Z-240822T1700Z/
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240823T0000Z/
+Coastal Colleton-Charleston-
+1249 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 8 PM EDT THIS
+EVENING...
+...COASTAL FLOOD ADVISORY IS CANCELLED...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Coastal Colleton and Charleston Counties.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$
+
+GAZ117-119-139-141-SCZ048-051-230000-
+/O.CON.KCHS.RP.S.0007.000000T0000Z-240823T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Jasper-
+1249 PM EDT Thu Aug 22 2024
+
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT UNTIL 8 PM EDT THIS
+EVENING...
+
+* WHAT...Dangerous rip currents.
+
+* WHERE...Georgia Beaches, Beaufort, and Coastal Jasper.
+
+* WHEN...Until 8 PM EDT this evening.
+
+* IMPACTS...Rip currents can sweep even the best swimmers away 
+  from shore into deeper water.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+$$

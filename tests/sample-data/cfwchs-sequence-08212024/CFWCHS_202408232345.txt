@@ -1,0 +1,16 @@
+640 
+WHUS42 KCHS 232345
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+745 PM EDT Fri Aug 23 2024
+
+GAZ117-119-139-141-240045-
+/O.EXP.KCHS.RP.S.0007.000000T0000Z-240824T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+745 PM EDT Fri Aug 23 2024
+
+...HIGH RIP CURRENT RISK WILL EXPIRE AT 8 PM EDT THIS EVENING...
+
+$$

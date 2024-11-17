@@ -224,6 +224,33 @@ class Utils
     }
 
     /**
+     * Find a bullet point within a block of text (typically a product segment)
+     *
+     * @param string $text Product text (segment) to search.
+     * @param string $bullet Bullet point to find.
+     */
+
+    public static function findBulletPoint(string $text, string $bullet): string
+    {
+        $result = '';
+        $sanitized_text = Utils::deindent(Utils::stripNewlines($text));
+
+        // Set the bullet text to uppercase
+        $search_bullet = strtoupper($bullet);
+
+        // Find the bullet point and associated text.
+        $pattern = '\* ' . $search_bullet . '\.\.\.(.*)';
+        if (preg_match($pattern, $sanitized_text, $matches)) {
+            $result = $matches[1];
+        }
+
+        // Return an array of the bullet and the associated text, or a blank string if the bullet was not found.
+        return $result;
+    }
+
+    /**** E X E C U T I O N  H E L P E R S */
+
+    /**
      * Write a message to the log or console depending on configuration.
      * Wrapper for the built-in error_log PHP function.
      *

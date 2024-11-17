@@ -42,6 +42,13 @@ class NWSProductSegment
     public $channels;
 
     /**
+     * Segment metadata
+     *
+     * @var array metadata
+     */
+    public $metadata;
+
+    /**
      * Basic constructor for product segments. Will be called explicitly by subclasses.
      *
      * @param string $segment_text
@@ -52,6 +59,7 @@ class NWSProductSegment
         $this->office = $parentProduct->office;
         $this->text = $segment_text;
         $this->zones = Utils::parseZones($this->text);
+        $this->metadata = [];
         //        $this->channels = [];
         // Get channels for this segment.
         //        $channels = $this->generateZoneChannels();
@@ -126,5 +134,18 @@ class NWSProductSegment
         // Sort the channel list in alphabetical order
         sort($new_channel_list);
         $this->channels = $new_channel_list;
+    }
+
+    /**
+     * Helper function to add metadata keys and values.
+     *
+     * @param string $key
+     * @param mixed $value
+     * @return void
+     */
+
+    public function addMetadata(string $key, mixed $value): void
+    {
+        $this->metadata[$key] = $value;
     }
 }

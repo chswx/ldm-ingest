@@ -5,6 +5,7 @@ namespace chswx\LDMIngest\Parser\SegmentTypes;
 use chswx\LDMIngest\Parser\NWSProductSegment;
 use chswx\LDMIngest\Parser\Library\SMVString;
 use chswx\LDMIngest\Parser\Library\IBW;
+use chswx\LDMIngest\Parser\Library\Metadata\OfficeSpecific\CHS\CoastalFlooding;
 use chswx\LDMIngest\Parser\Library\SBW;
 use chswx\LDMIngest\Parser\Library\VTEC\VTECString;
 use chswx\LDMIngest\Parser\Library\VTEC\VTECUtils;
@@ -66,12 +67,11 @@ class VTECSegment extends NWSProductSegment
             $this->impacts = new IBW($segment_text);
         }
 
-        // Generate additional channels from each VTEC segment
-        // $channels = $this->generateChannels();
-        // Append per-segment channels
-        // $this->appendChannels($channels);
-        // Append channels to the parent product
-        // $parentProduct->appendChannels($channels);
+        // Extract coastal flood metadata from product text
+        // Do this for Charleston only for now, very office-dependent
+        if ($this->pil === 'CFWCHS') {
+            $this->addMetadata('twl_forecast', CoastalFlooding::totalWaterLevelForecastRange($segment_text));
+        }
     }
 
     //

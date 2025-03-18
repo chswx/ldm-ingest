@@ -1,0 +1,77 @@
+
+912 
+WWUS72 KCHS 031402
+NPWCHS
+
+URGENT - WEATHER MESSAGE
+National Weather Service Charleston SC
+902 AM EST Mon Feb 3 2025
+
+GAZ087-088-099>101-114>116-118-137-138-140-SCZ040-042>045-047-031600-
+/O.EXP.KCHS.FG.Y.0001.000000T0000Z-250203T1400Z/
+/O.NEW.KCHS.FG.Y.0002.250203T1402Z-250203T1600Z/
+Jenkins-Screven-Candler-Bulloch-Effingham-Tattnall-Evans-Inland
+Bryan-Inland Chatham-Long-Inland Liberty-Inland McIntosh-
+Allendale-Hampton-Inland Colleton-Dorchester-Inland Berkeley-
+Inland Jasper-
+Including the cities of Walterboro, Claxton, Sylvania,
+Springfield, Ridgeland, Yemassee, Saint George, Richmond Hill,
+Summerville, Moncks Corner, Pembroke, Rincon, Statesboro,
+Savannah, Allendale, Hinesville, Pooler, Goose Creek, Garden
+City, Ludowici, Hampton, Townsend, Reidsville, Millen, Fort
+Stewart, and Metter
+902 AM EST Mon Feb 3 2025
+
+...DENSE FOG ADVISORY IN EFFECT UNTIL 11 AM EST THIS MORNING...
+
+* WHAT...Visibility less than one-quarter mile in dense fog.
+
+* WHERE...Portions of southeast Georgia and southeast South Carolina.
+
+* WHEN...Until 11 AM EST this morning.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If driving, slow down, use your headlights, and leave plenty of 
+distance ahead of you.
+
+&&
+
+$$
+
+GAZ117-119-139-141-SCZ048>052-032000-
+/O.EXP.KCHS.FG.Y.0001.000000T0000Z-250203T1400Z/
+/O.NEW.KCHS.FG.Y.0002.250203T1402Z-250203T2000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Colleton-Charleston-Coastal Jasper-Tidal
+Berkeley-
+Including the cities of Mount Pleasant, Darien, Hilton Head
+Island, Oak Level, Levy, Wilmington Island, North Charleston,
+Charleston, Chelsea, Daniel Island, Jasper, Edisto Beach, Tybee
+Island, Beaufort, and Fort Mcallister
+902 AM EST Mon Feb 3 2025
+
+...DENSE FOG ADVISORY IN EFFECT UNTIL 3 PM EST THIS AFTERNOON...
+
+* WHAT...Visibility less than one-quarter mile in dense fog.
+
+* WHERE...Portions of southeast Georgia and southeast South Carolina.
+
+* WHEN...Until 3 PM EST this afternoon.
+
+* IMPACTS...Low visibility could make driving conditions hazardous.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If driving, slow down, use your headlights, and leave plenty of 
+distance ahead of you.
+
+&&
+
+$$
+
+NED
+
+

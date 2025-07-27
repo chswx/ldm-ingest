@@ -9,9 +9,9 @@ ini_set('memory_limit', '512M');
 require_once('../vendor/autoload.php');
 
 define('DATABASE_NAME', 'chswx');
-define('DATABASE_SERVER', 'localhost');
-define('IMPORT_GEOSPATIAL', false);
-define('IMPORT_ZONES', false);
+define('DATABASE_SERVER', 'chswx-rethink-dev.orb.local');
+define('IMPORT_GEOSPATIAL', true);
+define('IMPORT_ZONES', true);
 
 echo "Opening the connection to the local RethinkDB instance...\n";
 $conn = r\connect(DATABASE_SERVER);

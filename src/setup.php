@@ -4,19 +4,21 @@
  * Setup utility for the @chswx LDM ingestor and alerter combos.
  */
 
-ini_set('memory_limit', '512M');
+ini_set("memory_limit", "512M");
 
-require_once('../vendor/autoload.php');
+require_once "../vendor/autoload.php";
 
-define('DATABASE_NAME', 'chswx');
-define('DATABASE_SERVER', 'chswx-rethink-dev.orb.local');
-define('IMPORT_GEOSPATIAL', true);
-define('IMPORT_ZONES', true);
+define("DATABASE_NAME", "chswx");
+define("DATABASE_SERVER", "chswx-rethink-dev.orb.local");
+define("IMPORT_GEOSPATIAL", true);
+define("IMPORT_ZONES", true);
 
 echo "Opening the connection to the local RethinkDB instance...\n";
 $conn = r\connect(DATABASE_SERVER);
 
-echo "Checking for and creating (if needed) the " . DATABASE_NAME . " database...\n";
+echo "Checking for and creating (if needed) the " .
+    DATABASE_NAME .
+    " database...\n";
 $dblist = r\dbList()->run($conn);
 if (!in_array(DATABASE_NAME, $dblist)) {
     echo DATABASE_NAME . " database not there, making it...";
@@ -24,7 +26,11 @@ if (!in_array(DATABASE_NAME, $dblist)) {
         $result = r\dbCreate(DATABASE_NAME)->run($conn);
     } catch (ReqlRuntimeError $e) {
         print_r($e);
-        die("Couldn't create the " . DATABASE_NAME . " database. Can't continue.");
+        die(
+            "Couldn't create the " .
+                DATABASE_NAME .
+                " database. Can't continue."
+        );
     }
 } else {
     echo DATABASE_NAME . " database exists...moving on.\n";
@@ -33,17 +39,19 @@ if (!in_array(DATABASE_NAME, $dblist)) {
 // Use the database
 $conn->useDb(DATABASE_NAME);
 
-$tables = array(
-    'geo_cities',       // Badly designed websites
-    'geo_counties',     // County outlines in GeoJSON
-    'geo_zones',        // NWS forecast zones, correlated by county
-    'geo_custom_locs',  // Custom locations
-    'products',         // All incoming products
-    'events'            // Holds ongoing events (VTEC, water level, etc.)
-);
+$tables = [
+    "geo_cities", // Badly designed websites
+    "geo_counties", // County outlines in GeoJSON
+    "geo_zones", // NWS forecast zones, correlated by county
+    "geo_custom_locs", // Custom locations
+    "products", // All incoming products
+    "events", // Holds ongoing events (VTEC, water level, etc.)
+];
 
 echo "Setting up database tables for the @chswx LDM bridge...\n";
-$tablelist = r\db(DATABASE_NAME)->tableList()->run($conn);
+$tablelist = r\db(DATABASE_NAME)
+    ->tableList()
+    ->run($conn);
 $count = 0;
 $skipped = 0;
 foreach ($tables as $table) {
@@ -59,10 +67,10 @@ foreach ($tables as $table) {
 echo "{$count} tables created, {$skipped} tables skipped\n";
 
 // Set up geospatial index
-if (defined('IMPORT_GEOSPATIAL') && IMPORT_GEOSPATIAL) {
+if (defined("IMPORT_GEOSPATIAL") && IMPORT_GEOSPATIAL) {
     echo "Importing geospatial data...\n";
     echo "Step 1: Cities\n";
-    $file = '../data/awips_cities_geojson.geojson';
+    $file = "../data/awips_cities_geojson.geojson";
     $json = file_get_contents($file);
     $decoded = json_decode($json);
     $complete = 0;
@@ -73,9 +81,9 @@ if (defined('IMPORT_GEOSPATIAL') && IMPORT_GEOSPATIAL) {
         if (empty($item->properties->ID)) {
             continue;
         }
-        $item->geometry = r\geojson((array)$item->geometry);
+        $item->geometry = r\geojson((array) $item->geometry);
         $item->id = "{$item->properties->ID}";
-        $result = r\table('geo_cities')->insert($item)->run($conn);
+        $result = r\table("geo_cities")->insert($item)->run($conn);
         if ($result) {
             $complete++;
             echo "$complete records of $total complete\r";
@@ -89,7 +97,7 @@ if (defined('IMPORT_GEOSPATIAL') && IMPORT_GEOSPATIAL) {
     // Set up geospatial indexes
     echo "\nSetting up geospatial indexes...\n";
     $geo_indexes = [
-        'geo_cities' => "geometry"
+        "geo_cities" => "geometry",
     ];
     foreach ($geo_indexes as $table => $index) {
         try {
@@ -100,7 +108,7 @@ if (defined('IMPORT_GEOSPATIAL') && IMPORT_GEOSPATIAL) {
     }
 }
 
-if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
+if (defined("IMPORT_ZONES") && IMPORT_ZONES) {
     echo "Importing: Zones\n";
     /*
      * Format:
@@ -117,17 +125,17 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
         LON	        Longitude of centroid of the zone
      */
     $count = 0;
-    $county_count = 0;  // lol
-    $counties = [];     // set up the counties array
+    $county_count = 0; // lol
+    $counties = []; // set up the counties array
 
     // Read the file.
-    foreach (file('../data/zone_correlation.dbx') as $line) {
-        $raw_zone = explode('|', $line);
+    foreach (file("../data/zone_correlation.dbx") as $line) {
+        $raw_zone = explode("|", $line);
 
         // First, create a zone
-        $zone = new stdClass;
-        $zone->id = $raw_zone[0] . 'Z' . $raw_zone[1];
-        $zone->county_id = $raw_zone[0] . 'C' . substr($raw_zone['6'], 2);
+        $zone = new stdClass();
+        $zone->id = $raw_zone[0] . "Z" . $raw_zone[1];
+        $zone->county_id = $raw_zone[0] . "C" . substr($raw_zone["6"], 2);
         $zone->state = $raw_zone[0];
         $zone->zone = $raw_zone[1];
         $zone->cwa = $raw_zone[2];
@@ -139,7 +147,7 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
         $zone->feature_area = $raw_zone[8];
         $zone->lat = $raw_zone[9];
         $zone->lon = $raw_zone[10];
-        $zone->type = 'zone';
+        $zone->type = "zone";
 
         // Next, skim counties from zones
         if (!isset($counties[$zone->county_id])) {
@@ -149,18 +157,18 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
             $county->state = $zone->state;
             $county->cwa = $zone->cwa;
             $county->fips = $zone->fips;
-            $county->type = 'county';
+            $county->type = "county";
 
             // Do not duplicate inserts
             $counties[$zone->county_id] = $county;
 
-            $result = r\table('geo_zones')->insert($county)->run($conn);
+            $result = r\table("geo_zones")->insert($county)->run($conn);
             if ($result) {
                 $county_count++;
             }
         }
 
-        $result = r\table('geo_zones')->insert($zone)->run($conn);
+        $result = r\table("geo_zones")->insert($zone)->run($conn);
         if ($result) {
             $count++;
             echo "$count zone records inserted; $county_count county records inserted\r";
@@ -170,9 +178,8 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
     // Set up indexes
     echo "\nSetting up indexes...\n";
     $tables = [
-        'geo_zones' => ['county_name', 'county_id'],
+        "geo_zones" => ["county_name", "county_id"],
     ];
-
 
     foreach ($tables as $table => $indexes) {
         try {
@@ -185,6 +192,6 @@ if (defined('IMPORT_ZONES') && IMPORT_ZONES) {
     }
 }
 
-
 echo "Setup complete\n";
 exit(0);
+

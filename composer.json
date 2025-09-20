@@ -29,5 +29,8 @@
             "name": "Jared Smith",
             "email": "jared@chswx.com"
         }
-    ]
+    ],
+    "scripts": {
+        "test": "./vendor/phpunit/phpunit/phpunit"
+    }
 }

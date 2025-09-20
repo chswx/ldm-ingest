@@ -12,6 +12,17 @@ date_default_timezone_set('UTC');
 class IBWTest extends TestCase
 {
     protected $mixed_ibw;
+    protected $mixed_tor_ibw;
+    protected $mixed_svr_ibw;
+    protected $april_2021_ibw_svr_base;
+    protected $april_2021_ibw_svr_considerable_wind;
+    protected $april_2021_ibw_svr_destructive_hail;
+    protected $april_2021_ibw_svs_considerable_pcancel;
+    protected $april_2021_ibw_svs_destructive_wind;
+    protected $april_2021_ibw_sps_landspout;
+    protected $april_2021_ibw_sps_waterspout_observed;
+    protected $ffw_ibw;
+    protected $ffs_ibw;
 
     protected function setUp(): void
     {
@@ -40,39 +51,39 @@ class IBWTest extends TestCase
         // Tornado warning: Exercise the tornado tag
         //
 
-        $this->assertEquals($this->mixed_tor_ibw->tornado, "RADAR INDICATED");
-        $this->assertNotEquals($this->mixed_tor_ibw->tornado, "OBSERVED");
+        $this->assertEquals($this->mixed_tor_ibw->tornado_source, "RADAR INDICATED");
+        $this->assertNotEquals($this->mixed_tor_ibw->tornado_source, "OBSERVED");
         // These would technically be out of compliance with the standard
-        $this->assertNotEquals($this->mixed_tor_ibw->tornado, "RADAR CONFIRMED");
-        $this->assertNotEquals($this->mixed_tor_ibw->tornado, "SPOTTED");
+        $this->assertNotEquals($this->mixed_tor_ibw->tornado_source, "RADAR CONFIRMED");
+        $this->assertNotEquals($this->mixed_tor_ibw->tornado_source, "SPOTTED");
 
         //
         // Legacy hail and wind tags
         //
 
-        $this->assertEquals($this->mixed_svr_ibw->hail, "<.75IN");
-        $this->assertEquals($this->mixed_svr_ibw->wind, "60MPH");
+        $this->assertEquals($this->mixed_svr_ibw->hail_mag, "<.75IN");
+        $this->assertEquals($this->mixed_svr_ibw->wind_mag, "60MPH");
 
         //
         // New hail and wind tags
         //
 
-        $this->assertEquals("1.00 IN", $this->april_2021_ibw_svr_base->hail);
-        $this->assertEquals("1.00 IN", $this->april_2021_ibw_svr_considerable_wind->hail);
-        $this->assertEquals("RADAR INDICATED", $this->april_2021_ibw_svr_considerable_wind->hail_threat);
-        $this->assertEquals("60 MPH", $this->april_2021_ibw_svr_base->wind);
-        $this->assertEquals("OBSERVED", $this->april_2021_ibw_svr_considerable_wind->wind_threat);
+        $this->assertEquals("1.00 IN", $this->april_2021_ibw_svr_base->hail_mag);
+        $this->assertEquals("1.00 IN", $this->april_2021_ibw_svr_considerable_wind->hail_mag);
+        $this->assertEquals("RADAR INDICATED", $this->april_2021_ibw_svr_considerable_wind->hail_source);
+        $this->assertEquals("60 MPH", $this->april_2021_ibw_svr_base->wind_mag);
+        $this->assertEquals("OBSERVED", $this->april_2021_ibw_svr_considerable_wind->wind_source);
 
         //
         // Flash Flood tags
         //
 
-        $this->assertEquals("RADAR INDICATED", $this->ffw_ibw->flash_flood);
-        $this->assertEquals("CONSIDERABLE", $this->ffw_ibw->flash_flood_threat);
+        $this->assertEquals("RADAR INDICATED", $this->ffw_ibw->flash_flood_source);
+        $this->assertEquals("CONSIDERABLE", $this->ffw_ibw->flash_flood_damage);
         $this->assertEquals("1-2.5 INCHES IN 1 HOUR", $this->ffw_ibw->rain_rate);
 
-        $this->assertEquals("RADAR INDICATED", $this->ffs_ibw->flash_flood);
-        $this->assertEquals("CONSIDERABLE", $this->ffs_ibw->flash_flood_threat);
+        $this->assertEquals("RADAR INDICATED", $this->ffs_ibw->flash_flood_source);
+        $this->assertEquals("CONSIDERABLE", $this->ffs_ibw->flash_flood_damage);
         $this->assertEquals("1-2 INCHES IN 1 HOUR", $this->ffs_ibw->rain_rate);
     }
 

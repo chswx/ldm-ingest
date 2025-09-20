@@ -1,0 +1,149 @@
+914
+WHUS42 KCHS 090249
+CFWCHS
+
+Coastal Hazard Message
+National Weather Service Charleston SC
+1049 PM EDT Mon Sep 8 2025
+
+GAZ117-119-139-141-SCZ048-051-091100-
+/O.CAN.KCHS.CF.Y.0021.000000T0000Z-250909T0400Z/
+/O.CON.KCHS.CF.Y.0022.250909T1100Z-250909T1600Z/
+/O.CON.KCHS.RP.S.0007.250909T1200Z-250910T0000Z/
+Coastal Bryan-Coastal Chatham-Coastal Liberty-Coastal McIntosh-
+Beaufort-Coastal Jasper-
+1049 PM EDT Mon Sep 8 2025
+
+...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM 7 AM TO NOON EDT
+TUESDAY...
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT FROM 8 AM EDT TUESDAY
+THROUGH TUESDAY EVENING...
+
+* WHAT...For the Coastal Flood Advisory, up to one half foot of
+  inundation above ground level expected along shorelines and
+  tidal waterways (9.5 to 9.7 feet Mean Lower Low Water at Fort
+  Pulaski). For the High Rip Current Risk, dangerous rip
+  currents expected.
+
+* WHERE...In Georgia, Coastal Bryan, Coastal Chatham, Coastal
+  Liberty and Coastal McIntosh Counties. In South Carolina,
+  Beaufort and Coastal Jasper Counties.
+
+* WHEN...For the Coastal Flood Advisory, from 7 AM to noon EDT
+  Tuesday. For the High Rip Current Risk, from 8 AM EDT Tuesday
+  through Tuesday evening.
+
+* IMPACTS...Saltwater inundation will impact some roads. Rip
+  currents can sweep even the best swimmers away from shore into
+  deeper water.
+
+* ADDITIONAL DETAILS...High tide will occur around 9:43 AM
+  Tuesday at Fort Pulaski. Saltwater inundation will be possible 1
+  to 2 hours before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Fort Pulaski GA
+MLLW Categories - Minor 9.5 ft, Moderate 10.0 ft, Major 10.5 ft
+MHHW Categories - Minor 2.0 ft, Moderate 2.5 ft, Major 3.0 ft
+
+             Total      Total    Departure
+ Day/Time    Tide       Tide     from Norm   Waves    Flood
+            ft MLLW    ft MHHW       ft       ft      Impact
+ --------  ---------  ---------  ---------  -------  --------
+ 08/10 PM     9.1        1.6        1.0       N/A      None
+ 09/10 AM     9.6        2.1        1.3       N/A     Minor
+ 09/10 PM     9.5        2.0        1.4       N/A     Minor
+ 10/10 AM     9.6        2.1        1.3       N/A     Minor
+ 10/11 PM     8.9        1.4        1.1       N/A      None
+ 11/11 AM     9.4        1.9        1.0       N/A      None
+
+&&
+
+$$
+
+SCZ049-050-091100-
+/O.CAN.KCHS.CF.Y.0021.000000T0000Z-250909T0400Z/
+/O.CON.KCHS.CF.Y.0022.250909T1100Z-250909T1600Z/
+/O.CON.KCHS.RP.S.0007.250909T1200Z-250910T0000Z/
+Coastal Colleton-Charleston-
+1049 PM EDT Mon Sep 8 2025
+
+...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM 7 AM TO NOON EDT
+TUESDAY...
+...HIGH RIP CURRENT RISK REMAINS IN EFFECT FROM 8 AM EDT TUESDAY
+THROUGH TUESDAY EVENING...
+
+* WHAT...For the Coastal Flood Advisory, up to one foot of
+  inundation above ground level expected along shorelines and
+  tidal waterways (7.4 to 7.6 feet Mean Lower Low Water at
+  Charleston). For the High Rip Current Risk, dangerous rip
+  currents expected.
+
+* WHERE...Coastal Colleton and Charleston Counties.
+
+* WHEN...For the Coastal Flood Advisory, from 7 AM to noon EDT
+  Tuesday. For the High Rip Current Risk, from 8 AM EDT Tuesday
+  through Tuesday evening.
+
+* IMPACTS...This will result in some roads becoming impassable
+  and minor flooding of properties. Rip currents can sweep even
+  the best swimmers away from shore into deeper water.
+
+* ADDITIONAL DETAILS...High tide will occur around 9:35 AM Tuesday at
+  Charleston. Saltwater inundation will be possible 1 to 2 hours
+  before and after high tide.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If travel is required, allow extra time as some roads may be
+closed. Do not drive around barricades or through water of
+unknown depth. Take the necessary actions to protect flood-prone
+property.
+
+Visit water.weather.gov for additional water level and flood
+impact information.
+
+Swim near a lifeguard. If caught in a rip current, relax and
+float. Don't swim against the current. If able, swim in a
+direction following the shoreline. If unable to escape, face the
+shore and call or wave for help.
+
+&&
+
+Time of high total tides are approximate to the nearest hour.
+
+Charleston Harbor SC
+MLLW Categories - Minor 7.0 ft, Moderate 7.5 ft, Major 8.0 ft
+MHHW Categories - Minor 1.2 ft, Moderate 1.7 ft, Major 2.2 ft
+
+             Total      Total    Departure
+ Day/Time    Tide       Tide     from Norm   Waves    Flood
+            ft MLLW    ft MHHW       ft       ft      Impact
+ --------  ---------  ---------  ---------  -------  --------
+ 09/10 AM     7.5        1.7        1.2       N/A    Moderate
+ 09/10 PM     7.4        1.6        1.2       N/A     Minor
+ 10/10 AM     7.4        1.6        0.9       N/A     Minor
+ 10/11 PM     6.8        1.0        0.9       N/A      None
+ 11/11 AM     7.3        1.5        0.8       N/A     Minor
+
+&&
+
+$$

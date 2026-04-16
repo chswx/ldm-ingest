@@ -159,7 +159,7 @@ AK|754|AFC|Lime Village|AK754|Bethel Census Area|02050|A||61.4640|-159.4909
 AK|755|AFC|Kuskokwim Delta Coast and Nunivak Island |AK755|Bethel Census Area|02050|A||60.3165|-163.7872
 AK|756|AFC|Inland Kuskokwim Delta|AK756|Bethel Census Area|02050|A||60.6810|-161.2797
 AK|757|AFC|Western Capes|AK757|Bethel Census Area|02050|A||59.0560|-161.4634
-AK|761|AFC|Southern Alaska Peninsula|AK761|Lake and Peninsula Borough|02164|A||60.0561|-157.9868
+AK|761|AFC|Central Alaska Peninsula|AK761|Lake and Peninsula Borough|02164|A||60.0561|-157.9868
 AK|762|AFC|Northern Alaska Peninsula|AK762|Lake and Peninsula Borough|02164|A||57.8150|-156.8591
 AK|763|AFC|Bristol Bay Borough (Naknek and King Salmon)|AK763|Bristol Bay Borough|02060|A||58.7436|-156.7001
 AK|764|AFC|Northern Bristol Bay Coast|AK764|Dillingham Census Area|02070|A||59.6939|-155.1610
@@ -167,11 +167,11 @@ AK|765|AFC|Inland Bristol Bay|AK765|Dillingham Census Area|02070|A||58.9824|-159
 AK|766|AFC|Lake Iliamna / Nanvarpak / Nila Vena|AK766|Lake and Peninsula Borough|02164|A||56.5814|-158.8736
 AK|771|AFC|Kodiak Island Northeast|AK771|Kodiak Island Borough|02150|A||57.8834|-152.7946
 AK|772|AFC|Kodiak Island Southwest|AK772|Kodiak Island Borough|02150|A||57.5852|-154.3415
-AK|773|AFC|Chignik and Perryville|AK773|Lake and Peninsula Borough|02164|A||56.4241|-158.2939
-AK|781|AFC|Aleutians East Borough|AK781|Aleutians East Borough|02013|A||55.4039|-161.8623
-AK|785|AFC|Unalaska and Nikolski|AK785|Aleutians West Census Area|02016|A||53.6028|-167.2076
-AK|787|AFC|Atka and Adak|AK787|Aleutians West Census Area|02016|A||52.0651|-175.0805
-AK|791|AFC|Shemya and Attu Islands|AK791|Aleutians West Census Area|02016|h||52.3658|175.5395
+AK|773|AFC|Chignik|AK773|Lake and Peninsula Borough|02164|A||56.4241|-158.2939
+AK|781|AFC|Southern Alaska Peninsula|AK781|Aleutians East Borough|02013|A||55.4039|-161.8623
+AK|785|AFC|Eastern Aleutians|AK785|Aleutians West Census Area|02016|A||53.6028|-167.2076
+AK|787|AFC|Central Aleutians|AK787|Aleutians West Census Area|02016|A||52.0651|-175.0805
+AK|791|AFC|Western Aleutians|AK791|Aleutians West Census Area|02016|h||52.3658|175.5395
 AK|795|AFC|Pribilof Islands|AK795|Aleutians West Census Area|02016|A||56.9151|-169.9829
 AK|801|AFG|Western Arctic Coast|AK801|North Slope|02185|A||69.0125|-164.1064
 AK|802|AFG|Northwest Arctic Coast|AK802|North Slope|02185|A||70.3019|-159.5080
@@ -296,13 +296,13 @@ VA|090|AKQ|James City|VA090|James City|51095|E|se|37.3264|-76.7745
 VA|090|AKQ|James City|VA090|City of Williamsburg|51830|E|se|37.3264|-76.7745
 VA|092|AKQ|Southampton|VA092|Southampton|51175|E|se|36.7199|-77.1038
 VA|092|AKQ|Southampton|VA092|City of Franklin|51620|E|se|36.7199|-77.1038
-VA|528|AKQ|Isle of Wight|VA528|Isle of Wight|51093|E|se|36.9067|-76.7091
-VA|530|AKQ|Norfolk|VA530|City of Norfolk|51710|E|se|36.8752|-76.2937
-VA|530|AKQ|Norfolk|VA530|City of Norfolk|51710|E|se|36.8959|-76.3428
-VA|531|AKQ|Portsmouth|VA531|City of Portsmouth|51740|E|se|36.8752|-76.2937
-VA|531|AKQ|Portsmouth|VA531|City of Portsmouth|51740|E|se|36.8959|-76.3428
-VA|529|AKQ|Suffolk|VA529|City of Suffolk|51800|E|se|36.6926|-76.6417
-VA|529|AKQ|Suffolk|VA529|City of Suffolk|51800|E|se|36.8935|-76.4749
+VA|093|AKQ|Isle of Wight|VA093|Isle of Wight|51093|E|se|36.9067|-76.7091
+VA|095|AKQ|Norfolk/Portsmouth|VA095|City of Norfolk|51710|E|se|36.8752|-76.2937
+VA|095|AKQ|Norfolk/Portsmouth|VA095|City of Norfolk|51710|E|se|36.8959|-76.3428
+VA|095|AKQ|Norfolk/Portsmouth|VA095|City of Portsmouth|51740|E|se|36.8752|-76.2937
+VA|095|AKQ|Norfolk/Portsmouth|VA095|City of Portsmouth|51740|E|se|36.8959|-76.3428
+VA|096|AKQ|Suffolk|VA096|City of Suffolk|51800|E|se|36.6926|-76.6417
+VA|096|AKQ|Suffolk|VA096|City of Suffolk|51800|E|se|36.8935|-76.4749
 VA|097|AKQ|Chesapeake|VA097|City of Chesapeake|51550|E|se|36.6778|-76.3024
 VA|098|AKQ|Virginia Beach|VA098|City of Virginia Beach|51810|E|se|36.7494|-76.0571
 VA|099|AKQ|Accomack|VA099|Accomack|51001|E|se|37.7659|-75.6472
@@ -476,18 +476,21 @@ ND|004|BIS|Bottineau|ND004|Bottineau|38009|C|nc|48.7921|-100.8335
 ND|005|BIS|Rolette|ND005|Rolette|38079|C|nc|48.7724|-99.8411
 ND|009|BIS|Williams|ND009|Williams|38105|C|nw|48.3437|-103.4802
 ND|010|BIS|Mountrail|ND010|Mountrail|38061|C|nw|48.2013|-102.3556
+ND|011|BIS|Ward|ND011|Ward|38101|C|nc|48.2218|-101.5418
 ND|012|BIS|McHenry|ND012|McHenry|38049|C|nc|48.2346|-100.6363
 ND|013|BIS|Pierce|ND013|Pierce|38069|C|nc|48.2496|-99.9718
 ND|017|BIS|McKenzie|ND017|McKenzie|38053|CM|nw|47.7402|-103.3953
 ND|018|BIS|Dunn|ND018|Dunn|38025|CM|sw|47.3568|-102.6182
 ND|019|BIS|Mercer|ND019|Mercer|38057|C|sc|47.3092|-101.8315
 ND|020|BIS|Oliver|ND020|Oliver|38065|C|sc|47.1153|-101.3403
+ND|021|BIS|McLean|ND021|McLean|38055|C|sc|47.6070|-101.3218
 ND|022|BIS|Sheridan|ND022|Sheridan|38083|C|sc|47.5754|-100.3456
 ND|023|BIS|Wells|ND023|Wells|38103|C|sc|47.5876|-99.6610
 ND|025|BIS|Foster|ND025|Foster|38031|C|se|47.4571|-98.8831
 ND|031|BIS|Golden Valley|ND031|Golden Valley|38033|M|sw|46.9402|-103.8467
 ND|032|BIS|Billings|ND032|Billings|38007|M|sw|47.0235|-103.3764
 ND|033|BIS|Stark|ND033|Stark|38089|M|sw|46.8107|-102.6550
+ND|034|BIS|Morton|ND034|Morton|38059|C|sc|46.7161|-101.2811
 ND|035|BIS|Burleigh|ND035|Burleigh|38015|C|sc|46.9774|-100.4688
 ND|036|BIS|Kidder|ND036|Kidder|38043|C|sc|46.9802|-99.7801
 ND|037|BIS|Stutsman|ND037|Stutsman|38093|C|se|46.9792|-98.9588
@@ -496,19 +499,12 @@ ND|041|BIS|Hettinger|ND041|Hettinger|38041|M|sw|46.4326|-102.4604
 ND|042|BIS|Grant|ND042|Grant|38037|M|sc|46.3583|-101.6397
 ND|043|BIS|Bowman|ND043|Bowman|38011|M|sw|46.1126|-103.5207
 ND|044|BIS|Adams|ND044|Adams|38001|M|sw|46.0969|-102.5285
+ND|045|BIS|Sioux|ND045|Sioux|38085|CM|sc|46.1126|-101.0405
 ND|046|BIS|Emmons|ND046|Emmons|38029|C|sc|46.2851|-100.2388
 ND|047|BIS|Logan|ND047|Logan|38047|C|se|46.4574|-99.4775
 ND|048|BIS|La Moure|ND048|LaMoure|38045|C|se|46.4569|-98.5355
 ND|050|BIS|McIntosh|ND050|McIntosh|38051|C|se|46.1119|-99.4412
 ND|051|BIS|Dickey|ND051|Dickey|38021|C|se|46.1102|-98.5046
-ND|055|BIS|Northwest Ward|ND055|Ward|38101|C|nc|48.6332|-102.0282
-ND|056|BIS|Central and Southern Ward/Minot Area|ND056|Ward|38101|C|nc|48.1544|-101.4621
-ND|057|BIS|Western McLean|ND057|McLean|38055|C|sc|47.6977|-101.8165
-ND|058|BIS|Eastern McLean|ND058|McLean|38055|C|sc|47.5483|-101.0018
-ND|059|BIS|Western Morton|ND059|Morton|38059|C|sc|46.8216|-101.6268
-ND|060|BIS|Eastern Morton|ND060|Morton|38059|C|sc|46.6244|-100.9809
-ND|061|BIS|Western Sioux|ND061|Sioux|38085|CM|sc|46.0377|-101.3918
-ND|062|BIS|Eastern Sioux|ND062|Sioux|38085|C|sc|46.1660|-100.7907
 AL|011|BMX|Marion|AL011|Marion|01093|C|nw|34.1366|-87.8871
 AL|012|BMX|Lamar|AL012|Lamar|01075|C|wc|33.7792|-88.0969
 AL|013|BMX|Fayette|AL013|Fayette|01057|C|wc|33.7212|-87.7389
@@ -765,8 +761,8 @@ MT|172|BYZ|Melville Foothills|MT172|Wheatland|30107|M|sc|46.1376|-110.0264
 MT|173|BYZ|Northeastern Yellowstone|MT173|Yellowstone|30111|M|sc|46.1581|-107.9135
 MT|228|BYZ|Southern Wheatland|MT228|Wheatland|30107|M|sc|46.4003|-109.8006
 MT|235|BYZ|Southwestern Yellowstone|MT235|Yellowstone|30111|M|sc|45.8003|-108.4981
-WY|198|BYZ|Northeast Big Horn Mountains|WY198|Sheridan|56033|M|nc|44.7706|-107.4920
-WY|199|BYZ|Sheridan Foothills|WY199|Sheridan|56033|M|nc|44.7977|-106.6544
+WY|198|BYZ|Northeast Big Horn Mountains|WY098|Sheridan|56033|M|nc|44.7706|-107.4920
+WY|199|BYZ|Sheridan Foothills|WY099|Sheridan|56033|M|nc|44.7977|-106.6544
 GA|040|CAE|Lincoln|GA040|Lincoln|13181|E|ec|33.7936|-82.4512
 GA|063|CAE|McDuffie|GA063|McDuffie|13189|E|ec|33.4829|-82.4814
 GA|064|CAE|Columbia|GA064|Columbia|13073|E|ec|33.5442|-82.2640
@@ -815,26 +811,30 @@ GA|100|CHS|Bulloch|GA100|Bulloch|13031|E|se|32.3969|-81.7432
 GA|101|CHS|Effingham|GA101|Effingham|13103|E|se|32.3675|-81.3407
 GA|114|CHS|Tattnall|GA114|Tattnall|13267|E|se|32.0458|-82.0582
 GA|115|CHS|Evans|GA115|Evans|13109|E|se|32.1568|-81.8869
+GA|116|CHS|Inland Bryan|GA116|Bryan|13029|E|se|32.0404|-81.4750
+GA|117|CHS|Coastal Bryan|GA117|Bryan|13029|E|se|31.8127|-81.2002
+GA|118|CHS|Inland Chatham|GA118|Chatham|13051|E|se|32.0772|-81.2278
+GA|119|CHS|Coastal Chatham|GA119|Chatham|13051|E|se|31.9182|-81.0342
+GA|119|CHS|Coastal Chatham|GA119|Chatham|13051|E|se|31.9392|-81.0501
 GA|137|CHS|Long|GA137|Long|13183|E|se|31.7528|-81.7460
-GA|216|CHS|Inland Bryan|GA216|Bryan|13029|E|se|32.0397|-81.4744
-GA|217|CHS|Coastal Bryan|GA217|Bryan|13029|E|se|31.8109|-81.1985
-GA|218|CHS|Inland Chatham|GA218|Chatham|13051|E|se|32.0778|-81.2262
-GA|219|CHS|Coastal Chatham|GA219|Chatham|13051|E|se|31.9394|-81.0510
-GA|238|CHS|Inland Liberty|GA238|Liberty|13179|E|se|31.8505|-81.5342
-GA|239|CHS|Coastal Liberty|GA239|Liberty|13179|E|se|31.6639|-81.2056
-GA|240|CHS|Inland McIntosh|GA240|McIntosh|13191|E|se|31.5278|-81.4877
-GA|241|CHS|Coastal McIntosh|GA241|McIntosh|13191|E|se|31.4637|-81.3223
+GA|138|CHS|Inland Liberty|GA138|Liberty|13179|E|se|31.8508|-81.5352
+GA|139|CHS|Coastal Liberty|GA139|Liberty|13179|E|se|31.6625|-81.2029
+GA|139|CHS|Coastal Liberty|GA139|Liberty|13179|E|se|31.6716|-81.2012
+GA|140|CHS|Inland McIntosh|GA140|McIntosh|13191|E|se|31.5278|-81.4877
+GA|141|CHS|Coastal McIntosh|GA141|McIntosh|13191|E|se|31.4585|-81.3001
+GA|141|CHS|Coastal McIntosh|GA141|McIntosh|13191|E|se|31.4659|-81.3213
 SC|040|CHS|Allendale|SC040|Allendale|45005|E|se|32.9881|-81.3581
 SC|042|CHS|Hampton|SC042|Hampton|45049|E|se|32.7763|-81.1406
 SC|043|CHS|Inland Colleton|SC043|Colleton|45029|E|se|32.9179|-80.7029
 SC|044|CHS|Dorchester|SC044|Dorchester|45035|E|se|33.0795|-80.4052
 SC|045|CHS|Inland Berkeley|SC045|Berkeley|45015|E|se|33.2220|-79.9542
-SC|147|CHS|Inland Jasper|SC147|Jasper|45053|E|se|32.4831|-81.0495
-SC|148|CHS|Beaufort|SC148|Beaufort|45013|E|se|32.3854|-80.7305
-SC|149|CHS|Coastal Colleton|SC149|Colleton|45029|E|se|32.6081|-80.4968
-SC|150|CHS|Charleston|SC150|Charleston|45019|E|se|32.8337|-79.9579
-SC|151|CHS|Coastal Jasper|SC151|Jasper|45053|E|se|32.2435|-80.9542
-SC|152|CHS|Tidal Berkeley|SC152|Berkeley|45015|E|se|32.9595|-79.9188
+SC|047|CHS|Inland Jasper|SC047|Jasper|45053|E|se|32.4763|-81.0517
+SC|048|CHS|Beaufort|SC048|Beaufort|45013|E|se|32.3568|-80.6933
+SC|048|CHS|Beaufort|SC048|Beaufort|45013|E|se|32.3874|-80.7373
+SC|049|CHS|Coastal Colleton|SC049|Colleton|45029|E|se|32.6103|-80.4980
+SC|050|CHS|Charleston|SC050|Charleston|45019|E|se|32.8411|-79.9437
+SC|051|CHS|Coastal Jasper|SC051|Jasper|45053|E|se|32.2423|-80.9561
+SC|052|CHS|Tidal Berkeley|SC052|Berkeley|45015|E|se|32.9612|-79.9183
 OH|003|CLE|Lucas|OH003|Lucas|39095|E|nw|41.6200|-83.6586
 OH|006|CLE|Wood|OH006|Wood|39173|E|nw|41.3617|-83.6230
 OH|007|CLE|Ottawa|OH007|Ottawa|39123|E|nw|41.5381|-83.1467
@@ -1166,23 +1166,20 @@ MO|046|EAX|Cooper|MO046|Cooper|29053|C|cc|38.8439|-92.8103
 MO|053|EAX|Bates|MO053|Bates|29013|C|wc|38.2573|-94.3400
 MO|054|EAX|Henry|MO054|Henry|29083|C|wc|38.3852|-93.7927
 CA|101|EKA|Coastal Del Norte|CA101|Del Norte|06015|P|nw|41.0243|-124.0956
-CA|102|EKA|Interior Del Norte|CA102|Del Norte|06015|P|nw|41.0243|-124.0956
-CA|103|EKA|Northern Coastal Humboldt|CA103|Humboldt|06023|P|nw|41.0243|-124.0956
+CA|102|EKA|Del Norte Interior|CA102|Del Norte|06015|P|nw|41.0243|-124.0956
+CA|103|EKA|Northern Humboldt Coast|CA103|Humboldt|06023|P|nw|41.0243|-124.0956
 CA|104|EKA|Southwestern Humboldt|CA104|Humboldt|06023|P|nw|41.0243|-124.0956
-CA|105|EKA|Northeastern Interior Humboldt|CA105|Humboldt|06023|P|nw|41.0243|-124.0956
-CA|106|EKA|Southeastern Interior Humboldt|CA106|Humboldt|06023|P|nw|41.0243|-124.0956
+CA|105|EKA|Northern Humboldt Interior|CA105|Humboldt|06023|P|nw|41.0243|-124.0956
+CA|106|EKA|Southern Humboldt Interior|CA106|Humboldt|06023|P|nw|41.0243|-124.0956
+CA|107|EKA|Northern Trinity|CA107|Trinity|06105|P|nw|40.7088|-123.1110
 CA|108|EKA|Southern Trinity|CA108|Trinity|06105|P|nw|40.7088|-123.1110
-CA|109|EKA|Coastal Mendocino|CA109|Mendocino|06045|P|nw|39.3778|-123.7271
-CA|110|EKA|Northwestern Interior Mendocino|CA110|Mendocino|06045|P|nw|39.6359|-123.4371
-CA|111|EKA|Northeastern Interior Mendocino|CA111|Mendocino|06045|P|nw|39.7603|-123.1396
-CA|112|EKA|Southwestern Interior Mendocino|CA112|Mendocino|06045|P|nw|39.1561|-123.4915
-CA|113|EKA|Southeastern Interior Mendocino|CA113|Mendocino|06045|P|nw|39.0904|-123.1953
-CA|114|EKA|Northern Lake|CA114|Lake|06033|P|cc|39.3619|-122.8628
-CA|116|EKA|Northwestern and Central Trinity|CA116|Trinity|06105|P|nw|40.8143|-123.1391
-CA|117|EKA|Northeastern Trinity|CA117|Trinity|06105|P|nw|41.0494|-122.7321
-CA|118|EKA|Western Lake|CA118|Lake|06033|P|cc|39.0912|-122.9217
-CA|119|EKA|Southwestern Lake|CA119|Lake|06033|P|cc|38.8578|-122.7434
-CA|120|EKA|Eastern Lake|CA120|Lake|06033|P|cc|38.9668|-122.5648
+CA|109|EKA|Mendocino Coast|CA109|Mendocino|06045|P|nw|39.3778|-123.7271
+CA|110|EKA|Northwestern Mendocino Interior|CA110|Mendocino|06045|P|nw|39.6359|-123.4371
+CA|111|EKA|Northeastern Mendocino Interior|CA111|Mendocino|06045|P|nw|39.7603|-123.1396
+CA|112|EKA|Southwestern Mendocino Interior|CA112|Mendocino|06045|P|nw|39.1561|-123.4915
+CA|113|EKA|Southeastern Mendocino Interior|CA113|Mendocino|06045|P|nw|39.0904|-123.1953
+CA|114|EKA|Northern Lake County|CA114|Lake|06033|P|cc|39.3619|-122.8628
+CA|115|EKA|Southern Lake County|CA115|Lake|06033|P|cc|38.9779|-122.7022
 NM|401|EPZ|Upper Gila River Valley|NM401|Grant|35017|M|sw|33.0652|-109.0457
 NM|401|EPZ|Upper Gila River Valley|NM401|Hidalgo|35023|M|sw|33.0652|-109.0457
 NM|403|EPZ|Southern Gila Foothills/Mimbres Valley|NM403|Grant|35017|M|sw|32.5961|-108.0435
@@ -2249,7 +2246,6 @@ FL|137|JAX|Eastern Putnam|FL137|Putnam|12107|E|ne|29.5498|-81.6120
 FL|138|JAX|Coastal Flagler|FL138|Flagler|12035|E|ne|29.5436|-81.1875
 FL|140|JAX|Eastern Marion |FL140|Marion|12083|E|nn|29.2170|-81.7957
 FL|220|JAX|Western Hamilton|FL220|Hamilton|12047|E|nn|30.5003|-83.1184
-FL|233|JAX|Northeast Coastal St. Johns|FL233|St. Johns|12109|E|ne|30.0922|-81.3753
 FL|225|JAX|Trout River|FL225|Duval|12031|E|ne|30.4129|-81.7184
 FL|232|JAX|Western Clay|FL232|Clay|12019|E|ne|29.9783|-81.8881
 FL|236|JAX|Western Alachua |FL236|Alachua|12001|E|nn|29.6482|-82.5230
@@ -2257,14 +2253,10 @@ FL|237|JAX|Western Putnam|FL237|Putnam|12107|E|ne|29.6558|-81.8502
 FL|240|JAX|Central Marion |FL240|Marion|12083|E|nn|29.2233|-82.0497
 FL|322|JAX|Northern Columbia|FL322|Columbia|12023|E|nn|30.4143|-82.5870
 FL|325|JAX|South Central Duval|FL325|Duval|12031|E|ne|30.2148|-81.6487
-FL|333|JAX|Southeast Coastal St. Johns|FL333|St. Johns|12109|E|ne|29.7778|-81.2954
 FL|340|JAX|Western Marion |FL340|Marion|12083|E|nn|29.1889|-82.3279
 FL|422|JAX|Southeastern Columbia|FL422|Columbia|12023|E|nn|30.1473|-82.5731
 FL|425|JAX|Western Duval|FL425|Duval|12031|E|ne|30.3364|-81.8388
-FL|433|JAX|Northern Inland St. Johns|FL433|St. Johns|12109|E|ne|30.0120|-81.4554
 FL|522|JAX|Southwestern Columbia|FL522|Columbia|12023|E|nn|30.0264|-82.7012
-FL|533|JAX|Southern Inland St. Johns|FL533|St. Johns|12109|E|ne|29.7856|-81.4103
-FL|633|JAX|Western St. Johns|FL633|St. Johns|12109|E|ne|29.9173|-81.5564
 GA|132|JAX|Coffee|GA132|Coffee|13069|E|se|31.5492|-82.8493
 GA|133|JAX|Jeff Davis|GA133|Jeff Davis|13161|E|se|31.8056|-82.6370
 GA|134|JAX|Bacon|GA134|Bacon|13005|E|se|31.5537|-82.4527
@@ -2391,7 +2383,14 @@ LA|048|LIX|East Baton Rouge|LA048|East Baton Rouge|22033|C|se|30.5383|-91.0957
 LA|056|LIX|Assumption|LA056|Assumption|22007|C|se|29.9006|-91.0626
 LA|057|LIX|St. James|LA057|St. James|22093|C|se|30.0263|-90.7962
 LA|058|LIX|St. John The Baptist|LA058|St. John The Baptist|22095|C|se|30.0792|-90.5462
+LA|059|LIX|Upper Lafourche|LA059|Lafourche|22057|C|se|29.7251|-90.5707
+LA|060|LIX|St. Charles|LA060|St. Charles|22089|C|se|29.8836|-90.3630
 LA|064|LIX|Upper St. Bernard|LA064|St. Bernard|22087|C|se|29.9130|-89.8740
+LA|065|LIX|Upper Terrebonne|LA065|Terrebonne|22109|C|se|29.6390|-90.8383
+LA|066|LIX|Lower Terrebonne|LA066|Terrebonne|22109|C|se|29.3727|-90.8628
+LA|067|LIX|Lower Lafourche|LA067|Lafourche|22057|C|se|29.3739|-90.2534
+LA|068|LIX|Coastal Jefferson|LA068|Jefferson|22051|C|se|29.5064|-90.0566
+LA|069|LIX|Lower Plaquemines|LA069|Plaquemines|22075|C|se|29.4206|-89.6038
 LA|070|LIX|Lower St. Bernard|LA070|St. Bernard|22087|C|se|29.8488|-89.5466
 LA|071|LIX|Northern Tangipahoa|LA071|Tangipahoa|22105|C|se|30.8274|-90.4379
 LA|076|LIX|Southeast St. Tammany|LA076|St. Tammany|22103|C|se|30.2377|-89.7162
@@ -2406,18 +2405,9 @@ LA|084|LIX|Southern Livingston|LA084|Livingston|22063|C|se|30.3135|-90.6508
 LA|085|LIX|Western Ascension|LA085|Ascension|22005|C|se|30.2070|-90.9623
 LA|086|LIX|Eastern Ascension|LA086|Ascension|22005|C|se|30.1944|-90.7769
 LA|087|LIX|Upper Jefferson|LA087|Jefferson|22051|C|se|29.9317|-90.1645
+LA|088|LIX|Lower Jefferson|LA088|Jefferson|22051|C|se|29.7222|-90.1222
 LA|089|LIX|Upper Plaquemines|LA089|Plaquemines|22075|C|se|29.8465|-90.0107
 LA|090|LIX|Central Plaquemines|LA090|Plaquemines|22075|C|se|29.7668|-89.9679
-LA|091|LIX|Lower Plaquemines|LA091|Plaquemines|22075|C|se|29.4298|-89.5898
-LA|092|LIX|Central Jefferson|LA092|Jefferson|22051|C|se|29.7688|-90.1307
-LA|093|LIX|Coastal Jefferson|LA093|Jefferson|22051|C|se|29.5828|-90.0534
-LA|094|LIX|Upper Lafourche|LA094|Lafourche|22057|C|se|29.7437|-90.6258
-LA|095|LIX|Lower Lafourche|LA095|Lafourche|22057|C|se|29.4097|-90.2759
-LA|096|LIX|Upper Terrebonne|LA096|Terrebonne|22109|C|se|29.6347|-90.8429
-LA|097|LIX|Lower Terrebonne|LA097|Terrebonne|22109|C|se|29.3947|-90.8859
-LA|098|LIX|Upper St. Charles|LA098|St. Charles|22089|C|se|30.0242|-90.3663
-LA|099|LIX|Central St. Charles|LA099|St. Charles|22089|C|se|29.9622|-90.3398
-LA|100|LIX|Lower St. Charles|LA100|St. Charles|22089|C|se|29.8746|-90.3983
 MS|068|LIX|Wilkinson|MS068|Wilkinson|28157|C|ss|31.1610|-91.3109
 MS|069|LIX|Amite|MS069|Amite|28005|C|ss|31.1744|-90.8045
 MS|070|LIX|Pike|MS070|Pike|28113|C|ss|31.1749|-90.4042
@@ -2647,6 +2637,8 @@ TX|042|LUB|Garza|TX042|Garza|48169|C|nw|33.1799|-101.2984
 TX|043|LUB|Kent|TX043|Kent|48263|C|nw|33.1814|-100.7776
 TX|044|LUB|Stonewall|TX044|Stonewall|48433|C|nw|33.1791|-100.2533
 DC|001|LWX|District of Columbia|DC001|District of Columbia|11001|E||38.9093|-77.0146
+MD|509|LWX|Western Garrett|MD509|Garrett|24023|E|ww|39.5039|-79.3620
+MD|510|LWX|Eastern Garrett|MD510|Garrett|24023|E|ww|39.5708|-79.1231
 MD|003|LWX|Washington|MD003|Washington|24043|E|nc|39.6037|-77.8142
 MD|004|LWX|Frederick|MD004|Frederick|24021|E|nc|39.4722|-77.3981
 MD|005|LWX|Carroll|MD005|Carroll|24013|E|nc|39.5631|-77.0227
@@ -2672,8 +2664,6 @@ MD|505|LWX|Northwest Howard|MD505|Howard|24027|E|cc|39.3234|-77.0597
 MD|506|LWX|Central and Southeast Howard|MD506|Howard|24027|E|cc|39.2259|-76.8872
 MD|507|LWX|Northwest Harford|MD507|Harford|24025|E|nn|39.6258|-76.3985
 MD|508|LWX|Southeast Harford|MD508|Harford|24025|E|nn|39.6395|-76.3985
-MD|509|LWX|Western Garrett|MD509|Garrett|24023|E|ww|39.5039|-79.3620
-MD|510|LWX|Eastern Garrett|MD510|Garrett|24023|E|ww|39.5708|-79.1231
 VA|025|LWX|Augusta|VA025|City of Staunton|51790|E|ww|38.1630|-79.1289
 VA|025|LWX|Augusta|VA025|City of Waynesboro|51820|E|ww|38.1630|-79.1289
 VA|026|LWX|Rockingham|VA026|Rockingham|51165|E|ww|38.5106|-78.8757
@@ -3506,6 +3496,9 @@ WV|511|PBZ|Preston|WV511|Preston|54077|E|nn|39.4693|-79.6681
 WV|512|PBZ|Eastern Preston|WV512|Preston|54077|E|nn|39.4693|-79.6681
 WV|513|PBZ|Western Tucker|WV513|Tucker|54093|E|nn|39.1136|-79.5650
 WV|514|PBZ|Eastern Tucker|WV514|Tucker|54093|E|nn|39.1136|-79.5650
+OR|015|PDT|Western Columbia River Gorge|OR015|Hood River|41027|P|cc|45.5872|-122.0526
+OR|015|PDT|Western Columbia River Gorge|OR015|Multnomah|41051|P|cc|45.5872|-122.0526
+OR|016|PDT|Central Columbia River Gorge|OR016|Hood River|41031|P|cc|45.6845|-121.6091
 OR|041|PDT|East Columbia River Gorge|OR041|Gilliam|41021|P|nc|45.6460|-120.5512
 OR|041|PDT|East Columbia River Gorge|OR041|Sherman|41055|P|nc|45.6460|-120.5512
 OR|041|PDT|East Columbia River Gorge|OR041|Wasco|41065|P|nc|45.6460|-120.5512
@@ -4491,85 +4484,59 @@ UT|131|SLC|Glen Canyon Recreation Area/Lake Powell|UT131|Garfield|49017|M|se|37.
 UT|131|SLC|Glen Canyon Recreation Area/Lake Powell|UT131|Kane|49025|M|se|37.3615|-110.7898
 UT|131|SLC|Glen Canyon Recreation Area/Lake Powell|UT131|San Juan|49037|M|se|37.3615|-110.7898
 WY|021|SLC|Southwest Wyoming|WY021|Uinta|56041|M|sw|41.2876|-110.5476
-CA|121|STO|Western Shasta County Mountains Above 3000 ft|CA121|Shasta|06089|P|nn|40.8407|-122.5361
-CA|122|STO|Western Shasta County Foothills Between 1000-3000 ft|CA122|Shasta|06089|P|nn|40.5427|-122.6689
-CA|123|STO|Shasta Lake Area and Interstate 5 Between 1000-3000 ft|CA123|Shasta|06089|P|nn|40.9047|-122.1971
-CA|124|STO|South-Central Shasta County Including Redding Metro|CA124|Shasta|06089|P|nn|40.5279|-122.3164
-CA|125|STO|Eastern Shasta County Foothills Between 1000-3000 ft|CA125|Shasta|06089|P|nn|40.5996|-121.9693
-CA|126|STO|Eastern Shasta County Mountains and Southern Cascades Above 3000 ft|CA126|Shasta|06089|P|nn|40.8336|-121.8099
-CA|127|STO|Burney Basin|CA127|Shasta|06089|P|nn|40.8707|-121.5216
-CA|128|STO|Lassen Volcanic National Park|CA128|Lassen|06035|P|nn|40.4947|-121.3968
-CA|128|STO|Lassen Volcanic National Park|CA128|Tehama|06103|P|nn|40.4947|-121.3968
-CA|128|STO|Lassen Volcanic National Park|CA128|Plumas|06063|P|nn|40.4947|-121.3968
-CA|128|STO|Lassen Volcanic National Park|CA128|Shasta|06089|P|nn|40.4947|-121.3968
-CA|129|STO|Sierra Nevada of Tehama-Butte-Plumas Counties Between 1000-3000 ft|CA129|Tehama|06103|P|nn|39.9556|-121.6755
-CA|129|STO|Sierra Nevada of Tehama-Butte-Plumas Counties Between 1000-3000 ft|CA129|Plumas|06063|P|nn|39.9556|-121.6755
-CA|129|STO|Sierra Nevada of Tehama-Butte-Plumas Counties Between 1000-3000 ft|CA129|Butte|06007|P|nn|39.9556|-121.6755
-CA|130|STO|Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft|CA130|Tehama|06103|P|nn|40.0511|-121.2641
-CA|130|STO|Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft|CA130|Plumas|06063|P|nn|40.0511|-121.2641
-CA|130|STO|Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft|CA130|Butte|06007|P|nn|40.0511|-121.2641
-CA|131|STO|Northern Motherlode Between 1000-3000 ft|CA131|Yuba|06115|P|nn|39.2082|-121.0657
-CA|131|STO|Northern Motherlode Between 1000-3000 ft|CA131|Nevada|06057|P|nn|39.2082|-121.0657
-CA|131|STO|Northern Motherlode Between 1000-3000 ft|CA131|Placer|06061|P|nn|39.2082|-121.0657
-CA|132|STO|Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80|CA132|Sierra|06091|P|nn|39.3162|-120.7989
-CA|132|STO|Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80|CA132|Nevada|06057|P|nn|39.3162|-120.7989
-CA|132|STO|Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80|CA132|Placer|06061|P|nn|39.3162|-120.7989
-CA|133|STO|Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80|CA133|Sierra|06091|P|nn|39.3708|-120.5456
-CA|133|STO|Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80|CA133|Nevada|06057|P|nn|39.3708|-120.5456
-CA|133|STO|Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80|CA133|Placer|06061|P|nn|39.3708|-120.5456
-CA|134|STO|Central Motherlode Between 1000-3000 ft|CA134|El Dorado|06017|P|cc|38.6559|-120.7969
-CA|134|STO|Central Motherlode Between 1000-3000 ft|CA134|Amador|06005|P|cc|38.6559|-120.7969
-CA|135|STO|Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50|CA135|El Dorado|06017|P|cc|38.7114|-120.5231
-CA|135|STO|Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50|CA135|Amador|06005|P|cc|38.7114|-120.5231
-CA|136|STO|Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50|CA136|El Dorado|06017|P|cc|38.7350|-120.2142
-CA|136|STO|Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50|CA136|Amador|06005|P|cc|38.7350|-120.2142
-CA|136|STO|Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50|CA136|Alpine|06003|P|cc|38.7350|-120.2142
-CA|137|STO|Southern Motherlode Between 1000-3000 ft|CA137|Calaveras|06009|P|cc|38.0563|-120.4767
-CA|137|STO|Southern Motherlode Between 1000-3000 ft|CA137|Tuolumne|06109|P|cc|38.0563|-120.4767
-CA|138|STO|Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft|CA138|Calaveras|06009|P|cc|38.1073|-120.1833
-CA|138|STO|Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft|CA138|Tuolumne|06109|P|cc|38.1073|-120.1833
-CA|139|STO|Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft|CA139|Calaveras|06009|P|cc|38.2942|-119.9423
-CA|139|STO|Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft|CA139|Tuolumne|06109|P|cc|38.2942|-119.9423
-CA|139|STO|Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft|CA139|Alpine|06003|P|cc|38.2942|-119.9423
-CA|140|STO|Tehama County Coast Range Above 3000 ft|CA140|Tehama|06103|P|nn|40.0306|-122.8401
-CA|141|STO|Western Tehama County Foothills Between 1000-3000 ft|CA141|Tehama|06103|P|nn|40.1332|-122.6858
-CA|142|STO|Northern Sacramento Valley in Tehama County|CA142|Tehama|06103|P|nn|40.0862|-122.2811
-CA|143|STO|Glenn and Colusa County Coast Range Above 3000 ft|CA143|Glenn|06021|P|nn|39.5708|-122.7480
-CA|143|STO|Glenn and Colusa County Coast Range Above 3000 ft|CA143|Colusa|06011|P|nn|39.5708|-122.7480
-CA|144|STO|Central Glenn County Including Interstate 5|CA144|Glenn|06021|P|nn|39.6135|-122.3587
-CA|145|STO|Eastern Glenn County|CA145|Glenn|06021|P|nn|39.5712|-122.0517
-CA|146|STO|Butte County Below 1000 ft|CA146|Butte|06007|P|nn|39.5687|-121.7230
-CA|147|STO|Western Glenn and Colusa County Foothills Between 1000-3000 ft|CA147|Glenn|06021|P|nn|39.3470|-122.5152
-CA|147|STO|Western Glenn and Colusa County Foothills Between 1000-3000 ft|CA147|Colusa|06011|P|nn|39.3470|-122.5152
-CA|148|STO|Central Colusa County Including Interstate 5|CA148|Colusa|06011|P|nn|39.1517|-122.2337
-CA|149|STO|Eastern Colusa County|CA149|Colusa|06011|P|nn|39.1808|-122.0090
-CA|150|STO|Sutter and Yuba Counties Below 1000 ft|CA150|Sutter|06101|P|nn|39.0791|-121.5610
-CA|150|STO|Sutter and Yuba Counties Below 1000 ft|CA150|Yuba|06115|P|nn|39.0791|-121.5610
-CA|150|STO|Sutter and Yuba Counties Below 1000 ft|CA150|Nevada|06057|P|nn|39.0791|-121.5610
-CA|150|STO|Sutter and Yuba Counties Below 1000 ft|CA150|Placer|06061|P|nn|39.0791|-121.5610
-CA|151|STO|Capay Hills of Yolo County and Vaca Hills of Solano County|CA151|Yolo|06113|P|cc|38.6270|-122.1830
-CA|151|STO|Capay Hills of Yolo County and Vaca Hills of Solano County|CA151|Solano|06095|P|cc|38.6270|-122.1830
-CA|152|STO|Western Yolo County Including Capay Valley and Interstate 505|CA152|Yolo|06113|P|cc|38.7072|-122.0506
-CA|152|STO|Western Yolo County Including Capay Valley and Interstate 505|CA152|Solano|06095|P|cc|38.7072|-122.0506
-CA|153|STO|Central Yolo and Northeast Solano Counties Including Woodland and Davis|CA153|Yolo|06113|P|cc|38.6295|-121.8183
-CA|153|STO|Central Yolo and Northeast Solano Counties Including Woodland and Davis|CA153|Solano|06095|P|cc|38.6295|-121.8183
-CA|154|STO|Sacramento Metro and Western El Dorado and Amador Counties|CA154|Sacramento|06067|P|cc|38.5494|-121.2743
-CA|154|STO|Sacramento Metro and Western El Dorado and Amador Counties|CA154|Amador|06005|P|cc|38.5494|-121.2743
-CA|154|STO|Sacramento Metro and Western El Dorado and Amador Counties|CA154|El Dorado|06017|P|cc|38.5494|-121.2743
-CA|154|STO|Sacramento Metro and Western El Dorado and Amador Counties|CA154|Yolo|06113|P|cc|38.5494|-121.2743
-CA|154|STO|Sacramento Metro and Western El Dorado and Amador Counties|CA154|Placer|06061|P|cc|38.5494|-121.2743
-CA|155|STO|Central Solano County Including Fairfield and Vacaville|CA155|Solano|06095|P|cc|38.2515|-121.8590
-CA|156|STO|Southwestern Solano County Including Vallejo|CA156|Solano|06095|P|cc|38.1424|-122.0779
-CA|157|STO|Sacramento County Delta|CA157|Sacramento|06067|P|cc|38.1743|-121.6120
-CA|158|STO|San Joaquin County Delta|CA158|San Joaquin|06077|P|cc|38.0171|-121.4790
-CA|159|STO|Central San Joaquin County Including Stockton Metro|CA159|San Joaquin|06077|P|cc|37.9975|-121.1567
-CA|160|STO|Tracy Triangle Below 1000 ft|CA160|San Joaquin|06077|P|cc|37.7240|-121.4116
-CA|161|STO|Northeastern San Joaquin Valley Below 1000 ft|CA161|Stanislaus|06099|P|cc|37.9131|-120.6834
-CA|161|STO|Northeastern San Joaquin Valley Below 1000 ft|CA161|Calaveras|06009|P|cc|37.9131|-120.6834
-CA|161|STO|Northeastern San Joaquin Valley Below 1000 ft|CA161|Tuolumne|06109|P|cc|37.9131|-120.6834
-CA|162|STO|Eastern Diablo Range Above 1000 ft|CA162|Stanislaus|06099|P|cc|37.3828|-121.3550
-CA|163|STO|Western Stanislaus County Below 1000 ft Including Interstate 5|CA163|Stanislaus|06099|P|cc|37.4229|-121.1599
-CA|164|STO|Central Stanislaus County Including Modesto Metro|CA164|Stanislaus|06099|P|cc|37.6295|-120.8803
+CA|013|STO|Shasta Lake Area / Northern Shasta County|CA013|Shasta|06089|P|nn|40.9299|-122.2247
+CA|014|STO|Burney Basin / Eastern Shasta County|CA014|Shasta|06089|P|nn|40.9423|-121.4882
+CA|015|STO|Northern Sacramento Valley|CA015|Shasta|06089|P|nn|40.2198|-122.2949
+CA|015|STO|Northern Sacramento Valley|CA015|Tehama|06103|P|nn|40.2198|-122.2949
+CA|016|STO|Central Sacramento Valley|CA016|Butte|06007|P|nn|39.3764|-121.9260
+CA|016|STO|Central Sacramento Valley|CA016|Colusa|06011|P|cc|39.3764|-121.9260
+CA|016|STO|Central Sacramento Valley|CA016|Glenn|06021|P|nn|39.3764|-121.9260
+CA|016|STO|Central Sacramento Valley|CA016|Nevada|06057|P|cc|39.3764|-121.9260
+CA|016|STO|Central Sacramento Valley|CA016|Sutter|06101|P|cc|39.3764|-121.9260
+CA|016|STO|Central Sacramento Valley|CA016|Yuba|06115|P|cc|39.3764|-121.9260
+CA|017|STO|Southern Sacramento Valley|CA017|Amador|06005|P|cc|38.6268|-121.5625
+CA|017|STO|Southern Sacramento Valley|CA017|El Dorado|06017|P|cc|38.6268|-121.5625
+CA|017|STO|Southern Sacramento Valley|CA017|Placer|06061|P|cc|38.6268|-121.5625
+CA|017|STO|Southern Sacramento Valley|CA017|Sacramento|06067|P|cc|38.6268|-121.5625
+CA|017|STO|Southern Sacramento Valley|CA017|Solano|06095|P|ww|38.6268|-121.5625
+CA|017|STO|Southern Sacramento Valley|CA017|Sutter|06101|P|cc|38.6268|-121.5625
+CA|017|STO|Southern Sacramento Valley|CA017|Yolo|06113|P|cc|38.6268|-121.5625
+CA|018|STO|Carquinez Strait and Delta|CA018|Sacramento|06067|P|cc|38.1432|-121.7623
+CA|018|STO|Carquinez Strait and Delta|CA018|San Joaquin|06077|P|cc|38.1432|-121.7623
+CA|018|STO|Carquinez Strait and Delta|CA018|Solano|06095|P|ww|38.1432|-121.7623
+CA|019|STO|Northern San Joaquin Valley|CA019|Amador|06005|P|cc|37.7581|-121.0410
+CA|019|STO|Northern San Joaquin Valley|CA019|Calaveras|06009|P|cc|37.7581|-121.0410
+CA|019|STO|Northern San Joaquin Valley|CA019|San Joaquin|06077|P|cc|37.7581|-121.0410
+CA|019|STO|Northern San Joaquin Valley|CA019|Stanislaus|06099|P|cc|37.7581|-121.0410
+CA|019|STO|Northern San Joaquin Valley|CA019|Tuolumne|06109|P|cc|37.7581|-121.0410
+CA|063|STO|Mountains Southwestern Shasta County to Western Colusa County|CA063|Colusa|06011|P|cc|39.8175|-122.7565
+CA|063|STO|Mountains Southwestern Shasta County to Western Colusa County|CA063|Glenn|06021|P|nn|39.8175|-122.7565
+CA|063|STO|Mountains Southwestern Shasta County to Western Colusa County|CA063|Shasta|06089|P|nn|39.8175|-122.7565
+CA|063|STO|Mountains Southwestern Shasta County to Western Colusa County|CA063|Tehama|06103|P|nn|39.8175|-122.7565
+CA|066|STO|Northeast Foothills/Sacramento Valley|CA066|Butte|06007|P|nn|40.1117|-121.7566
+CA|066|STO|Northeast Foothills/Sacramento Valley|CA066|Shasta|06089|P|nn|40.1117|-121.7566
+CA|066|STO|Northeast Foothills/Sacramento Valley|CA066|Tehama|06103|P|nn|40.1117|-121.7566
+CA|067|STO|Motherlode|CA067|Amador|06005|P|cc|38.6192|-120.7698
+CA|067|STO|Motherlode|CA067|Calaveras|06009|P|cc|38.6192|-120.7698
+CA|067|STO|Motherlode|CA067|El Dorado|06017|P|cc|38.6192|-120.7698
+CA|067|STO|Motherlode|CA067|Nevada|06057|P|cc|38.6192|-120.7698
+CA|067|STO|Motherlode|CA067|Placer|06061|P|cc|38.6192|-120.7698
+CA|067|STO|Motherlode|CA067|Tuolumne|06109|P|cc|38.6192|-120.7698
+CA|067|STO|Motherlode|CA067|Yuba|06115|P|cc|38.6192|-120.7698
+CA|068|STO|Western Plumas County/Lassen Park|CA068|Butte|06007|P|nn|40.1971|-121.3501
+CA|068|STO|Western Plumas County/Lassen Park|CA068|Lassen|06035|P|nn|40.1971|-121.3501
+CA|068|STO|Western Plumas County/Lassen Park|CA068|Plumas|06063|P|nn|40.1971|-121.3501
+CA|068|STO|Western Plumas County/Lassen Park|CA068|Shasta|06089|P|nn|40.1971|-121.3501
+CA|068|STO|Western Plumas County/Lassen Park|CA068|Tehama|06103|P|nn|40.1971|-121.3501
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Alpine|06003|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Amador|06005|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Calaveras|06009|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|El Dorado|06017|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Nevada|06057|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Placer|06061|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Sierra|06091|P|nn|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Tuolumne|06109|P|cc|38.7829|-120.3423
+CA|069|STO|West Slope Northern Sierra Nevada|CA069|Yuba|06115|P|cc|38.7829|-120.3423
 AL|065|TAE|Coffee|AL065|Coffee|01031|C|se|31.4026|-85.9882
 AL|066|TAE|Dale|AL066|Dale|01045|C|se|31.4318|-85.6110
 AL|067|TAE|Henry|AL067|Henry|01067|C|se|31.5147|-85.2414
@@ -4590,7 +4557,8 @@ FL|016|TAE|Gadsden|FL016|Gadsden|12039|E|bb|30.5795|-84.6137
 FL|017|TAE|Leon|FL017|Leon|12073|E|bb|30.4581|-84.2779
 FL|018|TAE|Inland Jefferson|FL018|Jefferson|12065|E|bb|30.4578|-83.8865
 FL|019|TAE|Madison|FL019|Madison|12079|E|bb|30.4442|-83.4700
-FL|326|TAE|Northern Liberty|FL326|Liberty|12077|E|bb|30.3891|-84.8873
+FL|326|TAE|Northern Liberty|FL025|Liberty|12077|E|bb|30.3891|-84.8873
+FL|426|TAE|Southern Liberty|FL125|Liberty|12077|E|bb|30.1249|-84.8795
 FL|027|TAE|Inland Wakulla|FL027|Wakulla|12129|E|bb|30.2017|-84.4474
 FL|028|TAE|Inland Taylor|FL028|Taylor|12123|E|bb|30.0954|-83.5767
 FL|029|TAE|Lafayette|FL029|Lafayette|12067|E|bb|29.9855|-83.1811
@@ -4601,7 +4569,6 @@ FL|112|TAE|Coastal Bay|FL112|Bay|12005|E|pa|30.2213|-85.6654
 FL|114|TAE|Coastal Gulf|FL114|Gulf|12045|CE|pa|29.8173|-85.2726
 FL|115|TAE|Coastal Franklin|FL115|Franklin|12037|E|bb|29.8382|-84.7899
 FL|118|TAE|Coastal Jefferson|FL118|Jefferson|12065|E|bb|30.1477|-84.0221
-FL|426|TAE|Southern Liberty|FL426|Liberty|12077|E|bb|30.1249|-84.8795
 FL|127|TAE|Coastal Wakulla|FL127|Wakulla|12129|E|bb|30.0968|-84.3009
 FL|128|TAE|Coastal Taylor|FL128|Taylor|12123|E|bb|29.9259|-83.6703
 FL|134|TAE|Coastal Dixie|FL134|Dixie|12029|E|bb|29.4924|-83.2251
@@ -4740,14 +4707,12 @@ AR|001|TSA|Benton|AR001|Benton|05007|C|nw|36.3392|-94.2573
 AR|002|TSA|Carroll|AR002|Carroll|05015|C|nw|36.3410|-93.5382
 AR|010|TSA|Washington|AR010|Washington|05143|C|nw|35.9800|-94.2147
 AR|011|TSA|Madison|AR011|Madison|05087|C|nw|36.0110|-93.7246
-AR|119|TSA|Northern Crawford|AR119|Crawford|05033|C|nw|35.6812|-94.2435
-AR|120|TSA|Northern Franklin|AR120|Franklin|05047|C|wc|35.6735|-93.8358
-AR|129|TSA|North and Central Sebastian|AR129|Sebastian|05131|C|wc|35.2592|-94.2540
-AR|219|TSA|Southern Crawford|AR219|Crawford|05033|C|nw|35.4943|-94.2424
-AR|220|TSA|Central and Southern Franklin|AR220|Franklin|05047|C|wc|35.4389|-93.9156
-AR|229|TSA|Southern Sebastian|AR229|Sebastian|05131|C|wc|35.0385|-94.3278
+AR|019|TSA|Crawford|AR019|Crawford|05033|C|nw|35.5889|-94.2430
+AR|020|TSA|Franklin|AR020|Franklin|05047|C|wc|35.5123|-93.8906
+AR|029|TSA|Sebastian|AR029|Sebastian|05131|C|wc|35.1993|-94.2740
 OK|049|TSA|Pushmataha|OK049|Pushmataha|40127|C|se|34.4162|-95.3758
 OK|053|TSA|Choctaw|OK053|Choctaw|40023|C|se|34.0265|-95.5521
+OK|054|TSA|Osage|OK054|Osage|40113|C|ne|36.6292|-96.3984
 OK|055|TSA|Washington|OK055|Washington|40147|C|ne|36.7152|-95.9044
 OK|056|TSA|Nowata|OK056|Nowata|40105|C|ne|36.7985|-95.6175
 OK|057|TSA|Craig|OK057|Craig|40035|C|ne|36.7617|-95.2085
@@ -4765,17 +4730,11 @@ OK|068|TSA|Cherokee|OK068|Cherokee|40021|C|ec|35.9066|-94.9997
 OK|069|TSA|Adair|OK069|Adair|40001|C|ne|35.8839|-94.6587
 OK|070|TSA|Muskogee|OK070|Muskogee|40101|C|ec|35.6161|-95.3794
 OK|071|TSA|McIntosh|OK071|McIntosh|40091|C|se|35.3737|-95.6668
+OK|072|TSA|Sequoyah|OK072|Sequoyah|40135|C|ec|35.4953|-94.7549
 OK|073|TSA|Pittsburg|OK073|Pittsburg|40121|C|se|34.9239|-95.7484
 OK|074|TSA|Haskell|OK074|Haskell|40061|C|se|35.2248|-95.1166
 OK|075|TSA|Latimer|OK075|Latimer|40077|C|se|34.8761|-95.2504
-OK|154|TSA|Western Osage|OK154|Osage|40113|C|ne|36.7052|-96.6728
-OK|172|TSA|Northern Sequoyah|OK172|Sequoyah|40135|C|ec|35.6028|-94.7984
-OK|176|TSA|Northern Le Flore|OK176|Le Flore|40079|C|se|35.2198|-94.6472
-OK|254|TSA|Northeast Osage|OK254|Osage|40113|C|ne|36.7337|-96.2122
-OK|272|TSA|Central and Southern Sequoyah|OK272|Sequoyah|40135|C|ec|35.4583|-94.7399
-OK|276|TSA|Central Le Flore|OK276|Le Flore|40079|C|se|34.9587|-94.6850
-OK|354|TSA|Southeast Osage|OK354|Osage|40113|C|ne|36.3515|-96.2564
-OK|376|TSA|Southern Le Flore|OK376|Le Flore|40079|C|se|34.6736|-94.7512
+OK|076|TSA|Le Flore|OK076|Le Flore|40079|C|se|34.9001|-94.7035
 AZ|501|TWC|Western Pima County Including Ajo/Organ Pipe Cactus National Monument|AZ501|Pima|04019|m|sc|32.2167|-112.9766
 AZ|502|TWC|Tohono O'odham Nation including Sells|AZ502|Pima|04019|m|sc|32.1434|-112.0640
 AZ|502|TWC|Tohono O'odham Nation including Sells|AZ502|Pinal|04021|m|sc|32.1434|-112.0640
@@ -4804,61 +4763,59 @@ AZ|514|TWC|Santa Catalina and Rincon Mountains including Mount Lemmon/Summerhave
 AZ|514|TWC|Santa Catalina and Rincon Mountains including Mount Lemmon/Summerhaven|AZ514|Pinal|04021|m|sc|32.3364|-110.6808
 AZ|515|TWC|Baboquivari Mountains including Kitt Peak|AZ515|Pima|04019|m|sc|31.8186|-111.5931
 SD|001|UNR|Harding|SD001|Harding|46063|M|nw|45.5804|-103.4959
-SD|002|UNR|Northern Perkins|SD002|Perkins|46105|M|nw|45.7373|-102.4735
+SD|002|UNR|Northern Perkins |SD002|Perkins|46105|M|nw|45.7373|-102.4735
 SD|012|UNR|Butte|SD012|Butte|46019|M|nw|44.9058|-103.5081
 SD|013|UNR|Northern Meade Co Plains|SD013|Meade|46093|M|wc|44.8215|-102.4800
 SD|014|UNR|Ziebach|SD014|Ziebach|46137|M|wc|44.9806|-101.6660
-SD|024|UNR|Northern Black Hills|SD024|Lawrence|46081|M|wc|44.1987|-103.7924
-SD|024|UNR|Northern Black Hills|SD024|Meade|46093|M|wc|44.1987|-103.7924
-SD|024|UNR|Northern Black Hills|SD024|Pennington|46103|M|wc|44.1987|-103.7924
-SD|025|UNR|Northern Foothills|SD025|Lawrence|46081|M|wc|44.5217|-103.7849
+SD|024|UNR|Northern Black Hills |SD024|Lawrence|46081|M|wc|44.1987|-103.7924
+SD|024|UNR|Northern Black Hills |SD024|Meade|46093|M|wc|44.1987|-103.7924
+SD|024|UNR|Northern Black Hills |SD024|Pennington|46103|M|wc|44.1987|-103.7924
+SD|025|UNR|Northern Foothills |SD025|Lawrence|46081|M|wc|44.5217|-103.7849
 SD|026|UNR|Rapid City|SD026|Pennington|46103|M|wc|44.0007|-103.2230
-SD|027|UNR|Southern Foothills|SD027|Fall River|46047|M|sw|43.3817|-103.6039
-SD|028|UNR|Central Black Hills|SD028|Pennington|46103|M|wc|43.8684|-103.6043
-SD|028|UNR|Central Black Hills|SD028|Custer|46033|M|wc|43.8684|-103.6043
-SD|029|UNR|Southern Black Hills|SD029|Custer|46033|M|sw|43.6072|-103.7517
+SD|027|UNR|Southern Foothills |SD027|Fall River|46047|M|sw|43.3817|-103.6039
+SD|028|UNR|Central Black Hills |SD028|Pennington|46103|M|wc|43.8684|-103.6043
+SD|028|UNR|Central Black Hills |SD028|Custer|46033|M|wc|43.8684|-103.6043
+SD|029|UNR|Southern Black Hills |SD029|Custer|46033|M|sw|43.6072|-103.7517
 SD|030|UNR|Custer Co Plains|SD030|Custer|46033|M|sw|43.6988|-102.9762
 SD|031|UNR|Pennington Co Plains|SD031|Pennington|46103|M|wc|44.0070|-102.4422
 SD|032|UNR|Haakon|SD032|Haakon|46055|M|wc|44.2944|-101.5399
-SD|041|UNR|Western Fall River|SD041|Fall River|46047|M|sw|43.1710|-103.8148
-SD|042|UNR|Northern Oglala Lakota|SD042|Oglala Lakota|46102|M|sw|43.5307|-102.5558
-SD|043|UNR|Northern Jackson|SD043|Jackson|46071|M|sw|43.8677|-101.5949
+SD|041|UNR|Western Fall River |SD041|Fall River|46047|M|sw|43.1710|-103.8148
+SD|042|UNR|Northern Oglala Lakota |SD042|Oglala Lakota|46102|M|sw|43.5307|-102.5558
+SD|043|UNR|Northern Jackson |SD043|Jackson|46071|M|sw|43.8677|-101.5949
 SD|044|UNR|Bennett|SD044|Bennett|46007|M|sw|43.1949|-101.6639
 SD|046|UNR|Mellette|SD046|Mellette|46095|C|sc|43.5811|-100.7601
 SD|047|UNR|Todd|SD047|Todd|46121|C|sc|43.1934|-100.7184
 SD|049|UNR|Tripp|SD049|Tripp|46123|C|sc|43.3459|-99.8840
-SD|072|UNR|Sturgis-Piedmont Foothills|SD072|Meade|46093|M|wc|44.3268|-103.3829
+SD|072|UNR|Sturgis-Piedmont Foothills |SD072|Meade|46093|M|wc|44.3268|-103.3829
 SD|073|UNR|Southern Meade Co Plains|SD073|Meade|46093|M|wc|44.4055|-102.7678
 SD|074|UNR|Hermosa Foot Hills|SD074|Custer|46033|M|sw|43.6677|-103.2509
-SD|075|UNR|Eastern Fall River|SD075|Fall River|46047|M|sw|43.2078|-103.2197
-SD|076|UNR|Southern Oglala Lakota|SD076|Oglala Lakota|46102|M|sw|43.1901|-102.5485
-SD|077|UNR|Southern Jackson|SD077|Jackson|46071|M|sw|43.5628|-101.6533
-SD|078|UNR|Southern Perkins|SD078|Perkins|46105|M|nw|45.2845|-102.4779
+SD|075|UNR|Eastern Fall River |SD075|Fall River|46047|M|sw|43.2078|-103.2197
+SD|076|UNR|Southern Oglala Lakota |SD076|Oglala Lakota|46102|M|sw|43.1901|-102.5485
+SD|077|UNR|Southern Jackson |SD077|Jackson|46071|M|sw|43.5628|-101.6533
+SD|078|UNR|Southern Perkins |SD078|Perkins|46105|M|nw|45.2845|-102.4779
 WY|054|UNR|Northern Cambell|WY054|Campbell|56005|M|ne|44.5960|-105.5497
 WY|055|UNR|Southern Campbell|WY055|Campbell|56005|M|ne|43.8436|-105.5478
-WY|056|UNR|Western Crook|WY056|Crook|56011|M|ne|44.6273|-104.8077
-WY|057|UNR|Wyoming Black Hills|WY057|Crook|56011|M|ne|44.3823|-104.3495
-WY|057|UNR|Wyoming Black Hills|WY057|Weston|56045|M|ne|44.3823|-104.3495
+WY|056|UNR|Western Crook |WY056|Crook|56011|M|ne|44.6273|-104.8077
+WY|057|UNR|Wyoming Black Hills |WY057|Crook|56011|M|ne|44.3823|-104.3495
+WY|057|UNR|Wyoming Black Hills |WY057|Weston|56045|M|ne|44.3823|-104.3495
 WY|058|UNR|Weston|WY058|Weston|56045|M|ne|43.8072|-104.6212
-WY|058|UNR|Weston County Plains|WY058|Weston|56045|M|ne|43.8674|-104.7853
-WY|059|UNR|Newcastle|WY059|Weston|56045|M|ne|43.7191|-104.3166
-WY|060|UNR|Northeastern Crook|WY060|Crook|56011|M|ne|44.7865|-104.1802
+WY|058|UNR|Weston County Plains |WY058|Weston|56045|M|ne|43.8674|-104.7853
+WY|059|UNR|Newcastle |WY059|Weston|56045|M|ne|43.7191|-104.3166
+WY|060|UNR|Northeastern Crook |WY060|Crook|56011|M|ne|44.7865|-104.1802
+WY|071|UNR|Northeastern Crook|WY071|Crook|56011|M|ne|44.8506|-104.1767
 AZ|001|VEF|Northwest Plateau|AZ001|Mohave|04015|m|nw|36.5921|-113.3317
 AZ|002|VEF|Lake Havasu and Fort Mohave|AZ002|Mohave|04015|m|nw|34.6762|-114.3492
-AZ|570|VEF|Lake Mead - AZ side|AZ570|Mohave|04015|m|nw|36.1004|-114.1643
-AZ|571|VEF|Lake Mohave - AZ side|AZ571|Mohave|04015|m|nw|35.3682|-114.5437
-AZ|575|VEF|Hualapai Mountains|AZ575|Mohave|04015|m|nw|34.9704|-113.8737
-AZ|576|VEF|Northwest Deserts|AZ576|Mohave|04015|m|nw|35.1924|-113.8469
+AZ|003|VEF|Northwest Deserts|AZ003|Mohave|04015|m|nw|35.1839|-113.8480
+AZ|036|VEF|Lake Mead National Recreation Area|AZ036|Mohave|04015|m|nw|35.8011|-114.3194
 CA|519|VEF|Eastern Sierra Slopes of Inyo County|CA519|Inyo|06027|P|ee|36.8269|-118.3410
+CA|520|VEF|Owens Valley|CA520|Inyo|06027|P|ee|36.5133|-118.0127
 CA|521|VEF|White Mountains of Inyo County|CA521|Inyo|06027|P|ee|37.0104|-118.0388
 CA|522|VEF|Death Valley National Park|CA522|Inyo|06027|P|ee|36.4199|-117.1006
 CA|523|VEF|Western Mojave Desert|CA523|San Bernardino|06071|P|ss|35.3053|-117.0005
-CA|524|VEF|Eastern Mojave Desert Including the Mojave National Preserve|CA524|San Bernardino|06071|P|  |35.1398|-115.7069
+CA|524|VEF|Eastern Mojave Desert Including the Mojave National Preserve|CA524|San Bernardino|06071|P||35.1398|-115.7069
 CA|525|VEF|Morongo Basin|CA525|San Bernardino|06071|P|ss|34.3424|-116.0947
 CA|526|VEF|Cadiz Basin|CA526|San Bernardino|06071|P|ss|34.3849|-115.0956
 CA|527|VEF|San Bernadino County-Upper Colorado River Valley|CA527|San Bernardino|06071|P|ss|34.4988|-114.5011
-CA|581|VEF|Owens Valley South|CA581|Inyo|06027|P|ee|36.1393|-117.8334
-CA|582|VEF|Owens Valley North|CA582|Inyo|06027|P|ee|37.0209|-118.2560
 NV|014|VEF|Esmeralda and Central Nye County|NV014|Esmeralda|32009|P|sc|37.5763|-116.9511
 NV|014|VEF|Esmeralda and Central Nye County|NV014|Nye|32023|P|sc|37.5763|-116.9511
 NV|015|VEF|Lincoln County|NV015|Lincoln|32017|P|sc|37.6576|-114.8708
@@ -4870,6 +4827,10 @@ NV|018|VEF|Sheep Range|NV018|Lincoln|32017|P|sc|36.7786|-115.1511
 NV|019|VEF|Spring Mountains-Red Rock Canyon|NV019|Clark|32003|P|ss|36.2348|-115.6791
 NV|019|VEF|Spring Mountains-Red Rock Canyon|NV019|Nye|32023|P|sc|36.2348|-115.6791
 NV|020|VEF|Las Vegas Valley|NV020|Clark|32003|P|ss|36.1435|-115.1712
+NV|021|VEF|Lake Mead National Recreation Area|NV021|Clark|32003|P|ss|35.9412|-114.5934
 NV|022|VEF|Southern Clark County|NV022|Clark|32003|P|ss|35.5358|-115.0222
-NV|025|VEF|Lake Mead - NV side|NV025|Clark|32003|P|ss|36.2015|-114.5111
-NV|026|VEF|Lake Mohave - NV side|NV026|Clark|32003|P|ss|35.5086|-114.7303
+FL|233|JAX|Northeast Coastal St. Johns|FL223|St. Johns|12109|E|ne|30.0922|-81.3753
+FL|333|JAX|Southeast Coastal St. Johns|FL333|St. Johns|12109|E|ne|29.7778|-81.2954
+FL|433|JAX|Northern Inland St. Johns|FL433|St. Johns|12109|E|ne|30.0120|-81.4554
+FL|533|JAX|Southern Inland St. Johns|FL533|St. Johns|12109|E|ne|29.7856|-81.4103
+FL|633|JAX|Western St. Johns|FL633|St. Johns|12109|E|ne|29.9173|-81.5564

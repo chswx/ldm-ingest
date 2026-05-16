@@ -46,6 +46,7 @@ $tables = [
     "geo_custom_locs", // Custom locations
     "products", // All incoming products
     "events", // Holds ongoing events (VTEC, water level, etc.)
+    "service_areas", // Holds service areas
 ];
 
 echo "Setting up database tables for the @chswx LDM bridge...\n";

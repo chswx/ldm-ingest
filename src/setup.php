@@ -47,6 +47,7 @@ $tables = [
     "products", // All incoming products
     "events", // Holds ongoing events (VTEC, water level, etc.)
     "service_areas", // Holds service areas
+    "endpoints", // Social media endpoint configurations
 ];
 
 echo "Setting up database tables for the @chswx LDM bridge...\n";
@@ -66,6 +67,16 @@ foreach ($tables as $table) {
     }
 }
 echo "{$count} tables created, {$skipped} tables skipped\n";
+
+// Set up endpoint indexes
+echo "Setting up endpoint indexes...\n";
+try {
+    r\table("endpoints")->indexCreate("type")->run($conn);
+    r\table("endpoints")->indexCreate("enabled")->run($conn);
+    r\table("endpoints")->indexCreate("name")->run($conn);
+} catch (r\Exceptions\RQLServerError $e) {
+    echo "Endpoint indexes may already exist.\n";
+}
 
 // Set up geospatial index
 if (defined("IMPORT_GEOSPATIAL") && IMPORT_GEOSPATIAL) {
@@ -194,5 +205,89 @@ if (defined("IMPORT_ZONES") && IMPORT_ZONES) {
 }
 
 echo "Setup complete\n";
+
+// Seed endpoints from hardcoded config via internal API
+echo "Seeding endpoints via internal API...\n";
+$api_url = getenv('INTERNAL_API_URL') ?: 'http://localhost:8000';
+
+$endpoint_configs = [
+    [
+        'name' => '@chswx Discord',
+        'type' => 'discord',
+        'enabled' => false,
+        'char_limit' => 2000,
+        'creds' => ['webhook_url' => getenv('DISCORD_WEBHOOK_URL') ?: ''],
+        'options' => null,
+    ],
+    [
+        'name' => '@chswx Alerts Mastodon',
+        'type' => 'mastodon',
+        'enabled' => true,
+        'char_limit' => 500,
+        'creds' => [
+            'key' => getenv('MASTODON_CLIENT_KEY') ?: '',
+            'secret' => getenv('MASTODON_CLIENT_SECRET') ?: '',
+            'token' => getenv('MASTODON_ACCESS_TOKEN') ?: '',
+            'instance' => getenv('MASTODON_INSTANCE') ?: '',
+        ],
+        'options' => ['hashtags' => '#CHSwx #SCwx'],
+    ],
+    [
+        'name' => '@chswx Bluesky',
+        'type' => 'atproto',
+        'enabled' => true,
+        'char_limit' => 300,
+        'creds' => [
+            'username' => getenv('ATPROTO_USERNAME') ?: '',
+            'app_password' => getenv('ATPROTO_PASSWORD') ?: '',
+        ],
+        'options' => null,
+    ],
+    [
+        'name' => '@chswx Slack',
+        'type' => 'slack',
+        'enabled' => true,
+        'char_limit' => 2000,
+        'creds' => ['webhook_url' => getenv('CHSWX_SLACK_WEBHOOK_URL') ?: ''],
+        'options' => null,
+    ],
+    [
+        'name' => 'IRE Slack',
+        'type' => 'slack',
+        'enabled' => true,
+        'char_limit' => 2000,
+        'creds' => ['webhook_url' => getenv('IRE_SLACK_WEBHOOK_URL') ?: ''],
+        'options' => null,
+    ],
+    [
+        'name' => 'CHS Tech Slack',
+        'type' => 'slack',
+        'enabled' => true,
+        'char_limit' => 2000,
+        'creds' => ['webhook_url' => getenv('CHSTECH_SLACK_WEBHOOK_URL') ?: ''],
+        'options' => null,
+    ],
+];
+
+foreach ($endpoint_configs as $config) {
+    $json = json_encode($config);
+    $ch = curl_init("{$api_url}/api/endpoints");
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_POST => true,
+        CURLOPT_HTTPHEADER => ['Content-Type: application/json'],
+        CURLOPT_POSTFIELDS => $json,
+    ]);
+    $response = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($http_code >= 200 && $http_code < 300) {
+        echo "Seeded: {$config['name']}\n";
+    } else {
+        echo "Failed to seed {$config['name']}: HTTP {$http_code}\n";
+    }
+}
+
 exit(0);
 

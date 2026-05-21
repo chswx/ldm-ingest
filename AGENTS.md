@@ -18,8 +18,6 @@ php vendor/bin/phpunit tests/UtilsTest.php --filter testExpandRanges
 # Run the ingestor (reads from STDIN)
 echo "product text" | php src/ingestor.php
 
-# Run setup (creates RethinkDB tables, imports geospatial data)
-php src/setup.php
 ```
 
 ## Setup

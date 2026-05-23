@@ -4,7 +4,7 @@
 
 $config = array(
     'DATABASE_NAME' => 'chswx',
-    'DATABASE_SERVER' => 'rethinkdb',
+    'DATABASE_SERVER' => '127.0.0.1',
     'DATABASE_PORT'   => 28015,
 );
 return $config;

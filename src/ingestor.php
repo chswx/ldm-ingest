@@ -86,7 +86,7 @@ if (!is_null($product_obj)) {
     }
 
     // Have you heard the good word of our properly parsed product?
-    Utils::log("Product {$product_obj->id} — Parsed {$product_obj->pil} from {$product_obj->office} successfully — " . implode(', ', $stats));
+    Utils::log("Generated product {$product_obj->id} — Parsed {$product_obj->pil} from {$product_obj->office} successfully — " . implode(', ', $stats));
     // Utils::log("Channels: " . implode(', ', $product_obj->channels));
 } else {
     // Something went wrong

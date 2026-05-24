@@ -63,10 +63,30 @@ $product_obj = Ingestor\NWSProductFactory::getProduct(Utils::sanitize($m_text));
 if (!is_null($product_obj)) {
     // set a source for the product so we can sniff this out as needed.
     $product_obj->src = "ldm";
-    $db->send($product_obj, $product_obj->table);
+    $db_result = $db->send($product_obj, $product_obj->table);
+
+    // Format DB stats from insert result
+    $stats = [];
+    if (isset($db_result->inserted) && $db_result->inserted > 0) {
+        $stats[] = "inserted {$db_result->inserted}";
+    }
+    if (isset($db_result->replaced) && $db_result->replaced > 0) {
+        $stats[] = "replaced {$db_result->replaced}";
+    }
+    if (isset($db_result->unchanged) && $db_result->unchanged > 0) {
+        $stats[] = "unchanged {$db_result->unchanged}";
+    }
+    if (isset($db_result->skipped) && $db_result->skipped > 0) {
+        $stats[] = "skipped {$db_result->skipped}";
+    }
+
+    // Log errors as warning if present
+    if (isset($db_result->errors) && $db_result->errors > 0) {
+        Utils::log("Product {$product_obj->id} — {$product_obj->pil} from {$product_obj->office} — " . implode(', ', $stats) . " — {$db_result->errors} errors", 'warning');
+    }
 
     // Have you heard the good word of our properly parsed product?
-    Utils::log("Parsed product {$product_obj->pil} from {$product_obj->office} successfully");
+    Utils::log("Product {$product_obj->id} — Parsed {$product_obj->pil} from {$product_obj->office} successfully — " . implode(', ', $stats));
     // Utils::log("Channels: " . implode(', ', $product_obj->channels));
 } else {
     // Something went wrong

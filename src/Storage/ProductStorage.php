@@ -35,6 +35,7 @@ class ProductStorage
         $encoded_product = json_decode(json_encode($product));
         $encoded_product = $this->prepareLocationData($encoded_product, $product_class);
         $result = r\table($table)->insert($encoded_product)->run($this->conn);
+        return $result;
     }
 
     /**

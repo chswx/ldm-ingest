@@ -173,6 +173,57 @@ class Utils
     }
 
     /**
+     * Extract expiration timestamp from zone string trailing DDHHMM.
+     * Zone strings like STZ040-121330- contain a 6-digit timestamp (DDHHMM)
+     * before the final dash. Month is inferred from seed_timestamp.
+     * If parsed timestamp is before seed, roll forward one month (handles
+     * day 01 issued on Jan 31 referring to Feb 1).
+     *
+     * @param string $text Segment text containing zone strings
+     * @param int    $seed_timestamp UNIX timestamp to seed month/year inference
+     * @return int|null UNIX timestamp or null if no timestamp found
+     */
+    public static function parseZoneExpiration($text, $seed_timestamp = 0)
+    {
+        if (empty($seed_timestamp)) {
+            $seed_timestamp = time();
+        }
+
+        // Get the product on one line and remove extra indents.
+        $sanitized_text = self::deindent(self::stripNewlines($text));
+
+        // Match the trailing DDHHMM timestamp in zone strings (e.g., STZ040-121330-)
+        if (preg_match('/([A-Z]{2}[CZ]\d{3}(?:-[\d>]+)*-(\d{6})-)/', $sanitized_text, $matches)) {
+            $timestamp_str = $matches[2];
+            $day = substr($timestamp_str, 0, 2);
+            $hour = substr($timestamp_str, 2, 2);
+            $minute = substr($timestamp_str, 4, 2);
+
+            // Use strtotime seeded with current timestamp for natural month/year rollover
+            $curr_month_year = date('Ym', $seed_timestamp);
+            $unix_timestamp = strtotime($curr_month_year . $day . 'T' . $hour . $minute . '00');
+
+            // If parsed timestamp is before seed, roll forward one month
+            // (handles day 01 issued on Jan 31 referring to Feb 1)
+            if ($unix_timestamp < $seed_timestamp) {
+                $year = (int)date('Y', $seed_timestamp);
+                $month = (int)date('n', $seed_timestamp);
+                $next_month = $month + 1;
+                if ($next_month > 12) {
+                    $next_month = 1;
+                    $year++;
+                }
+                $next_month_str = sprintf('%04d%02d', $year, $next_month);
+                $unix_timestamp = strtotime($next_month_str . $day . 'T' . $hour . $minute . '00');
+            }
+
+            return $unix_timestamp;
+        }
+
+        return null;
+    }
+
+    /**
      * Looks for the phrase "particularly dangerous situation" in the segment text.
      * TODO: Look for a better home for this. I put this here for now as the most
      * parser-agnostic location possible, as text products such as SEL, which won't

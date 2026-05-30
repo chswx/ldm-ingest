@@ -81,7 +81,7 @@ class NWSProduct
      *
      * @var string
      */
-    public string $type = 'generic';
+    public string $type = "generic";
 
     /**
      * Constructor.
@@ -89,9 +89,9 @@ class NWSProduct
     public function __construct($prod_info, $product_text)
     {
         // Extract info from the $prod_info array...
-        $this->office = $prod_info['office'];       // Issuing office
-        $this->pil = $prod_info['pil'];             // AWIPS/AFOS PIL
-        $this->timestamp = $prod_info['timestamp'];
+        $this->office = $prod_info["office"]; // Issuing office
+        $this->pil = $prod_info["pil"]; // AWIPS/AFOS PIL
+        $this->timestamp = $prod_info["timestamp"];
         // Keep the raw product around for now
         $this->raw_product = $product_text;
         // Parse the product out into segments if not already done by a more specialized parser.
@@ -103,7 +103,7 @@ class NWSProduct
         // Generate product-level channels
         $this->generateChannels();
         // Set up the default product table. Should be overridden by parser subclasses.
-        $this->table = 'products';
+        $this->table = "products";
     }
 
     /**
@@ -134,8 +134,10 @@ class NWSProduct
      *
      * @return array of NWSProductSegments
      */
-    public function splitProduct($product, $class = 'chswx\LDMIngest\\Parser\\NWSProductSegment'): array
-    {
+    public function splitProduct(
+        $product,
+        $class = "chswx\LDMIngest\\Parser\\NWSProductSegment",
+    ): array {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.
@@ -147,7 +149,7 @@ class NWSProduct
             $raw_segments = explode('$$', trim($product), -1);
         } else {
             // No delimiters
-            $raw_segments = array(trim($product));
+            $raw_segments = [trim($product)];
         }
 
         foreach ($raw_segments as $segment) {
@@ -168,10 +170,10 @@ class NWSProduct
     {
         // Initialize if needed.
         if (empty($this->channels)) {
-            $this->channels = array();
+            $this->channels = [];
         }
         // Adds the PIL and issuing office to the channels list by default
-        $this->appendChannels(array($this->office, $this->pil));
+        $this->appendChannels([$this->office, $this->pil]);
     }
 
     /**

@@ -42,6 +42,11 @@ class NWSProductSegment
     public $channels;
 
     /**
+     * Product/segment expiration time from zone string. Typically superseded by VTEC.
+     */
+    public $expiration_time;
+
+    /**
      * Basic constructor for product segments. Will be called explicitly by subclasses.
      *
      * @param string $segment_text
@@ -104,7 +109,7 @@ class NWSProductSegment
 
     public function generateZoneChannels()
     {
-        $channels = array();
+        $channels = [];
         // Pair AWIPS PIL with zones.
         foreach ($this->zones as $zone) {
             $channels[] = $zone;

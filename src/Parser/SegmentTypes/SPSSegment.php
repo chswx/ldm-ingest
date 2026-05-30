@@ -27,8 +27,10 @@ class SPSSegment extends NWSProductSegment
      */
     public $polygon;
 
-    public function __construct($segment_text, \chswx\LDMIngest\Parser\NWSProduct $parentProduct)
-    {
+    public function __construct(
+        $segment_text,
+        \chswx\LDMIngest\Parser\NWSProduct $parentProduct,
+    ) {
         parent::__construct($segment_text, $parentProduct);
 
         // Parse impact-based tags for SPS products.

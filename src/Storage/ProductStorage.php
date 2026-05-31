@@ -64,12 +64,33 @@ class ProductStorage
             case 'chswx\LDMIngest\Parser\ProductTypes\VTEC':
                 $product = $this->prepareVtec($product);
                 break;
+            case 'chswx\LDMIngest\Parser\ProductTypes\SPS':
+                $product = $this->prepareSps($product);
+                break;
         }
 
         return $product;
     }
 
     private function prepareVtec($product)
+    {
+        $prepped_segments = array();
+        foreach ($product->segments as $segment) {
+            if (isset($segment->smv->location)) {
+                $segment->smv->location = r\geojson((array)$segment->smv->location);
+            }
+            if (isset($segment->polygon)) {
+                $segment->polygon = r\geojson((array)$segment->polygon);
+            }
+            $prepped_segments[] = $segment;
+        }
+
+        $product->segments = $prepped_segments;
+
+        return $product;
+    }
+
+    private function prepareSps($product)
     {
         $prepped_segments = array();
         foreach ($product->segments as $segment) {

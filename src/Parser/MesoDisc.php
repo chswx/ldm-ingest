@@ -9,6 +9,8 @@
 
 namespace UpdraftNetworks\Parser;
 
+use UpdraftNetworks\Utils as Utils;
+
 class MesoDisc extends NWSProduct {
     
     /**
@@ -153,12 +155,13 @@ class MesoDisc extends NWSProduct {
 
     /**
      * Parse MCD number from product text.
-     * Format: "MESOSCALE DISCUSSION 0186" or "SPC MCD 0186"
+     * Format: "MESOSCALE DISCUSSION 0186"
+     * NOTE: "SPC MCD NNNNNN" is the CMC header date-time group, not the MCD number.
      */
     protected function parse_mcd_number($lines) {
         foreach ($lines as $line) {
-            // Match "MESOSCALE DISCUSSION NNNN" or "SPC MCD NNNN"
-            if (preg_match('/(?:MESOSCALE\s+DISCUSSION|SPC\s+MCD)\s+(\d{3,4})/i', $line, $matches)) {
+            // Match "MESOSCALE DISCUSSION NNNN" - canonical MND header format
+            if (preg_match('/MESOSCALE\s+DISCUSSION\s+(\d{3,4})/i', $line, $matches)) {
                 return (int)$matches[1];
             }
         }

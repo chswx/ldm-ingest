@@ -6,7 +6,7 @@ require_once('vendor/autoload.php');
 
 date_default_timezone_set('UTC');
 
-class VTECStringTest extends \PHPUnit_Framework_TestCase {
+class VTECStringTest extends \PHPUnit\Framework\TestCase {
 
     var $expireOperationalTestString = "/O.EXP.KCHS.FF.W.0010.000000T0000Z-120830T0245Z/";
 

@@ -411,13 +411,23 @@ class MesoDisc extends NWSProduct {
 
     /**
      * Parse LAT/LON coordinate string into polygon points.
-     * Coordinates come in pairs: lat lon lat lon ...
-     * May span multiple lines with leading whitespace.
+     *
+     * Per NWSI 10-1701 Table 11 (National Center format used by SPC):
+     * - Each coordinate number = lat_digits + lon_digits concatenated in a single integer
+     * - Latitude: first 4 digits, decimal after position 2 (e.g., `2999` → 29.99)
+     * - Longitude: remaining digits, decimal after position 2 (e.g., `9435` → -94.35)
+     * - Longitudes > 100 degrees drop the leading "1" (e.g., 102.54W → `0254`)
+     * - CONUS = always West (negative longitude)
+     *
+     * Example: `29999435` → lat=29.99, lon=-94.35 (near Houston, TX)
+     * Example: `30759602` → lat=30.75, lon=-96.02 (near Waco, TX)
+     *
+     * Coordinates may span multiple lines with leading whitespace continuation.
      */
     protected function parse_latlon_coords($coord_str) {
         // Collect all coordinate tokens from this line and continuation lines
         $tokens = preg_split('/\s+/', trim($coord_str));
-        
+
         // Find the LAT/LON line and any continuation lines in the original product
         $lines = Utils::make_array($this->raw_product);
         foreach ($lines as $line) {
@@ -427,51 +437,50 @@ class MesoDisc extends NWSProduct {
                 $tokens = array_merge($tokens, $cont_tokens);
             }
         }
-        
+
         // Filter to only numeric tokens
-        $numbers = array_values(array_filter($tokens, function($t) {
+        $numbers = array_values(array_filter($tokens, function ($t) {
             return is_numeric($t);
         }));
-        
-        if (count($numbers) < 4 || count($numbers) % 2 !== 0) {
+
+        // Each number encodes one lat/lon pair, so we need an even count
+        if (count($numbers) < 2 || count($numbers) % 2 !== 0) {
             return null;
         }
-        
-        // Convert to pairs of (lat, lon) in decimal degrees
+
+        // Convert each combined number to (lat, lon) in decimal degrees.
+        // Per NWSI 10-1701 Table 11: first 4 digits = lat, remaining = lon
         $points = [];
-        for ($i = 0; $i < count($numbers); $i += 2) {
-            // Coordinates are in tenths of degrees (e.g., 29999435 = 29.999435)
-            // But some values like 9435 need context - check the sample: "29999435 30079572"
-            // These appear to be: lat*1e6 and lon*1e6 (microdegrees)
-            $lat = (float)$numbers[$i] / 1000000.0;
-            $lon = (float)$numbers[$i + 1] / 1000000.0;
-            
-            // Negative longitude: if lon > 180, it's actually negative (W)
-            // But looking at sample: "30719356" = 30.719356 (latitude), not longitude
-            // Re-examining: the sample has "29999435 30079572" which looks like
-            // lat=29.999435, lon=-94.350792 (but stored as positive 94350792?)
-            // Actually the sample shows: "29999435 30079572" - these are likely 
-            // lat*1e6 and (lon+100)*1e6 or similar encoding
-            // 
-            // Looking more carefully at sample: "LAT...LON   29999435 30079572 30759602 31929559 ..."
-            // This is a sequence of lat/lon pairs. The format appears to be:
-            // Each coordinate is stored as integer * 1e6 (microdegrees)
-            // For negative values, they might use a different encoding
-            
+        foreach ($numbers as $num) {
+            $str = (string) $num;
+
+            // First 4 characters are latitude digits
+            $lat_str = substr($str, 0, 4);
+            // Remaining characters are longitude digits
+            $lon_str = substr($str, 4);
+
+            if (strlen($lat_str) < 4 || strlen($lon_str) < 2) {
+                continue;
+            }
+
+            $lat = (float) ($lat_str / 100.0);
+            // CONUS longitudes are always West (negative)
+            $lon = -(float) ($lon_str / 100.0);
+
             $points[] = [
-                'lat' => round($lat, 6),
-                'lon' => round($lon, 6)
+                'lat' => round($lat, 2),
+                'lon' => round($lon, 2),
             ];
         }
-        
+
         if (empty($points)) {
             return null;
         }
-        
+
         // Build polygon in GeoJSON-like format
         return [
             'type' => 'Polygon',
-            'coordinates' => [$points]
+            'coordinates' => [$points],
         ];
     }
 

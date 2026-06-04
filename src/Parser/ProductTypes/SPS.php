@@ -30,22 +30,12 @@ class SPS extends NWSProduct
         // Split product into segments using SPSSegment class.
         $segments = $this->splitProduct($this->raw_product, 'chswx\\LDMIngest\\Parser\\SegmentTypes\\SPSSegment');
 
-        // Extract headline from the first segment.
+        // Set product-level headline convenience property from first segment.
         if (!empty($segments)) {
-            $first_segment_text = $segments[0]->text;
-
-            // Match headline: ...TEXT... (single line)
-            if (preg_match('/^\s*\.\.\.(.+?)\.\.\.\s*$/m', $first_segment_text, $matches)) {
-                $this->headline = trim($matches[1]);
-            } else {
-                // Match multi-line headline: ...TEXT... spanning multiple lines
-                if (preg_match('/^\s*\.\.\.(.+?)\n(.*?)\.\.\.\s*$/ms', $first_segment_text, $matches)) {
-                    $this->headline = trim(preg_replace('/\s+/', ' ', $matches[1] . ' ' . $matches[2]));
-                }
-            }
+            $this->headline = $segments[0]->headline ?? '';
 
             // Extract expiration from zone string.
-            $this->expiration_time = Utils::parseZoneExpiration($first_segment_text, $this->timestamp);
+            $this->expiration_time = Utils::parseZoneExpiration($segments[0]->text, $this->timestamp);
         }
 
         return $segments;

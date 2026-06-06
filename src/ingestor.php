@@ -7,9 +7,9 @@
  * Many thanks to @blairblends, @edarc, and the Updraft team for help and inspiration
  */
 
-namespace UpdraftNetworks\Ingestor;
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Storage\ProductStorage as ProductStorage;
+namespace chswx\LDMIngest\Ingestor;
+use chswx\LDMIngest\Utils as Utils;
+use chswx\LDMIngest\Storage\ProductStorage as ProductStorage;
 
 // Begin timing execution
 $time_start = microtime(true);

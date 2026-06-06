@@ -7,9 +7,9 @@
  * and winter weather types.
  */
 
-namespace UpdraftNetworks\Parser;
+namespace chswx\LDMIngest\Parser;
 
-use UpdraftNetworks\Utils as Utils;
+use chswx\LDMIngest\Utils as Utils;
 
 class MesoDisc extends NWSProduct {
     

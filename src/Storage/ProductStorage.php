@@ -1,6 +1,6 @@
 <?php
 
-namespace UpdraftNetworks\Storage;
+namespace chswx\LDMIngest\Storage;
 use r;
 
 class ProductStorage {

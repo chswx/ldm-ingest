@@ -5,8 +5,8 @@
  * Portions adapted from code by Andrew: http://phpstarter.net/2010/03/parse-zfp-zone-forecast-product-data-in-php-option-1/
  */
 
-namespace UpdraftNetworks\Parser;
-use UpdraftNetworks\Utils as Utils;
+namespace chswx\LDMIngest\Parser;
+use chswx\LDMIngest\Utils as Utils;
 
 class NWSProduct {
     /**
@@ -86,7 +86,7 @@ class NWSProduct {
      * @param $class string Optional definition of which class defines what a segment is
      * @return array of NWSProductSegments
      */
-    function split_product($product, $class = 'UpdraftNetworks\\Parser\\NWSProductSegment') {
+    function split_product($product, $class = 'chswx\LDMIngest\\Parser\\NWSProductSegment') {
         // Previously, we removed the header of the product.
         // Inadvertently, this would strip VTEC strings and zones from short-fuse warnings
         // Thus...just set the product variable to the raw product.

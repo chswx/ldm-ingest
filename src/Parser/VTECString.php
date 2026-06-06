@@ -1,5 +1,5 @@
 <?php
-namespace UpdraftNetworks\Parser;
+namespace chswx\LDMIngest\Parser;
 
 /**
  * Class to assist with VTEC string operations.

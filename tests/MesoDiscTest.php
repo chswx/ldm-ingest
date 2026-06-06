@@ -1,7 +1,7 @@
 <?php
-namespace UpdraftNetworks\Parser\Tests;
+namespace chswx\LDMIngest\Parser\Tests;
 
-use UpdraftNetworks\Parser\MesoDisc;
+use chswx\LDMIngest\Parser\MesoDisc;
 
 require_once('vendor/autoload.php');
 

@@ -4,9 +4,9 @@
  * Designed specifically for parsing VTEC-enabled products.
  */
 
-namespace UpdraftNetworks\Parser;
-use UpdraftNetworks\Parser\NWSProduct as NWSProduct;
-use UpdraftNetworks\Parser\NWSProductSegment as NWSProductSegment;
+namespace chswx\LDMIngest\Parser;
+use chswx\LDMIngest\Parser\NWSProduct as NWSProduct;
+use chswx\LDMIngest\Parser\NWSProductSegment as NWSProductSegment;
 
 class VTEC extends NWSProduct {
     function __construct($prod_info,$prod_text) {    
@@ -14,7 +14,7 @@ class VTEC extends NWSProduct {
     }
 
     function parse() {
-        return $this->split_product($this->raw_product,'UpdraftNetworks\\Parser\\VTECSegment');
+        return $this->split_product($this->raw_product,'chswx\LDMIngest\\Parser\\VTECSegment');
     }
 }
 

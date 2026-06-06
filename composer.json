@@ -4,9 +4,9 @@
     },
     "autoload": {
         "psr-4": {
-            "UpdraftNetworks\\":"src/",
-            "UpdraftNetworks\\Ingestor\\Tests\\":"tests/",
-            "UpdraftNetworks\\Parser\\Tests\\":"tests/",
+            "chswx\LDMIngest\\":"src/",
+            "chswx\LDMIngest\\Ingestor\\Tests\\":"tests/",
+            "chswx\LDMIngest\\Parser\\Tests\\":"tests/",
             "":"src/"
         }
     }

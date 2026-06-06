@@ -3,9 +3,9 @@
  * Factory class that routes products to the most specific available parser.
  */
 
-namespace UpdraftNetworks\Ingestor;
-use UpdraftNetworks\Utils as Utils;
-use UpdraftNetworks\Parser as Parser;
+namespace chswx\LDMIngest\Ingestor;
+use chswx\LDMIngest\Utils as Utils;
+use chswx\LDMIngest\Parser as Parser;
 
 class NWSProductFactory {
     /**
@@ -137,6 +137,6 @@ class NWSProductFactory {
             $table = 'misc';
         }
 
-        return array('parser' => 'UpdraftNetworks\\Parser\\' . $parser, 'table' => $table);
+        return array('parser' => 'chswx\LDMIngest\\Parser\\' . $parser, 'table' => $table);
     }
 }

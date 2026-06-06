@@ -1,6 +1,6 @@
 <?php
-namespace UpdraftNetworks\Ingestor\Tests;
-use UpdraftNetworks\Parser\VTECString as VTECString;
+namespace chswx\LDMIngest\Ingestor\Tests;
+use chswx\LDMIngest\Parser\VTECString as VTECString;
 
 require_once('vendor/autoload.php');
 

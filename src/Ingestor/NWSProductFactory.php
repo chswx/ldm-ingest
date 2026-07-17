@@ -100,9 +100,8 @@ class NWSProductFactory
             // Public Watch Notification
             // WWUS20
             $parser = "PublicWatch";
-        } elseif (preg_match('(SWOMCD)', $pil)) {
-            // Mesoscale convective discussions
-            // (SWOMCD)
+        } elseif (strpos($pil, 'SWOMCD') !== false) {
+            // SPC mesoscale convective discussions
             $parser = "MesoDisc";
         } elseif (preg_match('(PFWFD1|PFWFD2|PFWF38|PTSDY1|PTSDY2|PTSDY3|PTSD48)', $pil)) {
             // SPC outlook points
@@ -115,9 +114,6 @@ class NWSProductFactory
             // Local Storm Reports
             // (LSR)
             $parser = "LSR";
-        } elseif (preg_match('(FFGMPD)', $pil)) {
-            // Mesoscale precipitation discussions from WPC (FFGMPD)
-            $parser = "MesoDisc";
         } elseif (preg_match('/RBG(94|98|99)E/', $pil)) {
             // Excessive Rainfall Outlook from WPC (analogous to SPC Convective outlook)
             // http://www.nws.noaa.gov/directives/sym/pd01009030curr.pdf

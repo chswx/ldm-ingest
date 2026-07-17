@@ -67,6 +67,9 @@ class ProductStorage
             case 'chswx\LDMIngest\Parser\ProductTypes\SPS':
                 $product = $this->prepareSps($product);
                 break;
+            case 'chswx\LDMIngest\Parser\ProductTypes\MesoDisc':
+                $product = $this->prepareMesoDisc($product);
+                break;
         }
 
         return $product;
@@ -104,6 +107,17 @@ class ProductStorage
         }
 
         $product->segments = $prepped_segments;
+
+        return $product;
+    }
+
+    private function prepareMesoDisc($product)
+    {
+        foreach ($product->segments as $segment) {
+            if (isset($segment->polygon)) {
+                $segment->polygon = r\geojson((array)$segment->polygon);
+            }
+        }
 
         return $product;
     }

@@ -86,6 +86,36 @@ class MesoDiscTest extends \PHPUnit\Framework\TestCase
         $this->assertArrayHasKey('end', $window);
     }
 
+    public function testValidWindowSpansMonthBoundary(): void
+    {
+        $text = "ACUS11 KWNS 302300\nSWOMCD\n\nMESOSCALE DISCUSSION 0001\nNWS STORM PREDICTION CENTER NORMAN OK\n1100 PM CDT THU APR 30 2026\n\nVALID 302300Z - 010200Z\n";
+        $disc = $this->createMesoDisc($text);
+        $window = $disc->parse()[0]['valid_window'];
+
+        $this->assertEquals(gmmktime(23, 0, 0, 4, 30, 2026), $window['start']);
+        $this->assertEquals(gmmktime(2, 0, 0, 5, 1, 2026), $window['end']);
+    }
+
+    public function testValidWindowSpansYearBoundary(): void
+    {
+        $text = "ACUS11 KWNS 312300\nSWOMCD\n\nMESOSCALE DISCUSSION 0001\nNWS STORM PREDICTION CENTER NORMAN OK\n1100 PM CST THU DEC 31 2026\n\nVALID 312300Z - 010600Z\n";
+        $disc = $this->createMesoDisc($text);
+        $window = $disc->parse()[0]['valid_window'];
+
+        $this->assertEquals(gmmktime(23, 0, 0, 12, 31, 2026), $window['start']);
+        $this->assertEquals(gmmktime(6, 0, 0, 1, 1, 2027), $window['end']);
+    }
+
+    public function testValidWindowCanStartInPreviousYear(): void
+    {
+        $text = "ACUS11 KWNS 010100\nSWOMCD\n\nMESOSCALE DISCUSSION 0001\nNWS STORM PREDICTION CENTER NORMAN OK\n0100 AM CST FRI JAN 1 2027\n\nVALID 312300Z - 010600Z\n";
+        $disc = $this->createMesoDisc($text);
+        $window = $disc->parse()[0]['valid_window'];
+
+        $this->assertEquals(gmmktime(23, 0, 0, 12, 31, 2026), $window['start']);
+        $this->assertEquals(gmmktime(6, 0, 0, 1, 1, 2027), $window['end']);
+    }
+
     public function testSeverePotentialParsesSummary(): void
     {
         $text = $this->loadSampleData('SWOMCD-severe-potential.txt');

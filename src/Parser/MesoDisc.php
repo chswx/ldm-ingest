@@ -242,11 +242,16 @@ class MesoDisc extends NWSProduct {
      * Parse VALID time window (DDHHMMZ - DDHHMMZ).
      */
     protected function parse_valid_window($lines) {
+        $reference_time = $this->parse_product_date($lines) ?? time();
+
         foreach ($lines as $line) {
             if (preg_match('/^VALID\s+(\d{6})Z\s*-\s*(\d{6})Z/i', $line, $matches)) {
+                $start = $this->parse_valid_time($matches[1], $reference_time);
+                $end = $this->parse_valid_time($matches[2], $start, $start);
+
                 return [
-                    'start' => $this->parse_valid_time($matches[1]),
-                    'end' => $this->parse_valid_time($matches[2])
+                    'start' => $start,
+                    'end' => $end
                 ];
             }
         }
@@ -255,28 +260,68 @@ class MesoDisc extends NWSProduct {
     }
 
     /**
-     * Convert DDHHMMZ to Unix timestamp.
+     * Parse the calendar date from the MND issuance line.
+     * Example: "1046 PM CDT WED JUN 25 2026".
      */
-    protected function parse_valid_time($vtime) {
-        // Parse from current year context (products are typically same-day or next-day)
-        $dd = substr($vtime, 0, 2);
-        $hh = substr($vtime, 2, 2);
-        $mm = substr($vtime, 4, 2);
-        
-        // Get current UTC year and construct timestamp
-        $year = (int)date('Y');
-        $month = (int)date('m');
-        $day = (int)$dd;
-        
-        // Handle day rollover (if valid end is before start, it's next day)
-        $timestamp = gmmktime((int)$hh, (int)$mm, 0, $month, $day, $year);
-        
-        // If the timestamp is in the past and we're near month boundary, try next year
-        if ($timestamp < time() - 86400 * 2) {
-            $timestamp = gmmktime((int)$hh, (int)$mm, 0, ($month % 12) + 1, $day, $year);
+    protected function parse_product_date($lines) {
+        $months = [
+            'JAN' => 1, 'FEB' => 2, 'MAR' => 3, 'APR' => 4,
+            'MAY' => 5, 'JUN' => 6, 'JUL' => 7, 'AUG' => 8,
+            'SEP' => 9, 'OCT' => 10, 'NOV' => 11, 'DEC' => 12,
+        ];
+
+        foreach ($lines as $line) {
+            if (preg_match('/\b(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)\s+(\d{1,2})\s+(\d{4})\b/i', $line, $matches)) {
+                return gmmktime(12, 0, 0, $months[strtoupper($matches[1])], (int)$matches[2], (int)$matches[3]);
+            }
         }
-        
-        return $timestamp;
+
+        return null;
+    }
+
+    /**
+     * Convert DDHHMMZ to Unix timestamp using the nearest valid calendar date.
+     *
+     * DDHHMM does not include a month or year. Resolve it against the product
+     * date, considering the previous, current, and next month. For an end time,
+     * $not_before prevents a month-boundary rollover from preceding its start.
+     */
+    protected function parse_valid_time($vtime, $reference_time = null, $not_before = null) {
+        $day = (int)substr($vtime, 0, 2);
+        $hour = (int)substr($vtime, 2, 2);
+        $minute = (int)substr($vtime, 4, 2);
+        $reference_time = $reference_time ?? time();
+
+        $reference_month = new \DateTimeImmutable(
+            gmdate('Y-m-01 00:00:00', $reference_time),
+            new \DateTimeZone('UTC')
+        );
+        $candidates = [];
+
+        foreach ([-1, 0, 1] as $month_offset) {
+            $month = $reference_month->modify(sprintf('%+d month', $month_offset));
+            $year = (int)$month->format('Y');
+            $month_number = (int)$month->format('m');
+
+            if (!checkdate($month_number, $day, $year)) {
+                continue;
+            }
+
+            $timestamp = gmmktime($hour, $minute, 0, $month_number, $day, $year);
+            if ($not_before === null || $timestamp >= $not_before) {
+                $candidates[] = $timestamp;
+            }
+        }
+
+        if (empty($candidates)) {
+            return null;
+        }
+
+        usort($candidates, function ($a, $b) use ($reference_time) {
+            return abs($a - $reference_time) <=> abs($b - $reference_time);
+        });
+
+        return $candidates[0];
     }
 
     /**

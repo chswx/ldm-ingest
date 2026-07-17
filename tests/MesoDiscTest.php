@@ -463,13 +463,14 @@ class MesoDiscTest extends \PHPUnit\Framework\TestCase
     // Polygon edge cases
     // ════════════════════════════════════════
 
-    public function testPolygonWithOddCoordinateCountReturnsNull(): void
+    public function testPolygonWithThreeCoordinatesReturnsPolygon(): void
     {
         $text = "ACUS11 KWNS 010000\nSWOMCD\n\nMESOSCALE DISCUSSION 0001\n\nLAT...LON   29999435 30079572 30759602\n";
         $disc = $this->createMesoDisc($text);
-        $segments = $disc->parse();
-        // 3 numbers = odd count = null
-        $this->assertNull($segments[0]['polygon']);
+        $polygon = $disc->parse()[0]['polygon'];
+
+        $this->assertNotNull($polygon);
+        $this->assertCount(3, $polygon['coordinates'][0]);
     }
 
     public function testPolygonWithFourCoordinatesReturnsPolygon(): void
@@ -479,5 +480,28 @@ class MesoDiscTest extends \PHPUnit\Framework\TestCase
         $segments = $disc->parse();
         $this->assertNotNull($segments[0]['polygon']);
         $this->assertEquals('Polygon', $segments[0]['polygon']['type']);
+    }
+
+    /**
+     * @dataProvider polygonContinuationWhitespaceProvider
+     */
+    public function testPolygonContinuationAcceptsVariableWhitespace(string $indent): void
+    {
+        $text = "ACUS11 KWNS 010000\nSWOMCD\n\nMESOSCALE DISCUSSION 0001\n\nLAT...LON   29999435 30079572 30759602\n{$indent}31929559 29999435\n";
+        $disc = $this->createMesoDisc($text);
+        $polygon = $disc->parse()[0]['polygon'];
+
+        $this->assertNotNull($polygon);
+        $this->assertCount(5, $polygon['coordinates'][0]);
+        $this->assertEquals($polygon['coordinates'][0][0], $polygon['coordinates'][0][4]);
+    }
+
+    public function polygonContinuationWhitespaceProvider(): array
+    {
+        return [
+            'four spaces' => ['    '],
+            'eight spaces' => ['        '],
+            'tab' => ["\t"],
+        ];
     }
 }

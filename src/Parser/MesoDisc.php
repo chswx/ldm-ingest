@@ -473,11 +473,11 @@ class MesoDisc extends NWSProduct {
         // Collect all coordinate tokens from this line and continuation lines
         $tokens = preg_split('/\s+/', trim($coord_str));
 
-        // Find the LAT/LON line and any continuation lines in the original product
+        // Find the LAT/LON line and any numeric continuation lines in the original product.
+        // NWS whitespace varies; accept spaces or tabs without requiring a fixed indent.
         $lines = Utils::make_array($this->raw_product);
         foreach ($lines as $line) {
-            if (preg_match('/^\s{8,}(\d+\s+\S+)/', $line)) {
-                // Continuation line (8 spaces indent)
+            if (preg_match('/^\s+\d{8,}(?:\s+\d{8,})*\s*$/', $line)) {
                 $cont_tokens = preg_split('/\s+/', trim($line));
                 $tokens = array_merge($tokens, $cont_tokens);
             }
@@ -488,8 +488,9 @@ class MesoDisc extends NWSProduct {
             return is_numeric($t);
         }));
 
-        // Each number encodes one lat/lon pair, so we need an even count
-        if (count($numbers) < 2 || count($numbers) % 2 !== 0) {
+        // Each number encodes one complete lat/lon point. A polygon needs at least
+        // three points; no even-count requirement applies.
+        if (count($numbers) < 3) {
             return null;
         }
 

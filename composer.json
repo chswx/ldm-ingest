@@ -4,9 +4,9 @@
     },
     "autoload": {
         "psr-4": {
-            "chswx\LDMIngest\\":"src/",
-            "chswx\LDMIngest\\Ingestor\\Tests\\":"tests/",
-            "chswx\LDMIngest\\Parser\\Tests\\":"tests/",
+            "chswx\\LDMIngest\\":"src/",
+            "chswx\\LDMIngest\\Ingestor\\Tests\\":"tests/",
+            "chswx\\LDMIngest\\Parser\\Tests\\":"tests/",
             "":"src/"
         }
     }

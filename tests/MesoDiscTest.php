@@ -484,9 +484,7 @@ class MesoDiscTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals('Polygon', $segments[0]['polygon']['type']);
     }
 
-    /**
-     * @dataProvider polygonContinuationWhitespaceProvider
-     */
+    #[\PHPUnit\Framework\Attributes\DataProvider('polygonContinuationWhitespaceProvider')]
     public function testPolygonContinuationAcceptsVariableWhitespace(string $indent): void
     {
         $text = "ACUS11 KWNS 010000\nSWOMCD\n\nMESOSCALE DISCUSSION 0001\n\nLAT...LON   29999435 30079572 30759602\n{$indent}31929559 29999435\n";
@@ -498,7 +496,7 @@ class MesoDiscTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals($polygon['coordinates'][0][0], $polygon['coordinates'][0][4]);
     }
 
-    public function polygonContinuationWhitespaceProvider(): array
+    public static function polygonContinuationWhitespaceProvider(): array
     {
         return [
             'four spaces' => ['    '],

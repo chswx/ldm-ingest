@@ -55,3 +55,4 @@ Hosted at [github.com/chswx/ldm-ingest](https://github.com/chswx/ldm-ingest) (gi
 - Ingestor expects `conf/chswx.conf.php` to exist — will fail without it
 - No linting or static analysis configured
 - No CI/CD configured
+- **Channel generation has been decommissioned** — parsers no longer emit a `channels` field. Channel/dissemination targeting now lives in `pyeventsmanager` (`EventFactory.make_*_channels`). Do not re-add `generateChannels`/`appendChannels` here.

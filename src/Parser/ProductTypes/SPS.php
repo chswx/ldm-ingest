@@ -17,12 +17,6 @@ class SPS extends NWSProduct
      */
     public $expiration_time;
 
-    public function generateChannels(): void
-    {
-        parent::generateChannels();
-        $this->appendChannels(['SPS']);
-    }
-
     public function parse(): array
     {
         $this->type = 'sps';

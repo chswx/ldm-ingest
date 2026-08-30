@@ -56,13 +56,6 @@ class NWSProduct
     public int $timestamp;
 
     /**
-     * Channels to send this product to for dissemination.
-     *
-     * @var mixed
-     */
-    public mixed $channels;
-
-    /**
      * Table to receive the product.
      *
      * @var string
@@ -100,8 +93,6 @@ class NWSProduct
         }
         // Set up the product id.
         $this->id = Utils::generateProductId($this->pil, $this->timestamp);
-        // Generate product-level channels
-        $this->generateChannels();
         // Set up the default product table. Should be overridden by parser subclasses.
         $this->table = "products";
     }
@@ -159,43 +150,4 @@ class NWSProduct
         return $segments;
     }
 
-    /**
-     * Generates channels for dissemination. These can be used upstream for targeting of specific messages to
-     * different media (tweets, email, text, etc.)
-     * Specialized parsers should call this and then populate with their own additional channels as appropriate.
-     *
-     * @return void
-     */
-    public function generateChannels(): void
-    {
-        // Initialize if needed.
-        if (empty($this->channels)) {
-            $this->channels = [];
-        }
-        // Adds the PIL and issuing office to the channels list by default
-        $this->appendChannels([$this->office, $this->pil]);
-    }
-
-    /**
-     * Helper function to allow segments to add to the channels list for this product.
-     *
-     * @param array $newChannels
-     * @return void
-     */
-    public function appendChannels(array $newChannels): void
-    {
-        $new_channel_list = [];
-
-        // For deduplication
-        foreach ($newChannels as $channel) {
-            if (!in_array($channel, $this->channels)) {
-                array_push($new_channel_list, $channel);
-            }
-        }
-
-        // Merge the deduped channel list into the product channels
-        $this->channels = array_merge($this->channels, $new_channel_list);
-        // Sort the channel list in alphabetical order
-        sort($this->channels);
-    }
 }

@@ -82,20 +82,4 @@ class WatchProbs extends NWSProduct
 
         return $data;
     }
-
-    public final function generateChannels(): void
-    {
-        parent::generateChannels();
-
-        $watch_number = $this->segments['raw_watch_number'];
-        $vtec = $this->segments['product_vtec'];
-        $year = date('Y', $this->timestamp);
-
-        $additional_channels = [
-            "$vtec.$watch_number",
-            "$vtec.$watch_number.WWP",
-            "$vtec.$watch_number.$year.WWP"
-        ];
-        $this->appendChannels($additional_channels);
-    }
 }

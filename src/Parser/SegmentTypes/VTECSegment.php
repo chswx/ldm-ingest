@@ -65,13 +65,6 @@ class VTECSegment extends NWSProductSegment
         if (preg_match('/(TOR|SVR|SVS|SMW|MWW|MWS|FFW|FFS|FLS)/', $this->pil)) {
             $this->impacts = new IBW($segment_text);
         }
-
-        // Generate additional channels from each VTEC segment
-        // $channels = $this->generateChannels();
-        // Append per-segment channels
-        // $this->appendChannels($channels);
-        // Append channels to the parent product
-        // $parentProduct->appendChannels($channels);
     }
 
     //
@@ -124,29 +117,4 @@ class VTECSegment extends NWSProductSegment
         return $vtec_strings;
     }
 
-    public function generateChannels()
-    {
-        $channels = [];
-
-        if (!empty($this->vtec_strings)) {
-            foreach ($this->vtec_strings as $vtec_string) {
-                // Add channels for phenomena and significance
-                $channels[] = $vtec_string->getPhenSig();
-                // Add channels for phenomena and signficance by office
-                $channels[] = $vtec_string->getPhenSig() . "." . $vtec_string->getOffice();
-                // Add phensig channels for zones attached to this warning
-                foreach ($this->getZones() as $zone) {
-                    $channels[] = $vtec_string->getPhenSig() . "." . $zone;
-                }
-                // Add phensig and action channels
-                $channels[] = $vtec_string->getPhenSig() . '.' . $vtec_string->getAction();
-                // Add office, phensig, action
-                // Use case: Suppress initial watch issuances from WFOs
-                // in favor of faster issuances from SPC
-                $channels[] = $vtec_string->getOffice() . '.' . $vtec_string->getPhenSig() . '.' . $vtec_string->getAction();
-            }
-        }
-
-        return $channels;
-    }
 }
